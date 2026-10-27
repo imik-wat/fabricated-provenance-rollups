@@ -1,0 +1,34 @@
+{
+ "model": "q = c * p, with q the observed rate, p the true activity rate and c the probability that a truly active address transacts in a registry-listed token. The observed direction is preserved unless c_named / c_control crosses q_named / q_control, so that ratio is the exact reversal threshold and requires no assumption about the capture rates themselves.",
+ "not_estimated": "the capture rates are not estimated. The available proxy, the ratio of registry-observed to contract-asserted activity, is unusable: the asserted quantity is the fabricable one, and the named group is by construction the population that fabricating contracts name.",
+ "per_chain": {
+  "arbitrum-one": {
+   "direction": "above",
+   "intervals_separated": true,
+   "q_control": 0.3268899991809321,
+   "q_named": 0.5569365882703186,
+   "reading": "the observed direction reverses only if the registry captures activity in the named group at least this many times more completely than in the comparison group",
+   "threshold_conservative": 1.6606985202166888,
+   "threshold_point": 1.7037431235761262
+  },
+  "base": {
+   "direction": "above",
+   "intervals_separated": true,
+   "q_control": 0.043039754436397425,
+   "q_named": 0.07984309902633198,
+   "reading": "the observed direction reverses only if the registry captures activity in the named group at least this many times more completely than in the comparison group",
+   "threshold_conservative": 1.7915169376056574,
+   "threshold_point": 1.8551011749920923
+  },
+  "optimism": {
+   "direction": "below",
+   "intervals_separated": true,
+   "q_control": 0.05590313598899575,
+   "q_named": 0.0379101572166224,
+   "reading": "the observed direction reverses only if the registry captures activity in the named group at most this fraction as completely as in the comparison group",
+   "threshold_conservative": 0.7193893663278469,
+   "threshold_point": 0.6781400818745629
+  }
+ },
+ "question": "how different would registry capture have to be between the named and comparison groups before the observed contrast reversed?"
+}

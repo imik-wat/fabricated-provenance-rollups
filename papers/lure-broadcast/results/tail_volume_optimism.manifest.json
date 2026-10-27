@@ -1,0 +1,5 @@
+{
+ "producer": "papers/lure-broadcast/scripts/tail_volume_ci.py",
+ "git_commit": "941b3c6",
+ "source": "results/tail_sample_optimism.json"
+}

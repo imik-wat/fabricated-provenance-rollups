@@ -1,0 +1,186 @@
+{
+ "agrees_with_census": true,
+ "by_data_hexlen": {
+  "8": 5,
+  "130": 386,
+  "194": 572,
+  "258": 9
+ },
+ "by_shape": {
+  "width=130,topics=2": 386,
+  "width=194,topics=1": 572,
+  "width=258,topics=1": 1,
+  "width=258,topics=3": 8,
+  "width=8,topics=1": 5
+ },
+ "chain": "base",
+ "distinct_contracts": 15,
+ "interpretation": "data width follows the `indexed` declaration: both participants indexed gives one data word (66 hex chars), one indexed gives two (130), none gives three (194). Rows with fewer participant topics cannot be joined on topic1/topic2 and are therefore invisible to the rest of this paper, which is why they are counted separately rather than assigned a class.",
+ "residual_rows": 972,
+ "rows_scanned": 10951962591,
+ "samples": [
+  {
+   "contract": "0xd981ed72b1b3bf866563a9755d41a887d3e4721a",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0xd981ed72b1b3bf866563a9755d41a887d3e4721a",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0xd981ed72b1b3bf866563a9755d41a887d3e4721a",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0xd981ed72b1b3bf866563a9755d41a887d3e4721a",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0xd981ed72b1b3bf866563a9755d41a887d3e4721a",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0xd981ed72b1b3bf866563a9755d41a887d3e4721a",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0xd981ed72b1b3bf866563a9755d41a887d3e4721a",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0xd981ed72b1b3bf866563a9755d41a887d3e4721a",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0xd981ed72b1b3bf866563a9755d41a887d3e4721a",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x3a747ab3e2a265a6c19861d72c949d34c8ecb0e0",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x5208f5bfbb3443697a447ed0586fdd8b2ab7de64",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x5208f5bfbb3443697a447ed0586fdd8b2ab7de64",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x5208f5bfbb3443697a447ed0586fdd8b2ab7de64",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x5208f5bfbb3443697a447ed0586fdd8b2ab7de64",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x5208f5bfbb3443697a447ed0586fdd8b2ab7de64",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x5208f5bfbb3443697a447ed0586fdd8b2ab7de64",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x5208f5bfbb3443697a447ed0586fdd8b2ab7de64",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x5208f5bfbb3443697a447ed0586fdd8b2ab7de64",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x5208f5bfbb3443697a447ed0586fdd8b2ab7de64",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x5208f5bfbb3443697a447ed0586fdd8b2ab7de64",
+   "data_hexlen": 194,
+   "topics_present": 1
+  }
+ ],
+ "top_contracts": [
+  {
+   "address": "0x5208f5bfbb3443697a447ed0586fdd8b2ab7de64",
+   "rows": 535
+  },
+  {
+   "address": "0xfce8358ed8c7d81cb42fd584945bb2db261e0613",
+   "rows": 386
+  },
+  {
+   "address": "0xda1d88fd16e1fee9fdf2579a1c41e880b75dde8b",
+   "rows": 13
+  },
+  {
+   "address": "0xd981ed72b1b3bf866563a9755d41a887d3e4721a",
+   "rows": 11
+  },
+  {
+   "address": "0xdb98d3ca7230a1ffca34b1523d5d0bfb940a9c5f",
+   "rows": 8
+  },
+  {
+   "address": "0x62975be97a2a74fc890ec3b471105bd7a860087d",
+   "rows": 5
+  },
+  {
+   "address": "0x6f8b908d0968405b3fcf362f30c07435d60661db",
+   "rows": 2
+  },
+  {
+   "address": "0x73c3d4c614aa3a64ef2fee7bf1e27e85b5ebb707",
+   "rows": 2
+  },
+  {
+   "address": "0x7ddf51b1bf67c30604b079da1179b60e55339d56",
+   "rows": 2
+  },
+  {
+   "address": "0x84c58a3a5f40a84604cbd14891f3a1edebcfa80b",
+   "rows": 2
+  },
+  {
+   "address": "0x0d21c58011f53368fafa3da8ded06f624908bb2d",
+   "rows": 2
+  },
+  {
+   "address": "0x3a747ab3e2a265a6c19861d72c949d34c8ecb0e0",
+   "rows": 1
+  },
+  {
+   "address": "0x0a756a1d031460541ccb2d2f61dcdde3395c25bb",
+   "rows": 1
+  },
+  {
+   "address": "0x2ff13150cc0e86f2e2129db85de687c66099f4ef",
+   "rows": 1
+  },
+  {
+   "address": "0x6aaf797854c447737424630fea3e11ff695dab2d",
+   "rows": 1
+  }
+ ],
+ "wall_seconds": 149.7
+}

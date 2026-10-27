@@ -1,0 +1,557 @@
+{
+ "chain": "base",
+ "channel_census": {
+  "distinct_named_senders": 814883,
+  "distinct_recipients": 88655434,
+  "fanout_ratio": 1.6119602437454652,
+  "note": "recipients are addresses NAMED as recipient, excluding the zero address; fan-out ~1 is the broadcast signature. Senders are the adversary-authored field and identify no operator.",
+  "top_fifty_share": 0.9921973442756786,
+  "top_named_senders": [
+   {
+    "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "transfers": 72690413
+   },
+   {
+    "address": "0x20fe51a9229eef2cf8ad9e89d91cab9312cf3b7a",
+    "transfers": 12203026
+   },
+   {
+    "address": "0xc27468b12ffa6d714b1b5fbc87ef403f38b82ad4",
+    "transfers": 12119240
+   },
+   {
+    "address": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+    "transfers": 8972819
+   },
+   {
+    "address": "0x239b9c1f24f3423062b0d364796e07ee905e9fce",
+    "transfers": 4787909
+   },
+   {
+    "address": "0xa3a7b6f88361f48403514059f1f16c8e78d60eec",
+    "transfers": 3031470
+   },
+   {
+    "address": "0x3304e22ddaa22bcdc5fca2269b418046ae7b566a",
+    "transfers": 2556700
+   },
+   {
+    "address": "0x8129b737912e17212c8693b781928f5d0303390a",
+    "transfers": 2293617
+   },
+   {
+    "address": "0xf19ccb20726eab44754a59efc4ad331e3bf4f248",
+    "transfers": 2100095
+   },
+   {
+    "address": "0x3782fb3d5d09a8d50d24f490af9f11ea814ef6dc",
+    "transfers": 1958840
+   },
+   {
+    "address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+    "transfers": 1910393
+   },
+   {
+    "address": "0x0000000000c2d145a2526bd8c716263bfebe1a72",
+    "transfers": 1894259
+   },
+   {
+    "address": "0x53f2f8629585f397ef0cb8395325c673f86f272b",
+    "transfers": 1647000
+   },
+   {
+    "address": "0x4f01a757f7bb099775ac6b628ff041b9c1dc6c94",
+    "transfers": 1629677
+   },
+   {
+    "address": "0x8ad25b0083c9879942a64f00f20a70d3278f6187",
+    "transfers": 1570000
+   },
+   {
+    "address": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
+    "transfers": 1390000
+   },
+   {
+    "address": "0x532f27101965dd16442e59d40670faf5ebb142e4",
+    "transfers": 1278251
+   },
+   {
+    "address": "0x97b9d2102a9a65a26e1ee82d59e42d1b73b68689",
+    "transfers": 1238206
+   },
+   {
+    "address": "0x810f274c61764465b91c64429f4f75fcb1c97bf9",
+    "transfers": 1018235
+   },
+   {
+    "address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+    "transfers": 925932
+   },
+   {
+    "address": "0x8a5f9a6b653ecbdb406f9eb5f0c8ddba10919aec",
+    "transfers": 798073
+   },
+   {
+    "address": "0x8888888888888888888888888888888888888888",
+    "transfers": 702583
+   },
+   {
+    "address": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+    "transfers": 560000
+   },
+   {
+    "address": "0x198ef79f1f515f02dfe9e3115ed9fc07183f02fc",
+    "transfers": 525739
+   },
+   {
+    "address": "0x6b1ef9c0355eb0f7d6d750496cbe672ec38aac50",
+    "transfers": 512226
+   },
+   {
+    "address": "0xe1abd004250ac8d1f199421d647e01d094faa180",
+    "transfers": 500874
+   },
+   {
+    "address": "0xb56d0839998fd79efcd15c27cf966250aa58d6d3",
+    "transfers": 500000
+   },
+   {
+    "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+    "transfers": 120001
+   },
+   {
+    "address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+    "transfers": 120000
+   },
+   {
+    "address": "0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91",
+    "transfers": 112255
+   },
+   {
+    "address": "0xd4a0e0b9149bcee3c920d2e00b5de09138fd8bb7",
+    "transfers": 110199
+   },
+   {
+    "address": "0x7747f8d2a76bd6345cc29622a946a929647f2359",
+    "transfers": 14644
+   },
+   {
+    "address": "0x8894e0a0c962cb723c1976a4421c95949be2d4e3",
+    "transfers": 671
+   },
+   {
+    "address": "0x1f012ab159b5b1b5a72cc85142c629783f500ce7",
+    "transfers": 335
+   },
+   {
+    "address": "0xdc5d8200a030798bc6227240f68b4dd9542686ef",
+    "transfers": 221
+   },
+   {
+    "address": "0xefaf3c28e4c5a64149903f7001c87a10d174bd39",
+    "transfers": 8
+   },
+   {
+    "address": "0x826a6413419ff5ba0832e4318606b087f897e850",
+    "transfers": 7
+   },
+   {
+    "address": "0xd3b24babdc99a726b775c9661a0164d3b313250d",
+    "transfers": 6
+   },
+   {
+    "address": "0x75961317702c95ecd0c0fee6345ca26afe47a16a",
+    "transfers": 6
+   },
+   {
+    "address": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+    "transfers": 5
+   },
+   {
+    "address": "0x3c82c741d8941997567a8b33c47e4fef6b4a00c8",
+    "transfers": 3
+   },
+   {
+    "address": "0x4bcb5c99e652cd7171253515614872988aafb4a5",
+    "transfers": 3
+   },
+   {
+    "address": "0x0aa8a013ee5086ababcf65cf252b3fa89b0361a1",
+    "transfers": 3
+   },
+   {
+    "address": "0x961c2102600b6933a480a9fefd3fbf635f4d0f1f",
+    "transfers": 3
+   },
+   {
+    "address": "0xce14aef7ae493f240690868bf2437b2ac8235987",
+    "transfers": 3
+   },
+   {
+    "address": "0xd4897834eb8fd80c12acdafda458310cc28e356a",
+    "transfers": 3
+   },
+   {
+    "address": "0xd91fab0462a8542942ac1a0194938d694a3b9b9b",
+    "transfers": 3
+   },
+   {
+    "address": "0x00c179c03782ff16a0e1a25f302e94943073c7a2",
+    "transfers": 3
+   },
+   {
+    "address": "0x2d3457cae727cda2d019211f5cbf1acca9e478d1",
+    "transfers": 3
+   },
+   {
+    "address": "0x53fe97c508b7e2cab76924eed510b2590366d8d2",
+    "transfers": 3
+   }
+  ],
+  "transfers": 142909035
+ },
+ "depth_cutoffs": [
+  100,
+  300,
+  600,
+  null
+ ],
+ "depth_note": "cumulative at each rank cutoff; buckets partition the flagged population by the emitting contract's volume rank, so recipients at depth d are the union over buckets up to d. Marginal columns are the increment each interval adds.",
+ "depth_table": [
+  {
+   "contracts": 0,
+   "cutoff": 100,
+   "cutoff_label": "100",
+   "distinct_recipients": 0,
+   "marginal_contracts": 0,
+   "marginal_recipients": 0,
+   "marginal_transfers": 0,
+   "transfers": 0
+  },
+  {
+   "contracts": 15,
+   "cutoff": 300,
+   "cutoff_label": "300",
+   "distinct_recipients": 28490274,
+   "marginal_contracts": 15,
+   "marginal_recipients": 28490274,
+   "marginal_transfers": 35687618,
+   "transfers": 35687618
+  },
+  {
+   "contracts": 59,
+   "cutoff": 600,
+   "cutoff_label": "600",
+   "distinct_recipients": 63071351,
+   "marginal_contracts": 44,
+   "marginal_recipients": 34581077,
+   "marginal_transfers": 54601832,
+   "transfers": 90289450
+  },
+  {
+   "contracts": 141,
+   "cutoff": null,
+   "cutoff_label": "all",
+   "distinct_recipients": 88655434,
+   "marginal_contracts": 82,
+   "marginal_recipients": 25584083,
+   "marginal_transfers": 52619585,
+   "transfers": 142909035
+  }
+ ],
+ "fabricated_sender_criterion": {
+  "contract_share": 0.475177304964539,
+  "contracts": 67,
+  "contracts_list": [
+   "0x0e2ffe16778964f32770fa38b8a86751cc9e5f22",
+   "0x0e8eef6b9b9fc299c0e79464dc3f4485bfbfc5aa",
+   "0x13ced7f82072327a5bc9ebb9437304f605e253b2",
+   "0x18c79a3c5f74ae0eedb87917f2a870ed84ebf84f",
+   "0x1b039f12a79408024e4d7480ee9b0969daeb5ec7",
+   "0x1b09d7408168929fec75fbfadeaf2bb2652e2df9",
+   "0x1eda21eb3959b4e20808cbcaac983f50571334af",
+   "0x215b01b32cfa0fdb04bd60e0bc7a3e80589d34cf",
+   "0x36fa9cf0ccb9c594b74231073790f62044e7f681",
+   "0x3b30669ccd34a0978ff5bac17f7d275cfedf358e",
+   "0x3dc1c485cac5ba5a4674aa53e031fe5ff61cf3eb",
+   "0x3f4132119c2d97fc24b2f4da3a439f1d866b27b0",
+   "0x3ff0560e81e36c9390b7d8903e510defc7e433ca",
+   "0x4081a3d66a9092325e52bc969e946d2c4c5271e4",
+   "0x40da9607a3de7b10906b3bd4f93beffc5b689ff4",
+   "0x41a0e0437e2906abd15c4878f4e7d6371167a4a5",
+   "0x4290ec58920e8804fcbb2156329396cf82737eeb",
+   "0x460b9c52bd0859c921254215999323db69340dca",
+   "0x49d687ecab7df32265325538e9cb28031f191556",
+   "0x4b63401c42a25402d4a7b70081d0c5ccd3900e20",
+   "0x511cee03a1f733c6790a98cdc95005cfa719de09",
+   "0x514b6572c502eb7eb77c3b0f97fff1e48a3c6cfd",
+   "0x5c57ab9bcabf4bc3664219c7f979823d6740b574",
+   "0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97",
+   "0x6192c5f6333cdf1a22d167e02cd3b3b81bf092a6",
+   "0x63272cd2f76be73219b68ab5f775db5eeb4a8f6e",
+   "0x65755ed15ea1285172db2bca5b8af93e1fccf31f",
+   "0x7482d3d58bd914784444f14c53aae9951d60cd6c",
+   "0x88db0cd7c4273a3c0a2c3d60a1d6e637b28e2fe6",
+   "0x8a183e87726bddf7ff6ff1b8440391141281cfef",
+   "0x9765eaa10b7416da46a5f3de7f3f55ccfa12ce91",
+   "0x976c883b82e22a8fe367434a94fa1eec5f915d0b",
+   "0x9dcad047f20ec7750ac9de87837b209261960d1c",
+   "0xa3415b7bee1a6942c64bc9752896a074069b580b",
+   "0xa9f25c919614bc35cf1fedb5ec206e5a1b4e2781",
+   "0xaa08f8d992c5d24ed41d899f782d6883c04d05f1",
+   "0xac6b3c2d793673937523bb9aedde61a50b86b691",
+   "0xac8584710490fbb73d03e863fb6d74ac917134c4",
+   "0xad03e2e457ebe290f364c9aa8133dcd0cda30c4e",
+   "0xb435cb9cee20efce58c452f646552c3ad744ed64",
+   "0xb62814d9063c181665b17942df2d9117de98a1a4",
+   "0xb931bda2d052c086d6800c85c9e091ccaa689a40",
+   "0xb9a0c47adea84b1cf17a787c429bdeeeac01ccd7",
+   "0xb9e5e7296466c7daea8133289fbb29e493e72956",
+   "0xc14f1a108b876f9ecfeb10ec4f154dd8a0c5ccbb",
+   "0xc2fad67ceadbde7001ca70236cde9f672edc573b",
+   "0xcbcdc21395107901a733df806eb85249866db7dd",
+   "0xcd250decb9a007f93bf0ab169a8480b1b988ec1a",
+   "0xcd6b003fd8b433e79137627267bc1ce177be368d",
+   "0xd0f929534c5a05aeda1f61cdcede6dcb7420956f",
+   "0xd63149fc85ea400db18da0a5e8e2a0e8bb7b64b1",
+   "0xda932bcc910ec2dbdcbc49e01f8a5b36be9deefb",
+   "0xdd2e30c43bd10b4546b67e47d2a4473c821ee31d",
+   "0xe0709519519033300c01028401cdfe0ab6d2fa6c",
+   "0xe43d2d874877d74999c958a484cc5f04e6bc2931",
+   "0xe6758d2203a62c16960c55e97b43fa0cfed93b1a",
+   "0xe67c465de72d439352e2a137dfc06952e59705fc",
+   "0xea7e17526ccce09f38b472dac3b4fcdfff100c39",
+   "0xec5292103b193a9b0993fedd6672afefc723426c",
+   "0xedb870db9427b5aa93df654f3212abd09aaa43f3",
+   "0xf10c0ad86b1105b1da6f3f22b070f0d5ae3a5940",
+   "0xf17ac6912534f73dc572d97962cb9c9ba92bb9cf",
+   "0xf3a65bb6dcbcd4fb9114049e66591a61340183f2",
+   "0xfc0c65c7993aa9cb6d93c0552e98e01d8857ea77",
+   "0xfdaa4c3d4372e5d123416c1ed4e9374292dd9307",
+   "0xfe053875e55eee3e0c28697fd80cb3e19ecf3016",
+   "0xff7309b42c0e2607910f1907ad7a38a86aafac01"
+  ],
+  "definition": "a broadcast transfer whose named sender is a registry-verified token; evidence of fabricated provenance, independent of the payload strings the detector reads",
+  "recipient_share": 0.5246690349516534,
+  "recipients": 46514761,
+  "row_share": 0.5094878220960627,
+  "rows": 72810413
+ },
+ "impersonation": {
+  "note": "named_as_from counts rows asserting the target as sender. emitted_by_self counts those the target itself emitted. A forged sender field predicts emitted_by_self == 0.",
+  "targets": [
+   {
+    "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "emitted_by_self": 0,
+    "named_as_from": 140372740,
+    "own_logs": 1833069432,
+    "own_logs_naming_self": 0
+   },
+   {
+    "address": "0x4200000000000000000000000000000000000006",
+    "emitted_by_self": 6,
+    "named_as_from": 3067996,
+    "own_logs": 2041329085,
+    "own_logs_naming_self": 6400
+   },
+   {
+    "address": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+    "emitted_by_self": 0,
+    "named_as_from": 653519,
+    "own_logs": 106213324,
+    "own_logs_naming_self": 42
+   },
+   {
+    "address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+    "emitted_by_self": 0,
+    "named_as_from": 120000,
+    "own_logs": 19596991,
+    "own_logs_naming_self": 42
+   },
+   {
+    "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    "emitted_by_self": 0,
+    "named_as_from": 2972,
+    "own_logs": 280215570,
+    "own_logs_naming_self": 0
+   },
+   {
+    "address": "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2",
+    "emitted_by_self": 1,
+    "named_as_from": 43,
+    "own_logs": 54391008,
+    "own_logs_naming_self": 156
+   }
+  ]
+ },
+ "lure_contracts_expected": 141,
+ "lure_contracts_observed": 141,
+ "lure_rows_matched": 142909035,
+ "lure_transfers_by_contract": {
+  "0x0137bed224ab6940241c9b4926987c7d2029b462": 2371793,
+  "0x0818561acbbb454e3ec8319e47c62df3c8100680": 721342,
+  "0x0c91c8f301297201193771e8b8d490f3b4791802": 500875,
+  "0x0e2ffe16778964f32770fa38b8a86751cc9e5f22": 1335299,
+  "0x0e8eef6b9b9fc299c0e79464dc3f4485bfbfc5aa": 1120366,
+  "0x10bcf9c4d1fd798df33ad1c1cb286e24720c0d7f": 1417152,
+  "0x13ced7f82072327a5bc9ebb9437304f605e253b2": 495248,
+  "0x17362df3e9bd3fed54c70eb65c3a1eee6d489d70": 569336,
+  "0x185b6565de60df12a0ffe17374d3942995a03dea": 2587230,
+  "0x18c79a3c5f74ae0eedb87917f2a870ed84ebf84f": 1123862,
+  "0x19225f002b65eefb22950b9739fc8b448d900d44": 711296,
+  "0x1b039f12a79408024e4d7480ee9b0969daeb5ec7": 573575,
+  "0x1b09d7408168929fec75fbfadeaf2bb2652e2df9": 497703,
+  "0x1eda21eb3959b4e20808cbcaac983f50571334af": 636898,
+  "0x215b01b32cfa0fdb04bd60e0bc7a3e80589d34cf": 614347,
+  "0x23ca9d7cd22777ea22f5c46d5327bbc8cd44ac3f": 791680,
+  "0x2401b434128cb42a518c65229288cc46da3e1bdc": 1042155,
+  "0x2e09dab2f1addca3076deafdf471eb4787e03467": 654308,
+  "0x336daec5b307060f0b4a86b6958f6ce08849e9bd": 1144234,
+  "0x33c62b565ae68c38ddbf2c1559e0b3960710f17c": 1248986,
+  "0x36fa9cf0ccb9c594b74231073790f62044e7f681": 1881768,
+  "0x3b27821d3ebe2c023b37457b9e1a9bf237fec85e": 1260265,
+  "0x3b30669ccd34a0978ff5bac17f7d275cfedf358e": 497777,
+  "0x3dc1c485cac5ba5a4674aa53e031fe5ff61cf3eb": 2115649,
+  "0x3eea1c1a8df49ff445838ba046b0ad56456f944f": 1390001,
+  "0x3f4132119c2d97fc24b2f4da3a439f1d866b27b0": 560105,
+  "0x3ff0560e81e36c9390b7d8903e510defc7e433ca": 2598485,
+  "0x4081a3d66a9092325e52bc969e946d2c4c5271e4": 536212,
+  "0x40da9607a3de7b10906b3bd4f93beffc5b689ff4": 666242,
+  "0x41a0e0437e2906abd15c4878f4e7d6371167a4a5": 1151137,
+  "0x4290ec58920e8804fcbb2156329396cf82737eeb": 509572,
+  "0x460b9c52bd0859c921254215999323db69340dca": 826102,
+  "0x49d687ecab7df32265325538e9cb28031f191556": 565804,
+  "0x4b63401c42a25402d4a7b70081d0c5ccd3900e20": 788131,
+  "0x4c64015cef054bc2063f3d0f3d3c960850481251": 523942,
+  "0x511cee03a1f733c6790a98cdc95005cfa719de09": 900077,
+  "0x514b6572c502eb7eb77c3b0f97fff1e48a3c6cfd": 1808129,
+  "0x53f2f8629585f397ef0cb8395325c673f86f272b": 1647003,
+  "0x590b0ab56cb66034253056d008fcf9412dee9771": 1370610,
+  "0x5afdc00746d691882d13919451dd0fc091a0319a": 688285,
+  "0x5bc02251750f3f510934be52e6ac1d866f2318c9": 1120531,
+  "0x5c57ab9bcabf4bc3664219c7f979823d6740b574": 1081301,
+  "0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97": 515724,
+  "0x6192c5f6333cdf1a22d167e02cd3b3b81bf092a6": 513891,
+  "0x62da18390928e438dde260d1526cab03086effc0": 1049954,
+  "0x63272cd2f76be73219b68ab5f775db5eeb4a8f6e": 1441040,
+  "0x65755ed15ea1285172db2bca5b8af93e1fccf31f": 1950360,
+  "0x666bbccbd28f0da72020b4115a4b61bb5eb59a5d": 1342501,
+  "0x67467d3d235597768b102c442c2dfb5725c220ad": 538380,
+  "0x6780feceb405bdb87d660662b7e732ca65475753": 665921,
+  "0x6d6b007f4cc54c70d1c8982c632b69c36d79f2dc": 654671,
+  "0x742e682ee9460f4f4c0ef624cd5023cf20ce0d06": 876467,
+  "0x7482d3d58bd914784444f14c53aae9951d60cd6c": 540157,
+  "0x75304252229eaf317541d149cd589d37cb046e1e": 1461341,
+  "0x76080e434f38264a8c40d876b82bb913325bde0b": 558170,
+  "0x767f59b7dd44d51ccacca5e6fe7f3e1179b12e88": 539783,
+  "0x769b662f6b039eef883caa2dca525bb8108739c9": 810927,
+  "0x7f47b72d0fc2fda7c76270e7db55b076f151c421": 1458228,
+  "0x82466795fbdfbcfad6cfca2257540d7c47ba3dc5": 577053,
+  "0x852f4736b6e7b3b2e8b789491f1e9df8cf3940ac": 1021455,
+  "0x88db0cd7c4273a3c0a2c3d60a1d6e637b28e2fe6": 666305,
+  "0x8a183e87726bddf7ff6ff1b8440391141281cfef": 674891,
+  "0x8dc5a815d4960b4fdcca5a2edc2901d50d905447": 1113159,
+  "0x91888c5941af32eb647ca788b06f54e4230529b0": 850656,
+  "0x926eed100ca24e95e3a96eb7548c101105db7398": 1247250,
+  "0x95e5e5c5e1730667e4ee545a74593250f34dad9d": 884953,
+  "0x96ac83676e600373d4687f507e8db3a1638e6cb1": 1224263,
+  "0x96d010af693ef058895e43f70a96a3c14716df3f": 768751,
+  "0x9744802d2279e9902664543c3838f13bd36ded27": 528000,
+  "0x9765eaa10b7416da46a5f3de7f3f55ccfa12ce91": 1337130,
+  "0x976c883b82e22a8fe367434a94fa1eec5f915d0b": 1266375,
+  "0x97de3d1e109b822d52595bcbea139cc551d380d1": 516095,
+  "0x98b95feab59b18f6179b195af75d6d26b5ae668f": 582712,
+  "0x9dcad047f20ec7750ac9de87837b209261960d1c": 507607,
+  "0x9fde643a40c3d92d785cf2702361ce0e01924129": 633999,
+  "0xa0fce5a7571303feab7db8a8e7c4cb01fd63be38": 705033,
+  "0xa10e0eb6069f0690204f3959db58fdffb5921c04": 1018235,
+  "0xa12449ebe46da7603f559a53e23ceb6fa3e339e6": 675549,
+  "0xa3415b7bee1a6942c64bc9752896a074069b580b": 833930,
+  "0xa62f113d3c7934d455f4f7fec70b935f67e7fdc5": 652191,
+  "0xa9f25c919614bc35cf1fedb5ec206e5a1b4e2781": 1558262,
+  "0xaa08f8d992c5d24ed41d899f782d6883c04d05f1": 509896,
+  "0xab59ff324cf15446cb259ffe13ed27328665c6c1": 524000,
+  "0xac6b3c2d793673937523bb9aedde61a50b86b691": 890852,
+  "0xac8584710490fbb73d03e863fb6d74ac917134c4": 1235684,
+  "0xad03e2e457ebe290f364c9aa8133dcd0cda30c4e": 1271675,
+  "0xae56028079fb8e3fc788b25af7e4e343f7878e4c": 597250,
+  "0xb00fbdf24d58ef589ab2495b4c86e7b1ce79f06a": 867501,
+  "0xb435cb9cee20efce58c452f646552c3ad744ed64": 1124019,
+  "0xb62814d9063c181665b17942df2d9117de98a1a4": 549944,
+  "0xb7d166ba1f250c40708e5435afc4d2ef5a9f5118": 655495,
+  "0xb84dc28471878f7948a71b3887ecd73349233aef": 968536,
+  "0xb931bda2d052c086d6800c85c9e091ccaa689a40": 973123,
+  "0xb9a0c47adea84b1cf17a787c429bdeeeac01ccd7": 2591395,
+  "0xb9e5e7296466c7daea8133289fbb29e493e72956": 1092588,
+  "0xbc2cc8899aa441819a5cfb62a6e5af05ece9143d": 532000,
+  "0xbee4e0e23ac9f82a439fa6712f165e7b573c211f": 1170001,
+  "0xc14f1a108b876f9ecfeb10ec4f154dd8a0c5ccbb": 1363898,
+  "0xc2fad67ceadbde7001ca70236cde9f672edc573b": 2103604,
+  "0xc54353e3b6a8686996aa44ccc1802a418562af56": 579723,
+  "0xc64e1d954086610b05ce9d7432749f594f9ff151": 504735,
+  "0xc6fb2d95f751bcf22ec972f54d5a9d81b4a49142": 500001,
+  "0xc8240ea87a0e6203dcae16134e60351708774377": 3435001,
+  "0xc8cb43fc64b1780d8ee10d1a6a87c33531f9b140": 1956092,
+  "0xca21091ffa0f3af00191686f553aae6848ee75b8": 512229,
+  "0xca5b78dfacc39da5bf8d64cbb8159e866d67da26": 560002,
+  "0xcbcdc21395107901a733df806eb85249866db7dd": 3660857,
+  "0xcd250decb9a007f93bf0ab169a8480b1b988ec1a": 868952,
+  "0xcd6b003fd8b433e79137627267bc1ce177be368d": 2097862,
+  "0xce7903c8b9895d2976dc14c7bbe55d84b7751494": 702583,
+  "0xcf9b9ad0102fc2122cfc4d5355c596e7a4289f62": 524025,
+  "0xd01e3beaa5dd17b65700fa521253089042d98a6b": 623582,
+  "0xd0f929534c5a05aeda1f61cdcede6dcb7420956f": 1619285,
+  "0xd248fe2929e7ea707c4546f0b964f3d8255d4968": 525741,
+  "0xd63149fc85ea400db18da0a5e8e2a0e8bb7b64b1": 961908,
+  "0xd8163cca0a1f3704c93c20cf2fe974db770a7695": 1196798,
+  "0xda932bcc910ec2dbdcbc49e01f8a5b36be9deefb": 999591,
+  "0xdc91170e9627d9ebedd777a267032e94143a9466": 497501,
+  "0xdd2e30c43bd10b4546b67e47d2a4473c821ee31d": 2751091,
+  "0xe0709519519033300c01028401cdfe0ab6d2fa6c": 863986,
+  "0xe132499880311b5d1dbe6c3a45402126eea05597": 1167133,
+  "0xe43d2d874877d74999c958a484cc5f04e6bc2931": 684406,
+  "0xe4710d368e06ad894d5b2e0256d997fc2c1fddb6": 703215,
+  "0xe57a18f603f48e91a9b1a9593e839894cbfae2ca": 958506,
+  "0xe6758d2203a62c16960c55e97b43fa0cfed93b1a": 654644,
+  "0xe67c465de72d439352e2a137dfc06952e59705fc": 781594,
+  "0xea7e17526ccce09f38b472dac3b4fcdfff100c39": 1704202,
+  "0xeb2e6c2650e2b8601f2cfdba2f842f0d42a8a340": 805933,
+  "0xec5292103b193a9b0993fedd6672afefc723426c": 925688,
+  "0xedb870db9427b5aa93df654f3212abd09aaa43f3": 567585,
+  "0xf0adb186f0865c229966d20ad97ad4e6e2570ffa": 1570001,
+  "0xf10c0ad86b1105b1da6f3f22b070f0d5ae3a5940": 567300,
+  "0xf17ac6912534f73dc572d97962cb9c9ba92bb9cf": 593014,
+  "0xf2999fe53505d7493aea039f366150e4912acd36": 713534,
+  "0xf3a65bb6dcbcd4fb9114049e66591a61340183f2": 1232789,
+  "0xfa2c3b559d6056343b8548420c95657a62ecfd0d": 635186,
+  "0xfc0c65c7993aa9cb6d93c0552e98e01d8857ea77": 685974,
+  "0xfc73b6b8de5a86311e6bb1fa5628dbd152849d90": 798075,
+  "0xfdaa4c3d4372e5d123416c1ed4e9374292dd9307": 1778302,
+  "0xfe053875e55eee3e0c28697fd80cb3e19ecf3016": 491383,
+  "0xff7309b42c0e2607910f1907ad7a38a86aafac01": 521383
+ },
+ "match_key": "low 20 bytes of the address and of each participant topic, compared as 40-character lowercase hex; independent of topic padding width",
+ "partial": false,
+ "probe": {
+  "absent": true,
+  "addresses": [
+   "0x3b6056ff037072be7e7b62efcdb5639cf08dfa4a",
+   "0xa735a3609ec3b701f29e0ea5b066d799a8ba8af8"
+  ],
+  "interpretation": "the ledger test in forgery_probe.py requires these addresses to be unknown to the chain; occurrences_in_chain == 0 establishes that by measurement rather than by appeal to improbability. Counted over both participant fields of every row.",
+  "occurrences_in_chain": 0,
+  "seed": "balance-probe"
+ },
+ "row_groups": 10449,
+ "rows_per_second": 20576062,
+ "rows_scanned": 10951962591,
+ "scope": "FULL CHAIN -- every row group scanned",
+ "totals": {
+  "of_which_emitted_by_that_token": 7,
+  "registry_own_logs": 4334815410,
+  "registry_own_logs_naming_self": 6640,
+  "rows_naming_a_registry_token_as_sender": 144217270
+ },
+ "wall_seconds": 532.3,
+ "workers": 12
+}

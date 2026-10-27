@@ -1,0 +1,5 @@
+{
+ "chain": "polygon-zkevm",
+ "reason": "the census records no residual rows on this chain; nothing to probe",
+ "skipped": true
+}

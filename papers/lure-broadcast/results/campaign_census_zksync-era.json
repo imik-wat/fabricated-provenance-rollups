@@ -1,0 +1,407 @@
+{
+ "campaigns": 33,
+ "campaigns_absent_from_chain": [],
+ "chain": "zksync-era",
+ "channel_totals": {
+  "distinct_operators": 14,
+  "distinct_recipients_union": 5399634,
+  "fanout_ratio_channel": 3.387711463406594,
+  "transfers": 18292402
+ },
+ "contracts": 49,
+ "note": "fanout_ratio is transfers per distinct recipient; ~1.0 means every recipient was reached once, the broadcast signature. Values far above 1 indicate circulation rather than one-shot delivery.",
+ "per_campaign": {
+  "airdrop-zk.com": {
+   "block_span": 15557701,
+   "contracts_in_metadata": 2,
+   "contracts_observed": 2,
+   "distinct_recipients": 1033833,
+   "fanout_ratio": 1.2342631740329435,
+   "first_block": 36897235,
+   "last_block": 52454936,
+   "transfers": 1276022
+  },
+  "airdrop-zk.live": {
+   "block_span": 21559582,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 189948,
+   "fanout_ratio": 2.271716469770674,
+   "first_block": 38654426,
+   "last_block": 60214008,
+   "transfers": 431508
+  },
+  "airdropzk.xyz": {
+   "block_span": 17396,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 43240,
+   "fanout_ratio": 1.0,
+   "first_block": 36461193,
+   "last_block": 36478589,
+   "transfers": 43240
+  },
+  "blast2l.com": {
+   "block_span": 109278,
+   "contracts_in_metadata": 2,
+   "contracts_observed": 2,
+   "distinct_recipients": 419792,
+   "fanout_ratio": 1.4532149254869078,
+   "first_block": 29480071,
+   "last_block": 29589349,
+   "transfers": 610048
+  },
+  "bonus-zk.com": {
+   "block_span": 2603586,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 1964091,
+   "fanout_ratio": 2.33629042646191,
+   "first_block": 37306012,
+   "last_block": 39909598,
+   "transfers": 4588687
+  },
+  "checkzk.xyz": {
+   "block_span": 31405,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 30727,
+   "fanout_ratio": 1.0000325446675562,
+   "first_block": 36312057,
+   "last_block": 36343462,
+   "transfers": 30728
+  },
+  "claimzk.xyz": {
+   "block_span": 253010,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 2039,
+   "fanout_ratio": 1.0,
+   "first_block": 32629989,
+   "last_block": 32882999,
+   "transfers": 2039
+  },
+  "ethstk.pro": {
+   "block_span": 651684,
+   "contracts_in_metadata": 3,
+   "contracts_observed": 3,
+   "distinct_recipients": 194742,
+   "fanout_ratio": 1.0106089081964855,
+   "first_block": 37381779,
+   "last_block": 38033463,
+   "transfers": 196808
+  },
+  "ethstk.xyz": {
+   "block_span": 749540,
+   "contracts_in_metadata": 2,
+   "contracts_observed": 2,
+   "distinct_recipients": 982402,
+   "fanout_ratio": 1.081070681859361,
+   "first_block": 36816362,
+   "last_block": 37565902,
+   "transfers": 1062046
+  },
+  "getunib.pro": {
+   "block_span": 174644,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 92309,
+   "fanout_ratio": 1.0,
+   "first_block": 38416977,
+   "last_block": 38591621,
+   "transfers": 92309
+  },
+  "getunic.pro": {
+   "block_span": 5275261,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 368258,
+   "fanout_ratio": 1.0146391931743506,
+   "first_block": 37806938,
+   "last_block": 43082199,
+   "transfers": 373649
+  },
+  "getzk.pro": {
+   "block_span": 5253484,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 34012,
+   "fanout_ratio": 1.0000882041632364,
+   "first_block": 36389958,
+   "last_block": 41643442,
+   "transfers": 34015
+  },
+  "getzkc.pro": {
+   "block_span": 9825,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 19476,
+   "fanout_ratio": 1.0213082768535633,
+   "first_block": 37204925,
+   "last_block": 37214750,
+   "transfers": 19891
+  },
+  "getzkc.xyz": {
+   "block_span": 146737,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 209719,
+   "fanout_ratio": 1.0128696017051388,
+   "first_block": 37009719,
+   "last_block": 37156456,
+   "transfers": 212418
+  },
+  "getzks.pro": {
+   "block_span": 18726,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 31151,
+   "fanout_ratio": 1.00003210169818,
+   "first_block": 36404047,
+   "last_block": 36422773,
+   "transfers": 31152
+  },
+  "getzks.xyz": {
+   "block_span": 353999,
+   "contracts_in_metadata": 2,
+   "contracts_observed": 2,
+   "distinct_recipients": 222719,
+   "fanout_ratio": 1.1235772430731101,
+   "first_block": 35727945,
+   "last_block": 36081944,
+   "transfers": 250242
+  },
+  "odosloyalty.org": {
+   "block_span": 673308,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 15382,
+   "fanout_ratio": 1.0011701989338186,
+   "first_block": 54061863,
+   "last_block": 54735171,
+   "transfers": 15400
+  },
+  "official-zk.com": {
+   "block_span": 17040493,
+   "contracts_in_metadata": 3,
+   "contracts_observed": 3,
+   "distinct_recipients": 2380998,
+   "fanout_ratio": 2.4083774954871866,
+   "first_block": 36963232,
+   "last_block": 54003725,
+   "transfers": 5734342
+  },
+  "stkether.org": {
+   "block_span": 169472,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 177171,
+   "fanout_ratio": 1.0172940266747945,
+   "first_block": 37011652,
+   "last_block": 37181124,
+   "transfers": 180235
+  },
+  "t.me/debankluckydraw": {
+   "block_span": 2078498,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 1753,
+   "fanout_ratio": 1.0005704506560182,
+   "first_block": 10475957,
+   "last_block": 12554455,
+   "transfers": 1754
+  },
+  "zk-claim.io": {
+   "block_span": 7621,
+   "contracts_in_metadata": 4,
+   "contracts_observed": 4,
+   "distinct_recipients": 690716,
+   "fanout_ratio": 1.059363037775294,
+   "first_block": 36801844,
+   "last_block": 36809465,
+   "transfers": 731719
+  },
+  "zk-claim.xyz": {
+   "block_span": 67671,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 5180,
+   "fanout_ratio": 1.0,
+   "first_block": 26558578,
+   "last_block": 26626249,
+   "transfers": 5180
+  },
+  "zk-drop.xyz": {
+   "block_span": 188395,
+   "contracts_in_metadata": 2,
+   "contracts_observed": 2,
+   "distinct_recipients": 4203,
+   "fanout_ratio": 1.0002379252914584,
+   "first_block": 26937226,
+   "last_block": 27125621,
+   "transfers": 4204
+  },
+  "zk-ethers.com": {
+   "block_span": 36588,
+   "contracts_in_metadata": 2,
+   "contracts_observed": 2,
+   "distinct_recipients": 534723,
+   "fanout_ratio": 1.00000187012715,
+   "first_block": 36824031,
+   "last_block": 36860619,
+   "transfers": 534724
+  },
+  "zk-official.live": {
+   "block_span": 32513750,
+   "contracts_in_metadata": 2,
+   "contracts_observed": 2,
+   "distinct_recipients": 215422,
+   "fanout_ratio": 2.086620679410645,
+   "first_block": 38327844,
+   "last_block": 70841594,
+   "transfers": 449504
+  },
+  "zkbget.xyz": {
+   "block_span": 502236,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 246819,
+   "fanout_ratio": 1.0119115627241015,
+   "first_block": 37305941,
+   "last_block": 37808177,
+   "transfers": 249759
+  },
+  "zkclaim.xyz": {
+   "block_span": 19098,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 8232,
+   "fanout_ratio": 1.0,
+   "first_block": 32287831,
+   "last_block": 32306929,
+   "transfers": 8232
+  },
+  "zkgas.site": {
+   "block_span": 23905936,
+   "contracts_in_metadata": 2,
+   "contracts_observed": 2,
+   "distinct_recipients": 163785,
+   "fanout_ratio": 1.080727783374546,
+   "first_block": 47531915,
+   "last_block": 71437851,
+   "transfers": 177007
+  },
+  "zkget.pro": {
+   "block_span": 398352,
+   "contracts_in_metadata": 2,
+   "contracts_observed": 2,
+   "distinct_recipients": 391424,
+   "fanout_ratio": 1.0000127738718116,
+   "first_block": 36412141,
+   "last_block": 36810493,
+   "transfers": 391429
+  },
+  "zkget.xyz": {
+   "block_span": 573224,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 154932,
+   "fanout_ratio": 1.0560116696357111,
+   "first_block": 36231446,
+   "last_block": 36804670,
+   "transfers": 163610
+  },
+  "zkpepe.pro": {
+   "block_span": 152614,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 86512,
+   "fanout_ratio": 1.0,
+   "first_block": 36655482,
+   "last_block": 36808096,
+   "transfers": 86512
+  },
+  "zkscoin.xyz": {
+   "block_span": 200825,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 182503,
+   "fanout_ratio": 1.0769631184144919,
+   "first_block": 36127275,
+   "last_block": 36328100,
+   "transfers": 196549
+  },
+  "zksget.xyz": {
+   "block_span": 14662,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 107440,
+   "fanout_ratio": 1.0,
+   "first_block": 36363504,
+   "last_block": 36378166,
+   "transfers": 107440
+  }
+ },
+ "rows_matched": 18292402,
+ "rows_scanned": 2222701031,
+ "scope": "FULL CHAIN -- every row scanned, lure-contract rows retained. Not a sample.",
+ "top_operators_by_volume": [
+  {
+   "address": "0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e",
+   "transfers": 13746492
+  },
+  {
+   "address": "0x000000000000000000000000000000000000800a",
+   "transfers": 3511047
+  },
+  {
+   "address": "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
+   "transfers": 610046
+  },
+  {
+   "address": "0x621425a1ef6abe91058e9712575dcc4258f8d091",
+   "transfers": 180234
+  },
+  {
+   "address": "0x478a1ebe665396ce0f2f87ab0f057ac273451b92",
+   "transfers": 157001
+  },
+  {
+   "address": "0xbc918775c20959332c503d51a9251c2405d9cf88",
+   "transfers": 50377
+  },
+  {
+   "address": "0x1d17cbcf0d6d143135ae902365d2e5e2a16538d4",
+   "transfers": 15399
+  },
+  {
+   "address": "0xaafaf0468a9a0de1e32ae4170807de8c948f99a3",
+   "transfers": 1752
+  },
+  {
+   "address": "0x5f389707fc094f5daaff685ba8e47ee56e31f51f",
+   "transfers": 1
+  },
+  {
+   "address": "0xdbe11dcf3882d68d4646392bf091f6b34f2aeec7",
+   "transfers": 1
+  },
+  {
+   "address": "0x4c233522394084ebaeb760e9f9dc7fe1ca0c6ab0",
+   "transfers": 1
+  },
+  {
+   "address": "0xe6de2a1c700b5958ae2b8f996ef5fccb757279fd",
+   "transfers": 1
+  },
+  {
+   "address": "0xd876028b890ffa77f567d0d541338dbbe2328f93",
+   "transfers": 1
+  },
+  {
+   "address": "0x161e2573974803342802fcc698fbdf167936c331",
+   "transfers": 1
+  }
+ ],
+ "wall_seconds": 293.9
+}

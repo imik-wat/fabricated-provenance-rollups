@@ -1,0 +1,4808 @@
+{
+ "0x0000206329b97db379d5e1bf586bbdb969c63274": {
+  "name": "USDA",
+  "symbol": "USDA"
+ },
+ "0x00951fe42ff7cfc8df56d256d1757d8af6fd42e6": {
+  "name": "FlashLiquidity",
+  "symbol": "FLASH-LP"
+ },
+ "0x00c8dec96fd894d47b16d7831b288577ff667de2": {
+  "name": "CEHEPE",
+  "symbol": "CHP"
+ },
+ "0x00d7813501216d8b54cc86caa427f6fcf444854d": {
+  "name": "Moo Quick ETH-WBTC Narrow",
+  "symbol": "mooQuickETH-WBTC_Narrow"
+ },
+ "0x014a70fd888b669151528f58d2ced3c4c6202107": {
+  "name": "Narcos",
+  "symbol": "NCS"
+ },
+ "0x016b3143141691a483923655225298eb55aaa191": {
+  "name": "Balancer wstETH/rETH Stable Pool Aura Deposit Vault",
+  "symbol": "auraB-wstETH/rETH-STABLE-vault"
+ },
+ "0x019dbff9e38665dd7ea6ccee624a552911e5d823": {
+  "name": "Pepe",
+  "symbol": "PEPE"
+ },
+ "0x01b46ce83a6edcfc56dd2554291d3632d80ff370": {
+  "name": "aghamasmasi",
+  "symbol": "MAS"
+ },
+ "0x01bca343d518663fbec4ea70e8981ec2d19fdbf5": {
+  "name": "Fhxkds",
+  "symbol": "FHXKDS"
+ },
+ "0x01dc893085fbec466639ff75acd30d96b9b3fcb7": {
+  "name": "Cygnus: Collateral",
+  "symbol": "CygLP: aLINK-WETH"
+ },
+ "0x01e9a866c361ead20ab4e838287dd464dc67a50e": {
+  "name": "LUSD Stablecoin",
+  "symbol": "LUSD"
+ },
+ "0x0218e731bff3ac958107fd90c5798fe02020396e": {
+  "name": "sqietliqowa",
+  "symbol": "slq"
+ },
+ "0x023c2773aa71b4b1ca7d30dd11748fe32a4fa02e": {
+  "name": "KyberSwap LP WETH-USDC",
+  "symbol": "KS-LP WETH-USDC"
+ },
+ "0x02491d1d5eb563da5636239e40cf512bc3e6d86b": {
+  "name": "ZkAno",
+  "symbol": "ZkANO"
+ },
+ "0x0258fb41f943ca86f4ebe1f436859fe036d3e1c3": {
+  "name": "TEST TOKEN 2",
+  "symbol": "TEST2"
+ },
+ "0x028df27394e62281d87e75c3b701499eddc40028": {
+  "name": "HOT",
+  "symbol": "HOT"
+ },
+ "0x02a43ee98590c771cbbf04372af08d8d29396410": {
+  "name": "M\u00e1s",
+  "symbol": "\u00e1"
+ },
+ "0x02c3fbe63ed78196f5f0ac0cf77af12399af00cf": {
+  "name": "PlygonzkEVM",
+  "symbol": "POL"
+ },
+ "0x02c8cd0550ca323fca6906c93fafd2b4866154f3": {
+  "name": "Staphaureus",
+  "symbol": "STG"
+ },
+ "0x02f3893d0a1725155357da6125d0f3ca67d86fbb": {
+  "name": "ICHI Vault Liquidity",
+  "symbol": "ICHI_Vault_LP"
+ },
+ "0x030d027a7ced6e28a0220a755a3cb79cf719c889": {
+  "name": "SushiSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x03346b2f4bc23fd7f4935f74e70c7a7febc45313": {
+  "name": "Tellor Tributes",
+  "symbol": "TRB"
+ },
+ "0x0390d0821985e293f4a05294367ecb7a47156024": {
+  "name": "Cygnus: Borrowable",
+  "symbol": "CygUSD: USDC"
+ },
+ "0x03a9a6a8f62af9376a83c391fd90eeeea67fad6c": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0x03b832f38878dc9478ed8127cb46c7c094a94941": {
+  "name": "ICHI Vault Liquidity",
+  "symbol": "ICHI_Vault_LP"
+ },
+ "0x03bbd46cd3fcb73897910ea9be5347c040a6a77c": {
+  "name": "gnl",
+  "symbol": "tfgy"
+ },
+ "0x03ccc8e6a0a0ff4a0cd8317ac7306db3d1698134": {
+  "name": "Freedom Cash",
+  "symbol": "FREE"
+ },
+ "0x04021b072de8ddef902bc26edb234b84b617ca30": {
+  "name": "SPIDER MOUSE",
+  "symbol": "SMPD"
+ },
+ "0x04474952fb4f60d43f75405411a596e32dfecd3d": {
+  "name": "Aavegotchi GHST Token",
+  "symbol": "GHST"
+ },
+ "0x04a016d033b3750cf2c4bb2fffad9b7cb83c302d": {
+  "name": "SkyMoon",
+  "symbol": "SM"
+ },
+ "0x04c6b11e1ffe1f1032bd62adb343c9d07767489c": {
+  "name": "aWETH-USDC",
+  "symbol": "aWETH-USDC"
+ },
+ "0x04f63f8aa05897e6bca22b53bb812e47b52bbfcd": {
+  "name": "aPOL-WETH",
+  "symbol": "aPOL-WETH"
+ },
+ "0x050e9e49233871913d91503c954c941959277a45": {
+  "name": "!",
+  "symbol": "!"
+ },
+ "0x05257970368efd323aeffec95f7e28c806c2e37f": {
+  "name": "Balancer B-wstETH/rETH-STABLE Gauge Deposit",
+  "symbol": "B-wstETH/rETH-STABLE-gauge"
+ },
+ "0x05d1830ba46c18854728ab4f3fb66e9fd6574e9f": {
+  "name": "PUY",
+  "symbol": "PUY"
+ },
+ "0x064c32c9e899a9c493c725189cc8f675355a14bb": {
+  "name": "ZkEVM INU",
+  "symbol": "ZKEVMINU"
+ },
+ "0x067e7a7e58ac7ae23f588556811ab94a8067525b": {
+  "name": "IDEX Token",
+  "symbol": "IDEX"
+ },
+ "0x06895d6f6680e5e8301604d5e0483a3655c547b8": {
+  "name": "aWETH-AAVE",
+  "symbol": "aWETH-AAVE"
+ },
+ "0x06b4566dab3f653d1b061d55abf6828afdef9715": {
+  "name": "Drakkar",
+  "symbol": "Drums"
+ },
+ "0x0710d408f07af68b8a6ae2a48b8110475e7691b1": {
+  "name": "BlazarBits",
+  "symbol": "BzB"
+ },
+ "0x07119d8af936061c218971d0928b8e3374271ab0": {
+  "name": "Productive Phone Zkevm",
+  "symbol": "PPE"
+ },
+ "0x0718811a2bef79dd7f3bacc67a13a004bcf8a0b9": {
+  "name": "zkEVM LPs",
+  "symbol": "zkEVM-LP"
+ },
+ "0x072afe3802af1326a5d5a5e4e59088366f11e14d": {
+  "name": "ABOBA",
+  "symbol": "ABOBb"
+ },
+ "0x0756925d26ab17971e45f5a4856bdce36a4a1dbf": {
+  "name": "ZKEVMFloki",
+  "symbol": "ZFLOKI"
+ },
+ "0x077cd3d773aa0b8808a5cb0587292722c6d9fa88": {
+  "name": "Pos",
+  "symbol": "POS"
+ },
+ "0x07eb4cb42252918534e7ff365d92395783d4d5b9": {
+  "name": "PrinceEVM",
+  "symbol": "PRINCEEVM"
+ },
+ "0x07ff3aff9af6c60cb62ce0bb66ffe10119a74be7": {
+  "name": "Druid Game",
+  "symbol": "DRUID"
+ },
+ "0x085d4f8643ee7dc3e4987af579e3868dc126908a": {
+  "name": "Pink flower",
+  "symbol": "PFL"
+ },
+ "0x086208fe6c0a9162f8d5eeece8a0c823807ade0b": {
+  "name": "Dream",
+  "symbol": "drm"
+ },
+ "0x08ae7d6fdc071dc578bc46cc86cbb58ec0cd9578": {
+  "name": "LeetSwapV2 VolatileV1 Pair - WETH/LEET",
+  "symbol": "vLS2-WETH/LEET"
+ },
+ "0x090aea2dc6c89461f2b64f8a711e82fd3927e055": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0x094c6846fb2801b4753182adfac336aae8030a46": {
+  "name": "Gyroscope ECLP wETH/rETH Aura Deposit",
+  "symbol": "auraECLP-wETH-rETH"
+ },
+ "0x09c00e02b422d38f399a775481e27364d9a3b2d5": {
+  "name": "EarlyZKS",
+  "symbol": "Claim on: early-zksync.com"
+ },
+ "0x09e036ffc0534e7bdac3b9119090cd57ce9bef64": {
+  "name": "ZK Airdrop",
+  "symbol": "Claim ZKSync: zk-polygon.com"
+ },
+ "0x0a66a8e9570318aa36278957567a027dd6263625": {
+  "name": "Poly ZK Shiba",
+  "symbol": "pzkSHIBA"
+ },
+ "0x0a6db7fd03db3dc7b21253abc3d2e4047c4f35d0": {
+  "name": "VIRIX",
+  "symbol": "VRX"
+ },
+ "0x0a85e567e0910309f8551b5c62820989da074d28": {
+  "name": "PUNK Finance District",
+  "symbol": "PUNK"
+ },
+ "0x0b7a46e1af45e1eaadeed34b55b6fc00a85c7c68": {
+  "name": "Prismo Technology",
+  "symbol": "PRSM"
+ },
+ "0x0b976f5f614be488d1ad52f33fb7c808ac3411bc": {
+  "name": "LightNight",
+  "symbol": "LTN"
+ },
+ "0x0bc9f849aefd4afe06c46f627cabc34354dc67b2": {
+  "name": "Blacked",
+  "symbol": "BLM"
+ },
+ "0x0bd350685514c6a56634caffeb45ece08b875496": {
+  "name": "SOYA",
+  "symbol": "SYS"
+ },
+ "0x0cb4df08e411db68a7011729db9e626f25b52ba6": {
+  "name": "Freedom Cash",
+  "symbol": "FREEDOMCASH"
+ },
+ "0x0cb84e538b07635c61fcfa0505978b7109f3fa42": {
+  "name": "Fzguvtb",
+  "symbol": "FZGUVTB"
+ },
+ "0x0cbd274bc84cf3ce25f844a13c51f605ac32af4e": {
+  "name": "Herk",
+  "symbol": "Fgh"
+ },
+ "0x0cde3aeed2cee59e08495da0d7d0ae9be8235a1c": {
+  "name": "POLYtest",
+  "symbol": "POLt"
+ },
+ "0x0ce220244ee138ead95cccc0c48ef36c763dd6ee": {
+  "name": "ACE",
+  "symbol": "SPK"
+ },
+ "0x0ceb3bcb4174d309274f6b493dc005e3491e25ff": {
+  "name": "Metaverse",
+  "symbol": "MV"
+ },
+ "0x0d094ab5d3cd9eefa3cc929a8eadfa8d881fb84e": {
+  "name": "TrustSwap Token",
+  "symbol": "SWAP"
+ },
+ "0x0d1e753a25ebda689453309112904807625befbe": {
+  "name": "PancakeSwap Token",
+  "symbol": "Cake"
+ },
+ "0x0d92737e448113aa535ca1272e4bca931e4539a5": {
+  "name": "ZkM",
+  "symbol": "Zkm"
+ },
+ "0x0d9b0790e97e3426c161580df4ee853e4a7c4607": {
+  "name": "Citizen Wallet",
+  "symbol": "CTZN"
+ },
+ "0x0db3831ff36d27047153f656f328516b3c6a401d": {
+  "name": "Staked ROLP",
+  "symbol": "sROLP"
+ },
+ "0x0db6d9d66bafd09baad2b7179178a2c1f9bc12ed": {
+  "name": "GALAXIS Token",
+  "symbol": "GALAXIS"
+ },
+ "0x0dbcc899629533a232cbc5a9075df44174e1a05b": {
+  "name": "ZERO",
+  "symbol": "ZERO"
+ },
+ "0x0dc261280da2350a5758aeb6a8b5278c0b6fc171": {
+  "name": "stest",
+  "symbol": "stst23"
+ },
+ "0x0e29d73d04aae7dc00a9133f26421e484232fbb3": {
+  "name": "Pol ZKEVM  LightHead",
+  "symbol": "PLHEAD"
+ },
+ "0x0e906ccc2544a3eaa4ab62bcb1d234e29d8ce359": {
+  "name": "VolatileV1 AMM - WETH/USDC",
+  "symbol": "vAMM-WETH/USDC"
+ },
+ "0x0e9b89007eee9c958c0eda24ef70723c2c93dd58": {
+  "name": "Ankr Staked MATIC",
+  "symbol": "ankrMATIC"
+ },
+ "0x0ed164ebe9ab4edcfc65e60159d6b034a8c361a7": {
+  "name": "DoveSwap LP",
+  "symbol": "DOV-LP"
+ },
+ "0x0f2c1b03690559db2fb727c11d194ef3700a0a53": {
+  "name": "ZiG Meme Token",
+  "symbol": "ZiGMeme"
+ },
+ "0x0f8a910f82a674b2b0452a0f29bb5f7cc78ff601": {
+  "name": "Bxdozb",
+  "symbol": "BXDOZB"
+ },
+ "0x0f8f39b92776d9136408280c7209bebe4351123b": {
+  "name": "TIME Token",
+  "symbol": "TIME"
+ },
+ "0x10207c093cc0562367fb2e7f382de2f615b5168b": {
+  "name": "Balancer 50wstETH-BPT-50-bboUSD Gauge Deposit",
+  "symbol": "50wstETH-BPT-50-bboUSD-gauge"
+ },
+ "0x103d8cab997f3c85542efb1ebcad24215ca731ec": {
+  "name": "KGA token Polygon ZKEvm",
+  "symbol": "KGA"
+ },
+ "0x1062e00e2496205f4cccc38dc5244a1f5760bfc7": {
+  "name": "Terra Virtua Kolect",
+  "symbol": "TVK"
+ },
+ "0x1092c09769708a360f2bdce5e9d3e34d0c2fd3bc": {
+  "name": "plyet",
+  "symbol": ""
+ },
+ "0x10d9750338fa8cbcc04a80453746290d7b13f80d": {
+  "name": "zshome",
+  "symbol": "zsevm"
+ },
+ "0x10f691c08d83484f2c5bd1a6ccd23b3dcb3ee304": {
+  "name": "BUSD Token",
+  "symbol": "BUSD"
+ },
+ "0x114671fc52668276d5f8bd3869d628f892c9f9a6": {
+  "name": "Sppastng",
+  "symbol": "SPPASTNG"
+ },
+ "0x11470dc4f0c8c0f10f72a159a7fc73c1f4249620": {
+  "name": "TestToken",
+  "symbol": "TT"
+ },
+ "0x114b2857dee84971e093baede6a0a16e2b415bc5": {
+  "name": "Gyroscope ECLP wETH/rETH",
+  "symbol": "ECLP-wETH-rETH"
+ },
+ "0x1155dcb34674e7208a4010e5a9752c3d053093e1": {
+  "name": "POLKER",
+  "symbol": "PKR"
+ },
+ "0x115693d16143b2abd53d2f1d79b54513b15cabe1": {
+  "name": "PZkBTC",
+  "symbol": "pzkBTC"
+ },
+ "0x11748f6b6885422d066b6abacf7de587596358e4": {
+  "name": "Azure_magic",
+  "symbol": "AZG"
+ },
+ "0x118957c635adff051b05e1f96e8dbd95358f2d52": {
+  "name": "falco",
+  "symbol": "FLC"
+ },
+ "0x118b5e2209d7ed0f12fe210e6287e0f40dfabb37": {
+  "name": "NuddCoin",
+  "symbol": "NDC"
+ },
+ "0x11a72ebfc318c977a6a1b9b6e4565e068f9b3c12": {
+  "name": "Balancer 50BAL-50WETH Gauge Deposit",
+  "symbol": "50BAL-50WETH-gauge"
+ },
+ "0x11e2e827ddd721d91a3dbf7003870e56cee2f223": {
+  "name": "Pool cpCPL-USDC",
+  "symbol": "cpCPL-USDC"
+ },
+ "0x11e316a100c626fbeab02e831dbb0121df15ad1a": {
+  "name": "HEX",
+  "symbol": "HEX"
+ },
+ "0x120ef59b80774f02211563834d8e3b72cb1649d6": {
+  "name": "Balancer",
+  "symbol": "BAL"
+ },
+ "0x121777041dd7d2fb097993401e77284d37ed48b6": {
+  "name": "Test",
+  "symbol": "TST"
+ },
+ "0x121bdffd2abf44152ed38d6d26a0744bf1ea1469": {
+  "name": "Figital",
+  "symbol": "FIGI"
+ },
+ "0x121f24eb74d871e46e2494f054b2822905c5d78d": {
+  "name": "FOOM",
+  "symbol": "FOOM"
+ },
+ "0x1237313f580bed8104420b05a1f549094b6f3a66": {
+  "name": "Timeswap stMATIC",
+  "symbol": "TS-stMATIC"
+ },
+ "0x1259e974a9d50c681daf7a49800088315436b414": {
+  "name": "audi zkevm",
+  "symbol": "avm"
+ },
+ "0x12a848f8455f7691209dcd0416df7ef91af6d696": {
+  "name": "aUSDCE-MATIC",
+  "symbol": "aUSDCE-MATIC"
+ },
+ "0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c": {
+  "name": "Ankr Staked ETH",
+  "symbol": "ankrETH"
+ },
+ "0x133442e404bc1c7353065f0eb30f3e70533cea8b": {
+  "name": "jojo",
+  "symbol": "jo"
+ },
+ "0x133afd2e52551e2d8f8ba7b71744cd1eefb98e35": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0x136538924f2e5bd04b7bac4a8697b9501136cf61": {
+  "name": "PolyLend  DAI",
+  "symbol": "plDAI"
+ },
+ "0x137141353b859bfd600db72b292ec1e2fea0bbbd": {
+  "name": "NN123COIN",
+  "symbol": "NN123"
+ },
+ "0x13d477f0a9b32f6e5680bf9397165c3fb13dc17e": {
+  "name": "SkyFall",
+  "symbol": "sky"
+ },
+ "0x1402d5a4f67c22bff31883dd509ef59cbe930b88": {
+  "name": "NFTEarth",
+  "symbol": "NFTE"
+ },
+ "0x1407b57824ae18b711c2a38eb9319aba36ea931c": {
+  "name": "SushiSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x145d55ae4848f9782efcac785a655e3e5dce1bcd": {
+  "name": "aUSDT-USDC",
+  "symbol": "aUSDT-USDC"
+ },
+ "0x149d202f71f722a8f00d9aecab34323caad6cff7": {
+  "name": "Verse",
+  "symbol": "VERSE"
+ },
+ "0x14a216845e802a3b0197e3938269a9b20f6115a5": {
+  "name": "HHH",
+  "symbol": "NVN"
+ },
+ "0x14fa96d51dfaa2e57d0ea2c779a00adf23314077": {
+  "name": "Ertha zkEVM",
+  "symbol": "ERTHA"
+ },
+ "0x1509706a6c66ca549ff0cb464de88231ddbe213b": {
+  "name": "Aura",
+  "symbol": "AURA"
+ },
+ "0x1512402a52bddf7d636559a66af2731e4c3aa376": {
+  "name": "ZKEVMSHITTERS",
+  "symbol": ""
+ },
+ "0x1571caf7b841df8a1fff335984b17b9ee865b7de": {
+  "name": "LOFTY",
+  "symbol": "LOFT"
+ },
+ "0x1619b204bc77345ed261368b09a5937a71628384": {
+  "name": "zkEVM",
+  "symbol": "ZKM"
+ },
+ "0x163ab735ad34afec794236dd4129b5ea6be5b011": {
+  "name": "zkevmmainnettest",
+  "symbol": "polyevms"
+ },
+ "0x167c9cc93e236ae69360b118c16fa36ce238139a": {
+  "name": "Hakka Finance",
+  "symbol": "HAKKA"
+ },
+ "0x16c9a4d841e88e52b51936106010f27085a529ec": {
+  "name": "Balancer 0vix Boosted Pool (USDC)",
+  "symbol": "bb-o-USDC"
+ },
+ "0x1751ed880dd7e7b24f595456231b42e3eca757c1": {
+  "name": "Boomer",
+  "symbol": "BOOM"
+ },
+ "0x175355fa6fa82f1bb6868cd885da13069c4e861c": {
+  "name": "Wrapped Not A Security",
+  "symbol": "xNOSEC"
+ },
+ "0x177eb762ed99edb899c31bdc829d9278297346f7": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0x17e71d1dde9182d76e6aa80a83a3a3af036f8e57": {
+  "name": "Dhgkeux",
+  "symbol": "DHGKEUX"
+ },
+ "0x18078007105822dcc8735c04f6104fe8792df07f": {
+  "name": "GoldenZK",
+  "symbol": "GZK"
+ },
+ "0x1841448ebe43da857679aaffe6b39bf39cae65eb": {
+  "name": "XUSD Prime Coin",
+  "symbol": "XUSDP"
+ },
+ "0x185c50c074aed0a5738370a015199dc05cc4dd57": {
+  "name": "Futuremart",
+  "symbol": "FUTUR"
+ },
+ "0x1874e25d63b8ddf046a508cb278b6dd83fc32d9a": {
+  "name": "Streamr",
+  "symbol": "DATA"
+ },
+ "0x18811ce10ca15a0c96969fbda73ae31cc86aebba": {
+  "name": "PolyZKInu",
+  "symbol": "PZKINU"
+ },
+ "0x18b607d9b1c2d32440a8fda880c1283b597d8644": {
+  "name": "zkPoly Pepe",
+  "symbol": "ZKPEPE"
+ },
+ "0x18ddd8a36a54b533cd64398f588c139af30ac787": {
+  "name": "PTY",
+  "symbol": "PTY"
+ },
+ "0x18e5d13e4eab3c82c96bbd0f7e3a019ec2286cda": {
+  "name": "Zbdkw",
+  "symbol": "ZBDKW"
+ },
+ "0x1902460272f9c192b4631fdefa2abf353b60a4a7": {
+  "name": "WOOG",
+  "symbol": "WGG"
+ },
+ "0x195def5dabc4a73c4a6a410554f4e53f3e55f1a9": {
+  "name": "50BAL-25USDT-25USDC",
+  "symbol": "50BAL-25USDT-25USDC"
+ },
+ "0x19a01df56754b4008b7171fae267ed6bb6b2d26a": {
+  "name": "yty",
+  "symbol": "yty"
+ },
+ "0x19dee7b5d5e448b9990796ccd63517e09cb3d4cd": {
+  "name": "Hlragmk",
+  "symbol": "HLRAGMK"
+ },
+ "0x19f4ebc0a1744b93a355c2320899276ae7f79ee5": {
+  "name": "aMATIC-USDC",
+  "symbol": "aMATIC-USDC"
+ },
+ "0x1a063a63f887c65f072e5ecc8f4495d35442c35c": {
+  "name": "Cygnus: Borrowable",
+  "symbol": "CygUSD: USDC"
+ },
+ "0x1a0f773661f19ba339e70c20c3e0ee4e4c46faab": {
+  "name": "Cygnus: Collateral",
+  "symbol": "CygLP: aMATIC-USDC"
+ },
+ "0x1a9c89175559a7a1ba9bb97a49ae225af0ffd2f2": {
+  "name": "Agoras Token",
+  "symbol": "AGRS"
+ },
+ "0x1ad44cb93abd244f0360872e954ba92cbaec33dc": {
+  "name": "Dimo",
+  "symbol": "DIMO"
+ },
+ "0x1ad559bfc532f33df3ebdaddb674194c353019fa": {
+  "name": "PLU",
+  "symbol": "PLU"
+ },
+ "0x1add677dbddaeace6efe46b3909281d12826b57d": {
+  "name": "PotatoSwap LPs",
+  "symbol": "POTATO-LP"
+ },
+ "0x1afe165c9553aaa53cf3e7bbc667c0d6e2f28780": {
+  "name": "zkMoonSwap LPs",
+  "symbol": "zkMoonSwap-LP"
+ },
+ "0x1b189a1bf3051b2d4fd9c591b2d5af8e8b7b79f3": {
+  "name": "Staked DOV",
+  "symbol": "sDOV"
+ },
+ "0x1b6c42008400160eb457d285f025de06c485731b": {
+  "name": "DefiEdge Share",
+  "symbol": "DEShare"
+ },
+ "0x1ba50e70fffe40b100e43f44919d0102d28d4fb2": {
+  "name": "EarlyZKS",
+  "symbol": "Claim on: early-zksync.com"
+ },
+ "0x1be69ba963c2d28954e7b79749475354b64b674f": {
+  "name": "Kokonut Factory pzkDOGE-USDC (Crypto Pool)",
+  "symbol": "KOKO-pzkDOGE/USDC"
+ },
+ "0x1bec81e267ebb49063ba7bb537a35ae63c25d0b0": {
+  "name": "KyberSwap v2 Reinvestment Token",
+  "symbol": "KS2-RT"
+ },
+ "0x1cbe8385028a5f15811b8b803d76d256c8d880a4": {
+  "name": "Bribe veZERO",
+  "symbol": "bveZERO"
+ },
+ "0x1cc4ee0cb063e9db36e51f5d67218ff1f8dbfa0f": {
+  "name": "aWETH-WBTC",
+  "symbol": "aWETH-WBTC"
+ },
+ "0x1cc9d1812903a17e43cfced261cf5bf089fe669b": {
+  "name": "GET",
+  "symbol": "GET"
+ },
+ "0x1d0a8a31cdb04efac3153237526fb15cc65a2520": {
+  "name": "Balancer rETH Stable Pool",
+  "symbol": "B-rETH-STABLE"
+ },
+ "0x1e5b48c08d6b5efe0792d04f27602bd90026514a": {
+  "name": "LayerZero Bridge agUSD",
+  "symbol": "LZ-agUSD"
+ },
+ "0x1e97925c365cd96d74ec55a04569915c4d65e5e0": {
+  "name": "aUSDT-MATIC",
+  "symbol": "aUSDT-MATIC"
+ },
+ "0x1ea0093e07d2fdcff794ce0a66eef1f8e8e800f2": {
+  "name": "NFT Worlds",
+  "symbol": "WRLD"
+ },
+ "0x1eb829bec99700147a1eca172648e65033e54a51": {
+  "name": "PotCoin.com POT",
+  "symbol": "POT"
+ },
+ "0x1eba21541ebc47c05e807915b1c75ddcc67f54c7": {
+  "name": "Gyroscope ECLP wETH/rETH Aura Deposit Vault",
+  "symbol": "auraECLP-wETH-rETH-vault"
+ },
+ "0x1ed4921106294d12b6b9064e5bef773e1e30cdf6": {
+  "name": "BUSD Token",
+  "symbol": "BUSD"
+ },
+ "0x1f151a877a5f6581375e44f71841bc47da59537f": {
+  "name": "Ali Qacc test",
+  "symbol": "ALI"
+ },
+ "0x1f2d7301041a3fc61a0e1c239ef78fbc70ea9cb6": {
+  "name": "Option to buy ZERO",
+  "symbol": "oZERO"
+ },
+ "0x1f72ce1d83a76c47dab8f19b552864e43aec6efe": {
+  "name": "apeshunter",
+  "symbol": "aph"
+ },
+ "0x1f8d21049615a250772c091f715ba20d288d7c0b": {
+  "name": "Gnhwcn",
+  "symbol": "GNHWCN"
+ },
+ "0x1fa03edb1b8839a5319a7d2c1ae6aae492342bad": {
+  "name": "Mango Farmers Club",
+  "symbol": "MANGO"
+ },
+ "0x1fdaf221ff3929e86266d6a5930fa7263c1bd4df": {
+  "name": "IdleCDO BB Tranche - idle_cpPOR-USDT",
+  "symbol": "BB_idle_cpPOR-USDT"
+ },
+ "0x206ba9bfa58b397225c7909a51b7509909569c2e": {
+  "name": "ZEN Exchange Token",
+  "symbol": "ZCX"
+ },
+ "0x208198172988904514984e668e134a3e5a9c398f": {
+  "name": "Fee + Staked SHLP",
+  "symbol": "fsSHLP"
+ },
+ "0x20e88cfef1ba445a87d61f8f18e1226ca0130b4f": {
+  "name": "DE5",
+  "symbol": ""
+ },
+ "0x20fe4f7c587d607606beae8b819578b569d9787d": {
+  "name": "mainnet",
+  "symbol": "mai"
+ },
+ "0x21913baf3a3f513c354978c85013111c260f3145": {
+  "name": "HENNY",
+  "symbol": "NNY"
+ },
+ "0x21aacb73615fc2bb1b11ff3061d10bfa42c75f50": {
+  "name": "MyToken",
+  "symbol": "MTK"
+ },
+ "0x21f09e5fa9912c33828cdd219cb7de3b217d6148": {
+  "name": "zkEVM-earlyrelease",
+  "symbol": "POL"
+ },
+ "0x221c0330637110ec5b38896abe3c936589046b4c": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0x2269fd98bc1a626db9217630634d12912922100d": {
+  "name": "Yitx",
+  "symbol": "YITX"
+ },
+ "0x2279abf4bdab8cf29eae4036262c62dba6460306": {
+  "name": "Balancer wstETH/ankrETH  Gauge Deposit",
+  "symbol": "wstETH/ankrETH -gauge"
+ },
+ "0x2291f37e2c16e1cab553e9fb2a0c64ce5f7c8f06": {
+  "name": "StillAlive?",
+  "symbol": "SA"
+ },
+ "0x229df9f15a8b65c857a6b225a3b9ddb0176f22fe": {
+  "name": "Hyperspeed",
+  "symbol": "hs"
+ },
+ "0x22b21beddef74fe62f031d2c5c8f7a9f8a4b304d": {
+  "name": "Polygon Ecosystem Token",
+  "symbol": "POL"
+ },
+ "0x22df11c7bc3cc80470d377010aa49d6ef16688c6": {
+  "name": "Balancer B-rETH-bboUSD Gauge Deposit",
+  "symbol": "B-rETH-bboUSD-gauge"
+ },
+ "0x22e211d421ef3238fd2ad20ae90f642724641a2e": {
+  "name": "Escrowed ROSX",
+  "symbol": "eROSX"
+ },
+ "0x22eb2339493c3e0095ece7086c0befccd5228789": {
+  "name": "linet",
+  "symbol": "linet"
+ },
+ "0x231dce3f4055cd5f2c415535db22fb35a1e876b1": {
+  "name": "50WETH-50MATIC",
+  "symbol": "50WETH-50MATIC"
+ },
+ "0x2384c4ab2bd2584f04c1667a1c24d13726c515bf": {
+  "name": "test citizen wallet token",
+  "symbol": "tCTZN"
+ },
+ "0x23a090798a1ab5dcfca3897561ad500047f51b38": {
+  "name": "Road",
+  "symbol": ""
+ },
+ "0x23ba0a84b070087576a2f2308fafffd5b337de36": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0x23d559b5e2d2ba2de97e0868b2b9c64a2c668b15": {
+  "name": "Lumia Token",
+  "symbol": "LUMIA"
+ },
+ "0x23e2ad6f04ff3d152f08333bb30a5ca5324675ef": {
+  "name": "Bot test token",
+  "symbol": "BTT"
+ },
+ "0x23ea6edb6364be41fd63f822ba94996928bf47af": {
+  "name": "Poly zkSHIBA",
+  "symbol": "pzkSHIB"
+ },
+ "0x24091dae5cebbb3ebb52a786716015b83fbe3fe5": {
+  "name": "ICHI Vault Liquidity",
+  "symbol": "IV-11-QS"
+ },
+ "0x241ec12ad7483991c627f7aadc159197dba2a95f": {
+  "name": "Kokonut Factory MANGO-USDC (Crypto Pool)",
+  "symbol": "KOKO-MANGO/USDC"
+ },
+ "0x24318b8a0cbacc61cade47e5457eea7237eb2c0e": {
+  "name": "MasterVault Token",
+  "symbol": "MVT"
+ },
+ "0x2445639a93102493d1e664721933c1e97ca897c1": {
+  "name": "WSwap",
+  "symbol": "WSS"
+ },
+ "0x2450e3153137c14ce4c113d63c427070e85bedec": {
+  "name": "1INCH Token",
+  "symbol": "1INCH"
+ },
+ "0x2495375a9ee786e9c19f4c017668245496226971": {
+  "name": "Polygon Zk Farm Token",
+  "symbol": "PZKFARM"
+ },
+ "0x24a454482133cfa9e7dcf6007a22c7387c5f8178": {
+  "name": "DappGate by DappLabs",
+  "symbol": "DLGATE"
+ },
+ "0x253a00d09d3836138fdba455fde95f9d280359ae": {
+  "name": "Moo Quick MATIC-ETH Narrow",
+  "symbol": "mooQuickMATIC-ETH_Narrow"
+ },
+ "0x2548c94a3092494db3af864cc2cf781a72f55678": {
+  "name": "Uniswap",
+  "symbol": "UNI"
+ },
+ "0x25e59f574be4cd3d98f8171e2da070d6f188ea6b": {
+  "name": "zkEVM Electra",
+  "symbol": "ELECTRA"
+ },
+ "0x26452386ee5a66a5a7e25be5123e170b7651fb9c": {
+  "name": "eMNTS",
+  "symbol": "eMNTS"
+ },
+ "0x26537483806f4e7e3c939926ede76b6f71f24b8e": {
+  "name": "Vested SHLP",
+  "symbol": "vSHLP"
+ },
+ "0x26b3f58677a32285e093ebdb284518f1151599a9": {
+  "name": "Nngr",
+  "symbol": "NNGR"
+ },
+ "0x26b597fd35ef86c5e8fbeeb2174fccd0c7dcb5c1": {
+  "name": "symbol",
+  "symbol": "symbol"
+ },
+ "0x277f4f0faaebaab45f574dda3039da7797c78b6f": {
+  "name": "VXC",
+  "symbol": "JHTR"
+ },
+ "0x27a4bf80c2d63e42437258533dac7eaff9881bdb": {
+  "name": "Mai Stablecoin",
+  "symbol": "MAI"
+ },
+ "0x27cf21cd8b0a86019b577f975cb17407d9a29a5c": {
+  "name": "God Bless Israel",
+  "symbol": "GBI"
+ },
+ "0x27ec6de160f27799bc5f64c261f41ec252531ada": {
+  "name": "ZKPOL",
+  "symbol": "ZKPOL"
+ },
+ "0x281701e5a7b998af726deea321d6fab24ba2d178": {
+  "name": "Sdfbnh",
+  "symbol": "SDFBNH"
+ },
+ "0x2859a4ebcb58c8dd5cac1419c4f63a071b642b20": {
+  "name": "LayerZero Bridge agEUR",
+  "symbol": "LZ-agEUR"
+ },
+ "0x28e84038d159d2eae6c599282d512e56ac4eb5ef": {
+  "name": "MetaDojo",
+  "symbol": "MDO"
+ },
+ "0x297af7d4aca4def3b6247c1a4ef8b5b560cd1851": {
+  "name": "MMM",
+  "symbol": "MMM"
+ },
+ "0x29acc6b7d7e6f2e26111da9c8e833d884287f126": {
+  "name": "Moon Token",
+  "symbol": "MOON"
+ },
+ "0x29e49efb4d9421d92b9be24a60e7515533ecf151": {
+  "name": "DUCHAMP",
+  "symbol": "CHAMP"
+ },
+ "0x29f92c0c2245514b5077aff70ddc7a2b39a9c4ea": {
+  "name": "TBEAS",
+  "symbol": "TBEAS"
+ },
+ "0x2a0a7381a6c540b330e0d1990145780c99941bbc": {
+  "name": "zkGoat",
+  "symbol": "GOAT"
+ },
+ "0x2a66b9c88caebe9aefc4ecd7b5e7e60881f7e15c": {
+  "name": "Cryptorank Hyperlane FT",
+  "symbol": "hftCRK"
+ },
+ "0x2abf77ca05cfae0015d4ec9690c346e6dcdfa151": {
+  "name": "Swarm Markets",
+  "symbol": "SMT"
+ },
+ "0x2abfb8c63485d1b9c5dbc89789e896fe71644e9d": {
+  "name": "l2telegraph.xyz",
+  "symbol": "l2t"
+ },
+ "0x2ae7866e571207933cf76f871eebb86cb1592526": {
+  "name": "Pinxiu",
+  "symbol": "px"
+ },
+ "0x2af0bca35e6aba3f9cc2a9d5bab68edc68833bf8": {
+  "name": "$ZKP Token",
+  "symbol": "$ZKP"
+ },
+ "0x2b1d36f5b61addaf7da7ebbd11b35fd8cfb0de31": {
+  "name": "Interport Token",
+  "symbol": "ITP"
+ },
+ "0x2b46b42d9cf1ad73283181f0475e42e79a900230": {
+  "name": "Uflch",
+  "symbol": "UFLCH"
+ },
+ "0x2b5deb8633bfa892eaad701da069028966f1141d": {
+  "name": "cat",
+  "symbol": "CAT"
+ },
+ "0x2c2c0450eeba8f4a35bfc40630ba58123e72ff67": {
+  "name": "MELENCHON",
+  "symbol": "MELUCHE"
+ },
+ "0x2c489d7d1d70cd234f76591c4b4f9eb55640ee2d": {
+  "name": "vanCleef",
+  "symbol": ""
+ },
+ "0x2c5d81c706fa7de0ad075bf9b9dc9c30c24109a6": {
+  "name": "xUSDC-DAI01",
+  "symbol": "xUSDC-DAI01"
+ },
+ "0x2c78f1b70ccf63cdee49f9233e9faa99d43aa07e": {
+  "name": "NFTEarth",
+  "symbol": "anyNFTE"
+ },
+ "0x2dc7dce23fc1194e705b1c413484751fb26200df": {
+  "name": "APMEHRA",
+  "symbol": "APM"
+ },
+ "0x2e28b04bed55f89d867c0966dcd5dd2c61236349": {
+  "name": "SAND",
+  "symbol": "SAND"
+ },
+ "0x2e29d575600efe2154dcf79c9d75f7c6621b964e": {
+  "name": "Zk Test",
+  "symbol": "ZKT"
+ },
+ "0x2eab8ecd2332926b869803dac0482c465ea09f21": {
+  "name": "ANDREW TATE",
+  "symbol": "AT"
+ },
+ "0x2f048c8d676365b3cc709f257b47bdb37dc5a065": {
+  "name": "PAPUA",
+  "symbol": "PAP"
+ },
+ "0x2f39293c9ed046822c014143fb18d5ae0479be93": {
+  "name": "aWETH-MATIC",
+  "symbol": "aWETH-MATIC"
+ },
+ "0x2fb07861dbcfdd08883b0629c49c94320acbb7bc": {
+  "name": "Sandy Swap",
+  "symbol": "SANDY"
+ },
+ "0x2fd6fd1e3f1fe24cc1422d22e62884a4528d1a24": {
+  "name": "aUSDCE-WBTC",
+  "symbol": "aUSDCE-WBTC"
+ },
+ "0x300decaf8adb1c85fcc96c842955a5f29ef8b22c": {
+  "name": "2023",
+  "symbol": "2023"
+ },
+ "0x307134c0e5dadf87cbfabe405d96491157135d0a": {
+  "name": "Passenger Omnichain",
+  "symbol": "PO"
+ },
+ "0x30c0b4438fdfb2f42c1e17265d86085fba04a3aa": {
+  "name": "Dorito test",
+  "symbol": "DOR"
+ },
+ "0x312bbe0ec7e16e161fc571cf7cdd43cde5a988ce": {
+  "name": "Mech Exchange Token",
+  "symbol": "Mech"
+ },
+ "0x317a0d8d2a247004370fe4fb9362b2b256d890c0": {
+  "name": "aQUICK-USDC",
+  "symbol": "aQUICK-USDC"
+ },
+ "0x31a42dfbc6faa7ee7bc3bc1fbddcac1583c0074b": {
+  "name": "Eatcoin",
+  "symbol": "EAT"
+ },
+ "0x31b2f126975c59de2b06377596779965972c29a6": {
+  "name": "tre",
+  "symbol": "hui"
+ },
+ "0x31db7e275474a4be52324b41bdaa285f7d929f92": {
+  "name": "FION",
+  "symbol": "FIO"
+ },
+ "0x31faa1a7fc42510d846736e8fc2af9d76aab9bc6": {
+  "name": "Render Token",
+  "symbol": "RNDR"
+ },
+ "0x31fbf0ceff0c0270ab5f926291ed144f6803cf83": {
+  "name": "3 Comma Club",
+  "symbol": "THREE"
+ },
+ "0x31fedba5142236065b6f524bf16b88bb3397848b": {
+  "name": "youtube",
+  "symbol": "YT"
+ },
+ "0x31ffb97d75966c22ff20ff0cb0a24c242b46610a": {
+  "name": "Vmzso",
+  "symbol": "VMZSO"
+ },
+ "0x327210b3fdd3621890757b38d872096750ec75dd": {
+  "name": "PolygonzkEVM Rainbow City",
+  "symbol": "PZRC"
+ },
+ "0x32728d3729212ca2598a0d739712b0fde55689f7": {
+  "name": "Town token",
+  "symbol": "TT"
+ },
+ "0x327ea82906f39fc3332d06d2c7bf506199b45922": {
+  "name": "Gyroscope ECLP GYD/USDC Aura Deposit",
+  "symbol": "auraECLP-GYD-USDC"
+ },
+ "0x3290da2ba8a3a72e784568de7e79b4f98541ee5e": {
+  "name": "Diva",
+  "symbol": "DIVA"
+ },
+ "0x32c71bc9c7d0214ae109d850b7eccf01cb6d298a": {
+  "name": "EvgenArkhToken",
+  "symbol": "EAT"
+ },
+ "0x332730a4f6e03d9c55829435f10360e13cfa41ff": {
+  "name": "Tether USD",
+  "symbol": "anyUSDT"
+ },
+ "0x33366c5f427abd75ed2f68b18fc9f8c0e7c9cacb": {
+  "name": "FlashLiquidity",
+  "symbol": "FLASH-LP"
+ },
+ "0x3369ba65aab014f906cc23a172dc570bd86a3e99": {
+  "name": "cekcoin",
+  "symbol": "cek"
+ },
+ "0x33ac1622c91517baa55dd07c06df10d34d5cf823": {
+  "name": "Mirror",
+  "symbol": ""
+ },
+ "0x34740088ef5e24f3d8e6ad5aa4cc2502cb5b843a": {
+  "name": "Zk",
+  "symbol": "ZK/??@!@_2024"
+ },
+ "0x349007acc12fe01a8cb89eb6a8faeb3dc6051b8f": {
+  "name": "gegeg",
+  "symbol": "sege"
+ },
+ "0x350f5518a8ae1343400c1adaff0e8ae001a2ca60": {
+  "name": "Drogo",
+  "symbol": "DROGO"
+ },
+ "0x354f87cfe005054f4e9284a290e56b50cb84d1d3": {
+  "name": "BUSD Token",
+  "symbol": "BUSD"
+ },
+ "0x35a367114e62845120171b5a3b28c524cc2b9b20": {
+  "name": "FiNANCiE Token",
+  "symbol": "FNCT"
+ },
+ "0x35b040b395ebcf3e7d56402b98df7c6098777434": {
+  "name": "AreTaxesWorking",
+  "symbol": "tax?"
+ },
+ "0x35b8a8cd319eb6381f37690b664523a5a6dfcfff": {
+  "name": "zkMoonSwap LPs",
+  "symbol": "zkMoonSwap-LP"
+ },
+ "0x36038eba2344ae313e628e3195c6cca0631c0824": {
+  "name": "Rsldqr",
+  "symbol": "RSLDQR"
+ },
+ "0x360ce6eecdf98e3851531051907e6a809bf6e236": {
+  "name": "Deri",
+  "symbol": "DERI"
+ },
+ "0x3642a80ecd2ba42899346e3a235e17d38d77092b": {
+  "name": "zKangal",
+  "symbol": "ZKANGAL"
+ },
+ "0x36911a9d9a63c2eda38596470a203bd3c463e2b6": {
+  "name": "Alps",
+  "symbol": "A"
+ },
+ "0x36cd92e810b3f56205b068431eddb88ab3e6b6c8": {
+  "name": "KyberSwap v2 Reinvestment Token",
+  "symbol": "KS2-RT"
+ },
+ "0x36ed8160b40ea5a5c267ca1362e329805b7eb9e4": {
+  "name": "ICHI Vault Liquidity",
+  "symbol": "ICHI_Vault_LP"
+ },
+ "0x36fc5e0a65148b543319bc1ce763c1f296ce3cc0": {
+  "name": "Uqvif",
+  "symbol": "UQVIF"
+ },
+ "0x3721771f91e2ce7871ec6322160834f42495ab5e": {
+  "name": "zkfuture",
+  "symbol": "zkfr"
+ },
+ "0x374795a84a7854c2cceaeaefc453a7ba811ffb54": {
+  "name": "polyzk",
+  "symbol": "pzk"
+ },
+ "0x374f328ba653bc43e42cbeb41e4f8cf2647edb6e": {
+  "name": "",
+  "rpc_error": "execution reverted",
+  "symbol": ""
+ },
+ "0x375488f097176507e39b9653b88fdc52cde736bf": {
+  "name": "MNT",
+  "symbol": "MNT"
+ },
+ "0x37908ffdef18add36518e781a9a77c2c6f4a4260": {
+  "name": "Orbit Chain",
+  "symbol": "ORC"
+ },
+ "0x37b2953b59bbfd4551e2c7f6a706a7bbd5ee539f": {
+  "name": "YfDAI.finance",
+  "symbol": "Yf-DAI"
+ },
+ "0x37dfb6880008b0b676cf81c258bd804b2aec413f": {
+  "name": "contract by alireza",
+  "symbol": "NGZMN"
+ },
+ "0x37eaa0ef3549a5bb7d431be78a3d99bd360d19e5": {
+  "name": "USD Coin",
+  "symbol": "USDC"
+ },
+ "0x37ff7f57ffcc06883d3f9324f3714fe392bf66bc": {
+  "name": "go",
+  "symbol": "go"
+ },
+ "0x380b132b4ac3650b907b4a5a801794bb8b8de56d": {
+  "name": "Young Africans",
+  "symbol": "YAF"
+ },
+ "0x3828726283e1e3262dd65fd6414c49905a5dda71": {
+  "name": "01101010",
+  "symbol": "010"
+ },
+ "0x385aa5abdec2e031b68f33c8517b8232e3bc1dce": {
+  "name": "Zk Potato",
+  "symbol": "ZKPOTATO"
+ },
+ "0x389ea6f1e637ab985de39c931401481c4f94f834": {
+  "name": "mylar",
+  "symbol": "MYL"
+ },
+ "0x389eb0bb5b87d705a5590543bdcb44cf3ea76af0": {
+  "name": "LeetSwapV2 VolatileV1 Pair - USDT/USDC",
+  "symbol": "vLS2-USDT/USDC"
+ },
+ "0x38d378d9739f85d2b9086d9618764ec9f12f938b": {
+  "name": "Cygnus: Borrowable",
+  "symbol": "CygUSD: USDC"
+ },
+ "0x38f8715293f83b9ac51f86f1c968f03551cf0ccb": {
+  "name": "Rain DAO",
+  "symbol": "RND"
+ },
+ "0x3959111ef0ce14d93e19471cad0a1bf5dc9755a1": {
+  "name": "Volcom",
+  "symbol": "VLM"
+ },
+ "0x3971797b7178d0f782e0b5477d53af922ebedfea": {
+  "name": "NGT Token",
+  "symbol": "NGT"
+ },
+ "0x3a24ee2119d16b6047a6b66264bca55bdef13c87": {
+  "name": "Mellow Lp Token 6",
+  "symbol": "MLP6"
+ },
+ "0x3af832cafbeceaa361c833c92de58946163f1e4a": {
+  "name": "UYWESAWEAESDAS",
+  "symbol": "SWERQT"
+ },
+ "0x3b48617f595a3cc63bde5828a2ddf9a9645745e9": {
+  "name": "fake_wETH",
+  "symbol": "wETH"
+ },
+ "0x3b92b5e8e72a016991cc399241a6a4659f7073f4": {
+  "name": "Mantis USDT LP",
+  "symbol": "LP-USDT"
+ },
+ "0x3b9af4daddd546a3bf2841151a02b8e3fdea028a": {
+  "name": "PolyLend  USDT",
+  "symbol": "plUSDT"
+ },
+ "0x3be3f596e49db3d3d31d583ad836f1da93642ea0": {
+  "name": "smokerszkevm",
+  "symbol": "smokes"
+ },
+ "0x3bf5646bf350648d829955bc01bb5057b036e13b": {
+  "name": "Ktqubt",
+  "symbol": "KTQUBT"
+ },
+ "0x3c89580958967b3945c2ed8a77a98df00c93c66f": {
+  "name": "Tropykus zk EVM Market WETH",
+  "symbol": "akWETH"
+ },
+ "0x3ca947aa46b487292f33039248eb92d756d5b277": {
+  "name": "Random Coin",
+  "symbol": "RND"
+ },
+ "0x3d09d99838208be578057822508fa61ce97c6f17": {
+  "name": "Colombian Peso Coin",
+  "symbol": "COP"
+ },
+ "0x3d1654026288b0db06d62cb363d7ce07eac27ec6": {
+  "name": "LeetSwapV2 VolatileV1 Pair - THREE/WETH",
+  "symbol": "vLS2-THREE/WETH"
+ },
+ "0x3d27b2bba8f3cbaa0263e498e876dcdd16548838": {
+  "name": "PotatoSwap LPs",
+  "symbol": "POTATO-LP"
+ },
+ "0x3d5320821bfca19fb0b5428f2c79d63bd5246f89": {
+  "name": "Curve DAO Token",
+  "symbol": "CRV"
+ },
+ "0x3d6060172407f148806e05218342cdd2e4e54dbb": {
+  "name": "realERC20ZKevm",
+  "symbol": "REAL"
+ },
+ "0x3dc1607d48ec9f8ea1993ed96255883e68852c05": {
+  "name": "Poly zkDoge",
+  "symbol": "pzkDOGE"
+ },
+ "0x3e3a5ae030bc0575338ce530a2c3876c35f379e2": {
+  "name": "Wddnr",
+  "symbol": "WDDNR"
+ },
+ "0x3e4509cadba286b99d826d1fbc1755202a816b50": {
+  "name": "Tango",
+  "symbol": "TNG"
+ },
+ "0x3e77484de28245b32f562bf06d1bdb91cf34f56a": {
+  "name": "Pricy",
+  "symbol": "PRC"
+ },
+ "0x3e7bd82b7dbce275ff86ff419d8bdf37b05e574b": {
+  "name": "Frax Ether",
+  "symbol": "frxETH"
+ },
+ "0x3e9d679506f890390cc390db8bd23b0e8406d2d8": {
+  "name": "DappGate by DappLabs",
+  "symbol": "DLGATE"
+ },
+ "0x3ec5d3873eabbb312316b2e3eb8950fe743a9b39": {
+  "name": "Capsule Coin",
+  "symbol": "CAPS"
+ },
+ "0x3ec6c64f98548cc913f1f6ea0c9fd0a3f307f3a9": {
+  "name": "USD Shrike",
+  "symbol": "USDS"
+ },
+ "0x3ed123e94c95a5777149aeec50f4c956b29eccec": {
+  "name": "IdleCDO AA Tranche - idle_cpFASA-USDC",
+  "symbol": "AA_idle_cpFASA-USDC"
+ },
+ "0x3f1cb1090c4a71b959062e121a4d5e3c0f307372": {
+  "name": "robocups",
+  "symbol": "RBS"
+ },
+ "0x3f49d4986bf4c64c4ad4d785b8de0dfcbcaa3b10": {
+  "name": "1kg",
+  "symbol": "1kg"
+ },
+ "0x400efa464ac1a05369cd22866fc76e38612f52f2": {
+  "name": "Uniswap V2",
+  "symbol": "UNI-V2"
+ },
+ "0x402d69c5fb0cdf04f95a09a165e61b19cce376a2": {
+  "name": "zkMoonSwap LPs",
+  "symbol": "zkMoonSwap-LP"
+ },
+ "0x404ae659f793a37d83571f9f024dea74cd61df43": {
+  "name": "zkEVM LPs",
+  "symbol": "zkEVM-LP"
+ },
+ "0x407a0c2c714cb4b04754859a9da5259c6fdd7cc4": {
+  "name": "Hunter",
+  "symbol": "HTR"
+ },
+ "0x40811d28f0213097c944c65045842f323f55413d": {
+  "name": "POLYEVM",
+  "symbol": "PVM"
+ },
+ "0x408d7c48b588d0614ca7d4997125ddfd09bdc0a8": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0x40bdcd0a0acb8c977c30f350769b0165c0ff8d9e": {
+  "name": "DefiEdge Share",
+  "symbol": "DEShare"
+ },
+ "0x40df0c3bbaae5ea3a509d8f2aa9e086776c98e6c": {
+  "name": "Antfarm Token",
+  "symbol": "ATF"
+ },
+ "0x4191f84f66e0b7cc10370ff47a0e2168e35b9bdf": {
+  "name": "BEAST",
+  "symbol": "BEAST"
+ },
+ "0x41993acc09124db0cc38b240d0383abb6bb21978": {
+  "name": "SuperTrout",
+  "symbol": "STR"
+ },
+ "0x4225e51e5b53e5fbccbc5e0e67afe0c6d24a23a5": {
+  "name": "Polygon 2.0",
+  "symbol": "P2.0"
+ },
+ "0x423382e084f1d1d180bec638bc64cc6408896c3c": {
+  "name": "ICHI Vault Liquidity",
+  "symbol": "IV-2-QS"
+ },
+ "0x423a8c731165ea5dc77ebaa7da6abc6bbe85e0f6": {
+  "name": "NESTLE",
+  "symbol": "NES"
+ },
+ "0x42459761f3e0f8a1adca056edfeab30f1eb2cd71": {
+  "name": "Davos Collateral",
+  "symbol": "dCOL"
+ },
+ "0x4286706ecc6bac98ec0e268af59e1a7e76b7a25a": {
+  "name": "water",
+  "symbol": "wat"
+ },
+ "0x42a4ab13b8c2cf350f35b0fb68484042480ed521": {
+  "name": "Telcoin",
+  "symbol": "TEL"
+ },
+ "0x42d36ba59e1d3dcc96365948df794e0054e5fd4d": {
+  "name": "Fee + Staked QLP",
+  "symbol": "fsQLP"
+ },
+ "0x4374a0d2b27e61260acc9868d4a12daa80ce0de2": {
+  "name": "WhiteSwap",
+  "symbol": "WSD"
+ },
+ "0x4380b45fb27be345a239c90085e5b7e401463d8a": {
+  "name": "Vabble",
+  "symbol": "VAB"
+ },
+ "0x43a1542bf9219c004e4330442cbd18e33f643e60": {
+  "name": "l2telegraph.xyz",
+  "symbol": "l2telegraph.xyz"
+ },
+ "0x43b5d03a950ad93db3b8d2db0c1be458873bfab8": {
+  "name": "Blood Crystal",
+  "symbol": "BC"
+ },
+ "0x4444afeaa0c1b00c2cbff2d17a18b9276136badf": {
+  "name": "PJU token",
+  "symbol": "PJU"
+ },
+ "0x44a17967db94049b6b8e81d6efbadc3b653acfc1": {
+  "name": "Dubbz",
+  "symbol": "Dubbz"
+ },
+ "0x44c156e169ed0223f4b8580423321d7350b511ad": {
+  "name": "ManUnited Token",
+  "symbol": "MUT"
+ },
+ "0x459435be0519d8ba6fd1137e2c330444f7d7d86c": {
+  "name": "aPOL-USDC",
+  "symbol": "aPOL-USDC"
+ },
+ "0x45a9ff73854a77af1732d9888da38cdce85dbfdd": {
+  "name": "Roseon USD",
+  "symbol": "RUSD"
+ },
+ "0x462301bc466c49a0ace2bb976c2bd3ec4517560d": {
+  "name": "Baraka",
+  "symbol": "BRK"
+ },
+ "0x46b4edaa761ef8d2934e9f7aaf32b5bf2c9c9f67": {
+  "name": "Merkly Hyperlane FT",
+  "symbol": "hMERK"
+ },
+ "0x46bbf643ea4843675824a79a9ec9d2401df70bb4": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0x46bcfb44e1bb13f2eb0d3e526b2a3855264d0319": {
+  "name": "COSMOS",
+  "symbol": "CSM"
+ },
+ "0x46d2a3946bc55bb6acb1b30aaf469777ac8c15e1": {
+  "name": "Jpcrypto",
+  "symbol": "zkevm"
+ },
+ "0x4703e580891ca1d393197240c8e3065f9dec048f": {
+  "name": "SUNGRAF",
+  "symbol": "SGF"
+ },
+ "0x475089fd520af9fd1fa2cd9933d5b38c07608500": {
+  "name": "xLeet",
+  "symbol": "xLEET"
+ },
+ "0x47511ab3ae522a4e58ce58024b1e6cc229be6e54": {
+  "name": "Druid Game",
+  "symbol": "DRUID"
+ },
+ "0x47a981ca3aa287cef6215937ba064ae05139a206": {
+  "name": "Hufir",
+  "symbol": "HUFIR"
+ },
+ "0x47c23dae3cb8add8813a128b6dba75ddd319d19e": {
+  "name": "Tango",
+  "symbol": "TNG"
+ },
+ "0x47c75a082a748264deea783b587a9bcaa26b3d24": {
+  "name": "CHERRY_NATIVE_1",
+  "symbol": "CN1"
+ },
+ "0x47eeb5e07b8db37f75f29422d90a2b729c8f3955": {
+  "name": "50USDT-50USDC",
+  "symbol": "50USDT-50USDC"
+ },
+ "0x480d7b62dc2fc0fcc568e37e45a8cae154966d53": {
+  "name": "zkEVM Coming Soon",
+  "symbol": "INS"
+ },
+ "0x488572721967148536ae694ebfd9b900ced6d58a": {
+  "name": "Across1 zkEVM",
+  "symbol": "ACROSS1"
+ },
+ "0x48ac594dd00c4aacf40f83337fc6da31f9f439a7": {
+  "name": "USD Quick Perp",
+  "symbol": "USDQ"
+ },
+ "0x49190572fd3afb6cda10fe6f3e5457d0ddf225bb": {
+  "name": "Fake Coin",
+  "symbol": "FCOIN"
+ },
+ "0x495eb675a4543015b8f387fbb1168d3487d2585c": {
+  "name": "Embb",
+  "symbol": "emb"
+ },
+ "0x497729103a496c445638aa0a500f9309b1609fd8": {
+  "name": "aUSDCE-WETH",
+  "symbol": "aUSDCE-WETH"
+ },
+ "0x498f7bd78a206959b2433d7b45506f40c216c952": {
+  "name": "BVCX",
+  "symbol": "NN"
+ },
+ "0x498fc802be78322fad30c6fbf511e947aa28b418": {
+  "name": "Ali test qacc token 2",
+  "symbol": "ATQT2"
+ },
+ "0x4a402e65069b572f484f495e459aef0ec01e05da": {
+  "name": "chellyace",
+  "symbol": "ACE"
+ },
+ "0x4ad041ad3bdf537b71f7158fd7df0ececc5b6f18": {
+  "name": "Balancer wstETH Stable Pool Aura Deposit",
+  "symbol": "auraB-wstETH-STABLE"
+ },
+ "0x4b0f08e02fa486e261838d805e703a2f9989a5ab": {
+  "name": "Mjkvfbz",
+  "symbol": "MJKVFBZ"
+ },
+ "0x4b16e4752711a7abec32799c976f3cefc0111f2b": {
+  "name": "ChainLink Token",
+  "symbol": "LINK"
+ },
+ "0x4b718e0e2fea1da68b763cd50c446fba03ceb2ea": {
+  "name": "Balancer 0vix Boosted Pool (USDT)",
+  "symbol": "bb-o-USDT"
+ },
+ "0x4b76a3678013438da0822e3e1b181e772b96e067": {
+  "name": "MMA",
+  "symbol": "MMA"
+ },
+ "0x4beda87d6252f7d8f9bc94d40618bab915fd5288": {
+  "name": "pariche",
+  "symbol": "PAR"
+ },
+ "0x4bef892c8ce17d066290418e8d910362dbecc2fe": {
+  "name": "One PolyZK",
+  "symbol": "1PZK"
+ },
+ "0x4c1b9a05675cdfd80027635d1925f65f1db12400": {
+  "name": "Meta Apes Peel",
+  "symbol": "PEEL"
+ },
+ "0x4c27ed51499fbd3d374204dbcd908fd2dee05909": {
+  "name": "Cwwmr",
+  "symbol": "CWWMR"
+ },
+ "0x4c7e79c921144ebf7ebdbf0d3156bf192cdbe5f5": {
+  "name": "Balancer wstETH/rETH Stable Pool Aura Deposit",
+  "symbol": "auraB-wstETH/rETH-STABLE"
+ },
+ "0x4c8fc85b0548dc1235fdc3f130c435457e6e5d87": {
+  "name": "zkEVM LPs",
+  "symbol": "zkEVM-LP"
+ },
+ "0x4ce75412dafcebb421e90e42b3fac6db795e4f85": {
+  "name": "KEOM USDC.e Coin",
+  "symbol": "kUSDC.E"
+ },
+ "0x4ced3133e70f6ed17f085170806e68cd12447b09": {
+  "name": "80AURA-20WETH",
+  "symbol": "80AURA-20WETH"
+ },
+ "0x4cf3ef618c064c57c4a1bb582866ec009961ee82": {
+  "name": "Carnomaly",
+  "symbol": "CARR"
+ },
+ "0x4d741a65d144ccf4b7a6fe09b51ba93c180f3dff": {
+  "name": "Unipilot WETH/USDC BALANCED Active Vault",
+  "symbol": "ULP-WETH/USDC-AV-2"
+ },
+ "0x4dca252b0e4b398a444f0327e6b704bda8f73150": {
+  "name": "zkEVMmainnetcollection",
+  "symbol": "zkevmnft"
+ },
+ "0x4dd0985ab290c50a5e865758b3b3d1e414a71864": {
+  "name": "Human Token",
+  "symbol": "HMT"
+ },
+ "0x4e05a63a41b3cb47f2b97e5bc4b23f3b97405ea7": {
+  "name": "Unipilot WETH/MATIC NARROW Active Vault",
+  "symbol": "ULP-WETH/MATIC-AV-3"
+ },
+ "0x4e406fa1676fc1de63bbdb241dccf3c10b55c65a": {
+  "name": "Balancer wsteth/ankrETH",
+  "symbol": "wsteth/ankrETH"
+ },
+ "0x4e60cbd672da7dd6c1615475b5a4ebddcd9b88ac": {
+  "name": "LeetSwapV2 VolatileV1 Pair - THREE/LEET",
+  "symbol": "vLS2-THREE/LEET"
+ },
+ "0x4e66598ea8b0ffb02ba861648e6162d93b35c571": {
+  "name": "Upjalqb",
+  "symbol": "UPJALQB"
+ },
+ "0x4ecee221b552bf5a4a1392dacf5f60f38542a12f": {
+  "name": "Storm LP-V2",
+  "symbol": "STORM-LP"
+ },
+ "0x4ed6be8f4e8af6850bbf214cb368789386debfda": {
+  "name": "Yaap Stam",
+  "symbol": "Yaap"
+ },
+ "0x4ee57b9a8f2c423d5d8190f84977953abc7d2f08": {
+  "name": "BUGG",
+  "symbol": "BUGG"
+ },
+ "0x4ef2fa3ad813741b7a5716ea7f38d325b3f7016d": {
+  "name": "KyberSwap v2 Reinvestment Token",
+  "symbol": "KS2-RT"
+ },
+ "0x4ef7ee75a3ac17e4b1be6618dc0adb926dc03b9f": {
+  "name": "Egwycpb",
+  "symbol": "EGWYCPB"
+ },
+ "0x4efd498bcc331d1bbc6c4e43f39b2ea85678b1f9": {
+  "name": "Ktxov",
+  "symbol": "KTXOV"
+ },
+ "0x4f5954e2aa1e198fc5a0809f442009dbc5c3cbd2": {
+  "name": "FSD",
+  "symbol": "NBV"
+ },
+ "0x4f9e9a2edc0471b6d52634995f827b6678bfb4bd": {
+  "name": "Fee QLP",
+  "symbol": "fQLP"
+ },
+ "0x5010f9d0fa447771e5e7a2a580d933f9b2dbe960": {
+  "name": "POLTest",
+  "symbol": "POLT"
+ },
+ "0x503deabad9641c5b4015041eeb0f1263e415715d": {
+  "name": "KEOM Wrapped BTC",
+  "symbol": "kWBTC"
+ },
+ "0x50b68e352f76e14c84d14efba791362a7be5238b": {
+  "name": "Forest",
+  "symbol": "FOR"
+ },
+ "0x50bb29b4a87491c1591327fdd4d9ffe5c689a0f2": {
+  "name": "USDC",
+  "symbol": "USDC"
+ },
+ "0x50ee029429b8b7324abec8f179cabf37070891bd": {
+  "name": "bfd0",
+  "symbol": "polyzkEVM"
+ },
+ "0x5101a296038a4c67b5f65b8ad4511fbab2d1fede": {
+  "name": "poliy",
+  "symbol": "poliy"
+ },
+ "0x513757483cae44677a4d177b5ef75e3e8b7709c8": {
+  "name": "Pcxwbg",
+  "symbol": "PCXWBG"
+ },
+ "0x513e238f0ea7fee3a4d9df1c2c078a008e35336d": {
+  "name": "noah",
+  "symbol": "noah"
+ },
+ "0x51402420c6a8839f717c101809fb0ab53a0d4053": {
+  "name": "Ctly",
+  "symbol": "CTLY"
+ },
+ "0x51534f254f482cf43ec2f370b15c7c258e6c1b00": {
+  "name": "BSK",
+  "symbol": "BSK"
+ },
+ "0x5158a66ca7181cbdca98491d3182cd4b8b3f8a2f": {
+  "name": "aUSDC-FRAX",
+  "symbol": "aUSDC-FRAX"
+ },
+ "0x51c684171c0277267f886075e41c8b3f87fc3940": {
+  "name": "StableV1 AMM - USDT/USDC",
+  "symbol": "sAMM-USDT/USDC"
+ },
+ "0x51ce7ba9ac1c93c0dc4f2a196fae23fdc8fb6e6b": {
+  "name": "Forta",
+  "symbol": "FORT"
+ },
+ "0x5221b2329dedc6c11c5e8a44713f9c814f738421": {
+  "name": "PPRod",
+  "symbol": "PPR"
+ },
+ "0x5227fa7c9f8a44b6566bf634e8a5a9ba84e5e9d3": {
+  "name": "MEM",
+  "symbol": "MEM"
+ },
+ "0x527ca5273e10b1d02d433444cf7e89d4723548d0": {
+  "name": "CLP Coin",
+  "symbol": "CLPC"
+ },
+ "0x52a371c20863dc7e3866e065cf172a59eb49e13b": {
+  "name": "KyberSwap LP WETH-MATIC",
+  "symbol": "KS-LP WETH-MATIC"
+ },
+ "0x52ee819c24c33f01f0407d0a0cc127ae7ecc3fed": {
+  "name": "polzkEVM token",
+  "symbol": "evmtoken"
+ },
+ "0x52f01f5b88a1f4c2a836d718a6aa2efa747ec4de": {
+  "name": "sed",
+  "symbol": "ssa"
+ },
+ "0x52f09060efd5fa55761b82d0919b47b11915ad38": {
+  "name": "XLA",
+  "symbol": "XLA"
+ },
+ "0x52f2925640b8aca61e916d1a889a8dc45d184c2f": {
+  "name": "Polygnome",
+  "symbol": "PLGN"
+ },
+ "0x53226c1cd2b46befe7801fa89fe8245179965df7": {
+  "name": "ZeriusHypFT",
+  "symbol": "ZHFT"
+ },
+ "0x5381beab9394a01e7571ea0259a96313dad2c2ef": {
+  "name": "XQC",
+  "symbol": "XQC"
+ },
+ "0x53c9e79a088c9b312af494d5727d94f72e93cdeb": {
+  "name": "Gyroscope ECLP GYD/USDT Aura Deposit Vault",
+  "symbol": "auraECLP-GYD-USDT-vault"
+ },
+ "0x53dac8d715350afb3443d346aa3abd73da4534f0": {
+  "name": "",
+  "symbol": ""
+ },
+ "0x53dbc4017ce9c22ff257a5f2222fea95bc5f3579": {
+  "name": "ONLY",
+  "symbol": "ONLY"
+ },
+ "0x53ddc1f1ef585b426c03674f278f8107f1524ade": {
+  "name": "Balancer WETH/USDC",
+  "symbol": "B-WETH/USDC"
+ },
+ "0x544bdce27174ea8ba829939bd3568efc6a6c9c53": {
+  "name": "Balancer B-wstETH-STABLE Gauge Deposit",
+  "symbol": "B-wstETH-STABLE-gauge"
+ },
+ "0x54764ecd8198e51430c07c83f6b63994e1dc7446": {
+  "name": "TURBO DOG",
+  "symbol": "TG!!!"
+ },
+ "0x547d3c2d3b40821270be9f3208b1691fe2f9ace0": {
+  "name": "Narcos",
+  "symbol": "Narcos"
+ },
+ "0x5480b5f610fa0e11e66b42b977e06703c07bc5cf": {
+  "name": "50BAL-50DAI",
+  "symbol": "50BAL-50DAI"
+ },
+ "0x54a64b8d93201e1c31dd92916b8f84bf615c3853": {
+  "name": "Zgqnbsn",
+  "symbol": "ZGQNBSN"
+ },
+ "0x54d474f28a8ec4ac09fec49a50dee0667c227ed7": {
+  "name": "Pfefferspray",
+  "symbol": "PFEFF"
+ },
+ "0x551b2e12b5410cadea75fe27608afeb3b96c9125": {
+  "name": "Rmaknncg",
+  "symbol": "RMAKNNCG"
+ },
+ "0x551d8e255354a69a4614d78758447643c6e02a3d": {
+  "name": "Freedom Cash",
+  "symbol": "FREE"
+ },
+ "0x552af8ca811dd180abdcd1e02bbc506c256c1070": {
+  "name": "BOOMER",
+  "symbol": "OKB"
+ },
+ "0x5558d3635704e4e2c4d359f71d25427abb951195": {
+  "name": "Astroport",
+  "symbol": "ASTRO"
+ },
+ "0x558f6e420af73ecfcb1843764356c531a405cc66": {
+  "name": "PolYMeme",
+  "symbol": "PMeme"
+ },
+ "0x55b0fe414904dcd682d1c404221ae1a922f4a5a4": {
+  "name": "PolyZkApe",
+  "symbol": "PZA"
+ },
+ "0x55c6943f90b396143646114ba7fa8ebdb51fb458": {
+  "name": "Venice",
+  "symbol": ""
+ },
+ "0x5612481c81aadf70972d4f58d0c358a00ffcd60c": {
+  "name": "TEST TOKEN 1",
+  "symbol": "TEST1"
+ },
+ "0x5621540724ad0927cea4e8848785c3c3862ee6f1": {
+  "name": "Linux world",
+  "symbol": "LWD"
+ },
+ "0x5666c4ac73b342f83a2f39e393c0db1d8526d157": {
+  "name": "UA",
+  "symbol": "UA"
+ },
+ "0x567b0c69c18490aee96996d1913e16f7811ac45a": {
+  "name": "BeeHuat",
+  "symbol": "BeeHT"
+ },
+ "0x5692a5fc8c1c56583e327d1fa806755d318a0bd7": {
+  "name": "BUSD Token",
+  "symbol": "BUSD"
+ },
+ "0x56b577d2c571445d7bf34aa5030162182ace40a1": {
+  "name": "Moo Mvx MVLP",
+  "symbol": "mooMvxMVLP"
+ },
+ "0x56bb288957e7ee93787b54213fbeb17fda7a4d37": {
+  "name": "GH",
+  "symbol": "GH"
+ },
+ "0x56c5d491d66e86240732b6849f421aabd4829d8b": {
+  "name": "PolyZKFloki",
+  "symbol": "PZKFLOKI"
+ },
+ "0x56c87d93b778b3b75700e09387ba3f92d53af2d3": {
+  "name": "Njiea",
+  "symbol": "NJIEA"
+ },
+ "0x56d24dc993260f760a468bacf7c7ff3a80e6e038": {
+  "name": "Pairwise Gurve",
+  "symbol": "PWG"
+ },
+ "0x571f09434761ac7ec390df59ce03c019ad69c606": {
+  "name": "Gile",
+  "symbol": "GILE"
+ },
+ "0x572b4071e4325a499aea782c6adf88da4e613adb": {
+  "name": "123456789abcd",
+  "symbol": "123456789abcd"
+ },
+ "0x57558cb8d6005de0bae8a2789d5efaae52dba5a8": {
+  "name": "Mock Frax",
+  "symbol": "mFRAX"
+ },
+ "0x57685ddbc1498f7873963cee5c186c7d95d91688": {
+  "name": "Time is Up",
+  "symbol": "TUP"
+ },
+ "0x5785d6b5ef5f576ef898897554b4f34c8f56cf83": {
+  "name": "Das ist mir Wurst",
+  "symbol": "WRST"
+ },
+ "0x57b07f0d64e5d661f2767da4c335e8bfbdf49972": {
+  "name": "PayRue Rocket",
+  "symbol": "ROCKET"
+ },
+ "0x5891da7c43d49247ce354e2ec7a288be501a5df3": {
+  "name": "LIGHT",
+  "symbol": "LIT"
+ },
+ "0x58bc8e6639f9e4ca1337642354ac11a693116a45": {
+  "name": "polynector",
+  "symbol": "polynector"
+ },
+ "0x593c8f43ef20461b2ae4ec50d2aa6db589facaec": {
+  "name": "Diamond castle",
+  "symbol": "DMCK"
+ },
+ "0x593f0bd79e86e679793f3b044366720c1617e8b7": {
+  "name": "Road to hankady",
+  "symbol": "HANDY"
+ },
+ "0x5947761a54e0bdef8736fd2daefa833eff2eb551": {
+  "name": "BUSD Token",
+  "symbol": "BUSD"
+ },
+ "0x595157f1ba7fb5beccfd689659d3c343319f533e": {
+  "name": "Staked Frax Ether",
+  "symbol": "sfrxETH"
+ },
+ "0x59dd96783cd8cceadb2072f3b9f2d7df5005894c": {
+  "name": "hotpussy",
+  "symbol": "hotpussy"
+ },
+ "0x5a9bd90138cb84616fac21718885fadb0d18dfc0": {
+  "name": "zkSafemoon",
+  "symbol": "zMOON"
+ },
+ "0x5abe6552f0df9485609cb148edc80e90e4229f78": {
+  "name": "Yield Guild Games Token",
+  "symbol": "YGG"
+ },
+ "0x5abfa5c486282f2658ded43ea3e0683cb2d5c706": {
+  "name": "zkPEPE",
+  "symbol": "ZKP"
+ },
+ "0x5ada298913d53aa823824de69b4a6e790aed9327": {
+  "name": "aWETH-MATIC",
+  "symbol": "aWETH-MATIC"
+ },
+ "0x5adb8768e20e98d40379bb8c1cf0b164b12ba86b": {
+  "name": "StarkPolyWeb",
+  "symbol": "SPW"
+ },
+ "0x5af325545bb289e11ba514b163b08150b74f7c90": {
+  "name": "QLP - Gravity Vault",
+  "symbol": "xQLP"
+ },
+ "0x5b125477cd532b892c3a6b206014c6c9518a0afe": {
+  "name": "50WETH-50DAI",
+  "symbol": "50WETH-50DAI"
+ },
+ "0x5b6ce6a43041deaaff3e76d13f92931b7ea7538b": {
+  "name": "Gyroscope ECLP GYD/USDT Aura Deposit",
+  "symbol": "auraECLP-GYD-USDT"
+ },
+ "0x5b7e77e3b78b1dab8f88ab78d5b795b330c5e640": {
+  "name": "Tropykus zk EVM Market variable debt kUSDC",
+  "symbol": "variableDebtkUSDC"
+ },
+ "0x5b87ed163b950a9f3064b4cdca59f9c407ee50d6": {
+  "name": "ApeCoin",
+  "symbol": "APE"
+ },
+ "0x5b9b11138db917f52eed90e4ca4f1ccee55f2705": {
+  "name": "SportX",
+  "symbol": "SX"
+ },
+ "0x5bdd05cbde8fc88eaaee66535873fe5eb10864da": {
+  "name": "masoud zkevm",
+  "symbol": "mazk"
+ },
+ "0x5bf702e33ce112486c544dbbe2ff99664cc8857d": {
+  "name": "55WETH-45MATIC",
+  "symbol": "55WETH-45MATIC"
+ },
+ "0x5bff88ca1442c2496f7e475e9e7786383bc070c0": {
+  "name": "Staked Frax USD",
+  "symbol": "sfrxUSD"
+ },
+ "0x5c0ee4a26ab1d8fb2e3e708b8b24f978158df127": {
+  "name": "MONEY",
+  "symbol": "MONEY"
+ },
+ "0x5c3603cef7bd6f42177c119cc4e3a6c1f38ddffe": {
+  "name": "ICHI Vault Liquidity",
+  "symbol": "ICHI_Vault_LP"
+ },
+ "0x5cd7c1efec89f0a6bcec73ec72b69e7376ed6349": {
+  "name": "KyberSwap LP USDT-WETH",
+  "symbol": "KS-LP USDT-WETH"
+ },
+ "0x5d59e109a5f5d1d0c0576871a024b7a7683955d5": {
+  "name": "Alexa",
+  "symbol": "gng"
+ },
+ "0x5d8cff95d7a57c0bf50b30b43c7cc0d52825d4a9": {
+  "name": "Wrapped liquid staked Ether 2.0",
+  "symbol": "wstETH"
+ },
+ "0x5dd476428f675ded9469fbbd80d004dc26b107c3": {
+  "name": "Kokonut Factory USDT-USDC (Crypto Pool)",
+  "symbol": "KOKO-USDT/USDC"
+ },
+ "0x5e147a8e19952cc5317809e4e5958d34559d35a0": {
+  "name": "Unipilot WETH/WBTC NARROW Active Vault",
+  "symbol": "ULP-WETH/WBTC-AV-3"
+ },
+ "0x5e7b243a7a8820c67c9b8a9caee6b62aad6d9ffc": {
+  "name": "$Rumli",
+  "symbol": "$RML"
+ },
+ "0x5eb74d624b60b3a9336a37509af62f6906975264": {
+  "name": "ICHI Vault Liquidity",
+  "symbol": "ICHI_Vault_LP"
+ },
+ "0x5f32f46cd53cae4eedd1bb8cf39ad21d16ce733e": {
+  "name": "xWETH-WBTC05",
+  "symbol": "xWETH-WBTC05"
+ },
+ "0x5f47bfad0d500a999b6a937e8d1715db0b573631": {
+  "name": "Mock erc20 payment token",
+  "symbol": "MEPT"
+ },
+ "0x5f930dfa01ca180bf22874ea3b46956f467f3373": {
+  "name": "TGRIE",
+  "symbol": "TGRIE"
+ },
+ "0x5fc9787c4b60e2ec5414d89cbeeeab3160b97b2a": {
+  "name": "Cygnus: Collateral",
+  "symbol": "CygLP: aLINK-WETH"
+ },
+ "0x5fce0a639865920d27ff7bf1600b39464645ff71": {
+  "name": "SpaceMonk",
+  "symbol": "SPC"
+ },
+ "0x5fdaf637aed59b2e6d384d9e84d8ac5cf03c6697": {
+  "name": "Melodex",
+  "symbol": "MELS"
+ },
+ "0x611c4f1539653174b05508a4169e188f9521a5bb": {
+  "name": "Hop ETH LP Token",
+  "symbol": "HOP-LP-ETH"
+ },
+ "0x615b25500403eb688be49221b303084d9cf0e5b4": {
+  "name": "Mai Stablecoin",
+  "symbol": "MAI"
+ },
+ "0x6183a57706f75f44e68317d258617b7f5f3e6fd2": {
+  "name": "Kokonut Factory KOKOS-USDC (Crypto Pool)",
+  "symbol": "KOKO-KOKOS/USDC"
+ },
+ "0x618bbbd59918902e76496914e14095db61f9260e": {
+  "name": "GOKU",
+  "symbol": "DBZ"
+ },
+ "0x61a3a2bb3ec966d0e028b8018d500d0c18e297ce": {
+  "name": "Druid Token",
+  "symbol": "DRUID"
+ },
+ "0x61e9e07e795ab701be1a516e11a0ede3d8375a62": {
+  "name": "pzkOHM",
+  "symbol": "pzkOHM"
+ },
+ "0x622df6bc39752891ad17fdd647e8e91e8692a4d7": {
+  "name": "AmityFamilyToken",
+  "symbol": "AFT"
+ },
+ "0x624391b8ef67b55d3c41ee91976e11000ed408b8": {
+  "name": "Morpheus.Network",
+  "symbol": "MNW"
+ },
+ "0x62abd51da1927ae9020264a31f31f07948f31213": {
+  "name": "Balancer ECLP-GYD-USDT Gauge Deposit",
+  "symbol": "ECLP-GYD-USDT-gauge"
+ },
+ "0x62e2ea221e8fe0233ccabc0297b542b16ef3e8fa": {
+  "name": "Smart Layer Network Token",
+  "symbol": "SLN"
+ },
+ "0x632e5426df48c16d6219311ed47434aca1076f17": {
+  "name": "pankam",
+  "symbol": "pkm"
+ },
+ "0x6339458fabd17bca204fba94fc69abbdbb481d26": {
+  "name": "Auditchain",
+  "symbol": "AUDT"
+ },
+ "0x636671314599f15780bb7b1d9c1d7b24fd3bac8a": {
+  "name": "zdvsf",
+  "symbol": "fbdf"
+ },
+ "0x63e85517702f0ba143374556d46e946a8da7c7bc": {
+  "name": "degen",
+  "symbol": "dgn"
+ },
+ "0x63ff2134dd9a32607cdb42f4aeaecac2c3cda71d": {
+  "name": "xUSDC.E-MATIC05",
+  "symbol": "xUSDC.E-MATIC05"
+ },
+ "0x64b7025a89f0fd8436ecbda42128b5f6e72e1d8a": {
+  "name": "Balancer wstETH/ankrETH Aura Deposit Vault",
+  "symbol": "aurawstETH/ankrETH -vault"
+ },
+ "0x64e78e990b2a45fad8b64b43e62a67d69a156042": {
+  "name": "aWETH-WBTC",
+  "symbol": "aWETH-WBTC"
+ },
+ "0x652a38fa87f60a122aef360eeefcaf6258eddf6a": {
+  "name": "ETH Hop Token",
+  "symbol": "hETH"
+ },
+ "0x65862c640ce6fbc3fb289cd93ee8f0dffebc2ffe": {
+  "name": "Moo Quick USDC-USDT Stable",
+  "symbol": "mooQuickUSDC-USDT_Stable"
+ },
+ "0x65a360bb4e4c8fc6134dcfe645b1bd5fb11d36cb": {
+  "name": "Moo Quick Gamma AAVE-WETH",
+  "symbol": "mooQuickGammaAAVE-WETH"
+ },
+ "0x65c005727d9f0daaaf60e3bfcc8a7cddb5d6b00f": {
+  "name": "Duomo",
+  "symbol": "dum"
+ },
+ "0x65da876a95cd5b6a5880710628c436409b1b29fa": {
+  "name": "Balancer wstETH/ankrETH",
+  "symbol": "wstETH/ankrETH"
+ },
+ "0x66422d66beb2630ed3f86a646421ab1603535945": {
+  "name": "olda",
+  "symbol": "olda"
+ },
+ "0x66547e27e16ffb795f0e5d2c579a0b0f6ca38bec": {
+  "name": "Anetqa",
+  "symbol": "anq"
+ },
+ "0x666642ee0a476a6abd24c5d327abd6d37073f137": {
+  "name": "cbeer",
+  "symbol": "cbr"
+ },
+ "0x66a4829c34a4040921fe4bd3998abdb75f8a2e87": {
+  "name": "WSwap",
+  "symbol": "WSS"
+ },
+ "0x66c3e7913adf4189525fd41029807a9f41b47241": {
+  "name": "NoVax",
+  "symbol": "NOVAX"
+ },
+ "0x6724bd47ea170f2f056acba7ccf280e91f04fd4e": {
+  "name": "boo bee",
+  "symbol": "BOO"
+ },
+ "0x673158d12ab3e06dbc006d09b81d79c673477c54": {
+  "name": "",
+  "rpc_error": "execution reverted",
+  "symbol": ""
+ },
+ "0x67450842119dcb093102a950590e494d679aa714": {
+  "name": "Freedom Cash",
+  "symbol": "FREEDOMCASH"
+ },
+ "0x674dbf7b57ac10dad5119c4c3ce65294bb6c998b": {
+  "name": "StarPlan",
+  "symbol": "STARP"
+ },
+ "0x67857d7a6518f77f0217f8c3dd9109bc644a21bb": {
+  "name": "Ali Qacc test",
+  "symbol": "ALIE"
+ },
+ "0x67b7b5dc75be37d4af5a62500b359e88c8916306": {
+  "name": "RPS coin",
+  "symbol": "RPS"
+ },
+ "0x67d3ea5948359dc4dab2abdff1b60f84bc2c3617": {
+  "name": "wiggle",
+  "symbol": "wgl"
+ },
+ "0x67e31359999aa36b1f2e6337dff47d3452127864": {
+  "name": "SHK LP",
+  "symbol": "SHLP"
+ },
+ "0x67ffb7a156729195c6d3b326b39c9fe04753a8f4": {
+  "name": "Lendexe",
+  "symbol": "LEXE"
+ },
+ "0x68106d91336d012ebfc217a30eca1f6e6a38d94d": {
+  "name": "Nxwqx",
+  "symbol": "NXWQX"
+ },
+ "0x68286607a1d43602d880d349187c3c48c0fd05e6": {
+  "name": "QuickSwap",
+  "symbol": "QUICK"
+ },
+ "0x686cfe074dd4ac97cac25f37552178b422041a1a": {
+  "name": "aWETH-QUICK",
+  "symbol": "aWETH-QUICK"
+ },
+ "0x68791cfe079814c46e0e25c19bcc5bfc71a744f7": {
+  "name": "Aave Token",
+  "symbol": "AAVE"
+ },
+ "0x68a05792e4d5b58d6024efd77ad4377cc467a977": {
+  "name": "Elf",
+  "symbol": "ELF"
+ },
+ "0x68a69c596b3839023c0e08d09682314f582314e5": {
+  "name": "50wstETH-BPT-50-bboUSD",
+  "symbol": "50wstETH-BPT-50-bboUSD"
+ },
+ "0x68cdfa86c2696b1ecf3ec29a130256e9f1eba5c7": {
+  "name": "FURIEN",
+  "symbol": "FUR"
+ },
+ "0x68cfaf67bbab05d4e9bd30d074cf695b55263c33": {
+  "name": "PzkTomb Token",
+  "symbol": "PZKTOMB"
+ },
+ "0x68d9baa40394da2e2c1ca05d30bf33f52823ee7b": {
+  "name": "KEOM USD Coin",
+  "symbol": "kUSDC"
+ },
+ "0x6927f23cf447651eee109e59f284871715cc49b2": {
+  "name": "Polygon Zkevm COG",
+  "symbol": "PZCOG"
+ },
+ "0x696c0ba235444607a1c4b93e6b34ba14928c1b60": {
+  "name": "DoveSwap",
+  "symbol": "DOV"
+ },
+ "0x69b678c8e02a23cc8f3b33cef339424245841439": {
+  "name": "Burrito",
+  "symbol": "BRTO"
+ },
+ "0x69ceb627cb21131f1eb82818f5eb3055f5788f17": {
+  "name": "Poly ZK PEPE",
+  "symbol": "zPEPE"
+ },
+ "0x6a0a288c6328e66d99a23ad28254970f18020b7f": {
+  "name": "MioxGames Token",
+  "symbol": "MXGS"
+ },
+ "0x6a80a465409ce8d36c513129c0feea61bed579ba": {
+  "name": "Kyber Network Crystal v2",
+  "symbol": "KNC"
+ },
+ "0x6aab2db845b23729af1f5b0902ff4bdc32bbf948": {
+  "name": "IdleCDO AA Tranche - idle_cpPOR-USDT",
+  "symbol": "AA_idle_cpPOR-USDT"
+ },
+ "0x6adda16fadb23fc02c0a3f959048b011a862af9a": {
+  "name": "CYBORG",
+  "symbol": "CYB"
+ },
+ "0x6af2726ce151a5a6ea9ddc1a756853fe37ac0850": {
+  "name": "Future Game",
+  "symbol": "FG"
+ },
+ "0x6b0a1214af20e6c06525f49245383fcac31d9544": {
+  "name": "KyberSwap v2 Reinvestment Token",
+  "symbol": "KS2-RT"
+ },
+ "0x6b0ae71868cbf466f59b081f21464adcf01d4b30": {
+  "name": "danielle",
+  "symbol": "dnl"
+ },
+ "0x6b856a14cea1d7dcfaf80fa6936c0b75972ccace": {
+  "name": "Frax Share",
+  "symbol": "FXS"
+ },
+ "0x6baba5bfc7b2aae4b239bc3272d21d05804d57e7": {
+  "name": "Moo Quick Gamma QUICK-WETH",
+  "symbol": "mooQuickGammaQUICK-WETH"
+ },
+ "0x6bbc1ada4eaf204b5edbecdcf5d226b46eec311a": {
+  "name": "Asrt",
+  "symbol": "ttr"
+ },
+ "0x6bdcc3b9004c721a343aa5df10b64e7d75673f13": {
+  "name": "Option to buy ZERO",
+  "symbol": "oZERO"
+ },
+ "0x6beb2006a2c8b2dc90d924b8b19be084bc5a5eba": {
+  "name": "Pool cpPOR-USDT",
+  "symbol": "cpPOR-USDT"
+ },
+ "0x6c171f2d4f39dca28d03722482dfd001ff87bcfb": {
+  "name": "NogemHypFT",
+  "symbol": "NHFT"
+ },
+ "0x6c50f5650b915db7aab0d48b1ab8e3a1f7e9894b": {
+  "name": "Qqlbo",
+  "symbol": "QQLBO"
+ },
+ "0x6c91c44abfd5280d120e8c9970855fdd2b185e4e": {
+  "name": "Pickle Swap",
+  "symbol": "PKL"
+ },
+ "0x6c992c726270c45bdab6dcbbfef58f03de266fd2": {
+  "name": "zkEVM LPs",
+  "symbol": "zkEVM-LP"
+ },
+ "0x6cf5c5548a7e9fa958e66709e808ad4bfdee630b": {
+  "name": "PolyLend  Variable Debt MATIC",
+  "symbol": "variableDebtplMATIC"
+ },
+ "0x6cf7e5eb13d6f21b9f07036639c6b3cb172dbbb0": {
+  "name": "miner2308",
+  "symbol": "008"
+ },
+ "0x6d153bcfef1032d65f2844a643fddd933dd84d00": {
+  "name": "wannabe",
+  "symbol": "wnb"
+ },
+ "0x6d363547a59d9869fc5e4f9caf5a81f6af1667d7": {
+  "name": "ZKgoofs",
+  "symbol": "ZKG"
+ },
+ "0x6d91e01a609e34d58678265ee6b821f0e1b9044e": {
+  "name": "Dirac USDC",
+  "symbol": "dUSDC"
+ },
+ "0x6d9b74cdc3b873eb7aaa7dfe469c859bc7dee49a": {
+  "name": "Route",
+  "symbol": "ROUTE"
+ },
+ "0x6db1231fa95476fdb43c2175b0f000f15ddf6a24": {
+  "name": "maso20",
+  "symbol": "mas2"
+ },
+ "0x6dcd84af783bcd4ca6da9dc3c6872431575efd4b": {
+  "name": "VIBE Fun District",
+  "symbol": "VIBE"
+ },
+ "0x6df23b576bc552ff0a02c44946c9b95161e0e25d": {
+  "name": "Spring Token",
+  "symbol": "SPRING"
+ },
+ "0x6e21d1848be1505c3ea403a261284e45b3dab663": {
+  "name": "Cygnus: Borrowable",
+  "symbol": "CygUSD: USDC"
+ },
+ "0x6e359547ccc1d724948fc79503eae48a7fe10254": {
+  "name": "FreeJulianAssange",
+  "symbol": "JULIAN"
+ },
+ "0x6e6b8f03c407cfce46ba9847231fec40dce93083": {
+  "name": "",
+  "rpc_error": "invalid opcode: MCOPY",
+  "symbol": ""
+ },
+ "0x6e867277ad6720749b717b674646d787ff49445f": {
+  "name": "CLP Coin",
+  "symbol": "CLPC"
+ },
+ "0x6ed3a021c68d3e8defe047ebb88b5719f2d8beb4": {
+  "name": "Izcpde",
+  "symbol": "IZCPDE"
+ },
+ "0x6eea93a667e69b883d9c8a29be45398dceb72453": {
+  "name": "Cygnus: Collateral",
+  "symbol": "CygLP: aUSDC-DAI"
+ },
+ "0x6f3446eaae73827a073dcdd107f511faec61637b": {
+  "name": "y",
+  "symbol": "y"
+ },
+ "0x6f34a44fce1506352a171232163e7716dd073ade": {
+  "name": "Balancer rETH/bboUSD",
+  "symbol": "B-rETH-bboUSD"
+ },
+ "0x6f4ea44d9b9a95ce617e17bd9bbb80d343681d35": {
+  "name": "OKXMock20",
+  "symbol": "OKXMock20"
+ },
+ "0x701528c4fc6d91373e145c050c15e4922c0b7b51": {
+  "name": "Druid Token",
+  "symbol": "DRUID"
+ },
+ "0x703d9b997a12402a98f56fc380e4c7b34c6eba29": {
+  "name": "StormX",
+  "symbol": "STMX"
+ },
+ "0x707836fd75e2614d684fd6d6d41ef5afd2ff8b46": {
+  "name": "zkMoonSwap LPs",
+  "symbol": "zkMoonSwap-LP"
+ },
+ "0x70d35152fbf63fb312709b11a9bac87519de0019": {
+  "name": "Rocket Pool Protocol",
+  "symbol": "RPL"
+ },
+ "0x710fc3d495a6430de182847fd03a2d070148df3d": {
+  "name": "DoveSwap LP",
+  "symbol": "DOV-LP"
+ },
+ "0x7138c6603d371272281e24ce974ad8aa23abccc8": {
+  "name": "zkEVM LPs",
+  "symbol": "zkEVM-LP"
+ },
+ "0x714bec23142375c1a6576a9b7ca302dd1b680237": {
+  "name": "Dirac USDC (Cygnus)",
+  "symbol": "dcUSDC"
+ },
+ "0x7178228ed6e3d4136e55cc4886639722aa2e6bab": {
+  "name": "NANA",
+  "symbol": "NANA"
+ },
+ "0x7191e25a27dbe7943dc6f78957a74cd9ae8972a9": {
+  "name": "segaz",
+  "symbol": "SGZ"
+ },
+ "0x71c539700a6a8b934908ce2835737cd73e7d3f76": {
+  "name": "PKI",
+  "symbol": "PKI"
+ },
+ "0x7265bd88a47cff609f13c24b3098a119a3e246ed": {
+  "name": "yolo",
+  "symbol": "yl"
+ },
+ "0x72cef9234e033053bcc86ae8ef3cb2846dfec427": {
+  "name": "Testing zk",
+  "symbol": "Zktedg"
+ },
+ "0x7320b543a4ce46a691a2cf317f1157a0b5059d43": {
+  "name": "BlockChainCoinX",
+  "symbol": "XCCX"
+ },
+ "0x73318bf57fa6a4a97e0140e5cff8219755fcddbc": {
+  "name": "Idle Clearpool Strategy Token",
+  "symbol": "idle_cpFASA-USDC"
+ },
+ "0x7365508b715190afa53cdd2296a0387dbf1419aa": {
+  "name": "Beeky",
+  "symbol": "BEEKY"
+ },
+ "0x73bc63bbe75a40a1e68a3c8d3f45285a9b9ba457": {
+  "name": "Xdkzsys",
+  "symbol": "XDKZSYS"
+ },
+ "0x73c3a78e5ff0d216a50b11d51b262ca839fcfe17": {
+  "name": "Kokonut Factory QUICK-USDC (Crypto Pool)",
+  "symbol": "KOKO-QUICK/USDC"
+ },
+ "0x73cff65a897893bc85eb5b8b3a1afeb1f0bffe9c": {
+  "name": "zkevmmainnetnfts",
+  "symbol": "zkevms"
+ },
+ "0x73e856d322e31083d7c3eef88d21f4c13167f79a": {
+  "name": "BENGALS",
+  "symbol": "BENGALS"
+ },
+ "0x742a39720d904566ef8147ddd744cd88284fa874": {
+  "name": "PixelMan Crypto",
+  "symbol": "PMC"
+ },
+ "0x742e3a17291cdde6bb32dcfef1c5e18cc1b4d0fa": {
+  "name": "PolyDragons",
+  "symbol": "PD"
+ },
+ "0x744c5860ba161b5316f7e80d9ec415e2727e5bd5": {
+  "name": "Dai Stablecoin",
+  "symbol": "DAI"
+ },
+ "0x744fd7d693b738b1ff9f738730c3d0344b3b10df": {
+  "name": "TestToken",
+  "symbol": "TT"
+ },
+ "0x74552b08ad056f856a82510f68c3c2baf2ba86f7": {
+  "name": "polyZK",
+  "symbol": "pyk"
+ },
+ "0x746290af6d1c998a25fe5ba503a6124575cd2de0": {
+  "name": "Rfupw",
+  "symbol": "RFUPW"
+ },
+ "0x746cdd98106e8851e1196783b7ad1314d98e49f3": {
+  "name": "Poly zkFloki",
+  "symbol": "PolyzkFloki"
+ },
+ "0x74931a5ca303b7a3aa500e98f422621cc0ed144a": {
+  "name": "orlikBTC",
+  "symbol": "oBTC"
+ },
+ "0x74ad340fe9c506700b6ca039bdfa36cfd5dcc18c": {
+  "name": "Fluid USDC",
+  "symbol": "fUSDC"
+ },
+ "0x74cbc67e1e3e6a643c0019437863774b0c4b0844": {
+  "name": "aleksiuuu",
+  "symbol": "ALU"
+ },
+ "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979": {
+  "name": "Fantom Bomb",
+  "symbol": "fBOMB"
+ },
+ "0x754cc7ec844d721b23a260fb9b569e814d3b138a": {
+  "name": "xWETH-MATIC3",
+  "symbol": "xWETH-MATIC3"
+ },
+ "0x75b8704a4fe17c2eac7836e5236de427e87ecc91": {
+  "name": "Sheep",
+  "symbol": "SHP"
+ },
+ "0x761a8f666f1c46169974636a90202272dbb54f4c": {
+  "name": "Uniswap V2",
+  "symbol": "UNI-V2"
+ },
+ "0x763f02688cc0c78e8c4e852302bfae6e1b33f429": {
+  "name": "IOU",
+  "symbol": "IOU"
+ },
+ "0x765277eebeca2e31912c9946eae1021199b39c61": {
+  "name": "Wrapped Ether",
+  "symbol": "anyWETH"
+ },
+ "0x767c2f658910f876a748f76192ceda85247329ce": {
+  "name": "Poly ZK PEPE",
+  "symbol": "zPEPE"
+ },
+ "0x76c318b015dc6b33c0dc46e8432fce37b6095d34": {
+  "name": "Flux USDC",
+  "symbol": "fUSDC"
+ },
+ "0x77025d52acabd4d49eaecec46d021b18e8a7916c": {
+  "name": "Three of lifes",
+  "symbol": "LIFEs"
+ },
+ "0x7733650c7aaf2074fd1fcf98f70cbc09138e1ea5": {
+  "name": "Balancer B-rETH-STABLE Gauge Deposit",
+  "symbol": "B-rETH-STABLE-gauge"
+ },
+ "0x779906b1afb88e050a1bd9fb71119358d59e2e07": {
+  "name": "Boris",
+  "symbol": "BRS"
+ },
+ "0x77d0b4d7c85e229ee6e30550ffdc864c2c8bc28c": {
+  "name": "main",
+  "symbol": ""
+ },
+ "0x78d23237730e793fd9bc9da9f1e991244e52263b": {
+  "name": "KyberSwap v2 Reinvestment Token",
+  "symbol": "KS2-RT"
+ },
+ "0x78fb985d6628338932c2a95391ee96ada15fd2a0": {
+  "name": "ChainLink Token",
+  "symbol": "LINK"
+ },
+ "0x792f80ba0f6b05b9d3b2267af6f1cc0092f0cfa4": {
+  "name": "Balancer rETH Stable Pool Aura Deposit",
+  "symbol": "auraB-rETH-STABLE"
+ },
+ "0x7948b01062fc562fa50de8d53e4d6ac1fa39c7bc": {
+  "name": "D8X LP Share Token 2",
+  "symbol": "dUSDC"
+ },
+ "0x797bb009db7e0119e83a4c777c432524dc5bde96": {
+  "name": "Roseon LP",
+  "symbol": "ROLP"
+ },
+ "0x7a031c9b16242d1e0378b346588ef8a2369b4d0f": {
+  "name": "Strong",
+  "symbol": "STRG"
+ },
+ "0x7a0b2bfa9fcc2c34be2424e4416e29eee160367b": {
+  "name": "FROG",
+  "symbol": "FROG"
+ },
+ "0x7a5f4d3c781ecbcdc6d1b28d293ccee1b74ea899": {
+  "name": "bielann",
+  "symbol": "ann"
+ },
+ "0x7a61d9e1d0da07747a81c599f48777c5a500f657": {
+  "name": "Polytrade",
+  "symbol": "TRADE"
+ },
+ "0x7aac5dd3fe24aac9aa8c0f4217d972e2396b9fea": {
+  "name": "Stockplay",
+  "symbol": "STP"
+ },
+ "0x7b55fc404719225c80cb206d0de9d021ebc6b2f0": {
+  "name": "Gyroscope ECLP wstETH/WETH Aura Deposit",
+  "symbol": "auraECLP-wstETH-WETH"
+ },
+ "0x7bc8b1b5aba4df3be9f9a32dae501214dc0e4f3f": {
+  "name": "Wrapped ETH",
+  "symbol": "WETH"
+ },
+ "0x7bdd4d2a921925667bf638d79b285ddf85d23a27": {
+  "name": "MUSIC",
+  "symbol": "MSC"
+ },
+ "0x7be3b0658c30de4896f89d26f79d6d64dda7ea8e": {
+  "name": "leetswap.finance",
+  "symbol": "LEET"
+ },
+ "0x7bf3c7c23501ea3e09b237d6f8adcb7ea3cef41c": {
+  "name": "Thetanuts Cash Settled Covered Call Vault STMATIC USD",
+  "symbol": "TN-CSCCv1-STMATICUSD"
+ },
+ "0x7c06280212f739af104d90d9952051fcde7f0806": {
+  "name": "Synth",
+  "symbol": "SYNTH"
+ },
+ "0x7c1b24c139a3eda18ab77c8fa04a0f816c23e6d4": {
+  "name": "Tetu Token",
+  "symbol": "TETU"
+ },
+ "0x7c2af1fb79d0b1c67d4eb802d44c673d0a1d2c04": {
+  "name": "Staked Frax Ether",
+  "symbol": "sfrxETH"
+ },
+ "0x7c8045bc076cf6928084c2b57081a0afb5e9f010": {
+  "name": "MELENCHON",
+  "symbol": "MELUCHE"
+ },
+ "0x7c870249714884b479f5019f164eca01bddc98e0": {
+  "name": "ZKEVM2",
+  "symbol": "ZKEVM2"
+ },
+ "0x7c887bcfa3a7bce27ed7828fa411d846b42bf59a": {
+  "name": "GreenMetaverseToken",
+  "symbol": "GMT"
+ },
+ "0x7caec4f5886a3a44a0ed028aaf98aef5d13c2c74": {
+  "name": "Vqctm",
+  "symbol": "VQCTM"
+ },
+ "0x7cfd1b74f530d6e264c49abe2ee7417ffd11168f": {
+  "name": "Cryptoflip.net",
+  "symbol": "FLIP"
+ },
+ "0x7d3db4e24489c05dd79bd0850e889213c97fef27": {
+  "name": "Bxeluhf",
+  "symbol": "BXELUHF"
+ },
+ "0x7d94bfb8683e4b5f8d0ee29dc2e5e0e51daccee1": {
+  "name": "Timeswap MATIC",
+  "symbol": "TS-MATIC"
+ },
+ "0x7da2bb31cb168be60025f9122a95cbb3949e7e9e": {
+  "name": "50WETH-50MATIC",
+  "symbol": "50WETH-50MATIC"
+ },
+ "0x7e2feea957b7d1606335e339754f4e52b452b792": {
+  "name": "Lido DAO Token",
+  "symbol": "LDO"
+ },
+ "0x7e30d97209f7aa7699066810265bb0e6512aa751": {
+  "name": "spade",
+  "symbol": ""
+ },
+ "0x7e422f2f4b7039ae1915d70296d25ddbaa205e7d": {
+  "name": "Kokonut Factory DAI-USDC (Crypto Pool)",
+  "symbol": "KOKO-DAI/USDC"
+ },
+ "0x7e4eb2aac8180f9c197ca846e310651b465ea7cb": {
+  "name": "VAIOT Token",
+  "symbol": "VAI"
+ },
+ "0x7e5845b1bfc9e6620893e48346bdb8541995a8d9": {
+  "name": "Frax Price Index",
+  "symbol": "FPI"
+ },
+ "0x7f2c9d584ab3936dced0f4b5711440905550e231": {
+  "name": "test contract 4894",
+  "symbol": "test 4894"
+ },
+ "0x7f4a19507d20e4cf61427e566137f1c706b46e45": {
+  "name": "POLYHASH-REAL",
+  "symbol": "POLHHH"
+ },
+ "0x7f832648f8e9346e1c8f995953928a5c2f6868f6": {
+  "name": "VGAMES",
+  "symbol": "VGS"
+ },
+ "0x7fa538babf339f90bc2325f6768f65edfc718267": {
+  "name": "Voskjcw",
+  "symbol": "VOSKJCW"
+ },
+ "0x7fc0ba24124282808d87d666092e457a91ee4e28": {
+  "name": "zkMoonSwap LPs",
+  "symbol": "zkMoonSwap-LP"
+ },
+ "0x7fc3f5ead5a5b74d3094d46df8bbaa60e223ab43": {
+  "name": "MANTRA DAO",
+  "symbol": "OM"
+ },
+ "0x7fc8fb921b3bd59b5ccba18fa9e0f229e5842c46": {
+  "name": "hyper",
+  "symbol": "hyper"
+ },
+ "0x7fda66c65e0f42820ec26cbc9cf61747f0f6b436": {
+  "name": "ztt",
+  "symbol": ""
+ },
+ "0x8010dc416dd5de21e655216b41f97c3e3469c9ef": {
+  "name": "ZKEVM DOGE",
+  "symbol": "ZDOGE"
+ },
+ "0x80868f4b078ec4bc39de03a5b26ddf6fc6852a71": {
+  "name": "D8X LP Share Token 1",
+  "symbol": "dUSDC"
+ },
+ "0x80eede496655fb9047dd39d9f418d5483ed600df": {
+  "name": "Frax USD",
+  "symbol": "frxUSD"
+ },
+ "0x80f0248c053f6dc3e609038f957e6dbfe3c4c56b": {
+  "name": "PLY",
+  "symbol": "PLY"
+ },
+ "0x80f29f092b00f2c606e58807b7e03cd2f4b428f1": {
+  "name": "mastermind",
+  "symbol": "mastermind"
+ },
+ "0x80fb51db9322b46b9d393dd5a42617002c7c11db": {
+  "name": "Fold",
+  "symbol": "Fold"
+ },
+ "0x8122c5ea8fc58b65efe219f5a9404265dffcfba0": {
+  "name": "PolyLend  Variable Debt USDT",
+  "symbol": "variableDebtplUSDT"
+ },
+ "0x81765a6df6279564b30292a509bdf0d45bfc4ac4": {
+  "name": "Gyroscope ECLP wETH/rETH Aura Deposit",
+  "symbol": "auraECLP-wETH-rETH"
+ },
+ "0x818720928810e1f3b7aa677e446a333dda26353e": {
+  "name": "Kqbns",
+  "symbol": "KQBNS"
+ },
+ "0x819d1daa794c1c46b841981b61cc978d95a17b8e": {
+  "name": "Davos.xyz USD",
+  "symbol": "DUSD"
+ },
+ "0x81a7f0e76b60b76719a4a78cbcc391b2e03905b8": {
+  "name": "Bribe veZERO",
+  "symbol": "bveZERO"
+ },
+ "0x8207cf61083fa9dfce837fa5fd8f5d15f607292f": {
+  "name": "SAP",
+  "symbol": "SAP"
+ },
+ "0x822b81b7ba98c128407a7e349a26a6e03b5ca1b9": {
+  "name": "zkEVM ZRO",
+  "symbol": "ZRO"
+ },
+ "0x822dded2af707cb7a2bcafd99bd54207b44af592": {
+  "name": "Kokonut Factory MATIC-USDC (Crypto Pool)",
+  "symbol": "KOKO-MATIC/USDC"
+ },
+ "0x8241ae3540dfb09837f558813c3b8c583e0dae77": {
+  "name": "NFT coin",
+  "symbol": "NFT"
+ },
+ "0x8251d9b3a30c5c96391c5bcf7f531c227befde2d": {
+  "name": "FanslandPoint",
+  "symbol": "FPT"
+ },
+ "0x82603f301b182ed02524e7efb0796d2b61788151": {
+  "name": "BMChain Token",
+  "symbol": "BMT"
+ },
+ "0x831b7d0f6f977657c5060822b3248e7c998f3adf": {
+  "name": "Red Mars Token",
+  "symbol": "RMT"
+ },
+ "0x832e71658351ec1032bf7836df4c6b126c949bf8": {
+  "name": "Staging Test Token",
+  "symbol": "STT"
+ },
+ "0x8368e179cb01a6e76fc7e689a65aabd933b99260": {
+  "name": "Moo Quick ETH-USDC Narrow",
+  "symbol": "mooQuickETH-USDC_Narrow"
+ },
+ "0x8376db057971a4051081265fabe621d13f9e63bf": {
+  "name": "Mellow Lp Token 9",
+  "symbol": "MLP9"
+ },
+ "0x83b874c1e09d316059d929da402dcb1a98e92082": {
+  "name": "Staked MATIC",
+  "symbol": "stMATIC"
+ },
+ "0x83bef6b4bdc5e23767dedc5c0c812ab8a783e685": {
+  "name": "glory",
+  "symbol": "gly1"
+ },
+ "0x83de646a7125ac04950fea7e322481d4be66c71d": {
+  "name": "aUSDC-WBTC",
+  "symbol": "aUSDC-WBTC"
+ },
+ "0x83fd68b450c572049685ed91745c1682aa405e0e": {
+  "name": "PVE",
+  "symbol": "PVE"
+ },
+ "0x83ff2191e1b03bc903e3d7662978022dc4e65224": {
+  "name": "Marathon OFT",
+  "symbol": "MARA"
+ },
+ "0x84324e02038d0a14e0e427dda55c2311ee52c033": {
+  "name": "willies",
+  "symbol": "wls"
+ },
+ "0x8432a9e2f1ab782a780d70966506937f26becb2b": {
+  "name": "PolyLend  USDC",
+  "symbol": "plUSDC"
+ },
+ "0x8462e4173d63f8769f94bf7ae5bc1ac7ab5d96e3": {
+  "name": "aMATIC-USDC",
+  "symbol": "aMATIC-USDC"
+ },
+ "0x847d5b13b76f39c76f1a183553324607c7f9e16f": {
+  "name": "Staked + Bonus + Fee SHK",
+  "symbol": "sbfSHK"
+ },
+ "0x849b4df00524021a2a826f096821d2dbfb26077a": {
+  "name": "test",
+  "symbol": "TST"
+ },
+ "0x84b8cf5425e378a4de220448c7aedcc80f7ae98c": {
+  "name": "Cygnus: Collateral",
+  "symbol": "CygLP: aUSDC-DAI"
+ },
+ "0x84c1351d8dd341e1eb1e629d57c3455b5bec3e10": {
+  "name": "Staked Kokonut Swap Token",
+  "symbol": "sKOKOS"
+ },
+ "0x850554c5f5fc0f88906b441d6047cbfcbf58691c": {
+  "name": "KingsGold",
+  "symbol": "KGG"
+ },
+ "0x8521b7676cbf03e0a9853ef1dd12ac1e3030ddfa": {
+  "name": "WhiteSwap",
+  "symbol": "WSD"
+ },
+ "0x8637dd31400c53d1390c3ddc19f17a6684b12c10": {
+  "name": "Perf1",
+  "symbol": "prf"
+ },
+ "0x86dbe323f68aa881ef3fbab031b4c0bc4457f7d0": {
+  "name": "zkMoonSwap LPs",
+  "symbol": "zkMoonSwap-LP"
+ },
+ "0x8772c31a63e6e0547789815be6d1140bd118d48f": {
+  "name": "MetaMask zkEVM",
+  "symbol": "MMzkEVM"
+ },
+ "0x87b801a9c990b1bc07831f05aa34c3e3b5ae936e": {
+  "name": "PolyTools",
+  "symbol": "zkPT"
+ },
+ "0x880e8f1c6615bbda9690a702790b61a711a18874": {
+  "name": "KyberSwap v2 Reinvestment Token",
+  "symbol": "KS2-RT"
+ },
+ "0x8813b3eeb279a43ac89e502e6fbe0ec89170c088": {
+  "name": "Sealed Dyson Sphere",
+  "symbol": "sDYSN"
+ },
+ "0x88152f9b973b86c0e31d16f7c4d2896572712131": {
+  "name": "MAGA",
+  "symbol": "TRUMP"
+ },
+ "0x888b707a12205b52805d86123fe720ba119f0632": {
+  "name": "KEOM Dai Stablecoin",
+  "symbol": "kDAI"
+ },
+ "0x8903dc1f4736d2fcb90c1497aebbaba133daac76": {
+  "name": "KEOM Matic Token",
+  "symbol": "kMATIC"
+ },
+ "0x8919ebcba6c8abab34a341fa0b3ba35fe3589db2": {
+  "name": "Mintly OFT",
+  "symbol": "MIN"
+ },
+ "0x891f70721524ae4f8206a5d81b482c066abb56d1": {
+  "name": "BUSD Token",
+  "symbol": "BUSD"
+ },
+ "0x8971ea360a3bad81caddc10dea761d8b1c92e788": {
+  "name": "Bergsteiger",
+  "symbol": "BGST"
+ },
+ "0x89bafad9b675973f374ee541634afb9242d65ffc": {
+  "name": "Etherway",
+  "symbol": "OFT"
+ },
+ "0x89ec42da3e0b193beff85eaf1a0d9a20aae85555": {
+  "name": "Ewzwtlg",
+  "symbol": "EWZWTLG"
+ },
+ "0x8a05b1fffffeb802a17f7203252683b49e94bcb4": {
+  "name": "zkEVM",
+  "symbol": "ZKP"
+ },
+ "0x8a305335f232172f7af5a7caa974e71639790e07": {
+  "name": "zkevm",
+  "symbol": "zev"
+ },
+ "0x8aaebb46e1742f4623e6e1621f909f01846ca5e2": {
+  "name": "ZENF Token",
+  "symbol": "ZENF"
+ },
+ "0x8ad87fd553cf8e66e0eedd63ffa6f0b1aa2ea7d5": {
+  "name": "Shnip",
+  "symbol": "SHP"
+ },
+ "0x8ae0df01867b92cdcbedcc092cc742b925c8fe65": {
+  "name": "skold",
+  "symbol": "sk"
+ },
+ "0x8b0efc258086eaf3b83cd4e9f3c034c5f033a79a": {
+  "name": "Bxaezjh",
+  "symbol": "BXAEZJH"
+ },
+ "0x8b393262c2456967e4d30d33be9bd99fcf0605a1": {
+  "name": "STEER_UNIV3_VAULT_2",
+  "symbol": "STEER_UNIV3_VAULT_2"
+ },
+ "0x8b46175211f57ff1749cddd7b6383d3b0393570e": {
+  "name": "AACOIN",
+  "symbol": "AA"
+ },
+ "0x8b6f2444595f8341301ce606268d1984c39018dd": {
+  "name": "dentystadanio",
+  "symbol": "dd3"
+ },
+ "0x8ba3fb85a425add5b7920a3f8e024e8753383dcb": {
+  "name": "Tether",
+  "symbol": "USDT"
+ },
+ "0x8bfce1256934c5b3a64a89da74a67baa9fc91bb5": {
+  "name": "USSR - STALIN coin",
+  "symbol": "STALIN"
+ },
+ "0x8c217f758f57cc02390b24af5f46e7850d6a82d0": {
+  "name": "KyberSwap v2 Reinvestment Token",
+  "symbol": "KS2-RT"
+ },
+ "0x8c7d118b5c47a5bcbd47cc51789558b98dad17c5": {
+  "name": "rsETH",
+  "symbol": "rsETH"
+ },
+ "0x8ca14fbcef2bf0689b47c92aa64b7055a0d13b37": {
+  "name": "zkevm",
+  "symbol": "POLS"
+ },
+ "0x8caba8e4ed03c416f024376b095ce5be3560ab60": {
+  "name": "Rai.Finance",
+  "symbol": "SOFI"
+ },
+ "0x8cb0ec0f9fb3fd056d9839d2a000fec2dba7163d": {
+  "name": "WGMI",
+  "symbol": "WGMI"
+ },
+ "0x8cefd956fac3418461529bd6663bcd6b65a4b974": {
+  "name": "Nebula",
+  "symbol": "NA"
+ },
+ "0x8d2da72fef7d8034dad3ef5394abcdeb518ffb8a": {
+  "name": "Ursus",
+  "symbol": "URS"
+ },
+ "0x8d60b5f061ecfef275715f3dd7aa37dfbb9d8706": {
+  "name": "Nakamoto.Games",
+  "symbol": "NAKA"
+ },
+ "0x8d7ae90d792ed7160fd4cff0665c4df85207d168": {
+  "name": "LeetSwapV2 VolatileV1 Pair - pzkDOGE/LEET",
+  "symbol": "vLS2-pzkDOGE/LEET"
+ },
+ "0x8d893ce60e3c0cbe8fa6cb74332351b08259e74d": {
+  "name": "FlashLiquidity",
+  "symbol": "FLASH-LP"
+ },
+ "0x8daa6dee7a0c96df950c39e90e08b5fd5395042d": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0x8dad21cde82fc11094dcfecc189378f1443417a0": {
+  "name": "PEPE zkEVM",
+  "symbol": "PEPE"
+ },
+ "0x8db617f93ae969b9742212a51b2f9b75d08888f3": {
+  "name": "Vwfmxnw",
+  "symbol": "VWFMXNW"
+ },
+ "0x8dd928a3aa0274bba3b42dd9f41756aaf1e78b2f": {
+  "name": "Balancer ECLP-wstETH-WETH Gauge Deposit",
+  "symbol": "ECLP-wstETH-WETH-gauge"
+ },
+ "0x8de1bef45c2442fce37e24f292b8c2db68daa3b9": {
+  "name": "Unipilot WETH/USDC NARROW Active Vault",
+  "symbol": "ULP-WETH/USDC-AV-3"
+ },
+ "0x8e453a805ecf8ac2e828e745ad26f4f927733271": {
+  "name": "PPP",
+  "symbol": "PPP"
+ },
+ "0x8e92edcba766d1e961603db47c8d8c1ef7a59c59": {
+  "name": "MKS LPs",
+  "symbol": "MKS-LP"
+ },
+ "0x8f99b2ccab085a78ab4306bb9f135ed7759be1ed": {
+  "name": "Wamuopi",
+  "symbol": "WAMUOPI"
+ },
+ "0x8fb7b1a98074775bb40aea8dcf01255f54cf2406": {
+  "name": "zkVilya",
+  "symbol": "zkVLY"
+ },
+ "0x8fe290735aecf9ae9a304dbc1d5e38a914ffea8c": {
+  "name": "march",
+  "symbol": "march"
+ },
+ "0x906e60166a4b185016e53597fa12fbb1424e47d7": {
+  "name": "Moo Balancer wstETH-rETH",
+  "symbol": "mooBalancerwstETH-rETH"
+ },
+ "0x90839bc6864ee6be350588b1ed1b43eb2ff24fed": {
+  "name": "AMN Token",
+  "symbol": "AMN"
+ },
+ "0x910009d1b5d12797a4179580112a29d810fc10e8": {
+  "name": "EshakMehrdad",
+  "symbol": "MEH"
+ },
+ "0x911bfbaca43f117e52197ae62d439d6a645c8886": {
+  "name": "aWETH-frxETH",
+  "symbol": "aWETH-frxETH"
+ },
+ "0x91328602f85c24dfc6b8ae43a865679957d4ecae": {
+  "name": "CygnusDAO",
+  "symbol": "CYG"
+ },
+ "0x91500f41fac00e921be11444b6e9123ea3d425ff": {
+  "name": "ASTROELON",
+  "symbol": "ELONONE"
+ },
+ "0x9155fec107075bd2fd7cbeddbe1c60078e799ec6": {
+  "name": "Vyiroaxj",
+  "symbol": "VYIROAXJ"
+ },
+ "0x91ff566d9d6b11025bf0793f628d072617e7f56e": {
+  "name": "Uniswap V2",
+  "symbol": "UNI-V2"
+ },
+ "0x921b486cc33580af7d8208df1619383470d5dcbe": {
+  "name": "Merkly OFT",
+  "symbol": "MERK"
+ },
+ "0x9222e903087877dbd96ea48ec489118d8f8d9519": {
+  "name": "Cygnus: Collateral",
+  "symbol": "CygLP: aWETH-MATIC"
+ },
+ "0x923917304012c7e14d122eb1d6a8f49f608bc06b": {
+  "name": "",
+  "symbol": ""
+ },
+ "0x93abe44f61ad9a93bfccb0e5d41d4c95e2c33cc7": {
+  "name": "",
+  "rpc_error": "execution reverted",
+  "symbol": ""
+ },
+ "0x93d9500faa97692f2ec87e26083898e056e7a08d": {
+  "name": "BigBallerBucks",
+  "symbol": "BBB"
+ },
+ "0x93e024bb6d81f56ad194c496b779cdb60b21f3a2": {
+  "name": "Bqlsq",
+  "symbol": "BQLSQ"
+ },
+ "0x93f90a3aee17d3b5b92ad12c966721b436300616": {
+  "name": "marzbal",
+  "symbol": "mrz"
+ },
+ "0x943e8a1ad137cc7fc4fec7676004e5c3e6fb98af": {
+  "name": "AntiFamine",
+  "symbol": "ANFA"
+ },
+ "0x945cbdaccf2fbd7471249c33a449c9f868a07956": {
+  "name": "Wolferino",
+  "symbol": "WLF"
+ },
+ "0x94a5b6b5f7516675ecf867471526b2591c27113c": {
+  "name": "Bilbo Swap Protocol",
+  "symbol": "BSP"
+ },
+ "0x94e8ee08e1540d9bdfa58990353896677114a0e7": {
+  "name": "PZKMOON",
+  "symbol": "PZKMOON"
+ },
+ "0x94ea5d1d1e0b87cada019fb7cf03c3ddce5eec57": {
+  "name": "dimitrino",
+  "symbol": "DMT"
+ },
+ "0x9507dc30a917754b0868acade0ead02a2b745317": {
+  "name": "WSwap",
+  "symbol": "WSS"
+ },
+ "0x9550578306d610580af6d4d46ae47563c3d95254": {
+  "name": "bvgj",
+  "symbol": "bv"
+ },
+ "0x955d1693c64e5a0746130ff6f6653e2171cc6708": {
+  "name": "Test Token",
+  "symbol": "TEST"
+ },
+ "0x95b90c74df9e2210b667fea3f9ce465a89994318": {
+  "name": "Clmydht",
+  "symbol": "CLMYDHT"
+ },
+ "0x95e4e1554a3f20932b559470eb57c56b7a26d10e": {
+  "name": "Frax",
+  "symbol": "FRAX"
+ },
+ "0x95f4b5cc5d4a53d6c9fef3cfeb4ae6f79491f8cc": {
+  "name": "Jrnxo",
+  "symbol": "JRNXO"
+ },
+ "0x9616052273a598bc04bd1ad7f7a753157c24f77e": {
+  "name": "aSTMATIC-MATIC",
+  "symbol": "aSTMATIC-MATIC"
+ },
+ "0x961bb3932a7efaa9adcc7409e1fea090479e8312": {
+  "name": "Test Pol",
+  "symbol": "TPOL"
+ },
+ "0x961ccb02dbf9f94302b8663331a74d7d072a848d": {
+  "name": "Blockrocker zkEVM",
+  "symbol": "BLOCKP"
+ },
+ "0x96841ebfe942b843aa2ef5e3e7549072cd470597": {
+  "name": "Staked ROSX",
+  "symbol": "sROSX"
+ },
+ "0x96b58b36290b13645b32435ae2fa75c941babaab": {
+  "name": "WENTOKEN",
+  "symbol": "WTK"
+ },
+ "0x9700b0d8855da8bfa437becdea70738d0934ea51": {
+  "name": "kkktest",
+  "symbol": "Poltt"
+ },
+ "0x9741c95a76c4fec00387890026be503d449cabf5": {
+  "name": "ZiG Governance Token",
+  "symbol": "ZiGGOV"
+ },
+ "0x97513e975a7fa9072c72c92d8000b0db90b163c5": {
+  "name": "Mango Farmers Club",
+  "symbol": "anyMANGO"
+ },
+ "0x976c039836326e9a40c2279204a43801325e8f79": {
+  "name": "DE4",
+  "symbol": ""
+ },
+ "0x9783c45564232c0aff8dc550a9c247c42e8c8b98": {
+  "name": "aUSDC-WBTC",
+  "symbol": "aUSDC-WBTC"
+ },
+ "0x97986a7526c6b7706c5e48bb8be3644ab9f4747c": {
+  "name": "Wrapped Matic",
+  "symbol": "WMATIC"
+ },
+ "0x979eeba5f0c83670becd82793836670928e817b8": {
+  "name": "CoingnosisZKE",
+  "symbol": "CGZE"
+ },
+ "0x97d95283c7835a68ed444a531c367d4d5690c07b": {
+  "name": "PolyLend  Variable Debt DAI",
+  "symbol": "variableDebtplDAI"
+ },
+ "0x97f2545bf007465ae2a3c2c6dca1d2644267d5ee": {
+  "name": "Ali Test Qacc",
+  "symbol": "ATQ"
+ },
+ "0x98620e414c069e240f43fbd6608219c3439582e6": {
+  "name": "tats",
+  "symbol": "tts"
+ },
+ "0x9863c2f2ba7c23f74c7ad04100afbeae00d54d0c": {
+  "name": "UnirisToken",
+  "symbol": "UCO"
+ },
+ "0x9889ad6a3f14ae4ccf83fff05f2164e0cd660ddf": {
+  "name": "veloacoin",
+  "symbol": "veloa"
+ },
+ "0x9902bc1eb18c5d1594dd97907f1bb427d8a153da": {
+  "name": "aDUSD-USDC",
+  "symbol": "aDUSD-USDC"
+ },
+ "0x995a56706ff752e7312d72e6748661bd0e118d26": {
+  "name": "ZeRoq Coin",
+  "symbol": "ZeRoq"
+ },
+ "0x99957fe8316028779f704056e0d223718cf0bd57": {
+  "name": "Castagna",
+  "symbol": "CST"
+ },
+ "0x99d7c785faf57bf988bb006bfc28cbb6c58c4716": {
+  "name": "Justice",
+  "symbol": "JUST"
+ },
+ "0x99e0c17060a897ae0333a46326a1c620d035b8f2": {
+  "name": "DE1",
+  "symbol": ""
+ },
+ "0x9a553cf3c384922b0d49bb033069da2a30dd22e3": {
+  "name": "ZKPolyBBDoge",
+  "symbol": "ZkPolyBBDoge"
+ },
+ "0x9aca9d0cb2fd9eae8fe88a477023f8fa44491bfc": {
+  "name": "CurrencyUsdt",
+  "symbol": "USCUR"
+ },
+ "0x9b0b887497e0d6a9c6129ae3094850f297329ee9": {
+  "name": "Balancer wstETH Stable Pool Aura Deposit Vault",
+  "symbol": "auraB-wstETH-STABLE-vault"
+ },
+ "0x9b564b4ff6369f72803662cb310b00e7a8d33ba5": {
+  "name": "Bcgik",
+  "symbol": "BCGIK"
+ },
+ "0x9b7bcea67049819f4b35e84468c5e87918aefe4b": {
+  "name": "Mantis USDC LP",
+  "symbol": "LP-USDC"
+ },
+ "0x9ba1c9575752a29096b3b72662414a92dc83806c": {
+  "name": "Escrowed SHK",
+  "symbol": "esSHK"
+ },
+ "0x9bf1c503320a0d3e20a08ecbc36b216299d3f845": {
+  "name": "Tofgwtth",
+  "symbol": "TOFGWTTH"
+ },
+ "0x9bfeb5727ed30a2fc1f5f427f61d14e282af6cec": {
+  "name": "Ali Qacc test",
+  "symbol": "ALI"
+ },
+ "0x9c779b0cbb42531027e2ec995e97c787125013d0": {
+  "name": "Balancer wstETH/ankrETH Aura Deposit",
+  "symbol": "aurawstETH/ankrETH"
+ },
+ "0x9c8481bd1358e780ff0a221e3943e2d6bfdc1aec": {
+  "name": "Gyroscope ECLP wETH/rETH Aura Deposit Vault",
+  "symbol": "auraECLP-wETH-rETH-vault"
+ },
+ "0x9cbd81b43ba263ca894178366cfb89a246d1159c": {
+  "name": "Dyson Sphere",
+  "symbol": "DYSN"
+ },
+ "0x9cbf8478424bfe85e1eb8f28ed35b9111c02bc12": {
+  "name": "POI",
+  "symbol": "POI"
+ },
+ "0x9d485613b48f6617e90b4dfe664bf52127572bba": {
+  "name": "ZiG Goldcoin-backed Stablecoin",
+  "symbol": "ZiG"
+ },
+ "0x9d4e8a8a5a2e592c69817a29fa0dc97032c4a418": {
+  "name": "Jcteulb",
+  "symbol": "JCTEULB"
+ },
+ "0x9d59c87dc1f01d0a7950e3a0677b2deb366554a6": {
+  "name": "spoli",
+  "symbol": "spoli"
+ },
+ "0x9df08db6cf169c93c080d60e816806dd97843ad9": {
+  "name": "Free",
+  "symbol": "Free"
+ },
+ "0x9df29d069abb7b22273f6e6fda0dae0c51c2a8ac": {
+  "name": "fvb",
+  "symbol": "ssd"
+ },
+ "0x9e0395aa1ef36caf6d1072fa07fccd7b55ca721c": {
+  "name": "GAMES",
+  "symbol": "GAMES"
+ },
+ "0x9e05ab909304e9085396f0219341c5b72cb8b905": {
+  "name": "Mallik",
+  "symbol": "MAL"
+ },
+ "0x9e6b9518978bb7caf2ad70778e9aeed9edb3db78": {
+  "name": "Moo Balancer rETH-ETH",
+  "symbol": "mooBalancerrETH-ETH"
+ },
+ "0x9ec972dd801305bebbf72dadb68a78ec72bd80b3": {
+  "name": "AKADAMA",
+  "symbol": "AKD"
+ },
+ "0x9ee27583fcc62860c9bf5e370753df0fcc6d5453": {
+  "name": "EL GATO",
+  "symbol": "GATO"
+ },
+ "0x9efee2f80840b1e71e986daaa1143d765790a594": {
+  "name": "DIMITRINO",
+  "symbol": "DMT"
+ },
+ "0x9f516426c6afa3c82cc69280108f6b146d656bf1": {
+  "name": "Gaudyy",
+  "symbol": "GAU"
+ },
+ "0x9f5bcb26de992f46bcc0cba235357d2f27134c56": {
+  "name": "PolyBD",
+  "symbol": "PBD"
+ },
+ "0x9f826c576b1f821df31ca6d58c9443db25a81d65": {
+  "name": "Gyroscope ECLP wETH/rETH",
+  "symbol": "ECLP-wETH-rETH"
+ },
+ "0x9fc831ecf3ff862cd581a4e1e57e62a9deedda3e": {
+  "name": "AASX",
+  "symbol": "ASX"
+ },
+ "0x9ff778fb5b2a2fde72f9a326f9c5a663047da811": {
+  "name": "Staked SHK",
+  "symbol": "sSHK"
+ },
+ "0xa082d6dfc4bb00de119dadd6f761982f5a096f19": {
+  "name": "Waves ZKEVM",
+  "symbol": "WZK"
+ },
+ "0xa163c591b04242121a2ac9753a8526f63d576f9a": {
+  "name": "aUSDT-WETH",
+  "symbol": "aUSDT-WETH"
+ },
+ "0xa193aa0d78648e4764cc881041407b4a10af9af5": {
+  "name": "Pokyzk",
+  "symbol": "Pzk"
+ },
+ "0xa1a78ac9884adc9d04d59b2b743f1ec709618e55": {
+  "name": "Alpha Chad",
+  "symbol": "ACHAD"
+ },
+ "0xa1ae965fa36bb3ced77831cec6c01cae5a4af70f": {
+  "name": "Koeryz",
+  "symbol": "KOERYZ"
+ },
+ "0xa1cc2ece1437067362fa2a5c72c32375ce335643": {
+  "name": "PZK CAT",
+  "symbol": "PZKCAT"
+ },
+ "0xa1e7bb978a28a30b34995c57d5ba0b778e90033b": {
+  "name": "Freedom Cash",
+  "symbol": "FREEDOMCASH"
+ },
+ "0xa2036f0538221a77a3937f1379699f44945018d0": {
+  "name": "Matic Token",
+  "symbol": "MATIC"
+ },
+ "0xa23390ab60fe5482e9230245eb817a8117528b38": {
+  "name": "OKB",
+  "symbol": "OKB"
+ },
+ "0xa2397aa5d53d2b93745561dfdf9a207b5bdb18b9": {
+  "name": "USDC+",
+  "symbol": "USDC+"
+ },
+ "0xa34195251e30fb380f4a91cb6abc08222eab6cca": {
+  "name": "Kitty Coin",
+  "symbol": "KIT"
+ },
+ "0xa36af6ac25b2ff485f9e98af0b7614b8d890c385": {
+  "name": "sdsd",
+  "symbol": "sd"
+ },
+ "0xa386e948d25e19a0b08c8e15b8b9d49ffa5d9a32": {
+  "name": "Moo Balancer zkEVM ankrETH-wstETH",
+  "symbol": "mooBalancezkEVMankrETH-wstETH"
+ },
+ "0xa3da72feb11ffdd98c5349ece2355b4f77cace99": {
+  "name": "MASQ",
+  "symbol": "MASQ"
+ },
+ "0xa3dd6163b5742b0d8cb7d79cb5dfe3f81f8f8fc4": {
+  "name": "AKA",
+  "symbol": "AKA"
+ },
+ "0xa442c9cb6fafb6fb2a722a1baa54f9b8ff0a55d3": {
+  "name": "Balancer rsETH/wETH Gauge Deposit",
+  "symbol": "rsETH/wETH-gauge"
+ },
+ "0xa4475aa0a6971e3cc82de08e9ce432ecc8a562ad": {
+  "name": "50BAL-50WETH",
+  "symbol": "50BAL-50WETH"
+ },
+ "0xa47caa5332fbfe03236c383e272c99471a40e9fa": {
+  "name": "test",
+  "symbol": "TST"
+ },
+ "0xa4987d53222f34b7cbc615a5a5fed527f76b9a76": {
+  "name": "PTR",
+  "symbol": "PTR"
+ },
+ "0xa592055db0f9218915c7383eddc057fb402b1db4": {
+  "name": "Roseon",
+  "symbol": "ROSX"
+ },
+ "0xa5d8eb3ee1c35288e9f4432faf343510035de47b": {
+  "name": "Decentraland MANA",
+  "symbol": "MANA"
+ },
+ "0xa61beb4a3d02decb01039e378237032b351125b4": {
+  "name": "EURA (previously agEUR)",
+  "symbol": "EURA"
+ },
+ "0xa643071e89e41cde970bda6835ba411d5114bb15": {
+  "name": "Aperon",
+  "symbol": "APR"
+ },
+ "0xa65755a01ef7c3d6d3f76c28b30103f2073e5d35": {
+  "name": "xyETH",
+  "symbol": "xyETH"
+ },
+ "0xa6a1728a40bce28463fa565cc9ec20cc8daaa511": {
+  "name": "Token3",
+  "symbol": "TK3"
+ },
+ "0xa70b219e121624c0f68284dccb8036a8673a5507": {
+  "name": "polizk",
+  "symbol": "polizk"
+ },
+ "0xa70d79e67873ea058438df6453c8ca84417a3021": {
+  "name": "GFSD",
+  "symbol": "HJ"
+ },
+ "0xa723ecd35fad92b74b2a71b5c556d693671f3a32": {
+  "name": "D-Drops",
+  "symbol": "DOP"
+ },
+ "0xa74e65aa9e2077bc8c8d0d3c5f5369f92de39391": {
+  "name": "JoCoin",
+  "symbol": "JO"
+ },
+ "0xa7bd526e698a7ee6261982607d7b64cc8e7be0ef": {
+  "name": "Tether Gold",
+  "symbol": "XAUt"
+ },
+ "0xa7f602cfaf75a566cb0ed110993ee81c27fa3f53": {
+  "name": "50WETH-50DAI",
+  "symbol": "50WETH-50DAI"
+ },
+ "0xa83b83d641e563be3ae8ede78de15ae33b690570": {
+  "name": "Mikaboshi",
+  "symbol": "Mika"
+ },
+ "0xa85f43190f29e7d27a37c98cfd6d9bab7440075a": {
+  "name": "DFX Token",
+  "symbol": "DFX"
+ },
+ "0xa88fd02665151024ec88650072b8b471b39496b7": {
+  "name": "Mock ETH Token",
+  "symbol": "METH"
+ },
+ "0xa9154a433e879fa0e948ea208aa359271dc40469": {
+  "name": "Dirac Vault USDC.E",
+  "symbol": "DVT"
+ },
+ "0xa9377c45c0fc9d1647aac9e05185d19940a1df94": {
+  "name": "115599",
+  "symbol": "115599"
+ },
+ "0xa96839e5eaa38e0927571f3a50fc71a4f1df093d": {
+  "name": "Hike ad libertatem",
+  "symbol": "LIBER"
+ },
+ "0xa9ae60a9299524a7a963bd92695302ba5bb6246c": {
+  "name": "zkevmKashCoin",
+  "symbol": "$zkevmKash"
+ },
+ "0xab063a260f7d890f218836da21004865e11a9521": {
+  "name": "Dedollarization",
+  "symbol": "DUSD"
+ },
+ "0xabb1e64b9b6191a8582dc067beb20a35fb6c2569": {
+  "name": "Ballon",
+  "symbol": "BAL"
+ },
+ "0xabd36fbf7ca208e490dca7e11f1d67e1e96e5f5d": {
+  "name": "Usd Tether",
+  "symbol": "USDT"
+ },
+ "0xabd9cb2835ebdf023fd168902bf4d2114c3371c0": {
+  "name": "SPC Token",
+  "symbol": "SPC"
+ },
+ "0xac02812aad000e44047493705266dae21ed9e272": {
+  "name": "SelfKey",
+  "symbol": "KEY"
+ },
+ "0xac222f4c57b132ccbb6fecd5119550ad3425a969": {
+  "name": "TOINOU OFT",
+  "symbol": "TOINOU"
+ },
+ "0xacab87a31cf01bac6cb40c52f840af13a99ef96d": {
+  "name": "Pdywljn",
+  "symbol": "PDYWLJN"
+ },
+ "0xacb710f2f235c0e957259e4cef6bae6fb77e75b0": {
+  "name": "ClipperDirect Pool Token",
+  "symbol": "CLPRDRPL"
+ },
+ "0xad41c77d99e282267c1492cdefe528d7d5044253": {
+  "name": "KEOM Tether USD",
+  "symbol": "kUSDT"
+ },
+ "0xadb16429c9ac715fe002538c55873fc426bb2b71": {
+  "name": "Ysumm",
+  "symbol": "YSUMM"
+ },
+ "0xae00af61be6861ee956c8e56bf22144d024acb57": {
+  "name": "ClipperDirect Pool Token",
+  "symbol": "CLPRDRPL"
+ },
+ "0xae0bd3940b7b430ea9dc29b67e2fe7681cd56c9f": {
+  "name": "Token Decimal 18",
+  "symbol": "D18"
+ },
+ "0xae20768099625130b2659d805b448ece5ff998fd": {
+  "name": "Moo Balancer Gyro rETH-ETH",
+  "symbol": "mooBalancerGyrorETH-ETH"
+ },
+ "0xae3e81c2c4d5a2a22b534b997676b33d7109f6fc": {
+  "name": "5555555",
+  "symbol": "55555555"
+ },
+ "0xae4ac1070ba338f1c948ebdd635f640b4d560bb7": {
+  "name": "swETH",
+  "symbol": "swETH"
+ },
+ "0xaf52fb98d006799e4533f02fde9f6f94fc7ca7b2": {
+  "name": "Falafel",
+  "symbol": "FALF"
+ },
+ "0xaf57960f866ce3c6a604a645ca8ca876c7d2d750": {
+  "name": "Pillow",
+  "symbol": ""
+ },
+ "0xaf59488afbdbed054da484245950e62e91d67fec": {
+  "name": "zkBrun",
+  "symbol": "ZKBURN"
+ },
+ "0xaf74f4c1d8119d5ef1c30b8d35f1cab20482a24f": {
+  "name": "Pdusgeqq",
+  "symbol": "PDUSGEQQ"
+ },
+ "0xaf969a9ebd9bf01539999b7236de6841a7670f26": {
+  "name": "Blue sky",
+  "symbol": "SKY"
+ },
+ "0xafad6e114cfbc8a19e91b8d7d04da740a7698595": {
+  "name": "aUSDC-DAI",
+  "symbol": "aUSDC-DAI"
+ },
+ "0xafde749e397445f3822ec581cfedbafae50bc2e7": {
+  "name": "ert",
+  "symbol": "ert"
+ },
+ "0xb02474b105fd6dcb79610e5e770d492e034cac55": {
+  "name": "Freedom Cash",
+  "symbol": "FREE"
+ },
+ "0xb049896b3edcea20dd92c94c706dc67eea354e57": {
+  "name": "Balancer ECLP-GYD-USDC Gauge Deposit",
+  "symbol": "ECLP-GYD-USDC-gauge"
+ },
+ "0xb0ef532de353b872c059ab211db73464f45c1f5b": {
+  "name": "Master",
+  "symbol": "Master"
+ },
+ "0xb11c1a66f90cd16c6ae83d503cf2e138b8d8fd42": {
+  "name": "Balancer ECLP-wETH-rETH Gauge Deposit",
+  "symbol": "ECLP-wETH-rETH-gauge"
+ },
+ "0xb149056499babbcb56250d4f7d6ff8de18d8a2cc": {
+  "name": "Rkffw",
+  "symbol": "RKFFW"
+ },
+ "0xb14eb8fef1b315e8895be27d0ac926812bb43ff5": {
+  "name": "POPKON",
+  "symbol": "POPK"
+ },
+ "0xb1557cfea06de5a1601a7f0ccf3b515ef431a50d": {
+  "name": "Gyroscope ECLP wETH/rETH",
+  "symbol": "ECLP-wETH-rETH"
+ },
+ "0xb16146739b8ffef2838107ae0c24e8d3d0182fcf": {
+  "name": "ARUN",
+  "symbol": "ARN"
+ },
+ "0xb211ba8e29a0318f1b8cfb36252a21cd25496010": {
+  "name": "TestTokenBit",
+  "symbol": "TTBT"
+ },
+ "0xb238a0b569f7bd5fad94d159d37b9e4d3fc9deda": {
+  "name": "POL BANANA",
+  "symbol": "Pbanana"
+ },
+ "0xb23c20efce6e24acca0cef9b7b7aa196b84ec942": {
+  "name": "Rocket Pool ETH",
+  "symbol": "rETH"
+ },
+ "0xb2c14f09eb8ffb03da0544b31d649205c4b686e3": {
+  "name": "Dirac Vault",
+  "symbol": "DVT"
+ },
+ "0xb2fd26406a0b32c9edd62b62c487d95942403577": {
+  "name": "Xiaof",
+  "symbol": "xf"
+ },
+ "0xb3695a0a4a7a16b680e0fc20cc2ed93bc28728de": {
+  "name": "ZKPolySnow",
+  "symbol": "zkpSnow"
+ },
+ "0xb3b49ba96f4d092127a232ed6a35a71b62c2a698": {
+  "name": "Ali Test token on Nov 5",
+  "symbol": "ATT"
+ },
+ "0xb3bc2215d714ace3aa9b9c20dceba43da721413e": {
+  "name": "Ytbjhzgq",
+  "symbol": "YTBJHZGQ"
+ },
+ "0xb409fea6c79da7015ce92748f38d7c008bb43ebe": {
+  "name": "ZERO",
+  "symbol": "ZERO"
+ },
+ "0xb4773e33ef47dbca7bbc6b277fc00745e2b65d1a": {
+  "name": "Vkrln",
+  "symbol": "VKRLN"
+ },
+ "0xb4eac29e630e38133e015ad17e3986886d5e8b35": {
+  "name": "ICHI Vault Liquidity",
+  "symbol": "IV-8-QS"
+ },
+ "0xb56c3d406d17b3d2ca487b57cb0eac7be39dd2bc": {
+  "name": "Ppgdyjwg",
+  "symbol": "PPGDYJWG"
+ },
+ "0xb584516c8d90f133a48af5cc445cc5d924cf9863": {
+  "name": "Wrapped Ether",
+  "symbol": "WETH"
+ },
+ "0xb5913aa8d69ec4d22ceadd9d60220645f7ac91ad": {
+  "name": "Gyroscope ECLP wstETH/WETH Aura Deposit Vault",
+  "symbol": "auraECLP-wstETH-WETH-vault"
+ },
+ "0xb5d4d8d9122bf252b65dabb64aad68346405443c": {
+  "name": "Idle Clearpool Strategy Token",
+  "symbol": "idle_cpPOR-USDT"
+ },
+ "0xb5dc3db68d3cadc00872244b6c9811f245370a68": {
+  "name": "Jaqxldr",
+  "symbol": "JAQXLDR"
+ },
+ "0xb5f43c2206e3cafecd62651f5fce9091a0207488": {
+  "name": "aUSDT-WETH",
+  "symbol": "aUSDT-WETH"
+ },
+ "0xb61aea9c9e45108d8f8e63e450967abafd2eeaec": {
+  "name": "REKT",
+  "symbol": "REKT"
+ },
+ "0xb6537224d80a9d9a86eaf11260a1b222f3be3120": {
+  "name": "xUSDT-USDC.E01",
+  "symbol": "xUSDT-USDC.E01"
+ },
+ "0xb67d8039e0c9d6fb6823b492ae9debc54b6f9671": {
+  "name": "zkEVM native QA",
+  "symbol": "ZKNQA"
+ },
+ "0xb70d7c4c1a2af39a886f59a372f70c6dc51d5d10": {
+  "name": "SUJOY",
+  "symbol": "SJY"
+ },
+ "0xb7a0e8626a2e33b44e284479c114deccf7f75381": {
+  "name": "Mighty",
+  "symbol": "Mighty"
+ },
+ "0xb80328497c7ce8d7543c8a806ddd3f82ca07fce1": {
+  "name": "Genius Token & NFT Collections",
+  "symbol": "GNUS"
+ },
+ "0xb84a6c17be5c840295daf8f11ecdf9f9a92071d2": {
+  "name": "zkPOL",
+  "symbol": "pol"
+ },
+ "0xb8bf74ff2f24f24cce9b6f99c9092fba7a1466e2": {
+  "name": "MKS Token",
+  "symbol": "MKS"
+ },
+ "0xb94ae98f2783dc299c33cc99b0b97c4e7b0f1f87": {
+  "name": "PolyLend  MATIC",
+  "symbol": "plMATIC"
+ },
+ "0xb98c4f89b292a266d66ed1e32fb3c3d2aecbd1de": {
+  "name": "SS",
+  "symbol": "ss"
+ },
+ "0xba75352a77eaaa66e54a3a3cfdd3af6a69d4c350": {
+  "name": "MATIC LOVE",
+  "symbol": "MALO"
+ },
+ "0xba8688a7e5b8a28047d83f629377d2407aa57b91": {
+  "name": "EVOX",
+  "symbol": "EVOX"
+ },
+ "0xbaaa5a2d780c5914fb1bad0ea6cbf7b99589d6fe": {
+  "name": "aCRV-WETH",
+  "symbol": "aCRV-WETH"
+ },
+ "0xbaf1e992b0f87cd79dba62b21a49cafd25406ad2": {
+  "name": "vv",
+  "symbol": "vv"
+ },
+ "0xbb7835cefec0706829842927a645e64cf0a51bdf": {
+  "name": "Graph Token",
+  "symbol": "GRT"
+ },
+ "0xbbc2d2727c36ca02acbe3c4f90edb7a56c7b9971": {
+  "name": "DeRace Token",
+  "symbol": "DERC"
+ },
+ "0xbc25b472a648cdc4a4b64858452eb16eb12222c4": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0xbc59506a5ce024b892776d4f7dd450b0fb3584a2": {
+  "name": "KEOM Wrapped Ether",
+  "symbol": "kWETH"
+ },
+ "0xbca73e41f79b99f820fd26cb326b56519e05ac50": {
+  "name": "eg",
+  "symbol": "gege"
+ },
+ "0xbd5fe46cee76a7dcdc927661c43efaeb75b1a559": {
+  "name": "SpaceMonk",
+  "symbol": "SPC"
+ },
+ "0xbd723cbbf2ee9884db0599efed2fd12e3f601582": {
+  "name": "Option to buy ZERO",
+  "symbol": "oZERO"
+ },
+ "0xbd9e22e560a59fd26f2c0b597662e75fb23cc4c6": {
+  "name": "Rama",
+  "symbol": "RAM"
+ },
+ "0xbdad1c43a531da2d5c630f3588d601003ca22f75": {
+  "name": "Gyroscope ECLP GYD/USDC Aura Deposit Vault",
+  "symbol": "auraECLP-GYD-USDC-vault"
+ },
+ "0xbe309b5a06caf1ffe78b97b575d8cee5aa73d111": {
+  "name": "Camera",
+  "symbol": ""
+ },
+ "0xbe3b2d67f0975b8f8d7c855b804e7ff06b868027": {
+  "name": "UniBright",
+  "symbol": "UBT"
+ },
+ "0xbe91158628c296e9214a21f037cd9248a942d803": {
+  "name": "FOUR",
+  "symbol": "FOUR"
+ },
+ "0xbf6de60ccd9d22a5820a658fbe9fc87975ea204f": {
+  "name": "Wrapped liquid staked Ether 2.0",
+  "symbol": "wstETH"
+ },
+ "0xbf78b393d14a90b52cdc2325e11c92f24f2f54f3": {
+  "name": "IdleCDO BB Tranche - idle_cpFASA-USDC",
+  "symbol": "BB_idle_cpFASA-USDC"
+ },
+ "0xc0c20957c915660ec6ef92ce6dc236e6b71ef519": {
+  "name": "DE3",
+  "symbol": ""
+ },
+ "0xc134cf65310b465f4893d308121d9adfa5fca5fd": {
+  "name": "CERE Network",
+  "symbol": "CERE"
+ },
+ "0xc17984f2233f342999adff8d28ebd994735d76bd": {
+  "name": "Iwvmz",
+  "symbol": "IWVMZ"
+ },
+ "0xc1ae92e34bf8752a6dc08fede8f45c9eaab4c97f": {
+  "name": "50USDC-50DAI",
+  "symbol": "50USDC-50DAI"
+ },
+ "0xc2241e3a1596dde4c3945d5aa15e81693cfd8e82": {
+  "name": "masoudi3",
+  "symbol": "mas3"
+ },
+ "0xc291b0753da6fbf8d848374e1bb1588dcad3559a": {
+  "name": "Pepe",
+  "symbol": "PEPE"
+ },
+ "0xc35448425258b7ffee81e5ce60fdf3e742a04570": {
+  "name": "HORUS",
+  "symbol": "HORUS"
+ },
+ "0xc3630b805f10e91c2de084ac26c66bcd91f3d3fe": {
+  "name": "Clearpool",
+  "symbol": "CPOOL"
+ },
+ "0xc3d12dd065f6d648a285e02896e0dd65e09dcf97": {
+  "name": "PolyZkKishu",
+  "symbol": "PZK"
+ },
+ "0xc3d33665257ba39a3b5fe5fe95b928c2744a8a1e": {
+  "name": "Midtmpo",
+  "symbol": "MIDTMPO"
+ },
+ "0xc4576ff45f16409bb1bd0fa319f8152f827dfa1b": {
+  "name": "BUSD Token",
+  "symbol": "BUSD"
+ },
+ "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc": {
+  "name": "Hop",
+  "symbol": "HOP"
+ },
+ "0xc530b75465ce3c6286e718110a7b2e2b64bdc860": {
+  "name": "x23.ai",
+  "symbol": "X23"
+ },
+ "0xc5ad8ba9ab21df33956cde28f96ba947d3bc9eb4": {
+  "name": "PotatoSwap LPs",
+  "symbol": "POTATO-LP"
+ },
+ "0xc65bc3cf7bb215275bcedbdf501b416f6e0aff9d": {
+  "name": "RoboDAO",
+  "symbol": "ROBO"
+ },
+ "0xc67799e3555c061a4a82c26eff6ae1cd8b02121d": {
+  "name": "b",
+  "symbol": "b"
+ },
+ "0xc6e5db38cb4e724abdd9238dec602de5780dea50": {
+  "name": "Apollo",
+  "symbol": "APL"
+ },
+ "0xc6e70676eaeac6ef0c51cc618fc71a717d68b572": {
+  "name": "LeetSwapV2 VolatileV1 Pair - WETH/USDC",
+  "symbol": "vLS2-WETH/USDC"
+ },
+ "0xc731df88d6de8edbc5a546f81ffd3a0ec7d2334f": {
+  "name": "Kokonut Factory stMATIC-MATIC (Crypto Pool)",
+  "symbol": "KOKO-stMATIC/MATIC"
+ },
+ "0xc76ae2d453335762d7b08ca31183b0ce7346d7ee": {
+  "name": "ACE",
+  "symbol": "ACE"
+ },
+ "0xc780d2af58a2d5231838df10767b10e01a4a1126": {
+  "name": "zkEVM LPs",
+  "symbol": "zkEVM-LP"
+ },
+ "0xc790f82bf6f8709aa4a56dc11afad7af7c2a9867": {
+  "name": "GIVpower",
+  "symbol": "POW"
+ },
+ "0xc79508b1e0788137fe926f987c18b44e4d90c8fc": {
+  "name": "mans",
+  "symbol": "mans"
+ },
+ "0xc802aa61a5b51a966b8975035db71688c8e84c7f": {
+  "name": "pzkNYAN",
+  "symbol": "pzkNYAN"
+ },
+ "0xc80f98ecbf495afbd330d7afa99445bb56b0f458": {
+  "name": "Vilya",
+  "symbol": "VLY"
+ },
+ "0xc8198796310841c63f0ca45dd3d7510851b3e8bd": {
+  "name": "CargoX Token",
+  "symbol": "CXO"
+ },
+ "0xc8b8f407c84fc2281e3d03131639c97758509331": {
+  "name": "gylo",
+  "symbol": "gl"
+ },
+ "0xc8e48fd037d1c4232f294b635e74d33a0573265a": {
+  "name": "Quick Perp LP",
+  "symbol": "QLP"
+ },
+ "0xc8f851c2e1cebc3f92e6a0343fd2a089c0f4c765": {
+  "name": "Enyhnt",
+  "symbol": "ENYHNT"
+ },
+ "0xc951aebfa361e9d0063355b9e68f5fa4599aa3d1": {
+  "name": "33WETH-33MATIC-33USDC",
+  "symbol": "33WETH-33MATIC-33USDC"
+ },
+ "0xc96f176ad8198f0629070db1960a0f4417ade726": {
+  "name": "Pepe zkEVM",
+  "symbol": "PEPEZKEVM"
+ },
+ "0xc97fa65107ae7b94fb749cf05abb01005c14351e": {
+  "name": "Balancer 50BAL-25USDT-25USDC Gauge Deposit",
+  "symbol": "50BAL-25USDT-25USDC-gauge"
+ },
+ "0xc986ff13d011b6a053a57a2aa5c94c387a955fec": {
+  "name": "Omni OFT",
+  "symbol": "OMNI"
+ },
+ "0xc98d35ae65171aa38c0d6afd5416e4ba856afb86": {
+  "name": "PYR Token",
+  "symbol": "PYR"
+ },
+ "0xc9aaae00989dc32d1a203fae73155d209c375e51": {
+  "name": "HoBo",
+  "symbol": "HOBO"
+ },
+ "0xc9aeac17e25c4bd92af3618edd2aebc9975ad85f": {
+  "name": "Taka",
+  "symbol": "Taka"
+ },
+ "0xc9b296f2d7708147298cb22fb55a6fa7d73fb6c1": {
+  "name": "YOAKA",
+  "symbol": "YOAKA"
+ },
+ "0xc9baa8cfdde8e328787e29b4b078abf2dadc2055": {
+  "name": "USD Coin",
+  "symbol": "anyUSDC"
+ },
+ "0xc9babc3a557beaea31629bf835db4be99cefedf6": {
+  "name": "zMimaroglu",
+  "symbol": "mrglq"
+ },
+ "0xc9daabc677f3d1301006e723bd21c60be57a5915": {
+  "name": "aglaMerkl",
+  "symbol": "aglaMerkl"
+ },
+ "0xca3cf8dc5f5a26404ece01c5c3d1cfc46e5fe0b5": {
+  "name": "Qdhwciu",
+  "symbol": "QDHWCIU"
+ },
+ "0xca4c6bb0d2d75e4f93a5892aed1739b69a02e0d7": {
+  "name": "TGRIE",
+  "symbol": "TGRIE"
+ },
+ "0xca5d8f8a8d49439357d3cf46ca2e720702f132b8": {
+  "name": "Gyro Dollar",
+  "symbol": "GYD"
+ },
+ "0xca68ad4ee5c96871ec6c6dac2f714a8437a3fe66": {
+  "name": "Gravita Debt Token",
+  "symbol": "GRAI"
+ },
+ "0xcaa5596c4cf1663830ac436295cdbe76e93ecf3d": {
+  "name": "0x",
+  "symbol": "NULL"
+ },
+ "0xcabbbd51ccd3e66017036ec8876abe8ddfe92132": {
+  "name": "zkFLOKI",
+  "symbol": "ZKFLOKI"
+ },
+ "0xcae668a326a58cf6beaa108b7f7e40c9ae581885": {
+  "name": "",
+  "rpc_error": "invalid opcode: MCOPY",
+  "symbol": ""
+ },
+ "0xcaf92fbb15405516e6e853e6253d61652b803c7e": {
+  "name": "PolyLend  Variable Debt USDC",
+  "symbol": "variableDebtplUSDC"
+ },
+ "0xcb0d7edc66a00e98200a1640925b6e575156b4e8": {
+  "name": "Staked + Bonus SHK",
+  "symbol": "sbSHK"
+ },
+ "0xcb25214ec41ea480068638897fcbd6f1206f5521": {
+  "name": "Moo Balancer wstETH-ETH",
+  "symbol": "mooBalancerwstETH-ETH"
+ },
+ "0xcb36bb03eebdc203ca0e1f5417d04a43f02ed5b4": {
+  "name": "zkevmpoli",
+  "symbol": "zkpol"
+ },
+ "0xcb72553665b8a689bd7acc45113d32b20fa4ebf5": {
+  "name": "secret",
+  "symbol": "SCT"
+ },
+ "0xcbc9d8b5f20b49841bf1e0fd6d82335c656d2554": {
+  "name": "Uniswap V2",
+  "symbol": "UNI-V2"
+ },
+ "0xcc5b19cfdd1cb3ef30026aee51cac17df433f080": {
+  "name": "Pebit Coin",
+  "symbol": "PBC"
+ },
+ "0xcd0d6b0caeaeee395909fcdcb59a2ab825b941ea": {
+  "name": "PancakeSwap Token",
+  "symbol": "Cake"
+ },
+ "0xcd36b8a47a072e3e05e894b6ec89d294bec3d3ed": {
+  "name": "aUSDT-DAI",
+  "symbol": "aUSDT-DAI"
+ },
+ "0xcd5d42c5a2ddb0c124bc72b666fe0b83654e2406": {
+  "name": "DD",
+  "symbol": "ADHD"
+ },
+ "0xcd6473e10efba3fb4bd8ef0f2405ae64f6b849b4": {
+  "name": "Tamadoge",
+  "symbol": "TAMA"
+ },
+ "0xcd68dff4415358c35a28f96fd5bf7083b22de1d6": {
+  "name": "Wrapped eETH",
+  "symbol": "weETH"
+ },
+ "0xcd7652b96c855de38b492f5efada001b6d01760a": {
+  "name": "50USDC-50WETH",
+  "symbol": "50USDC-50WETH"
+ },
+ "0xcd78f9d4008b31d3097824fade6267004cc91ada": {
+  "name": "Lost At Sea",
+  "symbol": "LAS"
+ },
+ "0xcdd8ac5146571ebbc899cd1009b96647cb103683": {
+  "name": "BabyElon",
+  "symbol": "BAE"
+ },
+ "0xce118738bf3ae7c48409f0e9077964c7846c6d18": {
+  "name": "Para",
+  "symbol": "PAR"
+ },
+ "0xce55275022b1fc5d57236ed5d322b5ca9e7ac0ed": {
+  "name": "Balancer rETH Stable Pool Aura Deposit Vault",
+  "symbol": "auraB-rETH-STABLE-vault"
+ },
+ "0xce59dcb383bfb93c554368f4adada977f05264c5": {
+  "name": "Fee SHLP",
+  "symbol": "fSHLP"
+ },
+ "0xcf6030b2bfb39bb51f70bf666581483b36ee0113": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0xcf7c383f45a493e6911958f1b38367b1a09a0404": {
+  "name": "poly-twit",
+  "symbol": "polytwit"
+ },
+ "0xcf7ecee185f19e2e970a301ee37f93536ed66179": {
+  "name": "Frax Ether",
+  "symbol": "frxETH"
+ },
+ "0xcf8de5f419900beea0523eb3fb302e0bacb9fe26": {
+  "name": "PolyLend  Stable Debt USDT",
+  "symbol": "stableDebtplUSDT"
+ },
+ "0xcfe33239285fe788ba3e50596cc2ceb5ca127698": {
+  "name": "Porgnjj",
+  "symbol": "PORGNJJ"
+ },
+ "0xd0e67001e9c7f4a3ec5188e4b1f52d592ca93870": {
+  "name": "Decentral Games",
+  "symbol": "DG"
+ },
+ "0xd125c33cc90ed422758e3f127a628475774930fd": {
+  "name": "IT Coin",
+  "symbol": "ITC"
+ },
+ "0xd146a76aa217c594f155844978262d16bef6f7c4": {
+  "name": "ttt",
+  "symbol": "ttt"
+ },
+ "0xd17aa3296e865c6c1360d074776f82d4505c5053": {
+  "name": "ACCT",
+  "symbol": "ACCT"
+ },
+ "0xd2843b9bccc8bdf6e6a06573b1c209a90de966d8": {
+  "name": "zkevmzkevm",
+  "symbol": "zkevmzkevm"
+ },
+ "0xd2b36b566f260b9e290db91b002e2849f170457b": {
+  "name": "OVR",
+  "symbol": "OVR"
+ },
+ "0xd2b816351c7ee21c41f540065bed5f55159d49bd": {
+  "name": "aUSDCE-QUICK",
+  "symbol": "aUSDCE-QUICK"
+ },
+ "0xd2b8da7e0a4f7f9e16df7b9439de296bf0f57daf": {
+  "name": "PZ",
+  "symbol": "PZ"
+ },
+ "0xd2e9cd055c8c26758ecaf44ce2c9d30457f7b812": {
+  "name": "Upnph",
+  "symbol": "UPNPH"
+ },
+ "0xd304f198f8458c0ea43d1f8b22cb0cea9696525e": {
+  "name": "Electron",
+  "symbol": "ELT"
+ },
+ "0xd3510070e4c1246ab43c35b6f8a16d419186ae99": {
+  "name": "zkEVM LPs",
+  "symbol": "zkEVM-LP"
+ },
+ "0xd352f24c0c9cc1d32eca3943de567f13e8d636c8": {
+  "name": "Himalayan ETH Call Spread Vault",
+  "symbol": "hETH-CS"
+ },
+ "0xd37979ecaa6f1bdbe571e15b26e465303a3d7759": {
+  "name": "TGRIE",
+  "symbol": "TGRIE"
+ },
+ "0xd3ee28cb8ed02a5641dfa02624df399b01f1e131": {
+  "name": "Fee QLP",
+  "symbol": "fQLP"
+ },
+ "0xd4062d97c79af61114481111d2d0924b71f59e48": {
+  "name": "DOY",
+  "symbol": "DOY"
+ },
+ "0xd492ac31fd92dd36349d3ff83a5a54405090b269": {
+  "name": "Drop",
+  "symbol": "ARP"
+ },
+ "0xd4ec150896f1784b5be2b3af460d2cb2b8c0f522": {
+  "name": "Gyroscope ECLP GYD/USDC",
+  "symbol": "ECLP-GYD-USDC"
+ },
+ "0xd4f2bec1c39fdbfb63cf8efaacf91914ce652eee": {
+  "name": "SHK",
+  "symbol": "SHK"
+ },
+ "0xd507361174a0fde521bf8c097ef19dd31ffca710": {
+  "name": "Amulet",
+  "symbol": "AMU"
+ },
+ "0xd582226b586ab06f3bf9353f0f2b8618a3544719": {
+  "name": "aUSDT-MATIC",
+  "symbol": "aUSDT-MATIC"
+ },
+ "0xd599639c5bdb0c3cea03c4114d680d74a7f1f45b": {
+  "name": "DE2",
+  "symbol": ""
+ },
+ "0xd5a51c81de62123eac819b7336a115ee72319bd5": {
+  "name": "SAITAMA",
+  "symbol": "SAITAMA"
+ },
+ "0xd5ebc5e5f38c2d8c91c43122a105327c1f0260b4": {
+  "name": "ZeroWayFT",
+  "symbol": "ZWFT"
+ },
+ "0xd5fd195ffdf793c3d39acd17438bcfc0c6667512": {
+  "name": "cait",
+  "symbol": "clark9"
+ },
+ "0xd660f49eafafc465451aafcba16ca127ae926a85": {
+  "name": "pl6g",
+  "symbol": "pl6g"
+ },
+ "0xd6639f4f555b36831d888a0c0de9fed9682545e7": {
+  "name": "KyberSwap v2 Reinvestment Token",
+  "symbol": "KS2-RT"
+ },
+ "0xd67b6e20125ca7a5bda7c579d4d6785415aa8c51": {
+  "name": "PZKUMROCKET",
+  "symbol": "pzKumRocket"
+ },
+ "0xd67de0e0a0fd7b15dc8348bb9be742f3c5850454": {
+  "name": "Matic Token",
+  "symbol": "anyMATIC"
+ },
+ "0xd68940fb92917460b410d393c8d68b62b2cf45b7": {
+  "name": "SEXIESTR",
+  "symbol": "8XX"
+ },
+ "0xd6b9a0b261dda05ba06dc51821c3ba12318d9ae1": {
+  "name": "Savings Dai",
+  "symbol": "sDAI"
+ },
+ "0xd722674df2cf7e5b3eda98a21f982b2cf13bbfd5": {
+  "name": "Bribe veZERO",
+  "symbol": "bveZERO"
+ },
+ "0xd726103e34df6c9ae73059711a875b7dab67eac2": {
+  "name": "Sustainable Token USD",
+  "symbol": "$SToken"
+ },
+ "0xd73b23a9aad0c286bd4e3a6d5a6a6321d9a98043": {
+  "name": "Echocum zkEVM",
+  "symbol": "EZKE"
+ },
+ "0xd73d9cf1976e3de4dc52746d6384c1df8b8aaf13": {
+  "name": "",
+  "rpc_error": "invalid opcode: MCOPY",
+  "symbol": ""
+ },
+ "0xd7683a961beec259e311b641de4c60bacc17fdb5": {
+  "name": "WSwap",
+  "symbol": "WSS"
+ },
+ "0xd799cba6c24231e34b35f48f5d209f4e5eec02a4": {
+  "name": "zkEVM LPs",
+  "symbol": "zkEVM-LP"
+ },
+ "0xd79ea4350c914c807176906c061ff0d0cce6ce7e": {
+  "name": "Vkmkxi",
+  "symbol": "VKMKXI"
+ },
+ "0xd7a24d22cb1e94a4cf71e2e8338849382a7877bb": {
+  "name": "TOZEX",
+  "symbol": "TOZ"
+ },
+ "0xd7ab43a3b41d180678177915fd4de973371c98a4": {
+  "name": "123456789abcd",
+  "symbol": "123456789abcd"
+ },
+ "0xd7cf9ce3e83ca8814dc33c7d3a8285773bb02b3e": {
+  "name": "Mellow Lp Token 12",
+  "symbol": "MLP12"
+ },
+ "0xd80d233cc78113a4488945b5d6ae34830ef4b192": {
+  "name": "THE TRUTH",
+  "symbol": "UFO"
+ },
+ "0xd826c4396ec7a9f9114502e6504d674e60bde486": {
+  "name": "neolitfacecoin",
+  "symbol": "NFC"
+ },
+ "0xd84518aa3db62f26653ec681ab2c1ed158b26ed8": {
+  "name": "SpongeBob",
+  "symbol": "SPONGE"
+ },
+ "0xd987ea562e36e9d162ebbc36f574144b7422f018": {
+  "name": "ZERO",
+  "symbol": "ZERO"
+ },
+ "0xd98a9640e338429da086d794cad6c43316f5fd71": {
+  "name": "Kokonut Factory WETH-USDC (Crypto Pool)",
+  "symbol": "KOKO-WETH/USDC"
+ },
+ "0xd9a70025d64151bc12960fb180f44ff46236175b": {
+  "name": "PolyLend  Stable Debt USDC",
+  "symbol": "stableDebtplUSDC"
+ },
+ "0xd9c47d60ce38d8ad358a3089ee83c42e37885da4": {
+  "name": "Pai Token",
+  "symbol": "PAI"
+ },
+ "0xda133e7f31a22620afa1b7c04391f88b037427be": {
+  "name": "ZiG Goldcoin-backed Stablecoin",
+  "symbol": "ZiG"
+ },
+ "0xda7b11717526582b1c641ab2f89e82b1b8eaf80b": {
+  "name": "Dtgfpi",
+  "symbol": "DTGFPI"
+ },
+ "0xda86d4168e63111055b6ffef0aba1ca5a9ad98b1": {
+  "name": "Moo Quick QLP",
+  "symbol": "mooQuickQLP"
+ },
+ "0xdacb17b772fc884cddc873b39da8f8accc18eff1": {
+  "name": "DigiToads",
+  "symbol": "$TOADS"
+ },
+ "0xdb6b8b98c45e698c814c4b5227551a59bf614b18": {
+  "name": "KyberSwap v2 Reinvestment Token",
+  "symbol": "KS2-RT"
+ },
+ "0xdb7a504cf869484dd6ac5faf925c8386cbf7573d": {
+  "name": "ChainLink Token",
+  "symbol": "LINK"
+ },
+ "0xdbffa0426da2bc5d7296f4ff40c02beb270821d1": {
+  "name": "antoffka",
+  "symbol": ""
+ },
+ "0xdc28023ccdfbe553643c41a335a4f555edf937df": {
+  "name": "D8X V1",
+  "symbol": "D8X"
+ },
+ "0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98": {
+  "name": "Wrapped BTC",
+  "symbol": "anyWBTC"
+ },
+ "0xdc543c9f1caa4211165eac2297578035f9ccca3c": {
+  "name": "Tether",
+  "symbol": "USDT"
+ },
+ "0xdcb8125a0fa9ad694ced4ba482a9fbef14c6c26f": {
+  "name": "Rai Reflex Index",
+  "symbol": "RAI"
+ },
+ "0xdcbfb3da30cbff81257ae4711d860a7412eeb64e": {
+  "name": "ZiG Meme Token",
+  "symbol": "ZiGMeme"
+ },
+ "0xdcd5e97f2fca627bb5b6daf2592722fff256e377": {
+  "name": "ZiG Governance Token",
+  "symbol": "ZiGGOV"
+ },
+ "0xdd0a976acd78bf85d80bfdff8e0cb7a683f8eae8": {
+  "name": "Pepe",
+  "symbol": "PEPE"
+ },
+ "0xdd182bd5312d46548c7c0b6aced75f8ecc687de9": {
+  "name": "Orbit Guy",
+  "symbol": "ORBGUY"
+ },
+ "0xdd38211f2973dc41cd6fc4db681596fd6118d894": {
+  "name": "Planted Mango",
+  "symbol": "pMANGO"
+ },
+ "0xdd8c83e6ea52af013d5fec8d36ed37196fef9761": {
+  "name": "KyberSwap v2 Reinvestment Token",
+  "symbol": "KS2-RT"
+ },
+ "0xddafb91475bbf6210a151fa911ac8fda7de46ec2": {
+  "name": "Giveth",
+  "symbol": "GIV"
+ },
+ "0xddcbc67590e5e60f79053de29ba735d120057b72": {
+  "name": "Wzpr",
+  "symbol": "WZPR"
+ },
+ "0xde0d2ad2641692a20406d7c033fadd557f774695": {
+  "name": "Dolz",
+  "symbol": "DOLZ"
+ },
+ "0xde72f2a56b0fd42e068911e5959b2077bfa72070": {
+  "name": "BAG",
+  "symbol": "BAG"
+ },
+ "0xde7fcebf2a0f2f6277da77f7e5ff438186f89a42": {
+  "name": "CryptoDude Coin",
+  "symbol": "CDC"
+ },
+ "0xde833c10894f67b638c88362c73850e993bafaa8": {
+  "name": "DOOR",
+  "symbol": "DR"
+ },
+ "0xdeaf5766332d5424b5ff98b964938cb90d7f055b": {
+  "name": "Yorgs",
+  "symbol": "YRG"
+ },
+ "0xded56bb5a5d6f435780d36943854a05931bca2e1": {
+  "name": "wwwqqq",
+  "symbol": "WQ"
+ },
+ "0xdf098f6c1295f2003ceaa3f89b6e54edc659949a": {
+  "name": "Pirate Bay Token",
+  "symbol": "PBT"
+ },
+ "0xdf474b7109b73b7d57926d43598d5934131136b2": {
+  "name": "Ankr Network",
+  "symbol": "ANKR"
+ },
+ "0xdf61049697f04d1849b15498d45fb5af9269233d": {
+  "name": "Triixx",
+  "symbol": "TRIIXX"
+ },
+ "0xdf725fde6e89981fb30d9bf999841ac2c160b512": {
+  "name": "Balancer wstETH/rETH Stable Pool",
+  "symbol": "B-wstETH/rETH-STABLE"
+ },
+ "0xe061cf2aa271f9fdca9e61eaee372e76fea3a5d0": {
+  "name": "Pre-Mine PolyLend",
+  "symbol": "ePLEND"
+ },
+ "0xe06fb8800291e2d6360540fb0929a25c96ebfaf0": {
+  "name": "SEX coin",
+  "symbol": "SEX"
+ },
+ "0xe0b244c908ca3d545b59b5f1de1e5f5a867d078e": {
+  "name": "Skeb Coin",
+  "symbol": "SKEB"
+ },
+ "0xe0ed93f338369378c245c2a6e10db9f19a06a6d1": {
+  "name": "KenzoCenzoP",
+  "symbol": "kencp"
+ },
+ "0xe11f5d634564520b229bee1f060a440d67d3c363": {
+  "name": "AKADAMA",
+  "symbol": "AKD"
+ },
+ "0xe1223473eb03ac9555912bdca8385da05ab45db8": {
+  "name": "Vested SHK",
+  "symbol": "vSHK"
+ },
+ "0xe169304fd622b2fcb6c3089263870116199a3aa9": {
+  "name": "polygon",
+  "symbol": "matic"
+ },
+ "0xe1ae82379a6faa347f0fda4fa9b043fdac586195": {
+  "name": "HyperMeFT",
+  "symbol": "HMFT"
+ },
+ "0xe1bd66772d210e1f3a002b5759c007dc2c978e08": {
+  "name": "Sheikh Coin",
+  "symbol": "SHC"
+ },
+ "0xe1e36f36560e2fa25bc1e45e5754f24611902811": {
+  "name": "Polygon Zk Tiger",
+  "symbol": "TIGER"
+ },
+ "0xe1f2c039a68a216de6dd427be6c60decf405762a": {
+  "name": "Balancer wstETH Stable Pool",
+  "symbol": "B-wstETH-STABLE"
+ },
+ "0xe26e205ced7ec44de3dded7e63ff01a7cf158c1b": {
+  "name": "Gyroscope ECLP GYD/USDC",
+  "symbol": "ECLP-GYD-USDC"
+ },
+ "0xe274c9deb6ed34cfe4130f8d0a8a948dea5bb286": {
+  "name": "Balancer 0vix Boosted StablePool",
+  "symbol": "bb-o-USD"
+ },
+ "0xe2f7a268fd6ae6fd9ccd52419183b937c4d855f4": {
+  "name": "Druid Token",
+  "symbol": "DRUID"
+ },
+ "0xe2f9953a21db550f88edd5e835f4c6a8d3986638": {
+  "name": "q3",
+  "symbol": "Q3"
+ },
+ "0xe304af65ab52b60a88134f18e361a70e22c6cc21": {
+  "name": "Druid Token",
+  "symbol": "DRUID"
+ },
+ "0xe32d68a3bfa2da0b64461dbb1d25febdb84ac574": {
+  "name": "Vmuhxfk",
+  "symbol": "VMUHXFK"
+ },
+ "0xe34958a84acd7c1a04dabcc4f529d1872119c421": {
+  "name": "DIGITAL FITNESS",
+  "symbol": "DEFIT"
+ },
+ "0xe38c90a0233f18749fb74e595c4de871e5498c13": {
+  "name": "ClipperDirect Pool Token",
+  "symbol": "CLPRDRPL"
+ },
+ "0xe3ded512ed6a612a6f82a2b9b8faddb2a50c8dfe": {
+  "name": "PSYOP",
+  "symbol": "PSYOP"
+ },
+ "0xe45756897a1728b7207823d9b48214e9613e2b51": {
+  "name": "PolyTools",
+  "symbol": "zkPT"
+ },
+ "0xe45f11b7e17693f132c9da0ccb151d36d7686154": {
+  "name": "STONK TOKEN",
+  "symbol": "STONK"
+ },
+ "0xe4c2e67aad4202ec1b741b6d08cfc25110e72b98": {
+  "name": "PancakeSwap Token",
+  "symbol": "Cake"
+ },
+ "0xe512e3f04546beb4b6aaa64bd4a0d6c0f3590190": {
+  "name": "SINERGIA",
+  "symbol": "SNG"
+ },
+ "0xe532164031d00845542f1d34f8beb7082f967234": {
+  "name": "FreedomCash",
+  "symbol": "FREEDOMCASH"
+ },
+ "0xe58cd0c79cdff6252476b3445bee1400503e0ae0": {
+  "name": "Gyroscope ECLP wstETH/WETH",
+  "symbol": "ECLP-wstETH-WETH"
+ },
+ "0xe6801928061cdbe32ac5ad0634427e140efd05f9": {
+  "name": "QuickSwap",
+  "symbol": "anyQUICK"
+ },
+ "0xe6b4f598688a3cd8fc81964e03c3b00372281128": {
+  "name": "AiPeople",
+  "symbol": "AIPPL"
+ },
+ "0xe767a4553730ceddddd5184588da93298424396d": {
+  "name": "50WETH-50USDC",
+  "symbol": "50WETH-50USDC"
+ },
+ "0xe780c9ed09157c39d223bf4a2e4f736e0bf3f0be": {
+  "name": "AGDfe",
+  "symbol": "GDSSE"
+ },
+ "0xe7db8674dfb04adde4511de6897d21f28f9cde7d": {
+  "name": "xUSDC.E-MAI01",
+  "symbol": "xUSDC.E-MAI01"
+ },
+ "0xe7dd0458e337829ec291c974a4b5a342fefe1312": {
+  "name": "Nkwormzg",
+  "symbol": "NKWORMZG"
+ },
+ "0xe7ff23a380c015d31de589c84e9d969f3ba62c81": {
+  "name": "Celebrity Meme",
+  "symbol": "CELEB"
+ },
+ "0xe8182cd3a39391324294aa9333b3d0b57e7a9c8d": {
+  "name": "Squanchy",
+  "symbol": "SQNCH"
+ },
+ "0xe8585f219c349b518785c083ff7123edd9128f7a": {
+  "name": "ok",
+  "symbol": "ok"
+ },
+ "0xe85d0a4c398c30d9f4766411f5cb33d7e34b636a": {
+  "name": "HI",
+  "symbol": "HI"
+ },
+ "0xe87859818ba2044c6c54924208a84c93c55466a1": {
+  "name": "DoveSwap LP",
+  "symbol": "DOV-LP"
+ },
+ "0xe8902ccd6ed53a11351a026cf4d190d2e079fbbe": {
+  "name": "BabyWhale OFT",
+  "symbol": "BWHL"
+ },
+ "0xe8a6565e7f395f551fe3f98bd674a922cb552524": {
+  "name": "afrxETH-FRAX",
+  "symbol": "afrxETH-FRAX"
+ },
+ "0xe8a882d2ab0882b7bc53b8e5d281d8d5ddc25565": {
+  "name": "Moromoriii",
+  "symbol": "Mrmii"
+ },
+ "0xe8dd3ac27168e72d19ef56c7edc38f26f55592cf": {
+  "name": "WSW",
+  "symbol": "WSW"
+ },
+ "0xe936109088fbc823e1f6a4707656fdf1f83b1d45": {
+  "name": "hossoland",
+  "symbol": "hsl15"
+ },
+ "0xe9aa0a52cc35cc74702cebcc16f89ea54a12341c": {
+  "name": "MoonVault",
+  "symbol": "MVLT"
+ },
+ "0xe9dc987b939a7b33270e56532297cf82716c79a3": {
+  "name": "BitcoinBR",
+  "symbol": "BTCBR"
+ },
+ "0xea0b7a3256829190ea5f587509dee953d213461c": {
+  "name": "Leet",
+  "symbol": "LEET"
+ },
+ "0xeb23c712c0747425e5568ff7e70a56a6f46fba7e": {
+  "name": "X",
+  "symbol": "X"
+ },
+ "0xebafdaee9b00be1f98a3d6c6b36dc062581abe0e": {
+  "name": "Carbify",
+  "symbol": "CBY"
+ },
+ "0xebcf9ff0868f57f08d86e6a94889a0decb99d43b": {
+  "name": "Zimbabwe Gold Tether",
+  "symbol": "ZiGT"
+ },
+ "0xec08408df39324505a6ef8cf3718f5c2f34c683e": {
+  "name": "Mysterium",
+  "symbol": "MYST"
+ },
+ "0xec3a33d29d2dd4b3a467e8fd58b31d5d62b8bb73": {
+  "name": "Staging Test Token 2",
+  "symbol": "STT2"
+ },
+ "0xec96bd2c06015c9f5c533ca195c80d0fadbae905": {
+  "name": "Udpbijq",
+  "symbol": "UDPBIJQ"
+ },
+ "0xecaff93978d70c6513cda3a6009e0ceaf5c39e4a": {
+  "name": "LeetSwapV2 VolatileV1 Pair - USDT/WETH",
+  "symbol": "vLS2-USDT/WETH"
+ },
+ "0xeccf8254558fcb1ca02047ae8c1b8a2bf4ad0fc0": {
+  "name": "Nogem Token",
+  "symbol": "NGGT"
+ },
+ "0xecfa9cd134e77f573b079378940a4be944993f17": {
+  "name": "aLINK-WETH",
+  "symbol": "aLINK-WETH"
+ },
+ "0xed3b0ac7280589baffaf221fd44832950ce0ec6d": {
+  "name": "LeetSwapV2 VolatileV1 Pair - USDC/LEET",
+  "symbol": "vLS2-USDC/LEET"
+ },
+ "0xed8decf84bebe5aae87a30e5288f86ac9fa14d0c": {
+  "name": "USSR",
+  "symbol": "USSR"
+ },
+ "0xedea3e93b914e2654f8c7e0c2bb5e6205f9742b0": {
+  "name": "Balancer ECLP-wETH-rETH Gauge Deposit",
+  "symbol": "ECLP-wETH-rETH-gauge"
+ },
+ "0xee1727f5074e747716637e1776b7f7c7133f16b1": {
+  "name": "KEOM Ether",
+  "symbol": "kNative"
+ },
+ "0xee1dc36185c460f8078e149f61e37f23a2120048": {
+  "name": "xyETH",
+  "symbol": "xyETH"
+ },
+ "0xef5ea65dc4f4b1b87ae3aa2cb51fb23c73e69a06": {
+  "name": "PolyZKINU",
+  "symbol": "ZKINU"
+ },
+ "0xef97b54f69060f4d5304f79734d01c2da12114d8": {
+  "name": "Balancer bb-o-USD Gauge Deposit",
+  "symbol": "bb-o-USD-gauge"
+ },
+ "0xefb39f1b61cdfdbd4ad98c5e3424841ee3160abd": {
+  "name": "ZKM",
+  "symbol": "ZKM"
+ },
+ "0xefb3c3b466cc01bb6353ec8675d9303724ac24b4": {
+  "name": "PZK Rise",
+  "symbol": "PZKRISE"
+ },
+ "0xefb86ea47c937ec83ec455f0b37b8695a19b4f73": {
+  "name": "Darpa",
+  "symbol": "DRP"
+ },
+ "0xf023eabfd1135a2bd0c9e28f631e6f02f1e9b096": {
+  "name": "MJ Coin",
+  "symbol": "MJC"
+ },
+ "0xf0a88c1eea067c8c3ee905fd88f8306d5dbf8cb4": {
+  "name": "GPK0",
+  "symbol": "GPK0"
+ },
+ "0xf12561a7755ebee692cccec941636f14ca66fca2": {
+  "name": "DYAD Stable",
+  "symbol": "DYAD"
+ },
+ "0xf15431671682e1d6d42f842b5bffd80823cf8397": {
+  "name": "Rio",
+  "symbol": "RIO"
+ },
+ "0xf1964b8979fd0f7abcd26cadb1b64d7f061ccf4a": {
+  "name": "Cuxjq",
+  "symbol": "CUXJQ"
+ },
+ "0xf1b8982ec774ae84e936bd63f372280bd534e797": {
+  "name": "NFTEarthOFT",
+  "symbol": "NFTE"
+ },
+ "0xf209bd5095506cd671b8b64741b00985e9a15636": {
+  "name": "KyberSwap v2 Reinvestment Token",
+  "symbol": "KS2-RT"
+ },
+ "0xf252fd5c84d230be004ed609dddf6aea45e21e65": {
+  "name": "pollianna",
+  "symbol": "pol"
+ },
+ "0xf2566ef321dc76a8b4d238b9d0c82cdaa01156b9": {
+  "name": "PolyLend  Variable Debt WETH",
+  "symbol": "variableDebtplWETH"
+ },
+ "0xf2f145260f0ee70dcd25f0976eb51d39ba4f675f": {
+  "name": "Mallik",
+  "symbol": "MAL1"
+ },
+ "0xf31839e96cd83b3fc9f145381bf336819a9723b9": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0xf329bc8e21da7f278ce806e04c2266974edb1386": {
+  "name": "Kokonut Swap Token",
+  "symbol": "KOKOS"
+ },
+ "0xf3480c3c5eba8a7b1e91b92f812cf63623d3e768": {
+  "name": "Poly Mun Token",
+  "symbol": "PMT"
+ },
+ "0xf3541ade64ea670fc6cae3825e83d54dbb5c3a59": {
+  "name": "Balancer rsETH/wETH StablePool Aura Deposit Vault",
+  "symbol": "aurarsETH/wETH-vault"
+ },
+ "0xf385fc3d69621d2f2f209425774f6e5d1744b8f0": {
+  "name": "Actuate",
+  "symbol": "ACT"
+ },
+ "0xf38c94108817c49c8eb901bdf2d4575a7ab6dcbd": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0xf3ba29660d5bac1eaf75539d424c674f9783684b": {
+  "name": "FarmerEVM",
+  "symbol": "FVM"
+ },
+ "0xf3df68198c9e86678179811283e11228093a48d0": {
+  "name": "linda",
+  "symbol": "linda"
+ },
+ "0xf44919cfad626313ccc6d034caaaa8d61c5dbab6": {
+  "name": "Quickswap",
+  "symbol": "QUICK"
+ },
+ "0xf44bd74025be17e1c4a2db9dd17b730973aa20e7": {
+  "name": "YouAreNotAlone",
+  "symbol": "UR-NOT-ALONE"
+ },
+ "0xf480a8ffd22bcf6fe6e1c6523922bacd8a6fbe70": {
+  "name": "Lovecoin",
+  "symbol": "LOVE"
+ },
+ "0xf4b55f649cd6ff4adddff822c058a67427a2f95a": {
+  "name": "Kapital DAO Token",
+  "symbol": "KAP"
+ },
+ "0xf526efc174b512e66243cb52524c1be720144e8d": {
+  "name": "xyUSDC",
+  "symbol": "xyUSDC"
+ },
+ "0xf52dc9e8c7eaedd5d04b7c68e2e7fdaee1c57262": {
+  "name": "PathDao",
+  "symbol": "PATH"
+ },
+ "0xf57be8616407f6dd37a19c4b05c8b324da82758d": {
+  "name": "pzkCULT",
+  "symbol": "pzkCULT"
+ },
+ "0xf596ac9c9b60f9c555b8290c2b039c275396afb4": {
+  "name": "Gyroscope ECLP GYD/USDT",
+  "symbol": "ECLP-GYD-USDT"
+ },
+ "0xf5a1bf87ce9c344df8666a81b693b79dbce8c46b": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0xf5a5defefd7a315e01487c116e3fa86bd619049d": {
+  "name": "MOR",
+  "symbol": "MOR"
+ },
+ "0xf5c94e257bb0788559c5bb1bf7f431b09886d46f": {
+  "name": "BUSD Token",
+  "symbol": "BUSD"
+ },
+ "0xf5d51a95caea852a17d36784f20c543ce29133ca": {
+  "name": "base stockplayh",
+  "symbol": "bstp"
+ },
+ "0xf60537aca98ab2433904d5091fdadc6521c5bb28": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0xf621ccfd117f4a412101b7613db3e72eea4f4dcf": {
+  "name": "Evo Exchange",
+  "symbol": "EvoX"
+ },
+ "0xf66b60814f51923e00094c0622b238a81d9602b6": {
+  "name": "Art",
+  "symbol": "Bart"
+ },
+ "0xf6752c8a8d0b9c4ddfb7506a049079a8ede0119f": {
+  "name": "PolyLend  WETH",
+  "symbol": "plWETH"
+ },
+ "0xf72d6daa89f537e04a34393c206d1ab6e16a3572": {
+  "name": "ZiG Governance Token",
+  "symbol": "ZiGGOV"
+ },
+ "0xf74d0c533012e372a465712b49a26199a1b0714c": {
+  "name": "WETH-WBTC",
+  "symbol": "WETH-WBTC"
+ },
+ "0xf7f2c2da4f5018fc65a5afbebe73a05f37d41cf0": {
+  "name": "DEPLOYED",
+  "symbol": "DPLYD"
+ },
+ "0xf80afecf0b31c8cbc5c4fdf0dc3697b0c6da70b4": {
+  "name": "Wormhole",
+  "symbol": "WH"
+ },
+ "0xf80cf4aa1228c6cfa863c2ffe303cc9e05322b1f": {
+  "name": "Balancer rsETH/wETH StablePool Aura Deposit",
+  "symbol": "aurarsETH/wETH"
+ },
+ "0xf856fa479b0d4d1b7105ec85ed718b0499b940c2": {
+  "name": "Fish Coin",
+  "symbol": "CFISH"
+ },
+ "0xf87c0903f2ad2063f385379887071cc7653b02cb": {
+  "name": "Tropykus zk EVM Market USDC",
+  "symbol": "akUSDC"
+ },
+ "0xf8903b434573b191e130829f2f8ce9a22595a73f": {
+  "name": "bitsCrunch Token",
+  "symbol": "BCUT"
+ },
+ "0xf8c062e4a86e80d65de44926191fd07d88094c78": {
+  "name": "Bonus SHK",
+  "symbol": "bnSHK"
+ },
+ "0xf8e3aa742e7e8e55f421ef73a56cdd5d96d84d5c": {
+  "name": "ZiG Goldcoin-backed Stablecoin",
+  "symbol": "ZiG"
+ },
+ "0xf8eccf4d83bfd0ed2d16a4397c57d8edcfcbdf74": {
+  "name": "$pol",
+  "symbol": "$pol"
+ },
+ "0xf939ef08fe0a9dd6a3ac8cbb64a4f0c9298cd4bd": {
+  "name": "RelativeTestUSD",
+  "symbol": "RUSD"
+ },
+ "0xf9ed88937b2d82707d0eabd8c3d9aa4870b714d3": {
+  "name": "Liquid Staking Matic",
+  "symbol": "MaticX"
+ },
+ "0xfa28a4a30e13b56c323468070a407433ccb00c30": {
+  "name": "clima",
+  "symbol": "clima"
+ },
+ "0xfa42f010aac1acbb10018c7bf1588446e7e11bfb": {
+  "name": "Pool cpFASA-USDC",
+  "symbol": "cpFASA-USDC"
+ },
+ "0xfafb870f1918827fe57ca4b891124606eaa7e6bd": {
+  "name": "The Grand Timeline",
+  "symbol": "GRNDT"
+ },
+ "0xfb3a24c0f289e695ceb87b32fc18a2b8bd896167": {
+  "name": "aETH-USDC",
+  "symbol": "aETH-USDC"
+ },
+ "0xfb700249845adcf3f31f7c279493f8914873dd6c": {
+  "name": "Poly zkDoge",
+  "symbol": "PzkDoge"
+ },
+ "0xfbd488d3bd1ab78799bcdcfe8820a2f0a3a7fd50": {
+  "name": "TURBO DOG",
+  "symbol": "DOG"
+ },
+ "0xfc7b172e5d0aabcca283dfab4cc09c4a69bd06c1": {
+  "name": "Virtuswap Token",
+  "symbol": "VRSW"
+ },
+ "0xfc8d8b50862fb499d1f92291dd5a59adb8ba0d9c": {
+  "name": "Wlzo",
+  "symbol": "WLZO"
+ },
+ "0xfca34253bf486f8762ff80514a62c382c1fecc23": {
+  "name": "Acgpodp",
+  "symbol": "ACGPODP"
+ },
+ "0xfca73f9a3e1cda74bd4e9e595c98833bdb2e56c6": {
+  "name": "Freedom Cash",
+  "symbol": "FREE"
+ },
+ "0xfcc790c26353244afcf0604b9322ca85c46c405d": {
+  "name": "Plotinum",
+  "symbol": "Plot"
+ },
+ "0xfccfd20f632d3b253ffa91226bc0407970811330": {
+  "name": "Iejru",
+  "symbol": "IEJRU"
+ },
+ "0xfced0da29b6f58163ddf111a6dfb1b0b25638d22": {
+  "name": "Crodo Token",
+  "symbol": "CROD"
+ },
+ "0xfd01230422d426955ac0bbb85eeeb752eb108a6e": {
+  "name": "xUSDC.E-WETH05",
+  "symbol": "xUSDC.E-WETH05"
+ },
+ "0xfd92930ca50ab900171643a8a47bc57d760a5d95": {
+  "name": "DappGate by DappLabs",
+  "symbol": "DLGATE"
+ },
+ "0xfe825cc878b25420d4b5df5c68ddcde8bf3947a8": {
+  "name": "Mantis DAI LP",
+  "symbol": "LP-DAI"
+ },
+ "0xfe8beeb55bdb6f409136271e297b169c2b11a60c": {
+  "name": "Peepee",
+  "symbol": "PP"
+ },
+ "0xfe9b9b1c127cf23e81b6e18b3be865d859fa29f7": {
+  "name": "DoveSwap LP",
+  "symbol": "DOV-LP"
+ },
+ "0xfec35e370160807936e83fee177f866afa50a105": {
+  "name": "Qgbwzu",
+  "symbol": "QGBWZU"
+ },
+ "0xff2e1d703580a57eea0299147f132d198d352892": {
+  "name": "HASHBALDERDASH",
+  "symbol": "PHH"
+ },
+ "0xff462fb341b272ab1439730c40ff83fcf83c837d": {
+  "name": "HDH201",
+  "symbol": "HDH"
+ },
+ "0xff6e18e5e0f55157d1c032b58440f3311072e6e8": {
+  "name": "Rxega",
+  "symbol": "RXEGA"
+ },
+ "0xff8544fed5379d9ffa8d47a74ce6b91e632ac44d": {
+  "name": "Frax",
+  "symbol": "FRAX"
+ },
+ "0xffb847598207ec5d3f0c8d256c061e1d664db2d3": {
+  "name": "50USDC-50DAI",
+  "symbol": "50USDC-50DAI"
+ },
+ "0xffc865fcb34e754fad4b0144139b9c28c81c3eff": {
+  "name": "Balancer rsETH/wETH StablePool",
+  "symbol": "rsETH/wETH"
+ },
+ "0xfff953ef020c7200ac8f74663492752493835737": {
+  "name": "Gate",
+  "symbol": "GATE"
+ }
+}

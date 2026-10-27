@@ -1,0 +1,265 @@
+{
+ "chain": "zksync-era",
+ "channel_census": {
+  "distinct_named_senders": 14,
+  "distinct_recipients": 5399634,
+  "fanout_ratio": 3.387711463406594,
+  "note": "recipients are addresses NAMED as recipient, excluding the zero address; fan-out ~1 is the broadcast signature. Senders are the adversary-authored field and identify no operator.",
+  "top_fifty_share": 0.9989040258354261,
+  "top_named_senders": [
+   {
+    "address": "0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e",
+    "transfers": 13746492
+   },
+   {
+    "address": "0x000000000000000000000000000000000000800a",
+    "transfers": 3511047
+   },
+   {
+    "address": "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
+    "transfers": 610046
+   },
+   {
+    "address": "0x621425a1ef6abe91058e9712575dcc4258f8d091",
+    "transfers": 180234
+   },
+   {
+    "address": "0x478a1ebe665396ce0f2f87ab0f057ac273451b92",
+    "transfers": 157001
+   },
+   {
+    "address": "0xbc918775c20959332c503d51a9251c2405d9cf88",
+    "transfers": 50377
+   },
+   {
+    "address": "0x1d17cbcf0d6d143135ae902365d2e5e2a16538d4",
+    "transfers": 15399
+   },
+   {
+    "address": "0xaafaf0468a9a0de1e32ae4170807de8c948f99a3",
+    "transfers": 1752
+   },
+   {
+    "address": "0x5f389707fc094f5daaff685ba8e47ee56e31f51f",
+    "transfers": 1
+   },
+   {
+    "address": "0xdbe11dcf3882d68d4646392bf091f6b34f2aeec7",
+    "transfers": 1
+   },
+   {
+    "address": "0x4c233522394084ebaeb760e9f9dc7fe1ca0c6ab0",
+    "transfers": 1
+   },
+   {
+    "address": "0xe6de2a1c700b5958ae2b8f996ef5fccb757279fd",
+    "transfers": 1
+   },
+   {
+    "address": "0xd876028b890ffa77f567d0d541338dbbe2328f93",
+    "transfers": 1
+   },
+   {
+    "address": "0x161e2573974803342802fcc698fbdf167936c331",
+    "transfers": 1
+   }
+  ],
+  "transfers": 18292402
+ },
+ "depth_cutoffs": [
+  100,
+  300,
+  600,
+  null
+ ],
+ "depth_note": "cumulative at each rank cutoff; buckets partition the flagged population by the emitting contract's volume rank, so recipients at depth d are the union over buckets up to d. Marginal columns are the increment each interval adds.",
+ "depth_table": [
+  {
+   "contracts": 16,
+   "cutoff": 100,
+   "cutoff_label": "100",
+   "distinct_recipients": 5029368,
+   "marginal_contracts": 16,
+   "marginal_recipients": 5029368,
+   "marginal_transfers": 16178544,
+   "transfers": 16178544
+  },
+  {
+   "contracts": 32,
+   "cutoff": 300,
+   "cutoff_label": "300",
+   "distinct_recipients": 5367787,
+   "marginal_contracts": 16,
+   "marginal_recipients": 338419,
+   "marginal_transfers": 1930679,
+   "transfers": 18109223
+  },
+  {
+   "contracts": 40,
+   "cutoff": 600,
+   "cutoff_label": "600",
+   "distinct_recipients": 5398084,
+   "marginal_contracts": 8,
+   "marginal_recipients": 30297,
+   "marginal_transfers": 162410,
+   "transfers": 18271633
+  },
+  {
+   "contracts": 49,
+   "cutoff": null,
+   "cutoff_label": "all",
+   "distinct_recipients": 5399634,
+   "marginal_contracts": 9,
+   "marginal_recipients": 1550,
+   "marginal_transfers": 20769,
+   "transfers": 18292402
+  }
+ ],
+ "fabricated_sender_criterion": {
+  "contract_share": 0.3673469387755102,
+  "contracts": 18,
+  "contracts_list": [
+   "0x006f916db2b2341581a0d12d139ebba1878c1793",
+   "0x058ee9f027ad425308f8d072ca95c7bfe7e12554",
+   "0x07247258731899ecabe9168c23452494685cdc59",
+   "0x0b095b7e99534bd48cb8d6d61b578bed3c9e9006",
+   "0x1e842099827fbe58de73a807f56189a36797f1cc",
+   "0x1f974dd7b0472beae9b9e54c6728299e4124c0d7",
+   "0x2f851600a2cdba2163b791460663f0b0da4fdc90",
+   "0x4cd3819b55a48c072361808e26a90b700760d58f",
+   "0x4e72cd795acb63e4922fe22d2d6af501a03a5b32",
+   "0x699ba8547aa1a6998372cdf6284fac0b59849ee4",
+   "0x7df6b29346021a2aaa756daa84ca1fba684e2aca",
+   "0x8191dad78015e1b12307bc8799d1ded644819cf6",
+   "0x82d6798e2a22643f6102e5d89407ed9059d20a8b",
+   "0x924e8f55781026846028ed75c73d4b7f64360934",
+   "0x952b39d59528f90f920c559651031573aad1a038",
+   "0xac830640bd82b9597b61a2904aa900202f7dcc1b",
+   "0xbb73cdbeae093ed6cb8695a32ab5ffb90077c47a",
+   "0xf4c655f7dc8c0db02c57bfb854022442c1bbbf17"
+  ],
+  "definition": "a broadcast transfer whose named sender is a registry-verified token; evidence of fabricated provenance, independent of the payload strings the detector reads",
+  "recipient_share": 0.8681119868494791,
+  "recipients": 4687487,
+  "row_share": 0.7856779552515848,
+  "rows": 14371937
+ },
+ "impersonation": {
+  "note": "named_as_from counts rows asserting the target as sender. emitted_by_self counts those the target itself emitted. A forged sender field predicts emitted_by_self == 0.",
+  "targets": [
+   {
+    "address": "0x5aea5775959fbc2557cc8789bc1bf90a239d9a91",
+    "emitted_by_self": 0,
+    "named_as_from": 44304070,
+    "own_logs": 212582938,
+    "own_logs_naming_self": 20
+   },
+   {
+    "address": "0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e",
+    "emitted_by_self": 0,
+    "named_as_from": 13746797,
+    "own_logs": 11270623,
+    "own_logs_naming_self": 252
+   },
+   {
+    "address": "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
+    "emitted_by_self": 1,
+    "named_as_from": 757277,
+    "own_logs": 168291586,
+    "own_logs_naming_self": 790
+   },
+   {
+    "address": "0x1d17cbcf0d6d143135ae902365d2e5e2a16538d4",
+    "emitted_by_self": 0,
+    "named_as_from": 223789,
+    "own_logs": 4934806,
+    "own_logs_naming_self": 0
+   },
+   {
+    "address": "0x493257fd37edb34451f62edf8d2a0c418852ba4c",
+    "emitted_by_self": 0,
+    "named_as_from": 1,
+    "own_logs": 31876177,
+    "own_logs_naming_self": 192
+   }
+  ]
+ },
+ "lure_contracts_expected": 49,
+ "lure_contracts_observed": 49,
+ "lure_rows_matched": 18292402,
+ "lure_transfers_by_contract": {
+  "0x006f916db2b2341581a0d12d139ebba1878c1793": 693716,
+  "0x058ee9f027ad425308f8d072ca95c7bfe7e12554": 354503,
+  "0x07247258731899ecabe9168c23452494685cdc59": 6001,
+  "0x0b095b7e99534bd48cb8d6d61b578bed3c9e9006": 609184,
+  "0x0dcecb7ad7bad5ad931a2c07fff56b9917bcc3d9": 196549,
+  "0x1c4aa8a3a75c138edb9e4128f8ff5d6d2a0f204b": 43240,
+  "0x1e842099827fbe58de73a807f56189a36797f1cc": 15400,
+  "0x1f974dd7b0472beae9b9e54c6728299e4124c0d7": 654228,
+  "0x24cec6e2f5dab73503d47a1a2859e1a2d267a393": 92309,
+  "0x2f851600a2cdba2163b791460663f0b0da4fdc90": 621794,
+  "0x447959474f42e6ac72381047e90dc7923c013158": 86512,
+  "0x4cd3819b55a48c072361808e26a90b700760d58f": 431508,
+  "0x4e72cd795acb63e4922fe22d2d6af501a03a5b32": 1302339,
+  "0x590a3c37f465e7662a997f755edbcf9e65536617": 1057545,
+  "0x668e9cb30cbcae57cd0c45cb2a2a4ca0413f8b45": 160960,
+  "0x699ba8547aa1a6998372cdf6284fac0b59849ee4": 1412002,
+  "0x6ac88f53a5b0b34821aebc961c0e580b74a84761": 2039,
+  "0x719734ee88cfd6dfa209bfe80124893841ba2e70": 3106,
+  "0x72cc87e070550a202c9cbe20c206d994e6cea156": 93889,
+  "0x77ba9a5fb48161dd9b5cb2a64d50beedd3f5eb34": 8232,
+  "0x7bc4c0e92252a5c8fe894f51f0472e866fd77377": 157002,
+  "0x7df6b29346021a2aaa756daa84ca1fba684e2aca": 31001,
+  "0x8191dad78015e1b12307bc8799d1ded644819cf6": 1001,
+  "0x82d6798e2a22643f6102e5d89407ed9059d20a8b": 4588687,
+  "0x924e8f55781026846028ed75c73d4b7f64360934": 269942,
+  "0x92d63efa4d0969f5a09afa63c84b1375a65b3c9d": 5180,
+  "0x952b39d59528f90f920c559651031573aad1a038": 264782,
+  "0xa0b4c7492c1ab7bc02bd7345fdd32b0e9e19b80d": 1226,
+  "0xa1d0e1e4dc2caeb0c3f47d46d95b17eda32dfe3e": 20005,
+  "0xa3eadcca18b3b82f381e0f1aaacac65bd17c5414": 249759,
+  "0xa5088efb04c2f3a286c02af11b97014bb557823a": 1098,
+  "0xab972590517eb0add95dec2c00f6e096b1d91e00": 34015,
+  "0xac830640bd82b9597b61a2904aa900202f7dcc1b": 95001,
+  "0xadd319b226d3e3b622eb4fdda63656326d46de4d": 163610,
+  "0xb2475ddde2627e44d4e94a2b5e30f68cd39a7e0c": 1754,
+  "0xb6b97edc787f0273d6e0ff18b22968e41374c78f": 4501,
+  "0xb70f99a52822e0c96374c7459dfff0cf2dc16df1": 373649,
+  "0xbb73cdbeae093ed6cb8695a32ab5ffb90077c47a": 3020001,
+  "0xbc222cd9672d0814273d9c5588acf6228fc0c84c": 30728,
+  "0xbff6154a19531dfdcf2b1f37f8bac1d2f4eb3f73": 180235,
+  "0xca3f7f6b546c83d5c3e97eb7dd261e3f2f478ad5": 212418,
+  "0xcbaab0daae34c232add5adda1f0cc09e342d917b": 34622,
+  "0xd5563c4513a4907dc5c7bd981b316e1c8d5ebcb3": 116524,
+  "0xe4ee3dceba9b21e0a83f9a782c18ae4e23b3cc52": 156353,
+  "0xe64e447e42802330b546296358c4218b4eafcb73": 274905,
+  "0xf3ecd1af4b8d29b42c139233db3c2ad48001b982": 31152,
+  "0xf4c655f7dc8c0db02c57bfb854022442c1bbbf17": 864,
+  "0xf62d5a6c1dfdacec72c825d93f18972173c9e8ed": 107440,
+  "0xf72504f1b5b232aceb23edda5cd80c20970a71e7": 19891
+ },
+ "match_key": "low 20 bytes of the address and of each participant topic, compared as 40-character lowercase hex; independent of topic padding width",
+ "partial": false,
+ "probe": {
+  "absent": true,
+  "addresses": [
+   "0x3b6056ff037072be7e7b62efcdb5639cf08dfa4a",
+   "0xa735a3609ec3b701f29e0ea5b066d799a8ba8af8"
+  ],
+  "interpretation": "the ledger test in forgery_probe.py requires these addresses to be unknown to the chain; occurrences_in_chain == 0 establishes that by measurement rather than by appeal to improbability. Counted over both participant fields of every row.",
+  "occurrences_in_chain": 0,
+  "seed": "balance-probe"
+ },
+ "row_groups": 2128,
+ "rows_per_second": 10832931,
+ "rows_scanned": 2222701031,
+ "scope": "FULL CHAIN -- every row group scanned",
+ "totals": {
+  "of_which_emitted_by_that_token": 1,
+  "registry_own_logs": 436682847,
+  "registry_own_logs_naming_self": 1403,
+  "rows_naming_a_registry_token_as_sender": 59031934
+ },
+ "wall_seconds": 205.2,
+ "workers": 4
+}

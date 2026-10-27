@@ -1,0 +1,131 @@
+{
+ "calibration_band": [
+  0.8,
+  1.25
+ ],
+ "chain": "base",
+ "chosen": null,
+ "criterion": "the FINEST granularity at which calibration lands inside the band and the null retains freedom; declared before the sweep was run",
+ "sweep": [
+  {
+   "calibration": {
+    "expected": 1149084.141804612,
+    "observed": 1722060,
+    "oe": 1.4986369904083279
+   },
+   "calibration_passes": false,
+   "granularity": "act4-era1",
+   "lure": {
+    "expected": 113235.06529551091,
+    "observed": 177075,
+    "oe": 1.5637823808189208
+   },
+   "median_pool": 445849,
+   "n_strata": 8,
+   "theta_ratio_of_ratios": 1.0434697600736806
+  },
+  {
+   "calibration": {
+    "expected": 1076422.2821373248,
+    "observed": 1722060,
+    "oe": 1.5997996590898402
+   },
+   "calibration_passes": false,
+   "granularity": "act4-era10",
+   "lure": {
+    "expected": 103828.33476308364,
+    "observed": 177075,
+    "oe": 1.7054593084253082
+   },
+   "median_pool": 28434,
+   "n_strata": 80,
+   "theta_ratio_of_ratios": 1.066045550600742
+  },
+  {
+   "calibration": {
+    "expected": 1096022.66423743,
+    "observed": 1722060,
+    "oe": 1.5711901370197872
+   },
+   "calibration_passes": false,
+   "granularity": "act8-era10",
+   "lure": {
+    "expected": 106203.147880689,
+    "observed": 177075,
+    "oe": 1.6673234601193747
+   },
+   "median_pool": 9478,
+   "n_strata": 150,
+   "theta_ratio_of_ratios": 1.0611850347291079
+  },
+  {
+   "calibration": {
+    "expected": 1113234.032398899,
+    "observed": 1722060,
+    "oe": 1.5468984507140395
+   },
+   "calibration_passes": false,
+   "granularity": "act8-era25",
+   "lure": {
+    "expected": 107646.41909192118,
+    "observed": 177075,
+    "oe": 1.6449687922158611
+   },
+   "median_pool": 3835,
+   "n_strata": 375,
+   "theta_ratio_of_ratios": 1.0633980475295925
+  },
+  {
+   "calibration": {
+    "expected": 1116446.6664918803,
+    "observed": 1722060,
+    "oe": 1.5424471689374015
+   },
+   "calibration_passes": false,
+   "granularity": "act12-era25",
+   "lure": {
+    "expected": 108190.05824037167,
+    "observed": 177075,
+    "oe": 1.6367030656974317
+   },
+   "median_pool": 2025,
+   "n_strata": 575,
+   "theta_ratio_of_ratios": 1.0611080227953373
+  },
+  {
+   "calibration": {
+    "expected": 1122379.220276027,
+    "observed": 1722060,
+    "oe": 1.5342942642652395
+   },
+   "calibration_passes": false,
+   "granularity": "act12-era50",
+   "lure": {
+    "expected": 108782.08346925708,
+    "observed": 177075,
+    "oe": 1.6277956291400062
+   },
+   "median_pool": 1027,
+   "n_strata": 1149,
+   "theta_ratio_of_ratios": 1.0609409596662631
+  },
+  {
+   "calibration": {
+    "expected": 1123145.1867542162,
+    "observed": 1722060,
+    "oe": 1.533247900902813
+   },
+   "calibration_passes": false,
+   "granularity": "act16-era50",
+   "lure": {
+    "expected": 108971.54645566117,
+    "observed": 177075,
+    "oe": 1.6249654681375847
+   },
+   "median_pool": 606,
+   "n_strata": 1547,
+   "theta_ratio_of_ratios": 1.0598191376494082
+  }
+ ],
+ "verdict": "no granularity passes calibration; only the ratio-of-ratios is quotable and the leak must be disclosed"
+}

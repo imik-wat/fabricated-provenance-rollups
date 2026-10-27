@@ -1,0 +1,71 @@
+{
+ "bands": [
+  "1200-5000",
+  "5000-20000",
+  "20000-100000",
+  "100000-1000000",
+  "1000000-1000000000000"
+ ],
+ "chain": "zksync-era",
+ "flagged_in_sample": [],
+ "frame_depth": 1200,
+ "ht_strong": 0.0,
+ "ht_strong_transfer_share": 0.0,
+ "ht_strong_transfers": 0.0,
+ "metadata_coverage": 0.9983333333333333,
+ "new_campaign_keys": [],
+ "observed_strong": 0,
+ "per_band": {
+  "100000-1000000": {
+   "N": 48161,
+   "drawn": 300,
+   "ht_strong": 0.0,
+   "resolved": 300,
+   "strong": 0,
+   "tail_transfers": 48161,
+   "upper_strong_bonferroni": 696,
+   "weak": 0
+  },
+  "1200-5000": {
+   "N": 3793,
+   "drawn": 300,
+   "ht_strong": 0.0,
+   "resolved": 298,
+   "strong": 0,
+   "tail_transfers": 572741,
+   "upper_strong_bonferroni": 53,
+   "weak": 4
+  },
+  "20000-100000": {
+   "N": 80000,
+   "drawn": 300,
+   "ht_strong": 0.0,
+   "resolved": 300,
+   "strong": 0,
+   "tail_transfers": 210485,
+   "upper_strong_bonferroni": 1157,
+   "weak": 1
+  },
+  "5000-20000": {
+   "N": 15000,
+   "drawn": 300,
+   "ht_strong": 0.0,
+   "resolved": 300,
+   "strong": 0,
+   "tail_transfers": 186581,
+   "upper_strong_bonferroni": 215,
+   "weak": 2
+  }
+ },
+ "per_stratum": 300,
+ "seed": 20261027,
+ "strength_counts": {
+  "none": 1191,
+  "weak": 7
+ },
+ "tail_contracts": 146954,
+ "tail_transfers": 1017968,
+ "unresolved_treated_as_unsampled": true,
+ "upper95_method": "per-band exact hypergeometric at alpha/H, summed (Bonferroni)",
+ "upper95_strong": 2121
+}

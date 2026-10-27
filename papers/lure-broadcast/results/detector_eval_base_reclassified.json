@@ -1,0 +1,156 @@
+{
+ "chain": "base",
+ "detector_source": "recomputed with the current detector",
+ "estimates_population_weighted": {
+  "estimated_lures_flagged": 141.04545454545453,
+  "estimated_lures_missed": 1.25,
+  "estimated_population_lures": 142.29545454545453,
+  "f1": 0.9955883532525869,
+  "false_positive_rate_upper95": 0.03346948891663748,
+  "precision": 1.0,
+  "precision_sample": [
+   88,
+   88
+  ],
+  "precision_se": null,
+  "precision_se_caveat": "A stratified SE of exactly 0 arises because every sampled row in every flagged stratum was judged a lure, so p(1-p) vanishes. It is NOT a claim of infinite precision; use precision_wilson95 and false_positive_rate_upper95 instead.",
+  "precision_se_is_degenerate": false,
+  "precision_wilson95": [
+   0.9581714604275188,
+   1.0
+  ],
+  "recall": 0.9912154607890113
+ },
+ "kappa": null,
+ "kappa_reason": "Cohen's kappa requires two independent raters; the annotation carries one label column. Comparing the single rater against the detector would measure the detector, not label reliability. K3's third leg remains open.",
+ "miss_location": {
+  "by_detector_band": {
+   "none": {
+    "human_lure": 0,
+    "labelled": 265,
+    "population": 1047
+   },
+   "weak": {
+    "human_lure": 0,
+    "labelled": 2,
+    "population": 3
+   }
+  },
+  "interpretation": "A miss in the detector's own `weak` band is a THRESHOLD question -- the string was seen and downgraded. A miss in `none` is a blind spot. Which band the misses fall in determines whether recall is recoverable by re-tuning or requires a new signal."
+ },
+ "negative_class_note": "lure-nodest and dest-only count as NEGATIVES: the detector's strong bar requires both a destination and a call to action, so a string with only one is correctly unflagged.",
+ "per_stratum": {
+  "none|0-200": {
+   "ambiguous": 1,
+   "detector_flagged": false,
+   "human_lure": 0,
+   "human_lure_rate": 0.0,
+   "labelled": 64,
+   "population": 184
+  },
+  "none|1200+": {
+   "ambiguous": 0,
+   "detector_flagged": false,
+   "human_lure": 0,
+   "human_lure_rate": 0.0,
+   "labelled": 6,
+   "population": 6
+  },
+  "none|200-600": {
+   "ambiguous": 1,
+   "detector_flagged": false,
+   "human_lure": 0,
+   "human_lure_rate": 0.0,
+   "labelled": 89,
+   "population": 346
+  },
+  "none|600-1200": {
+   "ambiguous": 3,
+   "detector_flagged": false,
+   "human_lure": 0,
+   "human_lure_rate": 0.0,
+   "labelled": 106,
+   "population": 511
+  },
+  "strong|0-200": {
+   "ambiguous": 0,
+   "detector_flagged": true,
+   "human_lure": 7,
+   "human_lure_rate": 1.0,
+   "labelled": 7,
+   "population": 7
+  },
+  "strong|200-600": {
+   "ambiguous": 0,
+   "detector_flagged": true,
+   "human_lure": 33,
+   "human_lure_rate": 1.0,
+   "labelled": 33,
+   "population": 48
+  },
+  "strong|600-1200": {
+   "ambiguous": 2,
+   "detector_flagged": true,
+   "human_lure": 40,
+   "human_lure_rate": 1.0,
+   "labelled": 40,
+   "population": 77
+  },
+  "weak|0-200": {
+   "ambiguous": 1,
+   "detector_flagged": false,
+   "human_lure": 0,
+   "human_lure_rate": 0.0,
+   "labelled": 2,
+   "population": 3
+  },
+  "weak|200-600": {
+   "ambiguous": 1,
+   "detector_flagged": "mixed",
+   "human_lure": 3,
+   "human_lure_rate": 0.75,
+   "labelled": 4,
+   "population": 5
+  },
+  "weak|600-1200": {
+   "ambiguous": 1,
+   "detector_flagged": "mixed",
+   "human_lure": 6,
+   "human_lure_rate": 0.5454545454545454,
+   "labelled": 11,
+   "population": 12
+  }
+ },
+ "population": {
+  "flagged": 141.04545454545453,
+  "total": 1199
+ },
+ "positive_class": [
+  "lure"
+ ],
+ "raters": 1,
+ "sample": {
+  "ambiguous_or_blank": 10,
+  "labelled": 362,
+  "rows": 372
+ },
+ "sensitivity_ambiguous_resolved": {
+  "note": "Each range is sorted. Resolving every unclear/blank row as a lure RAISES precision but LOWERS recall, because it adds lures to the recall denominator and most ambiguous rows fall in unflagged strata -- the two bounds run in opposite directions.",
+  "precision_range": [
+   0.9722222222222222,
+   1.0
+  ],
+  "recall_range": [
+   0.8585955905192133,
+   1.0
+  ]
+ },
+ "strata_mixed_under_reclassification": [
+  "weak|200-600",
+  "weak|600-1200"
+ ],
+ "unweighted_for_comparison_only": {
+  "precision": 1.0,
+  "warning": "Sample rates differ ~3x between flagged and unflagged strata, so this figure describes no real population. Recorded only so the weighted/unweighted gap is visible; it must never be published."
+ }
+}

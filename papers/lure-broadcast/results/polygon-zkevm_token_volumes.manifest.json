@@ -1,0 +1,13 @@
+{
+ "output": "polygon-zkevm_token_volumes.csv",
+ "chain": "polygon-zkevm",
+ "input": "data/raw/hypersync/polygon-zkevm",
+ "chunks_total": 7,
+ "chunks_with_done": 7,
+ "distinct_contracts": 8233,
+ "erc20_transfer_rows": 16328448,
+ "wall_seconds": 1.59,
+ "git_commit": "fbb8bd2",
+ "producer": "papers/lure-broadcast/scripts/token_volumes.py",
+ "primitive": "analysis/src/dataio.py:token_counts"
+}

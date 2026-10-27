@@ -1,0 +1,31 @@
+{
+ "note": "Each returned rating sheet is logged here on arrival, before it is opened. The tier must be recorded in tier.json (committed) before any sheet's contents are read (PREREG_ANNOTATION_V2.md section 4).",
+ "receipts": [
+  {
+   "file": "papers/lure-broadcast/data/ratings_DRHL.csv",
+   "rater_initials_from_filename": "R1",
+   "route_inferred_from_filename": "web page (ratings_<initials>.csv, no _partial suffix)",
+   "size_bytes": 21170,
+   "file_modified": "2026-10-27 15:17:54",
+   "sha256": "65ac805bff5b6620c03064cfaf684521fc360cafeed61fd92753981f41190e62",
+   "logged": "2026-10-27",
+   "opened_before_tier_recorded": false,
+   "opened": "2026-10-27, after tier.json was committed (c978f38)",
+   "validation": {
+    "valid": true,
+    "rows": 408,
+    "complete_rows": 408,
+    "strings_altered": 0,
+    "blank_answers": 0,
+    "language_missing_where_cta_yes": 0,
+    "unclear": {
+     "destination": 2,
+     "call_to_action": 14,
+     "purpose": 45
+    },
+    "translated_notes": 0,
+    "scope": "structure and completeness only; no comparison with the detector until both sheets are in"
+   }
+  }
+ ]
+}

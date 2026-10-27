@@ -1,0 +1,30 @@
+{
+ "chain": "arbitrum-one",
+ "n_boot": 5000,
+ "ht_flagged_transfers": {
+  "point": 8654671.19366255,
+  "ci95": [
+   5310806.060139503,
+   12363104.66179941
+  ]
+ },
+ "ht_flagged_contracts": {
+  "point": 1768.026951139895,
+  "ci95": [
+   366.56,
+   4357.95663865458
+  ],
+  "exact_bonferroni_upper95": 9982
+ },
+ "frame_flagged_transfers": 23889129,
+ "worst_case_flagged_tail_transfers": 27386734,
+ "worst_case_tail_to_frame_ratio": 1.146409900503279,
+ "tail_to_frame_volume_ratio": {
+  "point": 0.3622849202104669,
+  "ci95": [
+   0.2223105773399902,
+   0.5175201097452908
+  ]
+ },
+ "caveat": "rare, heavy-tailed and campaign-clustered flagged volumes; percentile bootstrap intervals are indicative and may under-cover; the exact count bound stands beside them"
+}

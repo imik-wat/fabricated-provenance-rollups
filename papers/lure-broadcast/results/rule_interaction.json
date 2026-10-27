@@ -1,0 +1,335 @@
+{
+ "arbitrum-one": {
+  "allowlist_off": {
+   "added": [],
+   "added_via_domain": {},
+   "removed": [],
+   "strong": 149
+  },
+  "bands": {
+   "none": 1018,
+   "strong": 149,
+   "weak": 33
+  },
+  "campaigns": 71,
+  "campaigns_all_shortcut": 1,
+  "cyrillic_homoglyph_only": 60,
+  "lexicon_bound": {
+   "cta_only_weak": 13,
+   "destination_only_weak": 20,
+   "destination_only_weak_addresses": [
+    "0x00cbcf7b3d37844e44b888bc747bdd75fcf4e555",
+    "0x05f1b3860368361a2f95c2860bec7ba48d5bc277",
+    "0x31c91d8fb96bff40955dd2dbc909b36e8b104dde",
+    "0x43566aed154526e2d62b60fc9d31c98d4feaf99c",
+    "0x498f2cd010aa2611e376b8eeb113466803ef6417",
+    "0x69420f9e38a4e60a62224c489be4bf7a94402496",
+    "0x9856369f64a9bb80b1a37a8cce68f4470c9be171",
+    "0x999999990237e901c537bbd768e09562be02efa5",
+    "0x9e050004b9c9a66cf2daca2c9e4c8b7bd1062ca8",
+    "0x9fd0641757e2a5d0d30e415a6f87b0480cc061af",
+    "0xa4468e55c5723c2346484f6a01da7b8826eeec1b",
+    "0xafa37dfc7ba1eb85f266f079bbb53030f5927d7e",
+    "0xc24a365a870821eb83fd216c9596edd89479d8d7",
+    "0xd8b86c2d30101848ffb9eb0d4019b94de13374cc",
+    "0xe1cc7371f2c2b7ebb1af2b0c053ec86596e3f6d0",
+    "0xe4ff28ac9a7e35d50525d75e783d9b3e01d9e731",
+    "0xecd434a1391c208c3cf4d8aa0e91fcd7b84d2b91",
+    "0xef7aa9f26f586a96f3c7e2e5308296aad56e7f30",
+    "0xf3ed7a4d88086a8df650538e8858decdf28a1478",
+    "0xfb44177a4df878761222ee3f618452b182f97c0c"
+   ],
+   "destination_only_weak_non_latin_lookalike_only": 0,
+   "destination_only_weak_with_non_latin": 0,
+   "non_latin_rows_for_review": [],
+   "note": "within the examined frame a lexicon miss requires a destination, so destination_only_weak bounds lexicon-induced misses from above; it is not an estimate of them"
+  },
+  "non_latin_lookalike_only": 57,
+  "population": 1200,
+  "script_census": {
+   "any_non_latin": 70,
+   "cjk": 2,
+   "cyrillic": 60,
+   "greek": 4,
+   "latin": 1190,
+   "other": 11
+  },
+  "shortcut_contracts": 1,
+  "shortcut_transfer_share": 0.007404665109389296,
+  "strong_by_cta_path": {
+   "genuine": 148,
+   "telegram": 1
+  },
+  "strong_without_transfer_count": [],
+  "transfers_by_cta_path": {
+   "genuine": 23712238,
+   "telegram": 176891
+  },
+  "unresolved": 0
+ },
+ "base": {
+  "allowlist_off": {
+   "added": [],
+   "added_via_domain": {},
+   "removed": [],
+   "strong": 141
+  },
+  "bands": {
+   "none": 1047,
+   "strong": 141,
+   "weak": 11
+  },
+  "campaigns": 48,
+  "campaigns_all_shortcut": 0,
+  "cyrillic_homoglyph_only": 80,
+  "lexicon_bound": {
+   "cta_only_weak": 2,
+   "destination_only_weak": 9,
+   "destination_only_weak_addresses": [
+    "0x15de59489de5e7f240d72f787dc4a292b8199339",
+    "0x16ee7ecac70d1028e7712751e2ee6ba808a7dd92",
+    "0x182fa643e5f29d5eca75e7b9cf9336a3fe4620b2",
+    "0x3b6634541c63903b84385ec792909c1adc76d716",
+    "0x5ab3d4c385b400f3abb49e80de2faf6a88a7b691",
+    "0x5eeb2662615782b58251b6f0c3e107571ae1ab07",
+    "0x703d57164ca270b0b330a87fd159cfef1490c0a5",
+    "0x8dd5a7d276f82df5b252179a097ab34a1c440f08",
+    "0x9d5c1c400dc828a3409f9c209b83ff51a65d2a0e"
+   ],
+   "destination_only_weak_non_latin_lookalike_only": 0,
+   "destination_only_weak_with_non_latin": 0,
+   "non_latin_rows_for_review": [],
+   "note": "within the examined frame a lexicon miss requires a destination, so destination_only_weak bounds lexicon-induced misses from above; it is not an estimate of them"
+  },
+  "non_latin_lookalike_only": 80,
+  "population": 1199,
+  "script_census": {
+   "any_non_latin": 92,
+   "cyrillic": 80,
+   "latin": 1196,
+   "other": 12
+  },
+  "shortcut_contracts": 2,
+  "shortcut_transfer_share": 0.012284401752485418,
+  "strong_by_cta_path": {
+   "genuine": 139,
+   "telegram": 2
+  },
+  "strong_without_transfer_count": [],
+  "transfers_by_cta_path": {
+   "genuine": 141153483,
+   "telegram": 1755552
+  },
+  "unresolved": 0
+ },
+ "optimism": {
+  "allowlist_off": {
+   "added": [],
+   "added_via_domain": {},
+   "removed": [],
+   "strong": 621
+  },
+  "bands": {
+   "none": 552,
+   "strong": 621,
+   "weak": 27
+  },
+  "campaigns": 61,
+  "campaigns_all_shortcut": 0,
+  "cyrillic_homoglyph_only": 37,
+  "lexicon_bound": {
+   "cta_only_weak": 10,
+   "destination_only_weak": 17,
+   "destination_only_weak_addresses": [
+    "0x03a2dd6009c2f110aef74d1dd174a3e240122260",
+    "0x068476f2d4d770e59f4d5c38f83d5b0118add16f",
+    "0x109390594d0ef9b40b4b745cac6cecf37a179417",
+    "0x33de893fa1fa8ee58860f768fe71d16e9aee7a23",
+    "0x3a634d413587d7c83bf8900c219065e969a572d4",
+    "0x3e8821470324b20156856195c3ca99a65aec1e09",
+    "0x4984dd732a3f3de41e633e92ed47727522653ba7",
+    "0x655ff5d36bbf93c4d74586233c85e67460add94e",
+    "0x69420f9e38a4e60a62224c489be4bf7a94402496",
+    "0x8b21e9b7daf2c4325bf3d18c1beb79a347fe902a",
+    "0x9dc5d026537a6f717a1b885337e42f9d76ca3d6c",
+    "0xa3c3b832e078f16ad4c0998c263e2c7796956c1f",
+    "0xad2b84b21ed7a55487e8bb8ce73dffab2c33d32b",
+    "0xb36cbfe0bced07ded6ff3313c6a17468dfdfad19",
+    "0xf3ed7a4d88086a8df650538e8858decdf28a1478",
+    "0xfb44177a4df878761222ee3f618452b182f97c0c",
+    "0xff84bb9f19e50964624e3eb225a05d555801aa9e"
+   ],
+   "destination_only_weak_non_latin_lookalike_only": 2,
+   "destination_only_weak_with_non_latin": 2,
+   "non_latin_rows_for_review": [
+    {
+     "address": "0x068476f2d4d770e59f4d5c38f83d5b0118add16f",
+     "name": "www.fomox.сlub",
+     "symbol": "www.poxa.сlub"
+    },
+    {
+     "address": "0xad2b84b21ed7a55487e8bb8ce73dffab2c33d32b",
+     "name": "www.роха.club - 💰 Your prize here",
+     "symbol": "www.роха.club 💰"
+    }
+   ],
+   "note": "within the examined frame a lexicon miss requires a destination, so destination_only_weak bounds lexicon-induced misses from above; it is not an estimate of them"
+  },
+  "non_latin_lookalike_only": 38,
+  "population": 1200,
+  "script_census": {
+   "any_non_latin": 42,
+   "cyrillic": 37,
+   "greek": 3,
+   "latin": 1199,
+   "other": 3
+  },
+  "shortcut_contracts": 0,
+  "shortcut_transfer_share": 0.0,
+  "strong_by_cta_path": {
+   "genuine": 621
+  },
+  "strong_without_transfer_count": [],
+  "transfers_by_cta_path": {
+   "genuine": 146964811
+  },
+  "unresolved": 0
+ },
+ "polygon-zkevm": {
+  "allowlist_off": {
+   "added": [],
+   "added_via_domain": {},
+   "removed": [],
+   "strong": 3
+  },
+  "bands": {
+   "none": 1163,
+   "strong": 3,
+   "weak": 26
+  },
+  "campaigns": 2,
+  "campaigns_all_shortcut": 0,
+  "cyrillic_homoglyph_only": 0,
+  "lexicon_bound": {
+   "cta_only_weak": 15,
+   "destination_only_weak": 11,
+   "destination_only_weak_addresses": [
+    "0x1eb829bec99700147a1eca172648e65033e54a51",
+    "0x2abfb8c63485d1b9c5dbc89789e896fe71644e9d",
+    "0x37b2953b59bbfd4551e2c7f6a706a7bbd5ee539f",
+    "0x43a1542bf9219c004e4330442cbd18e33f643e60",
+    "0x624391b8ef67b55d3c41ee91976e11000ed408b8",
+    "0x7be3b0658c30de4896f89d26f79d6d64dda7ea8e",
+    "0x7cfd1b74f530d6e264c49abe2ee7417ffd11168f",
+    "0x819d1daa794c1c46b841981b61cc978d95a17b8e",
+    "0x8caba8e4ed03c416f024376b095ce5be3560ab60",
+    "0x8d60b5f061ecfef275715f3dd7aa37dfbb9d8706",
+    "0xc530b75465ce3c6286e718110a7b2e2b64bdc860"
+   ],
+   "destination_only_weak_non_latin_lookalike_only": 0,
+   "destination_only_weak_with_non_latin": 0,
+   "non_latin_rows_for_review": [],
+   "note": "within the examined frame a lexicon miss requires a destination, so destination_only_weak bounds lexicon-induced misses from above; it is not an estimate of them"
+  },
+  "non_latin_lookalike_only": 0,
+  "population": 1192,
+  "script_census": {
+   "latin": 1187
+  },
+  "shortcut_contracts": 0,
+  "shortcut_transfer_share": 0.0,
+  "strong_by_cta_path": {
+   "genuine": 3
+  },
+  "strong_without_transfer_count": [],
+  "transfers_by_cta_path": {
+   "genuine": 292961
+  },
+  "unresolved": 8
+ },
+ "zksync-era": {
+  "allowlist_off": {
+   "added": [],
+   "added_via_domain": {},
+   "removed": [],
+   "strong": 49
+  },
+  "bands": {
+   "none": 1091,
+   "strong": 49,
+   "weak": 55
+  },
+  "campaigns": 33,
+  "campaigns_all_shortcut": 1,
+  "cyrillic_homoglyph_only": 0,
+  "lexicon_bound": {
+   "cta_only_weak": 15,
+   "destination_only_weak": 40,
+   "destination_only_weak_addresses": [
+    "0x04609d3bfe6057ee03d9cc63781a05b03c085eff",
+    "0x0647dec8c6aa575abd61e023221650dc63e452bd",
+    "0x0dec70987411f30e3dfbecd237abac5d62447a2c",
+    "0x0e97c7a0f8b2c9885c8ac9fc6136e829cbc21d42",
+    "0x190f75d3a662553690da6c0087c4c2d1cc414172",
+    "0x268a1dea9456803bfc9ec9fa43b346f3810e1f9c",
+    "0x31102468b3dcf3d7a2baeee1350602cad9038c65",
+    "0x3698128875408f48af22cddb215afacec583c751",
+    "0x3f3bc35496f4ef1b89e96da54ddc0310a43af6ba",
+    "0x48f9c12412cf31fb5411d1ca95f8e9cfab435c7c",
+    "0x49e7c31df8552f0713e645ef2f135c1569f5910a",
+    "0x4a57da213a589f305b8411f15f64fb8c5724e7ce",
+    "0x4a77f81e6fd63529b706891849daa71b10b3c57d",
+    "0x53deea446f15dcd7e5912ec971f11b4e296bbf8d",
+    "0x647cf369593c172eec42a629210463e53d3c0385",
+    "0x6e893d508031b9bde1aa5969288fa5d197e5a480",
+    "0x74c2dd119d42a8bb34f42ae5a9377d44379b211e",
+    "0x75755e375e30de34d076d9320e8137443921e826",
+    "0x7e0eddf7dc4d9ffecb97c697d29e75d5a3ea949f",
+    "0x80e4b8fd764b7c345b6af2e02595cc184cc6d1e0",
+    "0x8ab809ab80a88394858d529e0016ca7f71b1a55f",
+    "0x8c59c5cb588c0450e46189c2554c458c2ffb637e",
+    "0x8ef708db9d2647ee15a2a0352ab6b0e59f0b81b5",
+    "0x9d853b9ac342d23ea6368d2443a855cc8ad4ae9b",
+    "0xa3b06cde5f4aa0799768018a979680fb5ea71fc7",
+    "0xa6f4da2310068af6d2df44d9c027293e32ef2623",
+    "0xac12d34dc5720865f81b16f3e7fac9799df4f391",
+    "0xb849f9889192b71b466299ca4e42e27a81df2d9f",
+    "0xbd4ed2706676e715da16b6659033c7d2c4d77e64",
+    "0xbd845b6a82d680a85d812f645478db34580ec5b5",
+    "0xbf87256504d0475e9c3bc5fdd9705f8bc5273aa5",
+    "0xcbf02db6c9ae70aefdbfb4b58aab7ed5313c4915",
+    "0xcdc25f597bac53b8a1193eefec134f25d6443e53",
+    "0xcfe13a8cd5532712e1d0edb27cc6f4cdab47910a",
+    "0xd1e21f77d7d4b5281c035de086acf85cdbaf7d6b",
+    "0xd387869f5ed65e6c6ddff5cab2724b96fa4e5386",
+    "0xd58a0fea5bd63e0bb86afc5aa3025d2144b5029b",
+    "0xd5b865bb7a860f95851f486eb93f6f22e6ab1ff2",
+    "0xdbb224852c4e2487fc1dc1da042c086e8187bbf1",
+    "0xe5693ab253ea18cad26296cf1eab674e083f7f4f"
+   ],
+   "destination_only_weak_non_latin_lookalike_only": 0,
+   "destination_only_weak_with_non_latin": 0,
+   "non_latin_rows_for_review": [],
+   "note": "within the examined frame a lexicon miss requires a destination, so destination_only_weak bounds lexicon-induced misses from above; it is not an estimate of them"
+  },
+  "non_latin_lookalike_only": 1,
+  "population": 1195,
+  "script_census": {
+   "any_non_latin": 1,
+   "greek": 1,
+   "latin": 1194
+  },
+  "shortcut_contracts": 1,
+  "shortcut_transfer_share": 9.58868058989738e-05,
+  "strong_by_cta_path": {
+   "genuine": 48,
+   "telegram": 1
+  },
+  "strong_without_transfer_count": [],
+  "transfers_by_cta_path": {
+   "genuine": 18290648,
+   "telegram": 1754
+  },
+  "unresolved": 5
+ }
+}

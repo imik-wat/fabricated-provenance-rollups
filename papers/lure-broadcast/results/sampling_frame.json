@@ -1,0 +1,229 @@
+{
+ "coverage_note": "contract coverage and transfer-volume coverage differ by orders of magnitude and both must be quoted; neither alone describes the frame",
+ "denominator_note": "transfer_fraction_all is share of ALL transfer volume including registry-verified tokens, which the detector population excludes by design; registry_fraction and unexamined_fraction complete the split",
+ "depths_requested": [
+  300,
+  600,
+  1200
+ ],
+ "detector_population": "the volume head of the contract universe, registry tokens excluded; contracts below the cutoff are not examined, so every count derived from it is a LOWER BOUND",
+ "event_census": "complete: every transfer row of every chain is read by the full-chain scans; no sampling is involved in the event counts",
+ "per_chain": {
+  "arbitrum-one": {
+   "frame": {
+    "contract_fraction": 0.002892116812598061,
+    "contracts_covered": 1200,
+    "metadata_resolved": 1200,
+    "rank_cutoff": 1200,
+    "registry_fraction": 0.685840481927861,
+    "total_contracts": 414921,
+    "total_transfers": 3120371412,
+    "transfer_fraction_all": 0.2828242165679731,
+    "transfers_at_cutoff": 62052,
+    "unexamined_fraction": 0.03133530150416597
+   },
+   "rank_sweep": [
+    {
+     "campaigns": 6,
+     "depth": 300,
+     "evaluable": true,
+     "flagged": 9,
+     "flagged_rate": 0.03,
+     "transfer_fraction": 0.2414262530104221,
+     "transfers_at_depth": 405807
+    },
+    {
+     "campaigns": 25,
+     "depth": 600,
+     "evaluable": true,
+     "flagged": 50,
+     "flagged_rate": 0.08333333333333333,
+     "transfer_fraction": 0.26484028722411584,
+     "transfers_at_depth": 157119
+    },
+    {
+     "campaigns": 71,
+     "depth": 1200,
+     "evaluable": true,
+     "flagged": 149,
+     "flagged_rate": 0.12416666666666666,
+     "transfer_fraction": 0.2828242165679731,
+     "transfers_at_depth": 62052
+    }
+   ]
+  },
+  "base": {
+   "frame": {
+    "contract_fraction": 4.8670295091243826e-05,
+    "contracts_covered": 1200,
+    "metadata_resolved": 1199,
+    "rank_cutoff": 1200,
+    "registry_fraction": 0.45780301619002056,
+    "total_contracts": 24655696,
+    "total_transfers": 9468734929,
+    "transfer_fraction_all": 0.3527484708406288,
+    "transfers_at_cutoff": 488473,
+    "unexamined_fraction": 0.1894485129693506
+   },
+   "rank_sweep": [
+    {
+     "campaigns": 5,
+     "depth": 300,
+     "evaluable": true,
+     "flagged": 15,
+     "flagged_rate": 0.05,
+     "transfer_fraction": 0.27089081437311824,
+     "transfers_at_depth": 1720700
+    },
+    {
+     "campaigns": 25,
+     "depth": 600,
+     "evaluable": true,
+     "flagged": 59,
+     "flagged_rate": 0.09833333333333333,
+     "transfer_fraction": 0.3106602953886534,
+     "transfers_at_depth": 954708
+    },
+    {
+     "campaigns": 48,
+     "depth": 1199,
+     "evaluable": true,
+     "flagged": 141,
+     "flagged_rate": 0.11759799833194329,
+     "transfer_fraction": 0.35269688285092765,
+     "transfers_at_depth": 488767
+    }
+   ]
+  },
+  "optimism": {
+   "frame": {
+    "contract_fraction": 0.004845293806503192,
+    "contracts_covered": 1200,
+    "metadata_resolved": 1200,
+    "rank_cutoff": 1200,
+    "registry_fraction": 0.4561199397088067,
+    "total_contracts": 247663,
+    "total_transfers": 2528844292,
+    "transfer_fraction_all": 0.5270907205385186,
+    "transfers_at_cutoff": 33136,
+    "unexamined_fraction": 0.016789339752674604
+   },
+   "rank_sweep": [
+    {
+     "campaigns": 22,
+     "depth": 300,
+     "evaluable": true,
+     "flagged": 117,
+     "flagged_rate": 0.39,
+     "transfer_fraction": 0.4951424664464869,
+     "transfers_at_depth": 247974
+    },
+    {
+     "campaigns": 36,
+     "depth": 600,
+     "evaluable": true,
+     "flagged": 299,
+     "flagged_rate": 0.49833333333333335,
+     "transfer_fraction": 0.5115230107651089,
+     "transfers_at_depth": 101176
+    },
+    {
+     "campaigns": 61,
+     "depth": 1200,
+     "evaluable": true,
+     "flagged": 621,
+     "flagged_rate": 0.5175,
+     "transfer_fraction": 0.5270907205385186,
+     "transfers_at_depth": 33136
+    }
+   ]
+  },
+  "polygon-zkevm": {
+   "frame": {
+    "contract_fraction": 0.14584346135148274,
+    "contracts_covered": 1200,
+    "metadata_resolved": 1192,
+    "rank_cutoff": 1200,
+    "registry_fraction": 0.7256208918324631,
+    "total_contracts": 8228,
+    "total_transfers": 16328448,
+    "transfer_fraction_all": 0.2735140535095558,
+    "transfers_at_cutoff": 6,
+    "unexamined_fraction": 0.0008650546579809237
+   },
+   "rank_sweep": [
+    {
+     "campaigns": 2,
+     "depth": 300,
+     "evaluable": true,
+     "flagged": 3,
+     "flagged_rate": 0.01,
+     "transfer_fraction": 0.2725668722465234,
+     "transfers_at_depth": 80
+    },
+    {
+     "campaigns": 2,
+     "depth": 600,
+     "evaluable": true,
+     "flagged": 3,
+     "flagged_rate": 0.005,
+     "transfer_fraction": 0.2731835873195052,
+     "transfers_at_depth": 15
+    },
+    {
+     "campaigns": 2,
+     "depth": 1192,
+     "evaluable": true,
+     "flagged": 3,
+     "flagged_rate": 0.0025167785234899327,
+     "transfer_fraction": 0.2735111138547889,
+     "transfers_at_depth": 6
+    }
+   ]
+  },
+  "zksync-era": {
+   "frame": {
+    "contract_fraction": 0.008099680062637525,
+    "contracts_covered": 1200,
+    "metadata_resolved": 1195,
+    "rank_cutoff": 1200,
+    "registry_fraction": 0.20071087819861813,
+    "total_contracts": 148154,
+    "total_transfers": 2175681014,
+    "transfer_fraction_all": 0.798821237036359,
+    "transfers_at_cutoff": 777,
+    "unexamined_fraction": 0.00046788476502279686
+   },
+   "rank_sweep": [
+    {
+     "campaigns": 24,
+     "depth": 300,
+     "evaluable": true,
+     "flagged": 32,
+     "flagged_rate": 0.10666666666666667,
+     "transfer_fraction": 0.7961952610944648,
+     "transfers_at_depth": 31993
+    },
+    {
+     "campaigns": 29,
+     "depth": 600,
+     "evaluable": true,
+     "flagged": 40,
+     "flagged_rate": 0.06666666666666667,
+     "transfer_fraction": 0.798201293215863,
+     "transfers_at_depth": 5810
+    },
+    {
+     "campaigns": 33,
+     "depth": 1195,
+     "evaluable": true,
+     "flagged": 49,
+     "flagged_rate": 0.04100418410041841,
+     "transfer_fraction": 0.7988194481711831,
+     "transfers_at_depth": 785
+    }
+   ]
+  }
+ },
+ "purpose": "separate the COMPLETE census of transfer events from the RANK-LIMITED detector population, and show what the cutoff costs"
+}

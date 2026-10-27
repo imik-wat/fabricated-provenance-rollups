@@ -1,0 +1,66 @@
+{
+ "adjudication_queue": {
+  "path": "papers/lure-broadcast/results/annotation/base_adjudication_queue.csv",
+  "rows": 27
+ },
+ "binary_lure_vs_rest": {
+  "ci95": [
+   0.9487024181148953,
+   1.0
+  ],
+  "interpretation": "strong",
+  "kappa": 0.9776650775940765,
+  "note": "this is the task the detector performs, so it is the kappa its precision and recall must be qualified by",
+  "observed_agreement": 0.9918256130790191
+ },
+ "blank_rater1": 5,
+ "blank_rater2": 0,
+ "chain": "base",
+ "confusion_5class": {
+  "legitimate|legitimate": 253,
+  "legitimate|unclear": 18,
+  "lure-nodest|unclear": 2,
+  "lure|legitimate": 1,
+  "lure|lure": 87,
+  "lure|lure-nodest": 1,
+  "unclear|legitimate": 3,
+  "unclear|lure": 1,
+  "unclear|unclear": 1
+ },
+ "disagreements": 26,
+ "five_class": {
+  "ci95": [
+   0.7706767569819312,
+   0.8893696249667523
+  ],
+  "interpretation": "strong",
+  "kappa": 0.8328984466665498,
+  "observed_agreement": 0.9291553133514986
+ },
+ "judged_by_both": 367,
+ "k3_third_leg_fires": false,
+ "k3_threshold": 0.4,
+ "label_distribution": {
+  "rater1": {
+   "legitimate": 271,
+   "lure": 89,
+   "lure-nodest": 2,
+   "unclear": 5
+  },
+  "rater2": {
+   "legitimate": 257,
+   "lure": 88,
+   "lure-nodest": 1,
+   "unclear": 21
+  }
+ },
+ "normalisations_applied": {
+  "legit": "legitimate"
+ },
+ "rater_files": [
+  "base_sample_blinded.csv",
+  "base_sample_blinded_aw.csv"
+ ],
+ "raters": 2,
+ "rows": 372
+}

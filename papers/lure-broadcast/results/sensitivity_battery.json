@@ -1,0 +1,139 @@
+{
+ "campaign_key_ratio_host_only_to_reported": 0.9441860465116279,
+ "campaign_key_totals": {
+  "full_destination": 217,
+  "host_only": 203,
+  "host_plus_path": 215,
+  "payload": 335
+ },
+ "normalisation": "ablated separately in normalisation_ablation.json",
+ "per_chain": {
+  "arbitrum-one": {
+   "campaign_key": {
+    "full_destination": 71,
+    "host_only": 68,
+    "host_plus_path": 71,
+    "payload": 80
+   },
+   "campaign_key_note": "host_only merges every campaign sharing a shortener and is UNSAFE to report; host_plus_path is the key used throughout",
+   "detector_bar": {
+    "none": 1018,
+    "strong": 149,
+    "strong_plus_weak": 182,
+    "weak": 33
+   },
+   "unresolved_metadata": {
+    "flagged_if_all_unresolved_are_payloads": 149,
+    "flagged_if_unresolved_match_observed_rate": 149,
+    "flagged_observed": 149,
+    "note": "the reported figure assumes NOTHING about unresolved contracts -- they are simply absent. The two alternatives bracket the effect of that exclusion and are not estimates.",
+    "requested_depth": 1200,
+    "resolved": 1200,
+    "unresolved": 0,
+    "unresolved_share": 0.0
+   }
+  },
+  "base": {
+   "campaign_key": {
+    "full_destination": 48,
+    "host_only": 39,
+    "host_plus_path": 48,
+    "payload": 112
+   },
+   "campaign_key_note": "host_only merges every campaign sharing a shortener and is UNSAFE to report; host_plus_path is the key used throughout",
+   "detector_bar": {
+    "none": 1047,
+    "strong": 141,
+    "strong_plus_weak": 152,
+    "weak": 11
+   },
+   "unresolved_metadata": {
+    "flagged_if_all_unresolved_are_payloads": 142,
+    "flagged_if_unresolved_match_observed_rate": 141,
+    "flagged_observed": 141,
+    "note": "the reported figure assumes NOTHING about unresolved contracts -- they are simply absent. The two alternatives bracket the effect of that exclusion and are not estimates.",
+    "requested_depth": 1200,
+    "resolved": 1199,
+    "unresolved": 1,
+    "unresolved_share": 0.0008333333333333334
+   }
+  },
+  "optimism": {
+   "campaign_key": {
+    "full_destination": 63,
+    "host_only": 61,
+    "host_plus_path": 61,
+    "payload": 102
+   },
+   "campaign_key_note": "host_only merges every campaign sharing a shortener and is UNSAFE to report; host_plus_path is the key used throughout",
+   "detector_bar": {
+    "none": 552,
+    "strong": 621,
+    "strong_plus_weak": 648,
+    "weak": 27
+   },
+   "unresolved_metadata": {
+    "flagged_if_all_unresolved_are_payloads": 621,
+    "flagged_if_unresolved_match_observed_rate": 621,
+    "flagged_observed": 621,
+    "note": "the reported figure assumes NOTHING about unresolved contracts -- they are simply absent. The two alternatives bracket the effect of that exclusion and are not estimates.",
+    "requested_depth": 1200,
+    "resolved": 1200,
+    "unresolved": 0,
+    "unresolved_share": 0.0
+   }
+  },
+  "polygon-zkevm": {
+   "campaign_key": {
+    "full_destination": 2,
+    "host_only": 2,
+    "host_plus_path": 2,
+    "payload": 2
+   },
+   "campaign_key_note": "host_only merges every campaign sharing a shortener and is UNSAFE to report; host_plus_path is the key used throughout",
+   "detector_bar": {
+    "none": 1163,
+    "strong": 3,
+    "strong_plus_weak": 29,
+    "weak": 26
+   },
+   "unresolved_metadata": {
+    "flagged_if_all_unresolved_are_payloads": 11,
+    "flagged_if_unresolved_match_observed_rate": 3,
+    "flagged_observed": 3,
+    "note": "the reported figure assumes NOTHING about unresolved contracts -- they are simply absent. The two alternatives bracket the effect of that exclusion and are not estimates.",
+    "requested_depth": 1200,
+    "resolved": 1192,
+    "unresolved": 8,
+    "unresolved_share": 0.006666666666666667
+   }
+  },
+  "zksync-era": {
+   "campaign_key": {
+    "full_destination": 33,
+    "host_only": 33,
+    "host_plus_path": 33,
+    "payload": 39
+   },
+   "campaign_key_note": "host_only merges every campaign sharing a shortener and is UNSAFE to report; host_plus_path is the key used throughout",
+   "detector_bar": {
+    "none": 1091,
+    "strong": 49,
+    "strong_plus_weak": 104,
+    "weak": 55
+   },
+   "unresolved_metadata": {
+    "flagged_if_all_unresolved_are_payloads": 54,
+    "flagged_if_unresolved_match_observed_rate": 49,
+    "flagged_observed": 49,
+    "note": "the reported figure assumes NOTHING about unresolved contracts -- they are simply absent. The two alternatives bracket the effect of that exclusion and are not estimates.",
+    "requested_depth": 1200,
+    "resolved": 1195,
+    "unresolved": 5,
+    "unresolved_share": 0.004166666666666667
+   }
+  }
+ },
+ "purpose": "sensitivity of reported counts to unresolved metadata, campaign key and detector bar",
+ "rank_cutoff": "swept separately in sampling_frame.json"
+}

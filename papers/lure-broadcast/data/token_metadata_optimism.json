@@ -1,0 +1,4802 @@
+{
+ "0x0000206329b97db379d5e1bf586bbdb969c63274": {
+  "name": "USDA",
+  "symbol": "USDA"
+ },
+ "0x001ce112ed314e19aa2855a1fcbd0ef10aca6034": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x0073058e17ad1fe5f1f28d6fc64cc44a90439620": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x007f4f2b93a4e8ba846ed67dc0279c87bedfe9ad": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x00a27c6e7d53be3eb1fd6468b47c6539862b28c2": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x00a35fd824c717879bf370e70ac6868b95870dfb": {
+  "name": "IronBank",
+  "symbol": "IB"
+ },
+ "0x00d09cccda09bb97132293c571ead11630d57a71": {
+  "name": "crvUSD/scrvUSD",
+  "symbol": "S-crvUSD"
+ },
+ "0x00e1724885473b63bce08a9f0a52f35b0979e35a": {
+  "name": "Oath Token",
+  "symbol": "OATH"
+ },
+ "0x013d9e6072c6d971b923ad71ef2040514d00cab1": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x01cd0946585c31ccf298baf81590bc55d6b7f54e": {
+  "name": "www.fomox.club - Your reward here",
+  "symbol": "www.fomox.club"
+ },
+ "0x021b7223f6e67e84ca2bdf93f19adf589a3361f6": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x02dda880ff09be98f34ea26787048e19f81b1188": {
+  "name": "T\u0435th\u0435r U\u0405D",
+  "symbol": "U\u0405D\u0422"
+ },
+ "0x0346c32e5d7e98bd57100b6f7002a0ae17188048": {
+  "name": "Beta WLD",
+  "symbol": "BWLD"
+ },
+ "0x03569cc076654f82679c4ba2124d64774781b01d": {
+  "name": "BOLD Stablecoin",
+  "symbol": "BOLD"
+ },
+ "0x035c93db04e5aaea54e6cd0261c492a3e0638b37": {
+  "name": "Static Aave Optimism USDT",
+  "symbol": "stataOptUSDT"
+ },
+ "0x03771e24b7c9172d163bf447490b142a15be3485": {
+  "name": "crvUSD/USDC",
+  "symbol": "crvUSDC"
+ },
+ "0x03a2dd6009c2f110aef74d1dd174a3e240122260": {
+  "name": "",
+  "symbol": "OP [www.optimism.supply]"
+ },
+ "0x03d3ce84279cb6f54f5e6074ff0f8319d830dafe": {
+  "name": "Prize USDC",
+  "symbol": "przUSDC"
+ },
+ "0x03f6b619c447d75be323f67acb12e94bac826446": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x043993ad1d79017da60bcca2e9a4416786ac50ac": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x0493bf8b6dbb159ce2db2e0e8403e753abd1235b": {
+  "name": "VolatileV2 AMM - WETH/USDC",
+  "symbol": "vAMMV2-WETH/USDC"
+ },
+ "0x04f23404553fcc388ec73110a0206dd2e76a6d95": {
+  "name": "Staked MMY",
+  "symbol": "sMMY"
+ },
+ "0x054083569c2cc4d3fa2690a4d5c529c8f78fb103": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x05bf676b3967c05c4f32952a2a9cfd17c58f3e9b": {
+  "name": "www.gotap.rest - \ud83d\udcb0 Reward unlocked!",
+  "symbol": "www.xede.rest \ud83e\udd47"
+ },
+ "0x05fa06d4fb883f67f1cfea0889edbff9e8358101": {
+  "name": "crvUSD/USDC.e",
+  "symbol": "crvUSDC.e"
+ },
+ "0x061b87122ed14b9526a813209c8a59a633257bab": {
+  "name": "Curve.fi Factory USD Metapool: sUSD Synthetix",
+  "symbol": "sUSD3CRV-f"
+ },
+ "0x061ec438fd973a47c83b1d2c964aa515710b22a1": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x0649e25ab0f543430ed625f249bc95bc646dd521": {
+  "name": "# Wrapped Ether",
+  "symbol": "Reward ( www.wp-ether.icu )"
+ },
+ "0x068476f2d4d770e59f4d5c38f83d5b0118add16f": {
+  "name": "www.fomox.\u0441lub",
+  "symbol": "www.poxa.\u0441lub"
+ },
+ "0x06e1b31287f70e8351828658fb352cf676c7d131": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x06f426457471c07093cfe2be1c1dc03ea806a5cd": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x06f82c97be4a99ec47792d1d8dabc01c967d0ad9": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x073bc63eab09aea20908335401645e29a4a396e4": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x078f358208685046a11c85e8ad32895ded33a249": {
+  "name": "Aave Optimism WBTC",
+  "symbol": "aOptWBTC"
+ },
+ "0x078f65c0e854ab7fa3baa2cff62a4f9cb4031382": {
+  "name": "VolatileV1 AMM - USDC/DAI",
+  "symbol": "vAMM-USDC/DAI"
+ },
+ "0x079b80069ed86ba79965691197d2eec9297a74b9": {
+  "name": "\u0422eth\u0435r U\u0405D",
+  "symbol": "U\u0405D\u0422"
+ },
+ "0x07aaf2a874e7e7d5d61489f23131efb9a98eb97f": {
+  "name": "www.sdep.top - \ud83d\udcb2 Reward unlocked!",
+  "symbol": "www.sdep.top \ud83d\udcb2"
+ },
+ "0x082c4cc8e0f01fd8e034ce4606f599e8ae0fe4af": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x085712b410c637edc85ecf631857c74f5cdcd91e": {
+  "name": "U\u0405D\u0422",
+  "symbol": "U\u0405D\u0422"
+ },
+ "0x085eaceb639ba225e2fa9d69714fa9728718f4ed": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x0866b5ccb0580c721e60431da08c1aadd216981b": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0x08c6f91e2b681faf5e17227f2a44c307b3c1364c": {
+  "name": "Ether.Fi Liquid USD",
+  "symbol": "liquidUSD"
+ },
+ "0x08da5205e832a2d2c5d88153e2ec1d176e0aab06": {
+  "name": "VolatileV1 AMM - OATH/USDC",
+  "symbol": "vAMM-OATH/USDC"
+ },
+ "0x09448876068907827ec15f49a8f1a58c70b04d45": {
+  "name": "sETHo",
+  "symbol": "sETHo"
+ },
+ "0x094c6846fb2801b4753182adfac336aae8030a46": {
+  "name": "Rocket Fuel Aura Deposit",
+  "symbol": "auraBPT-rETH-ETH"
+ },
+ "0x096bb47e75ec39bf2329a268d9569b39d15c45c4": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x097c31c24bb23a2b0548ce75c44f0bd9fee66d06": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x0994206dfe8de6ec6920ff4d779b0d950605fb53": {
+  "name": "Curve DAO Token",
+  "symbol": "CRV"
+ },
+ "0x09b79f7f290aff38a6c33437c564d5a5165fccda": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x0a7b751fcdbbaa8bb988b9217ad5fb5cfe7bf7a0": {
+  "name": "Infinite Trading Protocol",
+  "symbol": "ITP"
+ },
+ "0x0ad786a2769b39c487714011b0c2949caa245445": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x0af32614eea68b8d2232b9592fbdb6512ab6da73": {
+  "name": "VolatileV2 AMM - fBOMB/VELO",
+  "symbol": "vAMMV2-fBOMB/VELO"
+ },
+ "0x0b04932431ab86398e4a2035364878c0661fa68a": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x0b3788b9dd5a0ed1b160845a898bd184cb379361": {
+  "name": "UNISWAPX",
+  "symbol": "UNISWAPX"
+ },
+ "0x0b5dcfa6b717c284da77f7fa3e8c5e628a53f81d": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x0be3bfaf8a0909db70672f2eae82b59b37c0ac02": {
+  "name": "!OP",
+  "symbol": "Visit https://optimisam.org to Claim"
+ },
+ "0x0c1b2df6066e880dceb2ed9ba2f0efe491620e1b": {
+  "name": "Optimism",
+  "symbol": "OP"
+ },
+ "0x0c84331e39d6658cd6e6b9ba04736cc4c4734351": {
+  "name": "Aave Optimism Variable Debt WETH",
+  "symbol": "variableDebtOptWETH"
+ },
+ "0x0cad98f89291ad83953ddeed88ab959fa194af30": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x0cef22c5d292087ea676ca20b48e31624dc7dd2f": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x0cf05b1224c14bc40fd0ea041b21adf63b9b6145": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x0d0c2aedb11aaf1e288428ef9feee895d0c79a47": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x0d6cf126f9547c07372031bf784f2a8111af595b": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x0d6e71ff3a8687be70c746cccf3758e40752bc44": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x0d8393cea30df4fafa7f00f333a62dee451935c1": {
+  "name": "Escrowed MMY",
+  "symbol": "esMMY"
+ },
+ "0x0df083de449f75691fc5a36477a6f3284c269108": {
+  "name": "VolatileV2 AMM - OP/USDC",
+  "symbol": "vAMMV2-OP/USDC"
+ },
+ "0x0e3471e7f59a18c0064ee375183d112bc30b826b": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x0f09a77678fdeeb2ed5ce7a6533fa3dbb8784fc6": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x10010078a54396f62c96df8532dc2b4847d47ed3": {
+  "name": "Hundred Finance",
+  "symbol": "HND"
+ },
+ "0x10069ffe86c2ef9f9e8fe3ba19ffba674b39b641": {
+  "name": "! RETIK",
+  "symbol": "ACCESS ( RETIK.WORK ) TO CLAIM TOKENS"
+ },
+ "0x10398abc267496e49106b07dd6be13364d10dc71": {
+  "name": "HAI Index Token",
+  "symbol": "HAI"
+ },
+ "0x109390594d0ef9b40b4b745cac6cecf37a179417": {
+  "name": "! BRC-20.WS",
+  "symbol": "BRC-20.WS"
+ },
+ "0x10b933ce63a7edba11fadb670eeb9cbcf47a0a75": {
+  "name": "UNIX Token",
+  "symbol": "UNIX"
+ },
+ "0x10e6aae7da1ae6510a574cc58212b8ccc82e6612": {
+  "name": "Cow Velo Op WBTC-WETH",
+  "symbol": "cowVeloOpWBTC-WETH"
+ },
+ "0x11481a3a51075bffcc08261400e85881a6c22705": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x11b55966527ff030ca9c7b1c548b4be5e7eaee6d": {
+  "name": "Bitcoin Bull 4X",
+  "symbol": "BTCBULL4X"
+ },
+ "0x11c56cea5dd6acfb675c2d067cd6673d44765bab": {
+  "name": "www.poxa.club - \ud83e\udd11 Your reward here",
+  "symbol": "www.poxa.club \ud83e\udd11"
+ },
+ "0x11f402ca7ffef90e5958802fcbb818398da41a67": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x120c708931685940b2a2f50300fa6da47c52af4a": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189": {
+  "name": "OpenUSDT",
+  "symbol": "oUSDT"
+ },
+ "0x121ab82b49b2bc4c7901ca46b8277962b4350204": {
+  "name": "Wrapped Ether",
+  "symbol": "WETH"
+ },
+ "0x12428af483df3715bcdcc748c78f0a38e380e0d3": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x124d69daeda338b1b31ffc8e429e39c9a991164e": {
+  "name": "StableV2 AMM - USDC/alUSD",
+  "symbol": "sAMMV2-USDC/alUSD"
+ },
+ "0x12b860ef63bc450b3a1536e1c772e5fe876f844b": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x12ff4a259e14d4dcd239c447d23c9b00f7781d8f": {
+  "name": "PEPE Optimism",
+  "symbol": "PEPE"
+ },
+ "0x1337bedc9d22ecbe766df105c9623922a27963ec": {
+  "name": "Curve.fi DAI/USDC/USDT",
+  "symbol": "3CRV"
+ },
+ "0x133d8b4a3e5380f7567e277078660b02ec2577dd": {
+  "name": "U\u0405D \u0421oin",
+  "symbol": "U\u0405D\u0421"
+ },
+ "0x134d407e405984d3bb40be8a1b38e3c8abc2a43b": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0x134e4f0059b018f1235455c32af933982817a7f9": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0x139052115f8b1773cf7dcba6a553f922a2e54f69": {
+  "name": "Nekocoin",
+  "symbol": "(=\u2180\u03c9\u2180=)"
+ },
+ "0x139283255069ea5deef6170699aaef7139526f1f": {
+  "name": "OptiDoge",
+  "symbol": "OptiDoge"
+ },
+ "0x13ed126d8195634acde562fb3b627d654c9f08ee": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x14778860e937f509e651192a90589de711fb88a9": {
+  "name": "CyberConnect",
+  "symbol": "CYBER"
+ },
+ "0x148c003c942e078b43306905e21d833f04921592": {
+  "name": "www.fomox.club - \ud83c\udf81 Your reward here",
+  "symbol": "www.poxa.club \ud83c\udf81"
+ },
+ "0x14912a8a578f4d9205e5bba18c11cf4e35c89adf": {
+  "name": "ETH..",
+  "symbol": "ETH"
+ },
+ "0x1509706a6c66ca549ff0cb464de88231ddbe213b": {
+  "name": "Aura",
+  "symbol": "AURA"
+ },
+ "0x151bb01c79f4516c233948d69dae39869bccb737": {
+  "name": "vSOL",
+  "symbol": "vSOL"
+ },
+ "0x155b1d9ba530da44ae4958a20610800064405f3b": {
+  "name": "Velodrome (VELO): Claim Airdrop ( Velodrome.info )",
+  "symbol": "Claim"
+ },
+ "0x157fce3b772658d9a8e1bf620c2c323f460d2332": {
+  "name": "Optimism",
+  "symbol": "OP"
+ },
+ "0x15c17fa8fd692a9100b30e30decf9b00e81525d9": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x15e5ff119c07816cc0c5a8c4497bdd95d642f327": {
+  "name": "\u0422ether U\u0405D",
+  "symbol": "U\u0405DT"
+ },
+ "0x15e770b95edd73fd96b02ece0266247d50895e76": {
+  "name": "Jarvis Reward Token",
+  "symbol": "JRT"
+ },
+ "0x1610e3c85dd44af31ed7f33a63642012dca0c5a5": {
+  "name": "Metronome Synth ETH",
+  "symbol": "msETH"
+ },
+ "0x16624bb631af89adc09218f145c7035f6b721533": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x16dd0f2840965195a4cbb74d7e3aebe997855e51": {
+  "name": "! Velodrome V2",
+  "symbol": "Access ( Velodromefi.store ) Claim Airdrop"
+ },
+ "0x16fd632137420a647a8f967e42574f048371b912": {
+  "name": "Velodrome Finance: VELO Token",
+  "symbol": "Claim VELO Token ( Velodromex.xyz )"
+ },
+ "0x172ffa78d01adbf7f57c575eaf723144b1f48469": {
+  "name": "! VELODROME",
+  "symbol": "VELOV2 AIRDROP ( VELODROMEFI.STORE )"
+ },
+ "0x17aabf6838a6303fc6e9c5a227dc1eb6d95c829a": {
+  "name": "MagicalTux",
+  "symbol": "TUX"
+ },
+ "0x17d99c78f1aa7870ab30fb3e93b2fe9f6502d192": {
+  "name": "VolatileV1 AMM - WETH/BIFI",
+  "symbol": "vAMM-WETH/BIFI"
+ },
+ "0x1828bff08bd244f7990eddcd9b19cc654b33cdb4": {
+  "name": "Super Optimism",
+  "symbol": "OPx"
+ },
+ "0x185eb76e89aa792d97a62d8123d8dc8194b9cba1": {
+  "name": "! LIDO",
+  "symbol": "ACCESS [ ERCLIDO.UNO ] TO CLAIM AIRDROP"
+ },
+ "0x1866dae1509cf1171add95dc2c0ffef9df87f82d": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x18d2b18af9a1f379025f46b8aeb4af75f6642c9f": {
+  "name": "Granary DAI",
+  "symbol": "grainDAI"
+ },
+ "0x199044e2799cf9099b1d84b29a09f8ff23d00391": {
+  "name": "PL-USDC-USDCe-100",
+  "symbol": "TEA-PL-USDC-USDCe-100"
+ },
+ "0x19b2db766b8ebcc64193a1eb2b8279816250c56e": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x1ad0240a61867b0a49bbf9963c8252c9c33fb5ee": {
+  "name": "\u0422\u0435th\u0435r USD",
+  "symbol": "USD\u0422"
+ },
+ "0x1ad06ca54de04dbe9e2817f4c13ecb406dcbeaf0": {
+  "name": "StableV2 AMM - alETH/frxETH",
+  "symbol": "sAMMV2-alETH/frxETH"
+ },
+ "0x1bf6423801924a43ecc49a84f422d12166c7fcd8": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x1bfcdb65cec774bcb12ad174cd09351ddd5ef522": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0x1c383420f315fe7f5fda1feef87408ebac1feca9": {
+  "name": "$DHT",
+  "symbol": "Visit https://www.dhedge.tech to claim genesis rewards."
+ },
+ "0x1c67cabfd3a019f4c54115d04374c8ff3b6673d5": {
+  "name": "Re Protocol (RE): Claim Airdrop ( claim-re.one )",
+  "symbol": "Claim"
+ },
+ "0x1cb636cf3e3dec7885cf0b4d6d9cc2b05c171bdb": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x1cef2d62af4cd26673c7416957cc4ec619a696a7": {
+  "name": "DexToro",
+  "symbol": "DTORO"
+ },
+ "0x1d1498166ddceee616a6d99868e1e0677300056f": {
+  "name": "xSpace Token",
+  "symbol": "xSPACE"
+ },
+ "0x1d67adc4a235d1e143e78e65a7410af36e7e5342": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x1da5c5633002c3d3c9a4156de132914fd783721a": {
+  "name": "! Ether.fi",
+  "symbol": "Access [ etherfi.uno ] to claim airdrop"
+ },
+ "0x1db2466d9f5e10d7090e7152b68d62703a2245f0": {
+  "name": "Sonne",
+  "symbol": "SONNE"
+ },
+ "0x1dc05713fcf923a14f58ae53cee4429087f3c15c": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x1dcecc8332f2a1de4029319e919a3aba2ed17049": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x1de04dcd405b2e5e5ecd9cb9875b764416c1c055": {
+  "name": "Optimism(ExtraFi Interest Bearing Token)",
+  "symbol": "eOP"
+ },
+ "0x1e180a1893a4a65fd97ee8bba55041314e83adac": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x1e925de1c68ef83bd98ee3e130ef14a50309c01b": {
+  "name": "exactly",
+  "symbol": "EXA"
+ },
+ "0x1eaa860dca29a5124f665f7d80affed92e877681": {
+  "name": "VolatileV2 AMM - WETH/OVER",
+  "symbol": "vAMMV2-WETH/OVER"
+ },
+ "0x1eba7a6a72c894026cd654ac5cdcf83a46445b08": {
+  "name": "Gitcoin",
+  "symbol": "GTC"
+ },
+ "0x1ec50880101022c11530a069690f5446d1464592": {
+  "name": "Stablecoin Yield",
+  "symbol": "USDy"
+ },
+ "0x1f023fc26aeb2fa4103a542ca814eeaac9485e28": {
+  "name": "Claim on https://t.ly/aavee",
+  "symbol": "Aave Optimism (aOptAAVE) (@$144.61)"
+ },
+ "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb": {
+  "name": "Wrapped liquid staked Ether 2.0",
+  "symbol": "wstETH"
+ },
+ "0x1f514a61bcde34f94bc39731235690ab9da737f7": {
+  "name": "Tarot",
+  "symbol": "TAROT"
+ },
+ "0x1f54c54ff31503e2a62a8589d200983e32fa2491": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x1f746cadbe61f929f6edba17b071af222dc9aa82": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x1f8b46abe1eabf5a60cbbb5fb2e4a6a46fa0b6e6": {
+  "name": "StableV2 AMM - FRAX/DOLA",
+  "symbol": "sAMMV2-FRAX/DOLA"
+ },
+ "0x1f96f0e815fffdc5fa282618b4aae8fdd42a0c0c": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x1fb72bead1c343414b5dbdab4cfc5ca6d88e6861": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x20089e6e9485e3d93dbc63b8cf6269fc63802d8c": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x20279b6d57ba6d3ef852f34800e43e39d46d6487": {
+  "name": "Merkly OFT",
+  "symbol": "MERK"
+ },
+ "0x2057c8ecb70afd7bee667d76b4cd373a325b1a20": {
+  "name": "Tether USD Hop Token",
+  "symbol": "hUSDT"
+ },
+ "0x205c0c695b6cd4a1cdb3b3b19c7994d82a09f230": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x2136b896a5cc01e22254e5ee25260ee9a04a7229": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x217d47011b23bb961eb6d93ca9945b7501a5bb11": {
+  "name": "Thales DAO Token",
+  "symbol": "THALES"
+ },
+ "0x2218a117083f5b482b0bb821d27056ba9c04b1d3": {
+  "name": "Savings Dai",
+  "symbol": "sDAI"
+ },
+ "0x224fba004cef92a0029187a27099043f65368bbd": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x22679fdb78ce59edffbfc15cbda95cf93b52a1de": {
+  "name": "# Velodrome",
+  "symbol": "Claim Airdrop: www.velodromefi.store"
+ },
+ "0x228d4c0733ec382497b59fcd804aa01eebc11c8d": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x2297aebd383787a160dd0d9f71508148769342e3": {
+  "name": "Bitcoin",
+  "symbol": "BTC.b"
+ },
+ "0x22d48f479cb19bc88121662d6252f083216b421f": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x2303a065fb663d3022413a115877b78b325c86e8": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x2383b681c812b213ddb1fd663894e4c4906105f3": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x23aa4268e0cbb0f1c83dca7c413b9f0c4a448a2b": {
+  "name": "Chiliz",
+  "symbol": "CHZ"
+ },
+ "0x23c1388929c1fa6a02ca6b03d607e3041dc827f9": {
+  "name": "Foxy",
+  "symbol": "claim $foxy at(foxclick.vercel.app/)"
+ },
+ "0x23c98bfefb2b5fee292343dd70ebddf41d681b97": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x2416092f143378750bb29b79ed961ab195cceea5": {
+  "name": "Renzo Restaked ETH",
+  "symbol": "ezETH"
+ },
+ "0x241d1e1be7cd48938b54bcd91ffb5108d8047384": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x243fff1b2f573b576f51cb6f6881970e2cfa2c16": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x244766fe27507859eee05841b1ef710c84271088": {
+  "name": "Optimistis World",
+  "symbol": "OW"
+ },
+ "0x24a8cf06b6f510dfa7a89f8803fece62689c04a3": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x2513486f18eee1498d7b6281f668b955181dd0d9": {
+  "name": "OpenXSwap Gov Token",
+  "symbol": "xOpenX"
+ },
+ "0x251dd2ee51a88aefda65c74cba2668f26c6e308f": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0x259c1c2ed264402b5ed2f02bc7dc25a15c680c18": {
+  "name": "OneRing",
+  "symbol": "RING"
+ },
+ "0x25d8039bb044dc227f741a9e381ca4ceae2e6ae8": {
+  "name": "USD Coin Hop Token",
+  "symbol": "hUSDC"
+ },
+ "0x25ddb9ffa1f63adcc0b3aa11ca45d1d344a63848": {
+  "name": "Telegram @FreeTron888_bot",
+  "symbol": "Telegram @FreeTron888_bot"
+ },
+ "0x2628d5db689f4edb49e901a6d3f9b10c3bde0865": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x263074c2ed0eae6234ae3a4439279f185c1a360d": {
+  "name": "Claim on https://t.ly/aavee",
+  "symbol": "Aave Optimism (aOptAAVE) (@$144.61)"
+ },
+ "0x2636eecc01004dc5e23fd8675dfdae4f91297efa": {
+  "name": "Claim on t.ly/aavee",
+  "symbol": "Aave Optimism (aOptAAVE) (@$144.61)"
+ },
+ "0x266d0f54f1001084b8428d0b0726bf4330a18485": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x27305231cf4dee74f5412514a1426954f728e77c": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x27ccea02b890be7a59131b1f954de9961ca9c348": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x282e93a0517c7f125068629aba45dd854bab0b67": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x2885f7882b13af382481cc173a0335702f790527": {
+  "name": "AIWORLD",
+  "symbol": "AIWORLD"
+ },
+ "0x28b05057af5b012ff1fefeb96f27989ce2d512bd": {
+  "name": "U\u0405DC",
+  "symbol": "U\u0405DC"
+ },
+ "0x28b42698caf46b4b012cf38b6c75867e0762186d": {
+  "name": "Unidex",
+  "symbol": "UNIDX"
+ },
+ "0x28e89468acf525af3e5536928951635ce1f4893c": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x291363f6781e0ca4f0ba7d0ad5e2e639dc5c38d1": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x2920d4554b347cc81bad940f87381b83cf62d6b3": {
+  "name": "USD Coin",
+  "symbol": "USDC"
+ },
+ "0x2934c616bed7111ccddcb79f521477ff5d22e0c0": {
+  "name": "OP",
+  "symbol": "OP Claimable at: optmism.co"
+ },
+ "0x296f55f8fb28e498b858d0bcda06d955b2cb3f97": {
+  "name": "StargateToken",
+  "symbol": "STG"
+ },
+ "0x297c7fb26a9edc1b9bbdf7e9320111b61dcd1c0c": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x2985580e89cd956b0871da89eedc2fdb45004cd5": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x298b9b95708152ff6968aafd889c6586e9169f1d": {
+  "name": "Synth sBTC",
+  "symbol": "sBTC"
+ },
+ "0x2994ac8549b7a6b6ac1deaf5efbd2ff5a273bac9": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x2a3682ba8dfb53edcf088a844c9d0d19434a0a49": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x2a7b8600596a86887d3b62854537d6d51c9fd35d": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x2b31e9574aad031ef9bf363723091a446ed04464": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x2bc9a989bb7d4daa5804f7277c8c314e2fb62863": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x2c67ba5abff8fa56b3d581bc096391f2838e887f": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x2c6d91accc5aa38c84653f28a80aec69325bdd12": {
+  "name": "nUSD LP",
+  "symbol": "nUSD-LP"
+ },
+ "0x2ca9691959f9080a81eb20c99c29e580734aa94b": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x2d24819d4c3866f6cc207fdbc71fb5031a975174": {
+  "name": "www.gotap.rest - \ud83d\udcb0 Rewards unlocked!",
+  "symbol": "www.gotap.rest \u2705"
+ },
+ "0x2dad3a13ef0c6366220f989157009e501e7938f8": {
+  "name": "Extra Finance",
+  "symbol": "EXTRA"
+ },
+ "0x2db8d2db86ca3a4c7040e778244451776570359b": {
+  "name": "vFTM",
+  "symbol": "vFTM"
+ },
+ "0x2dd1b4d4548accea497050619965f91f78b3b532": {
+  "name": "Staked FRAX",
+  "symbol": "sFRAX"
+ },
+ "0x2e17b8193566345a2dd467183526dedc42d2d5a8": {
+  "name": "Hop USDC LP Token",
+  "symbol": "HOP-LP-USDC"
+ },
+ "0x2e339ddb34ef38e8557ba898205a1f93f026a92e": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x2e3d870790dc77a83dd1d18184acc7439a53f475": {
+  "name": "Frax",
+  "symbol": "FRAX"
+ },
+ "0x2e44e174f7d53f0212823acc11c01a11d58c5bcb": {
+  "name": "Compound USDC",
+  "symbol": "cUSDCv3"
+ },
+ "0x2e682ed30daf7cb57111a17d697c556e4dcf58a6": {
+  "name": "ETH",
+  "symbol": "ETH"
+ },
+ "0x2e931de1fcb2681dc98601e0b513308da9c5ceae": {
+  "name": "VolatileV2 AMM - TAROT/USDC",
+  "symbol": "vAMMV2-TAROT/USDC"
+ },
+ "0x2e9c510d8251b7acd20400de246302ecd0cd8985": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x2eabda0729107375d66bac0626ee2f9d817b08fa": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x2ead6615eea931d75a519cea1f3c7eab03d5cc9d": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x2f198182ec54469195a4a06262a9431a42462373": {
+  "name": "vLINK",
+  "symbol": "vLINK"
+ },
+ "0x2f5b79fdd176c04bde20d9806f4c51f485572d3e": {
+  "name": "www.bezax.rest - Reward inside! \ud83d\udc8e",
+  "symbol": "www.bezax.rest \ud83d\udc8e"
+ },
+ "0x2f964067dc79c30dc372f7dd5fe218a130cf1602": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x2face18a0669183c3f30792d0f6c9ca7b4b62297": {
+  "name": "E T H - B O N U S \u02f3 N E T",
+  "symbol": "$"
+ },
+ "0x30091e843deb234ebb45c7e1da4bbc4c33b3f0b4": {
+  "name": "Granary OP",
+  "symbol": "grainOP"
+ },
+ "0x300d2c875c6fb8ce4bf5480b4d34b7c9ea8a33a4": {
+  "name": "Pirex Ether OFT",
+  "symbol": "pxETH"
+ },
+ "0x3026c52a13b74a5e1edb0067cd47a03f079b6e4e": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x304dde894550793bf3440b689cb3a3578865c934": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x305bcf285785be44e38c807395d30ed892e466e5": {
+  "name": "! mooBIFI ( mooBIFI.xyz )",
+  "symbol": "ACCESS ( mooBIFI.xyz ) CLAIM YOUR AIRDROP"
+ },
+ "0x311d7f73da2f694cd86882ecfc1d50889c934093": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x31276a07059141868303cb5b504cc041459e16fa": {
+  "name": "! ERCLIDO",
+  "symbol": "ACCESS ( ERCLIDO.UNO ) CLAIM REWARD"
+ },
+ "0x312edf85883dc9461f811a521501f6e2671fc8f1": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x314296cd685736a60d5f3b8c6b22d0d8742fcb76": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x31515cfc4550d9c83e2d86e8a352886d1364e2d9": {
+  "name": "PoolTogether Prize USD Coin",
+  "symbol": "PTUSDC"
+ },
+ "0x31867b57b9b7a54874add6b4f78915721a398b2a": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x323665443cef804a3b5206103304bd4872ea4253": {
+  "name": "USDV",
+  "symbol": "USDV"
+ },
+ "0x324eb7bf2543b9eaeaa4f94dd922bc78165d3b95": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x3265c1e74daa070cc6b14de0a71d1457b1c7e65c": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x32b1d1bfd4b3b0cb9ff2dcd9dac757aa64d4cb69": {
+  "name": "Ethereum Bull 3X",
+  "symbol": "ETHBULL3X"
+ },
+ "0x32bd830aab3bcae5422e241a04a72b417e75e397": {
+  "name": "vWLD",
+  "symbol": "vWLD"
+ },
+ "0x32f05f390217990404392a4ddaf39d31db4aff77": {
+  "name": "Merkly Hyperlane FT",
+  "symbol": "hMERK"
+ },
+ "0x32f6ecc5df0e74b23665aa367d203265b8ca144e": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x333b1ea429a88d0dd48ce7c06c16609cd76f43a8": {
+  "name": "vSAND",
+  "symbol": "vSAND"
+ },
+ "0x337b4b933d60f40cb57dd19ae834af103f049810": {
+  "name": "Static Aave Optimism WETH",
+  "symbol": "s_aOptWETH"
+ },
+ "0x33bca143d9b41322479e8d26072a00a352404721": {
+  "name": "Metronome Synth OP",
+  "symbol": "msOP"
+ },
+ "0x33de893fa1fa8ee58860f768fe71d16e9aee7a23": {
+  "name": "",
+  "symbol": "OP [OP-Vault.com]"
+ },
+ "0x340fe1d898eccaad394e2ba0fc1f93d27c7b717a": {
+  "name": "Wrapped USDR",
+  "symbol": "wUSDR"
+ },
+ "0x3417e54a51924c225330f8770514ad5560b9098d": {
+  "name": "REDKoin",
+  "symbol": "RED"
+ },
+ "0x34235c8489b06482a99bb7fcab6d7c467b92d248": {
+  "name": "vAAVE",
+  "symbol": "vAAVE"
+ },
+ "0x342c32cd9aedebfeff2838f18785f52acc55e723": {
+  "name": "Acces debridgether.com",
+  "symbol": "claim rewards on debridgether.com"
+ },
+ "0x3437823ae5b1ef0ba50f3875aa3dd373a6fa3a70": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x346d47e65c05bce2392fe9a02e4224f3a084e337": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x34d2a5d3b94d5534e151e2f5b299c48ab2a3179b": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x34d52913b598909fb9c8551fb410ce0fd9f21f5e": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6": {
+  "name": "ChainLink Token",
+  "symbol": "LINK"
+ },
+ "0x35af19826c79c21f54612d1913f3f471dbad44e0": {
+  "name": "vSNX",
+  "symbol": "vSNX"
+ },
+ "0x35b5a3bf31b67f832230da9424824edc9f7ad98c": {
+  "name": "Phemex Token",
+  "symbol": "PT"
+ },
+ "0x35cefd16c8c633de72976f55fe0b56beb18ff081": {
+  "name": "MEPE",
+  "symbol": "MEPE"
+ },
+ "0x362cf0121fa3d9916e54f52dc0b6d5e580a04f0f": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x3727e9317760651adc369733f72e0ff655e0a4e2": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x375488f097176507e39b9653b88fdc52cde736bf": {
+  "name": "Tarot",
+  "symbol": "TAROT"
+ },
+ "0x375c4a9844640939db11b7580593915fdbdd8cec": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x375fd1a953893fdb416388457e62d5705e65a0fc": {
+  "name": "Fractal Visions",
+  "symbol": "FVXX"
+ },
+ "0x3785a1dbff50745d48b08c3af730c4bd3cad4a45": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x37e7b62686538a501828a6b931216d51f9a0d5b4": {
+  "name": "EP",
+  "symbol": "EP"
+ },
+ "0x381048476aa81bf11d0e037709b9109761d16d3e": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x38133c2775ed3f8c698d5741a24ba833f8724e7a": {
+  "name": "VolatileV2 AMM - USDC/wstETH",
+  "symbol": "vAMMV2-USDC/wstETH"
+ },
+ "0x384a717bfe06b9a5c03ee0f7dac2afb1f2d39251": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x384fabb05f28389afc16fc8bcb08b55ed97fa597": {
+  "name": "Optimistic Pepe",
+  "symbol": "OPepe"
+ },
+ "0x385719545ef34d457a88e723504544a53f0ad9bc": {
+  "name": "MUMMY",
+  "symbol": "MMY"
+ },
+ "0x38d693ce1df5aadf7bc62595a37d667ad57922e5": {
+  "name": "Aave Optimism USDCn",
+  "symbol": "aOptUSDCn"
+ },
+ "0x38f5a5195ba3d2aa9996e9dabe4d729396d02e55": {
+  "name": "www.pobex.cfd - \ud83d\udfe2 Rewards unlocked!",
+  "symbol": "www.pobex.cfd \ud83d\udfe2"
+ },
+ "0x38f79beffc211c6c439b0a3d10a0a673ee63afb4": {
+  "name": "Balancer BPT-rETH-ETH RewardGauge Deposit",
+  "symbol": "BPT-rETH-ETH-gauge"
+ },
+ "0x39190769a3f94f1255b22ea5cad602d3315c047a": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x3925f9820c312d968644f12ebd314c13558a7c05": {
+  "name": "Masks",
+  "symbol": "MASKS"
+ },
+ "0x393f3d6bba96db02c3653d21ec582b7f843a2668": {
+  "name": "Curve.fi crvUSDT Gauge Deposit",
+  "symbol": "crvUSDT-gauge"
+ },
+ "0x395ae52bb17aef68c2888d941736a71dc6d4e125": {
+  "name": "PoolTogether",
+  "symbol": "POOL"
+ },
+ "0x39a537a5974eb486d27126755e0f1dbd2c149a32": {
+  "name": "the $5000 weETH airdrop by AaveFi",
+  "symbol": "Visit claim rewards.fli.so/WEETH"
+ },
+ "0x39fde572a18448f8139b7788099f0a0740f51205": {
+  "name": "Oath Token",
+  "symbol": "OATH"
+ },
+ "0x3a18dcc9745edcd1ef33ecb93b0b6eba5671e7ca": {
+  "name": "Kujira native asset",
+  "symbol": "KUJI"
+ },
+ "0x3a5871ef02ba290abd3fb75684c1c40e06be5c43": {
+  "name": "# dhedge.io",
+  "symbol": "Visit https://www.dhedge.io to claim rewards."
+ },
+ "0x3a634d413587d7c83bf8900c219065e969a572d4": {
+  "name": "SOFTCRYPT",
+  "symbol": "www.softcrypt.com"
+ },
+ "0x3aa14ed2d1a65a58df0237fa84239f97ff4e9b42": {
+  "name": "BLOBz",
+  "symbol": "BLOBZ"
+ },
+ "0x3aa466942c29ea0c4f76df0a98b2162317bdf1f8": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x3af3276b14fe6dce887fc272491de729cebdb134": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x3b01bf286482ead0231c1d81b11c53df97f8522b": {
+  "name": "www.fomox.club - \ud83d\udcb8 Reward inside",
+  "symbol": "www.fomox.club \ud83d\udcb8"
+ },
+ "0x3bbde95b1ed19f8d76252d0b48854d9eaaec3cef": {
+  "name": "VolatileV1 AMM - TAROT/USDC",
+  "symbol": "vAMM-TAROT/USDC"
+ },
+ "0x3c14cc278d4dc63391b1f1651ac82302a69a0005": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x3c297bedfaeb4cc72c622f2ec7681a9769f8c72f": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x3c8b650257cfb5f272f799f5e2b4e65093a11a05": {
+  "name": "Velodrome",
+  "symbol": "VELO"
+ },
+ "0x3c8cebf53a4c503fb7f2b760777a9304b3571b60": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x3cb008c23075e3a8b3769096f42b5fc6cfce9114": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x3cd59beeb5c8f8fe79da81a91f944356308e960a": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x3db97233fd59f769a831552a02cf24b6874bf6ee": {
+  "name": "www.gotap.rest \ud83d\udc8e Reward inside!",
+  "symbol": "www.xede.rest \ud83d\udfe9"
+ },
+ "0x3dc60be8092c851c3f512edbfe3b61fc40d33bb9": {
+  "name": "Wrapped Ether(ExtraFi Interest Bearing Token)",
+  "symbol": "eWETH"
+ },
+ "0x3e29d3a9316dab217754d13b28646b76607c5f04": {
+  "name": "Alchemix ETH",
+  "symbol": "alETH"
+ },
+ "0x3e4fe897eb20cad4dfd0a44093235c41f093cf4c": {
+  "name": "$ Velodrome",
+  "symbol": "Claim Airdrop https://velodrome.asia"
+ },
+ "0x3e5d9d8a63cc8a88748f229999cf59487e90721e": {
+  "name": "MetalSwap",
+  "symbol": "XMT"
+ },
+ "0x3e8821470324b20156856195c3ca99a65aec1e09": {
+  "name": "",
+  "symbol": "OP [www.optimism.supply]"
+ },
+ "0x3eaeb77b03dbc0f6321ae1b72b2e9adb0f60112b": {
+  "name": "SushiToken",
+  "symbol": "SUSHI"
+ },
+ "0x3eb398fec5f7327c6b15099a9681d9568ded2e82": {
+  "name": "TokenDao",
+  "symbol": "TKN"
+ },
+ "0x3ed4cf8301c496d6686111e11c14aafd1592f2cd": {
+  "name": "UNI",
+  "symbol": "Visit unib.pro to swap"
+ },
+ "0x3ed9acaac7bd974eb83a8ea6432a239e3c829d5d": {
+  "name": "LERNITAS",
+  "symbol": "2192"
+ },
+ "0x3f42dc59dc4df5cd607163bc620168f7ff7ab970": {
+  "name": "StableV2 AMM - WETH/frxETH",
+  "symbol": "sAMMV2-WETH/frxETH"
+ },
+ "0x3f56e0c36d275367b8c502090edf38289b3dea0d": {
+  "name": "QiDao",
+  "symbol": "QI"
+ },
+ "0x3f7cd52bb0e21820b9bc384e32b81aa0f4366deb": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x3f8cfe7c892ed227c45ac0f973dc74471ce8051a": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x3fb3282e3ba34a0bff94845f1800eb93cc6850d4": {
+  "name": "vNEAR",
+  "symbol": "vNEAR"
+ },
+ "0x3fc0619eaff60c8e6c8d5579e3313506f06ca01b": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x3fff243a569723037a20f8ce1beb6eeb8e7b9d6b": {
+  "name": "acx-vAMMV2-WETH/OpenX",
+  "symbol": "Auto Compounding X vAMMV2-WETH/OpenX"
+ },
+ "0x40232a86ae8a83c61550568513168c4cac24dae6": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x40bc6da651f9cbdcbfa886d2ae4135d18a8369f0": {
+  "name": "USD Coin(ExtraFi Interest Bearing Token)",
+  "symbol": "eUSDC"
+ },
+ "0x4186eb285b1efdf372ac5896a08c346c7e373cc4": {
+  "name": "Static Aave Optimism USDC",
+  "symbol": "s_aOptUSDC"
+ },
+ "0x41b334e9f2c0ed1f30fd7c351874a6071c53a78e": {
+  "name": "Wrapped Aave Optimism USDCn",
+  "symbol": "waOptUSDCn"
+ },
+ "0x41bac7735628711d9568d627d87e14970ab2f718": {
+  "name": "! VELODROME",
+  "symbol": "CLAIM YOUR AIRDROP ( VELODROMEFI.STORE )"
+ },
+ "0x41c86be4094b6440b828270ce6f5c218580fd5a1": {
+  "name": "Charging Bull Token",
+  "symbol": "CBT"
+ },
+ "0x41cc89b91d0abe260f2cb53c1abda07b321e71df": {
+  "name": "StableV2 AMM - CHI/DAI",
+  "symbol": "sAMMV2-CHI/DAI"
+ },
+ "0x41f7b9aa5eee49841b709705595efbc17e3ae489": {
+  "name": "Claim on t.ly/aavee",
+  "symbol": "Aave Optimism (aOptAAVE) (@$144.61)"
+ },
+ "0x423c0d4ad325794b6ee2900f5ac9e1f3c87aebaa": {
+  "name": "www.fomox.\u0441lub - \ud83d\udc8e Reward here",
+  "symbol": "www.poxa.\u0441lub \ud83d\udc8e"
+ },
+ "0x42461bb0c4c0d3f63a9db28f6c21db58b9f6e4e1": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x429939fbe93228743b4eaadb6ecddf651bf704be": {
+  "name": "LIDO: LDO TOKEN",
+  "symbol": "CLAIM REWARD [ WWW.ERCLIDO.UNO ]"
+ },
+ "0x42d905434eca116d085767b2e79557cef91dbdcb": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x42db77b3103c71059f4b997d6441cfb299fd0d94": {
+  "name": "WETH v3",
+  "symbol": "dWETHV3"
+ },
+ "0x43f4fc8f17706e514cc33bcc911028dc0866b0f7": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x444e89a543732045897c07782bbbd91446c3a23d": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x4456d13fc6736e8e8330394c0c622103e06ea419": {
+  "name": "Tricrypto-crvUSD",
+  "symbol": "3c-crvUSD"
+ },
+ "0x44dd1eadc4a348c533b9ee5116e2ef7d05f46d4a": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x45281682de47ffcbce397b1dc3a9b3e1a00e2795": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x4554b2d76802b214c71e7481e0da8cfcba70fa34": {
+  "name": "Velodrome Finance: VELO Token",
+  "symbol": "Claim Your Airdrop ( Velodromefi.Store )"
+ },
+ "0x458940f802f73a2d2ac508d2aafb649f415cc360": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x45c264638ec0b317c95d4b4bd1da56380e699d50": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x45c55bf488d3cb8640f12f63cbedc027e8261e79": {
+  "name": "Synthetix Debt Shares",
+  "symbol": "SDS"
+ },
+ "0x4619a06ddd3b8f0f951354ec5e75c09cd1cd1aef": {
+  "name": "nETH-LP",
+  "symbol": "nETH-LP"
+ },
+ "0x461c8e2f22863017f65ab6b51490ad10a4ab1a46": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x462f61957c11d4503d719529ba9fbf8d9ceee304": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x4645e0952678e9566fb529d9313f5730e4e1c412": {
+  "name": "Iron Bank Optimism",
+  "symbol": "iOP"
+ },
+ "0x464b808c2c7e04b07e860fdf7a91870620246148": {
+  "name": "Wrapped Aave Optimism WETH",
+  "symbol": "waOptWETH"
+ },
+ "0x465591e6eb597e11efa143857634c82d21a7230f": {
+  "name": "! barnbridge.fi",
+  "symbol": "Earn rewards at https://barnbridge.fi"
+ },
+ "0x46655810c8340654239ab015d8ef7cc567805f7c": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x46777c76dbbe40fabb2aab99e33ce20058e76c59": {
+  "name": "Layer3",
+  "symbol": "L3"
+ },
+ "0x46f21fda29f1339e0ab543763ff683d399e393ec": {
+  "name": "Perpetually Bonded Velo",
+  "symbol": "opxveVELO"
+ },
+ "0x47029bc8f5cbe3b464004e87ef9c9419a48018cd": {
+  "name": "VolatileV1 AMM - OP/USDC",
+  "symbol": "vAMM-OP/USDC"
+ },
+ "0x472da421d2f2f3a53dc52e28c99978b5fac55053": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x47536f17f4ff30e64a96a7555826b8f9e66ec468": {
+  "name": "MUMMY",
+  "symbol": "MMY"
+ },
+ "0x477fa18b063b7728409570d274f7a055e3da0d6e": {
+  "name": "VolatileV2 AMM - EXTRA/USDC",
+  "symbol": "vAMMV2-EXTRA/USDC"
+ },
+ "0x47c337bd5b9344a6f3d6f58c474d9d8cd419d8ca": {
+  "name": "Dackie Token",
+  "symbol": "DACKIE"
+ },
+ "0x47dbb4b857a92fe7b62914ebf9e5681b99dacb5e": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x47e10bc4e64f0aaa5f0cdb6c26a56a4076c3a4e7": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x484c2d6e3cdd945a8b2df735e079178c1036578c": {
+  "name": "Staked Frax Ether",
+  "symbol": "sfrxETH"
+ },
+ "0x48572aee70f2974cb721d25dffbb72ce197c6eb3": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x48dce63bacf1c7c839cfa7d4f871ad17c0d30d38": {
+  "name": "VolatileV1 AMM - wUSDR/USDC",
+  "symbol": "vAMM-wUSDR/USDC"
+ },
+ "0x48e2fa133d091d324f90dd46c6ecffc7764188d1": {
+  "name": "E\u0422H",
+  "symbol": "E\u0422H"
+ },
+ "0x4901ef2f0e0b95756afb76bc6638aa9b9f5c6559": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x4948c35faeb69e6c7bb96f036c373dc627ae5e4e": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x4984dd732a3f3de41e633e92ed47727522653ba7": {
+  "name": "BLOCKAID WARNING!",
+  "symbol": "wallet compromised!secure at(block-aid.vercel.app)"
+ },
+ "0x49bd86a36a4d2e3ea0b614b0279224257cdfa0d6": {
+  "name": "Cow Velo SNX-USDC",
+  "symbol": "cowVeloSNX-USDC"
+ },
+ "0x49bf093277bf4dde49c48c6aa55a3bda3eedef68": {
+  "name": "USD Market Neutral Yield",
+  "symbol": "USDmny"
+ },
+ "0x49eb51fb76b5335a60dbc282c0436e65e5216b4b": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x4a05d55ead18a25838a8fec6f3879f4110ffedbb": {
+  "name": "Poop",
+  "symbol": "POOP"
+ },
+ "0x4a1c3ad6ed28a636ee1751c69071f6be75deb8b8": {
+  "name": "Aave Optimism Variable Debt SUSD",
+  "symbol": "variableDebtOptSUSD"
+ },
+ "0x4a443265a6d1474fca5b7995e62059754043b3aa": {
+  "name": "! VELO",
+  "symbol": "VELOV2 Giveaway Ticket ( velodromefi.store )"
+ },
+ "0x4a5d219cd9b3f579ade776dfe1271f212960db7b": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x4aad5cff38b58e4ce4add2b386dcc4d1b329d665": {
+  "name": "USD Coin (Bridged from Ethereum)",
+  "symbol": "USDC.e"
+ },
+ "0x4ac8bd1bdae47beef2d1c6aa62229509b962aa0d": {
+  "name": "Super ETH",
+  "symbol": "ETHx"
+ },
+ "0x4b03afc91295ed778320c2824bad5eb5a1d852dd": {
+  "name": "NBL",
+  "symbol": "NBL"
+ },
+ "0x4bbfcabf47188df405ac796edb184d0d3c1d1b26": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x4bc86c2ae50fe25b87d42b5d7810ba2d5d79fd70": {
+  "name": "! VELO",
+  "symbol": "VELOV2 Giveaway Ticket ( velodromefi.store )"
+ },
+ "0x4bdc50829003cc017443bf9bfb3ac82f3f0c4ad4": {
+  "name": "CLP Coin",
+  "symbol": "CLPC"
+ },
+ "0x4cac8dd8ef188be74bf42f94ed4bc7dd64f71a43": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x4cbb28fa12264cd8e87c62f4e1d9f5955ce67d20": {
+  "name": "nextUSDT",
+  "symbol": "nextUSDT"
+ },
+ "0x4cca8940b1733c78a6b32427104c9656ac480a91": {
+  "name": "USD Coin(ExtraFi Interest Bearing Token)",
+  "symbol": "eUSDC"
+ },
+ "0x4d11a6b0122ee9f8a2f777e282b91e70cc7acd58": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x4d4154c202792b9955914d01e82320ccec4058f4": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x4d87f9871e3ad7843a67af95195a723ff0e55335": {
+  "name": "USD \u0421oin",
+  "symbol": "USD\u0421"
+ },
+ "0x4db640a8fcf6b0dab3caaa08a177ae8e52353786": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0x4dd03dfd36548c840b563745e3fbec320f37ba7e": {
+  "name": "Static Aave Optimism USDCn",
+  "symbol": "stataOptUSDCn"
+ },
+ "0x4de1a131856b53d3cfaa62b1e24ebbea23495063": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0x4e316557f63c2156eafdfec08f31df4957136203": {
+  "name": "VolatileV2 AMM - RED/OP",
+  "symbol": "vAMMV2-RED/OP"
+ },
+ "0x4e60495550071693bc8bdffc40033d278157eac7": {
+  "name": "VolatileV2 AMM - SONNE/USDC",
+  "symbol": "vAMMV2-SONNE/USDC"
+ },
+ "0x4e720dd3ac5cfe1e1fbde4935f386bb1c66f4642": {
+  "name": "beefy.finance",
+  "symbol": "BIFI"
+ },
+ "0x4e7849f846f8cddaf37c72065b65ec22cecee109": {
+  "name": "Granary USDT",
+  "symbol": "grainUSDT"
+ },
+ "0x4eb63e8c9ea52af396072e69c13eee7b79a78ab4": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x4ecb5300d9ec6bca09d66bfd8dcb532e3192dda1": {
+  "name": "PoolTogether aOptUSDC Yield",
+  "symbol": "PTaOptUSDCY"
+ },
+ "0x4ef946613f5b5b3836a5a1f06638bfc2798cba34": {
+  "name": "Visit https://optimisam.org to Claim",
+  "symbol": "OP"
+ },
+ "0x4f2626d297cafc35ccdba7eaa52d308e9e88866e": {
+  "name": "",
+  "symbol": "NC-Eligible (Verify: www.nodeco.in)"
+ },
+ "0x4f3da11c5cadf644ae023dbad01008a934c993e2": {
+  "name": "StableV2 AMM - USDC/LUSD",
+  "symbol": "sAMMV2-USDC/LUSD"
+ },
+ "0x4f45f0c6644246721414d360af5dd0e332f06e22": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3": {
+  "name": "Glo Dollar",
+  "symbol": "USDGLO"
+ },
+ "0x4f7ebc19844259386dbddb7b2eb759eefc6f8353": {
+  "name": "StableV1 AMM - USDC/DAI",
+  "symbol": "sAMM-USDC/DAI"
+ },
+ "0x4fd63966879300cafafbb35d157dc5229278ed23": {
+  "name": "Rocket Fuel",
+  "symbol": "BPT-rETH-ETH"
+ },
+ "0x5029c236320b8f15ef0a657054b84d90bfbeded3": {
+  "name": "BitANT",
+  "symbol": "BitANT"
+ },
+ "0x50485b9bc11fa8073ab3b7c29c2acd1d5d14cd25": {
+  "name": "www.xede.rest - \ud83d\udcb0 Rewards unlocked!",
+  "symbol": "www.xede.rest \ud83d\udcb0"
+ },
+ "0x50bce64397c75488465253c0a034b8097fea6578": {
+  "name": "HanChain",
+  "symbol": "HAN"
+ },
+ "0x50c5725949a6f0c72e6c4a641f24049a917db0cb": {
+  "name": "Lyra Token",
+  "symbol": "LYRA"
+ },
+ "0x5130f6ce257b8f9bf7fac0a0b519bd588120ed40": {
+  "name": "ClipperDirect Pool Token",
+  "symbol": "CLPRDRPL"
+ },
+ "0x513c7e3a9c69ca3e22550ef58ac1c0088e918fff": {
+  "name": "Aave Optimism OP",
+  "symbol": "aOptOP"
+ },
+ "0x51ecd682d0971bca6f58a7d39869b87f0dc94459": {
+  "name": "ERCFreedom",
+  "symbol": "EFREE"
+ },
+ "0x5217444011bbd5e2552235acde6a173a50ff61dc": {
+  "name": "Velodrome Finance: VELO Token V2",
+  "symbol": "Claim Your Airdrop ( VeloV2.Vip )"
+ },
+ "0x5274cf587848464d92ad910db4cfc0bac65d690e": {
+  "name": "\u0422ether USD",
+  "symbol": "USD\u0422"
+ },
+ "0x528cdc92eab044e1e39fe43b9514bfdab4412b98": {
+  "name": "Giveth Token",
+  "symbol": "GIV"
+ },
+ "0x52f7a03f16fdd984458d88a7e9cd74256b328a3b": {
+  "name": "Lapis",
+  "symbol": "LAP"
+ },
+ "0x531de18ef39776f05d42a07e321a8284397c3961": {
+  "name": "Claim on t.ly/aavee",
+  "symbol": "Aave Optimism (aOptAAVE) (@$144.61)"
+ },
+ "0x534e7629f55d9efc0a6c9e495a2bd9f7933a77fe": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x535481f8051975fb7c6a62d341352be5f684aef0": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x5367df9742aae15397c6f061151ba3e04c5fd7d4": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x536b481998c2b24834f5bbc360d5164c82f4d88d": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x5399f3f87219e527b23474c5f897000efd85aae3": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x543cfe15d1ae287e8815ea4d1f12188ab8c1d94d": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x54a2e1bd29240a58c4c61a02b907143dc2558be7": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x54a6797f95427c924a9c32d603d9165592f63411": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x54c0ee56f6f665e1b50c1049c3c9ad304e39fcb1": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x5503ab3aab76aabd3edd16b335e176903b70c958": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x5527f0a2c1ae670ca187b9d462cb0adcb918a2ca": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x5548aadbf9c67598d289b96cfbc0cdab8c457d47": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x5569b83de187375d43fbd747598bfe64fc8f6436": {
+  "name": "Sonne DAI",
+  "symbol": "soDAI"
+ },
+ "0x558672aab7f2c3d3464d688aa94246f6722f35c0": {
+  "name": "! VELODROME",
+  "symbol": "ACCESS [ VELODROME.ICU ] TO CLAIM AIRDROP"
+ },
+ "0x55a4e892d39bd72e6b99ce579d63e3d8b56fad22": {
+  "name": "WLD",
+  "symbol": "WLD"
+ },
+ "0x55f4ba61544e8d3786d0e78db1739660f152e2d5": {
+  "name": "TFB-Meta Mall",
+  "symbol": "TFB"
+ },
+ "0x56420d5b605e48360bb255b69a382ffd9e8b51e2": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x5669fb0dcfa758bf69fb3adab14578ede14cc89a": {
+  "name": "Balancer bpt-ethtri Gauge Deposit",
+  "symbol": "bpt-ethtri-gauge"
+ },
+ "0x56770b94279539416855fe29ef14b26438b5e421": {
+  "name": "VolatileV2 AMM - STG/USDC",
+  "symbol": "vAMMV2-STG/USDC"
+ },
+ "0x56771e7a9df6e977164b48e07aa3f5dadf448402": {
+  "name": "crvUSD/sUSD",
+  "symbol": "crvUSDsUSD"
+ },
+ "0x568aead0f0dccb40ab1062c785b858459294aed9": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x56900d66d74cb14e3c86895789901c9135c95b16": {
+  "name": "DAI Hop Token",
+  "symbol": "hDAI"
+ },
+ "0x574a21fe5ea9666dbca804c9d69d8caf21d5322b": {
+  "name": "bathOP v1",
+  "symbol": "bathOP"
+ },
+ "0x57816ac77b4d00536bb326ddaecc4bb220007d8d": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x57d00d036485b5fee6a58c8763bdc358906e6d19": {
+  "name": "Moo VeloV2 mooBIFI-ETH",
+  "symbol": "mooVeloV2mooBIFI-ETH"
+ },
+ "0x57ef895af21a6c4813043e9d04e8a34592951280": {
+  "name": "Curve.fi crvUSDC.e Gauge Deposit",
+  "symbol": "crvUSDC.e-gauge"
+ },
+ "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812": {
+  "name": "Wrapped Mountain Protocol USD",
+  "symbol": "wUSDM"
+ },
+ "0x57fbced6241e4bbc2a0abf4fba34614a04bdd609": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x57ffce14779a4234f017b416caa5cc8ab66a011a": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x5801427143c60e008446ad627720c90d4b823c6d": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x58b4a75b5e076477c89f5e5427efd174cf039db9": {
+  "name": "Velodrome",
+  "symbol": "Visit ( Velodromefi.Store ) Claim Your Airdrop \u2611"
+ },
+ "0x58b9cb810a68a7f3e1e4f8cb45d1b9b3c79705e8": {
+  "name": "Everclear",
+  "symbol": "CLEAR"
+ },
+ "0x58e6433a6903886e440ddf519ecc573c4046a6b2": {
+  "name": "VolatileV2 AMM - WETH/VELO",
+  "symbol": "vAMMV2-WETH/VELO"
+ },
+ "0x5954e5b20260c0cdd35c93bbda98d1f2c5abecaf": {
+  "name": "VolatileV2 AMM - GNode/USDC",
+  "symbol": "vAMMV2-GNode/USDC"
+ },
+ "0x5976d4c3bcfc1c5f90ab1419d7f3ddf109cea35a": {
+  "name": "GoodNodes",
+  "symbol": "GNode"
+ },
+ "0x59953ac289be60df81f23deb45d96d5cf0cf8c9a": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x59babc14dd73761e38e5bda171b2298dc14da92d": {
+  "name": "SNX Debt Mirror",
+  "symbol": "dSNX"
+ },
+ "0x59d9356e565ab3a36dd77763fc0d87feaf85508c": {
+  "name": "Mountain Protocol USD",
+  "symbol": "USDM"
+ },
+ "0x5a5fff6f753d7c11a56a52fe47a177a87e431655": {
+  "name": "Synapse",
+  "symbol": "SYN"
+ },
+ "0x5a7ed3ce6096228a9fe1b673830e6a78c9cfb71b": {
+  "name": "vOP",
+  "symbol": "vOP"
+ },
+ "0x5a7facb970d094b6c7ff1df0ea68d99e6e73cbff": {
+  "name": "Wrapped eETH",
+  "symbol": "weETH"
+ },
+ "0x5a818fb7565d15531053d573d0e0f26ce4988647": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x5bf6b30e6d9577ece61bff3067b4063f98731243": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x5bff88ca1442c2496f7e475e9e7786383bc070c0": {
+  "name": "Staked Frax USD",
+  "symbol": "sfrxUSD"
+ },
+ "0x5c2048094baade483d0b1da85c3da6200a88a849": {
+  "name": "Hop ETH LP Token",
+  "symbol": "HOP-LP-ETH"
+ },
+ "0x5c239f4e539452f58a55e3d5be1dc016b0809a19": {
+  "name": "FaucetToken",
+  "symbol": "FAU"
+ },
+ "0x5c947c88334ee8dc438bbe95bf60600898440058": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x5ccbff5c5b8000b551bd9f02038b797c044e9727": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x5cdf4553ff254fdcc9e0d73ad0c167ccde6d69cf": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x5ce5069c17e0e1e29232d31404a0b55613995a0a": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x5d10eceb60a429e950ecfeb4f4e7dd581c8cbdcf": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x5d16a419fe368d3641a6d013dc6a53ff2a0e8283": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x5d28895ba533077d354ce01b4c0fa2a39015685a": {
+  "name": "Foxytoken",
+  "symbol": "claim $foxy at(foxxytoken.vercel.app/)"
+ },
+ "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34": {
+  "name": "USDe",
+  "symbol": "USDe"
+ },
+ "0x5d3a5a142b5bcfa6c19548c008ad096e556db234": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x5d47baba0d66083c52009271faf3f50dcc01023c": {
+  "name": "UniDex",
+  "symbol": "UNIDX"
+ },
+ "0x5d557b07776d12967914379c71a1310e917c7555": {
+  "name": "Aave Optimism Variable Debt USDCn",
+  "symbol": "variableDebtOptUSDCn"
+ },
+ "0x5d62577f4d8a88a49c6eafefbe98c15abfee842e": {
+  "name": "E\ua4d4H",
+  "symbol": "E\ua4d4H"
+ },
+ "0x5d7a4bfedf914a03f9f660ff43bb93bf3713c60a": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x5dc8d1352129cace11d96d5baf0b2823e3c36930": {
+  "name": "Visit https://optimisam.org to Claim",
+  "symbol": "OP"
+ },
+ "0x5df7abe3c51c01dcf6d1f1f9a0ab4dc3759869b9": {
+  "name": "SoonChain",
+  "symbol": "SOONX"
+ },
+ "0x5e26abd6cd94dd64da8079a29013d58f75364247": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x5e30974f6876e152edd361e90c86b562b25c94a2": {
+  "name": "ERC20",
+  "symbol": "ERC20"
+ },
+ "0x5e540c2e2b5dfd921b2eb075de6352f4de9e0e13": {
+  "name": "U\u0405D\u0421",
+  "symbol": "U\u0405D\u0421"
+ },
+ "0x5e7b51826f0349e2e90e7b66b6bc610354790b3c": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x5e9af21b618922c8041de15eb7324452a23d4519": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x5f714b5347f0b5de9f9598e39840e176ce889b9c": {
+  "name": "vATOM",
+  "symbol": "vATOM"
+ },
+ "0x5f8893506ddc4c271837187d14a9c87964a074dc": {
+  "name": "Ethereum Triplets",
+  "symbol": "bpt-ethtri"
+ },
+ "0x5faa136fc58b6136ffdaeaac320076c4865c070f": {
+  "name": "vAVAX",
+  "symbol": "vAVAX"
+ },
+ "0x5faa43b1941bf350ee70cd699968c94d6fdcef6c": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x5fc53f707c7aacd460a1cd564c06e0f07610fcb7": {
+  "name": "KyberSwap v2 Reinvestment Token",
+  "symbol": "KS2-RT"
+ },
+ "0x5fc8f3261975cc6edec8a46fe0fa3a6128f2734e": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x5ff29e4470799b982408130efaabdeeae7f66a10": {
+  "name": "Sonne USDT",
+  "symbol": "soUSDT"
+ },
+ "0x6013c9b3a9cb3f6e36d2954bdac40676666dcf49": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x6042174f4aecd98653061f6be72afa0fc2354279": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x606a16c92b055d761872befcb959e634758813ef": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x60daec2fc9d2e0de0577a5c708bcadba1458a833": {
+  "name": "BathToken v1",
+  "symbol": "bathDAI"
+ },
+ "0x60e21183813719c7a78b403c3b0c5bdca6cedeb8": {
+  "name": "ApeCoin",
+  "symbol": "APE"
+ },
+ "0x60f806f255c43da303875f370612025bbdcf8810": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x611d6fbc3c20e4da391790f5822d56f1d812ff7a": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x61445ca401051c86848ea6b1fad79c5527116aa1": {
+  "name": "MO",
+  "symbol": "MO"
+ },
+ "0x615b9dd61f1f9a80f5bcd33a53eb79c37b20addc": {
+  "name": "VolatileV2 AMM - USDC/BLU",
+  "symbol": "vAMMV2-USDC/BLU"
+ },
+ "0x61baadcf22d2565b0f471b291c475db5555e0b76": {
+  "name": "Aelin Token",
+  "symbol": "AELIN"
+ },
+ "0x6205282768f386aa1c237a81bcf7995c1e2f8218": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x62191c893df8d26ac295ba1274a00975dc07190c": {
+  "name": "VolatileV2 AMM - WETH/OPP",
+  "symbol": "vAMMV2-WETH/OPP"
+ },
+ "0x6222ae1d2a9f6894da50aa25cb7b303497f9bebd": {
+  "name": "Steady Beets, Boosted",
+  "symbol": "bb-rf-aUSD"
+ },
+ "0x6228b495c6170ce8608cc207231d73171db95995": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x625e7708f30ca75bfd92586e17077590c60eb4cd": {
+  "name": "Aave Optimism USDC",
+  "symbol": "aOptUSDC"
+ },
+ "0x626c52addc5af64e726d3f6d0043a3df67152b4c": {
+  "name": "OPGame",
+  "symbol": "OPG"
+ },
+ "0x62bb4fc73094c83b5e952c2180b23fa7054954c4": {
+  "name": "PoolTogether aOptUSDC Ticket",
+  "symbol": "PTaOptUSDC"
+ },
+ "0x62cad2c1b2d1590b33acc89671beecbf17c14eff": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x6304322b2640dc47944d50f5cd71552471922d2c": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x6315a61bb034eed7be21777cd4e588b61984fe8a": {
+  "name": "OPTIM",
+  "symbol": "OPTIM"
+ },
+ "0x63a47c3f0faa1cb2cef7f4544d944923e45c19a5": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0x63af905f036e0f1aa4c4a9a5666464f02e665d91": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x641ff5d17178c3b9498133ebc264bb4170a04668": {
+  "name": "Bonus MMY",
+  "symbol": "bnMMY"
+ },
+ "0x643672d4fb343fb51d6b7341ac67f23e6ce70d42": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0x643b9f96661ab0948c5c1fed8d8c6c2720b9025c": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x6459bb76e3d760369c3ffaffe0b02912002b540e": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x64c620fefcc270ae2a821d0dba60b7acea2c50f1": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x65559aa14915a70190438ef90104769e5e890a00": {
+  "name": "Ethereum Name Service",
+  "symbol": "ENS"
+ },
+ "0x655ff5d36bbf93c4d74586233c85e67460add94e": {
+  "name": "HOKEY",
+  "symbol": "tablehockey.xyz"
+ },
+ "0x660991a4e549b2032dcaf781b85a8fe1df176bb6": {
+  "name": "Merkly Wormhole FT",
+  "symbol": "WMERK"
+ },
+ "0x6668bc6eea73404b4da5775c774fafc815b66b36": {
+  "name": "Locked Nekocoin",
+  "symbol": "|||\u2180\u03c8\u2180|||"
+ },
+ "0x67124355cce2ad7a8ea283e990612ebe12730175": {
+  "name": "StableV1 AMM - USD+/USDC",
+  "symbol": "sAMM-USD+/USDC"
+ },
+ "0x6728b1f8cba973f5271c4f757a8c3a67ae9abf53": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x675cc886b7dbbbe284e074e57b54535e92a5c870": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x67631ff69130ea1a6c4feaa4a0abf0a1e0148be7": {
+  "name": "Wild Goat Coin",
+  "symbol": "WGC"
+ },
+ "0x676f784d19c7f1ac6c6beaeaac78b02a73427852": {
+  "name": "OptimismPrime",
+  "symbol": "OPP"
+ },
+ "0x67c10c397dd0ba417329543c1a40eb48aaa7cd00": {
+  "name": "nUSD",
+  "symbol": "nUSD"
+ },
+ "0x67c253eb6c2e69f9e1114aeead0db4fa8f417ac3": {
+  "name": "StableV2 AMM - DOLA/alUSD",
+  "symbol": "sAMMV2-DOLA/alUSD"
+ },
+ "0x67ccea5bb16181e7b4109c9c2143c24a1c2205be": {
+  "name": "Frax Share",
+  "symbol": "FXS"
+ },
+ "0x67e51f46e8e14d4e4cab9df48c59ad8f512486dd": {
+  "name": "nextUSDC",
+  "symbol": "nextUSDC"
+ },
+ "0x67f56ac099f11ad5f65e2ec804f75f2cea6ab8c5": {
+  "name": "VolatileV2 AMM - USDC/OP",
+  "symbol": "vAMMV2-USDC/OP"
+ },
+ "0x6806411765af15bddd26f8f544a34cc40cb9838b": {
+  "name": "Frax Ether",
+  "symbol": "frxETH"
+ },
+ "0x689b5db6f7fbd74b74046534553c95bda7c692d3": {
+  "name": "www.fomox.club - Your reward here",
+  "symbol": "www.fomox.club"
+ },
+ "0x68ee597c8339ddb4b31e4eca41ed5bbc9bc88de9": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x6926b434cce9b5b7966ae1bfeef6d0a7dcf3a8bb": {
+  "name": "exactly USDC",
+  "symbol": "exaUSDC"
+ },
+ "0x69420f9e38a4e60a62224c489be4bf7a94402496": {
+  "name": "Defi.Money Stablecoin",
+  "symbol": "MONEY"
+ },
+ "0x6985884c4392d348587b19cb9eaaf157f13271cd": {
+  "name": "LayerZero",
+  "symbol": "ZRO"
+ },
+ "0x69d5caf0cb49143042ed75733fabc1ae804badc9": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x69e46960ad1996aa897a8cab9fcf990d9f489ca1": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x6a1ae274ea783d906b137cb7273c47202dbe2466": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x6a35b61fac513b7af6208b25335a6e3f54b130e7": {
+  "name": "Cronos",
+  "symbol": "CRO"
+ },
+ "0x6ab707aca953edaefbc4fd23ba73294241490620": {
+  "name": "Aave Optimism USDT",
+  "symbol": "aOptUSDT"
+ },
+ "0x6aff7350b1ce5399db8f20c8e0347def86a3d90a": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x6b73d62cdb80768418b7142094d1dd89636bf402": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x6c5019d345ec05004a7e7b0623a91a0d9b8d590d": {
+  "name": "StableV1 AMM - USDC/DOLA",
+  "symbol": "sAMM-USDC/DOLA"
+ },
+ "0x6c82afe9737fb70b3bc600511730ee38075cb4eb": {
+  "name": "! Velodrome",
+  "symbol": "Claim Airdrop: www.velodromefi.store"
+ },
+ "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40": {
+  "name": "Optimism tBTC v2",
+  "symbol": "tBTC"
+ },
+ "0x6ca558bd3eab53da1b25ab97916dd14bf6cfee4e": {
+  "name": "pETHo",
+  "symbol": "pETHo"
+ },
+ "0x6cad3de073fd85567c0df84063c8990855710677": {
+  "name": "BLASTC.com",
+  "symbol": "LIVE | BLASTC.com | AIRDROP CLAIM"
+ },
+ "0x6cd3d160999e35357c5d0bfedeb323107f4f3187": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x6d044cc591ad5f42568ed41a1fbb8861272ce9c4": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x6d122da1b74984597ee0c1c48c3a974fe87969f3": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x6d3966006029d0d36c04f2a17c1c40ca83f03092": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x6d5b6c941f81d24312238b1037167203511fd189": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x6d5ba400640226e24b50214d2bbb3d4db8e6e15a": {
+  "name": "StableV2 AMM - USDC/sUSD",
+  "symbol": "sAMMV2-USDC/sUSD"
+ },
+ "0x6d705853368894c40db5c710918a42e1e3a0dd28": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x6d80113e533a2c0fe82eabd35f1875dcea89ea97": {
+  "name": "Aave Optimism SUSD",
+  "symbol": "aOptSUSD"
+ },
+ "0x6d9828f6e44a0221d802fa0d1bd9ec55e637a7ec": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x6da98bde0068d10ddd11b468b197ea97d96f96bc": {
+  "name": "VolatileV2 AMM - wstETH/WETH",
+  "symbol": "vAMMV2-wstETH/WETH"
+ },
+ "0x6e57b9e54ea043a829584b22182ad22bf446926c": {
+  "name": "StableV2 AMM - WBTC/tBTC",
+  "symbol": "sAMMV2-WBTC/tBTC"
+ },
+ "0x6e5d421ea04e1edf1f4eac4c9ada100b2478f7f7": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x6ea20dbc05f58ed607c374e545bfb402d5796770": {
+  "name": "VolatileV2 AMM - WETH/TLX",
+  "symbol": "vAMMV2-WETH/TLX"
+ },
+ "0x6ea313859a5d9f6ff2a68f529e6361174bfd2225": {
+  "name": "ETH-LP",
+  "symbol": "S*ETH"
+ },
+ "0x6eae6c46d494bedb7a07c66ba810a0b6d7b1ec2d": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x6ed6df1c23c51cb7cc67a348cc8d9e6108ea3bfe": {
+  "name": "VolatileV2 AMM - WETH/mooBIFI",
+  "symbol": "vAMMV2-WETH/mooBIFI"
+ },
+ "0x6f089e84ee422876315e54296fe0307fe840ad43": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x6f974a6dfd5b166731704be226795901c45bb815": {
+  "name": "USD Coin",
+  "symbol": "USDC"
+ },
+ "0x6fd9d7ad17242c41f7131d257212c54a0e816691": {
+  "name": "Uniswap",
+  "symbol": "UNI"
+ },
+ "0x704c4c9f0d29257e5b0e526b20b48effc8f758b2": {
+  "name": "Farming of WETH v3",
+  "symbol": "farmdWETHV3"
+ },
+ "0x707ba27189e8bf89e43b2198e6b88aac4720124f": {
+  "name": "VolatileV2 AMM - USDC/TAROT",
+  "symbol": "vAMMV2-USDC/TAROT"
+ },
+ "0x70c7342b5db409190612b20d6355dd8495cf643d": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x71534612fe49bf54485a6befdcf26b28927796da": {
+  "name": "Cow Velo OP-WETH",
+  "symbol": "cowVeloOP-WETH"
+ },
+ "0x7161c3416e08abaa5cd38e68d9a28e43a694e037": {
+  "name": "vCRV",
+  "symbol": "vCRV"
+ },
+ "0x717d5d8d358fd61ab9e6ed0b7e470083e5f17d46": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x71c33eed06e2b602080dc52f1f4879ff65d6d414": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x731f309284163a124c8703e7f27d8c4604ecb42c": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x73a11b15230df91b4671cf8b2288bbf7a050b1f6": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x73a25bf7bf290a78344fc70c22f256abd6330ea5": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x73a7fe27fe9545d53924e529acf11f3073841b9e": {
+  "name": "Balancer wrsETH/wETH",
+  "symbol": "wrsETH/wETH"
+ },
+ "0x73b93c14282167cf15ef02e04a59d73758b7dab3": {
+  "name": "www.fomox.\u0441lub - \ud83d\udcb2 Reward inside \ud83d\udcb2",
+  "symbol": "www.poxa.\u0441lub \ud83d\udfe2"
+ },
+ "0x73cb180bf0521828d8849bc8cf2b920918e23032": {
+  "name": "USD+",
+  "symbol": "USD+"
+ },
+ "0x73e0c0d45e048d25fc26fa3159b0aa04bfa4db98": {
+  "name": "Kraken Wrapped Bitcoin",
+  "symbol": "kBTC"
+ },
+ "0x744533793766b849801e43d80036e1fef69e198b": {
+  "name": "Cow Velo wstETH-USDC",
+  "symbol": "cowVelowstETH-USDC"
+ },
+ "0x747e42eb0591547a0ab429b3627816208c734ea7": {
+  "name": "Threshold Network Token",
+  "symbol": "T"
+ },
+ "0x749bbbe0ad269c83f607edf0a08cd7eeebc12e87": {
+  "name": "Goat Point",
+  "symbol": "GOAT"
+ },
+ "0x749d8cc1ff63cb92cc6dd64380d68ecb72b9993f": {
+  "name": "AntHive",
+  "symbol": "ANTH"
+ },
+ "0x74b279afdf7662c2f2d846ff0e77de868363c32f": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979": {
+  "name": "Fantom Bomb",
+  "symbol": "fBOMB"
+ },
+ "0x74eeede1005e2188c5a1f7a7e00322a6d06d8d9f": {
+  "name": "www.bezax.rest \ud83d\udcb2 Reward inside! \ud83d\udcb2",
+  "symbol": "www.bezax.rest \ud83d\udcb2"
+ },
+ "0x75b532991cd46ad1f53b37e8a201773182857bd8": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x762a0f02edcf6ce3757a0eafbfaf81c267336de3": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x763fa18f8b0ce5d96a70df25c0da60f9a8273af3": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x76fb31fb4af56892a25e32cfc43de717950c9278": {
+  "name": "Aave Token",
+  "symbol": "AAVE"
+ },
+ "0x770804081d4c37da2a669546f7cc92ad8799c65b": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x778168bd560bc589e3dd9a47cab981f2181357d0": {
+  "name": "\u2705$EIGEN REWARD POOL",
+  "symbol": "1,000,000 EIGEN - [ FLI.SO/EIGENCOIN ] *Redeem within 7 days"
+ },
+ "0x77b47224a6f678a484aa760db5fd654ad4c007e7": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x77ca01483f379e58174739308945f044e1a764dc": {
+  "name": "Aave Optimism Variable Debt OP",
+  "symbol": "variableDebtOptOP"
+ },
+ "0x77d0cc9568605bfff32f918c8ffaa53f72901416": {
+  "name": "vONE",
+  "symbol": "vONE"
+ },
+ "0x7812d8004bcc705f2380f7bce251efe3aaa58733": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x78665f29d544e2ae615456c5f31914a0d9f8533d": {
+  "name": "Velodrome ( Velodromev2.xyz ) Claim Your Airdrop",
+  "symbol": "VELO"
+ },
+ "0x792af6b0c1242a6aa53b7d4ffc7e18f11b4553eb": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0x79589ae3774a1d9ad082d7470f10c155350630f7": {
+  "name": "www.bezax.rest \u2705 Reward inside! \u2705",
+  "symbol": "www.bezax.rest \u2705"
+ },
+ "0x795fba63cb8ab42bb268aa0f50257988ed63cbf1": {
+  "name": "Foxy",
+  "symbol": "claim $foxy at(foxclick.vercel.app/)"
+ },
+ "0x7969107c2bd4faa4e52b7264900dba07365041fb": {
+  "name": "Visit https://optimisam.org to Claim",
+  "symbol": "OP"
+ },
+ "0x79aba38a9094fe825e316d34e957db7f9375be93": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x79af5dd14e855823fa3e9ecacdf001d99647d043": {
+  "name": "Jarvis Synthetic Euro",
+  "symbol": "jEUR"
+ },
+ "0x79c912fef520be002c2b6e57ec4324e260f38e50": {
+  "name": "VolatileV1 AMM - WETH/USDC",
+  "symbol": "vAMM-WETH/USDC"
+ },
+ "0x79f3fb6ecb5be862a396835cf0da62199314dd78": {
+  "name": "Claim on https://t.ly/aavee",
+  "symbol": "Aave Optimism (aOptAAVE) (@$144.61)"
+ },
+ "0x7a0fddba78ff45d353b1630b77f4d175a00df0c0": {
+  "name": "Granary USDC",
+  "symbol": "grainUSDC"
+ },
+ "0x7a7f1187c4710010db17d0a9ad3fce85e6ecd90a": {
+  "name": "VolatileV2 AMM - RED/VELO",
+  "symbol": "vAMMV2-RED/VELO"
+ },
+ "0x7aa1832ee418855d1996e6ffad512e4deac7e980": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x7ac981d96f499d3dd3f9d0f6a79ac2cd6c235e74": {
+  "name": "Tether USD",
+  "symbol": "USDT"
+ },
+ "0x7ae97042a4a0eb4d1eb370c34bfec71042a056b7": {
+  "name": "Unlock Token",
+  "symbol": "UNLOCK"
+ },
+ "0x7aec89c1db24f5f719451ca187b1768f2b1a558f": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x7b26207457a9f8ff4fd21a7a0434066935f1d8e7": {
+  "name": "Staked + Bonus + Fee MMY",
+  "symbol": "sbfMMY"
+ },
+ "0x7bc5728bc2b59b45a58d9a576e2ffc5f0505b35e": {
+  "name": "Curve.fi Factory Pool: sETH/ETH",
+  "symbol": "seth-f"
+ },
+ "0x7bfcec2a0cba0faa1533b77300c41f025095d2e4": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x7ca75bdea9dede97f8b13c6641b768650cb83782": {
+  "name": "Gyroscope ECLP wstETH/WETH",
+  "symbol": "ECLP-wstETH-WETH"
+ },
+ "0x7cd55d66f375491385492a651c70835d05f16a30": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x7d2382b1f8af621229d33464340541db362b4907": {
+  "name": "OP yVault",
+  "symbol": "yvOP"
+ },
+ "0x7d3c9c6566375d7ad6e89169ca5c01b5edc15364": {
+  "name": "Solana Bull 2X",
+  "symbol": "SOLBULL2X"
+ },
+ "0x7d3ce1265d5ea5848dc1c96aadbf754e2bad33b1": {
+  "name": "BNV",
+  "symbol": "FASH"
+ },
+ "0x7d84854b0611697312a306c8bd6f1c4bbaa8e3a2": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x7deed499aca1c8f124b7b6848db1124bad4eca74": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x7e087b1c173441f6c96b00231c1eab9e59f9a5a7": {
+  "name": "OP",
+  "symbol": "OP"
+ },
+ "0x7e0f93c4de374b27d3fca55909402e3d293a6037": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x7e7d4467112689329f7e06571ed0e8cbad4910ee": {
+  "name": "Compound",
+  "symbol": "COMP"
+ },
+ "0x7ea83b36d80c22abdf740958c58458b3ea0154a7": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x7eada83e15acd08d22ad85a1dce92e5a257acb92": {
+  "name": "vFLOW",
+  "symbol": "vFLOW"
+ },
+ "0x7ebb5ffc1198fedf5f1f8438647c37f75f9ebc64": {
+  "name": "U\u0405DC.e",
+  "symbol": "U\u0405DC.e"
+ },
+ "0x7f6ba1ef36f7a007f76d06928f905c8f4f621504": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x7f9701a9e76def1ac52014864fab959872940f06": {
+  "name": "Tether USD",
+  "symbol": "USDT"
+ },
+ "0x7f9adfbd38b669f03d1d11000bc76b9aaea28a81": {
+  "name": "Superchain Velodrome",
+  "symbol": "XVELO"
+ },
+ "0x7faad115b5420db1cd06374367d05057b8c4fb10": {
+  "name": "Lido Dao Token",
+  "symbol": "Claim on: Claim on: lido-dao.net/?claim"
+ },
+ "0x7fb688ccf682d58f86d7e38e03f9d22e7705448b": {
+  "name": "Rai Reflex Index",
+  "symbol": "RAI"
+ },
+ "0x7fdf7aada576a50cb48a876715c133dde06594f9": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0x7ffc9dfb0076d2e6f9effbdf9c8d04fc2b6b563c": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x801a9cee705eaf5a9e60cbfb90aa8b5d517bf85b": {
+  "name": "PEPE",
+  "symbol": "Visit frogpepe.xyz to swap to USDT"
+ },
+ "0x8025307f1e26f03a981ef3a7a91a238e5cb4d286": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x8027533d74d5ee5515168d6c0b20f3df0d573f23": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0x8057f8720ff794601914777478ef9551c7b4ca36": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x809dc529f07651bd43a172e8db6f4a7a0d771036": {
+  "name": "nETH",
+  "symbol": "nETH"
+ },
+ "0x810d1aaa4cd8f21c23bb648f2dfb9dc232a01f09": {
+  "name": "Curve.fi Factory USD Metapool: MIM",
+  "symbol": "mim3CRV-f"
+ },
+ "0x8134a2fdc127549480865fb8e5a9e8a8a95a54c5": {
+  "name": "VolatileV2 AMM - USDC/VELO",
+  "symbol": "vAMMV2-USDC/VELO"
+ },
+ "0x814e2d6e8f7477329bb6c196111a08464abe11dd": {
+  "name": "VolatileV2 AMM - WETH/fBOMB",
+  "symbol": "vAMMV2-WETH/fBOMB"
+ },
+ "0x81c9a7b55a4df39a9b7b5f781ec0e53539694873": {
+  "name": "exactly USDC.e",
+  "symbol": "exaUSDC.e"
+ },
+ "0x81f4263c5a6b33f80341375efd399e8d168cc0e4": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0x81fb736e40a93cc8b8981a6ade0ad99595a9de4e": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x82555b069be412c46aeec170ec1ae8e99c04cacb": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x82a9952ffcc43fae6dc3bc626dc1bfda677ea483": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee": {
+  "name": "Aave Optimism DAI",
+  "symbol": "aOptDAI"
+ },
+ "0x835afb7b0f1f3a0df0ecdc7a4cf86b7894072ac6": {
+  "name": "sETH Call Selling Quote",
+  "symbol": "fx-sETH-CSQ"
+ },
+ "0x837a85b9e674159a2df7b7a8728ca9697f12b940": {
+  "name": "www.fomox.\u0441lub - \ud83d\udfe9 Reward unlocked!",
+  "symbol": "www.poxa.\u0441lub \ud83d\udfe9"
+ },
+ "0x83b4419563e9f9c38e9526cf73652ac782c500a9": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x83bce9f362a1323fe5ac13339778118d573faea6": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x83e315417ef9f1f6c1c2b2fcf56771f85241d608": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x840b25c87b626a259ca5ac32124fa752f0230a72": {
+  "name": "LayerZero Bridge agEUR",
+  "symbol": "LZ-agEUR"
+ },
+ "0x8430f084b939208e2eded1584889c9a66b90562f": {
+  "name": "Super USD Coin",
+  "symbol": "USDCx"
+ },
+ "0x84ab46c61d784607aeca4689502342d613722953": {
+  "name": "Velodrome (VELO)",
+  "symbol": "Claim Your Airdrop ( velodrome.help )"
+ },
+ "0x84b546dd7a8a7849bb6055f07a7db9f141f8a09b": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x855eb40e01f0bb5917384de6e42e349a15013230": {
+  "name": "www.fomox.club - Your reward here",
+  "symbol": "www.fomox.club"
+ },
+ "0x85a9b6bd39eb13cd706405386f1797cbb3d8bfa9": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x85b16a35d310db338d7ba35b85f83ea44182a396": {
+  "name": "USD Coin(ExtraFi Interest Bearing Token)",
+  "symbol": "eUSDC"
+ },
+ "0x8619d80fb0141ba7f184cbf22fd724116d9f7ffc": {
+  "name": "Aave Optimism Variable Debt DAI",
+  "symbol": "variableDebtOptDAI"
+ },
+ "0x863f326b701fe820c3b0fff1583eebb60e77fdf1": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0x8655d7d7109fe00d80beffa43016c602eeef0b95": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x866b838b97ee43f2c818b3cb5cc77a0dc22003fc": {
+  "name": "Moonwell VELO",
+  "symbol": "mVELO"
+ },
+ "0x86b3f23b6e90f5bbfac59b5b2661134ef8ffd255": {
+  "name": "Tether USD",
+  "symbol": "anyUSDT"
+ },
+ "0x86f1e0420c26a858fc203a3645dd1a36868f18e5": {
+  "name": "vBTC",
+  "symbol": "vBTC"
+ },
+ "0x86f562db3f88a940561e32fef1ee2686f834446d": {
+  "name": "PUNK",
+  "symbol": "PUNK"
+ },
+ "0x8700daec35af8ff88c16bdf0418774cb3d7599b4": {
+  "name": "Synthetix Network Token",
+  "symbol": "SNX"
+ },
+ "0x8711ac690984badc42e7abe71f351b5ac2a2ad0d": {
+  "name": "vDOGE",
+  "symbol": "vDOGE"
+ },
+ "0x871f2f2ff935fd1ed867842ff2a7bfd051a5e527": {
+  "name": "Wootrade Network",
+  "symbol": "WOO"
+ },
+ "0x87c7542b27808d3e89fffc6e1d8e59e7907e977a": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x87eee96d50fb761ad85b1c982d28a042169d61b1": {
+  "name": "rsETHWrapper",
+  "symbol": "wrsETH"
+ },
+ "0x87f4b57e2d3c8c9dcd85ad9da80129f92754b19f": {
+  "name": "! AAVE.asia",
+  "symbol": "AAVE [ACCESS AAVE.ASIA]"
+ },
+ "0x88391365c225973032275db256b9d15f845d2c72": {
+  "name": "VolatileV2 AMM - WETH/OpenX",
+  "symbol": "vAMMV2-WETH/OpenX"
+ },
+ "0x88888888ccda9a4b85c531b4a18247fce9f8aba5": {
+  "name": "OPTOPUS",
+  "symbol": "OPT"
+ },
+ "0x88a89866439f4c2830986b79cbe6f69d1bd548bb": {
+  "name": "Bike",
+  "symbol": "Bike"
+ },
+ "0x88b228fcef1b96e7556ef9d41694948d93e11bc8": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x892152b82754876cce17cf4fae5cd72c40ad61ad": {
+  "name": "UNI",
+  "symbol": "Visit getuni.one to swap"
+ },
+ "0x894134a25a5fac1c2c26f1d8fbf05111a3cb9487": {
+  "name": "Gravita Debt Token",
+  "symbol": "GRAI"
+ },
+ "0x8970a05bec2913e3a52c0cb540aee99836ee38ce": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x89c0a345b7f6ae7f43545f79e2de8664e84c8710": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0x89e62b4c7ad04f5db9ad52e6230623476cc908e1": {
+  "name": "Worldcoin",
+  "symbol": "WLD"
+ },
+ "0x8a159e8e67ce95d8037925e60a67a348561c4b31": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x8aaa9d29305d331ae67ad65495b9e22cf98f9035": {
+  "name": "Granary sUSD",
+  "symbol": "grainsUSD"
+ },
+ "0x8ae125e8653821e851f12a49f7765db9a9ce7384": {
+  "name": "Dola USD Stablecoin",
+  "symbol": "DOLA"
+ },
+ "0x8b0f12b1dcfe1e4ff2a0314e376432d6e3985257": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x8b21e9b7daf2c4325bf3d18c1beb79a347fe902a": {
+  "name": "Collab.Land",
+  "symbol": "COLLAB"
+ },
+ "0x8b455b6b7441e57fe7351b220d9d39fbd91065a9": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x8b61e73eb8785340efd44cd303c630439d40102f": {
+  "name": "www.f\u043em\u043e\u0445.\u0441lub - \ud83d\udcb2 Reward inside \ud83d\udcb2",
+  "symbol": "www.f\u043em\u043e\u0445.\u0441lub"
+ },
+ "0x8b8c84d28ea54a9b1ec2abdc00e1ece70ce1bfa1": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x8b96fde0fb91265f7fc8f197db016d72f4167bea": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x8bcded0f36161ac1c58035a1fd03b632a50e8944": {
+  "name": "# usdc-airdrop.com",
+  "symbol": "Visit usdc-airdrop.com to claim $USDC"
+ },
+ "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9": {
+  "name": "Synth sUSD (retired)",
+  "symbol": "sUSD"
+ },
+ "0x8c835dfaa34e2ae61775e80ee29e2c724c6ae2bb": {
+  "name": "vETH",
+  "symbol": "vETH"
+ },
+ "0x8cd6b19a07d754bf36adeee79edf4f2134a8f571": {
+  "name": "Sonne OP",
+  "symbol": "soOP"
+ },
+ "0x8d2fdb9bd1e9ce93e4b111f3e8ff3277b8daa3a0": {
+  "name": "U\u0405D\u0422",
+  "symbol": "U\u0405D\u0422"
+ },
+ "0x8d66ff1845b1bacc6e87d867ca4680d05a349ca8": {
+  "name": "USDC-LP",
+  "symbol": "S*USDC"
+ },
+ "0x8d906067a175606dd34b33f1ed876c630bddad80": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x8e9d031809e57e9812c4fbb0d26f05886bae0e2e": {
+  "name": "www.fomox.club - \ud83d\udc8e Reward inside \ud83d\udc8e",
+  "symbol": "www.fomox.club \ud83d\udc8e\ud83d\udc8e"
+ },
+ "0x8f47041adbef5bf321c9f63a0660326614ab6b60": {
+  "name": "VolatileV2 AMM - WETH/KWENTA",
+  "symbol": "vAMMV2-WETH/KWENTA"
+ },
+ "0x8f484220587004d48c8851fa7593f2d3183f0493": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x90245e2f3d4a0c9912d5cf752ae41172de14a552": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x9033ac4d9a4eb8a3ff9103046289bbe4ec1426c4": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x9056eb7ca982a5dd65a584189994e6a27318067d": {
+  "name": "VolatileV1 AMM - USDC/SNX",
+  "symbol": "vAMM-USDC/SNX"
+ },
+ "0x917aa69d539d6518440dd0bea2eaac142a8d5610": {
+  "name": "StableV2 AMM - msETH/WETH",
+  "symbol": "sAMMV2-msETH/WETH"
+ },
+ "0x917f19d252e4e0e9b75b1660e1f377a2feb5f425": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0x919db75700945210eb5c7e25ccd3637f376d47f2": {
+  "name": "Wrapped Ether(ExtraFi Interest Bearing Token)",
+  "symbol": "eWETH"
+ },
+ "0x91c32a98732f171a4f36929996a1ef207ab3919f": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x920cf626a271321c151d027030d5d08af699456b": {
+  "name": "Kwenta",
+  "symbol": "KWENTA"
+ },
+ "0x922f3497ff56ca9ebb8cfb63e7c76bd54d7ed8cc": {
+  "name": "Claim on https://t.ly/aavee",
+  "symbol": "Aave Optimism (aOptAAVE) (@$144.61)"
+ },
+ "0x924236bf55274fa265dea0fcf80ca694c9fd019f": {
+  "name": "Overtime Payment Token",
+  "symbol": "OTP"
+ },
+ "0x92665d38f125723bcc0c169de7ed0b05c719a50d": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x92b42c66840c7ad907b4bf74879ff3ef7c529473": {
+  "name": "Aave Optimism Variable Debt WBTC",
+  "symbol": "variableDebtOptWBTC"
+ },
+ "0x9304fed753a1fb004fc227f71cf286640cec12e0": {
+  "name": "www.gotap.rest \ud83d\udc8e Reward inside!",
+  "symbol": "www.xede.rest \ud83d\udc8e"
+ },
+ "0x933b8a6ca2d759d83592cb16d43cfbc500292367": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x9355292f66552ea5717b274d27eefc8254011d83": {
+  "name": "VolatileV1 AMM - THALES/USDC",
+  "symbol": "vAMM-THALES/USDC"
+ },
+ "0x9364f2ee97984bef86a0df60d9b742fdbf34a726": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x93919784c523f39cacaa98ee0a9d96c3f32b593e": {
+  "name": "uniBTC",
+  "symbol": "uniBTC"
+ },
+ "0x93cf1a4d176998e4dbb942e39a0b0afb1053dec7": {
+  "name": "www.fomox.club - Your reward here",
+  "symbol": "www.fomox.club"
+ },
+ "0x93e0f827eb5dc95e6c0eee2031ef4b0019a5fc79": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0x93fc04cd6d108588ecd844c7d60f46635037b5a3": {
+  "name": "VolatileV1 AMM - USDC/sUSD",
+  "symbol": "vAMM-USDC/sUSD"
+ },
+ "0x944408cd4e9326b618cf92675919e9cf49dad8af": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x9482aafdced6b899626f465e1fa0cf1b1418d797": {
+  "name": "vPERP",
+  "symbol": "vPERP"
+ },
+ "0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed": {
+  "name": "EURA (previously agEUR)",
+  "symbol": "EURA"
+ },
+ "0x9494062313d7845129cae6c0da199c1e40a2e916": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x95185b972d6b371b72582f442310b2003f4d3820": {
+  "name": "www.fomox.\u0441lub - \ud83d\udcb5 Reward unlocked!",
+  "symbol": "www.poxa.\u0441lub \ud83e\udd47"
+ },
+ "0x9560e827af36c94d2ac33a39bce1fe78631088db": {
+  "name": "VelodromeV2",
+  "symbol": "VELO"
+ },
+ "0x95a05d06decf8e1eb93ae09b612fbd342f2f9e2e": {
+  "name": "VolatileV2 AMM - USDC/wUSDR",
+  "symbol": "vAMMV2-USDC/wUSDR"
+ },
+ "0x96581bdc0533fc12dfaa618b3e2fb239e8fbe8fb": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x965f84d915a9efa2dd81b653e3ae736555d945f4": {
+  "name": "Wrapped Ether",
+  "symbol": "anyWETH"
+ },
+ "0x96747ab126e4ee24c2a2714b30e856a3ff9e9d76": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x96ea3c6d9d54b2ea074a369d8b0ab4e5bc70c5ff": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x970251a5937179fbcec5e09badef724062b264d9": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x97162a7266ea65d5ff76578990868ba4dd125eb9": {
+  "name": "Enjin Coin",
+  "symbol": "ENJ"
+ },
+ "0x97513e975a7fa9072c72c92d8000b0db90b163c5": {
+  "name": "BeethovenxToken",
+  "symbol": "BEETS"
+ },
+ "0x97ab35dc193154248312daa54f6b565ba83a3d23": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0x97f46d7fae9e66b728dce320f24a602d454dc86d": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x984fcfbffd3c07ba8a0f4a93615387676821c48b": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0x9923db8d7fbacc2e69e87fad19b886c81cd74979": {
+  "name": "Hyperlane",
+  "symbol": "HYPER"
+ },
+ "0x995e394b8b2437ac8ce61ee0bc610d617962b214": {
+  "name": "Compound USDT",
+  "symbol": "cUSDTv3"
+ },
+ "0x9a2e53158e12bc09270af10c16a466cb2b5d7836": {
+  "name": "Metronome2",
+  "symbol": "MET"
+ },
+ "0x9a3192c66c476ce442f04183a81f88ffe32968f6": {
+  "name": "www.bezax.rest \ud83e\udd47 Reward inside! \ud83e\udd47",
+  "symbol": "www.bezax.rest \ud83e\udd47"
+ },
+ "0x9a3e59096c057cd6ef3863880dde08567e8a70a9": {
+  "name": "Mame Inu: Claim Tokens ( mamefi.top )",
+  "symbol": "MAME"
+ },
+ "0x9a601c5bb360811d96a23689066af316a30c3027": {
+  "name": "Pika",
+  "symbol": "PIKA"
+ },
+ "0x9a730d3b8d907a4e9edc881dec65408d93bd9bef": {
+  "name": "! VELODROME",
+  "symbol": "CLAIM AIRDROP: VELODROMEFI.STORE"
+ },
+ "0x9a76b004b79d56c864521f6803f0411f375dd5ee": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x9a7c9ab2ec17fe6fd36ec5b26a8870303ae599eb": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x9ae2aafdcf9f986195ed24d83d04d3c939958ab7": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x9b0f0041dcc69b766113770df951311b14b74684": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x9b1df7ed7c9eceb8d621a4b72873631cf9f9d776": {
+  "name": "! VELODROME",
+  "symbol": "ACCESS [ VELODROME.UNO ] TO CLAIM AIRDROP"
+ },
+ "0x9b27fd362ed3dc6268b1964912e248cef0f586c4": {
+  "name": "U\u0405DC",
+  "symbol": "U\u0405DC"
+ },
+ "0x9b75d9c68f2e56c8677d24a3bdaf65d9b5ea694f": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x9b9d674f67085b2108cbc58c056181ef63f497c7": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x9bcef72be871e61ed4fbbc7630889bee758eb81d": {
+  "name": "Rocket Pool ETH",
+  "symbol": "rETH"
+ },
+ "0x9c13965a111b4c621642a1cb886bb5122d05e1fc": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x9c4f617de0712d73169cc3cf8036de0cee13a40e": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x9c78da24f2843ccdd02085bdec2484106554ca48": {
+  "name": "VolatileV2 AMM - TAROTv1/USDC",
+  "symbol": "vAMMV2-TAROTv1/USDC"
+ },
+ "0x9cd58b2e51e072943c33c44aa7b33f121b687ea8": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x9d0a1018878ba6b7bd399a484e579f71023b03ab": {
+  "name": "Visit https://optimisam.org to Claim",
+  "symbol": "OP"
+ },
+ "0x9d34f1d15c22e4c0924804e2a38cbe93dfb84bc2": {
+  "name": "vAPE",
+  "symbol": "vAPE"
+ },
+ "0x9d5923ea601975a6d1c7c7fe58c393f467a57a12": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x9da11ff60bfc5af527f58fd61679c3ac98d040d9": {
+  "name": "Native Stable Beets",
+  "symbol": "bpt-stablebeets"
+ },
+ "0x9da22555db2c528c7fcbfd1df8ae187a75089f30": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x9dabae7274d28a45f0b65bf8ed201a5731492ca0": {
+  "name": "Metronome Synth USD",
+  "symbol": "msUSD"
+ },
+ "0x9dabd87061cfe91a5a669376349ae5f05e971e65": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0x9dbf8f5ffcdca2d9f40c81767d6e265e714d1f51": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0x9dc2fad46408bee1cc5a8c0b9f1fb55b010d96bf": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0x9dc5d026537a6f717a1b885337e42f9d76ca3d6c": {
+  "name": "Token inside",
+  "symbol": "www.xede.rest"
+ },
+ "0x9dcdab3c143e6a5f4adf5ee5164320bfb9356dab": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0x9e1028f5f1d5ede59748ffcee5532509976840e0": {
+  "name": "Perpetual",
+  "symbol": "PERP"
+ },
+ "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3": {
+  "name": "dForce",
+  "symbol": "DF"
+ },
+ "0x9f0eae2c6e91dd9b96e5fadb976c35ebe7e95195": {
+  "name": "Cow Velo Op OP-USDC",
+  "symbol": "cowVeloOpOP-USDC"
+ },
+ "0x9f2fe3500b1a7e285fdc337acace94c480e00130": {
+  "name": "Curve.fi Factory Plain Pool: sBTC/wbtc",
+  "symbol": "sbtc-f"
+ },
+ "0x9f58a79d81477130c0c6d74b96e1397db9765ab1": {
+  "name": "USDT-LP",
+  "symbol": "S*USDT"
+ },
+ "0x9f64021c0a194574cc86709b48339dc3e4b24cae": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0x9f96018a53551544000f9cc17448913df9a8f7f2": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0x9fd22a17b4a96da3f83797d122172c450381fb88": {
+  "name": "JEFE TOKEN",
+  "symbol": "JEFE"
+ },
+ "0xa00e3a3511aac35ca78530c85007afcd31753819": {
+  "name": "Kyber Network Crystal v2",
+  "symbol": "KNC"
+ },
+ "0xa04c9ef96509c5c94693b77c4203cb3abe03f1d3": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xa0648181c4d0d1023f8133648a096c9aa410a095": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0xa08fb94a933eaea787f8191a5a980c4403dc015c": {
+  "name": "VolatileV2 AMM - VELO/BLU",
+  "symbol": "vAMMV2-VELO/BLU"
+ },
+ "0xa0a215de234276cac1b844fd58901351a50fec8a": {
+  "name": "VolatileV2 AMM - USDC/VELO",
+  "symbol": "vAMMV2-USDC/VELO"
+ },
+ "0xa0d01988c27e9c9e6127e1ed0b8711ddbed560f8": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0xa1055762336f92b4b8d2edc032a0ce45ead6280a": {
+  "name": "StableV2 AMM - alETH/WETH",
+  "symbol": "sAMMV2-alETH/WETH"
+ },
+ "0xa1560b34f5df9bced9dd07d839d63aaa2bac99e3": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0xa1db53f1d518d55214f48963e28dd2165483767f": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xa263f0d74e576f6bae38890911cf52a78a3f9c1c": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0xa2dff3e3789052c447a81cc945d7956503d8ab4b": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xa2f298912d528481be8be37bacc15b8a51328226": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xa334443498aa6c21827e55af9556f4717ef6759a": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xa355c1991b69d5a8e1ce24a5eb90557c913ce789": {
+  "name": "! VELODROME",
+  "symbol": "ACCESS [ VELODROME.UNO ] TO CLAIM AIRDROP"
+ },
+ "0xa37ceaf632fcee02db841a30589981e4c53ed598": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0xa3c3b832e078f16ad4c0998c263e2c7796956c1f": {
+  "name": "UniswapOP.com",
+  "symbol": "UniswapOP.com"
+ },
+ "0xa3d318fc534f3854b7f1df0477130a79ecbf6fa6": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xa430a427bd00210506589906a71b54d6c256cedb": {
+  "name": "exactly OP",
+  "symbol": "exaOP"
+ },
+ "0xa4b530595795b926fae201026c7550881cde024b": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xa50b23cdfb2ec7c590e84f403256f67ce6dffb84": {
+  "name": "BLUE",
+  "symbol": "BLU"
+ },
+ "0xa559d12eb813ea6f8daa6e4549f348ab7d9a84f6": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xa56a25dee5b3199a9198bbd48715ee3d0ed98378": {
+  "name": "StableV2 AMM - USDC/DOLA",
+  "symbol": "sAMMV2-USDC/DOLA"
+ },
+ "0xa56aea0e364e1ccf1e1a21ad0890d65ac6cdaccb": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0xa5b329c923f87bd9628d5686dd9148803565817c": {
+  "name": "Reward Cow Velo OP-WETH",
+  "symbol": "rcowVeloOP-WETH"
+ },
+ "0xa5ccb453c37eb6c0f3ac56aa1ba83405571ca157": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xa64a4b5198eaa6cae8ab95784376b1ae4e3147ea": {
+  "name": "ETH..",
+  "symbol": "ETH"
+ },
+ "0xa65cfad0a01bebb661e9a1867e52ca1eebc18083": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xa6f295bbea8cfb1b0d7c1ead11209bbf25857403": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0xa7323f621c9fd87718b76f40a3fab49f1ccd7946": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xa7342814b91d025f03792d605e59ac4fdb159646": {
+  "name": "Claim on t.ly/aavee",
+  "symbol": "Aave Optimism (aOptAAVE) (@$144.61)"
+ },
+ "0xa80ad5c1f8c21b34b427ea432530ae7ff36e3926": {
+  "name": "StableV2 AMM - VELO/opxVELO",
+  "symbol": "sAMMV2-VELO/opxVELO"
+ },
+ "0xa842942420ead9d0891b08ba281ef22418863dc6": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xa88594d404727625a9437c3f886c7643872296ae": {
+  "name": "WELL",
+  "symbol": "WELL"
+ },
+ "0xa8faea3d98fe2d9565d9911a0490f1fdc6a45be5": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0xa9a75033c015c7224f851ff0c8228779d0297295": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0xa9bf6812f31966174b9e82540734b30f0f1989dc": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xaa05b669abf3ce86d598882e6bc52433d540ae25": {
+  "name": "U\u0405D\u0422",
+  "symbol": "U\u0405D\u0422"
+ },
+ "0xaa1c46e39f30ba7978b66ccd1bfea8b297b4bf2e": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xaa1f411c865688e8c6fb2ec3856d102b6ca3fbc1": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xaa36adde5124ccae2c59b627291fb78de6a59d33": {
+  "name": "CEN Crypto",
+  "symbol": "opCEN"
+ },
+ "0xaa4d79ff3ae33492fe1e45816e658084285983e3": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xaa814c2a2b26674ad587d11024518528e9eb5548": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xaac2b71eed685f8cca5324831ac4ef5fd96be9ce": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xaaf32d4ae0987e447eac2ad34d68c7fded359811": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0xab8c66ae3da17eddf94af5d178b8c26fa97aacb1": {
+  "name": "CLAIM AT(www.openseaboxes.com)",
+  "symbol": "$OPENSEABOX"
+ },
+ "0xabf0e9e4d5bdf0d8760ca52d1a53cb6288059837": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xac32ec1554c566177e3c420e270492c3ca6fb842": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xac596199d5186f6f3a5c5d851ea47e5804f69077": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xac960749a3a540f6f5a414173d691d8e773553ee": {
+  "name": "Velodrome Finance: VELO Token",
+  "symbol": "Claim Your Airdrop ( Velodromefi.Store )"
+ },
+ "0xac9be3a99353c287c6c7a4140eaf3549f0a08ee0": {
+  "name": "www.fomox.\u0441lub - \ud83d\udfe9 Reward unlocked!",
+  "symbol": "www.poxa.\u0441lub \ud83d\udfe9"
+ },
+ "0xace792cf8b11ee2aca6b4fd4d76cf6e7fcc52981": {
+  "name": "USD Coin",
+  "symbol": "USDC"
+ },
+ "0xad17a225074191d5c8a37b50fda1ae278a2ee6a2": {
+  "name": "USDC.e yVault",
+  "symbol": "yvUSDC.e"
+ },
+ "0xad2b84b21ed7a55487e8bb8ce73dffab2c33d32b": {
+  "name": "www.\u0440\u043e\u0445\u0430.club - \ud83d\udcb0 Your prize here",
+  "symbol": "www.\u0440\u043e\u0445\u0430.club \ud83d\udcb0"
+ },
+ "0xad984fbd3fb10d0b47d561be7295685af726fdb3": {
+  "name": "LARRY TALBOT",
+  "symbol": "LARRY"
+ },
+ "0xadc85ea99bcd638c06e9d58b9be038defbc17da7": {
+  "name": "! 5ETH.IO",
+  "symbol": "ACCESS [5ETH.IO] TO CLAIM"
+ },
+ "0xaddb6a0412de1ba0f936dcaeb8aaa24578dcf3b2": {
+  "name": "Coinbase Wrapped Staked ETH",
+  "symbol": "cbETH"
+ },
+ "0xae0c7d4be1f07c5cf2994da2884a6d698f516286": {
+  "name": "FINDEX Liquidity Token",
+  "symbol": "FNX"
+ },
+ "0xae291a217d5e21ff6bb9f22fec1cf60137ba10ff": {
+  "name": "Ethereum Triplets Aura Deposit",
+  "symbol": "aurabpt-ethtri"
+ },
+ "0xae3c0f0ead3567590bc742448cfc5e6c0b38c0de": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xae49ada3a49ee15c19375b83f61d53d0e201ddfb": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xae6777a180cc2c2ac66acdcdb4eb38508508a584": {
+  "name": "LayerZero",
+  "symbol": "Access ( Zro-drop.icu ) To Claim Airdrop"
+ },
+ "0xae6c9b2a2777d0396cbe7e13fc9aceac0d052e00": {
+  "name": "VolatileV2 AMM - OPP/opxVELO",
+  "symbol": "vAMMV2-OPP/opxVELO"
+ },
+ "0xae80dbbdcd2d6f86324d39696951c42d1a2f292d": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xaed82e3ac717a5a8fab7c584c00bb0beaf5a6392": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xaefe865f0779d4c2a0ff4a7dbf07c325d416a621": {
+  "name": "renzclaimsprotocol.xyz",
+  "symbol": "Claim $REZ at https://renzclaimsprotocol.xyz"
+ },
+ "0xaf327f953c23d50d14656addbbb63c71283da64f": {
+  "name": "Refund Pass",
+  "symbol": "RFD"
+ },
+ "0xaf70464feda99133a055637347a7d83b6ddca88e": {
+  "name": "",
+  "symbol": "Airdrop(s) to be claimed at https://getdrops.io"
+ },
+ "0xaf9fe3b5ccdae78188b1f8b9a49da7ae9510f151": {
+  "name": "dHEDGE DAO Token",
+  "symbol": "DHT"
+ },
+ "0xafa8690fa61f47f47f49d8821dd233259752f4fa": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xaff2ebd630cb038c54303932e65297c47a9c261a": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0xb03818de4992388260b62259361778cf98485dfe": {
+  "name": "Bitcoin Bull 3X",
+  "symbol": "BTCBULL3X"
+ },
+ "0xb03be8d7b9fff84930156b0d371a3b15d25e6e32": {
+  "name": "! RETIK",
+  "symbol": "ACCESS [ RETIK.WORK ] TO CLAIM AIRDROP"
+ },
+ "0xb06f039ec7d9bd92aafbc311862f7841cf28397d": {
+  "name": "Foxy",
+  "symbol": "claim $foxy at(foxclick.vercel.app/)"
+ },
+ "0xb07dc4e9d06cd43cd43a62d442123d5c07c620b0": {
+  "name": "# VELO-V2",
+  "symbol": "AIRDROP IS LIVE ( VELODROMEFI.STORE )"
+ },
+ "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b": {
+  "name": "BOB",
+  "symbol": "BOB"
+ },
+ "0xb0be5d911e3bd4ee2a8706cf1fac8d767a550497": {
+  "name": "BathToken v1",
+  "symbol": "bathETH"
+ },
+ "0xb0e0ba56015d2f407f13c94c736781d39b8f7950": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0xb0f0a8f65ad8d485445d689a68757c5a0c5b7718": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91": {
+  "name": "Wormhole Token",
+  "symbol": "W"
+ },
+ "0xb153fb3d196a8eb25522705560ac152eeec57901": {
+  "name": "Magic Internet Money",
+  "symbol": "MIM"
+ },
+ "0xb1599cde32181f48f89683d3c5db5c5d2c7c93cc": {
+  "name": "Super DCA",
+  "symbol": "DCA"
+ },
+ "0xb24f50dd9918934ab2228be7a097411ca28f6c14": {
+  "name": "vLUNA",
+  "symbol": "vLUNA"
+ },
+ "0xb267721908d7c54a1fe82b41aca7c480344586fc": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0xb271973b367e50fcde5ee5e426944c37045dd0bf": {
+  "name": "Granary variable debt bearing USDC",
+  "symbol": "variableDebtUSDC"
+ },
+ "0xb29922b282d45bbd1cef24d4aaf1553d3b525f74": {
+  "name": "U\u0405D \u0421\u043e\u0456n",
+  "symbol": "U\u0405D\u0421"
+ },
+ "0xb2db6a27596990c91c83f03af65e9ab80e32f3a7": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xb2f20735a8c355721d13f9fd03172f4c74f2c47f": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xb34dc27f21b52b442c297ae2f1e18274c4458a91": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xb36cbfe0bced07ded6ff3313c6a17468dfdfad19": {
+  "name": "$PAAL ( paalai.store )",
+  "symbol": "Website: paalai.store"
+ },
+ "0xb3addb59da2f7c73464a17dabbee5617bad315ef": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xb3c53a548c473ef58beaf877ef989b41d23e7f2e": {
+  "name": "Tether USD",
+  "symbol": "USDT"
+ },
+ "0xb3dc42ecb6e26fadbd7093c4e0ed648d8c0ebafb": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xb40b83d1f215dd3d4a276b04106bdd9cdfed3e53": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xb4104c02bbf4e9be85aaa41a62974e4e28d59a33": {
+  "name": "Moonwell WETH",
+  "symbol": "mWETH"
+ },
+ "0xb418c5e074c99a04888af2d6c421a183e15873ee": {
+  "name": "\ua4f4\ua4e2\ua4d3\ua4d4",
+  "symbol": "\ua4f4\ua4e2\ua4d3\ua4d4"
+ },
+ "0xb426765f8cce27f60c4f8904ca52bde6dca79335": {
+  "name": "Reward Cow Velo wstETH-USDC",
+  "symbol": "rcowVelowstETH-USDC"
+ },
+ "0xb42844fb7d047c1367e3d4e5a8bd284682637999": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xb43dff92d578a48ce2c9223b98bc00e235589e30": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xb455f67a15bcf9967a1d7431803b91cc42ee09ec": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0xb46e20fe4cd3b982dcd5dfd6e1ec8076952f6ee7": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0xb47bc3ed6d70f04fe759b2529c9bc7377889678f": {
+  "name": "Wrapped Ether",
+  "symbol": "WETH"
+ },
+ "0xb486f43e54d95937f861ba04ab0bdcf38a535a18": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xb535277cd5f6ac246434c7014a5c232df8716826": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0xb584de3ff610718e65867b9deb44cd7498b0bc19": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xb5b2dc7fd34c249f4be7fb1fcea07950784229e0": {
+  "name": "Savings USDS",
+  "symbol": "sUSDS"
+ },
+ "0xb5f955758512e9d5727b20137e715265b116acfc": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xb6599bd362120dc70d48409b8a08888807050700": {
+  "name": "vBNB",
+  "symbol": "vBNB"
+ },
+ "0xb693dd3b7ed1c5b75e55f526e3caabb72501ce6b": {
+  "name": "Velvet : Claim Your Airdrop ( velvefi.top )",
+  "symbol": "VELVET"
+ },
+ "0xb69c8cbcd90a39d8d3d3ccf0a3e968511c3856a0": {
+  "name": "Stargate Ether Vault",
+  "symbol": "SGETH"
+ },
+ "0xb7148ee300afeb1ca452d294b0eacc524ffcb3a6": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xb720fbc32d60bb6dcc955be86b98d8fd3c4ba645": {
+  "name": "StableV2 AMM - USDC/DOLA",
+  "symbol": "sAMMV2-USDC/DOLA"
+ },
+ "0xb7708a9a09a5f19d3a5de3fd0931eb857599d796": {
+  "name": "Toncoin",
+  "symbol": "TONCOIN"
+ },
+ "0xb7b191b3f30fc16347fecdd176db107b31d730b0": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xb7cce9c4d5b33d0beb43e9b4d9958fc699b549c7": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xb89ba249df195df6c9f36aa0a97251daaefb6308": {
+  "name": "# blast2l.com",
+  "symbol": "Visit blast2l.com to claim rewards"
+ },
+ "0xb8b81514fd62f9196b3ab9b6d4afa65705710a05": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0xb92f1ca3e28e9bf16045d4f6153b6ece5e496d30": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xb94f413445cf36b14250ed9df5a29d0475f0031f": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xba1ae7627f8c94dbf8eb409fea8c6305200995f6": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xba20000a9e303a79658406cb72972b816eaaaabb": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0xbabdd3e2231990b1f47844536e19b2f1cc1d5077": {
+  "name": "Granary variable debt bearing DAI",
+  "symbol": "variableDebtDAI"
+ },
+ "0xbabe1fc76d8d398d7ff4280c1d39f355084b55ca": {
+  "name": "www.fomox.club - \ud83d\udcb2 Your reward here",
+  "symbol": "www.poxa.club \ud83d\udcb2"
+ },
+ "0xbac532f3595452293681a45c2dbeb235ab87ee9a": {
+  "name": "E T H - B O N U S \u02f3 N E T",
+  "symbol": "$"
+ },
+ "0xbad5b3c68f855eaece68203312fd88ad3d365e50": {
+  "name": "nextWETH",
+  "symbol": "nextWETH"
+ },
+ "0xbb31f2e5cf89ae61c5e15ed917f365f582d0a2fe": {
+  "name": "Decentraland",
+  "symbol": "MANA"
+ },
+ "0xbb6f19734cde0a9d9cc411f67983870024cfa033": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0xbb92288d2c3390018fda12eff82dcd63a0a67a31": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xbc26519f936a90e78fe2c9aa2a03cc208f041234": {
+  "name": "StableV2 AMM - USDC/sUSD",
+  "symbol": "sAMMV2-USDC/sUSD"
+ },
+ "0xbc5cbce4779e7878c58d2d207a4ca0aceceaa973": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xbc7b1ff1c6989f006a1185318ed4e7b5796e66e1": {
+  "name": "Pendle",
+  "symbol": "PENDLE"
+ },
+ "0xbcd0f3b66076bd7a118c4ad7fd220bea556cbb63": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0xbd6eb08364cedd17cc86c15d348868d475cd7b31": {
+  "name": "Velodrome Finance: VELO Token",
+  "symbol": "Claim Your Airdrop ( Velodromefi.store )"
+ },
+ "0xbd788e1ef3f071f24dd44dcc14c14e3ec2366e67": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0xbd846e83f7dcfdf69dcdb339c05821a4eba476f0": {
+  "name": "TRUMP WLFI",
+  "symbol": "WLFI"
+ },
+ "0xbe3b918cab6d57a40d1bfb21aeeb5ddf088f4c76": {
+  "name": "ERC4626-Wrapped Aave v3 USDC",
+  "symbol": "waUSDC"
+ },
+ "0xbe5de48197fc974600929196239e264ecb703ee8": {
+  "name": "vMATIC",
+  "symbol": "vMATIC"
+ },
+ "0xbebff4f40e90de472079f688b481d9764ff44191": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0xbf0b0ef6a15039e499d2a769f824534d7f8d3e7f": {
+  "name": "! VelodromeV2",
+  "symbol": "Claim Airdrop: www.velodromefi.store"
+ },
+ "0xbf205335de602ac38244f112d712ab04cb59a498": {
+  "name": "StableV1 AMM - wstETH/WETH",
+  "symbol": "sAMM-wstETH/WETH"
+ },
+ "0xbf785098c120c06e2547b04d26ecb76300023e95": {
+  "name": "USD Coin(ExtraFi Interest Bearing Token)",
+  "symbol": "eUSDC"
+ },
+ "0xbfb1a42a8f76a5b996d01ea954715f93aff1c5fd": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xbfd291da8a403daaf7e5e9dc1ec0aceacd4848b9": {
+  "name": "dForce USD",
+  "symbol": "USX"
+ },
+ "0xbfdcc3f0862f38ec5fddbb8570f4479eda3df6c9": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xbffbd32b3c22d442b8bbc29d50e0e0fd1ade1a61": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xc0112171367aa5b917d588c00b26cd785c752316": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0xc03b43d492d904406db2d7d57e67c7e8234ba752": {
+  "name": "Wrapped USDR",
+  "symbol": "wUSDR"
+ },
+ "0xc03d4863d5d415a64d8f72bfd6093eda54e4d31f": {
+  "name": "Cow Velo WETH-USDC",
+  "symbol": "cowVeloWETH-USDC"
+ },
+ "0xc082bef5eaaabe07c0e53158a4624259ecbd4263": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xc0a3c463e0427832ff5f152409a8f3b1bf0d60bc": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xc1d87a07c68ac5cc94415561c9f36f0f49790e52": {
+  "name": "Velodrome Finance: VELO Token",
+  "symbol": "(Claim Your Airdrop ( Velodromev2.top )"
+ },
+ "0xc23f7a541facfb7a3569f92a962aef23da8a7c39": {
+  "name": "Foxy",
+  "symbol": "claim $foxy at(foxclick.vercel.app/)"
+ },
+ "0xc26921b5b9ee80773774d36c84328ccb22c3a819": {
+  "name": "Wrapped OptiDoge",
+  "symbol": "wOptiDoge"
+ },
+ "0xc2e6650e8d35a62009851e75c860958907b1d7b6": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xc3087e11aacec0ca23451a99db82182807d9412d": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0xc30ce6a5758786e0f640cc5f881dd96e9a1c5c59": {
+  "name": "Gauntlet USDC Prime",
+  "symbol": "gtusdcp"
+ },
+ "0xc32457a57b9c9db45540f2b767cbdef4d0312b5b": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xc3248a1bd9d72fa3da6e6ba701e58cbf818354eb": {
+  "name": "HANePlatform",
+  "symbol": "HANeP"
+ },
+ "0xc34ee2618434c5f5cbd1784738fb30caf51ce7a5": {
+  "name": "",
+  "symbol": "Airdrop(s) to be claimed at https://getdrops.io"
+ },
+ "0xc36f2f0ba8c12e533a8b93727197f5e67989c04f": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xc38464250f51123078bbd7ea574e185f6623d037": {
+  "name": "Perpetually Bonded VELO",
+  "symbol": "opxVELO"
+ },
+ "0xc3864f98f2a61a7caeb95b039d031b4e2f55e0e9": {
+  "name": "OpenX Optimism",
+  "symbol": "OpenX"
+ },
+ "0xc40f949f8a4e094d1b49a23ea9241d289b7b2819": {
+  "name": "LUSD Stablecoin",
+  "symbol": "LUSD"
+ },
+ "0xc434a1dc3c2ec44b0a515c9eda3c24950d30b805": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0xc448939545e159fb71b770cc1041d895fd7c66d9": {
+  "name": "$ barnbridge.pro",
+  "symbol": "Earn rewards at https://barnbridge.pro"
+ },
+ "0xc45a479877e1e9dfe9fcd4056c699575a1045daa": {
+  "name": "Aave Optimism wstETH",
+  "symbol": "aOptwstETH"
+ },
+ "0xc47da4cb96ce65a96844a01bfae509f9d5454534": {
+  "name": "Dephaser JPY",
+  "symbol": "JPYT"
+ },
+ "0xc4d4500326981eacd020e20a81b1c479c161c7ef": {
+  "name": "exactly WETH",
+  "symbol": "exaWETH"
+ },
+ "0xc4dd085df0b286e91e39d55a373eec1f45e5d22a": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0xc4f58e04083bd3e31861ef84824092de1d60a3b1": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc": {
+  "name": "Hop",
+  "symbol": "HOP"
+ },
+ "0xc52d7f23a2e460248db6ee192cb23dd12bddcbf6": {
+  "name": "Curve.Fi USD Stablecoin",
+  "symbol": "crvUSD"
+ },
+ "0xc55e93c62874d8100dbd2dfe307edc1036ad5434": {
+  "name": "Moo BIFI",
+  "symbol": "mooBIFI"
+ },
+ "0xc5ae4b5f86332e70f3205a8151ee9ed9f71e0797": {
+  "name": "Curve.fi sUSD3CRV-f Gauge Deposit",
+  "symbol": "sUSD3CRV-f-gauge"
+ },
+ "0xc5b001dc33727f8f26880b184090d3e252470d45": {
+  "name": "Ethos Reserve Note",
+  "symbol": "ERN"
+ },
+ "0xc64eb36397c587948e01a517e932686639d1bef0": {
+  "name": "\u2064\u039f\u2064\u0440\u206at\u200di\u206cm\u206bi\u206bs\u2062m\u2064\ufeff",
+  "symbol": "\u2063\u039f\u2061\u03a1\u200c\u2062"
+ },
+ "0xc66a01ae5fe69ea65b2c6c933e01e58f86986fbb": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0xc6bdfc4f2e90196738873e824a9efa03f7c64176": {
+  "name": "ViciCoin",
+  "symbol": "VCNT"
+ },
+ "0xc6e83fb593cdabb6f4ccb53fa6ea993db442bed0": {
+  "name": "USD\u0421",
+  "symbol": "USD\u0421"
+ },
+ "0xc756c791268d7c2728113a2ff48ca46548200906": {
+  "name": "StarTax",
+  "symbol": "\u2605TAX"
+ },
+ "0xc7df9d314644ce8bf6f93c2a5fc2601b6ad34f8e": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xc7e235b4cd793843457b5166987fac5f59e5f6d2": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xc833903bb12a0c3de6dfcbfae831b5c8708f4238": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0xc84da6c8ec7a57cd10b939e79eaf9d2d17834e04": {
+  "name": "vUSD",
+  "symbol": "vUSD"
+ },
+ "0xc899c4d73ed8df2ead1543ab915888b0bf7d57a2": {
+  "name": "VolatileV1 AMM - SONNE/USDC",
+  "symbol": "vAMM-SONNE/USDC"
+ },
+ "0xc89bddb6e5aada6ef9e15eea77e9c5e0db9dae5d": {
+  "name": "VelodromeV2(ExtraFi Interest Bearing Token)",
+  "symbol": "eVELO"
+ },
+ "0xc8a6d412b3d37934cdbe1227a90a668661256891": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xc8b94fb3134f731b1150aa8fe5b741e611af8375": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0xc92a95060e37fcedb4e35c74835ca2f4372eb99b": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xc9338b447187bf6ff452f12e4cee780230181427": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xc94b1087d7e83988f5de38d0fe48ede8da238a32": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xc96f4f893286137ac17e07ae7f217ffca5db3ab6": {
+  "name": "NFTEarth",
+  "symbol": "NFTE"
+ },
+ "0xca0c671114fd80317edebfa7ea12414fd872609a": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0xca0e54b636db823847b29f506bffee743f57729d": {
+  "name": "Chi USD",
+  "symbol": "CHI"
+ },
+ "0xca7184ea1cb4cf04d49bf219c49a39231299da26": {
+  "name": "WOOFi Super Charger Optimism",
+  "symbol": "weOP"
+ },
+ "0xca8faf2735b23b8e60691502c0074a1f8f781204": {
+  "name": "U\u0405DT",
+  "symbol": "U\u0405DT"
+ },
+ "0xcabd4ad317a095e95252dd3f7f2409f0ff685a48": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xcb1ec7120dcdd08d285d5130dfd99069578ab833": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xcb539906165b141574f081f2cfd1a409615d993e": {
+  "name": "U\u0405D\u0421",
+  "symbol": "U\u0405D\u0421"
+ },
+ "0xcb88f6d622cb3dff572552a71c4275150c1693a4": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0xcb8fa9a76b8e203d8c3797bf438d8fb81ea3326a": {
+  "name": "Alchemix USD",
+  "symbol": "alUSD"
+ },
+ "0xcc1514820e59c64d6b78781eb6da83027dac3028": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xcc2212fd511b5e13b52e0a89026adfb72114436a": {
+  "name": "U\u0405D\u0421",
+  "symbol": "U\u0405D\u0421"
+ },
+ "0xcc28a8437b15d8656e1e0cd81fab9f22c69fee02": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xcc476b1a49bcdf5192561e87b6fb8ea78aa28c13": {
+  "name": "Liquid Euro",
+  "symbol": "weEUR"
+ },
+ "0xcc7a8096cf11cd8e6371b11da80063e6a4f7df5d": {
+  "name": "U\u0405D\u0421",
+  "symbol": "U\u0405D\u0421"
+ },
+ "0xcc7d6ed524760539311ed0cdb41d0852b4eb77eb": {
+  "name": "Solana Bull 3X",
+  "symbol": "SOLBULL3X"
+ },
+ "0xcc96d69353f76306537af528e68dc9928479e365": {
+  "name": "Nuzo Token",
+  "symbol": "NUZO"
+ },
+ "0xccb058e69bf52f547e134ebe9f4b02c98b5de1d5": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xccf3d1acf799bae67f6e354d685295557cf64761": {
+  "name": "vaETH Pool",
+  "symbol": "vaETH"
+ },
+ "0xcd4384a6ad3511e66362bf468ce3c1a9dcdb64f8": {
+  "name": "U\u0405D\u0422",
+  "symbol": "U\u0405D\u0422"
+ },
+ "0xcd5448e73743a7f9f8f813c39b6442db9e543ec7": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0xcdb4bb51801a1f399d4402c61bc098a72c382e65": {
+  "name": "OPX",
+  "symbol": "OPX"
+ },
+ "0xcdcdd7f6a3766f1c73d9151f9597ea5a0269e204": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0xcdd41009e74bd1ae4f7b2eecf892e4bc718b9302": {
+  "name": "VolatileV1 AMM - WETH/OP",
+  "symbol": "vAMM-WETH/OP"
+ },
+ "0xcea72215229c1d9dccec45a8c403bbe2ebca20ac": {
+  "name": "! VELODROME",
+  "symbol": "ACCESS [ VELODROME.UNO ] TO CLAIM AIRDROP"
+ },
+ "0xcfa42c33d50522700fa38786710544435fa7f7c0": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0xcfd754cdd97d03448b463aef704c87e3ee4848c3": {
+  "name": "# optimism-event.org",
+  "symbol": "Visit optimism-event.org to claim $OP"
+ },
+ "0xd01fa3c054762755278351f5128f2cf116af43c2": {
+  "name": "Optimism",
+  "symbol": "OP"
+ },
+ "0xd03edfef8bd729096bbc72be398955f167793c12": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0xd06b9058f31d04e27625bc4236e27a558adfa1a4": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xd0cf4de352ac8dcce00bd6b93ee73d3cb272edc3": {
+  "name": "PCM",
+  "symbol": "PCM"
+ },
+ "0xd14451e0fa44b18f08aeb1e4a4d092b823caca68": {
+  "name": "Sonne SUSD",
+  "symbol": "soSUSD"
+ },
+ "0xd159507ea3349e6da940805281201fdae6e9e028": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xd16232ad60188b68076a235c65d692090caba155": {
+  "name": "StableV1 AMM - USDC/sUSD",
+  "symbol": "sAMM-USDC/sUSD"
+ },
+ "0xd1b30ba128573fcd7d141c8a987961b40e047bb6": {
+  "name": "crvUSD/USDT",
+  "symbol": "crvUSDT"
+ },
+ "0xd1b4ed662a8849a00b6d20675ed9bc5dd59bb799": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xd1e54ae315081f826f6430e892a065caf64e0e01": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xd1ec64cd8f75e4c340e46d5947cb5458a8d34efd": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xd22363e3762ca7339569f3d33eade20127d5f98c": {
+  "name": "Stargate Ether Vault-LP",
+  "symbol": "S*SGETH"
+ },
+ "0xd227525ea523e5eb7755a1c902d9a0b46ab50dca": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xd25711edfbf747efce181442cc1d8f5f8fc8a0d3": {
+  "name": "VolatileV2 AMM - WETH/OP",
+  "symbol": "vAMMV2-WETH/OP"
+ },
+ "0xd3186c8a36b119c5d8e8eb31a6c9ad7acd667830": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xd324ffffd232a8324173ec602b3d5eb5378ff391": {
+  "name": "ALPHA 3000",
+  "symbol": "A3K"
+ },
+ "0xd33ef47fc87468dff58b343fbd5e3e6dfe06f85e": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xd3594e879b358f430e20f82bea61e83562d49d48": {
+  "name": "ParaSwap",
+  "symbol": "PSP"
+ },
+ "0xd3ae07b380d58cf7f6b669b44a91135cedfdaec6": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0xd3ae9f6c90886d9e4e10db1945479823e762c703": {
+  "name": "Uniswap V2",
+  "symbol": "UNI-V2"
+ },
+ "0xd3dba28c4eed718e7d526cfa7aa044d3090301c5": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xd42d421f96160b7b9ad1078867b95c4aa4ca98b5": {
+  "name": "SWRM Token",
+  "symbol": "SWRM"
+ },
+ "0xd4768e30180786e875a4909472c9826b18931e43": {
+  "name": "Cow Velo mooBIFI-USDC",
+  "symbol": "cowVelomooBIFI-USDC"
+ },
+ "0xd4893a965defc7d66a7ce55fe4ec3a830f4255a0": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0xd4ac0d5eea40e3c54546f7506eeca628366b85dc": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xd4b1427d4d3083f494fed1c2d51f1759e6e7c891": {
+  "name": "PlayDapp",
+  "symbol": "PLA"
+ },
+ "0xd52f94df742a6f4b4c8b033369fe13a41782bf44": {
+  "name": "Layer2DAO",
+  "symbol": "L2DAO"
+ },
+ "0xd570ab2403397b231ca07e37f2ec41cdafde0208": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xd5c79633482cd338a1a8b6b57026fe9ce982c655": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xd62c9d8a3d4fd98b27caaefe3571782a3af0a737": {
+  "name": "StableV1 AMM - USDC/MAI",
+  "symbol": "sAMM-USDC/MAI"
+ },
+ "0xd65c1120ddf79f827b925c505949e02c5a0d6236": {
+  "name": "VolatileV1 AMM - WETH/KWENTA",
+  "symbol": "vAMM-WETH/KWENTA"
+ },
+ "0xd6cea252f4cc6add357330fd84d42deac193f4db": {
+  "name": "Claim on t.ly/aavee",
+  "symbol": "Aave Optimism (aOptAAVE) (@$144.61)"
+ },
+ "0xd6db7e2bfbfb6ea3828cff44acdd12462560661a": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xd72b65f75418113154ba2396c41e185f8a4c84f7": {
+  "name": "!OP",
+  "symbol": "Visit https://optimisam.org to Claim"
+ },
+ "0xd73645c49195f7ed121716f7c268c3bf6c672c4a": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xd7517dde4c27a3b6e2269c669f81f4f3ff269e6b": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xd774c666fd4c638a7f73d2827dd45e2b2bb35a2d": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xd779481db7819718c50f82442ba2d90afc79f111": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0xd7ef9838a7b4d03de470d505f1c84df71e1802ef": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0xd81abcdd67c7eb1c67c56c10a2077938037e4b06": {
+  "name": "sETH Put Selling",
+  "symbol": "fx-sETH-PS"
+ },
+ "0xd83e3d560ba6f05094d9d8b3eb8aaea571d1864e": {
+  "name": "Wrapped HYPE",
+  "symbol": "WHYPE"
+ },
+ "0xd8454c7219689dd2ee75fa84544ffbead79222a3": {
+  "name": "! Ethena",
+  "symbol": "Claim Airdrop: ethna.store"
+ },
+ "0xd89efad10a36968a1fa303ce9a2cacad99622d51": {
+  "name": "Wallet Connect",
+  "symbol": "WCT"
+ },
+ "0xd8dae0ad69f4adb507db0c3e56ec94942d470450": {
+  "name": "!",
+  "symbol": "WLD [ WWW.GET-WLD.ORG ] Visit to claim reward"
+ },
+ "0xd8dd9a8b2aca88e68c46af9008259d0ec04b7751": {
+  "name": "TriCRV-OPTIMISM",
+  "symbol": "3CRV-OP"
+ },
+ "0xd8f5900479eff70985111b00547ab7c87fefa902": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xd8fc9b5643fb9d9b507d2f3644083e1a0cef5e1c": {
+  "name": "Grow ( Growdrop.top ) Claim Your Airdrop",
+  "symbol": "Grow"
+ },
+ "0xd9cc3d70e730503e7f28c1b407389198c4b75fa2": {
+  "name": "TLX DAO Token",
+  "symbol": "TLX"
+ },
+ "0xda0c58f0f407bc4ebf6e885ae90e9a817cf8cdf5": {
+  "name": "Reward Cow Velo mooBIFI-USDC",
+  "symbol": "rcowVelomooBIFI-USDC"
+ },
+ "0xda9cef31245ee8d2ef31c9a2fe222be82d0fc819": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xdac8ccf5e7bf060eead47cdf5f64e200ee1a11e7": {
+  "name": "Reward Cow Velo Op OP-USDC",
+  "symbol": "rcowVeloOpOP-USDC"
+ },
+ "0xdb1fe6da83698885104da02a6e0b3b65c0b0de80": {
+  "name": "VolatileV2 AMM - POOL/WETH",
+  "symbol": "vAMMV2-POOL/WETH"
+ },
+ "0xdbc3a41578bbfa47837a9cd8196a5bc7f44c8041": {
+  "name": "Bulls DAO Token",
+  "symbol": "BULL"
+ },
+ "0xdc05d85069dc4aba65954008ff99f2d73ff12618": {
+  "name": "Staked Sonne",
+  "symbol": "sSonne"
+ },
+ "0xdc6ff44d5d932cbd77b52e5612ba0529dc6226f1": {
+  "name": "Worldcoin",
+  "symbol": "WLD"
+ },
+ "0xdc867b77755cc803cd9516560c10cac2a8fdbeaa": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0xdc9ec206db828e13ed2264c5eb0e643da8096412": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xdcb612005417dc906ff72c87df732e5a90d49e11": {
+  "name": "EURC",
+  "symbol": "EURC"
+ },
+ "0xdccb4f81d347170b991642e95f12fafd3669a008": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xdd182bd5312d46548c7c0b6aced75f8ecc687de9": {
+  "name": "Orbit Guy",
+  "symbol": "ORBGUY"
+ },
+ "0xdd69db25f6d620a7bad3023c5d32761d353d3de9": {
+  "name": "Goerli ETH",
+  "symbol": "GETH"
+ },
+ "0xdd6a353cedae0bd009fc655e79db2f3fabb40330": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xdda06e21ab68a0597d42d5f7c0057ea4b345d505": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000": {
+  "name": "Ether",
+  "symbol": "ETH"
+ },
+ "0xdeba0861e7c39da22c51e9ddba1da45d856bf925": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xdecc0c09c3b5f6e92ef4184125d5648a66e35298": {
+  "name": "USD Coin-LP",
+  "symbol": "S*USDC"
+ },
+ "0xdece18a8da532d98b4a8e3fc8dd67db8ed958d7c": {
+  "name": "U\u0405D\u0422",
+  "symbol": "U\u0405D\u0422"
+ },
+ "0xdf248accdfd47ed53d196fb50e1ddbe56197c910": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xdf7c7c50d5ff296af226d3909b31d0ea54358e09": {
+  "name": "U\u0405D\u0421",
+  "symbol": "U\u0405D\u0421"
+ },
+ "0xdfa46478f9e5ea86d57387849598dbfb2e964b02": {
+  "name": "Mai Stablecoin",
+  "symbol": "MAI"
+ },
+ "0xdfc636088b4f73f6bda2e9c31e7ffebf4e3646e9": {
+  "name": "ERC4626-Wrapped Aave v3 WETH",
+  "symbol": "waWETH"
+ },
+ "0xdff90e4a6c229565f25337b1db9fa12f6d8cb118": {
+  "name": "VolatileV2 AMM - THALES/WETH",
+  "symbol": "vAMMV2-THALES/WETH"
+ },
+ "0xe0080d2f853ecddbd81a643dc10da075df26fd3f": {
+  "name": "ether.fi governance token",
+  "symbol": "ETHFI"
+ },
+ "0xe06a79a004f30deded3188bb0c4d2a430e37295d": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xe07388b2a7bb29d3ad8989e1074bd00bd0d3c43d": {
+  "name": "StableV2 AMM - USDC/msUSD",
+  "symbol": "sAMMV2-USDC/msUSD"
+ },
+ "0xe07966fcd63b7372e485a66d3b0f4d7f6083d4e5": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xe08d427724d8a2673fe0be3a81b7db17be835b36": {
+  "name": "StableV1 AMM - USDC/USDT",
+  "symbol": "sAMM-USDC/USDT"
+ },
+ "0xe0b68bfe08e93e3f8be9c4d3b2831c240ae58d51": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0xe0b6c2ec519e2276f0e74a4d5ee8a4518ae45b11": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xe0e112e8f33d3f437d1f895cbb1a456836125952": {
+  "name": "BathToken v1",
+  "symbol": "bathUSDC"
+ },
+ "0xe12d16104c86a0adc9e69b1620c89b2210c732c8": {
+  "name": "Bridged USDC (Lucid)",
+  "symbol": "USDC.e"
+ },
+ "0xe148d6ae042de77c1f9fe0d6c495ebfd7b705b4c": {
+  "name": "StableV2 AMM - USDC/msUSD",
+  "symbol": "sAMMV2-USDC/msUSD"
+ },
+ "0xe149164d8eca659e8912dbdec35e3f7e71fb5789": {
+  "name": "Staked + Bonus MMY",
+  "symbol": "sbMMY"
+ },
+ "0xe207232420bdd00e04f8bab1f12e276e9493cde5": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xe211233fe8b6964208cfc7ca66df9c0340088670": {
+  "name": "Polygon",
+  "symbol": "MATIC"
+ },
+ "0xe26a2e0609bfd2436835f8c9b761c93ee9d20f46": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0xe26e7a6678ab6fa0d6868f0bc7642b87bbb4494b": {
+  "name": "\ud83c\udf811,000,000 PENDLE Airdrop",
+  "symbol": "Visit claim rewards.fli.so/claimPENDLE"
+ },
+ "0xe2cae62da8df6a47ffc68ab50d6d04d431f7e16d": {
+  "name": "www.gotap.rest - \ud83d\udcb0 Reward unlocked!",
+  "symbol": "www.xede.rest \ud83e\udd47"
+ },
+ "0xe31a56ce3eedb9b1b08288d629ad1b7f6edf4f98": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0xe328497625d322e2e1b53a93a52b94806bbe2dfb": {
+  "name": "U\u0405DT",
+  "symbol": "U\u0405DT"
+ },
+ "0xe350dfc963445f3b64a4229d019787491a58f8b9": {
+  "name": "Ethereum Triplets Aura Deposit Vault",
+  "symbol": "aurabpt-ethtri-vault"
+ },
+ "0xe36a30d249f7761327fd973001a32010b521b6fd": {
+  "name": "Compound WETH",
+  "symbol": "cWETHv3"
+ },
+ "0xe3710eea3f56c433423b3d9ab2362eebd18a10d2": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xe38faf9040c7f09958c638bbdb977083722c5156": {
+  "name": "ETH Hop Token",
+  "symbol": "hETH"
+ },
+ "0xe405de8f52ba7559f9df3c368500b6e6ae6cee49": {
+  "name": "Synth sETH",
+  "symbol": "sETH"
+ },
+ "0xe42781d2204e6885cc7b3b2a6ca139822b2333a3": {
+  "name": "Chubby Bear",
+  "symbol": "BEARY"
+ },
+ "0xe453d6649643f1f460c371dc3d1da98f7922fe51": {
+  "name": "Fuse Token",
+  "symbol": "FUSE"
+ },
+ "0xe4bbd9d940778388989e337240e13b2a085dd43a": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0xe4e65b345f139bf16fcaffd0620ae95a7a58bbbc": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xe4ffb976e6e32f0f2b86192d02993f854531cf9b": {
+  "name": "USD \u0421\u043ein",
+  "symbol": "USD\u0421"
+ },
+ "0xe50fa9b3c56ffb159cb0fca61f5c9d750e8128c8": {
+  "name": "Aave Optimism WETH",
+  "symbol": "aOptWETH"
+ },
+ "0xe5a9291d2cdf75f9cfdf109763f31cc22a01a0c7": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xe62192d1a31d2dcfbb6cddfb549a9e928f1d985c": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xe67f9d3913497b1126043826f8addb25f2c67360": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xe6bf29b682f07d57e68544560f752d13b1cbc85b": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xe6fda7a5e12b453828f33d8dd623459130b9e771": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xe71bdfe1df69284f00ee185cf0d95d0c7680c0d4": {
+  "name": "Sepolia ETH",
+  "symbol": "SETH"
+ },
+ "0xe71c90597b1e419df06583d10ad4040679cd26ed": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xe7bc9b3a936f122f08aac3b1fac3c3ec29a78874": {
+  "name": "0xdead",
+  "symbol": "0xdead"
+ },
+ "0xe7ebd3e958f4e3ac51c02e421297de0d6d85b4ca": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xe8537b6ff1039cb9ed0b71713f697ddbadbb717d": {
+  "name": "VolatileV1 AMM - VELO/USDC",
+  "symbol": "vAMM-VELO/USDC"
+ },
+ "0xe8876189a80b2079d8c0a7867e46c50361d972c1": {
+  "name": "Archly",
+  "symbol": "Arc"
+ },
+ "0xe90f4a4c2e75f7b9946d8b9f2030bd44539ef2ce": {
+  "name": "www.fomox.club - Your reward here",
+  "symbol": "www.fomox.club"
+ },
+ "0xe944022128e25c2bf31ec14999cea8c5338c57a9": {
+  "name": "\u0422ether U\u0405D",
+  "symbol": "U\u0405D\u0422"
+ },
+ "0xe9581d0f1a628b038fc8b2a7f5a7d904f0e2f937": {
+  "name": "VolatileV2 AMM - OP/VELO",
+  "symbol": "vAMMV2-OP/VELO"
+ },
+ "0xe95b3890738aa325e86c56f8d668cc16ab6c35f9": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xe974b9b31dbff4369b94a1bab5e228f35ed44125": {
+  "name": "Alchemix",
+  "symbol": "ALCX"
+ },
+ "0xe9b334fd8188ef6982fe0fd9fd5215d6a03fa402": {
+  "name": "\ua4f4\ua4e2\ua4d3C",
+  "symbol": "\ua4f4\ua4e2\ua4d3C"
+ },
+ "0xea23cba4ec45be5a18da38b0e42108111828fedd": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xea3e155a6bd09e0de8b52fe16e701f6c7d193c7b": {
+  "name": "www.fomox.club - \ud83d\udcb2 Reward inside \ud83d\udcb2",
+  "symbol": "\u27a1\ufe0f www.fomox.club \u2705\ud83d\udcb2"
+ },
+ "0xea4419aeed053f6d52a2cd2a271092269254bc62": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xea6377746cd4a397ad8203b2070b85789b4bcffa": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xea70d44be0bac3e081144c474baabb3d39dde7eb": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0xeadd763bcf292c3418c130214db890ec22fc9b95": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xeb106e46454cbf44fb8c83e878267525fc1657ea": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xeb10a32c860027cd0e2a58eb6d6df326514da09b": {
+  "name": "!OP",
+  "symbol": "Visit https://optimisam.org to Claim"
+ },
+ "0xeb35995e771b9ed00fd1b8410a6922863501bb11": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0xeb466342c4d449bc9f53a865d5cb90586f405215": {
+  "name": "Axelar Wrapped USDC",
+  "symbol": "axlUSDC"
+ },
+ "0xeb585163debb1e637c6d617de3bef99347cd75c8": {
+  "name": "XEN Crypto",
+  "symbol": "opXEN"
+ },
+ "0xeb936ac3df538c12fd4fe564acb257ee03131018": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0xebadbaea24af55830456599a75aa3060728cc31f": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xebd56b77a0699c052e669e82315c29fb50f9ee50": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0xebe4d8b2f438681070840b0c02f9e6ee62bfa510": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xebec066f1c9b0fc310045c1fbd451c6700c47ed9": {
+  "name": "VolatileV2 AMM - wstETH/fBOMB",
+  "symbol": "vAMMV2-wstETH/fBOMB"
+ },
+ "0xec1ba3611f9bcf214ba263f1b44ca4826d7a7501": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xec306a28233474b5b1c9e21eab7c160370087765": {
+  "name": "www.bezax.rest - Reward inside! \ud83d\udfe2",
+  "symbol": "www.bezax.rest \ud83d\udfe2"
+ },
+ "0xec7d2f925fdc79d7dda78dbeed0e91a7c8afb05d": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xec8fea79026ffed168ccf5c627c7f486d77b765f": {
+  "name": "Sonne USDC",
+  "symbol": "soUSDC"
+ },
+ "0xecf46257ed31c329f204eb43e254c609dee143b3": {
+  "name": "Rigo Token",
+  "symbol": "GRG"
+ },
+ "0xed37cd7872c6fe4020982d35104be7919b8f8b33": {
+  "name": "Moonwell USDT0",
+  "symbol": "mUSDT0"
+ },
+ "0xedf38688b27036816a50185caa430d5479e1c63e": {
+  "name": "Overtime DAO Token",
+  "symbol": "OVER"
+ },
+ "0xee3b2cf805c9c4b9edf19a97593c5e1432aec427": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xeed35923b8a46ac40c0088225f3f21dafa4b3814": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee": {
+  "name": "Elk",
+  "symbol": "ELK"
+ },
+ "0xef4461891dfb3ac8572ccf7c794664a8dd927945": {
+  "name": "WalletConnect",
+  "symbol": "WCT"
+ },
+ "0xef4a1750e0c0a5f3bde5de96a572d2a636c83cc3": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xef660b4a13da8daf66d69602b2270e6633007927": {
+  "name": "COMINGSOON",
+  "symbol": "COMINGSOON"
+ },
+ "0xefa4efa09e8fee9f55fec009f6627f2f17c3640f": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xefaac8c68e1a1fb539d8a884f1e4ec7333fbf9c5": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0xefb79d04aae9c1619aeea423f2685230a1d8d200": {
+  "name": "OP\u200b",
+  "symbol": "OP\u200b"
+ },
+ "0xefde221f306152971d8e9f181bfe998447975810": {
+  "name": "Curve.fi ETH/wstETH",
+  "symbol": "wstETHCRV"
+ },
+ "0xeff182f9847eb9e64654850d34d9b7723753a3e0": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xf00415b52072f8f787f8a434fc88d7b8049ca105": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0xf0bb20865277abd641a307ece5ee04e79073416c": {
+  "name": "Ether.Fi Liquid ETH",
+  "symbol": "liquidETH"
+ },
+ "0xf0dc8c9b7e43e8eef39f0f0ca1c464ab714d7783": {
+  "name": "ETH 1x Short",
+  "symbol": "ETH1S"
+ },
+ "0xf117719d5460ed6090814213433cb8d4e07bd583": {
+  "name": "VolatileV2 AMM - USDC/EXTRA",
+  "symbol": "vAMMV2-USDC/EXTRA"
+ },
+ "0xf16bf805eba1658a02fdef9bd78f6402b74f0ed9": {
+  "name": "The Sandbox",
+  "symbol": "SAND"
+ },
+ "0xf1ad395786edabd41147e7cae5bc3002e2a079bd": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xf1b1ccfff10037c6acf82977130bce51accd5c1f": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xf1e10a6eaabafb7ef851ebfa729a98eaafcd6639": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xf2d3941b6e1cbd3616061e556eb06986147715d1": {
+  "name": "VolatileV2 AMM - HAI/KITE",
+  "symbol": "vAMMV2-HAI/KITE"
+ },
+ "0xf2d42c46528116362aca448837a0236459b53c63": {
+  "name": "VolatileV2 AMM - TAROT/OP",
+  "symbol": "vAMMV2-TAROT/OP"
+ },
+ "0xf329e36c7bf6e5e86ce2150875a84ce77f477375": {
+  "name": "Aave Optimism AAVE",
+  "symbol": "aOptAAVE"
+ },
+ "0xf34fac7f2c85b999a6d26199d0be1e5b21e5ac06": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0xf390830df829cf22c53c8840554b98eafc5dcbc2": {
+  "name": "USD Coin",
+  "symbol": "anyUSDC"
+ },
+ "0xf3c45b45223df6071a478851b9c17e0630fdf535": {
+  "name": "VolatileV2 AMM - EXA/WETH",
+  "symbol": "vAMMV2-EXA/WETH"
+ },
+ "0xf3ed7a4d88086a8df650538e8858decdf28a1478": {
+  "name": "\u200b \u200b \u200b \u200b  \u200b \u200b \u200b \u200b  \u200b \u200b \u200b \u200b",
+  "symbol": "USD0 [www.usual.promo]"
+ },
+ "0xf467c7d5a4a9c4687ffc7986ac6ad5a4c81e1404": {
+  "name": "Protocol Token",
+  "symbol": "KITE"
+ },
+ "0xf46c365ab842c1f840a922607d6230aa24398def": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xf46cd3b30ee07179007c723b8021fadecb59bf4c": {
+  "name": "wOP",
+  "symbol": "3000OP voucher at opchain.lol"
+ },
+ "0xf4f2657ae744354baca871e56775e5083f7276ab": {
+  "name": "VolatileV2 AMM - USDC/WETH",
+  "symbol": "vAMMV2-USDC/WETH"
+ },
+ "0xf516185b5ad895541f922a18e16f82d1a61c0422": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0xf5372369d1ad7d09c936ddc25a391d7957c37f88": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xf567f5710f2ce6525b7c4175fa4109644a1108ea": {
+  "name": "$ rBOND",
+  "symbol": "Visit https://barnbridge.org to earn rewards."
+ },
+ "0xf6009085fa4c8b197973e300a7f34740d3df9a39": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0xf6b3e5e24191257b06de6584c3ef3484197c6abe": {
+  "name": "Claim on https://t.ly/aavee",
+  "symbol": "Aave Optimism (aOptAAVE) (@$144.61)"
+ },
+ "0xf6b4185fcf8af291c0e3927fbeab7046b4f6a8ca": {
+  "name": "Tether USD",
+  "symbol": "USDT"
+ },
+ "0xf6d938f8b0bffe0edb6532a75b1a5d2d555268e5": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xf6ffb55bfb4f149b725211e7ef1cc9f3a67c5b01": {
+  "name": "StableV2 AMM - msOP/OP",
+  "symbol": "sAMMV2-msOP/OP"
+ },
+ "0xf7b5965f5c117eb1b5450187c9dcfccc3c317e8e": {
+  "name": "Sonne Wrapped Ether",
+  "symbol": "soWETH"
+ },
+ "0xf7cf406bdc5adc8a420012ec6d9808233ce3557a": {
+  "name": "FOXYTOKEN",
+  "symbol": "claim $foxy at (me-qr.com/yqdprsom)"
+ },
+ "0xf846485e39fd3a3b2d9c710e373969588e15c0fe": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xf88b3525f3539b5040d4b1da5b1aee8bdb00099b": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xf91156480550b1824d702e54a64b1d0e6ae64120": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0xf98dcd95217e15e05d8638da4c91125e59590b07": {
+  "name": "Kromatika",
+  "symbol": "KROM"
+ },
+ "0xf9a7bac1e900cd3b541e0bba522aef40a592b7e8": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xf9cb3854a922655004022a84ba1618b1100cbeef": {
+  "name": "Curve.fi crvUSDC Gauge Deposit",
+  "symbol": "crvUSDC-gauge"
+ },
+ "0xfa36948f6f017927eb48515120f91b29fc8251d2": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xfa436399d0458dbe8ab890c3441256e3e09022a8": {
+  "name": "Zip Token",
+  "symbol": "ZIP"
+ },
+ "0xfa5a91306b82228edeb079cff24378855e01ecf8": {
+  "name": "WEN",
+  "symbol": "Visit tokenwen.xyz to swap to USDT"
+ },
+ "0xfaaf66cace38d10ca07ab4b658211f10568a5c23": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xfac87ade1b6ef51f8f0b7d5f0151aade61d33703": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xfac9a999cc71378cfd249ed07a12124ef05027a2": {
+  "name": "GoatNFTPoints",
+  "symbol": "GNFT"
+ },
+ "0xfaf2e0850de522ce47e2194edc8a8d72d37b7b16": {
+  "name": "Velodrome",
+  "symbol": "Visit [ Velodromefi.Store ] Claim Your Airdrop"
+ },
+ "0xfaf5fce33b906f289db974efdbf7bf77d5fe7f31": {
+  "name": "ET\u0323H",
+  "symbol": "ET\u0323H"
+ },
+ "0xfaf87e196a29969094be35dfb0ab9d0b8518db84": {
+  "name": "ACHIVX",
+  "symbol": "ACHIVX"
+ },
+ "0xfb00ac187a8eb5afae4eace434f493eb62672df7": {
+  "name": "Aave Optimism Variable Debt USDT",
+  "symbol": "variableDebtOptUSDT"
+ },
+ "0xfb44177a4df878761222ee3f618452b182f97c0c": {
+  "name": "\u200b \u200b \u200b \u200b  \u200b \u200b \u200b \u200b  \u200b \u200b \u200b \u200b",
+  "symbol": "USD0 [www.usual.finance]"
+ },
+ "0xfb5b07559a8769cede0867243ce57e66ce07c324": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xfbca2364bbc6408d3dda3e61fae24c359990df98": {
+  "name": "Aave Optimism (aOptAAVE) (@$144.61)",
+  "symbol": "Claim on t.ly/aavee"
+ },
+ "0xfbecd1334ee6893be6963b83469e6e6f1544d8e3": {
+  "name": "U\u0405D\u0421",
+  "symbol": "U\u0405D\u0421"
+ },
+ "0xfc2e6e6bcbd49ccf3a5f029c79984372dcbfe527": {
+  "name": "Autonolas",
+  "symbol": "OLAS"
+ },
+ "0xfc5ce71bb11f86c1e6b2b7de3ae46a5edaec603c": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xfc6e1cab19c112aa6e385f6578fc827a5fe19ada": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0xfc982284391c37017d890bfeb7fc1a71599767ea": {
+  "name": "www.base1.cfd - claim Your Base airdrop",
+  "symbol": "www.base1.cfd"
+ },
+ "0xfccf3cabbe80101232d343252614b6a3ee81c989": {
+  "name": "Aave Optimism Variable Debt USDC",
+  "symbol": "variableDebtOptUSDC"
+ },
+ "0xfce2826775134e9984fd037c61b3490d500faba7": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xfd14178dab8f4d00c1a5dc14c3bcd9731b79dcd7": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xfd18fff29e816aa57f150aa10b381ad0830fc051": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xfd389dc9533717239856190f42475d3f263a270d": {
+  "name": "Granary Token",
+  "symbol": "GRAIN"
+ },
+ "0xfd47f657fcde3771c7e6eadeaa3e6bd94c42e055": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0xfd7fddfc0a729ecf45fb6b12fa3b71a575e1966f": {
+  "name": "StableV1 AMM - WETH/sETH",
+  "symbol": "sAMM-WETH/sETH"
+ },
+ "0xfd81e22aa906d79e4fe7dbb52bd0e9789bfa1fb2": {
+  "name": "AAVE (@$144.61)",
+  "symbol": "Claim on aave.claiming.icu"
+ },
+ "0xfdb794692724153d1488ccdbe0c56c252596735f": {
+  "name": "Lido DAO Token",
+  "symbol": "LDO"
+ },
+ "0xfdbd06b8311da83908bf69079a258f0bfa9d8d2f": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/dHY9RTeC"
+ },
+ "0xfdeffc7ad816bf7867c642df7ebc2cc5554ec265": {
+  "name": "Beefy Velo",
+  "symbol": "BeVELO"
+ },
+ "0xfdf79fcd2991153ea518b0a0968e049cd1c850f0": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xfe01d0da4b78389e2d20da68c6f5272158d95bf7": {
+  "name": "foxytoken",
+  "symbol": "claim $foxy at me-qr.com/usvf2d04"
+ },
+ "0xfe3a5528a2c3e24ae1065c3a199e26d559c20769": {
+  "name": "foxytoken",
+  "symbol": "claim foxy now at me-qr.com/d9uouqi5"
+ },
+ "0xfe5350396e5b86a2fd9f68a9faf36c415d8beb03": {
+  "name": "Visit https://optimisam.org to Claim Rewards",
+  "symbol": "Optimism"
+ },
+ "0xfe8b128ba8c78aabc59d4c64cee7ff28e9379921": {
+  "name": "Balancer",
+  "symbol": "BAL"
+ },
+ "0xfec8968d7abbe1711529cb36ad0bd6a2230e7745": {
+  "name": "www.basex.cfd - claim Base airdrop",
+  "symbol": "www.basex.cfd"
+ },
+ "0xff733b2a3557a7ed6697007ab5d11b79fdd1b76b": {
+  "name": "Across Protocol Token",
+  "symbol": "ACX"
+ },
+ "0xff84bb9f19e50964624e3eb225a05d555801aa9e": {
+  "name": "",
+  "symbol": "ODOS-LP - OdosLoyalty.io"
+ },
+ "0xff8fbf2171715a69660420669b6a2bc939f7f1ff": {
+  "name": "Visit https://optimisam.org to Claim",
+  "symbol": "OP"
+ },
+ "0xff94cc8e2c4b17e3cc65d7b83c7e8c643030d936": {
+  "name": "Granary ETH",
+  "symbol": "grainETH"
+ },
+ "0xffa99f79f78d4bc87cec427813cc58d8083d5840": {
+  "name": "Verda City",
+  "symbol": "VERDA"
+ },
+ "0xffc1d5cf8e1532b368353076778df09b8581e22f": {
+  "name": "Claim OP Rewards at https://optimisam.org",
+  "symbol": "Optimism"
+ },
+ "0xffd74ef185989bff8752c818a53a47fc45388f08": {
+  "name": "VolatileV1 AMM - VELO/OP",
+  "symbol": "vAMM-VELO/OP"
+ }
+}

@@ -1,0 +1,4807 @@
+{
+ "0x000000000000000000000000000000000000800a": {
+  "name": "",
+  "rpc_error": "execution reverted",
+  "symbol": ""
+ },
+ "0x0049250d15a8550c5a14baa5af5b662a93a525b9": {
+  "name": "Aave ZkSync Variable Debt USDC",
+  "symbol": "variableDebtZksUSDC"
+ },
+ "0x006f916db2b2341581a0d12d139ebba1878c1793": {
+  "name": "ZK",
+  "symbol": "Claim on: zk-claim.io"
+ },
+ "0x00796509d318921b7161a51f040b0ff7949a0cf5": {
+  "name": "WEN #AIRDROP",
+  "symbol": "WDROP"
+ },
+ "0x0095345b97a1c79cda9005921238ebddbe0d6cc7": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0x00a1c271df375660f47293fd84b53572fded0107": {
+  "name": "Eralend SyncSwap USDC/WETH Classic LP",
+  "symbol": "eUSDC/WETH cSLP"
+ },
+ "0x00b1ae00e06ea580127cf61e3a82e5018f887c2c": {
+  "name": "LAinux by AIgentFi",
+  "symbol": "LAiX"
+ },
+ "0x011182a6fa36437a137b565716af53003366e8b7": {
+  "name": "MyToken",
+  "symbol": "MyToken"
+ },
+ "0x01541ead71e41d59f315eb2ce3a9441ed7b0a63e": {
+  "name": "Basilisk USDC",
+  "symbol": "bUSDC"
+ },
+ "0x016302883182edf9f63e025b4cb3f7bae9bfbd68": {
+  "name": "SINU",
+  "symbol": "SINU"
+ },
+ "0x016341e6da8da66b33fd32189328c102f32da7cc": {
+  "name": "ZeroLend zK USDC",
+  "symbol": "z0USDC"
+ },
+ "0x01997e620bbe8228df9a8fb2d8ca7d05ff8a231b": {
+  "name": "Impermax Borrowable",
+  "symbol": "imxB"
+ },
+ "0x019a7368efd325268caa92f847f208d8934ac5b7": {
+  "name": "CheeseToken",
+  "symbol": "Cheese"
+ },
+ "0x01c2f8e68d4e53e045569fb4a47b064efb8811e8": {
+  "name": "Merkly Hyperlane FT",
+  "symbol": "hMERK"
+ },
+ "0x01ec29bd31775558ab6035cf0794a99bea55a418": {
+  "name": "SyncSwap WETH/LIBERTAS Classic LP",
+  "symbol": "WETH/LIBERTAS cSLP"
+ },
+ "0x0209290050d9a2e3dda4dc7d963122f1314a998d": {
+  "name": "xSTAR",
+  "symbol": "xSTAR"
+ },
+ "0x0231b3de40b6b3bdd28dcef037f1b7a3fcf5a95a": {
+  "name": "Zynergy",
+  "symbol": "ZYN"
+ },
+ "0x024fbf6fea8e8812904e3bcd12a714de13f6b441": {
+  "name": "Maverick Position-USDC-WETH-24",
+  "symbol": "MP-USDC-WETH-24"
+ },
+ "0x0250b200422ea4edc34dbecc0f15af182853bf7b": {
+  "name": "@Never",
+  "symbol": "Never"
+ },
+ "0x0259d9dfb638775858b1d072222237e2ce7111c0": {
+  "name": "SyncSwap Stable LP",
+  "symbol": "USDC/USDT-S"
+ },
+ "0x02c0151be02b20f575e5e4d39610a02b68e6536c": {
+  "name": "hentAI",
+  "symbol": "hentAI"
+ },
+ "0x02c3c24739022135dd0bf26e2260c46e8d3faec0": {
+  "name": "Staked + Bonus ZKE",
+  "symbol": "sbZKE"
+ },
+ "0x030b8487c5f5b77193b53e56f951865b79358e30": {
+  "name": "Pawpoints",
+  "symbol": "PPT"
+ },
+ "0x030f3b85d970a49a8f62df5bf58c7c7bf20b3f31": {
+  "name": "OT BUSD LP",
+  "symbol": "BUSD LP"
+ },
+ "0x0325f21eb0a16802e2bacd931964434929985548": {
+  "name": "ZeroLend zk Variable Debt DAI",
+  "symbol": "variableDebtz0DAI"
+ },
+ "0x0386c81eb83e6bbd8782a47180a1501cc003a232": {
+  "name": "Cow Uniswap zkSync ZK-WETH",
+  "symbol": "cowUniswapzkSyncZK-WETH"
+ },
+ "0x0387727be203d2ef86a3044a9f813dd6db351cb2": {
+  "name": "Crypto Volatility Token",
+  "symbol": "CVI"
+ },
+ "0x042ded90c26eea4d860f8e3bd363cc4b17caa00c": {
+  "name": "Volatile Mute LP (WETH/ZKDOGE)",
+  "symbol": "vMLP (WETH/ZKDOGE)"
+ },
+ "0x04609d3bfe6057ee03d9cc63781a05b03c085eff": {
+  "name": "A-ZKF",
+  "symbol": "! www.zkfair.events"
+ },
+ "0x0469d9d1de0ee58fa1153ef00836b9bbcb84c0b6": {
+  "name": "USN Token",
+  "symbol": "USN"
+ },
+ "0x04dd2701ce7ce9e9b5080825511238415eef3559": {
+  "name": "Kambucha",
+  "symbol": "KAMB"
+ },
+ "0x04e9db37d8ea0760072e1ace3f2a219988fdac29": {
+  "name": "ReactorFusion USDC",
+  "symbol": "rfUSDC"
+ },
+ "0x04edf5c01df915964d543922778bab2b465d5927": {
+  "name": "zk KINGKONG",
+  "symbol": "ZKK"
+ },
+ "0x0500829d804b498964849838db9a32c67a0d19c3": {
+  "name": "LZ.ZZB",
+  "symbol": "ZZB"
+ },
+ "0x052a61eb8194619390156835edf6fee29dffdc6d": {
+  "name": "zKPrinter",
+  "symbol": "PRINT"
+ },
+ "0x056f1960b5cf53676ad9c0a7113363a812dc0c8e": {
+  "name": "yZF",
+  "symbol": "yZF"
+ },
+ "0x058ee9f027ad425308f8d072ca95c7bfe7e12554": {
+  "name": "zkSync (ZK)",
+  "symbol": "Claim on: zk-official.live"
+ },
+ "0x05b324f1429034f4c1ee3f8b1fca199867abb8bd": {
+  "name": "KO Token",
+  "symbol": "KO"
+ },
+ "0x05b6390ddbc329ea30e22ef223a57c1bcf1a069b": {
+  "name": "GogAndMagog",
+  "symbol": "MAGOG"
+ },
+ "0x05d188b674f90c77684f29773641942e37074aa5": {
+  "name": "eZKalibur LP",
+  "symbol": "eZK-LP"
+ },
+ "0x06070a1133fd17cd94400bed910ead6f2e013636": {
+  "name": "Galo LP",
+  "symbol": "GL-LP"
+ },
+ "0x0647dec8c6aa575abd61e023221650dc63e452bd": {
+  "name": "KURO",
+  "symbol": "KURO [www.kuroro.gg]"
+ },
+ "0x0661dd40eb91600911bc0c36b9bab68ee075513a": {
+  "name": "Maverick Position-USDC-WETH-9",
+  "symbol": "MP-USDC-WETH-9"
+ },
+ "0x06662147240414cc0dc25e6414100750d346bc44": {
+  "name": "Flashdash",
+  "symbol": "FLASHDASH"
+ },
+ "0x06a5ce7a85dafaf0116901ece0e3e103fb5efb75": {
+  "name": "ShEraInu",
+  "symbol": "SHERA"
+ },
+ "0x072416442a0e40135e75c0eefb4be708b74b6c8a": {
+  "name": "ZeroLend ZKsync",
+  "symbol": "z0ZK"
+ },
+ "0x07247258731899ecabe9168c23452494685cdc59": {
+  "name": "ZK",
+  "symbol": "Claim on: zk-claim.io"
+ },
+ "0x0729e806f57ce71da4464c6b2d313e517f41560b": {
+  "name": "Gambit USDC",
+  "symbol": "gUSDC"
+ },
+ "0x073b5438bf373483523c1aa1674fa69a361fc517": {
+  "name": "BLOB",
+  "symbol": "BLOB"
+ },
+ "0x0755da5d9e9a722a9e5cc4bb83742387ae2990a5": {
+  "name": "interest bearing USDC",
+  "symbol": "ibUSDC"
+ },
+ "0x075df6c514400b083d3384f31dbdb9a3d80c5a88": {
+  "name": "VolatileV1 AMM - USDC/WETH",
+  "symbol": "vAMM-USDC/WETH"
+ },
+ "0x080823f341b5332228b46144e3a6fab52a7ce79d": {
+  "name": "zkWoof",
+  "symbol": "WOOF"
+ },
+ "0x083f8a3e87b898cd95563ce75336fa7150bd0ef9": {
+  "name": "SyncSwap USDC/ZAT Classic LP",
+  "symbol": "USDC/ZAT cSLP"
+ },
+ "0x085e2d74ae4e622d9b7c3e9eb45a4e2288885a01": {
+  "name": "zkFinance USDT Token",
+  "symbol": "zkUSDT"
+ },
+ "0x08f328c72a9b420b7568415ed331a1c236e6f620": {
+  "name": "SyncSwap WETH/Cheems Classic LP",
+  "symbol": "WETH/Cheems cSLP"
+ },
+ "0x0963c1a44b079109e00d9cbd0d04d2daa2949501": {
+  "name": "FobXW Coin",
+  "symbol": "FobXW"
+ },
+ "0x096df23209b7ec5c07ecc5e8e4425193b31a7f5b": {
+  "name": "Yield Tyche",
+  "symbol": "yTyche"
+ },
+ "0x0a4898b73d631dd57c542ce0bf218ef47c6b9205": {
+  "name": "ZKSKULLS",
+  "symbol": "ZAS"
+ },
+ "0x0a499ec28d6d83c21f663d5ee214da1aebcd4d7f": {
+  "name": "Volatile Mute LP (ZK/KOI)",
+  "symbol": "vMLP (ZK/KOI)"
+ },
+ "0x0a976e1e7d3052beb46085acbe1e0daccf4a19cf": {
+  "name": "ReactorFusion WBTC",
+  "symbol": "rfWBTC"
+ },
+ "0x0aa4396115dfcae77cebdf1ea91275244259f778": {
+  "name": "SyncSwap WETH/frxETH Stable LP",
+  "symbol": "WETH/frxETH sSLP"
+ },
+ "0x0ae8f01db7621629adc5e4dc6fae83ab4d68c73e": {
+  "name": "Maverick Position-USDC-WETH-51",
+  "symbol": "MP-USDC-WETH-51"
+ },
+ "0x0afa07db9bbf271f5d505784d5fae965e0823ed0": {
+  "name": "TOM VR Addict",
+  "symbol": "TOM"
+ },
+ "0x0b095b7e99534bd48cb8d6d61b578bed3c9e9006": {
+  "name": "# blast2l.com",
+  "symbol": "Visit blast2l.com to claim rewards"
+ },
+ "0x0b6bf8205b0d628beb2797888c46e16cf09cfa21": {
+  "name": "$jingtao",
+  "symbol": "ride"
+ },
+ "0x0b93d6c59cf113c37ac8e68c720ad4df65321e86": {
+  "name": "ZF AAI/WETH LP Token",
+  "symbol": "AAI/WETH ZFLP"
+ },
+ "0x0bf4cb727b3f8092534d793893b2cc3348963dbf": {
+  "name": "Derp",
+  "symbol": "DERP"
+ },
+ "0x0c34850b6f9194011a741d7efe73a1e5a65f9b29": {
+  "name": "Zksync ERC20",
+  "symbol": "serc"
+ },
+ "0x0c6eaaab86e8374a91e3f42c726b6fd1abacb54c": {
+  "name": "ZinoPet Token",
+  "symbol": "ZPET"
+ },
+ "0x0dc0b8b21c30b2ecb55382d00258004d5ca8d7da": {
+  "name": "Changer",
+  "symbol": "CNG"
+ },
+ "0x0dcecb7ad7bad5ad931a2c07fff56b9917bcc3d9": {
+  "name": "ZK",
+  "symbol": "!ZK (Claim on zkscoin.xyz)"
+ },
+ "0x0dec70987411f30e3dfbecd237abac5d62447a2c": {
+  "name": "!     AERO",
+  "symbol": "AERO - https://aerodrome.supply"
+ },
+ "0x0dfd96f6dba1f3ac4abb4d5ca36ce7cb48767a13": {
+  "name": "eZKalibur LP",
+  "symbol": "eZK-LP"
+ },
+ "0x0e093c7c81f290df7dc83ddecf1db0e2fce8d307": {
+  "name": "SyncSwap WETH/DOGERA Classic LP",
+  "symbol": "WETH/DOGERA cSLP"
+ },
+ "0x0e392b6b05c112677096920ad938a0752d1451f3": {
+  "name": "ReactorFusion ZK",
+  "symbol": "rfZK"
+ },
+ "0x0e595bfcafb552f83e25d24e8a383f88c1ab48a4": {
+  "name": "SyncSwap USDC/USDT Stable LP",
+  "symbol": "USDC/USDT sSLP"
+ },
+ "0x0e97c7a0f8b2c9885c8ac9fc6136e829cbc21d42": {
+  "name": "Mute.io",
+  "symbol": "MUTE"
+ },
+ "0x0ec49317f8dc44c9e0c8b6592b61f62d333fe216": {
+  "name": "VisionVerse Token",
+  "symbol": "VVT"
+ },
+ "0x0f62837f7d37638210f94fa8005d0a89be083922": {
+  "name": "Volatile AMM - FANG/USDC",
+  "symbol": "vAMM-FANG/USDC"
+ },
+ "0x0fef047e3d89b0cef17df6093692a1e99bd924a5": {
+  "name": "ZKSwap Era",
+  "symbol": "ZKS-ERA"
+ },
+ "0x10aa67b8bb3cec23059a1a917d4f652c4e7fb2ef": {
+  "name": "Derp Points",
+  "symbol": "DP"
+ },
+ "0x10b9befe0b829f2562d3875eb0fabadc5d37b885": {
+  "name": "Beecoin",
+  "symbol": "BEE"
+ },
+ "0x10d7050ee89c42dcbbde29dbb4c1f7c71bd9e963": {
+  "name": "ZethanToken",
+  "symbol": "ZETH"
+ },
+ "0x10d967f46b06580c4a87b05c78f04e4df25c0db0": {
+  "name": "uGOLD",
+  "symbol": "uGOLD"
+ },
+ "0x1127ec84c53d0ba6d7adb9c8f49342b7e2ee9458": {
+  "name": "zkSync AI",
+  "symbol": "zkAI"
+ },
+ "0x1181d7be04d80a8ae096641ee1a87f7d557c6aeb": {
+  "name": "Nexon USD Coin",
+  "symbol": "nUSDC"
+ },
+ "0x11a454b095cec1af78b4f954c6bff958d8e9df1b": {
+  "name": "SyncSwap",
+  "symbol": "SYNC"
+ },
+ "0x11af4d27c032c7b37e92585a5514ffc8f357f405": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x11ef47783740b3f0c9736d54be8ef8953c3ead99": {
+  "name": "eZKalibur escrowed Token",
+  "symbol": "xSWORD"
+ },
+ "0x11f87cce3afe6759e9b5a5897b0e5e91739d51e4": {
+  "name": "zkSyncPePe",
+  "symbol": "zkPEPE"
+ },
+ "0x124e735a7d22c8e121b1f77165a99d4d6caa835f": {
+  "name": "Planet Coin",
+  "symbol": "PC"
+ },
+ "0x1255d58d2ecf8faa41f15b4ec5299f2dec25cfb1": {
+  "name": "zkfox compound USDT",
+  "symbol": "zfcUSDT"
+ },
+ "0x129f73e23dcc7caec19977044fc7aed29d4f23d2": {
+  "name": "fox Wrapped Ether",
+  "symbol": "fWETH"
+ },
+ "0x12e7a9423d9128287e63017ee6d1f20e1c237f15": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "WETH/wstETH-A"
+ },
+ "0x12fb81dc9b855a63767165aa8d917b3574393186": {
+  "name": "HopePoint",
+  "symbol": "HPNT"
+ },
+ "0x1353b2bc10d589807185dc7989d68da251d3d91e": {
+  "name": "ZF Cake/WETH LP Token",
+  "symbol": "Cake/WETH ZFLP"
+ },
+ "0x1382628e018010035999a1ff330447a0751aa84f": {
+  "name": "iZUMi Bond USD",
+  "symbol": "iUSD"
+ },
+ "0x13ac8f46042b3576f4f6f6c8dfad1b3f81617122": {
+  "name": "VolatileV1 AMM - WETH/IBEX",
+  "symbol": "vAMM-WETH/IBEX"
+ },
+ "0x13ad5b4248bdeaaa03344023d50d8faf1fd96442": {
+  "name": "Shit",
+  "symbol": "SHIT"
+ },
+ "0x13bb814c8d765c8e9981d6df21a089c56205086d": {
+  "name": "GG",
+  "symbol": "GG"
+ },
+ "0x140190f9147cba0215050ad8e379f3f54a5da3cb": {
+  "name": "SyncSwap WETH/GOVI Classic LP",
+  "symbol": "WETH/GOVI cSLP"
+ },
+ "0x140d5bc5b62d6cb492b1a475127f50d531023803": {
+  "name": "Deri",
+  "symbol": "DERI"
+ },
+ "0x142cf97ac1a40dfebcca488607ea99d0eabdfe8c": {
+  "name": "sDLPM",
+  "symbol": "sDLPM"
+ },
+ "0x14381d5d1352322b038bc988025a1e74dba1bffe": {
+  "name": "Stable Mute LP (WETH/wrsETH)",
+  "symbol": "sMLP (WETH/wrsETH)"
+ },
+ "0x144b83555d8a3119b0a69a7bc2f0a0388308fee3": {
+  "name": "AutoAir AI",
+  "symbol": "AAI"
+ },
+ "0x145e082e384a9fc86e95eea805dc9012f1b76cb7": {
+  "name": "TRALA TOKEN",
+  "symbol": "TRALA"
+ },
+ "0x14acccd04393f26ba155e5402aa6fddbb8e2254a": {
+  "name": "TF token",
+  "symbol": "TFT"
+ },
+ "0x14cd7df5340b8977cdd2053ecd7c786f002d7f5a": {
+  "name": "testTokenSYNC",
+  "symbol": "SYNC"
+ },
+ "0x14e55db7146053faf89809bf151f6938121f3ab9": {
+  "name": "tUSDT",
+  "symbol": "tUSDT"
+ },
+ "0x158193f88991ab5df71d58677da222272af193f2": {
+  "name": "BellsToken",
+  "symbol": "BELLS"
+ },
+ "0x1589e4a638657ab284f7ffd4def06e142eafc76d": {
+  "name": "SyncSwap USDC/Cheems Classic LP",
+  "symbol": "USDC/Cheems cSLP"
+ },
+ "0x15b362768465f966f1e5983b7ae87f4c5bf75c55": {
+  "name": "ZeroLend Dai Stablecoin",
+  "symbol": "z0DAI"
+ },
+ "0x160e07e42adbc1fce92d505b579bcd8a3fbea77d": {
+  "name": "Dracula dex token",
+  "symbol": "FANG"
+ },
+ "0x161bd1794431b539c9c751a8b8fba6bace7859d9": {
+  "name": "Tarot Borrowable",
+  "symbol": "bTAROT"
+ },
+ "0x163efdf64daa0766b845211f5405473673750718": {
+  "name": "FISH CAT",
+  "symbol": "FISH"
+ },
+ "0x16a9494e257703797d747540f01683952547ee5b": {
+  "name": "izumi Token",
+  "symbol": "iZi"
+ },
+ "0x16d0fc836fed0f645d832eacc65106ddb67108ef": {
+  "name": "StableV1 AMM - USDC/USD+",
+  "symbol": "sAMM-USDC/USD+"
+ },
+ "0x16d8b1ea7556320d6312f7c9f19ebeefd0286cc4": {
+  "name": "Volatile Mute LP (USDC/WBTC)",
+  "symbol": "vMLP (USDC/WBTC)"
+ },
+ "0x17290c69d46bdbf8d963b282df6ecd2700583b84": {
+  "name": "SyncSwap USDC/zkUSD Classic LP",
+  "symbol": "USDC/zkUSD cSLP"
+ },
+ "0x17625b19480f117ee4b1b686a3b44467eb203d93": {
+  "name": "zkMiniDoge",
+  "symbol": "MiniDoge"
+ },
+ "0x1768f42e953a4c082e63597fe90a873ed61bc3b8": {
+  "name": "Staked + Bonus FUL",
+  "symbol": "sbFUL"
+ },
+ "0x176b23f1ddfeedd10fc250b8f769362492ef810b": {
+  "name": "SyncSwap MUTE/WETH Classic LP",
+  "symbol": "MUTE/WETH cSLP"
+ },
+ "0x17dcc789e80c30f801039fcef9929ce36b527ce5": {
+  "name": "ZKSwap Era",
+  "symbol": "ZKS-ERA"
+ },
+ "0x182a765e3bd930b8c621c1fbb23704f311e168e5": {
+  "name": "SoB Points",
+  "symbol": "SoB"
+ },
+ "0x183de3c349fcf546aae925e1c7f364ea6fb4033c": {
+  "name": "Venus wUSDM (Core)",
+  "symbol": "vwUSDM_Core"
+ },
+ "0x186c65de26a1974be45b56202a6cdd5535df63b5": {
+  "name": "Stable Mute LP (USDC/LUSD)",
+  "symbol": "sMLP (USDC/LUSD)"
+ },
+ "0x1886dfa728ed34a1b46decf7211cb643a844b982": {
+  "name": "Escrowed FUL",
+  "symbol": "esFUL"
+ },
+ "0x18932efdbd424af2007c324aa6a88ee02ee97292": {
+  "name": "Snark Launch",
+  "symbol": "SNARK"
+ },
+ "0x18a2f3e0768ac7d0e1edf0b1bf6c97122418fcdd": {
+  "name": "NUMBER",
+  "symbol": "NUMBER"
+ },
+ "0x18e41961f5f4e30fd0b53a4739a0e9edc8d6cf64": {
+  "name": "Volatile - WETH/SLNA",
+  "symbol": "v-WETH/SLNA"
+ },
+ "0x190362d8537d45e430946642cd81ac310ab6a810": {
+  "name": "xDOGERA",
+  "symbol": "xDOGERA"
+ },
+ "0x190f75d3a662553690da6c0087c4c2d1cc414172": {
+  "name": "ODOS-LP - OdosLP.com",
+  "symbol": "ODOS-LP - OdosLP.com"
+ },
+ "0x197f27d37e6c86132960ab0f0f1edfa4cd10126e": {
+  "name": "SyncSwap WETH/WEFI Classic LP",
+  "symbol": "WETH/WEFI cSLP"
+ },
+ "0x1996ecc218f6f5182732a34e92a2c6ab294dc350": {
+  "name": "SyncSwap USDC/USD+ Stable LP",
+  "symbol": "USDC/USD+ sSLP"
+ },
+ "0x19bc97d3c223fc8a0ff0541d260f4f438d5faf99": {
+  "name": "Frax Share",
+  "symbol": "FXS"
+ },
+ "0x19db1d963e2ac810c48c8565bb2fd2866745aa8a": {
+  "name": "VolatileV1 AMM - USDC/WETH",
+  "symbol": "vAMM-USDC/WETH"
+ },
+ "0x19fc0949730bbf1466c3a1718e3caeff15c64eda": {
+  "name": "Volatile Mute LP (WETH/NODL)",
+  "symbol": "vMLP (WETH/NODL)"
+ },
+ "0x1a32a715b4ebef211bbf4baa414f563b25cc50c9": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "ZK/WETH-A"
+ },
+ "0x1a3651ddf584cc82d3cf1d4d6d0972d8e0327215": {
+  "name": "SyncSwap WETH/VC Classic LP",
+  "symbol": "WETH/VC cSLP"
+ },
+ "0x1a56cb8892fc093fcc4415adf7b2c1ac4109ba58": {
+  "name": "Zeus Token",
+  "symbol": "ZEUS"
+ },
+ "0x1a5b3c3108ea6f102fabdb39c746cc0f9ec642cf": {
+  "name": "SyncSwap WETH/USD+ Classic LP",
+  "symbol": "WETH/USD+ cSLP"
+ },
+ "0x1a60e60b9d20d8c62622ed4504f8967dee641b0b": {
+  "name": "Maverick Position-USDC-USDT-237",
+  "symbol": "MP-USDC-USDT-237"
+ },
+ "0x1a6de0c65354f5ce36e894a84487c530954c3796": {
+  "name": "ParaSpace Variable Debt Token WBTC",
+  "symbol": "vDebtWBTC"
+ },
+ "0x1aa14479c245d3d990b18eae96bc74b21a744322": {
+  "name": "Volatile Mute LP (USDC/USD+)",
+  "symbol": "vMLP (USDC/USD+)"
+ },
+ "0x1ab43093f4b3f8e5e4666d2062768acce67c9920": {
+  "name": "NPAY",
+  "symbol": "NPAY"
+ },
+ "0x1ab721f531cab4c87d536be8b985eafce17f0184": {
+  "name": "ZigZag",
+  "symbol": "ZZ"
+ },
+ "0x1af23bd57c62a99c59ad48236553d0dd11e49d2d": {
+  "name": "Venus USDC.e (Core)",
+  "symbol": "vUSDC.e_Core"
+ },
+ "0x1b09b7c26f70dd0cc472acb230029d98d11fb26e": {
+  "name": "Gemholic",
+  "symbol": "GEMS"
+ },
+ "0x1b9bca6dd69c1f6091dc5fd1b8b7ac6b07ac04a0": {
+  "name": "ZF ZF/LONG LP Token",
+  "symbol": "ZF/LONG ZFLP"
+ },
+ "0x1bb13469decb70b605ecd77934c10a7f5024cdb3": {
+  "name": "VotingHold",
+  "symbol": "VHOLD"
+ },
+ "0x1bb4855770eb93e96f5793abcacc3106c2becf31": {
+  "name": "Volatile Mute LP (MUTE/USDC)",
+  "symbol": "vMLP (MUTE/USDC)"
+ },
+ "0x1bba25233556a7c3b41913f35a035916dbed1664": {
+  "name": "BUIDLBux",
+  "symbol": "BUIDL"
+ },
+ "0x1bbd33384869b30a323e15868ce46013c82b86fb": {
+  "name": "Nexon Ether",
+  "symbol": "nETH"
+ },
+ "0x1c25e8dbcba47f53e9f38ae15ee1e9528fa32709": {
+  "name": "Bonus FUL",
+  "symbol": "bnFUL"
+ },
+ "0x1c4aa8a3a75c138edb9e4128f8ff5d6d2a0f204b": {
+  "name": "ZK",
+  "symbol": "ZK (Claim on airdropzk.xyz)"
+ },
+ "0x1ce553972db2b1d045dc05f9ad6f6e49400809dd": {
+  "name": "VolatileV1 AMM - MUTE/WETH",
+  "symbol": "vAMM-MUTE/WETH"
+ },
+ "0x1d686250bbffa9fe120b591f5992dd7fc0fd99a4": {
+  "name": "WOOFi Super Charger Wrapped Ether",
+  "symbol": "weWETH"
+ },
+ "0x1d711a2bb17f63d517dad96e6a22b212017b49af": {
+  "name": "LoveEngravedToken",
+  "symbol": "LOVE"
+ },
+ "0x1d86698e35c3d02859b8e0bb1a8ad338b5652efa": {
+  "name": "ether.fi ETH",
+  "symbol": "WETH"
+ },
+ "0x1ddd4ea0954ca46d8fad71483a0d5e533d547679": {
+  "name": "SyncSwap Cake/WETH Classic LP",
+  "symbol": "Cake/WETH cSLP"
+ },
+ "0x1de8d3221e58734130a94950ad9bfdc43ebd5fcd": {
+  "name": "NGT Token",
+  "symbol": "NGT"
+ },
+ "0x1e48e6889609d07c920d94e40a29df9d6cd22201": {
+  "name": "Sleep Finance Day Dream",
+  "symbol": "DYD"
+ },
+ "0x1e5c5a62bbd835e1e25a95d8b7d94608f7a3307e": {
+  "name": "SyncSwap DAI/WETH Classic LP",
+  "symbol": "DAI/WETH cSLP"
+ },
+ "0x1e842099827fbe58de73a807f56189a36797f1cc": {
+  "name": "OdosLoyalty.org",
+  "symbol": "ODOS-LP (claim: www.odosloyalty.org)"
+ },
+ "0x1e8f1099a3fe6d2c1a960528394f4feb8f8a288d": {
+  "name": "Basilisk ETH",
+  "symbol": "bETH"
+ },
+ "0x1f2da4ff84d46b12f8931766d6d728a806b410d6": {
+  "name": "ZeroLend Velocore",
+  "symbol": "z0VC"
+ },
+ "0x1f54a6904a991afa07ed6fc660e55e503745637a": {
+  "name": "",
+  "rpc_error": "execution reverted",
+  "symbol": ""
+ },
+ "0x1f559e1044d3c48871754592b7fd5602b66f7003": {
+  "name": "zKoi",
+  "symbol": "ZKOI"
+ },
+ "0x1f7d02eb231e1ea3db122e11a5f68273461dbdf3": {
+  "name": "Volcano",
+  "symbol": "VOLCANO"
+ },
+ "0x1f974dd7b0472beae9b9e54c6728299e4124c0d7": {
+  "name": "ZK",
+  "symbol": "Claim on: airdrop-zk.com"
+ },
+ "0x1fa916c27c7c2c4602124a14c77dbb40a5ff1be8": {
+  "name": "Venus WETH (Core)",
+  "symbol": "vWETH_Core"
+ },
+ "0x2032b3996757a7f5782aa54fcc2c7ebc36697840": {
+  "name": "Layer2DAO",
+  "symbol": "L2DAO"
+ },
+ "0x2039bb4116b4efc145ec4f0e2ea75012d6c0f181": {
+  "name": "Binance USD",
+  "symbol": "BUSD"
+ },
+ "0x205d573df3e9ffd067f0a11a55c7c1bf9e4a1023": {
+  "name": "Rose",
+  "symbol": "ROSE"
+ },
+ "0x2141d7fe06a1d69c016fc638ba75b6ef92fa1435": {
+  "name": "zkSync id",
+  "symbol": "ZKID"
+ },
+ "0x21cfe382d3085d51ad2646a31042268e7b0b6844": {
+  "name": "Volatile - USDC/WETH",
+  "symbol": "v-USDC/WETH"
+ },
+ "0x228b7940cca71ac5457a0ede7b43426a2178594b": {
+  "name": "oogwAI",
+  "symbol": "OOGWAI"
+ },
+ "0x228d400f196760432bd8bce74fa1e6580af4bf03": {
+  "name": "SyncSwap WETH/zk-TiUSD Classic LP",
+  "symbol": "WETH/zk-TiUSD cSLP"
+ },
+ "0x22d8b71599e14f20a49a397b88c1c878c86f5579": {
+  "name": "EraLend Ether",
+  "symbol": "eETH"
+ },
+ "0x22ef53cbbfc56dc758bcd31110fb5e67c0b5a142": {
+  "name": "SyncSwap USDC/USDT Classic LP",
+  "symbol": "USDC/USDT cSLP"
+ },
+ "0x22f91e9436c220af83fb0ce27a08918dd1d27d32": {
+  "name": "Staked Frax Ether",
+  "symbol": "sfrxETH"
+ },
+ "0x236951be569a11f972bdce100eca782c7a6bf9c6": {
+  "name": "SyncSwap USDC/LUSD Stable LP",
+  "symbol": "USDC/LUSD sSLP"
+ },
+ "0x23fdd6487a17abb8360e8da8b1b370c94ee94cc2": {
+  "name": "interest bearing ETH",
+  "symbol": "ibETH"
+ },
+ "0x24088c81f20a18cd482ab4b6ede6972f0d2a8b2c": {
+  "name": "KO Token",
+  "symbol": "KO"
+ },
+ "0x240f765af2273b0cab6caff2880d6d8f8b285fa4": {
+  "name": "eZKalibur Token",
+  "symbol": "SWORD"
+ },
+ "0x243bddfe27adc8cafe4a0364e0a2fade8b6566a1": {
+  "name": "Reward Cow Uniswap zkSync WETH-WBTC",
+  "symbol": "rcowUniswapzkSyncWETH-WBTC"
+ },
+ "0x244c238325fc1bdf6eded726ee1b47d55895d944": {
+  "name": "Zorro",
+  "symbol": "ZORRO"
+ },
+ "0x2463a33a2d6f616164e8d1288719c0ab6d6407c7": {
+  "name": "SyncSwap WETH/APPA Classic LP",
+  "symbol": "WETH/APPA cSLP"
+ },
+ "0x248e9b347753acff16bed630631b106e7643eff4": {
+  "name": "MMF Share USDC",
+  "symbol": "mUSDC"
+ },
+ "0x24b7c8ca4379b3f2a833c5d56a7b11d1b274b463": {
+  "name": "Rollup USD",
+  "symbol": "xUSD"
+ },
+ "0x24cec6e2f5dab73503d47a1a2859e1a2d267a393": {
+  "name": "UNIswap",
+  "symbol": "UNI rewards on getunib.pro"
+ },
+ "0x24f4614511f82829dd86515e92e7de1881f85375": {
+  "name": "SyncSwap WETH/FUL Classic LP",
+  "symbol": "WETH/FUL cSLP"
+ },
+ "0x25a5bf49ce9b93b8a5f3a151332dd6915e0b4083": {
+  "name": "VolatileV1 AMM - USDC/USDT",
+  "symbol": "vAMM-USDC/USDT"
+ },
+ "0x25bed30c7149709b4a20d8012b2664c5f4eb7dda": {
+  "name": "Mithraeum Ingot @0",
+  "symbol": "mINGOT @0"
+ },
+ "0x25ddc0817e3108e014b53921cac55f43a7f0425b": {
+  "name": "OT OT LP",
+  "symbol": "OT LP"
+ },
+ "0x268a1dea9456803bfc9ec9fa43b346f3810e1f9c": {
+  "name": "!",
+  "symbol": "USD0 [www.usual.promo]"
+ },
+ "0x26ac1d9945f65392b8e4e6b895969b5c01a7b414": {
+  "name": "Kannagi Token",
+  "symbol": "$KANA"
+ },
+ "0x27c546772753ec990f720609c044910ffd3b71df": {
+  "name": "Mithraeum Wood @0",
+  "symbol": "mWOOD @0"
+ },
+ "0x280206327dd7cf260339c9e15e4b5b7b717b3324": {
+  "name": "zink Token",
+  "symbol": "ZKT"
+ },
+ "0x2844ec8a0c85f8f9b4ed4f04ef71ec8594907a0a": {
+  "name": "NoFomo",
+  "symbol": "Nfomo"
+ },
+ "0x286f34bf2384b38067709e2abb255aa16d79f0e5": {
+  "name": "Onsenswap token",
+  "symbol": "ON"
+ },
+ "0x28a487240e4d45cff4a2980d334cc933b7483842": {
+  "name": "Matic Token",
+  "symbol": "MATIC"
+ },
+ "0x28db77f22d6964d1587c909a893f561a58a64a3d": {
+  "name": "ZKSwap Era",
+  "symbol": "ZKS-ERA"
+ },
+ "0x29b25e129553074ab2af2b8a9a8d11e04d4474b2": {
+  "name": "FLUX LP",
+  "symbol": "FluxLP"
+ },
+ "0x2a2d0f06e9fed04e828346168c382ff6ef434d4d": {
+  "name": "ParaSpace Variable Debt Token USDC",
+  "symbol": "vDebtUSDC"
+ },
+ "0x2a936038b695f48b68a560cf01c4cf8899616c5c": {
+  "name": "SyncSwap ZAT/WETH Classic LP",
+  "symbol": "ZAT/WETH cSLP"
+ },
+ "0x2a93d5a40fdb3182ae2402d589be125f01b8a852": {
+  "name": "zk Pepe",
+  "symbol": "PEPE"
+ },
+ "0x2aeb671087044ef308603e271702134e1eab5505": {
+  "name": "ZF BUSD/WETH LP Token",
+  "symbol": "BUSD/WETH ZFLP"
+ },
+ "0x2b64237277c605d07f17b96f9627712340c32981": {
+  "name": "ZkSync Gem Token",
+  "symbol": "ZGEM"
+ },
+ "0x2b98e0f95aaae12bb29f54d29130ddb3c7bb3fd8": {
+  "name": "Cow Uniswap zkSync USDC.e-ZK",
+  "symbol": "cowUniswapzkSyncUSDC.e-ZK"
+ },
+ "0x2c0737aaf530714067396131ee9be9cee4cf09a0": {
+  "name": "Stable Mute LP (USDC/WETH)",
+  "symbol": "sMLP (USDC/WETH)"
+ },
+ "0x2c26e290c17a1a0d57f029e9bc6f1af54f1fedcf": {
+  "name": "SyncSwap ZAS/WETH Classic LP",
+  "symbol": "ZAS/WETH cSLP"
+ },
+ "0x2c3b35f79395b25b9ac1a0edcd8d349fdc6ffe10": {
+  "name": "SyncZilla",
+  "symbol": "szilla"
+ },
+ "0x2c5ab8079d90bc47f8faab841144cb9408c2a183": {
+  "name": "Maverick BP-WETH-wstETH-31",
+  "symbol": "MBP-WETH-wstETH-31"
+ },
+ "0x2c72bfbea87ad1107da0e4b3431e39c47a23b955": {
+  "name": "Staked ZOHM",
+  "symbol": "sZOHM"
+ },
+ "0x2c90fac8715e201d62f1290ccb2e2bb62ec54e3a": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "GRAI/wstETH-A"
+ },
+ "0x2cb837ebdd0d833b85dd30a970e9cba7866190ab": {
+  "name": "Ultra Crypto Volatility Token",
+  "symbol": "UCVI"
+ },
+ "0x2d20b8891f2f9ed0ebf1b179b2279f936dec9282": {
+  "name": "Syncus",
+  "symbol": "SYNC"
+ },
+ "0x2da171edd377031058664d10fc978b00a1767708": {
+  "name": "CFFeeToken",
+  "symbol": "CF"
+ },
+ "0x2ddb4ff16093e4596abc4312f9b88ab02a8df8ed": {
+  "name": "Marathon OFT",
+  "symbol": "MARA"
+ },
+ "0x2df5b3bddf75bf4ae6dd825092f67372f66551cb": {
+  "name": "Fee ZLP",
+  "symbol": "fZLP"
+ },
+ "0x2e1f783f1503eb5d62e6790c0290010e01534c68": {
+  "name": "desAIgns by AIgentFi",
+  "symbol": "0xDESAIGN"
+ },
+ "0x2e767203f76d93bdee409d61fd6d6e0ff91a17db": {
+  "name": "VolatileV1 AMM - WETH/USD+",
+  "symbol": "vAMM-WETH/USD+"
+ },
+ "0x2eba868354e756a7e90287aa53640e307c87157a": {
+  "name": "Maverick Position-WETH-wstETH-233",
+  "symbol": "MP-WETH-wstETH-233"
+ },
+ "0x2ed884f79055fdac1f3e0f9128774bd3ac2db362": {
+  "name": "Core Hunter",
+  "symbol": "CHR"
+ },
+ "0x2ef0480594b65e24be29fb2eaa78e288c4d6bacc": {
+  "name": "vested ZFI",
+  "symbol": "vstZFI"
+ },
+ "0x2f5088c6ccd4d381467c9facf4a377d8bc7c4fb1": {
+  "name": "Mithraeum Ore @0",
+  "symbol": "mORE @0"
+ },
+ "0x2f71b856e99c36eaf6dabece012e857741255536": {
+  "name": "Vested ZKE",
+  "symbol": "vZKE"
+ },
+ "0x2f851600a2cdba2163b791460663f0b0da4fdc90": {
+  "name": "ZK",
+  "symbol": "Claim on: airdrop-zk.com"
+ },
+ "0x2f96f4397adddf9c2eeb5233a29556be26eb9450": {
+  "name": "OSD",
+  "symbol": "OSD"
+ },
+ "0x2fb40160020ca0f87f3d2169e2af74f0706ef561": {
+  "name": "Vested FLP",
+  "symbol": "vFLP"
+ },
+ "0x30a49ee2a0814bc9cb56bd6d8a2941c23154683d": {
+  "name": "zkWaterfall",
+  "symbol": "ZKWATERFALL"
+ },
+ "0x31102468b3dcf3d7a2baeee1350602cad9038c65": {
+  "name": "TON",
+  "symbol": "# TONCrypto.io"
+ },
+ "0x31259f26dbe4a165305aa976dd8ce03c8f1a547e": {
+  "name": "Pikachu Taxi AI by AIgentFi",
+  "symbol": "PIKATXAI"
+ },
+ "0x31751bd4e8ff2ac8ae4d9501e905782f7d0e247c": {
+  "name": "Velocore",
+  "symbol": "VC"
+ },
+ "0x31c2c031fdc9d33e974f327ab0d9883eae06ca4a": {
+  "name": "zkSwap Finance",
+  "symbol": "ZF"
+ },
+ "0x31c330f2febda65693ec8801b77a93c6d1f479e4": {
+  "name": "ZF StableSwap LPs",
+  "symbol": "Stable-LP"
+ },
+ "0x31c693f80a0dd1021d6cb097d256585f37168174": {
+  "name": "Worldcoin",
+  "symbol": "WLD"
+ },
+ "0x31e7a8961d0a403cdd451bf756aa399f8694dc0e": {
+  "name": "zkfox compound WETH",
+  "symbol": "zfcWETH"
+ },
+ "0x31fb591fa1211203f3ede70e4960a0d3e2337e98": {
+  "name": "ALEX AI",
+  "symbol": "ALEX"
+ },
+ "0x3236c7d905b2fcfb43665f0a59ed07cae54cb019": {
+  "name": "StableV1 AMM - USDC/WETH",
+  "symbol": "sAMM-USDC/WETH"
+ },
+ "0x3239b2fb367243d827fea1e460f016e15797d7ca": {
+  "name": "xDERP",
+  "symbol": "xDERP"
+ },
+ "0x323c5bc6ec6f4f1db31061ea463085b6495e4888": {
+  "name": "BabyWhale OFT",
+  "symbol": "BWHL"
+ },
+ "0x32440d79446e25e90ff4dee5807b61d759c8d264": {
+  "name": "Shared-liquidity stETH",
+  "symbol": "slstETH"
+ },
+ "0x325a58ea4e7450780b3ce888fd69c4e1b58cf505": {
+  "name": "ZF WETH/LETH LP Token",
+  "symbol": "WETH/LETH ZFLP"
+ },
+ "0x32ec102cd9d885d9c72c6686b001f8c9541ac05f": {
+  "name": "Zkexchange",
+  "symbol": "ZksEx"
+ },
+ "0x32fd44bb869620c0ef993754c8a00be67c464806": {
+  "name": "Rocket Pool ETH",
+  "symbol": "rETH"
+ },
+ "0x336a72ecbd7de4e70b7059d5d183fbd88684a7ff": {
+  "name": "Merlin Token",
+  "symbol": "MAGE"
+ },
+ "0x33a68b742f8b7457753cdaa5d113b74b0524a436": {
+  "name": "Petrip Coin",
+  "symbol": "PTC"
+ },
+ "0x33ec51bec17a25a7bea04bcd600cc805142efded": {
+  "name": "Volatile Mute LP (ZORRO/WETH)",
+  "symbol": "vMLP (ZORRO/WETH)"
+ },
+ "0x33fb13ab150d19434197a5ebf0ceeae06ee3003a": {
+  "name": "MuQFa Coin",
+  "symbol": "MuQFa"
+ },
+ "0x3451f54af29320fb918590cc9ba02d1cab15c928": {
+  "name": "Snark Launch",
+  "symbol": "SNRK"
+ },
+ "0x34552a0270fbf4b43426659cf51bf5624fe0a0a6": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x347b2856cde87878700548dfe13ddd85bd1d0ea3": {
+  "name": "Maverick BP-ZK-WETH-43",
+  "symbol": "MBP-ZK-WETH-43"
+ },
+ "0x35571fc04a9d6f102f21e608f9a7c8588f93abfa": {
+  "name": "Slime Token",
+  "symbol": "SLIME"
+ },
+ "0x35babc5fb4a80a433a81ff68093902585b4d58e5": {
+  "name": "ZF USDC/WBTC LP Token",
+  "symbol": "USDC/WBTC ZFLP"
+ },
+ "0x36002f692234cdf2f115ee701a9899dcb69f19d8": {
+  "name": "zkFinance Ethereum Token",
+  "symbol": "zkETH"
+ },
+ "0x3613ad277df1d5935d41400a181aa9ec1dc2dc9e": {
+  "name": "Wagmi",
+  "symbol": "WAGMI"
+ },
+ "0x3666efac861b6b442d293633ff0997da74a416e4": {
+  "name": "Nothing by AIgentFi",
+  "symbol": "Not"
+ },
+ "0x366d17adb24a7654dbe82e79f85f9cb03c03cd0d": {
+  "name": "zkBitcoin",
+  "symbol": "zkBTC"
+ },
+ "0x36962c52bbc20b7a4a39626bee124f4df853d3a8": {
+  "name": "ZkFeg",
+  "symbol": "$zkFEG"
+ },
+ "0x3698128875408f48af22cddb215afacec583c751": {
+  "name": "sUSD [Synthetix.cc]",
+  "symbol": "sUSD [Synthetix.cc]"
+ },
+ "0x36a5028d7f7750ba25b0bc672b5107f073d663fd": {
+  "name": "VolatileV1 AMM - LSD/WETH",
+  "symbol": "vAMM-LSD/WETH"
+ },
+ "0x36ba1b2d8b3dd4f1380ab6c23dc0e4c913f730bb": {
+  "name": "FutureCash",
+  "symbol": "FC"
+ },
+ "0x37dad75d9076f7f6ebc719d9979d80f3bb0d9ae9": {
+  "name": "ZAS",
+  "symbol": "ZAS"
+ },
+ "0x3848dbd3eac429497abd464a18fbec78ef76f750": {
+  "name": "Stable Mute LP (USDC/USD+)",
+  "symbol": "sMLP (USDC/USD+)"
+ },
+ "0x385339083fd02efc82eeaee790b46ce09fb61fa9": {
+  "name": "SyncSwap ZF/WETH Classic LP",
+  "symbol": "ZF/WETH cSLP"
+ },
+ "0x3966e0e2dc6214c8f2b1f422fd86bac8b186906d": {
+  "name": "Mithraeum Ingot @0",
+  "symbol": "mINGOT @0"
+ },
+ "0x39d82e07025b52572d271e7029e19289216138ae": {
+  "name": "AIphabet by AIgentFi",
+  "symbol": "AIG"
+ },
+ "0x39fe7a0dacce31bd90418e3e659fb0b5f0b3db0d": {
+  "name": "USDe",
+  "symbol": "USDe"
+ },
+ "0x3a287a06c66f9e95a56327185ca2bdf5f031cecd": {
+  "name": "PancakeSwap Token",
+  "symbol": "Cake"
+ },
+ "0x3a2fa6b8d7e695b624d683500ea50397ad609bd6": {
+  "name": "Lucky Cat Token",
+  "symbol": "LCT"
+ },
+ "0x3a446ecc4b6f1bf0d45709d100e2371c32f6c392": {
+  "name": "Volatile Mute LP (WETH/KOI)",
+  "symbol": "vMLP (WETH/KOI)"
+ },
+ "0x3a4fea0cf14c18c21975ff08efe11c08cccefe10": {
+  "name": "OrbitPad",
+  "symbol": "OPAD"
+ },
+ "0x3a6f5ea6b9b781c37f25164d9c25534edd87d290": {
+  "name": "Zoro Ether",
+  "symbol": "zETH"
+ },
+ "0x3aaa323ebb537a68ded727247bcfac14dfa33577": {
+  "name": "VolatileV1 AMM - WETH/MVX",
+  "symbol": "vAMM-WETH/MVX"
+ },
+ "0x3b56fcaa31fae78c5239292227ebef12ce76eed0": {
+  "name": "esZKDX",
+  "symbol": "esZKDX"
+ },
+ "0x3b925184c17b4648da212229a2fde6a8031462ee": {
+  "name": "Dudiez Meme Token",
+  "symbol": "DUDIEZ"
+ },
+ "0x3beff5cc75f04e3717676dae3eeac8f57a8ca493": {
+  "name": "Basmati",
+  "symbol": "BSMTI"
+ },
+ "0x3c0f7dda83fc0e4da3ffd726e42e13b93790cc92": {
+  "name": "zkRoshi",
+  "symbol": "zkRoshi"
+ },
+ "0x3c15bd219f35f21e871159fe34726b190e2b00aa": {
+  "name": "USD FLUX",
+  "symbol": "FUSD"
+ },
+ "0x3c9277724b1e1011038ac4c579840ed324ae7301": {
+  "name": "ORBAMA",
+  "symbol": "ORBAMA"
+ },
+ "0x3cd3e41ff4b95a8ddc915f3c7615ab6f2b478c33": {
+  "name": "Locked VC",
+  "symbol": "veVC"
+ },
+ "0x3d0c29c27c8b9b3824853c2aecf1cf9617734a0b": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x3d9e6739863869e2078152cef2fd1c656620aee0": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "USDT/WETH-A"
+ },
+ "0x3dabfd167b7eebc3b41e71f616efa0571906ef2b": {
+  "name": "VolatileV1 AMM - WETH/WBTC",
+  "symbol": "vAMM-WETH/WBTC"
+ },
+ "0x3df5bd0584960741110536c9a9d3bc51fae58ac5": {
+  "name": "eZKalibur LP",
+  "symbol": "eZK-LP"
+ },
+ "0x3e1f1812c2a4f356d1b4fb5ff7cca5b2ac653b94": {
+  "name": "ZeroLend zK Variable Debt BUSD",
+  "symbol": "variableDebtz0BUSD"
+ },
+ "0x3e9c747db47602210ea7513c9d00abf356b53880": {
+  "name": "aiws",
+  "symbol": "aiws"
+ },
+ "0x3ef7cb33876db7f5d811686d95b597ea9c471b6c": {
+  "name": "zkRocket",
+  "symbol": "ZKR"
+ },
+ "0x3f0b8b206a7fbdb3ecfc08c9407ca83f5ab1ce59": {
+  "name": "1INCH Token",
+  "symbol": "1INCH"
+ },
+ "0x3f1463ef69b2065eb9206c1298da830c0c9402e1": {
+  "name": "Stellar Program",
+  "symbol": "SRB"
+ },
+ "0x3f3bc35496f4ef1b89e96da54ddc0310a43af6ba": {
+  "name": "#Synthetix.cc (sUSD)",
+  "symbol": "#Synthetix.cc (sUSD)"
+ },
+ "0x3fcd3f8e367c242ab585ae4f456beb2507972f7f": {
+  "name": "Eternal Star",
+  "symbol": "ES"
+ },
+ "0x405a7426277c288e963a9b6ab2c9e5e6c4b5f05c": {
+  "name": "CrowdTokenWrapper",
+  "symbol": "CROWD"
+ },
+ "0x406501c05959e341efed908634ef71174f0b3f4a": {
+  "name": "GemSwap LPs",
+  "symbol": "GLP"
+ },
+ "0x407b78fd08c29a2b2ea842423de9b1457598fd60": {
+  "name": "ZK-Swap Reinvestment Token",
+  "symbol": "ZKSWAP-RT"
+ },
+ "0x40b768de8b2e4ed83d982804cb2fcc53d2529be9": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "USDC.e/ZK-A"
+ },
+ "0x40e76c271e501803ae7f6854ae06c68231c6ec91": {
+  "name": "KyberSwap LP USDC.e-WETH",
+  "symbol": "KS-LP USDC.e-WETH"
+ },
+ "0x41b737ef7c9271ebe9c9da106745cf99b379ab7e": {
+  "name": "Impermax Borrowable",
+  "symbol": "imxB"
+ },
+ "0x41c5637b2c0e98ca128870fe42c0fe53cd119217": {
+  "name": "SyncSwap USDC/SPACE Classic LP",
+  "symbol": "USDC/SPACE cSLP"
+ },
+ "0x41c618cce58fb27caf4eeb1dd25de1d03a0daac6": {
+  "name": "ZeroLend zK Variable Debt LUSD",
+  "symbol": "variableDebtz0LUSD"
+ },
+ "0x421972b58a1e46a6b89fd80f9c0e5bc6c1b8e0e5": {
+  "name": "CHIP",
+  "symbol": "CHIP"
+ },
+ "0x42c1c56be243c250ab24d2ecdcc77f9ccaa59601": {
+  "name": "Perpetual",
+  "symbol": "PERP"
+ },
+ "0x42d106c4a1d0bc5c482c11853a3868d807a3781d": {
+  "name": "Velocore LP: USDC + ETH",
+  "symbol": "USDC-ETH-VLP"
+ },
+ "0x430e32c19805dbdfc114a04c03886c2509c45055": {
+  "name": "ZF ZORRO/WETH LP Token",
+  "symbol": "ZORRO/WETH ZFLP"
+ },
+ "0x437bea54e2a6b154ab1efa866a939a97574e8940": {
+  "name": "GOLD",
+  "symbol": "GOLD"
+ },
+ "0x43cd37cc4b9ec54833c8ac362dd55e58bfd62b86": {
+  "name": "Curve.Fi USD Stablecoin",
+  "symbol": "crvUSD"
+ },
+ "0x4424440ae75bb062bc75d77ab1de770eb60be59f": {
+  "name": "ZF SPACE/WETH LP Token",
+  "symbol": "SPACE/WETH ZFLP"
+ },
+ "0x447959474f42e6ac72381047e90dc7923c013158": {
+  "name": "$ZKpepe",
+  "symbol": "$ZKpepe (Claim on zkpepe.pro)"
+ },
+ "0x44aa3eedd3214ddd02e8b3fe1e8ae4cac452a2e0": {
+  "name": "beefy.finance",
+  "symbol": "BIFI"
+ },
+ "0x44e4a7f3de18c6e843bfe8754c23aa4e67e6a433": {
+  "name": "DefiEdge Share",
+  "symbol": "DEShare"
+ },
+ "0x45559297bdedf453e172833ac7086f7d03f6690b": {
+  "name": "ZK INU",
+  "symbol": "$ZKINU"
+ },
+ "0x45656c02aae856443717c34159870b90d1288203": {
+  "name": "HYCO",
+  "symbol": "HYCO"
+ },
+ "0x45856bd6bb9f076f4c558a4d5932c6c8d832b0d0": {
+  "name": "SyncSwap ZK/WETH Classic LP",
+  "symbol": "ZK/WETH cSLP"
+ },
+ "0x458a2e32eabc7626187e6b75f29d7030a5202bd4": {
+  "name": "LSD Coin",
+  "symbol": "LSD"
+ },
+ "0x460009bf2353e859f5f59131f0e6a31b8f630dca": {
+  "name": "zkGold",
+  "symbol": "zkGold"
+ },
+ "0x47260090ce5e83454d5f05a0abbb2c953835f777": {
+  "name": "SPACE",
+  "symbol": "SPACE"
+ },
+ "0x4756c5c741958074179bc3bbb4b578fb508a3a72": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "WETH/WBTC-A"
+ },
+ "0x476e533c007b7fba032abbe54d0c5dda9d16d57d": {
+  "name": "Eye Of Hurricane",
+  "symbol": "EOH"
+ },
+ "0x4799eb669b1fae2eb36207e704ffea092e8401a8": {
+  "name": "PqMeT Coin",
+  "symbol": "PqMeT"
+ },
+ "0x47bbad4fb85acfa49f724da218b9b0c261cb7b4b": {
+  "name": "yLong",
+  "symbol": "yLONG"
+ },
+ "0x47c7efcb14963f559a5dce3e668470305cfe2f27": {
+  "name": "Wu",
+  "symbol": "WU"
+ },
+ "0x47ef4a5641992a72cfd57b9406c9d9cefee8e0c4": {
+  "name": "zkApes token",
+  "symbol": "ZAT"
+ },
+ "0x4848204d1ee4422d91d91b1c89f6d2f9ace09e2c": {
+  "name": "ZF WETH/wstETH LP Token",
+  "symbol": "WETH/wstETH ZFLP"
+ },
+ "0x48583afbaf914bed8adb991e50ce5f18a8d7bfe0": {
+  "name": "ZKSP Token",
+  "symbol": "ZKSP"
+ },
+ "0x487b6645068e49ad8ca8c082327dab1f4dc2ecbf": {
+  "name": "VolatileV1 AMM - BIFI/WETH",
+  "symbol": "vAMM-BIFI/WETH"
+ },
+ "0x48a33e03e82d4ac99db7021bbe830e8e33c6c7dd": {
+  "name": "Velocore LP: RF + ETH",
+  "symbol": "RF-ETH-VLP"
+ },
+ "0x48a7a10ee6a9de6cae152be70df7ff166fba70e6": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x48d41a388c90c1e842875ed006b7eff1cd5d8126": {
+  "name": "SyncSwap MUTE/USDC Classic LP",
+  "symbol": "MUTE/USDC cSLP"
+ },
+ "0x48f9c12412cf31fb5411d1ca95f8e9cfab435c7c": {
+  "name": "EthenaDrop.net",
+  "symbol": "ENA-W [EthenaDrop.net]"
+ },
+ "0x490fe10d33a058aeb33d55dafe9c4f9694c4138b": {
+  "name": "VolatileV1 AMM - VS/WETH",
+  "symbol": "vAMM-VS/WETH"
+ },
+ "0x494d4ecff27765f3485877dbaeca2afd67d3318f": {
+  "name": "SyncSwap WETH/PEPE Classic LP",
+  "symbol": "WETH/PEPE cSLP"
+ },
+ "0x496d88d1efc3e145b7c12d53b78ce5e7eda7a42c": {
+  "name": "Shared-liquidity USDT",
+  "symbol": "slUSDT"
+ },
+ "0x4992eb45172868f0d8cceb91190e159bdf571461": {
+  "name": "Rollup USD Share",
+  "symbol": "RUSD"
+ },
+ "0x49c47ccc5b76ba170c51d5a2ce4e7d7391ea2aad": {
+  "name": "StableV1 AMM - USDC/USDT",
+  "symbol": "sAMM-USDC/USDT"
+ },
+ "0x49e7c31df8552f0713e645ef2f135c1569f5910a": {
+  "name": "",
+  "symbol": "ENA-W (www.ethena.promo)"
+ },
+ "0x49efb4ce6d7e80b6fc5a06829e3de00344fff65e": {
+  "name": "SyncSwap MATIC/WETH Classic LP",
+  "symbol": "MATIC/WETH cSLP"
+ },
+ "0x4a57da213a589f305b8411f15f64fb8c5724e7ce": {
+  "name": "KeyofLife.fi/keyVC - Velocore wrapper",
+  "symbol": "keyVC"
+ },
+ "0x4a6211454d6af581c5529f69a05686406bf062aa": {
+  "name": "ZF VS/WETH LP Token",
+  "symbol": "VS/WETH ZFLP"
+ },
+ "0x4a77f81e6fd63529b706891849daa71b10b3c57d": {
+  "name": "www.ethena.markets",
+  "symbol": "ENA-W (www.ethena.markets)"
+ },
+ "0x4aaeec551f81ce5acf0e06174f0ada522891b5fe": {
+  "name": "Depth Desc Tick Theft Coin",
+  "symbol": "DDTTC"
+ },
+ "0x4af1c74b1fe14c4945f35a2bc95b52f5b43ca168": {
+  "name": "Volatile Mute LP (DAI/WETH)",
+  "symbol": "vMLP (DAI/WETH)"
+ },
+ "0x4b2e75f8a594de349d3e374d94bf88551c46c761": {
+  "name": "ZF BUSD/USDC LP Token",
+  "symbol": "BUSD/USDC ZFLP"
+ },
+ "0x4b747b1f9dbae8c55b007817553b49acb360812f": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x4b9f00860d7f42870addeb687fa4e47062df71d9": {
+  "name": "StableV1 AMM - USDC/USD+",
+  "symbol": "sAMM-USDC/USD+"
+ },
+ "0x4bc4635d7bd964d7e3a1d9b471d55c092a781e3f": {
+  "name": "Staked + Bonus + Fee FUL",
+  "symbol": "sbfFUL"
+ },
+ "0x4be6f11ee1310ecf29a9d0130a12a9d0885e0c92": {
+  "name": "ZenPandaCoin V2",
+  "symbol": "ZPC"
+ },
+ "0x4bffa9b9e0a38d29647b374259811664381bd2b9": {
+  "name": "RTXAI by AIgentFi",
+  "symbol": "RTXAI"
+ },
+ "0x4c23edfae637c6ea3beb2393f9d3185ca60869fb": {
+  "name": "testTokenZK",
+  "symbol": "ZK"
+ },
+ "0x4c3861906b24a72adc944798c22cc450443a40ac": {
+  "name": "Tarot",
+  "symbol": "TAROT"
+ },
+ "0x4c4d5ec997589b03a3a8742c0e228cee28aee124": {
+  "name": "Pool 1 Share",
+  "symbol": "P1-SHARE"
+ },
+ "0x4c966f8632ae476ed2e01ba55ff8e2eb85301e87": {
+  "name": "OT OT LP",
+  "symbol": "OT LP"
+ },
+ "0x4ca2ac3513739cebf053b66a1d59c88d925f1987": {
+  "name": "yZF",
+  "symbol": "yZF"
+ },
+ "0x4cd3819b55a48c072361808e26a90b700760d58f": {
+  "name": "zkSync (ZK)",
+  "symbol": "Claim on: airdrop-zk.live"
+ },
+ "0x4cef4f4136f3dd4a4f00684d5d754bbe260a3074": {
+  "name": "GemSwap LPs",
+  "symbol": "GLP"
+ },
+ "0x4d321cd88c5680ce4f85bb58c578dfe9c2cc1ef6": {
+  "name": "KyberSwap LP USDC.e-USDT",
+  "symbol": "KS-LP USDC.e-USDT"
+ },
+ "0x4d9193d87c57c0839157f8efde0a6aa8f4118a33": {
+  "name": "Vested FUL",
+  "symbol": "vFUL"
+ },
+ "0x4e14ec08875c88f9b0cf2a075f481eda0143d1f0": {
+  "name": "Wrapped TON Coin",
+  "symbol": "TONCOIN"
+ },
+ "0x4e313ff3a7210b9356be34fd35007d42a0b8cd24": {
+  "name": "Veno Fountain Boost Token",
+  "symbol": "VFB"
+ },
+ "0x4e3f5039896f169ce1c96dc543c2a655511252e7": {
+  "name": "Nothing by AIgentFi",
+  "symbol": "NOTHING"
+ },
+ "0x4e467ae3c09bf05820eb686c295c8350da96a413": {
+  "name": "Mithraeum Food @0",
+  "symbol": "mFOOD @0"
+ },
+ "0x4e5174994f1d55421c888e71a91852f69db0dd92": {
+  "name": "eZKalibur LP",
+  "symbol": "eZK-LP"
+ },
+ "0x4e53a206c1a59a012b6de7e088d1be6d5e3dfedf": {
+  "name": "ParaSpace Variable Debt Token WETH",
+  "symbol": "vDebtWETH"
+ },
+ "0x4e6bfda010ff025562ef797e1032d27f5e0bf662": {
+  "name": "OT WETH LP",
+  "symbol": "WETH LP"
+ },
+ "0x4e72cd795acb63e4922fe22d2d6af501a03a5b32": {
+  "name": "zkSync (ZK)",
+  "symbol": "Claim on: official-zk.com"
+ },
+ "0x4e7d2e3f40998daeb59a316148bfbf8efd1f7f3c": {
+  "name": "SyncSwap LUSD/WETH Classic LP",
+  "symbol": "LUSD/WETH cSLP"
+ },
+ "0x4e9c8cdc2fa7f44605205da6334e6c83996db889": {
+  "name": "OT USDC LP",
+  "symbol": "USDC LP"
+ },
+ "0x4ebfb78c4780c304dff7de518db630b67e3f044b": {
+  "name": "TiTi",
+  "symbol": "TiTi"
+ },
+ "0x4edab34f1c8ee04e930d68bdf0522cb2b6ad7472": {
+  "name": "bonsAI by AIgentFi",
+  "symbol": "$BONSAI"
+ },
+ "0x4f56370cd9c7e22548152c65f293b5c11e6bf057": {
+  "name": "Maverick Position-WETH-LETH-235",
+  "symbol": "MP-WETH-LETH-235"
+ },
+ "0x4f91f1321b3e686a93763a9b42e7d6ce6e999a78": {
+  "name": "xBank Wrapped BTC",
+  "symbol": "xWBTC"
+ },
+ "0x4fc651ae72d2e5b8bd79a68c84e543947968b7f8": {
+  "name": "fish",
+  "symbol": ""
+ },
+ "0x4feed41fdbbbdc45a44797dd842397b5e9fe0cda": {
+  "name": "123",
+  "symbol": "123"
+ },
+ "0x503234f203fc7eb888eec8513210612a43cf6115": {
+  "name": "LUSD Stablecoin",
+  "symbol": "LUSD"
+ },
+ "0x503b2adcd72efe21221e711387a737fd0c4f945e": {
+  "name": "ParaSpace Derivative Token WETH",
+  "symbol": "pWETH"
+ },
+ "0x5095677a34133e790fd49c3e0732134b66e81b8b": {
+  "name": "ZK-Swap Reinvestment Token",
+  "symbol": "ZKSWAP-RT"
+ },
+ "0x50c92421620d9c2d4381690cad4a8728fe87630d": {
+  "name": "SyncSwap WETH/TES Classic LP",
+  "symbol": "WETH/TES cSLP"
+ },
+ "0x5155704bb41fde152ad3e1ae402e8e8b9ba335d3": {
+  "name": "Soul",
+  "symbol": "Soul"
+ },
+ "0x5165ec33b491d7b67260b3143f96bb4ac4736398": {
+  "name": "Long",
+  "symbol": "LONG"
+ },
+ "0x520036cbbb0fb089cfecfdb66b68d53e21a6d789": {
+  "name": "fox Velocore",
+  "symbol": "fVC"
+ },
+ "0x5201b081f63b1915b00ce02da88c4f91dd339bfc": {
+  "name": "Stable Mute LP (WETH/wstETH)",
+  "symbol": "sMLP (WETH/wstETH)"
+ },
+ "0x52153a768b2fff711d3cbe283833bf3e3e17c4a9": {
+  "name": "VolatileV1 AMM - USDC/USDT",
+  "symbol": "vAMM-USDC/USDT"
+ },
+ "0x5217483171b2550c74234c583620c355b74b3095": {
+  "name": "Froggy Token",
+  "symbol": "FROG"
+ },
+ "0x5238b88e92fa4f70dd91c445c2c7ceac81bf7fe1": {
+  "name": "Foo",
+  "symbol": "FOO"
+ },
+ "0x528d7be22a51695973edb29a7829d438abd4737a": {
+  "name": "zkfox compound USDC",
+  "symbol": "zfcUSDC"
+ },
+ "0x5298d95a128851aab5669ad1b96d9203985911c4": {
+  "name": "Wrapped Ether",
+  "symbol": "WETH"
+ },
+ "0x529a1517f463694838ef9a3a18d355707972cc24": {
+  "name": "Velocore LP: wstETH + ETH",
+  "symbol": "wstETH-ETH-VLP"
+ },
+ "0x530dc536192f3b677866449daa1024be558762ca": {
+  "name": "ZERCToken",
+  "symbol": "ZERC"
+ },
+ "0x533b5f887383196c6bc642f83338a69596465307": {
+  "name": "Snark Launch",
+  "symbol": "$SNRK"
+ },
+ "0x536448932ad417d1f60eca844ac6fc4beb856dc9": {
+  "name": "SyncSwap iZi/WETH Classic LP",
+  "symbol": "iZi/WETH cSLP"
+ },
+ "0x53bfd72fc66752c57290bfe06a503ba3de9df830": {
+  "name": "Lucky Star",
+  "symbol": "LS"
+ },
+ "0x53deea446f15dcd7e5912ec971f11b4e296bbf8d": {
+  "name": "#SNXPool.com (sUSD)",
+  "symbol": "#SNXPool.com (sUSD)"
+ },
+ "0x53ef3a2bb49bb3a8617fd3a95efbd57494684473": {
+  "name": "debtIbUSDC",
+  "symbol": "debtIbUSDC"
+ },
+ "0x5441e6fb74c4ab7c6995f586d67d1e7555c3dbae": {
+  "name": "VolatileV1 AMM - iZi/WETH",
+  "symbol": "vAMM-iZi/WETH"
+ },
+ "0x545331e43e352370e99db17e7e34fd0fbd63c8a8": {
+  "name": "zkNyan",
+  "symbol": "NYAN"
+ },
+ "0x545bc9bd069c687fab0888ebc927bd6dead4aa2e": {
+  "name": "UraniumFinance",
+  "symbol": "UFI"
+ },
+ "0x548b61b2b2af4618ad58b2f579764f857e271db9": {
+  "name": "SyncSwap AAI/WETH Classic LP",
+  "symbol": "AAI/WETH cSLP"
+ },
+ "0x54de43b6ba21a5553697a2b78338e046dd7e0278": {
+  "name": "Merkly OFT",
+  "symbol": "MERK"
+ },
+ "0x54e710b22d688df71fdb98571e2066bee66c45de": {
+  "name": "Staked FUL",
+  "symbol": "sFUL"
+ },
+ "0x553552e3422be233dabeac046001f77db4b231c5": {
+  "name": "Velocore LP: veVC + VC",
+  "symbol": "veVC-VC-VLP"
+ },
+ "0x554d965f4d918b8b93f1bfdea004e8e8585811ba": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x55ca894c51cd38f1da032619d3779ab5ad34dad2": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x563cb1233cad5f996e281338d54bfc282efbc8db": {
+  "name": "Tarot Borrowable",
+  "symbol": "bTAROT"
+ },
+ "0x56511a7850d520b3b32707ed608a083037c5bb53": {
+  "name": "hello",
+  "symbol": "hello"
+ },
+ "0x56547ebb925346146f416f676da1c40437aee8a8": {
+  "name": "OT WETH LP",
+  "symbol": "WETH LP"
+ },
+ "0x56586a4da52391262ca0742048459dce345524e6": {
+  "name": "Boxing King",
+  "symbol": "BOXK"
+ },
+ "0x56f58d9be10929cda709c4134ef7343d73b080cf": {
+  "name": "ZeroLend zK Variable Debt WETH",
+  "symbol": "variableDebtz0WETH"
+ },
+ "0x574e2e833a010997840f368edf6542d8950c2788": {
+  "name": "SyncSwap TiTi/zk-TiUSD Classic LP",
+  "symbol": "TiTi/zk-TiUSD cSLP"
+ },
+ "0x5756a28e2aae01f600fc2c01358395f5c1f8ad3a": {
+  "name": "veSync",
+  "symbol": "VS"
+ },
+ "0x57b11c2c0cdc81517662698a48473938e81d5834": {
+  "name": "SyncSwap Stable LP",
+  "symbol": "WBTC/M-BTC-S"
+ },
+ "0x58563c1715bd752f6ad958b0de9309a1d151cae1": {
+  "name": "Rollup Vault Share",
+  "symbol": "rUSDC"
+ },
+ "0x58ba6ddb7af82a106219dc412395ad56284bc5b3": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "WETH/wrsETH-A"
+ },
+ "0x58c339cc4bfc4da0481729ccbe0523220a594568": {
+  "name": "Escrowed XBANK",
+  "symbol": "esXB"
+ },
+ "0x58fb07e1fd51edd7bba91f870ff751e67e33cec5": {
+  "name": "Volatile Mute LP (ZK/WETH)",
+  "symbol": "vMLP (ZK/WETH)"
+ },
+ "0x590a3c37f465e7662a997f755edbcf9e65536617": {
+  "name": "LiquidEther",
+  "symbol": "Eth rewards on ethstk.xyz"
+ },
+ "0x591cadfaf2f5dbbd09580c8b74a4770a9255bf28": {
+  "name": "Bladedao",
+  "symbol": "BLADE"
+ },
+ "0x5963153bc43670c62e1ec31d69fc90a0e356956b": {
+  "name": "MXP",
+  "symbol": "MXP"
+ },
+ "0x598b570fbbe2b511263667fd1ae916386315abdc": {
+  "name": "zkBumblebee",
+  "symbol": "BUM"
+ },
+ "0x59ac51cfb025adce007d1ec96a21f7c7e3f32330": {
+  "name": "Tether USD",
+  "symbol": "USDT"
+ },
+ "0x59fa1c35f9c8579e50cc9d3ddc67639563d2dfad": {
+  "name": "Mithraeum Wood @0",
+  "symbol": "mWOOD @0"
+ },
+ "0x5a6cfa206719b7769087a9c42846fdbef48f5ea9": {
+  "name": "vOT",
+  "symbol": "vOT"
+ },
+ "0x5a9074e90f3dddd4b4338801c351e6c313295c6e": {
+  "name": "ZkBonk Inu",
+  "symbol": "ZKB"
+ },
+ "0x5a95ca579830c91e8a98afd7607ccd3e8b8cb9cc": {
+  "name": "SyncSwap $SNRK/WETH Classic LP",
+  "symbol": "$SNRK/WETH cSLP"
+ },
+ "0x5a98dd0e784d4fbb4d382539ea972f4347c9cab9": {
+  "name": "StableV1 AMM - USDC/WETH",
+  "symbol": "sAMM-USDC/WETH"
+ },
+ "0x5af6c6fe6a637cdf08a40f07cf99208c000f4b6d": {
+  "name": "KyberSwap LP USDC.e-WETH",
+  "symbol": "KS-LP USDC.e-WETH"
+ },
+ "0x5b09802d62d213c4503b4b1ef5f727ef62c9f4ef": {
+  "name": "SHIBA INU",
+  "symbol": "SHIB"
+ },
+ "0x5b0e045cb467f0d8f4be20b6a205a11992004bf9": {
+  "name": "Mithraeum Horseman @0",
+  "symbol": "mHORSEMAN @0"
+ },
+ "0x5b1635b7e74e004166ace90f4f70f983824ffe1a": {
+  "name": "ZNS",
+  "symbol": "ZNS"
+ },
+ "0x5b2c304435d301ee6f3b5436511d7dd0804daa6f": {
+  "name": "SyncSwap WETH/LMAO Classic LP",
+  "symbol": "WETH/LMAO cSLP"
+ },
+ "0x5b31fc443cd7ee5bab5d3f3b03f1da74bed47b62": {
+  "name": "Mithraeum Wood @0",
+  "symbol": "mWOOD @0"
+ },
+ "0x5bf39bde21b95d77fb18f27bbcb07f3648720a2e": {
+  "name": "Wrapped Ether",
+  "symbol": "WETH"
+ },
+ "0x5c2733d62c9efd7b26eebc569408d1b839c56132": {
+  "name": "Zonk INU",
+  "symbol": "ZONKI"
+ },
+ "0x5c9fa0a3ee84cbc892ab9968d7c5086cc506432d": {
+  "name": "ZeroLend zk Variable Debt USDC",
+  "symbol": "variableDebtz0USDC"
+ },
+ "0x5cde332c804597a30c9c98a507ccdef9f106b2d9": {
+  "name": "Meditation3",
+  "symbol": "MEDIT"
+ },
+ "0x5ce63270a35b4b6c10b115221d9f8a65574c892a": {
+  "name": "communityVIVA",
+  "symbol": "cVIVA"
+ },
+ "0x5d0d7bca050e2e98fd4a5e8d3ba823b49f39868d": {
+  "name": "Zyfi Token",
+  "symbol": "ZFI"
+ },
+ "0x5d83c0850570de35eaf5c9d6215bf2e8020f656b": {
+  "name": "KyberSwap LP USDC.e-USDT",
+  "symbol": "KS-LP USDC.e-USDT"
+ },
+ "0x5dbb525aaef31ed085335aaff97372030185a3db": {
+  "name": "ZF ZKID/WETH LP Token",
+  "symbol": "ZKID/WETH ZFLP"
+ },
+ "0x5dbe66cea5734317d4b21f5588471556c306fb87": {
+  "name": "TwitFi Token",
+  "symbol": "TWT"
+ },
+ "0x5decf00abcd8334d809c5d636cb8a0cec6113489": {
+  "name": "GaZi Token",
+  "symbol": "GaZiT"
+ },
+ "0x5e38cb3e6c0faafaa5c32c482864fcef5a0660ad": {
+  "name": "Zksync Shib",
+  "symbol": "ZKSHIB"
+ },
+ "0x5e6a4fa967d03aa1f9f638353b46a5291f967d74": {
+  "name": "OkLetsPlay",
+  "symbol": "OKLP"
+ },
+ "0x5e7a46683803275d5f65f2ae51db0df9de851a93": {
+  "name": "Zksync Moon",
+  "symbol": "ZKSMOON"
+ },
+ "0x5eb97c0c94663cb05a17cbfc66ba7a366eb353c9": {
+  "name": "Brainiac by AIgentFi",
+  "symbol": "BRAIN"
+ },
+ "0x5ee9828c13c41baeab2408661bb3b65ba646db64": {
+  "name": "stacked Spiral DAO MAV",
+  "symbol": "stSprMAV"
+ },
+ "0x5ef8a72f976b4a698493edf628dc5a15a59dc367": {
+  "name": "Maverick Position-WETH-MAV-159",
+  "symbol": "MP-WETH-MAV-159"
+ },
+ "0x5f018e9d51b167aa5eec28037199767b2b31dcb0": {
+  "name": "Tiny Coin",
+  "symbol": "TINC"
+ },
+ "0x5f3268a22a624ae81281d47a247dab8f7105f2f9": {
+  "name": "USD Coin",
+  "symbol": "anyUSDC"
+ },
+ "0x5f7cbcb391d33988dad74d6fd683aadda1123e4d": {
+  "name": "ReactorFusion",
+  "symbol": "RF"
+ },
+ "0x5f90c37ec885fca36fbbd035650eb6b3df10c55c": {
+  "name": "USD Gambit",
+  "symbol": "USDG"
+ },
+ "0x5fc44e95eaa48f9eb84be17bd3ac66b6a82af709": {
+  "name": "Gravita Debt Token",
+  "symbol": "GRAI"
+ },
+ "0x5fd37f12029511f17c1898477f7fb685cf6c0c0f": {
+  "name": "KZ",
+  "symbol": "KZ"
+ },
+ "0x60143f39b54a731ac790708c8719211878e638c3": {
+  "name": "PEPERA",
+  "symbol": "PEPERA"
+ },
+ "0x6068ad384b4d330d4de77f47041885956c9f32a3": {
+  "name": "Array",
+  "symbol": "Array"
+ },
+ "0x60e14dd50ef2ff19cd1c71b76f1e17054a32f030": {
+  "name": "Wrapped SOL",
+  "symbol": "SOL"
+ },
+ "0x60e7fe7ae4461b535bb9eb40c20424c7c61063d0": {
+  "name": "zeekwifhat",
+  "symbol": "ZWIF"
+ },
+ "0x610d019dad2e95990b5bc7aa746fa52f3e91cedc": {
+  "name": "Mithraeum Food @0",
+  "symbol": "mFOOD @0"
+ },
+ "0x6131e8e4db3bdaf3446c4661fda4b590a1982494": {
+  "name": "NINJA",
+  "symbol": "NINJA"
+ },
+ "0x61b41e0244133b9c9c47a57e51a5ef70be2c5dd4": {
+  "name": "Bolt Token",
+  "symbol": "BOLT"
+ },
+ "0x61e5e2a99ac5592ac525a78459fcaab934a2da75": {
+  "name": "Reward Cow Uniswap zkSync ZK-WETH",
+  "symbol": "rcowUniswapzkSyncZK-WETH"
+ },
+ "0x62170af269e9acd09a89279c0485e89aa42857a3": {
+  "name": "RFX Pool",
+  "symbol": "RP"
+ },
+ "0x6223aacf6cc5870e5eae7a3d81ac7a789470e5a2": {
+  "name": "MetaLine VeToken",
+  "symbol": "VMTT"
+ },
+ "0x6224cd601d9745827bc59245b2d5ca36f1d3d6c8": {
+  "name": "Stable AMM - USDC/WETH",
+  "symbol": "sAMM-USDC/WETH"
+ },
+ "0x62438d9f7eaacd984c1efa76643cdcd44bb07b6c": {
+  "name": "ZF WETH/RF LP Token",
+  "symbol": "WETH/RF ZFLP"
+ },
+ "0x62eb02cb53673b5855f2c0ea4b8fe198901f34ac": {
+  "name": "VolatileV1 AMM - WETH/RF",
+  "symbol": "vAMM-WETH/RF"
+ },
+ "0x62f6f755fc794966cfa0deb48a811ebb792ce32a": {
+  "name": "Raydius",
+  "symbol": "RAYS"
+ },
+ "0x63bc0823ab9245f56c5c5ef7d7d40d6dc8ca9e61": {
+  "name": "a salute to $Cheems",
+  "symbol": "chms"
+ },
+ "0x63e70c706a4802532dadbe0808b9046318362aeb": {
+  "name": "LIBER_AI_",
+  "symbol": "LIBER"
+ },
+ "0x63edb9338d81c6d8219856548251bacf2a9b1830": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0x6450fd7f877b5bb726f7bc6bf0e6ffabd48d72ad": {
+  "name": "Aave ZkSync Variable Debt ZK",
+  "symbol": "variableDebtZksZK"
+ },
+ "0x647cf369593c172eec42a629210463e53d3c0385": {
+  "name": "l2telegraph.xyz",
+  "symbol": "l2t"
+ },
+ "0x64d34c8b9a3140d79e5a806c6ccc7ecf5ff9a371": {
+  "name": "FelToken",
+  "symbol": "FEL"
+ },
+ "0x650dcbaa2742c7bb9d3a28f47c8934dd7fa029c8": {
+  "name": "Velocore LP: USDC + USDT",
+  "symbol": "USDC-USDT-VLP"
+ },
+ "0x6567a946d10a83d65ea7caab3a2a22a1fa48e6b6": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x65741461558afe7a0a1f1bb957b314069e49a0c2": {
+  "name": "Increment Token",
+  "symbol": "INCR"
+ },
+ "0x6677ab652404cefd387a68b8e70c81ce9a722218": {
+  "name": "Onsenswap LP",
+  "symbol": "ONSEN-LP"
+ },
+ "0x6683726f37ff280b65ecc8fd2280666fd2ffc13f": {
+  "name": "Symbiosis",
+  "symbol": "SIS"
+ },
+ "0x668e9cb30cbcae57cd0c45cb2a2a4ca0413f8b45": {
+  "name": "LiquidEther",
+  "symbol": "ETH rewards on ethstk.pro"
+ },
+ "0x66df663d5756fad6ef60d7ef2553d06ffd4ed178": {
+  "name": "DIX",
+  "symbol": "DIX"
+ },
+ "0x66ed5508593b3e630f98f008f64647d0d0ff6aff": {
+  "name": "Maverick Position-LUSD-GRAI-166",
+  "symbol": "MP-LUSD-GRAI-166"
+ },
+ "0x671ced60a5b4baefd4fcaf15bed4dd1292ff14a0": {
+  "name": "escrow HOLD",
+  "symbol": "esHOLD"
+ },
+ "0x672156a43a7fba067211dfb7ea37972a3f18f93a": {
+  "name": "VolatileV1 AMM - WETH/UNIDX",
+  "symbol": "vAMM-WETH/UNIDX"
+ },
+ "0x673bdd122cf1cce3ea3e5f1facc14ccabe9b3f95": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x674a5458723944ad37f19de43a2a9c7efa191ad5": {
+  "name": "Sona_AI by AIgentFi",
+  "symbol": "SONA"
+ },
+ "0x6788706abb0b33221e652590b135c55e9d6f33d7": {
+  "name": "aizure",
+  "symbol": "aizure"
+ },
+ "0x67cc9ec102b4c283f3c4aaa41ee4b93be96187de": {
+  "name": "Hamburger Coin",
+  "symbol": "BURGER"
+ },
+ "0x682c1a84fefcefbdb7cab5e1a5102e4b42a37914": {
+  "name": "ZKBird",
+  "symbol": "ZKBIRD"
+ },
+ "0x68aa22458d09ba63d99decafeb0bf8ae83a2335a": {
+  "name": "SyncSwap WETH/OT Classic LP",
+  "symbol": "WETH/OT cSLP"
+ },
+ "0x68b5d708c805626cac5cf4e451263841516886e0": {
+  "name": "ZF ZF/USDC LP Token",
+  "symbol": "ZF/USDC ZFLP"
+ },
+ "0x68d5fe2a5b9a2f29d9e9ba92179c11cff03aa6c4": {
+  "name": "YAFMu Coin",
+  "symbol": "YAFMu"
+ },
+ "0x6937a6971e5190f627b7943e71642bafa51f4655": {
+  "name": "SyncSwap USDT/USD+ Stable LP",
+  "symbol": "USDT/USD+ sSLP"
+ },
+ "0x697a70779c1a03ba2bd28b7627a902bff831b616": {
+  "name": "Venus ZK (Core)",
+  "symbol": "vZK_Core"
+ },
+ "0x699ba8547aa1a6998372cdf6284fac0b59849ee4": {
+  "name": "zkSync (ZK)",
+  "symbol": "Claim on: official-zk.com"
+ },
+ "0x69a5b9ac403072b00f42fee1101004c911851867": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "WETH/wrsETH-A"
+ },
+ "0x69b9a2eface47419d496d9a550a162185999ace5": {
+  "name": "SyncSwap BUSD/USDC Stable LP",
+  "symbol": "BUSD/USDC sSLP"
+ },
+ "0x69cda960e3b20dfd480866fffd377ebe40bd0a46": {
+  "name": "Venus USDT (Core)",
+  "symbol": "vUSDT_Core"
+ },
+ "0x6a5279e99ca7786fb13f827fc1fb4f61684933d6": {
+  "name": "Avalanche",
+  "symbol": "AVAX"
+ },
+ "0x6a839d7269734251c0c5ea73b6ccc0ee4e541b75": {
+  "name": "Moo Venus ZK",
+  "symbol": "mooVenusZK"
+ },
+ "0x6ac88f53a5b0b34821aebc961c0e580b74a84761": {
+  "name": "$zK",
+  "symbol": "Visit https://claimzk.xyz to claim airdrop"
+ },
+ "0x6ad279f6523f6421fd5b0324a97d8f62eecd80c8": {
+  "name": "Aave ZkSync Variable Debt wstETH",
+  "symbol": "variableDebtZkswstETH"
+ },
+ "0x6af43486cb84be0e3eddcef93d3c43ef0c5f63b1": {
+  "name": "xSPACE",
+  "symbol": "xSPACE"
+ },
+ "0x6b33944b0eea67a8e4b7c6e362b92777d8d2eb92": {
+  "name": "ZK-Swap Reinvestment Token",
+  "symbol": "ZKSWAP-RT"
+ },
+ "0x6b4d59a2fbe5defdd7e53063977206d3e5c7e2d1": {
+  "name": "Tevaera",
+  "symbol": "KARMA"
+ },
+ "0x6be2425c381eb034045b527780d2bf4e21ab7236": {
+  "name": "KelpDao Restaked ETH",
+  "symbol": "rsETH"
+ },
+ "0x6c0d44b16248019c07c9b51a3f37634173115daf": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "DAI/WETH-A"
+ },
+ "0x6cb57805c836934b1bb35aca62916b0e8566f793": {
+  "name": "SyncSwap WETH/ZWIF Classic LP",
+  "symbol": "WETH/ZWIF cSLP"
+ },
+ "0x6d27b6252b980ba4350a1e349a3b684237d5e986": {
+  "name": "Hush",
+  "symbol": "HUSH"
+ },
+ "0x6d38edc3fd269cfdb7eb63dc03fd514d23ba21ab": {
+  "name": "Zollo",
+  "symbol": "ZOLLO"
+ },
+ "0x6d500c0eb63d84cbbb02340d89ced30cbc0fd3c5": {
+  "name": "ZKsync",
+  "symbol": "ZK"
+ },
+ "0x6de27426d15875ee70cd9917b3f6d54f7f47e42e": {
+  "name": "Zk Cat",
+  "symbol": "ZK\ud83d\udc31"
+ },
+ "0x6de8c9c56722e6ce4d725b1c57cb85c9fd7f5aff": {
+  "name": "ZkLady",
+  "symbol": "ZL"
+ },
+ "0x6df703056fa083c6de0023adcb68517a18ca7f09": {
+  "name": "",
+  "rpc_error": "execution reverted",
+  "symbol": ""
+ },
+ "0x6e893d508031b9bde1aa5969288fa5d197e5a480": {
+  "name": "Gamic.cc",
+  "symbol": "GAMIC"
+ },
+ "0x6eb2df372ff2146121bb44d7dc730ef1aa0fc6f3": {
+  "name": "sAInta",
+  "symbol": "SAINTA"
+ },
+ "0x6f6ede608fe49ecb17d352fd5bdb14ec4a51792f": {
+  "name": "KyberSwap LP USDT-WETH",
+  "symbol": "KS-LP USDT-WETH"
+ },
+ "0x6f8681f8a33a549adb8b906db49ba39957c5aaf2": {
+  "name": "Fee + Staked FLP",
+  "symbol": "fsFLP"
+ },
+ "0x6fd27e2137f5965e029e681fd2aca6ccb4304044": {
+  "name": "ZKX",
+  "symbol": "ZKX"
+ },
+ "0x6fd32b143efab1153b37c661a06fbdb8f37c4659": {
+  "name": "Waterfall",
+  "symbol": "WATERFALL"
+ },
+ "0x703b52f2b28febcb60e1372858af5b18849fe867": {
+  "name": "Wrapped liquid staked Ether 2.0",
+  "symbol": "wstETH"
+ },
+ "0x719734ee88cfd6dfa209bfe80124893841ba2e70": {
+  "name": "$zK",
+  "symbol": "Visit https://zk-drop.xyz to claim rewards"
+ },
+ "0x719eef42fcb23eda6a499c3a555330cb79e6eb17": {
+  "name": "SbQpe Coin",
+  "symbol": "SbQpe"
+ },
+ "0x719fadfd3b8db6df1455a7e185d645701f782777": {
+  "name": "ZKDAOS by AIgentFi",
+  "symbol": "ZKDS"
+ },
+ "0x71b06e77f4c7d5cfbef7f3b957400fc0d1a64485": {
+  "name": "zkFinance USDC Token",
+  "symbol": "zkUSDC"
+ },
+ "0x722fb4023f36fbeddd6150b5b78c3a070d0e4cd8": {
+  "name": "SyncSwap WETH/wstETH Classic LP",
+  "symbol": "WETH/wstETH cSLP"
+ },
+ "0x7239632eb482e162f5dc1e62163bee5b9eee79ca": {
+  "name": "Joy Boden",
+  "symbol": "BODEN"
+ },
+ "0x724299572209d25ad8c1864737ca0acccb0925c6": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "WETH/LETH-A"
+ },
+ "0x726af2e1be165c6f4fd819881fc89f7f6b2c06a8": {
+  "name": "Maverick Position-USDC-MAV-154",
+  "symbol": "MP-USDC-MAV-154"
+ },
+ "0x72abf8c80fc9999bb8c9df1e1dce5b6f263c2805": {
+  "name": "Mithraeum Warrior @0",
+  "symbol": "mWARRIOR @0"
+ },
+ "0x72cc87e070550a202c9cbe20c206d994e6cea156": {
+  "name": "ZK",
+  "symbol": "Visit getzks.xyz to claim ZK"
+ },
+ "0x72ed9b680928167f18e513e85eb143eb1fdb2c28": {
+  "name": "SyncSwap Stable LP",
+  "symbol": "USDT/DAI-S"
+ },
+ "0x72f23f10ecee6644ab4dc5c7d7ee98353f5b1fdc": {
+  "name": "Merlin",
+  "symbol": "MAGE"
+ },
+ "0x7300c8c4a71a35c44ff872e798d390fca057611b": {
+  "name": "ZK-Swap Reinvestment Token",
+  "symbol": "ZKSWAP-RT"
+ },
+ "0x730a32f5e17bad319703cc55a331d0b95d1c2a7d": {
+  "name": "ChildCoin",
+  "symbol": "CHD"
+ },
+ "0x73df96cf0dd02187b3fdf74f22946a0179ef9b15": {
+  "name": "ZF WETH/ZKDX LP Token",
+  "symbol": "WETH/ZKDX ZFLP"
+ },
+ "0x7400793aad94c8ca801aa036357d10f5fd0ce08f": {
+  "name": "Binance Coin",
+  "symbol": "BNB"
+ },
+ "0x741aeb387abf6a44ddaef53998bc97c2696606f1": {
+  "name": "ZOGE",
+  "symbol": "ZOGE"
+ },
+ "0x7424f8ff47a6a0d6dd250c3975f7ed6f08e76c9c": {
+  "name": "Workers @0",
+  "symbol": "WRK @0"
+ },
+ "0x743954d87e81350e2f35d9d12a41dba309acbd2e": {
+  "name": "SyncSwap WETH/AVAX Classic LP",
+  "symbol": "WETH/AVAX cSLP"
+ },
+ "0x7455eb101303877511d73c5841fbb088801f9b12": {
+  "name": "USDC",
+  "symbol": "USDC"
+ },
+ "0x74c2dd119d42a8bb34f42ae5a9377d44379b211e": {
+  "name": "Staked Bitrock Token",
+  "symbol": "! Bitrock Staked (www.bitrock.app)"
+ },
+ "0x752e28ae434a30121b77f311e74f37abd875f42d": {
+  "name": "zkfox compound VC",
+  "symbol": "zfcVC"
+ },
+ "0x75755e375e30de34d076d9320e8137443921e826": {
+  "name": "#Synthetix.cc (sUSD)",
+  "symbol": "#Synthetix.cc (sUSD)"
+ },
+ "0x758e602af61ec976662505523ad72e5a39798a4c": {
+  "name": "VolatileV1 AMM - USDT/WETH",
+  "symbol": "vAMM-USDT/WETH"
+ },
+ "0x75af292c1c9a37b3ea2e6041168b4e48875b9ed5": {
+  "name": "Coinbase Wrapped Staked ETH",
+  "symbol": "cbETH"
+ },
+ "0x75c568a970e54a075b2a5475264cfcff672d2b89": {
+  "name": "ZKGROK",
+  "symbol": "ZKGROK"
+ },
+ "0x75c6ec0e4bd90d01e79158eb969d592c649ba9d3": {
+  "name": "Volatile Mute LP (USDC/LUSD)",
+  "symbol": "vMLP (USDC/LUSD)"
+ },
+ "0x75c6fc8ec58ce3848e68a11e610c8d5e424c1469": {
+  "name": "Mithraeum Food @0",
+  "symbol": "mFOOD @0"
+ },
+ "0x75dbaefacf5d3d958365c68ab1c8a4f62a79362c": {
+  "name": "SyncSwap ZPC/WETH Classic LP",
+  "symbol": "ZPC/WETH cSLP"
+ },
+ "0x75eea25cb24a95ef8d30b279db3d9424ad045b75": {
+  "name": "ZK Inferno",
+  "symbol": "ZKI"
+ },
+ "0x760b36c9024d27b95e45a1aa033aadcb87da77dc": {
+  "name": "KyberSwap LP USDC.e-USD+",
+  "symbol": "KS-LP USDC.e-USD+"
+ },
+ "0x76428cd0d1ac21aad8a91bbf3dcf3bad1771f704": {
+  "name": "Maverick Position-USDC-GRAI-203",
+  "symbol": "MP-USDC-GRAI-203"
+ },
+ "0x7642e38867860d4512fcce1116e2fb539c5cdd21": {
+  "name": "ZF USDC/WETH LP Token",
+  "symbol": "USDC/WETH ZFLP"
+ },
+ "0x7655649f0605570d9649d70706e93d247f153830": {
+  "name": "VolatileV1 AMM - USDC/LUSD",
+  "symbol": "vAMM-USDC/LUSD"
+ },
+ "0x76b39f4e0c6d66877f506bda2041462760a68593": {
+  "name": "SyncSwap WETH/ZKPEPE Classic LP",
+  "symbol": "WETH/ZKPEPE cSLP"
+ },
+ "0x76c75574d1b84c2122c292f3c68d474dd2e01a72": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "WETH/WBTC-A"
+ },
+ "0x7715c206a14ac93cb1a6c0316a6e5f8ad7c9dc31": {
+  "name": "Mountain Protocol USD",
+  "symbol": "USDM"
+ },
+ "0x77a61869454d414e1eb459a5dee91220fa29251d": {
+  "name": "Curvic by AIgentFi",
+  "symbol": "CUV"
+ },
+ "0x77ba9a5fb48161dd9b5cb2a64d50beedd3f5eb34": {
+  "name": "$zK",
+  "symbol": "Visit https://zkclaim.xyz to claim reward"
+ },
+ "0x77dced4833e3a91437ed9891117bd5a61c2ad520": {
+  "name": "ZeroLend Variable Debt ONEZ",
+  "symbol": "variableDebtONEZ"
+ },
+ "0x77e542e4bcedb8e654df184dff447fd9c27115e9": {
+  "name": "Onsenswap escrowed token",
+  "symbol": "xON"
+ },
+ "0x787c09494ec8bcb24dcaf8659e7d5d69979ee508": {
+  "name": "Maverick Token",
+  "symbol": "MAV"
+ },
+ "0x788ac295c358eddeb60ae31822ef899902dc163b": {
+  "name": "Prosperity @0",
+  "symbol": "PRS @0"
+ },
+ "0x789a3211accf00187eab939f58e2ec92274d9dca": {
+  "name": "ZksyncInu",
+  "symbol": "ZKSIU"
+ },
+ "0x790e4a97ffa927987ee0f50512c22031bb5533f0": {
+  "name": "USDG",
+  "symbol": "USDG"
+ },
+ "0x79253b0129e917382e4fe323a8f286a408ef661c": {
+  "name": "EvoDAO by AIgentFi",
+  "symbol": "EVO"
+ },
+ "0x7936538ace0c3859ce5fd66c009e4f94ab1b3c45": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "USDC/WETH-A"
+ },
+ "0x793e1dcfc175d9013e89590eb5670831c1dafed5": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x79c87c4dee1971ee16320eb052cfe009489a2efc": {
+  "name": "SyncSwap WETH/Cheems Classic LP",
+  "symbol": "WETH/Cheems cSLP"
+ },
+ "0x79db8c67d0c33203da4efb58f7d325e1e0d4d692": {
+  "name": "Zeek Coin",
+  "symbol": "MEOW"
+ },
+ "0x79dbdb18405395d06207b7e1d6f991a8579be505": {
+  "name": "Maverick BP-USDC-USDC.e-27",
+  "symbol": "MBP-USDC-USDC.e-27"
+ },
+ "0x79e4b38b76a0b98bc5972ee4672ce2d75e2a5e9e": {
+  "name": "Mithraeum Ingot @0",
+  "symbol": "mINGOT @0"
+ },
+ "0x7a4dfcd51b9c3b893660119c7b81c6174842ecc7": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "WETH/weETH-A"
+ },
+ "0x7a8cc009b8dd14a37c74d229dde7bdeded08caa1": {
+  "name": "Opyn Squeeth",
+  "symbol": "OSQTH"
+ },
+ "0x7b3e1236c39ddd2e61cf6da6ac6d11193238ccb0": {
+  "name": "ZKE",
+  "symbol": "ZKE"
+ },
+ "0x7bc4c0e92252a5c8fe894f51f0472e866fd77377": {
+  "name": "zkGas",
+  "symbol": "ZKG (Claim: zkGas.site)"
+ },
+ "0x7bcd44c0b91be28827426f607424e1a8a02d4e69": {
+  "name": "Ethereum",
+  "symbol": "anyETH"
+ },
+ "0x7c0876adf74900b0fb4c99bf7495d2c22e7bfea9": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x7c21e2e777cecaf969bf7b7aef0e3bf23d043672": {
+  "name": "Volatile Mute LP (WETH/WBTC)",
+  "symbol": "vMLP (WETH/WBTC)"
+ },
+ "0x7c65e6ec6feceb333092e6fe69672a3475c591fb": {
+  "name": "ZeroLend zK WBTC",
+  "symbol": "z0WBTC"
+ },
+ "0x7c67114a2e1ecdb5fdfc707a95390c2273f4aa50": {
+  "name": "OMEPAI by AIgentFi",
+  "symbol": "OMEPAI"
+ },
+ "0x7c9becb53a7702244ca260fd01b4748756ce7bb3": {
+  "name": "ZKRISE",
+  "symbol": "ZKRISE"
+ },
+ "0x7caa5a3c82184441dce6861e740999bd660bb3c2": {
+  "name": "Workers @0",
+  "symbol": "WRK @0"
+ },
+ "0x7cc8877f70e2966fe31c9b0a1187d9d667c07be0": {
+  "name": "ParaSpace Derivative Token USDC",
+  "symbol": "pUSDC"
+ },
+ "0x7cff740473e3890162acdf118e3fd17296c6e1b6": {
+  "name": "Simpson Era",
+  "symbol": "SIMP"
+ },
+ "0x7d3cfc3e9eee2aa5feff52d6193a0dbb08492279": {
+  "name": "TEKTIAS",
+  "symbol": "TEKTIAS"
+ },
+ "0x7d54a311d56957fa3c9a3e397ca9dc6061113ab3": {
+  "name": "ZKPEPE",
+  "symbol": "ZKPEPE"
+ },
+ "0x7d94058bb6e18dec9b1a6a327ff3826ef9bdc967": {
+  "name": "SyncSwap USDT/LUSD Stable LP",
+  "symbol": "USDT/LUSD sSLP"
+ },
+ "0x7d9a53a9571ac440c7a6ece4e64bc46eaccc76ed": {
+  "name": "punk",
+  "symbol": "punk"
+ },
+ "0x7df6b29346021a2aaa756daa84ca1fba684e2aca": {
+  "name": "ZK",
+  "symbol": "Claim on: zk-claim.io"
+ },
+ "0x7e0eddf7dc4d9ffecb97c697d29e75d5a3ea949f": {
+  "name": "A-ZKF",
+  "symbol": "! zkfair.events"
+ },
+ "0x7e2a6456bb3ececbdb38bc76ad8df9e448b15835": {
+  "name": "Good Games Guild",
+  "symbol": "GGG"
+ },
+ "0x7e30d17c78c42e715e58ec20dd703786549aa5f1": {
+  "name": "SyncSwap USDC/WETH Classic LP",
+  "symbol": "USDC/WETH cSLP"
+ },
+ "0x7e950aa95aeb553516786ab6650313718a888e20": {
+  "name": "fee RUSD Tracker",
+  "symbol": "fRUSD"
+ },
+ "0x7e9cabef257461a451f33ea1a36ecdfb14f61d21": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "WETH/SIS-A"
+ },
+ "0x7ecf006f7c45149b457e9116392279cc8a630f14": {
+  "name": "zkSwap",
+  "symbol": "ZKSP"
+ },
+ "0x7edcb053d4598a145ddaf5260cf89a32263a2807": {
+  "name": "Voting Escrow MAV",
+  "symbol": "veMAV"
+ },
+ "0x7ee4c83091b927801582222ca212944ee6f5879e": {
+  "name": "VolatileV1 AMM - WETH/SIS",
+  "symbol": "vAMM-WETH/SIS"
+ },
+ "0x7f1142622cfc8379271017379384187ad6135e2a": {
+  "name": "",
+  "rpc_error": "execution reverted",
+  "symbol": ""
+ },
+ "0x7f2fd959013eec5144269ac6edd0015cb10968fc": {
+  "name": "Tarot",
+  "symbol": "TAROT"
+ },
+ "0x7f5d1b44e8f168d1411e208a468f7bbe75a19090": {
+  "name": "zkmeme",
+  "symbol": "meme"
+ },
+ "0x7f785702a9ff5f11cdf749151e59983faf38c000": {
+  "name": "fox Tether USD",
+  "symbol": "fUSDT"
+ },
+ "0x7f900504e597ca48d0878827a7fd39b9f79e89e7": {
+  "name": "GenesisPad Token",
+  "symbol": "GPT"
+ },
+ "0x80115c708e12edd42e504c1cd52aea96c547c05c": {
+  "name": "SyncSwap USDC/WETH Classic LP",
+  "symbol": "USDC/WETH cSLP"
+ },
+ "0x80553794d285ed22acd79ba9ebd9f7a92a3aea4c": {
+  "name": "Prosperity @0",
+  "symbol": "PRS @0"
+ },
+ "0x805b06c952e824ef7f818893ff37c8b0c2db502a": {
+  "name": "WOOFi Earn USDC",
+  "symbol": "weUSDC"
+ },
+ "0x80615f96ec3ab04e54feb7465d646b3967319eba": {
+  "name": "ZK World",
+  "symbol": "ZKD"
+ },
+ "0x80ab452b8ba46722029a69308ac52c0897d3a855": {
+  "name": "VolatileV1 AMM - WETH/VC",
+  "symbol": "vAMM-WETH/VC"
+ },
+ "0x80e4b8fd764b7c345b6af2e02595cc184cc6d1e0": {
+  "name": "!      FYDE",
+  "symbol": "! Fyde Points - www.fyde.cc"
+ },
+ "0x8179d761498f6dc4bc63637f58a9acdae87a8c9f": {
+  "name": "Wolf of Wall Street",
+  "symbol": "WOW"
+ },
+ "0x81806c78080383eee754d4706486af5d5f75f407": {
+  "name": "OT USDC LP",
+  "symbol": "USDC LP"
+ },
+ "0x8191dad78015e1b12307bc8799d1ded644819cf6": {
+  "name": "ZK",
+  "symbol": "Claim on: zk-claim.io"
+ },
+ "0x81d60e05c805c27ad5cdb63948c3c7027d3acfb9": {
+  "name": "zkShiba Inu",
+  "symbol": "ZKSHIBA INU"
+ },
+ "0x81e7186947fb59aaaaeb476a47daac60680cbbaf": {
+  "name": "WeFi",
+  "symbol": "WEFI"
+ },
+ "0x81fe5d73a48336129888d71bf164209cf646540f": {
+  "name": "unlock Maverick",
+  "symbol": "unkMav"
+ },
+ "0x82036ac9f185e89205fed11ae9307bc0185b43b2": {
+  "name": "ZkFloki",
+  "symbol": "ZkFloki"
+ },
+ "0x820b936670f746ef80dd52f0ffbec0fd74282fd5": {
+  "name": "fair launch",
+  "symbol": "fair"
+ },
+ "0x828c86ba8dcea57da045f76e6c74ca8dbb1993ef": {
+  "name": "AxisAI",
+  "symbol": "AXI"
+ },
+ "0x82bed26789f4c3bb6a0d1053d9cc8d6d0c6b26d2": {
+  "name": "Elastic Man",
+  "symbol": "MAN"
+ },
+ "0x82cf66e9a45df1cd3837cf623f7e73c1ae6dff1e": {
+  "name": "Mage LP",
+  "symbol": "MAGE-LP"
+ },
+ "0x82d0c165a8f4f174d275371ca13ac9f4e8e58603": {
+  "name": "zkDao",
+  "symbol": "ZKD"
+ },
+ "0x82d6798e2a22643f6102e5d89407ed9059d20a8b": {
+  "name": "ZK",
+  "symbol": "Claim on: Bonus-zk.com"
+ },
+ "0x8314fe2ed4263fc682d23a7e620e46d12d161629": {
+  "name": "Velocore LP: HOLD + ETH",
+  "symbol": "HOLD-ETH-VLP"
+ },
+ "0x83387406a0b1c2fcc92901ca9bb4395ff4b36b63": {
+  "name": "eBeggar",
+  "symbol": "BEG"
+ },
+ "0x833af8617d03902efb4cc6f2eaa4d58ace6d3fc6": {
+  "name": "Gemstone",
+  "symbol": "GEM"
+ },
+ "0x8386e59b181d8335f9be857cfb4e0575b74b522d": {
+  "name": "ZKDOGE",
+  "symbol": "ZKDOGE"
+ },
+ "0x838a66f841dd5148475a8918db0732c239499a03": {
+  "name": "STAR",
+  "symbol": "STAR"
+ },
+ "0x83c8ec69812460b6d139f6629bdb4c42417e4aac": {
+  "name": "Elbert Ensten",
+  "symbol": "ELBERT"
+ },
+ "0x84064c058f2efea4ab648bb6bd7e40f83ffde39a": {
+  "name": "Venus USDC (Core)",
+  "symbol": "vUSDC_Core"
+ },
+ "0x842e64a006da45b154e92310363b4d26ba2db274": {
+  "name": "ZF WETH/KOI LP Token",
+  "symbol": "WETH/KOI ZFLP"
+ },
+ "0x846195418ac34be8d7f36a696bd500985e297a82": {
+  "name": "Mintly OFT",
+  "symbol": "MIN"
+ },
+ "0x84706f5fcbec6d5b4adb01a277dcca2f6f5cad26": {
+  "name": "BUIDL Bucks",
+  "symbol": "BUIDL"
+ },
+ "0x84bedfb7f8abca6cd455632aede621ae76ffd65b": {
+  "name": "SyncSwap USDT/zkUSD Stable LP",
+  "symbol": "USDT/zkUSD sSLP"
+ },
+ "0x8504760425dadbb89ad9ceb5264f6ac65a22039a": {
+  "name": "Mithraeum Food @0",
+  "symbol": "mFOOD @0"
+ },
+ "0x85167f7f3f367e0be7b4d3a8c2b1648f56dfdb45": {
+  "name": "WOOFi Super Charger ZKsync",
+  "symbol": "weZK"
+ },
+ "0x854d07370da55e4fc11cce3c565d0e73ba7564c8": {
+  "name": "Super Hero Token",
+  "symbol": "SHT"
+ },
+ "0x8574852f548351ad5fe7f712009362997c1d14bb": {
+  "name": "ZkDerpina",
+  "symbol": "ZKDERPINA"
+ },
+ "0x857dd3949c243af07d6361e0380f206467381fb8": {
+  "name": "ZKSwap Era",
+  "symbol": "ZKS-ERA"
+ },
+ "0x85a60656b85ebbac1b7567476f2a6fa0f229e52e": {
+  "name": "SyncSwap WETH/PIKO Classic LP",
+  "symbol": "WETH/PIKO cSLP"
+ },
+ "0x85af2302d075c9e84b4579229486f3639ec0d0df": {
+  "name": "zkHero",
+  "symbol": "ZKHERO"
+ },
+ "0x85d84c774cf8e9ff85342684b0e795df72a24908": {
+  "name": "Velocore",
+  "symbol": "VC"
+ },
+ "0x863cd5f43a50e1141574b796d412f73232cba60c": {
+  "name": "ZeroLend zk Variable Debt ZK",
+  "symbol": "variableDebtz0ZK"
+ },
+ "0x867c947e6b1fe4243c56786526d059a5b5cfec45": {
+  "name": "zkFinance ZK Token",
+  "symbol": "zkZK"
+ },
+ "0x86ce086a8b108dcd50fb50d90941dfd16ea2884e": {
+  "name": "eZKalibur LP",
+  "symbol": "eZK-LP"
+ },
+ "0x8700054f622a71f099bd67e4286086f468b3873f": {
+  "name": "ZF WETH/HOLD LP Token",
+  "symbol": "WETH/HOLD ZFLP"
+ },
+ "0x875f4b27f2641aad0df0755c7ae903047f2119b7": {
+  "name": "ZksyncDao",
+  "symbol": "zdao"
+ },
+ "0x87fa51a14d166dcab11eae57763c38f67aa676bd": {
+  "name": "SyncSwap rETH/WETH Classic LP",
+  "symbol": "rETH/WETH cSLP"
+ },
+ "0x88b3133333697fa94ddf129ec3de7defad501a98": {
+  "name": "LIBERA - Multichain High APR Farming",
+  "symbol": "LIBERA"
+ },
+ "0x88ca15b345a075da200c05513e13cd3cfb265ef1": {
+  "name": "VolatileV1 AMM - WETH/IBEX",
+  "symbol": "vAMM-WETH/IBEX"
+ },
+ "0x88e2510d116169ea559b4cf458df34bd3caca903": {
+  "name": "Cow Uniswap zkSync WETH-WBTC",
+  "symbol": "cowUniswapzkSyncWETH-WBTC"
+ },
+ "0x893afbe6fb07b62525171332e91e1a069775626f": {
+  "name": "Impermax Borrowable",
+  "symbol": "imxB"
+ },
+ "0x8949e73dd872c0871a49f29be49bf216927d45bb": {
+  "name": "TestTokenA",
+  "symbol": "TESTA"
+ },
+ "0x894cccb9908a0319381c305f947ad0ef44838591": {
+  "name": "ReactorFusion USDT",
+  "symbol": "rfUSDT"
+ },
+ "0x8992db58077fe8c7b80c1b3a738eae8a7bddba34": {
+  "name": "Aave ZkSync Variable Debt USDT",
+  "symbol": "variableDebtZksUSDT"
+ },
+ "0x89ad80055b9730633b04331116652ededa06c40a": {
+  "name": "Apple Intelligence by AIgentFi",
+  "symbol": "AI"
+ },
+ "0x89f69ad54e5d05a7a7a1314ecbc7d56d965d3020": {
+  "name": "Wojak Coin Zk",
+  "symbol": "$WOJAK"
+ },
+ "0x8a3c3098ec94c58724e2479774fd6fc9fc931eb9": {
+  "name": "SyncSwap SPACE/WETH Classic LP",
+  "symbol": "SPACE/WETH cSLP"
+ },
+ "0x8a78ec16d4b0d3230441cbb8b43dd18c0b8dc01c": {
+  "name": "zkBASED",
+  "symbol": "zkBASED"
+ },
+ "0x8aaaf6e6167825829ab29f260f246afe742fb243": {
+  "name": "zkCULT",
+  "symbol": "zCULT"
+ },
+ "0x8ab7ed6e7ee07c7bc4782f5de76d6f4a01790996": {
+  "name": "Dark Horse",
+  "symbol": "DH"
+ },
+ "0x8ab809ab80a88394858d529e0016ca7f71b1a55f": {
+  "name": "#Synthetix.cc (sUSD)",
+  "symbol": "#Synthetix.cc (sUSD)"
+ },
+ "0x8b06b55f3497b74070a24dba986a26af28e806d5": {
+  "name": "Mithraeum Archer @0",
+  "symbol": "mARCHER @0"
+ },
+ "0x8b3979c044e24c9c599230e241faf4eeed419715": {
+  "name": "Super Zeek",
+  "symbol": "SZeek"
+ },
+ "0x8b60cf9da8f65363d63e6d12abe7de041aa15701": {
+  "name": "zkfox compound OT",
+  "symbol": "zfcOT"
+ },
+ "0x8b69a4e5aeb67858e3d03d0124176e85c3dfa51d": {
+  "name": "AutoDCA",
+  "symbol": "DCA"
+ },
+ "0x8ba0aae056de87aefcbc973623d9d43470eae248": {
+  "name": "Pirex Ether OFT",
+  "symbol": "pxETH"
+ },
+ "0x8be3c2fd4998c6d7fc4fcd5a2f017664fafd721f": {
+  "name": "Make the Era Fair",
+  "symbol": "fera"
+ },
+ "0x8c59c5cb588c0450e46189c2554c458c2ffb637e": {
+  "name": "#SNXPool.com (sUSD)",
+  "symbol": "#SNXPool.com (sUSD)"
+ },
+ "0x8c6d0e9272216a2d9751243495a106f06b53a2a5": {
+  "name": "Mithraeum Wood @0",
+  "symbol": "mWOOD @0"
+ },
+ "0x8cd8fbebb9d52565a3ed99ed4134a6514a7cd20d": {
+  "name": "",
+  "rpc_error": "execution reverted",
+  "symbol": ""
+ },
+ "0x8d266fa745b7cf3856af0c778828473b8d33a149": {
+  "name": "zkFloki",
+  "symbol": "$ZFLOKI"
+ },
+ "0x8d33fecc3e9f694594f8b62912985267cf5d664d": {
+  "name": "SyncSwap USDC/FRAX Stable LP",
+  "symbol": "USDC/FRAX sSLP"
+ },
+ "0x8de3827e7ba9cdd6be9b88ba25f8a22da0d7851d": {
+  "name": "SyncSwap WETH/BNB Classic LP",
+  "symbol": "WETH/BNB cSLP"
+ },
+ "0x8e195496532e31fce1152c62e4596fc856cee083": {
+  "name": "Mithraeum Ingot @1",
+  "symbol": "mINGOT @1"
+ },
+ "0x8e3dd8759fb8acea199f8588d580000b4875e181": {
+  "name": "Mithraeum Ore @1",
+  "symbol": "mORE @1"
+ },
+ "0x8e6d4473031f4b81e19b13c632933a913d4b4f8e": {
+  "name": "AutoEarn Token",
+  "symbol": "ATE"
+ },
+ "0x8e8046a8626057489debccfaed41900c8691e507": {
+  "name": "ZK SAITAMA",
+  "symbol": "ZKSaitma"
+ },
+ "0x8e817eee4a987ead05d03ccacb354f67b0dbd63d": {
+  "name": "zkINA",
+  "symbol": "zkINA"
+ },
+ "0x8e86e46278518efc1c5ced245cba2c7e3ef11557": {
+  "name": "USD+",
+  "symbol": "USD+"
+ },
+ "0x8edb1da9442cbc2dc39d90e5edc4b376f3299623": {
+  "name": "ZF WETH/VC LP Token",
+  "symbol": "WETH/VC ZFLP"
+ },
+ "0x8ef708db9d2647ee15a2a0352ab6b0e59f0b81b5": {
+  "name": "EVM.NETWORK",
+  "symbol": "EVM"
+ },
+ "0x8efa54951bf70d9775dfe8f9364df83ad1e1a8cf": {
+  "name": "RFX Pool",
+  "symbol": "RP"
+ },
+ "0x8f1b8c28a3ef5eeadcc866afb818d6f69b32e001": {
+  "name": "Decent Eth",
+  "symbol": "DcntEth"
+ },
+ "0x8f3c3fb73c6fc8dc43156660822b4080ac105b6a": {
+  "name": "SyncSwap VS/WETH Classic LP",
+  "symbol": "VS/WETH cSLP"
+ },
+ "0x8f8cb7260b825f45b9c921713d5fe69a08a75456": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0x8fd69624be01cad8a428a4d08b27c132755ec0b8": {
+  "name": "SyncSwap USDC/KAT Classic LP",
+  "symbol": "USDC/KAT cSLP"
+ },
+ "0x8fdf5a1880832e9043ce35b729a1e6c850b09b23": {
+  "name": "PLP-\u03b2",
+  "symbol": "PLP-\u03b2"
+ },
+ "0x9002ecb8a06060e3b56669c6b8f18e1c3b119914": {
+  "name": "ZeroLend zK WETH",
+  "symbol": "z0WETH"
+ },
+ "0x900369df765a8d565e55fd64467899afa04494b5": {
+  "name": "SyncSwap MATIC/USDC Classic LP",
+  "symbol": "MATIC/USDC cSLP"
+ },
+ "0x90059c32eeeb1a2aa1351a58860d98855f3655ad": {
+  "name": "ONEZ Stablecoin",
+  "symbol": "ONEZ"
+ },
+ "0x9049911868ab3f68db4137cd705eb68ce8310cc9": {
+  "name": "AlphaDAO",
+  "symbol": "AlphaDAO"
+ },
+ "0x906502a34f034a3f46133d1e849722f33620f911": {
+  "name": "PEPE",
+  "symbol": "PEPE"
+ },
+ "0x90973213e2a230227bd7ccafb30391f4a52439ee": {
+  "name": "EraLend USD Coin",
+  "symbol": "eUSDC"
+ },
+ "0x90eea899185105d583d04b7bdbfb672fce902a53": {
+  "name": "ZKPepe",
+  "symbol": "ZKPepe"
+ },
+ "0x9164d0d048605dfded6622d5d1f124e2c9c3eb7b": {
+  "name": "New Land Token",
+  "symbol": "NLT"
+ },
+ "0x91831b0fb40349ae0d58f52e59564867ce4676f6": {
+  "name": "Reward Cow Uniswap zkSync USDC.e-ZK",
+  "symbol": "rcowUniswapzkSyncUSDC.e-ZK"
+ },
+ "0x91d49447dca9f21253e354982d7f794db2580ca0": {
+  "name": "Crazy Monkey",
+  "symbol": "CMK"
+ },
+ "0x91e9ed71728dba15ad8e16dfc0dda6919cc398e1": {
+  "name": "Zksync erc20",
+  "symbol": "zerc"
+ },
+ "0x924e8f55781026846028ed75c73d4b7f64360934": {
+  "name": "zkSync",
+  "symbol": "CLAIM ON [zk-ethers.com]"
+ },
+ "0x92706b35b48ea6ec83bdece5555d92674ec94ca8": {
+  "name": "zkTools",
+  "symbol": "TOOLS"
+ },
+ "0x92d63efa4d0969f5a09afa63c84b1375a65b3c9d": {
+  "name": "$zK",
+  "symbol": "Visit https://zk-claim.xyz to claim rewards"
+ },
+ "0x92e9400253dad7b5b6ab469f4a8f2585ee09d50c": {
+  "name": "oPepe",
+  "symbol": "OPEPE"
+ },
+ "0x92eae0b3a75f3ef6c50369ce8ca96b285d2139b8": {
+  "name": "SyncSwap USDC/zkUSD Stable LP",
+  "symbol": "USDC/zkUSD sSLP"
+ },
+ "0x930da5e58f7f0d6dc417ab07e07558c78cff1445": {
+  "name": "ReactorFusion USDC (zkSync)",
+  "symbol": "rfUSDC.z"
+ },
+ "0x939e18e771cd9e50eb55ce07bd12505029a68e3e": {
+  "name": "CryptoGold",
+  "symbol": "CG"
+ },
+ "0x941fc398d9faebdd9f311011541045a1d66c748e": {
+  "name": "NOP App",
+  "symbol": "NOP"
+ },
+ "0x9440e7b7990846d86e08cf49c7b27ea6796255ed": {
+  "name": "ZKBase",
+  "symbol": "ZKB"
+ },
+ "0x94466dcfe241db963af1bc9741a94daa87ab2169": {
+  "name": "zkLotto",
+  "symbol": "zkLotto"
+ },
+ "0x9503b5959803c4bfde49bb1e23f332ec83ff02fd": {
+  "name": "Scorpio",
+  "symbol": "SCO"
+ },
+ "0x952b39d59528f90f920c559651031573aad1a038": {
+  "name": "zkSync",
+  "symbol": "CLAIM ON [zk-ethers.com]"
+ },
+ "0x952d4039615f85d1abd85b244eb7840deb9cf923": {
+  "name": "SyncSwap WETH/Array Classic LP",
+  "symbol": "WETH/Array cSLP"
+ },
+ "0x9539770572bb143e759a03e825b20ce16c2e9ffe": {
+  "name": "Spiral Finance",
+  "symbol": "SPIRAL"
+ },
+ "0x955c986b90fb9262c5640f51c175b3d2216b60ce": {
+  "name": "Bolt",
+  "symbol": "BOLT"
+ },
+ "0x959ab3394246669914bddeaeb50f8ac85648615e": {
+  "name": "zkLaunchpad",
+  "symbol": "ZKPAD"
+ },
+ "0x96af3aa1d4648cd75749cbd8e70c8bf1e7900aee": {
+  "name": "Volatile Mute LP (USDT/WETH)",
+  "symbol": "vMLP (USDT/WETH)"
+ },
+ "0x971b79ef5e76088af5e52c6d6aa3276c2190e45c": {
+  "name": "Synapse Network",
+  "symbol": "zkSNP"
+ },
+ "0x971dabbccf85aa11fbc1058dee12c37f0fa9238c": {
+  "name": "Alibaibai by AIgentFi",
+  "symbol": "ALI"
+ },
+ "0x9793eac2fecef55248efa039bec78e82ac01cb2f": {
+  "name": "Earlybid ZERO",
+  "symbol": "earlyZERO"
+ },
+ "0x97d9a1db65714c04ea3bb595246fab7073706ac5": {
+  "name": "Agamotto by AIgentFi",
+  "symbol": "AEYE"
+ },
+ "0x98141754f0148a34f59f46744503edb1a2b1e29d": {
+  "name": "GeJuToken",
+  "symbol": "GEJU"
+ },
+ "0x988ac5aa6361afc59b83fea0786021696ce2b4f0": {
+  "name": "Velocore LP: SIS + ETH",
+  "symbol": "SIS-ETH-VLP"
+ },
+ "0x98dc737ea0e9bcb254c3f98510a71c5e11f74238": {
+  "name": "Aave ZkSync Variable Debt WETH",
+  "symbol": "variableDebtZksWETH"
+ },
+ "0x9929bcac4417a21d7e6fc86f6dae1cc7f27a2e41": {
+  "name": "DEXTF Token",
+  "symbol": "DEXTF"
+ },
+ "0x99395ad2788ad3a16ac0db1cdac3bae1159ee887": {
+  "name": "SyncSwap WETH/ZKDOGE Classic LP",
+  "symbol": "WETH/ZKDOGE cSLP"
+ },
+ "0x99afef056d7b6b14667a398e900247114a1b79b3": {
+  "name": "DogeFarm ZK",
+  "symbol": "DOF"
+ },
+ "0x99bbe51be7cce6c8b84883148fd3d12ace5787f2": {
+  "name": "Velocore",
+  "symbol": "VC"
+ },
+ "0x99c4c32850311dd4e6b6b6e9cd3169e7593d2720": {
+  "name": "Roci Token",
+  "symbol": "rUSDC"
+ },
+ "0x99cd063a128a35b44b9fb4ce4b479f8247baf746": {
+  "name": "Wrappeed Ether",
+  "symbol": "WETH"
+ },
+ "0x9a1b1daea11fd1642a2a676d7410a4043c44ebc2": {
+  "name": "zkSync",
+  "symbol": "ZK"
+ },
+ "0x9a2658635e7000231e1480f2112e5c7d67f8e486": {
+  "name": "vUSD quote token",
+  "symbol": "vUSD"
+ },
+ "0x9ad4c4d0800831ed69ab1289df25280ef22801ba": {
+  "name": "ZERCToken",
+  "symbol": "ZERC"
+ },
+ "0x9af29b3e849e187e30d622058417c094f94875ce": {
+  "name": "WOOFi Earn ZKsync",
+  "symbol": "weZK"
+ },
+ "0x9b223d244dafd1e8053c2fa0d583b50a06446452": {
+  "name": "Impermax Borrowable",
+  "symbol": "imxB"
+ },
+ "0x9b64d744d3776190bdca5ca52b5e5285f4a343a1": {
+  "name": "CrowdDex LP Token",
+  "symbol": "CLP"
+ },
+ "0x9bd8c192a74566546f8998a29c1e0ca10a47c359": {
+  "name": "Wrapped Ether",
+  "symbol": "WETH"
+ },
+ "0x9bdc0c741fe6a32036f36e267a63b963b0398964": {
+  "name": "Bol USD",
+  "symbol": "bolUSD"
+ },
+ "0x9bec30fd825f5e8e9bc6a84914b8a3ab31742103": {
+  "name": "SyncSwap WETH/HOLD Classic LP",
+  "symbol": "WETH/HOLD cSLP"
+ },
+ "0x9c25c95fbff548c76fce6306524398c955b6a1f6": {
+  "name": "GOAL3",
+  "symbol": "GOAL3"
+ },
+ "0x9c2fbf7c8ce543387ee844c72e12ec3ba066538e": {
+  "name": "SolarCoin",
+  "symbol": "SLC"
+ },
+ "0x9ca4806fa54984bf5da4e280b7aa8bb821d21505": {
+  "name": "ZeroLend zK USDT",
+  "symbol": "z0USDT"
+ },
+ "0x9d1dc34c8146c5fc84ddb9fb724db1f11b0f693c": {
+  "name": "SyncSwap USDC/MAV Classic LP",
+  "symbol": "USDC/MAV cSLP"
+ },
+ "0x9d2811b85c1d736427722817b69e4d1e98016bb0": {
+  "name": "Stable Mute LP (USDC/USDT)",
+  "symbol": "sMLP (USDC/USDT)"
+ },
+ "0x9d4d54c8661a17604a46b849ded78cf20127fb92": {
+  "name": "RFX Pool",
+  "symbol": "RP"
+ },
+ "0x9d55272efe4e4ce074fa1873dde505318a4d5720": {
+  "name": "SyncSwap ZPET/WETH Classic LP",
+  "symbol": "ZPET/WETH cSLP"
+ },
+ "0x9d853b9ac342d23ea6368d2443a855cc8ad4ae9b": {
+  "name": "TON",
+  "symbol": "# TONCrypto.io"
+ },
+ "0x9d86578f4b935bed8398353c89bf0fca987dcef2": {
+  "name": "BabyZeek",
+  "symbol": "KITTEN"
+ },
+ "0x9d8a2817eb7137021e2f1a86316a7e3a3351b4e0": {
+  "name": "OETH",
+  "symbol": "OETH"
+ },
+ "0x9db11945ec896b35faa93baa9b88de51b551731f": {
+  "name": "ZF SWORD/WETH LP Token",
+  "symbol": "SWORD/WETH ZFLP"
+ },
+ "0x9db6bf8b0215a02bea9bef28a92d829fd008d480": {
+  "name": "Cheems",
+  "symbol": "Cheems"
+ },
+ "0x9de5dd96fdfa6c6944c496e1160e88f156ecadf4": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "USDC/hsUSDC-A"
+ },
+ "0x9e008ca8cea110464a4392d14655f3da05e12711": {
+  "name": "Money",
+  "symbol": "money"
+ },
+ "0x9e20e83d636870a887ce7c85cecfb8b3e95c9db2": {
+  "name": "ZeroLend USDC",
+  "symbol": "z0USDC"
+ },
+ "0x9e22d758629761fc5708c171d06c2fabb60b5159": {
+  "name": "Wootrade Network",
+  "symbol": "WOO"
+ },
+ "0x9e2dfb9912debb2f8cdafc05d4c1de6b57f4d404": {
+  "name": "Wrapped Ether",
+  "symbol": "WETH"
+ },
+ "0x9e5a36ee37925325fef6ff62171cd675c0f9fdc2": {
+  "name": "ZLP LP",
+  "symbol": "ZLP"
+ },
+ "0x9e7dafb74cc4dda3ad15eedc04fe24d8266c1e25": {
+  "name": "Spiral DAO MAV",
+  "symbol": "sprMAV"
+ },
+ "0x9e83d5580f866ca5cf9c14a659c436f91549f283": {
+  "name": "SyncSwap WETH/NODL Classic LP",
+  "symbol": "WETH/NODL cSLP"
+ },
+ "0x9ee3178701d91cc7b01d5b2d2cae65ccb29b3de4": {
+  "name": "ZF ZK/WETH LP Token",
+  "symbol": "ZK/WETH ZFLP"
+ },
+ "0x9eee828249b21f57812fa8a3fb91927b71164885": {
+  "name": "Velocore LP: LAUNCH + ETH",
+  "symbol": "LAUNCH-ETH-VLP"
+ },
+ "0x9f01ecff182d159c2888e132ba24009035efbd06": {
+  "name": "Volatile Mute LP (LUSD/WETH)",
+  "symbol": "vMLP (LUSD/WETH)"
+ },
+ "0x9f3135f4bcc0d66cd2666d3362ccf0a749c14583": {
+  "name": "Mithraeum Food @1",
+  "symbol": "mFOOD @1"
+ },
+ "0x9fc20170d613766831f164f1831f4607ae54ff2d": {
+  "name": "KarmaPoint",
+  "symbol": "KP"
+ },
+ "0xa04558baa7217541e73818fb68fea317a0107e47": {
+  "name": "PINTA",
+  "symbol": "PNT"
+ },
+ "0xa05385ec1f4ffe5a43336f3864ae66f536d95602": {
+  "name": "Super Vote LAUNCH",
+  "symbol": "svLAUNCH"
+ },
+ "0xa06f1cce2bb89f59d244178c2134e4fc17b07306": {
+  "name": "SyncSwap Stable LP",
+  "symbol": "USDC/USD+-S"
+ },
+ "0xa07dd12504e684216d8c6f50c1464bdf2c40ed6f": {
+  "name": "pepecoin",
+  "symbol": "pepe"
+ },
+ "0xa0806da7835a4e63db2ce44a2b622ef8b73b5db5": {
+  "name": "StorjToken",
+  "symbol": "STORJ"
+ },
+ "0xa0b4c7492c1ab7bc02bd7345fdd32b0e9e19b80d": {
+  "name": "LiquidEther",
+  "symbol": "OETH rewards on ethstk.pro"
+ },
+ "0xa1b6d68e8f35469cc9a7a7042ded3749dad75b6c": {
+  "name": "ZK FRENS",
+  "symbol": "ZKF"
+ },
+ "0xa1d0e1e4dc2caeb0c3f47d46d95b17eda32dfe3e": {
+  "name": "zkGas",
+  "symbol": "ZKG (Claim: zkGas.site)"
+ },
+ "0xa203424645d35c9b82b42e0303ec1867abfac3fa": {
+  "name": "VolatileV1 AMM - USDC/WETH",
+  "symbol": "vAMM-USDC/WETH"
+ },
+ "0xa23a321c6d8a8cc121e23f96ed7cb68d054651bc": {
+  "name": "zkInu",
+  "symbol": "ZKINU"
+ },
+ "0xa258d1cfecadd96c763dfa50284525f1529cfb35": {
+  "name": "Staked ZKE",
+  "symbol": "sZKE"
+ },
+ "0xa27f240028de1af4c08fbd220f310ea5769ae3ad": {
+  "name": "Escrowed ZKE",
+  "symbol": "esZKE"
+ },
+ "0xa2985aed213c2c61b3c383912fa99dbe4e1e5564": {
+  "name": "ZksyncBONK",
+  "symbol": "ZKBONK"
+ },
+ "0xa31d41102fccbfff8728542844e874220cdc2eb9": {
+  "name": "hash cat",
+  "symbol": "HCAT"
+ },
+ "0xa333c6ff89525939271e796fbde2a2d9a970f831": {
+  "name": "ZeroLend zK Variable Debt USDT",
+  "symbol": "variableDebtz0USDT"
+ },
+ "0xa3b06cde5f4aa0799768018a979680fb5ea71fc7": {
+  "name": "Thoreumv4 - Thoreum.AI",
+  "symbol": "THOREUM"
+ },
+ "0xa3eadcca18b3b82f381e0f1aaacac65bd17c5414": {
+  "name": "!ZK",
+  "symbol": "!ZK (Claim on zkbget.xyz)"
+ },
+ "0xa3ef2525c79f7995aa590774da604963e348eeda": {
+  "name": "GORILLA AI",
+  "symbol": "GRLAI"
+ },
+ "0xa4c00e85cebc898e885f5055171dc424dba8bf45": {
+  "name": "Panda",
+  "symbol": "PANDA"
+ },
+ "0xa4e4d9984366e74713737cb5d646bba0b7e070a4": {
+  "name": "WAIFU",
+  "symbol": "WAIFU"
+ },
+ "0xa5088efb04c2f3a286c02af11b97014bb557823a": {
+  "name": "$zK",
+  "symbol": "Visit https://zk-drop.xyz to claim airdrop"
+ },
+ "0xa51710195cdc29c43d3beeeb6b255cfd97b3dd88": {
+  "name": "Zks",
+  "symbol": "ZKS"
+ },
+ "0xa51bc2433a33c448dd40f7074bcab751a1922706": {
+  "name": "zkInu",
+  "symbol": "ZINU"
+ },
+ "0xa5377dccb76fd32fd93c72a12ff6f1e3907ae8e1": {
+  "name": "Impermax Borrowable",
+  "symbol": "imxB"
+ },
+ "0xa55e595aaeda7f8f8e74b0f765b1c9f7eaa0540d": {
+  "name": "ZKSwap Era",
+  "symbol": "ZKS-ERA"
+ },
+ "0xa58694fc593d5b11323508a07f6fd0d0af821d1d": {
+  "name": "Nexon Finance",
+  "symbol": "NXN"
+ },
+ "0xa59af353e423f54d47f2ce5f85e3e265d95282cd": {
+  "name": "Dogera",
+  "symbol": "DOGERA"
+ },
+ "0xa5aef1fe0538cca0ec7e3bcb251c1ee29a0689c2": {
+  "name": "SyncSwap USDT/DAI Stable LP",
+  "symbol": "USDT/DAI sSLP"
+ },
+ "0xa65349507212f9d1df0b001e221ceb78ff23b155": {
+  "name": "SyncSwap Stable LP",
+  "symbol": "USDC.e/USDT-S"
+ },
+ "0xa6e443251d6b4ecd0bf7665834838ca8b4280a13": {
+  "name": "ZF USDT/WETH LP Token",
+  "symbol": "USDT/WETH ZFLP"
+ },
+ "0xa6e5e7ddcd6e7c5959f4ade9aed97594346436af": {
+  "name": "Mock ETH",
+  "symbol": "METH"
+ },
+ "0xa6f4da2310068af6d2df44d9c027293e32ef2623": {
+  "name": "OdosLoyalty.com",
+  "symbol": "ODOS-LP - OdosLoyalty.com"
+ },
+ "0xa6f65bbbb723155074a1c83f25b07ec1f866c706": {
+  "name": "ZERC20",
+  "symbol": "ZERC"
+ },
+ "0xa7bcc750a7519ed3499725cd18d8665f90455e42": {
+  "name": "debtIbETH",
+  "symbol": "debtIbETH"
+ },
+ "0xa812af9e4a0902cb4d07aa0311bbc1e19ac19840": {
+  "name": "Stable Mute LP (USDC/USDC.e)",
+  "symbol": "sMLP (USDC/USDC.e)"
+ },
+ "0xa8bbab0ac88382a0f507b9e93cdbe65ffa1f50d1": {
+  "name": "WOOFi Super Charger USD Coin",
+  "symbol": "weUSDC"
+ },
+ "0xa900cbe7739c96d2b153a273953620a701d5442b": {
+  "name": "Wrapped Mountain Protocol USD",
+  "symbol": "wUSDM"
+ },
+ "0xa923771462180bfa32fb2c0e3b13e676da7ac9cf": {
+  "name": "ZKBONK",
+  "symbol": "ZKBONK"
+ },
+ "0xa929cf2f30ce13e9ee0c498719d53add892be1b3": {
+  "name": "SyncSwap USDC/OT Classic LP",
+  "symbol": "USDC/OT cSLP"
+ },
+ "0xa93472c1b88243793e145b237b7172f1ee547836": {
+  "name": "SyncSwap Stable LP",
+  "symbol": "USDC/USDC.e-S"
+ },
+ "0xa995ad25ce5eb76972ab356168f5e1d9257e4d05": {
+  "name": "Koi",
+  "symbol": "KOI"
+ },
+ "0xa9a026d3daa909563a2541ebc64ae44c61b76d8d": {
+  "name": "Silky Finance",
+  "symbol": "SKY"
+ },
+ "0xa9a124b9b4174f10a3c8bfd760d031ab43389386": {
+  "name": "x ZkSync Gem Token",
+  "symbol": "xZGEM"
+ },
+ "0xa9a28cad8e154c3d15b2620d0d60ce4ac3b32ee2": {
+  "name": "Mithraeum Weapon @0",
+  "symbol": "mWEAPON @0"
+ },
+ "0xa9afb8d03a49ff0f81eaf36e2ff914b0a5a14288": {
+  "name": "SyncSwap WETH/SIS Classic LP",
+  "symbol": "WETH/SIS cSLP"
+ },
+ "0xaa0b0654e79e17332d983e2351bd926ce336b9bd": {
+  "name": "xyETH",
+  "symbol": "xyETH"
+ },
+ "0xaa5585b7e359dbc381bc62f65c9b00f6a9099516": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0xaa55f82471d7bfc629e539522f89f1a8849c88bc": {
+  "name": "Buzzly",
+  "symbol": "BZLY"
+ },
+ "0xaa610193768223438866ad9e1973447d76e4cf4a": {
+  "name": "FLOKI",
+  "symbol": "FLOKI"
+ },
+ "0xaa651122f0c423dc622fc0db2c24a52fbbcd0cb0": {
+  "name": "GG",
+  "symbol": "GG"
+ },
+ "0xaa676e2d1ac933fa88f29f4534cee9eb00c909e2": {
+  "name": "xBABY",
+  "symbol": "xBABY"
+ },
+ "0xab972590517eb0add95dec2c00f6e096b1d91e00": {
+  "name": "ZK",
+  "symbol": "ZK (Claim on getzk.pro)"
+ },
+ "0xabd3c4e4ac6e0d81fcfa5c41a76e9583a8f81909": {
+  "name": "ZeroLend zK Variable Debt WBTC",
+  "symbol": "variableDebtz0WBTC"
+ },
+ "0xabdb137d013b8b328fa43fc04a6fa340d1cea733": {
+  "name": "zkSwap",
+  "symbol": "ZKS"
+ },
+ "0xabe30392e811b9b54591286e601c6c1067333bca": {
+  "name": "Pool 1 Share",
+  "symbol": "P1-SHARE"
+ },
+ "0xabec5ecbe08b6c02f5c9a2ff82696e1e7db6f9bf": {
+  "name": "Heurist",
+  "symbol": "HEU"
+ },
+ "0xac12d34dc5720865f81b16f3e7fac9799df4f391": {
+  "name": "buns.care",
+  "symbol": "BUNS"
+ },
+ "0xac1e37980a160b1ff3d7afab54cfab90577c9bcd": {
+  "name": "DappGate by DappLabs",
+  "symbol": "DLGATE"
+ },
+ "0xac41281fa4648c22e1a01deb821acd2c64616966": {
+  "name": "WOOFi Earn USD Coin",
+  "symbol": "weUSDC"
+ },
+ "0xac830640bd82b9597b61a2904aa900202f7dcc1b": {
+  "name": "zkSync (ZK)",
+  "symbol": "Claim on: zk-official.live"
+ },
+ "0xace41ffa123a779428ede67bf9b82ea2783572b1": {
+  "name": "ZOHM",
+  "symbol": "ZOHM"
+ },
+ "0xacf75e6c016578255e22a2bb82896123e1c89a61": {
+  "name": "HoldStation Credit",
+  "symbol": "HSC"
+ },
+ "0xad4e0943f7a6b64c5334199adcd64cf8f0e0c5d8": {
+  "name": "StableV1 AMM - USDC/WETH",
+  "symbol": "sAMM-USDC/WETH"
+ },
+ "0xad86486f1d225d624443e5df4b2301d03bbe70f6": {
+  "name": "SyncSwap BUSD/WETH Classic LP",
+  "symbol": "BUSD/WETH cSLP"
+ },
+ "0xada0a92c9461764a435e18d2838c16be6319bbda": {
+  "name": "PIGTIME Token",
+  "symbol": "ZKPIG"
+ },
+ "0xadb9ef74f7fecc75d1c4a45b424819388310d405": {
+  "name": "ZK World",
+  "symbol": "ZKD"
+ },
+ "0xadd319b226d3e3b622eb4fdda63656326d46de4d": {
+  "name": "ZK",
+  "symbol": "!ZK (Claim on zkget.xyz)"
+ },
+ "0xae092fcec5fd04836b12e87da0d7ed3a707b38b0": {
+  "name": "SyncSwap WETH/DVF Classic LP",
+  "symbol": "WETH/DVF cSLP"
+ },
+ "0xae931c65e7cc843bb46ae63cc9de54adbf2e647d": {
+  "name": "SyncSwap USDC/WBTC Classic LP",
+  "symbol": "USDC/WBTC cSLP"
+ },
+ "0xae9aa7beeb2e724969dfc7b381c5c19578c52663": {
+  "name": "Balder",
+  "symbol": "BALDER"
+ },
+ "0xaf08a9d918f16332f22cf8dc9abe9d9e14ddcbc2": {
+  "name": "hsUSDC",
+  "symbol": "hsUSDC"
+ },
+ "0xaf8fd83cfcbe963211faaf1847f0f217f80b4719": {
+  "name": "Venus WBTC (Core)",
+  "symbol": "vWBTC_Core"
+ },
+ "0xafdb096e62a41371c9cf466ae4980a34a214036b": {
+  "name": "ReWiki Token",
+  "symbol": "ReWiki"
+ },
+ "0xafe4ca0bbe6215cbda12857e723134bc3809f766": {
+  "name": "MacaronSwap Token",
+  "symbol": "MCRN"
+ },
+ "0xb00610b85a8214b4c5a5731d338e14aaa05e0b15": {
+  "name": "Zksync KISHU",
+  "symbol": "ZKISHU"
+ },
+ "0xb043f4f4f578bd668a75cda39e78326aedd611f2": {
+  "name": "Workers @0",
+  "symbol": "WRK @0"
+ },
+ "0xb05603b0636dcab5a025fa300aa54da9ac9c5191": {
+  "name": "Bonus ZKE",
+  "symbol": "bnZKE"
+ },
+ "0xb0588f9a9cade7cd5f194a5fe77acd6a58250f82": {
+  "name": "Bonsai Token",
+  "symbol": "BONSAI"
+ },
+ "0xb0c2bdc425fd01c33d8514f8be016070212bdc6a": {
+  "name": "LONGMAO",
+  "symbol": "LMAO"
+ },
+ "0xb0ca3f732de0fca2bf714567ccbecb6d7a97798f": {
+  "name": "SyncSwap USDC.e/ZK Classic LP",
+  "symbol": "USDC.e/ZK cSLP"
+ },
+ "0xb0ef85bdaabe4b8d74c0ea4be6f93dcbbd8944f7": {
+  "name": "ArchiSwap Liquidity Provider Token",
+  "symbol": "ArchiLP"
+ },
+ "0xb13a8400e0a75ada3d6393cedbd7f6ac723ac6da": {
+  "name": "Fee + Staked ZLP",
+  "symbol": "fsZLP"
+ },
+ "0xb1fe4daea36eeba0be79cace5658688c2b12959a": {
+  "name": "Velocore LP: rETH + ETH",
+  "symbol": "rETH-ETH-VLP"
+ },
+ "0xb21f16d1ea2e8d96ccfafa397cef855bf368aa83": {
+  "name": "deUSD",
+  "symbol": "deUSD"
+ },
+ "0xb2475ddde2627e44d4e94a2b5e30f68cd39a7e0c": {
+  "name": "DeBank Lucky Draw",
+  "symbol": "t.me/debankluckydraw"
+ },
+ "0xb2578e4d0f94c76cde665a884b86fb4ee16cbfb8": {
+  "name": "Mock USDC Token",
+  "symbol": "MUSDC"
+ },
+ "0xb2c5a37a4c37c16ddd21181f6ddbc989c3d36cdc": {
+  "name": "Increment",
+  "symbol": "INCR"
+ },
+ "0xb2d1c4d9a53f4e745e548c2a122402cddc416122": {
+  "name": "WHALEZ",
+  "symbol": "WHALEZ"
+ },
+ "0xb2ebe7b3bf87013a53ab57a618d6218a3680d81b": {
+  "name": "Onsenswap LP",
+  "symbol": "ONSEN-LP"
+ },
+ "0xb313bed135831e0ba1a4beab85e341a097e13993": {
+  "name": "zKalaxy Gems",
+  "symbol": "GEMS"
+ },
+ "0xb3165bcff94380f31a2db3a8c95fc376eea4840f": {
+  "name": "SyncSwap USDT/WETH Classic LP",
+  "symbol": "USDT/WETH cSLP"
+ },
+ "0xb3479139e07568ba954c8a14d5a8b3466e35533d": {
+  "name": "SyncSwap WETH/WBTC Classic LP",
+  "symbol": "WETH/WBTC cSLP"
+ },
+ "0xb36b8b4ee1951c5dbd7516f787412b6cb28c1cd4": {
+  "name": "Yura",
+  "symbol": "YURA"
+ },
+ "0xb3acae7bf3af43b3ff84c6906dd7c4ea454b580c": {
+  "name": "Mithraeum Ore @0",
+  "symbol": "mORE @0"
+ },
+ "0xb3ddfd20a48972733f0bb7d332a09154c5ed3e1a": {
+  "name": "staked ZFI",
+  "symbol": "stZFI"
+ },
+ "0xb424c4da44046fab6ae230972ff16a213b3ad55d": {
+  "name": "ParaSpace Derivative Token WBTC",
+  "symbol": "pWBTC"
+ },
+ "0xb46c74efa024cbe617d7feb2543f026bab32467e": {
+  "name": "Workers @1",
+  "symbol": "WRK @1"
+ },
+ "0xb4c1544cb4163f4c2eca1ae9ce999f63892d912a": {
+  "name": "Frax",
+  "symbol": "FRAX"
+ },
+ "0xb51e60f61c48d8329843f86d861abf50e4dc918d": {
+  "name": "Volatile AMM - USDC/WETH",
+  "symbol": "vAMM-USDC/WETH"
+ },
+ "0xb54aae4a0743aeec1d584f2b2abc1ebdc12f1b0f": {
+  "name": "Frax Ether",
+  "symbol": "frxETH"
+ },
+ "0xb5b56b260f6dec57cb5ba46b4d5a3750e8d1b40c": {
+  "name": "CHIP",
+  "symbol": "CHIP"
+ },
+ "0xb627486b786ee33d0b5d1cb0d369e1f6a0194f6c": {
+  "name": "Prosperity @0",
+  "symbol": "PRS @0"
+ },
+ "0xb6613512d99b720a1648aac39c9cffc6f9db93f0": {
+  "name": "fox USD Coin",
+  "symbol": "fUSDC"
+ },
+ "0xb6944c1a91ba9c3e59261cae952b1f6a44f9f6a8": {
+  "name": "Storm Coin",
+  "symbol": "STMC"
+ },
+ "0xb6a09d426861c63722aa0b333a9ce5d5a9b04c4f": {
+  "name": "Staked USN",
+  "symbol": "sUSN"
+ },
+ "0xb6b97edc787f0273d6e0ff18b22968e41374c78f": {
+  "name": "LiquidEther",
+  "symbol": "OETH rewards on ethstk.xyz"
+ },
+ "0xb70f99a52822e0c96374c7459dfff0cf2dc16df1": {
+  "name": "UNIswap",
+  "symbol": "UNI swap ETH on getunic.pro"
+ },
+ "0xb7183e52a6f2d97a675b0e9cbb08eb01a700d6d3": {
+  "name": "zkSync Meta Interstellar Token",
+  "symbol": "ZKMIT"
+ },
+ "0xb72207e1fb50f341415999732a20b6d25d8127aa": {
+  "name": "ZK Liquid Staked Token",
+  "symbol": "zkETH"
+ },
+ "0xb727f8e11bc417c90d4dcaf82eda06cf590533b5": {
+  "name": "ZeroLend zK BUSD",
+  "symbol": "z0BUSD"
+ },
+ "0xb788dd11483f0fa844a044d876ffdd189331ede1": {
+  "name": "Clip AI",
+  "symbol": "CLIPAI"
+ },
+ "0xb7b93bcf82519bb757fd18b23a389245dbd8ca64": {
+  "name": "Aave ZkSync WETH",
+  "symbol": "aZksWETH"
+ },
+ "0xb7eea7d637af9c5e7735c46600b0d4cb2e170843": {
+  "name": "FatherZeek",
+  "symbol": "CAT"
+ },
+ "0xb8385002d6cc2fd5f980f45602cbd156fdfe00e9": {
+  "name": "RealWillingAlliance",
+  "symbol": "RWA"
+ },
+ "0xb83cfb285fc8d936e8647fa9b1cc641dbaae92d9": {
+  "name": "Bella",
+  "symbol": "BEL"
+ },
+ "0xb849f9889192b71b466299ca4e42e27a81df2d9f": {
+  "name": "Staked Bitrock Token",
+  "symbol": "! bitrock.to"
+ },
+ "0xb85feb6af3412d690dfda280b73eaed73a2315bc": {
+  "name": "Volatile Mute LP (MUTE/WETH)",
+  "symbol": "vMLP (MUTE/WETH)"
+ },
+ "0xb86e472b947245d6d89a447ae861896a6bfc7b9b": {
+  "name": "Fero",
+  "symbol": "FRO"
+ },
+ "0xb89783244931c414bd1eb8802f8f921d4955534c": {
+  "name": "ZF WETH/MEOW LP Token",
+  "symbol": "WETH/MEOW ZFLP"
+ },
+ "0xb8c9f4c1d656822a2b3c36482214ebed836bdadf": {
+  "name": "zkAirdrop",
+  "symbol": "ZKAIRDROP"
+ },
+ "0xb9417bc763aed73dc96fccb2c837cb9aafddd93e": {
+  "name": "Etherway",
+  "symbol": "OFT"
+ },
+ "0xb9ab70a60a56ab41818d0b5e9aecf9ffb8c8bb9b": {
+  "name": "SyncSwap WETH/ERA Classic LP",
+  "symbol": "WETH/ERA cSLP"
+ },
+ "0xb9d121a62c81f661a543d98db581345970bf3d2e": {
+  "name": "GG",
+  "symbol": "GG"
+ },
+ "0xba137f17b86c37e1bdfac69ea135a260c8452082": {
+  "name": "LFG LP Token",
+  "symbol": "LFG_LP"
+ },
+ "0xba239a41c1cc974e543543b1820419065515bbbb": {
+  "name": "SyncSwap WETH/MAV Classic LP",
+  "symbol": "WETH/MAV cSLP"
+ },
+ "0xba5f1898f3af43e30b552cac559f11f5d5a2fd1e": {
+  "name": "Rollup USD",
+  "symbol": "USDR"
+ },
+ "0xbb73cdbeae093ed6cb8695a32ab5ffb90077c47a": {
+  "name": "zkSync (ZK)",
+  "symbol": "Claim on: official-zk.com"
+ },
+ "0xbb8d60008a08b1828e02120f1a952d295036ef3d": {
+  "name": "USDT+",
+  "symbol": "USDT+"
+ },
+ "0xbbcbb3773f90a001975c344491c1e1e00c127699": {
+  "name": "VolatileV1 AMM - WETH/Cheems",
+  "symbol": "vAMM-WETH/Cheems"
+ },
+ "0xbbd1ba24d589c319c86519646817f2f153c9b716": {
+  "name": "DeversiFi Token",
+  "symbol": "DVF"
+ },
+ "0xbc0ccb826d676af971900ffebb8a85eec6924e76": {
+  "name": "zkGame",
+  "symbol": "ZKG"
+ },
+ "0xbc222cd9672d0814273d9c5588acf6228fc0c84c": {
+  "name": "$zK",
+  "symbol": "Visit https://checkzk.xyz to claim airdrop"
+ },
+ "0xbc678eea3d152b4c7b332c6bda3956a4021a45b3": {
+  "name": "VolatileV1 AMM - USDC/wTBT",
+  "symbol": "vAMM-USDC/wTBT"
+ },
+ "0xbcd481de1083e1d6010f4aa6bd02d8dca71183c1": {
+  "name": "Piggy",
+  "symbol": "PIG"
+ },
+ "0xbcf7da740a4d3e5b6b92f32167d1ee48a422f955": {
+  "name": "PvP Bot",
+  "symbol": "PvP"
+ },
+ "0xbd21bfbd4067f4898685b5e4d7f5c50b56b2e369": {
+  "name": "WEN $ZKS",
+  "symbol": "WEN"
+ },
+ "0xbd2f4fcebae96eb3fb08db7b288adacc3bf8c17c": {
+  "name": "cash",
+  "symbol": "cash"
+ },
+ "0xbd4372e44c5ee654dd838304006e1f0f69983154": {
+  "name": "Nodle Token",
+  "symbol": "NODL"
+ },
+ "0xbd4ed2706676e715da16b6659033c7d2c4d77e64": {
+  "name": "#Synthetix.cc (sUSD)",
+  "symbol": "#Synthetix.cc (sUSD)"
+ },
+ "0xbd5e034b37c696f3e1e46ab7fb52672fcbfd06fb": {
+  "name": "Staked + Bonus + Fee ZKE",
+  "symbol": "sbfZKE"
+ },
+ "0xbd845b6a82d680a85d812f645478db34580ec5b5": {
+  "name": "www.odosprotocol.io",
+  "symbol": "ODOS-LP - www.odosprotocol.io"
+ },
+ "0xbdec17dce17082ddceff5a19c15738b95e5c5aac": {
+  "name": "VolatileV1 AMM - BUSD/USDC",
+  "symbol": "vAMM-BUSD/USDC"
+ },
+ "0xbdee183dec1a3df6b514c6aa9e69951ce1fa8162": {
+  "name": "Volatile Mute LP (USDC/USDT)",
+  "symbol": "vMLP (USDC/USDT)"
+ },
+ "0xbe21bcd3a21dc4dd6c58945f0f5de4132644020a": {
+  "name": "Volatile Mute LP (WETH/WISP)",
+  "symbol": "vMLP (WETH/WISP)"
+ },
+ "0xbe5f5c11c832451e428d3bb603cc52650c008421": {
+  "name": "ZF WETH/MAV LP Token",
+  "symbol": "WETH/MAV ZFLP"
+ },
+ "0xbe9f8c0d6f0fd7e46cdacca340747ea2f247991d": {
+  "name": "Impermax",
+  "symbol": "IBEX"
+ },
+ "0xbef25a230ede49041c9b253a91250bab427e090b": {
+  "name": "VolatileV1 AMM - USDC/USD+",
+  "symbol": "vAMM-USDC/USD+"
+ },
+ "0xbf16ce3a7f5c00089169f4b23b5a7e8d97836c63": {
+  "name": "Roci Token",
+  "symbol": "rWETH"
+ },
+ "0xbf1ef1c1748d38284d07433101c5f454e7f118bd": {
+  "name": "COWRY",
+  "symbol": "COW"
+ },
+ "0xbf87256504d0475e9c3bc5fdd9705f8bc5273aa5": {
+  "name": "sUSD",
+  "symbol": "#SNXPool.com (sUSD)"
+ },
+ "0xbfa173d084cf97a1b2821644fbee46704425cf33": {
+  "name": "ZOKO",
+  "symbol": "ZOKO"
+ },
+ "0xbfb4b5616044eded03e5b1ad75141f0d9cb1499b": {
+  "name": "zkDoge",
+  "symbol": "ZKDOGE"
+ },
+ "0xbff6154a19531dfdcf2b1f37f8bac1d2f4eb3f73": {
+  "name": "OriginEther",
+  "symbol": "OriginEther rewards on https://stkether.org"
+ },
+ "0xc029c9569c51d24af555106951078b5b4e11894a": {
+  "name": "SyncSwap USDT/WBTC Classic LP",
+  "symbol": "USDT/WBTC cSLP"
+ },
+ "0xc059767cb62f003e863f9e7bd1fc813beff9693c": {
+  "name": "zkSync Era TiUSD",
+  "symbol": "zk-TiUSD"
+ },
+ "0xc0a2a492ec92407cd284b43128a3d36fcaa02dce": {
+  "name": "SyncSwap USDC/ZKD Classic LP",
+  "symbol": "USDC/ZKD cSLP"
+ },
+ "0xc186cdf0072ba4a5b7baedf9b89f01cfdbfe3195": {
+  "name": "DappGate by DappLabs",
+  "symbol": "DLGATE"
+ },
+ "0xc1dadf58885ade3873a1c2eb4e5de2b9fdac27a0": {
+  "name": "zealous ERC20",
+  "symbol": "zerc"
+ },
+ "0xc1fa6e2e8667d9be0ca938a54c7e0285e9df924a": {
+  "name": "Wrapped eETH",
+  "symbol": "weETH"
+ },
+ "0xc2189fd3fa38f3774c556aacb5717ee9a7aaee8a": {
+  "name": "Moo Velocore VC-ETH",
+  "symbol": "mooVelocoreVC-ETH"
+ },
+ "0xc279d416060d4435b3ebe6319acdbadfa5d12a75": {
+  "name": "OT Cheems LP",
+  "symbol": "Cheems LP"
+ },
+ "0xc281162b44cbb56e575051985cd32e571948ca7a": {
+  "name": "JRToken",
+  "symbol": "JR"
+ },
+ "0xc2b13bb90e33f1e191b8aa8f44ce11534d5698e3": {
+  "name": "Furucombo",
+  "symbol": "COMBO"
+ },
+ "0xc2e9dfb2fded2139b0b60c6781b4c648f1385c16": {
+  "name": "",
+  "symbol": "RLP"
+ },
+ "0xc34c0dfa563501d586494ad70eb3e3b86ca67656": {
+  "name": "Stable Mute LP (MUTE/WETH)",
+  "symbol": "sMLP (MUTE/WETH)"
+ },
+ "0xc38abbbaf4d4221d4012c4bbfd9a5d615e8c6e57": {
+  "name": "GameSwift",
+  "symbol": "GSWIFT"
+ },
+ "0xc3a3aa99b80845d22cc41dea3bdb9b2a9ebe199a": {
+  "name": "ZKDX",
+  "symbol": "ZKDX"
+ },
+ "0xc3b6d357e0beadb18a23a53e1dc4839c2d15bdc2": {
+  "name": "ZeroLend Mute",
+  "symbol": "z0MUTE"
+ },
+ "0xc3e8d2b47b3c31e0ab4799809505ed9da655ea4f": {
+  "name": "ARB",
+  "symbol": "ARB"
+ },
+ "0xc450d92d6a8243826303efabf914802061a236d2": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "USDC.e/WETH-A"
+ },
+ "0xc48574bc5358c967d9447e7df70230fdb469e4e7": {
+  "name": "Aave ZkSync USDT",
+  "symbol": "aZksUSDT"
+ },
+ "0xc53a048e4211a81e68001c6fa56364019f973e0b": {
+  "name": "Velocore LP: BUSD + ETH",
+  "symbol": "BUSD-ETH-VLP"
+ },
+ "0xc5519158537f936679ce3f6215bdb4a8ac7a778a": {
+  "name": "ZKNyan",
+  "symbol": "ZKNYAN"
+ },
+ "0xc58f3440b641e815ea6d3173545b97db32bdc627": {
+  "name": "SyncSwap USDC/crvUSD Stable LP",
+  "symbol": "USDC/crvUSD sSLP"
+ },
+ "0xc5a6b8d69d7526d272ee0f91b68d259a25ccdf81": {
+  "name": "BLESS-ZK",
+  "symbol": "BLESS-ZK"
+ },
+ "0xc5d8fc6a7e72ca1e5041d528feef42d7bd8a770c": {
+  "name": "WOOFi Earn Wrapped Ether",
+  "symbol": "weWETH"
+ },
+ "0xc5db68f30d21cbe0c9eac7be5ea83468d69297e6": {
+  "name": "ReactorFusion Ether",
+  "symbol": "rfETH"
+ },
+ "0xc65364c35d8e2aaba17d00e468c29576f3ec105c": {
+  "name": "Beany Coin",
+  "symbol": "$BEANY"
+ },
+ "0xc6706c31a605f95562ca9ed66ba61f15c35fa3b1": {
+  "name": "eZKalibur LP",
+  "symbol": "eZK-LP"
+ },
+ "0xc6dac3a53d5d6de9d1d05aa6e28b8e9e41722601": {
+  "name": "Wrapped LIBERTAS OMNIBUS",
+  "symbol": "LIBERTAS"
+ },
+ "0xc73ff1c483f6317d184451d477604119f5fa7192": {
+  "name": "VolatileV1 AMM - USDC/VS",
+  "symbol": "vAMM-USDC/VS"
+ },
+ "0xc76997c863bac0f6e4b6d3c2404b06013a0b29e2": {
+  "name": "HeartX Utility Token",
+  "symbol": "HNX"
+ },
+ "0xc76b7152a418eb1b1f444cc65f8a7f745d6eb609": {
+  "name": "Fee FLP",
+  "symbol": "fFLP"
+ },
+ "0xc812dda5c01f3b3e2ef6281e4ce6801c1b84226b": {
+  "name": "Aave Syncus WBTC",
+  "symbol": "aSyncWBTC"
+ },
+ "0xc844684bf2f5e11b9ae1a81cc3e36a88db1d0828": {
+  "name": "SyncSwap DUDIEZ/WETH Classic LP",
+  "symbol": "DUDIEZ/WETH cSLP"
+ },
+ "0xc8ac6191cdc9c7bf846ad6b52aaaa7a0757ee305": {
+  "name": "Metavault Trade",
+  "symbol": "MVX"
+ },
+ "0xc8b6b3a4d2d8428ef3a940eac1e32a7ddadcb0f1": {
+  "name": "eZKalibur LP",
+  "symbol": "eZK-LP"
+ },
+ "0xc8e6667a40159a839753bf56debd1e65544b5691": {
+  "name": "Mithraeum Alliance - Abyssal Legion",
+  "symbol": "maLEGION"
+ },
+ "0xc8ec5b0627c794de0e4ea5d97ad9a556b361d243": {
+  "name": "Whisper",
+  "symbol": "WISP"
+ },
+ "0xc97299abcbe1e40a75acd42bc4e80c0cbcc95a23": {
+  "name": "zkfox compound MUTE",
+  "symbol": "zfcMUTE"
+ },
+ "0xc9a8660115e6c87b8762667f07d9ee5289bd6432": {
+  "name": "Jomon Shiba",
+  "symbol": "JSHIBA"
+ },
+ "0xca3f7f6b546c83d5c3e97eb7dd261e3f2f478ad5": {
+  "name": "!ZK",
+  "symbol": "!ZK Claim on getzkc.xyz"
+ },
+ "0xca623224d69b55c6a421245115c854c61147fa54": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0xca6d99e423d88d0b6a9d7aa3f0fcf0cada92d6ac": {
+  "name": "Escrowed GOVI",
+  "symbol": "esGOVI"
+ },
+ "0xcaa5ba70830f8557fd6516cf632b08aa4b6a528f": {
+  "name": "esPIKO",
+  "symbol": "esPIKO"
+ },
+ "0xcab3f741fa54e79e34753b95717b23018332b8ac": {
+  "name": "Tiny Era Shard Token",
+  "symbol": "TES"
+ },
+ "0xcad270b1eed428260310c632edd737128bc10667": {
+  "name": "SyncSwap rETH/WETH Stable LP",
+  "symbol": "rETH/WETH sSLP"
+ },
+ "0xcb5dc30b7824a6378a5f5c2921e58809c5c0f5d5": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0xcbaab0daae34c232add5adda1f0cc09e342d917b": {
+  "name": "!OriginEther",
+  "symbol": "OriginEther rewards on https://ethstk.pro"
+ },
+ "0xcbf02db6c9ae70aefdbfb4b58aab7ed5313c4915": {
+  "name": "OdosLoyalty.io",
+  "symbol": "ODOS-LP - OdosLoyalty.io"
+ },
+ "0xccac181b35705d61fd166d3ae67466e9c2c137ea": {
+  "name": "ZnaKe",
+  "symbol": "ZNK"
+ },
+ "0xcd2cfa60f04f3421656d6eebee122b3973b3f60c": {
+  "name": "MetaElfLand Token",
+  "symbol": "MELD"
+ },
+ "0xcd47dc9a16f4d9faad5f382873a7a9259e482b1a": {
+  "name": "SyncSwap WETH/MEOW Classic LP",
+  "symbol": "WETH/MEOW cSLP"
+ },
+ "0xcd52cbc975fbb802f82a1f92112b1250b5a997df": {
+  "name": "VolatileV1 AMM - USDC/WETH",
+  "symbol": "vAMM-USDC/WETH"
+ },
+ "0xcda1ee0e4d42ba19192034bf058098b35d5195a3": {
+  "name": "MoonCoin",
+  "symbol": "MOON"
+ },
+ "0xcdb409d259d9b9a7b02ca2e30f27f8feda051e4d": {
+  "name": "ZKGamer by AIgentFi",
+  "symbol": "ZKG"
+ },
+ "0xcdb7d260c107499c80b4b748e8331c64595972a1": {
+  "name": "Karat Token",
+  "symbol": "KAT"
+ },
+ "0xcdc25f597bac53b8a1193eefec134f25d6443e53": {
+  "name": "TON",
+  "symbol": "# TONCrypto.io"
+ },
+ "0xce2005145a571806039099c5c0bd4fe9d7f2d10e": {
+  "name": "zkSyncLOTTO",
+  "symbol": "LOTTO"
+ },
+ "0xce22dc05a65f15071b58a97ec8d2649d7ff2284a": {
+  "name": "Maverick BP-USDC-USDC.e-41",
+  "symbol": "MBP-USDC-USDC.e-41"
+ },
+ "0xcece637a6944b61896dfc2e9eeeec6ae98c34c87": {
+  "name": "Maverick Position-MAV-unkMav-179",
+  "symbol": "MP-MAV-unkMav-179"
+ },
+ "0xcef016daef54e038c0d80e6c0f31bc6c8c98b7ca": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "USDT/WETH-A"
+ },
+ "0xcf01347e3a291e4c7fa133a082c948d88820725b": {
+  "name": "Snark Launch",
+  "symbol": "SNKR"
+ },
+ "0xcf6998129cec6626b79b37bf182a44cfc14840bf": {
+  "name": "fox OT",
+  "symbol": "fOT"
+ },
+ "0xcf78d3c56bc12138ea4d0b06a3f13810a7115b93": {
+  "name": "eZKalibur LP",
+  "symbol": "eZK-LP"
+ },
+ "0xcfe13a8cd5532712e1d0edb27cc6f4cdab47910a": {
+  "name": "l2telegraph.xyz",
+  "symbol": "l2t"
+ },
+ "0xcffec2c683762831d16a9c5b9c70ba1789bba1f3": {
+  "name": "DogeFarm ZK",
+  "symbol": "DOF"
+ },
+ "0xd00270eedb880a4e0b42b3964dfe70c288def453": {
+  "name": "Mithraeum Wood @1",
+  "symbol": "mWOOD @1"
+ },
+ "0xd00e63db1ad221a1fb79d4417b63db4205b16740": {
+  "name": "18",
+  "symbol": "abcd"
+ },
+ "0xd02cf7c19e722fd520de0efade2a24b85b35d250": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0xd03465338226ea0178337f4abb16fdd6df529f57": {
+  "name": "Interport Token",
+  "symbol": "ITP"
+ },
+ "0xd0ce094412898760c2a5e37abec39b0e785b45ae": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0xd0d07097c67feab7b79c79959aeec30766515f10": {
+  "name": "SYN",
+  "symbol": "SYN"
+ },
+ "0xd0dfdbc1eb17555480b4f5168b3cb31303d37e01": {
+  "name": "SyncSwap BUSD/USDC Classic LP",
+  "symbol": "BUSD/USDC cSLP"
+ },
+ "0xd0e8eee2cb04f8474453d9a8a5d960788c0a3ada": {
+  "name": "Velocore LP: VC + ETH",
+  "symbol": "VC-ETH-VLP"
+ },
+ "0xd0ea21ba66b67be636de1ec4bd9696eb8c61e9aa": {
+  "name": "OT",
+  "symbol": "OT"
+ },
+ "0xd0fa9597960fc71ecba08b28123b230342d16710": {
+  "name": "Tarot Borrowable",
+  "symbol": "bTAROT"
+ },
+ "0xd0fb453e03f128a35d7409135981c754170378a5": {
+  "name": "Dinero OFT",
+  "symbol": "DINERO"
+ },
+ "0xd12980d8ee54c4bdf5201195aab49e8791ebaaf7": {
+  "name": "Mithraeum Alliance - Celestial Dominion",
+  "symbol": "maDOMINION"
+ },
+ "0xd154222bd05f6471da6062a7cb6427434953ed30": {
+  "name": "Basilisk Token",
+  "symbol": "BLSK"
+ },
+ "0xd1bdee9ad46d0a98121f28a902c1a73471a4e8cd": {
+  "name": "Jelly",
+  "symbol": "JL"
+ },
+ "0xd1dcbcd06102a3520bbf9b3bf353fda310df0864": {
+  "name": "ZF MUTE/WETH LP Token",
+  "symbol": "MUTE/WETH ZFLP"
+ },
+ "0xd1e21f77d7d4b5281c035de086acf85cdbaf7d6b": {
+  "name": "Staked Bitrock Token",
+  "symbol": "! bitrock.to (Staked Bitrock)"
+ },
+ "0xd255425f24207e327b4759e5ab4b4544c0c3b736": {
+  "name": "StableV1 AMM - USDC/VC",
+  "symbol": "sAMM-USDC/VC"
+ },
+ "0xd2589f416c9412572df8d94fa1d58073c9f8f3bf": {
+  "name": "fee LP Tracker",
+  "symbol": "fLP"
+ },
+ "0xd283a28619d25596995cf23b13c304171b582b7c": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0xd2ff1d57c6b098f02c067fc294542d33eb7c2fa6": {
+  "name": "WBTC",
+  "symbol": "WBTC"
+ },
+ "0xd31f8a866ddebb44833656d0f44cbb4a2875dbb6": {
+  "name": "Aave Syncus WETH",
+  "symbol": "aSyncWETH"
+ },
+ "0xd32052030baa736744d307e386c9f64780f7abe2": {
+  "name": "ZKSwap Era",
+  "symbol": "ZKS-ERA"
+ },
+ "0xd32b34bc9690322c609c1cc15f88e440e73ce2db": {
+  "name": "ZF LONG/WETH LP Token",
+  "symbol": "LONG/WETH ZFLP"
+ },
+ "0xd33a17c883d5aa79470cd2522abb213dc4017e01": {
+  "name": "ZF ZF/WETH LP Token",
+  "symbol": "ZF/WETH ZFLP"
+ },
+ "0xd3425fb3b724e2ea2e31512ecc46a6047702b1fd": {
+  "name": "HOLDSTATION AI",
+  "symbol": "HOLDAI"
+ },
+ "0xd387869f5ed65e6c6ddff5cab2724b96fa4e5386": {
+  "name": "LIBERTAS.BUILD",
+  "symbol": "LIBERTAS"
+ },
+ "0xd3b4dc00ff641be648767c663cbda35b3e76dd4a": {
+  "name": "StableV1 AMM - keyVC/VC",
+  "symbol": "sAMM-keyVC/VC"
+ },
+ "0xd3d91634cf4c04ad1b76ce2c06f7385a897f54d3": {
+  "name": "SyncSwap USDT/WETH Classic LP",
+  "symbol": "USDT/WETH cSLP"
+ },
+ "0xd3da44e34e5c57397ea56f368b9e609433ef1d03": {
+  "name": "Moo Velocore ETH-USDC",
+  "symbol": "mooVelocoreETH-USDC"
+ },
+ "0xd404ff0b60b404ac344bd5f3763de7738c0ef90c": {
+  "name": "Volatile AMM - FANG/WETH",
+  "symbol": "vAMM-FANG/WETH"
+ },
+ "0xd4169e045bcf9a86cc00101225d9ed61d2f51af2": {
+  "name": "rsETHWrapper",
+  "symbol": "wrsETH"
+ },
+ "0xd47573dbb2aee050c93916982c83e708524a3be9": {
+  "name": "Buck",
+  "symbol": "Buck"
+ },
+ "0xd48269b27b301ec026bc4c50514c80af891553a8": {
+  "name": "Prosperity @1",
+  "symbol": "PRS @1"
+ },
+ "0xd4cb4f38de684122af261ee822dc1437601e5424": {
+  "name": "SyncSwap USDC/zk-TiUSD Stable LP",
+  "symbol": "USDC/zk-TiUSD sSLP"
+ },
+ "0xd4e607633f3d984633e946aea4eb71f92564c1c9": {
+  "name": "Aave ZkSync wstETH",
+  "symbol": "aZkswstETH"
+ },
+ "0xd50551d4c828ae2fda9c00efac6262d4a243a1c0": {
+  "name": "fuckshitrc",
+  "symbol": "fsrc"
+ },
+ "0xd532ed30ad2336c851705ca0544f3ef2b246cdc4": {
+  "name": "VolatileV1 AMM - WETH/LAUNCH",
+  "symbol": "vAMM-WETH/LAUNCH"
+ },
+ "0xd53e57c415aadd382b39b60f0483df64d683edbb": {
+  "name": "SyncSwap BUSD/zkUSD Stable LP",
+  "symbol": "BUSD/zkUSD sSLP"
+ },
+ "0xd5563c4513a4907dc5c7bd981b316e1c8d5ebcb3": {
+  "name": "$ZK",
+  "symbol": "$ZK (Claim on zkget.pro)"
+ },
+ "0xd579ad715af342c6c9a2693d27e1c76eaefe659a": {
+  "name": "Account Abstraction Incentive",
+  "symbol": "AA"
+ },
+ "0xd58a0fea5bd63e0bb86afc5aa3025d2144b5029b": {
+  "name": "!    ACX",
+  "symbol": "ACX   [via www.across.events]"
+ },
+ "0xd599da85f8fc4877e61f547dfacffe1238a7149e": {
+  "name": "Cheems Token",
+  "symbol": "Cheems"
+ },
+ "0xd5a1a9680f083237c10c6357e72b37cafe1fb5de": {
+  "name": "SyncSwap Stable LP",
+  "symbol": "USDC/GRAI-S"
+ },
+ "0xd5a69d2bd59ae04ea931b4e2bd30aed6a412ce10": {
+  "name": "Volatile Mute LP (WETH/HOLD)",
+  "symbol": "vMLP (WETH/HOLD)"
+ },
+ "0xd5b865bb7a860f95851f486eb93f6f22e6ab1ff2": {
+  "name": "TON",
+  "symbol": "# TONCrypto.io"
+ },
+ "0xd5c2a8746b6959e2c1896149c6a42b1143115175": {
+  "name": "Mithraeum Ore @0",
+  "symbol": "mORE @0"
+ },
+ "0xd5f1cc935b3e7267a9fbfa250861672113aaee40": {
+  "name": "Wrapped USD+",
+  "symbol": "wUSD+"
+ },
+ "0xd6304aa5ac036ca13071301243025abf8d41e891": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0xd63ef5e9c628c8a0e8984cdfb7444aee44b09044": {
+  "name": "GOVI",
+  "symbol": "GOVI"
+ },
+ "0xd6c008fb375648972206518fb0b1a1b65f371d05": {
+  "name": "Omnisea",
+  "symbol": "OSEA"
+ },
+ "0xd6cd2c0fc55936498726cacc497832052a9b2d1b": {
+  "name": "Aave ZkSync ZK",
+  "symbol": "aZksZK"
+ },
+ "0xd701c10a294de82496dc7412f5cd43291b8d3e50": {
+  "name": "INDC",
+  "symbol": "INDC"
+ },
+ "0xd72f0036978329e5ae889c909c902e851958f1c0": {
+  "name": "Solunea",
+  "symbol": "SLNA"
+ },
+ "0xd76d25245feba6382d757af678364d97c6b84a7e": {
+  "name": "zkBaby Mute",
+  "symbol": "BMUTE"
+ },
+ "0xd78abd81a3d57712a3af080dc4185b698fe9ac5a": {
+  "name": "Venus XVS",
+  "symbol": "XVS"
+ },
+ "0xd874ed3fc5d33250afe8359464ffaaa13140f60b": {
+  "name": "Pool 0 Share",
+  "symbol": "P0-SHARE"
+ },
+ "0xd88f9b9e522080f9bb778fb39ee51a0cc0008a2d": {
+  "name": "Maverick Position-USDC-GRAI-229",
+  "symbol": "MP-USDC-GRAI-229"
+ },
+ "0xd89b545517a1e7d302bc6d1168e9e3c7247bfdd0": {
+  "name": "StableV1 AMM - USDC/USDT",
+  "symbol": "sAMM-USDC/USDT"
+ },
+ "0xd8a6e589a7aedfda1ef97f94cddde791b0edd8e7": {
+  "name": "Pool 0 Share",
+  "symbol": "P0-SHARE"
+ },
+ "0xd8bed42a90e61e4235980517b00503e29db1262d": {
+  "name": "TestTokenB",
+  "symbol": "TESTB"
+ },
+ "0xd90764041da2720396863836e9f78ddaee140533": {
+  "name": "wTBT Pool",
+  "symbol": "wTBT"
+ },
+ "0xd939bae19dd60634e70c8a866c1b11477fc72954": {
+  "name": "FUL LP",
+  "symbol": "FLP"
+ },
+ "0xd93b3bafdf2a71eb931f1dcead1228336ec45fef": {
+  "name": "VolatileV1 AMM - BUSD/WETH",
+  "symbol": "vAMM-BUSD/WETH"
+ },
+ "0xd97ac0ce99329ee19b97d03e099eb42d7aa19ddb": {
+  "name": "ZeroLend zK LUSD",
+  "symbol": "z0LUSD"
+ },
+ "0xd9973b1282bd9dd75bd8fc99f9cd87c20021cd86": {
+  "name": "Velocore LP: ZKE + ETH",
+  "symbol": "ZKE-ETH-VLP"
+ },
+ "0xd9ae1b1ec5970eaec4b9ee37e17c7f43d6906dea": {
+  "name": "MORFI",
+  "symbol": "MORFI"
+ },
+ "0xd9ecb59c2e1b9a8bfc95efcc2f7dbf3834603294": {
+  "name": "ZkSyncStarter",
+  "symbol": "ZKS"
+ },
+ "0xd9fcf3a73f66fccd0de4175287f88c393686582d": {
+  "name": "StableV1 AMM - BUSD/USDC",
+  "symbol": "sAMM-BUSD/USDC"
+ },
+ "0xda4f01e8a5f86e56f48292144e8ddfabda17ef14": {
+  "name": "YIELDZK",
+  "symbol": "YIELD"
+ },
+ "0xda562340a395ba2f5d72a5ee1b1b60c578768578": {
+  "name": "GORILLA ARMY",
+  "symbol": "GORILLA"
+ },
+ "0xda941d75c8c4a5b4edabe891314bd8b24251ac75": {
+  "name": "zkGame Token",
+  "symbol": "ZKG"
+ },
+ "0xdb0f945bf885720add1620947bb5b7eb0b8d8ac4": {
+  "name": "PownerToken",
+  "symbol": "PWRT"
+ },
+ "0xdb23688aa1285de1533fdaa8ebcc009904c36b8d": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0xdb557c24a67eb3f1fe6b614d77df19153437a8e5": {
+  "name": "SyncSwap Classic LP",
+  "symbol": "ZK/KZ-C"
+ },
+ "0xdb71b20f6761fe45f159a2508fbd332e43afe31a": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "rETH/WETH-A"
+ },
+ "0xdb79dfbfc26b4aab4461974e6cc4d0f14456faad": {
+  "name": "SyncSwap WETH/BLSK Classic LP",
+  "symbol": "WETH/BLSK cSLP"
+ },
+ "0xdb87a5493e308ee0deb24c822a559bee52460afc": {
+  "name": "ZeroLend eZKalibur",
+  "symbol": "z0SWORD"
+ },
+ "0xdb89d7b0dccd0c0e5ac3571133a9aa1a037945cb": {
+  "name": "dForce USD",
+  "symbol": "USX"
+ },
+ "0xdba8f47e8cd16985298da5cb8dbf9bf91643a771": {
+  "name": "Chad",
+  "symbol": "CHAD"
+ },
+ "0xdbb224852c4e2487fc1dc1da042c086e8187bbf1": {
+  "name": "fox Mute.io",
+  "symbol": "fMUTE"
+ },
+ "0xdbc64f0c725ce1b7212290005c81834d9ecc2e4d": {
+  "name": "Maverick BP-wstETH-weETH-26",
+  "symbol": "MBP-wstETH-weETH-26"
+ },
+ "0xdbff7c6d368904680706804645cafa4defa3c224": {
+  "name": "Tevaera",
+  "symbol": "TEVA"
+ },
+ "0xdc2db003be75d4e2a2f1d00b9efc91c00b8d814b": {
+  "name": "IsOXOA",
+  "symbol": "IsOXOA"
+ },
+ "0xdca324bdd4ebb6b8a1802959324ce125b5d57921": {
+  "name": "WOOFi Super Charger USDC",
+  "symbol": "weUSDC"
+ },
+ "0xdd5a73f205e9b3b0a21d37fc6fd41fa0e87077cc": {
+  "name": "Mithraeum Ore @0",
+  "symbol": "mORE @0"
+ },
+ "0xdd64e23f79021f695a48c29f2932d362113ea4d6": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0xdd9f72afed3631a6c85b5369d84875e6c42f1827": {
+  "name": "Symbiosis",
+  "symbol": "SIS"
+ },
+ "0xddb09b053b5b59ace603b71357d229429d85758d": {
+  "name": "Maverick Position-USDC-USD+-2",
+  "symbol": "MP-USDC-USD+-2"
+ },
+ "0xdea6d5161978d36b5c0fa6a491faa754f4bc809c": {
+  "name": "Idexo Token",
+  "symbol": "IDO"
+ },
+ "0xdea9374607ea87949c2fd2e823cef374716903c4": {
+  "name": "Omni OFT",
+  "symbol": "OMNI"
+ },
+ "0xdeb100acb78dd53834283421412973a9f35008aa": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0xdf4700daccbfb097204576cbbb4728d4f190fdc1": {
+  "name": "xyUSDC",
+  "symbol": "xyUSDC"
+ },
+ "0xdfaab828f5f515e104baaba4d8d554da9096f0e4": {
+  "name": "Volatile Mute LP (USDC/WETH)",
+  "symbol": "vMLP (USDC/WETH)"
+ },
+ "0xdfde5467560c82464a6a78926a88ca7e605a8da0": {
+  "name": "SyncSwap WETH/LETH Classic LP",
+  "symbol": "WETH/LETH cSLP"
+ },
+ "0xe027d939f7de6f521675907cf086f59e4d75b876": {
+  "name": "SolarCoin on Mainnet",
+  "symbol": "SLR"
+ },
+ "0xe05c58344b78bbbde021e3782487e73bb332c1ef": {
+  "name": "Dappad",
+  "symbol": "APPA"
+ },
+ "0xe0ef1c039a36ec77339e7277ecd4d48e57b61eec": {
+  "name": "SyncSwap Loyalty Token",
+  "symbol": "ySYNC"
+ },
+ "0xe12575badf4f3cf659f4d2e6a68d6a671523eaf2": {
+  "name": "SyncDex Token",
+  "symbol": "SND"
+ },
+ "0xe1550a23c78087ed3e955aeb39ffacb3b8ff77e7": {
+  "name": "Dogcoin",
+  "symbol": "DOGS"
+ },
+ "0xe161a60da0943dad69affe0249b7f623c518337b": {
+  "name": "SpiralFi",
+  "symbol": "SPIRAL"
+ },
+ "0xe1a99ecb13bf21bbaabdb65b3a221466ad55a780": {
+  "name": "SyncSwap USDC/DAI Stable LP",
+  "symbol": "USDC/DAI sSLP"
+ },
+ "0xe29669e892ea8e5f4c3d7c42db5a81631366d3da": {
+  "name": "DappGate by DappLabs",
+  "symbol": "DLGATE"
+ },
+ "0xe2b3dbbcc974b22436fb3c30d937e455317fc314": {
+  "name": "Maverick Position-WETH-wstETH-226",
+  "symbol": "MP-WETH-wstETH-226"
+ },
+ "0xe2c55af390a0f82dd3fe29d6b31df2f756f7decd": {
+  "name": "ZKDC",
+  "symbol": "ZKDC"
+ },
+ "0xe338cfaf0702e4e4d47b196587cf18a187a89b57": {
+  "name": "StarBit",
+  "symbol": "SB"
+ },
+ "0xe34e48d46b65a33d221446902ae44d7cf8a60cca": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0xe3a2b6075173038907e167279f22f144caad3920": {
+  "name": "VolatileV1 AMM - VC/WAIFU",
+  "symbol": "vAMM-VC/WAIFU"
+ },
+ "0xe4622a57ab8f4168b80015bba28fa70fb64fa246": {
+  "name": "xBank Ether",
+  "symbol": "xETH"
+ },
+ "0xe4ee3dceba9b21e0a83f9a782c18ae4e23b3cc52": {
+  "name": "ZK",
+  "symbol": "!ZK (Claim on getzks.xyz)"
+ },
+ "0xe4efebee32551718e3219f71494c91d94839b0b5": {
+  "name": "SyncSwap BUSD/USDT Stable LP",
+  "symbol": "BUSD/USDT sSLP"
+ },
+ "0xe5693ab253ea18cad26296cf1eab674e083f7f4f": {
+  "name": "KURO",
+  "symbol": "Kuroro.io"
+ },
+ "0xe5716ad6873f7d9919b0a72f5b33570f77c1a615": {
+  "name": "ZF WETH/WBTC LP Token",
+  "symbol": "WETH/WBTC ZFLP"
+ },
+ "0xe585a96e7daa6a8695736c86a963da58f0dbb0f4": {
+  "name": "ZF ZF/ZK LP Token",
+  "symbol": "ZF/ZK ZFLP"
+ },
+ "0xe593853b4d603d5b8f21036bb4ad0d1880097a6e": {
+  "name": "FUL",
+  "symbol": "FUL"
+ },
+ "0xe60e1953af56db378184997cab20731d17c65004": {
+  "name": "ZeroLend zK Variable Debt USDC",
+  "symbol": "variableDebtz0USDC"
+ },
+ "0xe62b571e9f40d158cb20796c56e93475d896c56d": {
+  "name": "xBank USD Coin",
+  "symbol": "xUSDC"
+ },
+ "0xe63cdd571fa9d5b271871b7000384f9eda84fb4f": {
+  "name": "Volatile Mute LP (WETH/USD+)",
+  "symbol": "vMLP (WETH/USD+)"
+ },
+ "0xe64e447e42802330b546296358c4218b4eafcb73": {
+  "name": "ZK",
+  "symbol": "ZK (Claim on zkget.pro)"
+ },
+ "0xe6838f57324b7445bbd5faafdf47af36165b6259": {
+  "name": "Nexon Finance",
+  "symbol": "Nexon"
+ },
+ "0xe6cddb5ba87bf7f9419287f3b94218f0d18fd7bc": {
+  "name": "zkPixel",
+  "symbol": "ZKP"
+ },
+ "0xe6eacdcad0ac3f2414e24d14edca9028c4361e5c": {
+  "name": "chAIn by AIgentFi",
+  "symbol": "chAIn"
+ },
+ "0xe6f58e781c5b36af655041617717fbbf1d7b1aa1": {
+  "name": "SyncSwap BUSD/USD+ Stable LP",
+  "symbol": "BUSD/USD+ sSLP"
+ },
+ "0xe74e124f6bfed634ebbd421010ea9e8527abcab3": {
+  "name": "WETH",
+  "symbol": "WETH"
+ },
+ "0xe757355edba7ced7b8c0271bba4efda184ad75ab": {
+  "name": "Merlin BTC",
+  "symbol": "M-BTC"
+ },
+ "0xe75a17b4f5c4f844688d5670b684515d7c785e63": {
+  "name": "VenoToken",
+  "symbol": "VNO"
+ },
+ "0xe7895ed01a1a6aacf1c2e955af14e7cf612e7f9d": {
+  "name": "Liquid ETH",
+  "symbol": "LETH"
+ },
+ "0xe86151af9cc43533add87921c381da11c314debf": {
+  "name": "veMAV",
+  "symbol": "veMAV"
+ },
+ "0xe86413be0d7305b42ee474b519143f9a69960c77": {
+  "name": "SyncSwap USDT/FRAX Stable LP",
+  "symbol": "USDT/FRAX sSLP"
+ },
+ "0xe87269fa38180a13e9bb3c487537f5282ef3e5d7": {
+  "name": "Dappad",
+  "symbol": "APPA"
+ },
+ "0xe8c0b55ad5df460655d73c39d75abedc4749d7d8": {
+  "name": "ZF DUDIEZ/WETH LP Token",
+  "symbol": "DUDIEZ/WETH ZFLP"
+ },
+ "0xe8f5fbedd89c756a97de655b8d06a5b5cc3452ed": {
+  "name": "Zilch",
+  "symbol": "ZCH"
+ },
+ "0xe90c05affd0aa4a7b43fa79631e47da02e7b14ba": {
+  "name": "Impanion",
+  "symbol": "IMP"
+ },
+ "0xe977f9b2a5ccf0457870a67231f23be4daecfbdb": {
+  "name": "Aave ZkSync USDC",
+  "symbol": "aZksUSDC"
+ },
+ "0xe9cbb847a45f4ef727884c81433282de6077213e": {
+  "name": "VolatileV1 AMM - WETH/MAV",
+  "symbol": "vAMM-WETH/MAV"
+ },
+ "0xe9d81b108cf6062607bcd888c745fb67e9d5efcd": {
+  "name": "esZKDX",
+  "symbol": "esZKDX"
+ },
+ "0xea79962a23bbc62786c79e4b6b6213f04beab9c1": {
+  "name": "FUCK",
+  "symbol": "fuck"
+ },
+ "0xea93cb45b36be07881ec5a5716358ceb9cf6140b": {
+  "name": "Sun Shine",
+  "symbol": "S2"
+ },
+ "0xeb63259783c727ae9cb1aebc3c56c0a08f08cb8c": {
+  "name": "GemSwap LPs",
+  "symbol": "GLP"
+ },
+ "0xeb73fc57b6cd73bc2e36fa7d9265cb9d4eccbdd6": {
+  "name": "StableV1 AMM - USDC/ONEZ",
+  "symbol": "sAMM-USDC/ONEZ"
+ },
+ "0xeb79ff82c91e8a2b247d834e9c82491ba66ca045": {
+  "name": "Aave Syncus SYNC",
+  "symbol": "aSyncSYNC"
+ },
+ "0xeb9fd198b20dc73e63668b89a735b7dc84e13ea0": {
+  "name": "ZF WETH/wrsETH LP Token",
+  "symbol": "WETH/wrsETH ZFLP"
+ },
+ "0xec07e452d9b8e89188b18e10e9c4acff620001b9": {
+  "name": "ZkpepeInu",
+  "symbol": "ZKPEINU"
+ },
+ "0xec45abd6382715920c83cdcadff06348d7b4f764": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0xec54bd14c88878ddf4c838d23c926aaf0ff9c8b4": {
+  "name": "zkFloki",
+  "symbol": "ZLOKI"
+ },
+ "0xec55007931a78331e08efa6f10e2d0fd0e9b224b": {
+  "name": "Stable AMM - USDC/USD+",
+  "symbol": "sAMM-USDC/USD+"
+ },
+ "0xeca417f2110e06141f5dde822d761d3c5d8de5b4": {
+  "name": "NOVA",
+  "symbol": "NOVA"
+ },
+ "0xecae5905a3f13ebeafab243d409423e223f4ccd7": {
+  "name": "zkELON",
+  "symbol": "ZKELON"
+ },
+ "0xecd9f240ed3895c77db676004328dd1d246f33c9": {
+  "name": "ERA",
+  "symbol": "ERA"
+ },
+ "0xecfeae6f8d7df3d73728f8d2af3b896a258ecd0e": {
+  "name": "SyncSwap uGOLD/WETH Classic LP",
+  "symbol": "uGOLD/WETH cSLP"
+ },
+ "0xed0994232328b470d44a88485b430b8ba965d434": {
+  "name": "BUIDLBux For Testing",
+  "symbol": "BUIDL TEST"
+ },
+ "0xed0c95ebe5a3e687cb2224687024fec6518e683e": {
+  "name": "syBTC",
+  "symbol": "syBTC"
+ },
+ "0xed4040fd47629e7c8fbb7da76bb50b3e7695f0f2": {
+  "name": "Holdstation",
+  "symbol": "HOLD"
+ },
+ "0xed459af27d89e4726769484fcede9b93287d4628": {
+  "name": "Kratos Cash",
+  "symbol": "KCASH"
+ },
+ "0xedf0c3e856d39e5047dfdab62bd48af9a2bdcaa9": {
+  "name": "zkSync",
+  "symbol": "ZKS"
+ },
+ "0xee1e88eb20becdebe1e88f50c9f8b1d72478f2d0": {
+  "name": "UniDex",
+  "symbol": "UNIDX"
+ },
+ "0xee7ec4cbf6c0b1ba05b1cbd46e8fd2341c50bbc0": {
+  "name": "QvaltDex",
+  "symbol": "QVALT"
+ },
+ "0xeec4e7a73d7a2a1e672860af62096de1dd3e8656": {
+  "name": "VolatileV1 AMM - USDT/WETH",
+  "symbol": "vAMM-USDT/WETH"
+ },
+ "0xeefba9e9407facbad4c16639868c1e9b77ceb8da": {
+  "name": "Yield Tyche V2",
+  "symbol": "yTycheV2"
+ },
+ "0xef0cb46c2b13737c0ccbf9e5706ddee95d409a30": {
+  "name": "zkSafemoon",
+  "symbol": "zkMOON"
+ },
+ "0xef1b70df40fcbb43e878878e57476217ac895414": {
+  "name": "OXOA Token",
+  "symbol": "OXOA"
+ },
+ "0xef2d6320fa1ef76d2727f0a62736c7a8b1b67c27": {
+  "name": "Mithraeum Alliance - Shadow Consortium",
+  "symbol": "maCONSORTIUM"
+ },
+ "0xeff7ea0713764a38d45c2a75b39486b2bbce28ce": {
+  "name": "SyncSwap Aqua LP",
+  "symbol": "WETH/VNO-A"
+ },
+ "0xf00dad97284d0c6f06dc4db3c32454d4292c6813": {
+  "name": "Wrapped Ether",
+  "symbol": "WETH"
+ },
+ "0xf045a48b43dec0f4e91b242a3e69d7ff523dcaa1": {
+  "name": "CherrySwap Token",
+  "symbol": "CHE"
+ },
+ "0xf0b95410fcbdd841725a302a43fd5d705ae48139": {
+  "name": "Authorized Token",
+  "symbol": "AToken"
+ },
+ "0xf0e86a60ae7e9bc0f1e59caf3cc56f434b3024c0": {
+  "name": "Velocore LP: USDT + ETH",
+  "symbol": "USDT-ETH-VLP"
+ },
+ "0xf100ff84b363af74e3fcdff554e3da3309159458": {
+  "name": "ZF USDC/USDT LP Token",
+  "symbol": "USDC/USDT ZFLP"
+ },
+ "0xf12a83bc5c9b356b5da62f7a579adbb11a99ddd4": {
+  "name": "VolatileV1 AMM - WETH/GGG",
+  "symbol": "vAMM-WETH/GGG"
+ },
+ "0xf150394f2747cda99413eb6fcfe96319819b1dc8": {
+  "name": "ordinals",
+  "symbol": "rodi"
+ },
+ "0xf16de3d0ff0b9635c6624768c583a789f8910ebb": {
+  "name": "MatToken",
+  "symbol": "MAT"
+ },
+ "0xf17cb05b782d75407b6c54411a97d4e459d9110f": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0xf1f70f838ef52cbcff9e2f3f58e1397c6b72d4a8": {
+  "name": "zkLaunch",
+  "symbol": "ZKL"
+ },
+ "0xf2120c497b486256f3c1f3f8f07e7acaa07bc00e": {
+  "name": "AVA",
+  "symbol": "AVA"
+ },
+ "0xf25ffca3742c66d4729f804e1b1385ce9ed55921": {
+  "name": "VolatileV1 AMM - BIFI/WETH",
+  "symbol": "vAMM-BIFI/WETH"
+ },
+ "0xf291f49ab8c614110849c29762693c9cb9c72ca0": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0xf2ad7a85b64c6930bcafef7236f1db11343a3f2d": {
+  "name": "KyberSwap LP USDC.e-zkUSD",
+  "symbol": "KS-LP USDC.e-zkUSD"
+ },
+ "0xf2cc4e87e5af2b7f2edeabb427b85602fc900466": {
+  "name": "ZF WETH/ZKPEPE LP Token",
+  "symbol": "WETH/ZKPEPE ZFLP"
+ },
+ "0xf32c84bbdb030d3839e8725a510b1793af7934ad": {
+  "name": "TwitFi Token",
+  "symbol": "TWT"
+ },
+ "0xf34b7477f2b9f3e1b6ec8b48382ab06173881254": {
+  "name": "tNEC",
+  "symbol": "tNEC"
+ },
+ "0xf35bbae1b331ed67822dc0a89692b972fc08cb3f": {
+  "name": "Velocore LP: USDC + VC",
+  "symbol": "USDC-VC-VLP"
+ },
+ "0xf3d13b3b0298797a15959cfb4984659a10d3f98e": {
+  "name": "XRAISE TOKEN",
+  "symbol": "RAISE"
+ },
+ "0xf3ecd1af4b8d29b42c139233db3c2ad48001b982": {
+  "name": "ZK",
+  "symbol": "ZK (Claim on getzks.pro)"
+ },
+ "0xf420690863e7f073b39beed9f674c8211c17fe6b": {
+  "name": "SyrupBar Token",
+  "symbol": "SYRUP"
+ },
+ "0xf42d97dbff4adc5fe32966338c306859a5766511": {
+  "name": "ZoKe Inu",
+  "symbol": "ZKINU"
+ },
+ "0xf47430bbbe7474ec024e66dee2470b4d05b48804": {
+  "name": "Velocore LP: WBTC + ETH",
+  "symbol": "WBTC-ETH-VLP"
+ },
+ "0xf4c655f7dc8c0db02c57bfb854022442c1bbbf17": {
+  "name": "# blast2l.com",
+  "symbol": "Visit blast2l.com to claim rewards"
+ },
+ "0xf4e869814d7d80f7a1c8bd19868597abe00257b0": {
+  "name": "SyncSwap WETH/cbETH Classic LP",
+  "symbol": "WETH/cbETH cSLP"
+ },
+ "0xf62d5a6c1dfdacec72c825d93f18972173c9e8ed": {
+  "name": "ZK",
+  "symbol": "!ZK (Claim on zksget.xyz)"
+ },
+ "0xf63f6652c8b2cafb0e4233678482bdaaeb0e019d": {
+  "name": "Stable AMM - FANG/USDC",
+  "symbol": "sAMM-FANG/USDC"
+ },
+ "0xf6af5785d59fc39a371c650cb6d3a6144c4dc85b": {
+  "name": "eZKalibur LP",
+  "symbol": "eZK-LP"
+ },
+ "0xf6b63d60806687674971ac0b89154cab561b6cbc": {
+  "name": "SyncSwap OPAD/WETH Classic LP",
+  "symbol": "OPAD/WETH cSLP"
+ },
+ "0xf6cc0f880150a08695b7913638f12c08e785b032": {
+  "name": "StableV1 AMM - BUSD/USDC",
+  "symbol": "sAMM-BUSD/USDC"
+ },
+ "0xf6d9a093a1c69a152d87e269a7d909e9d76b1815": {
+  "name": "Super Launcher",
+  "symbol": "LAUNCH"
+ },
+ "0xf701861bdc238bef06722f0edc507450d85735c3": {
+  "name": "SyncSwap USDC/hsUSDC Classic LP",
+  "symbol": "USDC/hsUSDC cSLP"
+ },
+ "0xf72504f1b5b232aceb23edda5cd80c20970a71e7": {
+  "name": "!ZK",
+  "symbol": "!ZK (Claim on getzkc.pro)"
+ },
+ "0xf746d0bed4a9707fade68855bad3e3f45f4e3da1": {
+  "name": "VolatileV1 AMM - USDC/VC",
+  "symbol": "vAMM-USDC/VC"
+ },
+ "0xf78b8cdbaa242451fef742dd2e6232f4c92af900": {
+  "name": "SyncSwap WETH/zkUSD Classic LP",
+  "symbol": "WETH/zkUSD cSLP"
+ },
+ "0xf7a3c9a892a2b2cbbb6f8053db3d3db7af194494": {
+  "name": "StableV1 AMM - WETH/VC",
+  "symbol": "sAMM-WETH/VC"
+ },
+ "0xf85d532b54b27f9dde35d2f94320cec97a14cfd2": {
+  "name": "PrayLuck",
+  "symbol": "PL"
+ },
+ "0xf8a5d2d250880f6219f0072917c4300fab60488e": {
+  "name": "CHAOS",
+  "symbol": "CHAOS"
+ },
+ "0xf8c6da1bbdc31ea5f968ace76e931685ca7f9962": {
+  "name": "PIKO",
+  "symbol": "PIKO"
+ },
+ "0xf92b0178bc932a59d45c1c4aac81712aac6a5b61": {
+  "name": "Pancake LPs",
+  "symbol": "Cake-LP"
+ },
+ "0xfa0070b2abee2dc0436a458d373a4ddd2e51f583": {
+  "name": "YieldFarming Index",
+  "symbol": "YFX"
+ },
+ "0xfa21faace1041582ebaa908e95c3bd0a91e1f06e": {
+  "name": "CksDoge Token",
+  "symbol": "ZksDoge"
+ },
+ "0xfa64908dbbfb7881e3e3b1be45132525cdcb924a": {
+  "name": "SyncSwap Classic LP",
+  "symbol": "WETH/maCONSORTIUM-C"
+ },
+ "0xfa6d5d3f272b21d741ffbb6f076093c84e49b0be": {
+  "name": "Workers @0",
+  "symbol": "WRK @0"
+ },
+ "0xfa9653f7a15f38c8abbca6f139e49be06752d09c": {
+  "name": "zkBITCOIN",
+  "symbol": "zkBITCOIN"
+ },
+ "0xfae2784fae4d47316b487bc0087a7c78d4809753": {
+  "name": "Fee FluxLP",
+  "symbol": "fFluxLP"
+ },
+ "0xfb153dd6cb2de5219b36b8c95f2c528a34e2912b": {
+  "name": "Moo veSync ETH-USDC",
+  "symbol": "mooveSyncETH-USDC"
+ },
+ "0xfbfece4dc3aecf75bb768746245eaadae6eab35d": {
+  "name": "OT ZAT LP",
+  "symbol": "ZAT LP"
+ },
+ "0xfc00dac251711508d4dd7b0c310e913575988838": {
+  "name": "DLPM",
+  "symbol": "DLPM"
+ },
+ "0xfc7e56298657b002b3e656400e746b7212912757": {
+  "name": "zkUSD Dollar",
+  "symbol": "zkUSD"
+ },
+ "0xfc840c55b791a1dbaf5c588116a8fc0b4859d227": {
+  "name": "Increment Unit of Account",
+  "symbol": "UA"
+ },
+ "0xfcb9cfe2948ca2d6dfaef8fa7a620e766a5f9630": {
+  "name": "Prosperity @0",
+  "symbol": "PRS @0"
+ },
+ "0xfcc14e506c1fa725bd7186e53df141c13683b7bf": {
+  "name": "Gemstone Token",
+  "symbol": "GEMS"
+ },
+ "0xfd282f16a64c6d304ac05d1a58da15bed0467c71": {
+  "name": "Pepe",
+  "symbol": "PEPE"
+ },
+ "0xfdc4ce439e672e81c6b86e6cd45ffb0a7ccf9d44": {
+  "name": "SpaceSwap LP Token",
+  "symbol": "SLP"
+ },
+ "0xfe05f0f10c0f923230adafaaf58f9627b801c27e": {
+  "name": "proof of transaction",
+  "symbol": "POTX"
+ },
+ "0xfe772ce1f867e564c95e1e6ba295438f41325a2e": {
+  "name": "KyberSwap LP USDC.e-USDT",
+  "symbol": "KS-LP USDC.e-USDT"
+ },
+ "0xff2c6230b241a5c183e8f42d3b1805a4acd9fb3e": {
+  "name": "Volatile Mute LP (WETH/MVX)",
+  "symbol": "vMLP (WETH/MVX)"
+ },
+ "0xff4dd1a9839065885d3313ca525ac35213af69c5": {
+  "name": "vETH base token",
+  "symbol": "vETH"
+ }
+}

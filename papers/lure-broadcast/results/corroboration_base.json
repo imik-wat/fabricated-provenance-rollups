@@ -1,0 +1,60 @@
+{
+ "axes": {
+  "covalent_erc20_maybe": {
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "hits_control": 17,
+   "hits_treatment": 0,
+   "n_control": 705,
+   "n_treatment": 141,
+   "p_value": 0.09223376915839318,
+   "p_value_underflow": false,
+   "rate_control": 0.024113475177304965,
+   "rate_treatment": 0.0,
+   "ratio": 0.0,
+   "ratio_is_infinite": false,
+   "reference_size": 2991
+  },
+  "covalent_erc20_yes": {
+   "ci95": [
+    2.611940298507463,
+    5.357142857142857
+   ],
+   "hits_control": 60,
+   "hits_treatment": 45,
+   "n_control": 705,
+   "n_treatment": 141,
+   "p_value": 5.387868253034522e-12,
+   "p_value_underflow": false,
+   "rate_control": 0.0851063829787234,
+   "rate_treatment": 0.3191489361702128,
+   "ratio": 3.7500000000000004,
+   "ratio_is_infinite": false,
+   "reference_size": 1400648
+  },
+  "metamask_domain_blocklist": {
+   "caveat": "Control = domains in the metadata of non-flagged contracts. If control_resolvable is false the base rate is unresolved and the ratio must not be quoted.",
+   "control_resolvable": false,
+   "hits_control": 0,
+   "hits_treatment": 2,
+   "n_control": 10,
+   "n_treatment": 36,
+   "rate_control": 0.0,
+   "rate_treatment": 0.05555555555555555,
+   "reference_size": 105529
+  }
+ },
+ "chain": "base",
+ "control_multiple_requested": 5.0,
+ "control_size": 705,
+ "distinct_campaign_domains": 36,
+ "flagged_strong": 141,
+ "metadata_contracts": 1199,
+ "note": "Every ratio is treatment-rate / control-rate against a rank-matched control. A ratio quoted without both rates is not a measurement.",
+ "rank_band": [
+  141,
+  1197
+ ]
+}

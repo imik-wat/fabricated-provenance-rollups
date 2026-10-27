@@ -1,0 +1,116 @@
+{
+ "chain": "polygon-zkevm",
+ "channel_census": {
+  "distinct_named_senders": 2,
+  "distinct_recipients": 250757,
+  "fanout_ratio": 1.168306368316737,
+  "note": "recipients are addresses NAMED as recipient, excluding the zero address; fan-out ~1 is the broadcast signature. Senders are the adversary-authored field and identify no operator.",
+  "top_fifty_share": 0.9999897597291107,
+  "top_named_senders": [
+   {
+    "address": "0x2548c94a3092494db3af864cc2cf781a72f55678",
+    "transfers": 250000
+   },
+   {
+    "address": "0x2a3dd3eb832af982ec71669e178424b10dca2ede",
+    "transfers": 42958
+   }
+  ],
+  "transfers": 292961
+ },
+ "depth_cutoffs": [
+  100,
+  300,
+  600,
+  null
+ ],
+ "depth_note": "cumulative at each rank cutoff; buckets partition the flagged population by the emitting contract's volume rank, so recipients at depth d are the union over buckets up to d. Marginal columns are the increment each interval adds.",
+ "depth_table": [
+  {
+   "contracts": 2,
+   "cutoff": 100,
+   "cutoff_label": "100",
+   "distinct_recipients": 250453,
+   "marginal_contracts": 2,
+   "marginal_recipients": 250453,
+   "marginal_transfers": 292502,
+   "transfers": 292502
+  },
+  {
+   "contracts": 3,
+   "cutoff": 300,
+   "cutoff_label": "300",
+   "distinct_recipients": 250757,
+   "marginal_contracts": 1,
+   "marginal_recipients": 304,
+   "marginal_transfers": 459,
+   "transfers": 292961
+  },
+  {
+   "contracts": 3,
+   "cutoff": 600,
+   "cutoff_label": "600",
+   "distinct_recipients": 250757,
+   "marginal_contracts": 0,
+   "marginal_recipients": 0,
+   "marginal_transfers": 0,
+   "transfers": 292961
+  },
+  {
+   "contracts": 3,
+   "cutoff": null,
+   "cutoff_label": "all",
+   "distinct_recipients": 250757,
+   "marginal_contracts": 0,
+   "marginal_recipients": 0,
+   "marginal_transfers": 0,
+   "transfers": 292961
+  }
+ ],
+ "fabricated_sender_criterion": {
+  "contract_share": 0.0,
+  "contracts": 0,
+  "contracts_list": [],
+  "definition": "a broadcast transfer whose named sender is a registry-verified token; evidence of fabricated provenance, independent of the payload strings the detector reads",
+  "recipient_share": 0.0,
+  "recipients": 0,
+  "row_share": 0.0,
+  "rows": 0
+ },
+ "impersonation": {
+  "note": "named_as_from counts rows asserting the target as sender. emitted_by_self counts those the target itself emitted. A forged sender field predicts emitted_by_self == 0.",
+  "targets": []
+ },
+ "lure_contracts_expected": 3,
+ "lure_contracts_observed": 3,
+ "lure_rows_matched": 292961,
+ "lure_transfers_by_contract": {
+  "0x09c00e02b422d38f399a775481e27364d9a3b2d5": 42501,
+  "0x09e036ffc0534e7bdac3b9119090cd57ce9bef64": 250001,
+  "0x1ba50e70fffe40b100e43f44919d0102d28d4fb2": 459
+ },
+ "match_key": "low 20 bytes of the address and of each participant topic, compared as 40-character lowercase hex; independent of topic padding width",
+ "partial": false,
+ "probe": {
+  "absent": true,
+  "addresses": [
+   "0x3b6056ff037072be7e7b62efcdb5639cf08dfa4a",
+   "0xa735a3609ec3b701f29e0ea5b066d799a8ba8af8"
+  ],
+  "interpretation": "the ledger test in forgery_probe.py requires these addresses to be unknown to the chain; occurrences_in_chain == 0 establishes that by measurement rather than by appeal to improbability. Counted over both participant fields of every row.",
+  "occurrences_in_chain": 0,
+  "seed": "balance-probe"
+ },
+ "row_groups": 21,
+ "rows_per_second": 8837571,
+ "rows_scanned": 18007594,
+ "scope": "FULL CHAIN -- every row group scanned",
+ "totals": {
+  "of_which_emitted_by_that_token": 0,
+  "registry_own_logs": 11848263,
+  "registry_own_logs_naming_self": 65,
+  "rows_naming_a_registry_token_as_sender": 0
+ },
+ "wall_seconds": 2.0,
+ "workers": 12
+}

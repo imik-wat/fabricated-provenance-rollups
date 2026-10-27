@@ -1,0 +1,110 @@
+{
+ "caveat": "The scored population is defined by the prior pipeline's eligibility rule, including its UTILITY_CAP on counterparty count, so this is conditional on that rule and is not a population prevalence over all addresses. It is exactly the quantity that bounds a support-restricted ratio, which is what it is used for. The medians are conditioned on level >= 2 because the feature table samples below that.",
+ "census_by_tau": {
+  "1": {
+   "candidate_transfers_at_or_above": 266357,
+   "p_of_scored_transfers": 0.27518550125113905,
+   "ratio_ceiling": 3.6339123807521485,
+   "ratio_design_dead_at_1_5": false,
+   "wilson95": [
+    0.2742966550790645,
+    0.276076131962711
+   ]
+  },
+  "2": {
+   "candidate_transfers_at_or_above": 98,
+   "p_of_scored_transfers": 0.00010124824623573485,
+   "ratio_ceiling": 9876.714285714284,
+   "ratio_design_dead_at_1_5": false,
+   "wilson95": [
+    8.308927541868664e-05,
+    0.0001233753288614034
+   ]
+  },
+  "3": {
+   "candidate_transfers_at_or_above": 97,
+   "p_of_scored_transfers": 0.00010021510086598245,
+   "ratio_ceiling": 9978.536082474226,
+   "ratio_design_dead_at_1_5": false,
+   "wilson95": [
+    8.215815537726244e-05,
+    0.00012224016636425613
+   ]
+  },
+  "4": {
+   "candidate_transfers_at_or_above": 97,
+   "p_of_scored_transfers": 0.00010021510086598245,
+   "ratio_ceiling": 9978.536082474226,
+   "ratio_design_dead_at_1_5": false,
+   "wilson95": [
+    8.215815537726244e-05,
+    0.00012224016636425613
+   ]
+  },
+  "5": {
+   "candidate_transfers_at_or_above": 0,
+   "p_of_scored_transfers": 0.0,
+   "ratio_ceiling": null,
+   "ratio_design_dead_at_1_5": false,
+   "wilson95": [
+    0.0,
+    3.968915500088039e-06
+   ]
+  },
+  "6": {
+   "candidate_transfers_at_or_above": 0,
+   "p_of_scored_transfers": 0.0,
+   "ratio_ceiling": null,
+   "ratio_design_dead_at_1_5": false,
+   "wilson95": [
+    0.0,
+    3.968915500088039e-06
+   ]
+  },
+  "8": {
+   "candidate_transfers_at_or_above": 0,
+   "p_of_scored_transfers": 0.0,
+   "ratio_ceiling": null,
+   "ratio_design_dead_at_1_5": false,
+   "wilson95": [
+    0.0,
+    3.968915500088039e-06
+   ]
+  }
+ },
+ "chain": "zksync-era",
+ "coincidental_4_4_probability_median_address": 5.122274160385132e-09,
+ "contaminated_feature_table_comparison": {
+  "distinct_addresses_in_table": 10635,
+  "feature_rows_read": 19486,
+  "p_victim_given_table_by_tau": {
+   "1": 0.014856605547719793,
+   "2": 0.003008932769158439,
+   "3": 0.002914903620122238,
+   "4": 0.002914903620122238,
+   "5": 0.0,
+   "6": 0.0,
+   "8": 0.0
+  },
+  "recorded_coverage_by_level": {
+   "0": 0.015,
+   "1": 0.0005,
+   "2": 1.0,
+   "4": 0.0
+  },
+  "sub_threshold_addresses_in_table": 10604,
+  "why_inadmissible": "detect.py:272 keeps pairs with best_level < 2 only at neg_rate (default 0.01), so the non-victims are deleted at ~99% and any share computed here is inflated towards 1 by construction. Reported only to show the size of the artefact."
+ },
+ "interpretation": "The admissible headline is p_of_scored_transfers at tau=4, from the unsampled census histogram. Where it approaches 1, any risk ratio restricted to the scored population is confined to [0, 1/p] by arithmetic, so marginal rate comparisons cannot measure targeting and list-level comparison is the only honest unit. The coincidence probability shows the matches are deliberate crafts rather than birthday collisions, so a high share is a statement about how WIDESPREAD deliberate crafting is -- not a claim that the rule over-flags.",
+ "level_histogram": {
+  "0": 701561,
+  "1": 266259,
+  "2": 1,
+  "4": 97
+ },
+ "median_n_victim_candidates_given_level_ge_2": 2,
+ "median_victim_cp_count_given_level_ge_2": 11,
+ "primary_source": "results/zksync-era_detection.json:best_match_level_histogram",
+ "scored_transfers": 967918,
+ "unit": "candidate transfer (a zero-value registry-token transfer that was scored)"
+}

@@ -1,0 +1,30 @@
+{
+ "chain": "optimism",
+ "n_boot": 5000,
+ "ht_flagged_transfers": {
+  "point": 26503972.795499977,
+  "ci95": [
+   21627887.53442848,
+   31360093.398904193
+  ]
+ },
+ "ht_flagged_contracts": {
+  "point": 6105.232387629963,
+  "ci95": [
+   4725.699103899546,
+   7789.045555131601
+  ],
+  "exact_bonferroni_upper95": 11641
+ },
+ "frame_flagged_transfers": 146964811,
+ "worst_case_flagged_tail_transfers": 33243169,
+ "worst_case_tail_to_frame_ratio": 0.22619815433233198,
+ "tail_to_frame_volume_ratio": {
+  "point": 0.18034230517603275,
+  "ci95": [
+   0.14716371481897447,
+   0.2133850490162859
+  ]
+ },
+ "caveat": "rare, heavy-tailed and campaign-clustered flagged volumes; percentile bootstrap intervals are indicative and may under-cover; the exact count bound stands beside them"
+}

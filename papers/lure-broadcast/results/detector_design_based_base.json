@@ -1,0 +1,343 @@
+{
+ "agreed_rows": 341,
+ "agreed_set_only": "rows are used only where both raters gave the same non-blank label; disagreements and blanks are excluded and counted, never imputed",
+ "chain": "base",
+ "confusion_matrix_population_calibrated": {
+  "FP": 0.0,
+  "TP": 141.0,
+  "flagged_total": 141,
+  "note": "the flagged arm is the census count, not an expansion; the expanded matrix above re-inflates the fully enumerated weak strata"
+ },
+ "confusion_matrix_population_expanded": {
+  "FN": 1.25,
+  "FP": 0.0,
+  "TN": 1051.2499999999975,
+  "TP": 146.50000000000014
+ },
+ "confusion_matrix_sampled_rows": {
+  "FN": 1,
+  "FP": 0,
+  "TN": 254,
+  "TP": 86
+ },
+ "estimand": {
+  "precision": "P(positive | flagged)",
+  "recall": "P(flagged | positive)"
+ },
+ "estimates": {
+  "f1": {
+   "ci95": [
+    0.991467576791809,
+    1.0
+   ],
+   "method": "finite-population stratified bootstrap",
+   "point": 0.9957519116397622
+  },
+  "precision": {
+   "ci95": [
+    1.0,
+    1.0
+   ],
+   "degeneracy_note": "the bootstrap cannot produce an outcome absent from the sample, so with no observed false positive its interval is a point; the design-based bound replaces it",
+   "degenerate_no_observed_fp": true,
+   "false_positive_upper95_bonferroni_crosscheck": {
+    "k_max": 10,
+    "note": "per-stratum bounds at alpha/H, summed. A joint region tighter than this would indicate the region is too small, so this is a guard rather than a competitor",
+    "theta": 0.07092198581560284
+   },
+   "false_positive_upper95_design_based": {
+    "allocation": {
+     "strong|0-200": 0,
+     "strong|200-600": 0,
+     "strong|600-1200": 4,
+     "weak|200-600": 0,
+     "weak|600-1200": 0
+    },
+    "assumes": "that excluding the disagreed and blank rows is ignorable within stratum; the worst-case figure below assumes nothing about them",
+    "flagged_population": 141,
+    "flagged_sampled_agreed": 86,
+    "k_max": 4,
+    "method": "inversion of the exact hypergeometric test on the total, over the frozen strata, conditional on the realised flagged-sample sizes",
+    "theta": 0.028368794326241134
+   },
+   "false_positive_upper95_if_exclusions_are_positive": {
+    "k_max": 3,
+    "note": "what adjudicating the excluded rows as positives would buy",
+    "theta": 0.02127659574468085
+   },
+   "false_positive_upper95_simple_binomial_diagnostic": {
+    "note": "NOT design-based: the infinite-population limit of the bound above, reported for comparability with the rule-of-three literature",
+    "theta": 0.03423437284912023
+   },
+   "false_positive_upper95_worst_case_exclusions": {
+    "excluded_flagged_treated_as_false_positive": 5,
+    "flagged_sampled_drawn": 91,
+    "k_max": 13,
+    "note": "makes no assumption about the excluded rows, so it is unconditional with respect to the unresolved-label question. Like every figure here it remains conditional on the stated sampling design, on the detector frame as the population, and on the operational codebook as the reference definition.",
+    "observed_precision": 0.945054945054945,
+    "theta": 0.09219858156028368
+   },
+   "flagged_population_is_a_census": 141,
+   "method": "finite-population stratified bootstrap",
+   "point": 1.0
+  },
+  "recall": {
+   "ci95": [
+    0.9830795262267343,
+    1.0
+   ],
+   "method": "finite-population stratified bootstrap",
+   "point": 0.9915397631133672
+  }
+ },
+ "excluded": {
+  "blank": 5,
+  "disagreed": 26
+ },
+ "excluded_flagged": {
+  "rows": {
+   "strong|200-600": [
+    "bas-0319"
+   ],
+   "strong|600-1200": [
+    "bas-0080",
+    "bas-0139",
+    "bas-0347"
+   ],
+   "weak|600-1200": [
+    "bas-0370"
+   ]
+  },
+  "total": 5
+ },
+ "expanded_counts_note": "expanded cells are EXPECTED counts under Horvitz--Thompson weighting and are fractional by construction; the sampled-row matrix above gives the integer counts actually observed",
+ "flagged_census": {
+  "agreed": 86,
+  "drawn": 91,
+  "per_stratum": {
+   "strong|0-200": 7,
+   "strong|200-600": 48,
+   "strong|600-1200": 77,
+   "weak|200-600": 2,
+   "weak|600-1200": 7
+  },
+  "total": 141
+ },
+ "fully_sampled_strata": [
+  "none|1200+",
+  "strong|0-200"
+ ],
+ "interval_method": "finite-population stratified bootstrap: resample within each stratum without replacement from a pseudo-population of size N_h. A Wilson interval on pooled counts is NOT valid for this design and is no longer reported.",
+ "n_boot": 5000,
+ "per_stratum": [
+  {
+   "FN": 0,
+   "FP": 0,
+   "N_h": 184,
+   "TN": 59,
+   "TP": 0,
+   "flagged_population": 0,
+   "flagged_sampled": 0,
+   "fully_sampled": false,
+   "mixed": false,
+   "n_h": 59,
+   "positives": 0,
+   "sampling_fraction": 0.32065217391304346,
+   "stratum": "none|0-200"
+  },
+  {
+   "FN": 0,
+   "FP": 0,
+   "N_h": 6,
+   "TN": 6,
+   "TP": 0,
+   "flagged_population": 0,
+   "flagged_sampled": 0,
+   "fully_sampled": true,
+   "mixed": false,
+   "n_h": 6,
+   "positives": 0,
+   "sampling_fraction": 1.0,
+   "stratum": "none|1200+"
+  },
+  {
+   "FN": 0,
+   "FP": 0,
+   "N_h": 346,
+   "TN": 84,
+   "TP": 0,
+   "flagged_population": 0,
+   "flagged_sampled": 0,
+   "fully_sampled": false,
+   "mixed": false,
+   "n_h": 84,
+   "positives": 0,
+   "sampling_fraction": 0.24277456647398843,
+   "stratum": "none|200-600"
+  },
+  {
+   "FN": 0,
+   "FP": 0,
+   "N_h": 511,
+   "TN": 102,
+   "TP": 0,
+   "flagged_population": 0,
+   "flagged_sampled": 0,
+   "fully_sampled": false,
+   "mixed": false,
+   "n_h": 102,
+   "positives": 0,
+   "sampling_fraction": 0.19960861056751467,
+   "stratum": "none|600-1200"
+  },
+  {
+   "FN": 0,
+   "FP": 0,
+   "N_h": 7,
+   "TN": 0,
+   "TP": 7,
+   "flagged_population": 7,
+   "flagged_sampled": 7,
+   "fully_sampled": true,
+   "mixed": false,
+   "n_h": 7,
+   "positives": 7,
+   "sampling_fraction": 1.0,
+   "stratum": "strong|0-200"
+  },
+  {
+   "FN": 0,
+   "FP": 0,
+   "N_h": 48,
+   "TN": 0,
+   "TP": 32,
+   "flagged_population": 48,
+   "flagged_sampled": 32,
+   "fully_sampled": false,
+   "mixed": false,
+   "n_h": 32,
+   "positives": 32,
+   "sampling_fraction": 0.6666666666666666,
+   "stratum": "strong|200-600"
+  },
+  {
+   "FN": 0,
+   "FP": 0,
+   "N_h": 77,
+   "TN": 0,
+   "TP": 39,
+   "flagged_population": 77,
+   "flagged_sampled": 39,
+   "fully_sampled": false,
+   "mixed": false,
+   "n_h": 39,
+   "positives": 39,
+   "sampling_fraction": 0.5064935064935064,
+   "stratum": "strong|600-1200"
+  },
+  {
+   "FN": 0,
+   "FP": 0,
+   "N_h": 3,
+   "TN": 2,
+   "TP": 0,
+   "flagged_population": 0,
+   "flagged_sampled": 0,
+   "fully_sampled": false,
+   "mixed": false,
+   "n_h": 2,
+   "positives": 0,
+   "sampling_fraction": 0.6666666666666666,
+   "stratum": "weak|0-200"
+  },
+  {
+   "FN": 1,
+   "FP": 0,
+   "N_h": 5,
+   "TN": 1,
+   "TP": 2,
+   "flagged_population": 2,
+   "flagged_sampled": 2,
+   "fully_sampled": false,
+   "mixed": true,
+   "n_h": 4,
+   "positives": 3,
+   "sampling_fraction": 0.8,
+   "stratum": "weak|200-600"
+  },
+  {
+   "FN": 0,
+   "FP": 0,
+   "N_h": 12,
+   "TN": 0,
+   "TP": 6,
+   "flagged_population": 7,
+   "flagged_sampled": 6,
+   "fully_sampled": false,
+   "mixed": false,
+   "n_h": 6,
+   "positives": 6,
+   "sampling_fraction": 0.5,
+   "stratum": "weak|600-1200"
+  }
+ ],
+ "population_total": 1199,
+ "positive_class": [
+  "lure"
+ ],
+ "reclassified_since_draw": {
+  "n": 8,
+  "note": "contracts whose CURRENT detector band differs from the band frozen when the sample was drawn. Weights come from the frozen strata; flagged-ness comes from the current detector, because that is what is under evaluation.",
+  "rows": [
+   {
+    "frozen": "weak",
+    "now": "strong",
+    "row": "bas-0019",
+    "stratum": "weak|600-1200"
+   },
+   {
+    "frozen": "weak",
+    "now": "strong",
+    "row": "bas-0100",
+    "stratum": "weak|600-1200"
+   },
+   {
+    "frozen": "weak",
+    "now": "strong",
+    "row": "bas-0161",
+    "stratum": "weak|600-1200"
+   },
+   {
+    "frozen": "weak",
+    "now": "strong",
+    "row": "bas-0175",
+    "stratum": "weak|600-1200"
+   },
+   {
+    "frozen": "weak",
+    "now": "strong",
+    "row": "bas-0202",
+    "stratum": "weak|200-600"
+   },
+   {
+    "frozen": "weak",
+    "now": "strong",
+    "row": "bas-0215",
+    "stratum": "weak|600-1200"
+   },
+   {
+    "frozen": "weak",
+    "now": "strong",
+    "row": "bas-0268",
+    "stratum": "weak|200-600"
+   },
+   {
+    "frozen": "weak",
+    "now": "strong",
+    "row": "bas-0326",
+    "stratum": "weak|600-1200"
+   }
+  ]
+ },
+ "strata_without_agreed_rows": []
+}

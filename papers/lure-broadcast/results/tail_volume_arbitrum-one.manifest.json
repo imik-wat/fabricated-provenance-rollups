@@ -1,0 +1,5 @@
+{
+ "producer": "papers/lure-broadcast/scripts/tail_volume_ci.py",
+ "git_commit": "1ce9ca0",
+ "source": "results/tail_sample_arbitrum-one.json"
+}

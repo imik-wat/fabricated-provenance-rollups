@@ -1,0 +1,74 @@
+{
+ "V1_published": {
+  "control": {
+   "ci95_hi": 0.3302959115785061,
+   "ci95_lo": 0.32350224236546715,
+   "estimate": 0.3268899991809321,
+   "hits": 23946,
+   "n": 73254
+  },
+  "difference": {
+   "ci95_hi": 0.2390874199769296,
+   "ci95_lo": 0.22096877623203348,
+   "difference": 0.23004658908938647,
+   "ratio": 1.7037431235761262
+  },
+  "recipients": {
+   "ci95_hi": 0.5653186958153471,
+   "ci95_lo": 0.5485219315920473,
+   "estimate": 0.5569365882703186,
+   "hits": 7483,
+   "n": 13436
+  }
+ },
+ "V2_time_aligned": {
+  "control": {
+   "ci95_hi": 0.2443076206049668,
+   "ci95_lo": 0.23549031502192008,
+   "estimate": 0.23987123987123987,
+   "hits": 8644,
+   "n": 36036
+  },
+  "difference": {
+   "ci95_hi": 0.2812628978046216,
+   "ci95_lo": 0.2604226536894693,
+   "difference": 0.27085797517752924,
+   "ratio": 2.129180702625803
+  },
+  "recipients": {
+   "ci95_hi": 0.5201669008000744,
+   "ci95_lo": 0.5012838743696522,
+   "estimate": 0.5107292150487691,
+   "hits": 5498,
+   "n": 10765
+  }
+ },
+ "V3_cleaned_control": {
+  "control": {
+   "ci95_hi": 0.3297829045863758,
+   "ci95_lo": 0.3229131962624622,
+   "estimate": 0.3263387306332863,
+   "hits": 23359,
+   "n": 71579
+  },
+  "control_removed": 1675,
+  "difference": {
+   "ci95_hi": 0.23965291217149653,
+   "ci95_lo": 0.22150562022084505,
+   "difference": 0.23059785763703228,
+   "ratio": 1.7066211760692296
+  },
+  "other_contracts": 183,
+  "recipients": {
+   "ci95_hi": 0.5653186958153471,
+   "ci95_lo": 0.5485219315920473,
+   "estimate": 0.5569365882703186,
+   "hits": 7483,
+   "n": 13436
+  }
+ },
+ "chain": "arbitrum-one",
+ "interpretation": "descriptive associations on the registry-restricted observable, with pseudo-randomisation intervals as published; activity shows exercised control over an address, not that anyone saw a payload; no variant supports a causal statement",
+ "k": 1024,
+ "wall_seconds": 735.3
+}

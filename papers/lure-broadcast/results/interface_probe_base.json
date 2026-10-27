@@ -1,0 +1,1225 @@
+{
+ "answers_decimals_share_of_probed_rows": 0.005940591545620628,
+ "by_verdict_contracts": {
+  "answers_decimals_no_interface": 7,
+  "answers_decimals_not_nonfungible": 1,
+  "denies_nonfungible_interface": 1,
+  "erc721_confirmed": 191
+ },
+ "by_verdict_rows": {
+  "answers_decimals_no_interface": 5008255,
+  "answers_decimals_not_nonfungible": 583885,
+  "denies_nonfungible_interface": 1269930,
+  "erc721_confirmed": 934481895
+ },
+ "chain": "base",
+ "empty_data_contracts": 1154560,
+ "empty_data_rows": 1483226690,
+ "erc721_share_of_probed_rows": 0.9927103479119878,
+ "interpretation": "a contract answering decimals() while claiming no non-fungible interface shows the empty-data class is syntactic. The figure bounds the discriminant over the volume head only, and is NOT a correction factor: a probe answers for the implementation reachable now, which a proxy may have changed since the event was emitted.",
+ "probed_contracts": 200,
+ "probed_rows": 941343965,
+ "probed_share_of_empty_data": 0.6346595374440033,
+ "verdicts": {
+  "0x00000066c6c6fca286f48a7f4e989b7198c26caf": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x000ce7fa842078ab126accdb1af9d2987fa0f929": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x010152d40d23d1876e09b89ffb40d3311243064e": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x018f3781f8627c6c6195fd1ee5507c8f9bc05d6f": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x03a520b32c04bf3beef7beb72e919cf822ed34f1": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x03c4738ee98ae44591e1a4a4f3cab6641d95dd9a": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x061a883e8c2feffb4f3ea42046abd4be88e1333f": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x06af10d4e56e3a7d5d222393b8dd1743410a1138": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x06cb0cbe5f48602b9818fd510d059ff29f8c13ea": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x0982b3a5b24b2bd8ef74126e15fca2decfd75a28": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x0a334aac078735c8dedac1b0b01a6a8e08247cc8": {
+   "decimals": true,
+   "erc1155": null,
+   "erc721": null,
+   "verdict": "answers_decimals_no_interface"
+  },
+  "0x0aa52e814155cb4b820e511f916d4976b8c13016": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x0cdd3e80cfafefb82ce3c66848d1d6046ef3fddd": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x0d7d21ae700d0e3d9f320a26b4ff23f314f6d8c8": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x0e3d0a596347f55a9622c7be6d1b1400b158f339": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x0edd22a43e027f9d3c5dafaf75acb948774a5f6f": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x116dc735e0cd6f265ff09a1f4a95e7e91b8cefd9": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x1195cf65f83b3a5768f3c496d3a05ad6412c64b7": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x139608abee12ff39fedae39c493b571a25995e10": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x16ba85181c7e8205574592ddc08acf6ea55fda3a": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x1773e18a8f9b2e8ea9ad7150dfc41c142eb9e0fa": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x18bf3ba9d8b067cc04d4ff500fe7100d452da9ff": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x1b9ac8580d2e81d7322f163362831448e7fcad1b": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x1e2ea5db3aeb89f9cdf8a89a54d151872f833851": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x1f15ca150c4e6ebd70766b27ac728a37e05d4eb3": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x1f2ef4fec6e977f68f7272cef09903a901e952cd": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x1f36bd870ebb564abbb80b9a1ee3a71d2269d3d5": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x1ffa7c6d9886beb25c46b48f2fdc6d1d2aa4dd72": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x2050e6194859e77fa6cf1364be90dad1569d7067": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x213b5f61501c0cdd2c51a3357b1006e209d3eef4": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x23bb476d95480f113dfd113245ca70766948f9d7": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x24864a39ca7733f0b35678ed50347ae9c25e8590": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x24c948defa7ecb117a9c59ae1c29259a308ecef7": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x26fc107e699bdba640647f91d093eee2bccbd0e3": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x273ca93a52b817294830ed7572aa591ccfa647fd": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x2824d1235d1cbca6d61c00c3ceecb9155cd33a42": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x2c6cc59ae914e3cc8b1c81c917cde9dfb781fc95": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x2d51962a9ee4d3c2819ef585eab7412c2a2c31ac": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x2d9d320ee0c393da8b36d22ab903eedb38c6ec74": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x2fe2cbfad87a7bcd0f0920ec15a9d08badd7561e": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x3105f907518797af5c043533e5846bfb08633434": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x320ca589720817c9ae60fb6795f18791f1c751c3": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x33135f31aede4b0d477fc32b6f79f1ea7fecdfb4": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x33758098e9f11cf7e412442dfa9fa571ae881fa8": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x3548f5fee7620268432ddea4bd4b173227eb4978": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x35a474aaf81f509e0f75e8c8a006e24df048945c": {
+   "decimals": true,
+   "erc1155": null,
+   "erc721": null,
+   "verdict": "answers_decimals_no_interface"
+  },
+  "0x36500942a4170d4699f1f7725a8225a4f4fdabb7": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x37157f60a9dc6cacc54b4fe26f601e191aec0253": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x379002701bf6f2862e3dfdd1f96d3c5e1bf450b6": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x382ccccbd3b142d7da063bf68cd0c89634767f76": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x3862a31ca37ee2c775ba5fbd284b83e85508c761": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x38ba98ada81a7671b683a7675a14a5b01c674ff4": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x38cce91aa7a7d97dd9eb9bdcc5bd099b4aa3735d": {
+   "decimals": true,
+   "erc1155": null,
+   "erc721": null,
+   "verdict": "answers_decimals_no_interface"
+  },
+  "0x3b006211e0df0d9253166879c829876d643eac2b": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x3da11afc8f9be14a043d67b1d1147332dfea4b12": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x3db68ef4d77496d2d1a2922833d43357798ae98e": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x3e1f419573e6baf50630a82745745ec948827ca3": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x3edd2cd0ee5b5028268997a07a068675ade73ad5": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x400b77f2ecb501fb00e7240e37f9f286cb13cabf": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x41dc69132cce31fcbf6755c84538ca268520246f": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x4207c213433de2b70183c14bf97cfba8ed0387e7": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x424e199f6312e04d0fbc3960fa37607f97055779": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x45eccddc5c304223d5ea8db2fbdeb6fbb53ccc39": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x46a15b0b27311cedf172ab29e4f4766fbe7f4364": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x4904945df70ed381eaf112c0bf390dc00e95166f": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x4ad8c8c97e18b8d1958ecf346023bb552358c4c4": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x4b0ac88fc0e40552686284e600ab4dc3a46b7d17": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x4de4b99bdb17492f864648f17f6cd361b8559a1b": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x4e7b2b507408e3cafe5d72072bfcd9c7d7e0ea84": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x4e974b1924bfcd43d046ec3f751cd794c1780097": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x50af4bbbcfb91088676224a2267698733dbe86f0": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x52457b2b64d9626ad7556469225cb63488a2a214": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x52a035157480dbd6923977a60a831009297fbfb3": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x554d2c34f4907c3d1dc787240fb3bd14883ebda0": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x56a5ec3e6d45b9555f9fde424cbcff817e4f41be": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x58edd4848b4d36b25c22fcf0eaef9a52493efe95": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x596029a1bfbc10c7ac5673a36738485be5648642": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x5985fdddcc81e25879de68294e4f30396662a47c": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x5b049d8f4e25f568329d7990f0dd73095d02fffe": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x5b505ab92ece5b8c625762351c22b811ee7df133": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x5ef7f1e0675d3b38bac8c745100b2bfac22311e2": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x602412c0d109d683107222630b5b343cf71bd0fe": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x62c9c4bcf784ad09b34f366a769ce4a00a4d0255": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x633e4db50a7a91bf05b355cfa90508dd9df01041": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x6455ee9e6cf708aaf59709463d127b803ab4d3e2": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x67c9f4737f36a7dec28b4d3f4220c31f3b9aeae6": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x68fa1c17c6c6f7b9fcdc7635d7d9224d46adafe3": {
+   "decimals": true,
+   "erc1155": null,
+   "erc721": null,
+   "verdict": "answers_decimals_no_interface"
+  },
+  "0x699727f9e01a822efdcf7333073f0461e5914b4e": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x6a91d8c43d2a1d0bee7e988b7c42d76744a5890e": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x6c7726dcbee2ba4aa240f880ac28dd3230b6cb76": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x6ce9b0b0750f48274d8f59a4bc42bdc22574d686": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x6d88a498c03b705a07df73d86b24b2cf05a769ff": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x6ea5b3c03982bf31b22a525e80ef7166fd79ebc5": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x6f2ac309e8dc9f7b13ae73b5629448e85aa7a827": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x71e770b67e201a6f74713b56e031845efe1063d8": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x7214e70c7a9de017f3a30852b3caf7473e6bf571": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x723feeebbcb5a14c136e32d5409d6df707589f09": {
+   "decimals": true,
+   "erc1155": null,
+   "erc721": null,
+   "verdict": "answers_decimals_no_interface"
+  },
+  "0x7476668f2c7bf55196993dfccc5bd9697ceb5803": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x76c7104567b5d32d4b084c8034724f9103f285be": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x77b20ff08fe39e22a3b696024840ded6be93361b": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x7a2a4f9a6481a669c79abed1e3dfead3f1953e4b": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x7b5b518f4de3843eb405774f5a922c4de7407bbd": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x7bd77dbec1aa931216a4d962feae76a3dbabed12": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x7c1b4424fa46b5307c4e04aa539d9bb5e9539ee2": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x7c5f5a4bbd8fd63184577525326123b519429bdc": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x7c819d0f6991d70f3c6ad1072c585ed9c81f3828": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x7cbef63949ef1635200b40b71b712e1d14dff3e3": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x7dee2465f894d682f0fc6798549cd3177b8e6504": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x7e50af303a0422ebec6bc198034a2430bbe0195c": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x7eb8532c363f8d6afd36972d0c3d1966fc090db1": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x806ab8efb6b0db382a76972ad97fa830eed1274e": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x8129b94753f22ec4e62e2c4d099ffe6773969ebc": {
+   "decimals": true,
+   "erc1155": false,
+   "erc721": false,
+   "verdict": "answers_decimals_not_nonfungible"
+  },
+  "0x827922686190790b37229fd06084350e74485b72": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x82c38fe9c66189b497ef5bd0c2a9922067bc70c2": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x8666ad0579f156b3ef1c4f13911f086112f35054": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x86f122a7b5ed62d06c6155624a9f3061d1f21e68": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x89aab1c5379fc93d002969a3a5c89f77366feebe": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x8bab8352c2450a9ffcd3b3c1328fee680b73c166": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x8babe36bea71afa850ffcda8f5849a27b5ad9756": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x8ca3a6f4a6260661fcb9a25584c796a1fa380112": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x8f1a6544deb93bdd695b81a95d0e081285c10464": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x8fe33bf16ca375d1655ec1a01a7c59eaf8ea9d13": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x90997fc967e75b7e69f899133aab31d197beb802": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x91494bbab93bc1e10c488b71c4489cee9f9385be": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x94b37d5d659bbf7ece5cfa507bae4fdb0a57a9a2": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x95baea5fa938e10a834085f1e65487fbe7aab09e": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x96cebb59b00109dc8c4de1a9a94d9fad658fee46": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x96d61ff8f3c527059990908eb2e124715fb2208d": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x99a7099a6a563a7d4d24b0354f883d4dd834dc7e": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x9d6641c8c8294c10f3aac558d3a20f9c8d2233ac": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0x9d99f983267103fa8ca86b40e24947bfc23f84c2": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xa17c574ab5c2eb04556d9fd7d2b3da22452fabcb": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xa20ad633b0cd5f38d3bb6880a497b79348505c91": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xa210be292d0f14520d5db88dbc1b9531887d3c61": {
+   "decimals": true,
+   "erc1155": null,
+   "erc721": null,
+   "verdict": "answers_decimals_no_interface"
+  },
+  "0xa239b9b3e00637f29f6c7c416ac95127290b950e": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xa25e0af7dd580fce7121fd78e95c3f3bee258e8f": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xa3022a431fa65221d45963f9461a3e239d278d98": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xa360c63e8e4e7ce584d8f41fb071bc80b56a3e93": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xa39c882fe60bafff728d2a666f6ec3bc9310b893": {
+   "decimals": true,
+   "erc1155": null,
+   "erc721": null,
+   "verdict": "answers_decimals_no_interface"
+  },
+  "0xa45ac85becce5c8f65a640340668d48f558e6ad7": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xa4ec342dd67f3ca88835aef51a28ec5758bc251e": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xa5eae9b57ce5f22785263223eee03fcad2e4cd76": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xa6d2351d519c0f5576c18628eed5c69d9943dcd8": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": false,
+   "verdict": "denies_nonfungible_interface"
+  },
+  "0xa990c6a764b73bf43cee5bb40339c3322fb9d55f": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xaaeb3df5ec1db937e48d3cfb93ce187d181a8a58": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xaafd6c727788d402cea35fdd7f87081a14a17d13": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xaba846c443c901a60b7e303482e4c2e5e14111e4": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xb06c68c8f9de60107eabda0d7567743967113360": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xb11b95dbc8d831a4abc1becc7a99da59d94ccd6c": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xb29847d97c51048dcb646a606df5741eb2d15050": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xb2edc8b11ac1b189b8f42c1285963400399af149": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xb2ef81f4c1ea16c79cb479718263244344f85cfe": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xb37b24a4a324b86b7d2fc92ba741d39fb626b10d": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xb52b29204c0a284287d8a1e9bbaf32e3d38c75c6": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xb63b26b5830ae071a8823ca8d8fee35b9b1fec19": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xb682ba897e343cf9965f146878ff40722c5c642b": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xb7d8bf9a692fb92b658450410c04dca373e65557": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xb867782be7fbcf24b37e33682009946468b5fc30": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xb8b0aba6e8492cb6d410514c8f81287794e7aa15": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xb8d06247f29aee234ee9a000cb545d6eda6930e9": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xbaa6d094d5e7bb32f9ebeee1645ef13e2050c249": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xbb5ec6fd4b61723bd45c399840f1d868840ca16f": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xbce407bf9d1c8fc67da0b21c4cc4df80e12933fd": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xbd337f77d6c56cffca95be1326419f6d878772e8": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xbf1ae78a295fe2dad78e8de55255e8d9b04c20f3": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xc1d39c5579b9c05909046a37b8ed3007ee4528e7": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xc34f23943424188b700feaa9a88830e8b7d1ca23": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xc38878fd4f6cdd041a85aeca4dafed30112c4e0a": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xccaf48080356af8e45564b63687877af2ca34950": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xd3c78bb5a16ea4ab584844eeb8f90ac710c16355": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xd3db80cd372b8adbdce713747c2f9733744ea718": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xd684b934b22b980ee37fd298d266e32ce479a116": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xdaae4a2834cae00ae3af763df9d55e6c91f7a6bc": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xdb812d2264cbb8e8f670f20e73a3cf551792bf0d": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xdc29a553b4733becc8b63e69d1f025360542667c": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xde3e6a01663025301838b64685845daa5cfccbd8": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xdeb2f3de4f31a9093a775726c5c0f4b3c9b02263": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xe17ba9b39adcd261247108b26c06dd49808e2537": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xe19b71a1d6dd7ab76082a90709ca6a47ec495a38": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xe1f8cd9ac4e4a65f54f38a5cdafca44f6dd68b53": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xe32e2918c6f66974137cd47ca6dd96ac2b112218": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xe35b7e37c125abeee67809d89173dd03e473e3a4": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xe411a71b4eddb8a85be68a53b6ecce8a9dabfca5": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xe5bb572ee20aae53c4cb7298257ed9206b96e128": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xe8e2de59cd5275051a72593379891d5a63adb73c": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xea1b7f2a89bd10547778b1e63549cd61b4842957": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xea2a41c02fa86a4901826615f9796e603c6a4491": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xecee151d3d522087b6e491cca5558ace500d8a55": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xeec6c178ac45a4d05f6a462afeb3052db4370e37": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xf20a43f8396f8e28100d6d454e34483d78094c29": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xf3ccf98ba4b6c153198b696fba84686b23e07c34": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xf4710ee68f151b6cb0c377400738c0de9b39284f": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xf4e5f821d23f5ce90030ef1e2b7300a25bed35c8": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xf50a84399290bba75e4a11317009bb45a36c5831": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xf60a44920d51f4264ba0a8eb164a4bc15dc34e92": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xf663f76b5e6a48a370352bd684b43a601a7c6151": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xfc567bb311058d8a24ef68a38dd2bed9b4a58ee4": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xfcbbcf55c41e51d9950ebcae6fabd33de870ed5f": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xfd15627498cbfceebbc43195f715c914e74662ff": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  },
+  "0xfed438db5977f742a8205a45c4e59d4043224144": {
+   "decimals": false,
+   "erc1155": false,
+   "erc721": true,
+   "verdict": "erc721_confirmed"
+  }
+ }
+}

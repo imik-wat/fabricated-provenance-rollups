@@ -1,0 +1,5 @@
+{
+ "producer": "papers/lure-broadcast/scripts/recipient_activity_robust.py",
+ "git_commit": "4156b11",
+ "k": 1024
+}

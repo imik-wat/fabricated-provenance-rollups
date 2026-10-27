@@ -1,0 +1,30 @@
+{
+ "chain": "base",
+ "n_boot": 5000,
+ "ht_flagged_transfers": {
+  "point": 103757105.18613155,
+  "ci95": [
+   72211867.98366666,
+   138055499.8496048
+  ]
+ },
+ "ht_flagged_contracts": {
+  "point": 24934.898528428093,
+  "ci95": [
+   9883.453028428094,
+   42821.98136176143
+  ],
+  "exact_bonferroni_upper95": 418346
+ },
+ "frame_flagged_transfers": 142909035,
+ "worst_case_flagged_tail_transfers": 354664019,
+ "worst_case_tail_to_frame_ratio": 2.48174665093778,
+ "tail_to_frame_volume_ratio": {
+  "point": 0.7260360073534298,
+  "ci95": [
+   0.505299528358488,
+   0.9660375906226277
+  ]
+ },
+ "caveat": "rare, heavy-tailed and campaign-clustered flagged volumes; percentile bootstrap intervals are indicative and may under-cover; the exact count bound stands beside them"
+}

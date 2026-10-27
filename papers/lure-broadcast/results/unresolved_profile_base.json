@@ -1,0 +1,40 @@
+{
+ "chain": "base",
+ "code_coverage": 1.0,
+ "not_a_test": "with nine contracts on one side no hypothesis test is meaningful; this is a description so the reader can judge whether the failures look incidental or systematic, not evidence that they are ignorable",
+ "question": "do the contracts whose historical state no endpoint would serve differ descriptively from those that answered?",
+ "resolved": {
+  "code_bytes_median": 3001.0,
+  "eip1167_proxies": 0,
+  "first_block_median": 32457466.0,
+  "n": 132,
+  "no_code": 0,
+  "transfers_max": 3660857,
+  "transfers_median": 794877.5,
+  "transfers_min": 491383,
+  "transfers_total": 132681483
+ },
+ "unresolved": {
+  "code_bytes_median": 3001,
+  "eip1167_proxies": 0,
+  "first_block_median": 37861940,
+  "n": 9,
+  "no_code": 0,
+  "transfers_max": 2591395,
+  "transfers_median": 1049954,
+  "transfers_min": 513891,
+  "transfers_total": 10227552
+ },
+ "unresolved_contracts": [
+  "0x5c57ab9bcabf4bc3664219c7f979823d6740b574",
+  "0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97",
+  "0x6192c5f6333cdf1a22d167e02cd3b3b81bf092a6",
+  "0x62da18390928e438dde260d1526cab03086effc0",
+  "0x63272cd2f76be73219b68ab5f775db5eeb4a8f6e",
+  "0xb84dc28471878f7948a71b3887ecd73349233aef",
+  "0xb931bda2d052c086d6800c85c9e091ccaa689a40",
+  "0xb9a0c47adea84b1cf17a787c429bdeeeac01ccd7",
+  "0xb9e5e7296466c7daea8133289fbb29e493e72956"
+ ],
+ "unresolved_share_of_volume": 0.0715668676931448
+}

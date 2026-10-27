@@ -1,0 +1,5 @@
+{
+ "producer": "papers/lure-broadcast/scripts/metadata_history.py",
+ "git_commit": "31e1631",
+ "endpoint": "https://mainnet.optimism.io"
+}

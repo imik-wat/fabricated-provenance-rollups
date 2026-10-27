@@ -1,0 +1,7 @@
+{
+ "output": "polygon-zkevm_nf_census.json",
+ "producer": "papers/lure-broadcast/scripts/run_nf_census.py",
+ "primitive": "analysis/src/nonfungible.py:census",
+ "input": "data/raw/hypersync/polygon-zkevm",
+ "git_commit": "fbb8bd2"
+}

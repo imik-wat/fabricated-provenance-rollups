@@ -1,0 +1,5 @@
+{
+ "producer": "papers/lure-broadcast/scripts/forgery_chain_scan.py",
+ "git_commit": "7420bfe",
+ "workers": 12
+}

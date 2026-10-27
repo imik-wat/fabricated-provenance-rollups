@@ -1,0 +1,6 @@
+{
+ "producer": "papers/lure-broadcast/scripts/collect_separation_inputs.py",
+ "git_commit": "fbb8bd2",
+ "seed": 42,
+ "fanout_min": 499
+}

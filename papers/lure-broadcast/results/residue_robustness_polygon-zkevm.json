@@ -1,0 +1,68 @@
+{
+ "chain": "polygon-zkevm",
+ "class_zero_reproduces_published": {
+  "absolute_difference": 0.0,
+  "class_zero": 0.567926455566905,
+  "published": 0.567926455566905
+ },
+ "classes": 4,
+ "dispersion": {
+  "chi2": 3.4924978517615637,
+  "chi2_over_dof": 1.164165950587188,
+  "dof": 3,
+  "reading": "chi-square of the per-class rates about their pooled value, scaled by binomial variance. A value near the degrees of freedom is what independent sampling at these sizes would produce; a much larger one indicates the residue class carries information about activity."
+ },
+ "k": 64,
+ "note": "class 0 is the class the published estimate uses and reproduces it; the remaining classes are independent replicates of the same quantity.",
+ "per_class": [
+  {
+   "active": 0.567926455566905,
+   "ci95_hi": 0.5833677031730965,
+   "ci95_lo": 0.5523520667278098,
+   "control_active_verified_universe": 0.9422268907563025,
+   "control_n": 1904,
+   "residue_class": 0,
+   "sampled_recipients": 3916,
+   "underpowered": false
+  },
+  {
+   "active": 0.5869454360020397,
+   "ci95_hi": 0.6022631283049865,
+   "ci95_lo": 0.571457584216884,
+   "control_active_verified_universe": 0.9353632478632479,
+   "control_n": 1872,
+   "residue_class": 1,
+   "sampled_recipients": 3922,
+   "underpowered": false
+  },
+  {
+   "active": 0.5845796802475502,
+   "ci95_hi": 0.5999987444593747,
+   "ci95_lo": 0.5689932102870529,
+   "control_active_verified_universe": 0.9357612544258979,
+   "control_n": 1977,
+   "residue_class": 2,
+   "sampled_recipients": 3878,
+   "underpowered": false
+  },
+  {
+   "active": 0.5816197004315816,
+   "ci95_hi": 0.5969381073878233,
+   "ci95_lo": 0.5661422456245828,
+   "control_active_verified_universe": 0.9281997918834547,
+   "control_n": 1922,
+   "residue_class": 3,
+   "sampled_recipients": 3939,
+   "underpowered": false
+  }
+ ],
+ "pooled_active": 0.5802618971574577,
+ "question": "is the activity estimate stable across disjoint residue classes of the same hash, as the independence assumption predicts?",
+ "rows_scanned": 18007594,
+ "spread": {
+  "max": 0.5869454360020397,
+  "min": 0.567926455566905,
+  "range": 0.019018980435134725
+ },
+ "wall_seconds": 4.4
+}

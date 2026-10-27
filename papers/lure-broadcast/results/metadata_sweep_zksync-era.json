@@ -1,0 +1,61 @@
+{
+ "bands": {
+  "none": 1096,
+  "strong": 49,
+  "weak": 55
+ },
+ "campaign_sizes": {
+  "airdrop-zk.com": 2,
+  "airdrop-zk.live": 1,
+  "airdropzk.xyz": 1,
+  "blast2l.com": 2,
+  "bonus-zk.com": 1,
+  "checkzk.xyz": 1,
+  "claimzk.xyz": 1,
+  "ethstk.pro": 3,
+  "ethstk.xyz": 2,
+  "getunib.pro": 1,
+  "getunic.pro": 1,
+  "getzk.pro": 1,
+  "getzkc.pro": 1,
+  "getzkc.xyz": 1,
+  "getzks.pro": 1,
+  "getzks.xyz": 2,
+  "odosloyalty.org": 1,
+  "official-zk.com": 3,
+  "stkether.org": 1,
+  "t.me/debankluckydraw": 1,
+  "zk-claim.io": 4,
+  "zk-claim.xyz": 1,
+  "zk-drop.xyz": 2,
+  "zk-ethers.com": 2,
+  "zk-official.live": 2,
+  "zkbget.xyz": 1,
+  "zkclaim.xyz": 1,
+  "zkgas.site": 2,
+  "zkget.pro": 2,
+  "zkget.xyz": 1,
+  "zkpepe.pro": 1,
+  "zkscoin.xyz": 1,
+  "zksget.xyz": 1
+ },
+ "campaigns": 33,
+ "chain": "zksync-era",
+ "coverage": 0.9958333333333333,
+ "design": "rank depth, registry-verified tokens excluded -- reproduces Base's existing population design rather than its absolute transfer floor, because the chains differ in size by more than two orders of magnitude",
+ "endpoints_ranked": [
+  {
+   "canary_answered": 48,
+   "canary_seconds": 0.71,
+   "url": "https://mainnet.era.zksync.io"
+  }
+ ],
+ "floor_transfers": 777,
+ "lure_contracts": 49,
+ "min_coverage": 0.9,
+ "requested_top": 1200,
+ "seconds_per_contract": 0.0727,
+ "swept": 1200,
+ "universe_contracts": 148154,
+ "wall_seconds": 87.2
+}

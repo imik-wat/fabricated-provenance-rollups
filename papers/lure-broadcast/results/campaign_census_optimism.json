@@ -1,0 +1,831 @@
+{
+ "campaigns": 61,
+ "campaigns_absent_from_chain": [],
+ "chain": "optimism",
+ "channel_totals": {
+  "distinct_operators": 6929,
+  "distinct_recipients_union": 62215236,
+  "fanout_ratio_channel": 2.362199686906275,
+  "transfers": 146964811
+ },
+ "contracts": 621,
+ "note": "fanout_ratio is transfers per distinct recipient; ~1.0 means every recipient was reached once, the broadcast signature. Values far above 1 indicate circulation rather than one-shot delivery.",
+ "per_campaign": {
+  "5eth.io": {
+   "block_span": 35438931,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 38852,
+   "fanout_ratio": 1.0020848347575415,
+   "first_block": 119540139,
+   "last_block": 154979070,
+   "transfers": 38933
+  },
+  "aave.asia": {
+   "block_span": 3287,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 553005,
+   "fanout_ratio": 1.0012531532264628,
+   "first_block": 117600017,
+   "last_block": 117603304,
+   "transfers": 553698
+  },
+  "barnbridge.fi": {
+   "block_span": 848,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 79837,
+   "fanout_ratio": 1.0,
+   "first_block": 126112606,
+   "last_block": 126113454,
+   "transfers": 79837
+  },
+  "barnbridge.org": {
+   "block_span": 392,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 78918,
+   "fanout_ratio": 1.0,
+   "first_block": 123754176,
+   "last_block": 123754568,
+   "transfers": 78918
+  },
+  "barnbridge.pro": {
+   "block_span": 89,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 43669,
+   "fanout_ratio": 1.0,
+   "first_block": 125293735,
+   "last_block": 125293824,
+   "transfers": 43669
+  },
+  "base1.cfd": {
+   "block_span": 512087,
+   "contracts_in_metadata": 100,
+   "contracts_observed": 100,
+   "distinct_recipients": 16902271,
+   "fanout_ratio": 1.8235650700429547,
+   "first_block": 153895483,
+   "last_block": 154407570,
+   "transfers": 30822391
+  },
+  "basex.cfd": {
+   "block_span": 129119,
+   "contracts_in_metadata": 14,
+   "contracts_observed": 14,
+   "distinct_recipients": 1715285,
+   "fanout_ratio": 1.0000011659869934,
+   "first_block": 146782852,
+   "last_block": 146911971,
+   "transfers": 1715287
+  },
+  "bezax.rest": {
+   "block_span": 205449,
+   "contracts_in_metadata": 5,
+   "contracts_observed": 5,
+   "distinct_recipients": 9913175,
+   "fanout_ratio": 1.278807849150247,
+   "first_block": 155059707,
+   "last_block": 155265156,
+   "transfers": 12677046
+  },
+  "blast2l.com": {
+   "block_span": 27891537,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 546761,
+   "fanout_ratio": 1.2458350174939326,
+   "first_block": 117677237,
+   "last_block": 145568774,
+   "transfers": 681174
+  },
+  "blastc.com": {
+   "block_span": 530317,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 374065,
+   "fanout_ratio": 1.1678959539117533,
+   "first_block": 119071982,
+   "last_block": 119602299,
+   "transfers": 436869
+  },
+  "claim-re.one": {
+   "block_span": 131687,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 674665,
+   "fanout_ratio": 1.0000014822171004,
+   "first_block": 153310341,
+   "last_block": 153442028,
+   "transfers": 674666
+  },
+  "claiming.icu": {
+   "block_span": 29552234,
+   "contracts_in_metadata": 38,
+   "contracts_observed": 38,
+   "distinct_recipients": 1341725,
+   "fanout_ratio": 1.0003353891445714,
+   "first_block": 125428153,
+   "last_block": 154980387,
+   "transfers": 1342175
+  },
+  "debridgether.com": {
+   "block_span": 384558,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 214032,
+   "fanout_ratio": 1.0481563504522688,
+   "first_block": 124722375,
+   "last_block": 125106933,
+   "transfers": 224339
+  },
+  "dhedge.io": {
+   "block_span": 788,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 53569,
+   "fanout_ratio": 1.0,
+   "first_block": 117975767,
+   "last_block": 117976555,
+   "transfers": 53569
+  },
+  "dhedge.tech": {
+   "block_span": 43326616,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 41635,
+   "fanout_ratio": 1.000048036507746,
+   "first_block": 110962704,
+   "last_block": 154289320,
+   "transfers": 41637
+  },
+  "erclido.uno": {
+   "block_span": 243404,
+   "contracts_in_metadata": 3,
+   "contracts_observed": 3,
+   "distinct_recipients": 391941,
+   "fanout_ratio": 1.1350943126644062,
+   "first_block": 124861021,
+   "last_block": 125104425,
+   "transfers": 444890
+  },
+  "etherfi.uno": {
+   "block_span": 189568,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 111662,
+   "fanout_ratio": 1.5886066880406942,
+   "first_block": 124156440,
+   "last_block": 124346008,
+   "transfers": 177387
+  },
+  "ethna.store": {
+   "block_span": 27213462,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 458096,
+   "fanout_ratio": 1.0049640250078586,
+   "first_block": 127749935,
+   "last_block": 154963397,
+   "transfers": 460370
+  },
+  "fli.so": {
+   "block_span": 40887,
+   "contracts_in_metadata": 3,
+   "contracts_observed": 3,
+   "distinct_recipients": 149872,
+   "fanout_ratio": 1.485968026048895,
+   "first_block": 136450325,
+   "last_block": 136491212,
+   "transfers": 222705
+  },
+  "fomox.club": {
+   "block_span": 998394,
+   "contracts_in_metadata": 16,
+   "contracts_observed": 16,
+   "distinct_recipients": 11298268,
+   "fanout_ratio": 2.837567581154917,
+   "first_block": 154218912,
+   "last_block": 155217306,
+   "transfers": 32059599
+  },
+  "foxclick.vercel.app": {
+   "block_span": 207372,
+   "contracts_in_metadata": 4,
+   "contracts_observed": 4,
+   "distinct_recipients": 364800,
+   "fanout_ratio": 1.3187691885964912,
+   "first_block": 124553908,
+   "last_block": 124761280,
+   "transfers": 481087
+  },
+  "foxxytoken.vercel.app": {
+   "block_span": 121554,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 325223,
+   "fanout_ratio": 1.133861996230279,
+   "first_block": 124430408,
+   "last_block": 124551962,
+   "transfers": 368758
+  },
+  "frogpepe.xyz": {
+   "block_span": 84473,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 52389,
+   "fanout_ratio": 1.000057263929451,
+   "first_block": 120734114,
+   "last_block": 120818587,
+   "transfers": 52392
+  },
+  "get-wld.org": {
+   "block_span": 74068,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 331893,
+   "fanout_ratio": 1.001108791086284,
+   "first_block": 126160600,
+   "last_block": 126234668,
+   "transfers": 332261
+  },
+  "getdrops.io": {
+   "block_span": 1472934,
+   "contracts_in_metadata": 2,
+   "contracts_observed": 2,
+   "distinct_recipients": 195615,
+   "fanout_ratio": 1.000020448329627,
+   "first_block": 134180159,
+   "last_block": 135653093,
+   "transfers": 195619
+  },
+  "getuni.one": {
+   "block_span": 664579,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 36022,
+   "fanout_ratio": 1.0,
+   "first_block": 126389236,
+   "last_block": 127053815,
+   "transfers": 36022
+  },
+  "gotap.rest": {
+   "block_span": 40799,
+   "contracts_in_metadata": 5,
+   "contracts_observed": 5,
+   "distinct_recipients": 8607378,
+   "fanout_ratio": 1.1685308812974171,
+   "first_block": 154838350,
+   "last_block": 154879149,
+   "transfers": 10057987
+  },
+  "growdrop.top": {
+   "block_span": 385253,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 219119,
+   "fanout_ratio": 1.120085433029541,
+   "first_block": 154880011,
+   "last_block": 155265264,
+   "transfers": 245432
+  },
+  "lido-dao.net": {
+   "block_span": 255776,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 96656,
+   "fanout_ratio": 1.0009725211057772,
+   "first_block": 120325682,
+   "last_block": 120581458,
+   "transfers": 96750
+  },
+  "mamefi.top": {
+   "block_span": 140775,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 199253,
+   "fanout_ratio": 1.0,
+   "first_block": 153455501,
+   "last_block": 153596276,
+   "transfers": 199253
+  },
+  "me-qr.com": {
+   "block_span": 31326491,
+   "contracts_in_metadata": 248,
+   "contracts_observed": 248,
+   "distinct_recipients": 13377239,
+   "fanout_ratio": 1.7816480665404872,
+   "first_block": 123857533,
+   "last_block": 155184024,
+   "transfers": 23833532
+  },
+  "moobifi.xyz": {
+   "block_span": 27504210,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 89782,
+   "fanout_ratio": 1.0862310930921566,
+   "first_block": 127405851,
+   "last_block": 154910061,
+   "transfers": 97524
+  },
+  "nodeco.in": {
+   "block_span": 242027,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 54322,
+   "fanout_ratio": 1.000018408747837,
+   "first_block": 131765441,
+   "last_block": 132007468,
+   "transfers": 54323
+  },
+  "opchain.lol": {
+   "block_span": 31221582,
+   "contracts_in_metadata": 33,
+   "contracts_observed": 33,
+   "distinct_recipients": 3244965,
+   "fanout_ratio": 1.0014425425235711,
+   "first_block": 123962440,
+   "last_block": 155184022,
+   "transfers": 3249646
+  },
+  "openseaboxes.com": {
+   "block_span": 25193139,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 34200,
+   "fanout_ratio": 1.2178070175438596,
+   "first_block": 129768156,
+   "last_block": 154961295,
+   "transfers": 41649
+  },
+  "optimisam.org": {
+   "block_span": 32535358,
+   "contracts_in_metadata": 51,
+   "contracts_observed": 51,
+   "distinct_recipients": 2986678,
+   "fanout_ratio": 1.6926665680063269,
+   "first_block": 122648666,
+   "last_block": 155184024,
+   "transfers": 5055450
+  },
+  "optimism-event.org": {
+   "block_span": 1283,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 59386,
+   "fanout_ratio": 1.0,
+   "first_block": 116397073,
+   "last_block": 116398356,
+   "transfers": 59386
+  },
+  "optmism.co": {
+   "block_span": 35721470,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 42145,
+   "fanout_ratio": 1.0029659508838533,
+   "first_block": 119256511,
+   "last_block": 154977981,
+   "transfers": 42270
+  },
+  "pobex.cfd": {
+   "block_span": 39932,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 6380120,
+   "fanout_ratio": 1.1162351178347742,
+   "first_block": 154793144,
+   "last_block": 154833076,
+   "transfers": 7121714
+  },
+  "poxa.club": {
+   "block_span": 1263,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 1619147,
+   "fanout_ratio": 1.0000018528274455,
+   "first_block": 154596822,
+   "last_block": 154598085,
+   "transfers": 1619150
+  },
+  "renzclaimsprotocol.xyz": {
+   "block_span": 1382,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 41293,
+   "fanout_ratio": 1.0,
+   "first_block": 120499800,
+   "last_block": 120501182,
+   "transfers": 41293
+  },
+  "retik.work": {
+   "block_span": 29439089,
+   "contracts_in_metadata": 2,
+   "contracts_observed": 2,
+   "distinct_recipients": 236360,
+   "fanout_ratio": 1.1249830766627178,
+   "first_block": 125104264,
+   "last_block": 154543353,
+   "transfers": 265901
+  },
+  "sdep.top": {
+   "block_span": 16464,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 635364,
+   "fanout_ratio": 1.0000078695047248,
+   "first_block": 154792484,
+   "last_block": 154808948,
+   "transfers": 635369
+  },
+  "t.ly/aavee": {
+   "block_span": 29559483,
+   "contracts_in_metadata": 35,
+   "contracts_observed": 35,
+   "distinct_recipients": 1241809,
+   "fanout_ratio": 1.0002907049312737,
+   "first_block": 125420646,
+   "last_block": 154980129,
+   "transfers": 1242170
+  },
+  "tokenwen.xyz": {
+   "block_span": 655386,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 121558,
+   "fanout_ratio": 1.015720890439132,
+   "first_block": 120507600,
+   "last_block": 121162986,
+   "transfers": 123469
+  },
+  "unib.pro": {
+   "block_span": 1071771,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 36252,
+   "fanout_ratio": 1.0,
+   "first_block": 127053644,
+   "last_block": 128125415,
+   "transfers": 36252
+  },
+  "usdc-airdrop.com": {
+   "block_span": 29021,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 33139,
+   "fanout_ratio": 1.0,
+   "first_block": 116599439,
+   "last_block": 116628460,
+   "transfers": 33139
+  },
+  "velodrome.asia": {
+   "block_span": 68393,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 56911,
+   "fanout_ratio": 1.3957407179631354,
+   "first_block": 123649900,
+   "last_block": 123718293,
+   "transfers": 79433
+  },
+  "velodrome.help": {
+   "block_span": 1320944,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 1508680,
+   "fanout_ratio": 1.0225965744889571,
+   "first_block": 146923740,
+   "last_block": 148244684,
+   "transfers": 1542771
+  },
+  "velodrome.icu": {
+   "block_span": 216988,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 459400,
+   "fanout_ratio": 1.1257683935568132,
+   "first_block": 124384949,
+   "last_block": 124601937,
+   "transfers": 517178
+  },
+  "velodrome.info": {
+   "block_span": 135633,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 77464,
+   "fanout_ratio": 1.0000129092223484,
+   "first_block": 152109683,
+   "last_block": 152245316,
+   "transfers": 77465
+  },
+  "velodrome.uno": {
+   "block_span": 319550,
+   "contracts_in_metadata": 3,
+   "contracts_observed": 3,
+   "distinct_recipients": 281298,
+   "fanout_ratio": 1.2454265583118258,
+   "first_block": 123163925,
+   "last_block": 123483475,
+   "transfers": 350336
+  },
+  "velodromefi.store": {
+   "block_span": 27744835,
+   "contracts_in_metadata": 15,
+   "contracts_observed": 15,
+   "distinct_recipients": 2085471,
+   "fanout_ratio": 1.1188450954244868,
+   "first_block": 127234690,
+   "last_block": 154979525,
+   "transfers": 2333319
+  },
+  "velodromev2.top": {
+   "block_span": 18307200,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 417384,
+   "fanout_ratio": 1.0004504245490964,
+   "first_block": 135754562,
+   "last_block": 154061762,
+   "transfers": 417572
+  },
+  "velodromev2.xyz": {
+   "block_span": 261806,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 213474,
+   "fanout_ratio": 1.009668624750555,
+   "first_block": 154314165,
+   "last_block": 154575971,
+   "transfers": 215538
+  },
+  "velodromex.xyz": {
+   "block_span": 83575,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 1286606,
+   "fanout_ratio": 1.0097784403306063,
+   "first_block": 142551178,
+   "last_block": 142634753,
+   "transfers": 1299187
+  },
+  "velov2.vip": {
+   "block_span": 24028637,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 47077,
+   "fanout_ratio": 1.0160163136988338,
+   "first_block": 130260317,
+   "last_block": 154288954,
+   "transfers": 47831
+  },
+  "velvefi.top": {
+   "block_span": 464523,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 421739,
+   "fanout_ratio": 1.0588634202670373,
+   "first_block": 153712083,
+   "last_block": 154176606,
+   "transfers": 446564
+  },
+  "wp-ether.icu": {
+   "block_span": 30415,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 38076,
+   "fanout_ratio": 1.0786059460027313,
+   "first_block": 127629200,
+   "last_block": 127659615,
+   "transfers": 41069
+  },
+  "xede.rest": {
+   "block_span": 29011,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 1097176,
+   "fanout_ratio": 1.0000009114308006,
+   "first_block": 154837885,
+   "last_block": 154866896,
+   "transfers": 1097177
+  },
+  "zro-drop.icu": {
+   "block_span": 16266786,
+   "contracts_in_metadata": 1,
+   "contracts_observed": 1,
+   "distinct_recipients": 48657,
+   "fanout_ratio": 1.0772139671578602,
+   "first_block": 128132299,
+   "last_block": 144399085,
+   "transfers": 52414
+  }
+ },
+ "rows_matched": 146964811,
+ "rows_scanned": 2901914265,
+ "scope": "FULL CHAIN -- every row scanned, lure-contract rows retained. Not a sample.",
+ "top_operators_by_volume": [
+  {
+   "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+   "transfers": 15430158
+  },
+  {
+   "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+   "transfers": 11629011
+  },
+  {
+   "address": "0x656286df3c8a63d9823518d2a5be2374e9fbab23",
+   "transfers": 7940985
+  },
+  {
+   "address": "0x483ac18e8d1c38948e9e7b595522202b7621d1a1",
+   "transfers": 7295106
+  },
+  {
+   "address": "0x12a7f433b4d043ac3db262ed5db83e45c4db2b05",
+   "transfers": 7121713
+  },
+  {
+   "address": "0xb3898d412c72e95a4b1fdfdd961952b4ca5bcc2a",
+   "transfers": 6294651
+  },
+  {
+   "address": "0xd1b267c836f9837b9d0efb8bac97e2fe5eed6b4e",
+   "transfers": 5430495
+  },
+  {
+   "address": "0x3c8b650257cfb5f272f799f5e2b4e65093a11a05",
+   "transfers": 5297462
+  },
+  {
+   "address": "0x0125e81b1969d4b13cf88899fa3444e9997e8659",
+   "transfers": 4349866
+  },
+  {
+   "address": "0x52d56b4bb38d20231e6f77a91c815f6382c6c242",
+   "transfers": 3086656
+  },
+  {
+   "address": "0x08dbe4ca3d01c7e70b63ec8a48ef81847c3585f2",
+   "transfers": 2946517
+  },
+  {
+   "address": "0x05f932b06bb9ce639654b5b13db5ecf198440905",
+   "transfers": 2714378
+  },
+  {
+   "address": "0xdba5e49a5ad159a9ba9ddd74feae6e63c34b8c77",
+   "transfers": 2595175
+  },
+  {
+   "address": "0xf329e36c7bf6e5e86ce2150875a84ce77f477375",
+   "transfers": 2583474
+  },
+  {
+   "address": "0xd9329f036ddb9e98283850a804a8a0aa4aa1c06a",
+   "transfers": 2351373
+  },
+  {
+   "address": "0x6c77719cd3d3f2ac4b72ae2330ea697e94c6c401",
+   "transfers": 2089398
+  },
+  {
+   "address": "0xa3524ef4114787896c31c155d60e57f8f041e9f7",
+   "transfers": 2045768
+  },
+  {
+   "address": "0x603b608c4432bc78722e9e534a2c66b5fbb2f0bf",
+   "transfers": 1619146
+  },
+  {
+   "address": "0x9560e827af36c94d2ac33a39bce1fe78631088db",
+   "transfers": 1570483
+  },
+  {
+   "address": "0xcb79f2df6626226f3a630fef915dbfa6321d24a1",
+   "transfers": 1194277
+  },
+  {
+   "address": "0xd062fa72f9f3a8ebb64b422e370b8199f15194a4",
+   "transfers": 1097176
+  },
+  {
+   "address": "0xacd03d601e5bb1b275bb94076ff46ed9d753435a",
+   "transfers": 946794
+  },
+  {
+   "address": "0xbc7b1ff1c6989f006a1185318ed4e7b5796e66e1",
+   "transfers": 762080
+  },
+  {
+   "address": "0x94eba827428930688a4b98d325a8fd20339ce57d",
+   "transfers": 740394
+  },
+  {
+   "address": "0xfdb794692724153d1488ccdbe0c56c252596735f",
+   "transfers": 636826
+  },
+  {
+   "address": "0xe1f22798760b261a9d60a6cc0b2645736e120913",
+   "transfers": 635363
+  },
+  {
+   "address": "0xe50fa9b3c56ffb159cb0fca61f5c9d750e8128c8",
+   "transfers": 633619
+  },
+  {
+   "address": "0xcd1550ae5ac039bd3a6a6b6e202cbdc5aefc158c",
+   "transfers": 627333
+  },
+  {
+   "address": "0x963e248626bb386ce61bab7e9a443d77f9d0e4ee",
+   "transfers": 611841
+  },
+  {
+   "address": "0x20021c1b4d48f8aa27a47b029b275052bae1debf",
+   "transfers": 599607
+  },
+  {
+   "address": "0x9bebc5963b4a847993b219dcf7f6a924bd267892",
+   "transfers": 594031
+  },
+  {
+   "address": "0x4200000000000000000000000000000000000042",
+   "transfers": 568427
+  },
+  {
+   "address": "0x605348af6e21d4af39d6ed1b0d50474d4ed46aaa",
+   "transfers": 466581
+  },
+  {
+   "address": "0x5fbdf89403270a1846f5ae7d113a989f850d1566",
+   "transfers": 461518
+  },
+  {
+   "address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+   "transfers": 460330
+  },
+  {
+   "address": "0x9a13f98cb987694c9f086b1f5eb990eea8264ec3",
+   "transfers": 446436
+  },
+  {
+   "address": "0x51c6c94c7ad8f8f2f0ea72652d4713704aa9be0c",
+   "transfers": 437557
+  },
+  {
+   "address": "0x7dae5579673a17d380c4ce01e7aefa934f78c499",
+   "transfers": 435934
+  },
+  {
+   "address": "0x822f08029d127ff671b3dcbc50549fffb9301102",
+   "transfers": 432333
+  },
+  {
+   "address": "0xeada640b1b4d0707d70dbb40158a27cfb5858620",
+   "transfers": 428821
+  },
+  {
+   "address": "0x837b23cf0ab0301ba93da23c895be36f0d352888",
+   "transfers": 428746
+  },
+  {
+   "address": "0x6ade202e13a36ed81f1a6cc83e34132e736ce957",
+   "transfers": 427711
+  },
+  {
+   "address": "0x9aeb0a825dc4326bcd4b12c92e866ad8f9abdfc5",
+   "transfers": 427474
+  },
+  {
+   "address": "0x73102e332c2341ccde3cec96ff95c67da1d6599a",
+   "transfers": 426879
+  },
+  {
+   "address": "0x751496b2b3b4cfcc224fcfefd7ac23d3142ce8bd",
+   "transfers": 425213
+  },
+  {
+   "address": "0x9d7ee843f0c0713778849883273ee8682900fdb7",
+   "transfers": 424908
+  },
+  {
+   "address": "0xcab4ce5f315e7724586acd7af1f121317fc5f374",
+   "transfers": 423974
+  },
+  {
+   "address": "0xaa0fb5936fe3cd796e4fea053c32a8f5d2e86c65",
+   "transfers": 422105
+  },
+  {
+   "address": "0x5ef291208ce4895373438eab844e0b944ec2f23b",
+   "transfers": 420027
+  },
+  {
+   "address": "0x253224a9d318945b61f92e45a9b36c39615515c5",
+   "transfers": 408355
+  }
+ ],
+ "wall_seconds": 489.4
+}

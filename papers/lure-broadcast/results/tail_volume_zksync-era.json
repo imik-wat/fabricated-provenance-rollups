@@ -1,0 +1,30 @@
+{
+ "chain": "zksync-era",
+ "n_boot": 5000,
+ "ht_flagged_transfers": {
+  "point": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ]
+ },
+ "ht_flagged_contracts": {
+  "point": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "exact_bonferroni_upper95": 2121
+ },
+ "frame_flagged_transfers": 18292402,
+ "worst_case_flagged_tail_transfers": 54937,
+ "worst_case_tail_to_frame_ratio": 0.003003268788866547,
+ "tail_to_frame_volume_ratio": {
+  "point": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ]
+ },
+ "caveat": "rare, heavy-tailed and campaign-clustered flagged volumes; percentile bootstrap intervals are indicative and may under-cover; the exact count bound stands beside them"
+}

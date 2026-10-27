@@ -1,0 +1,26 @@
+{
+ "burn_rows": 4574040,
+ "burn_share_of_nonfungible": 0.039517170405965654,
+ "chain": "arbitrum-one",
+ "chunks_seen": 99,
+ "chunks_used": 99,
+ "distinct_contracts": 76645,
+ "distinct_recipients": 19280428,
+ "distinct_senders": 2566150,
+ "erc1155_covered": false,
+ "erc20_rows": 3120371412,
+ "erc20_share": 0.9642318329879987,
+ "malformed_topic_rows": 0,
+ "mint_rows": 82559559,
+ "mint_share_of_nonfungible": 0.713268830540261,
+ "nonfungible_rows": 115748166,
+ "nonfungible_share": 0.03576755825859975,
+ "residual_by_data_hexlen": {
+  "130": 8,
+  "194": 1962
+ },
+ "residual_rows": 1970,
+ "scope_note": "ERC-1155 TransferSingle/TransferBatch topic0 was never captured, so this covers the ERC-721 subset only. data=='0x' is a syntactic class: an on-chain ERC-165 probe is required to confirm the interface (measured: 18.9% of Base's queried empty-data volume answers decimals() and does not claim ERC-721).",
+ "total_rows": 3236121548,
+ "wall_seconds": 269.5
+}

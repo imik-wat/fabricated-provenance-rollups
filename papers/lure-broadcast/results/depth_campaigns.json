@@ -1,0 +1,179 @@
+{
+ "additivity_note": "a campaign may span buckets, so cumulative counts are set unions and the marginal is the number of keys new at that depth; per-bucket counts do not sum to the total",
+ "assignment": "bucket assignment is imported from forgery_chain_scan.depth_buckets, the same function the scan used, and the per-bucket contract counts are asserted equal to those the scan recorded",
+ "chains_without_a_scan": [],
+ "depth_cutoffs": [
+  100,
+  300,
+  600,
+  null
+ ],
+ "per_chain": {
+  "arbitrum-one": {
+   "campaigns_total": 71,
+   "depth_table": [
+    {
+     "campaigns": 0,
+     "cutoff": 100,
+     "cutoff_label": "100",
+     "marginal_campaigns": 0,
+     "marginal_contracts": 0
+    },
+    {
+     "campaigns": 6,
+     "cutoff": 300,
+     "cutoff_label": "300",
+     "marginal_campaigns": 6,
+     "marginal_contracts": 9
+    },
+    {
+     "campaigns": 25,
+     "cutoff": 600,
+     "cutoff_label": "600",
+     "marginal_campaigns": 19,
+     "marginal_contracts": 41
+    },
+    {
+     "campaigns": 71,
+     "cutoff": null,
+     "cutoff_label": "all",
+     "marginal_campaigns": 46,
+     "marginal_contracts": 99
+    }
+   ]
+  },
+  "base": {
+   "campaigns_total": 48,
+   "depth_table": [
+    {
+     "campaigns": 0,
+     "cutoff": 100,
+     "cutoff_label": "100",
+     "marginal_campaigns": 0,
+     "marginal_contracts": 0
+    },
+    {
+     "campaigns": 5,
+     "cutoff": 300,
+     "cutoff_label": "300",
+     "marginal_campaigns": 5,
+     "marginal_contracts": 15
+    },
+    {
+     "campaigns": 25,
+     "cutoff": 600,
+     "cutoff_label": "600",
+     "marginal_campaigns": 20,
+     "marginal_contracts": 44
+    },
+    {
+     "campaigns": 48,
+     "cutoff": null,
+     "cutoff_label": "all",
+     "marginal_campaigns": 23,
+     "marginal_contracts": 82
+    }
+   ]
+  },
+  "optimism": {
+   "campaigns_total": 61,
+   "depth_table": [
+    {
+     "campaigns": 8,
+     "cutoff": 100,
+     "cutoff_label": "100",
+     "marginal_campaigns": 8,
+     "marginal_contracts": 18
+    },
+    {
+     "campaigns": 22,
+     "cutoff": 300,
+     "cutoff_label": "300",
+     "marginal_campaigns": 14,
+     "marginal_contracts": 99
+    },
+    {
+     "campaigns": 36,
+     "cutoff": 600,
+     "cutoff_label": "600",
+     "marginal_campaigns": 14,
+     "marginal_contracts": 182
+    },
+    {
+     "campaigns": 61,
+     "cutoff": null,
+     "cutoff_label": "all",
+     "marginal_campaigns": 25,
+     "marginal_contracts": 322
+    }
+   ]
+  },
+  "polygon-zkevm": {
+   "campaigns_total": 2,
+   "depth_table": [
+    {
+     "campaigns": 2,
+     "cutoff": 100,
+     "cutoff_label": "100",
+     "marginal_campaigns": 2,
+     "marginal_contracts": 2
+    },
+    {
+     "campaigns": 2,
+     "cutoff": 300,
+     "cutoff_label": "300",
+     "marginal_campaigns": 0,
+     "marginal_contracts": 1
+    },
+    {
+     "campaigns": 2,
+     "cutoff": 600,
+     "cutoff_label": "600",
+     "marginal_campaigns": 0,
+     "marginal_contracts": 0
+    },
+    {
+     "campaigns": 2,
+     "cutoff": null,
+     "cutoff_label": "all",
+     "marginal_campaigns": 0,
+     "marginal_contracts": 0
+    }
+   ]
+  },
+  "zksync-era": {
+   "campaigns_total": 33,
+   "depth_table": [
+    {
+     "campaigns": 12,
+     "cutoff": 100,
+     "cutoff_label": "100",
+     "marginal_campaigns": 12,
+     "marginal_contracts": 16
+    },
+    {
+     "campaigns": 24,
+     "cutoff": 300,
+     "cutoff_label": "300",
+     "marginal_campaigns": 12,
+     "marginal_contracts": 16
+    },
+    {
+     "campaigns": 29,
+     "cutoff": 600,
+     "cutoff_label": "600",
+     "marginal_campaigns": 5,
+     "marginal_contracts": 8
+    },
+    {
+     "campaigns": 33,
+     "cutoff": null,
+     "cutoff_label": "all",
+     "marginal_campaigns": 4,
+     "marginal_contracts": 9
+    }
+   ]
+  }
+ },
+ "purpose": "campaign counts per rank-depth bucket, to complete the depth-sensitivity table"
+}

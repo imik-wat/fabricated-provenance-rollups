@@ -1,0 +1,1821 @@
+{
+ "bands": [
+  "1200-5000",
+  "5000-20000",
+  "20000-100000",
+  "100000-1000000",
+  "1000000-1000000000000"
+ ],
+ "chain": "optimism",
+ "flagged_in_sample": [
+  {
+   "address": "0x8f56f745710bb473990f905fa09c41ae218fc0c6",
+   "band": "100000-1000000",
+   "campaign_in_frame": false,
+   "campaign_key": "5eth.vip",
+   "name": "! 5eth.vip",
+   "rank_index": 184190,
+   "symbol": "Visit [5eth.vip] to claim Airdrop",
+   "transfers": 1
+  },
+  {
+   "address": "0xaae5244e358d09c1e90c040140df63eeb7f1c9ad",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/optimism.io",
+   "name": "OP!",
+   "rank_index": 1215,
+   "symbol": "Claim on https://t.ly/optimism.io",
+   "transfers": 32952
+  },
+  {
+   "address": "0x1dcbb9c9cb23bf4986cb57019e2e43ad3f9bbc2a",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/optimism.io",
+   "name": "OP!",
+   "rank_index": 1219,
+   "symbol": "Claim on https://t.ly/optimism.io",
+   "transfers": 32803
+  },
+  {
+   "address": "0xa47e3575de0b68ebb846fd79b3b6edab565f69e9",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/opt",
+   "name": "Optimism (OP)",
+   "rank_index": 1233,
+   "symbol": "Claim on https://t.ly/OPT",
+   "transfers": 32358
+  },
+  {
+   "address": "0x8ba3ed6677ee795dfa3dfbde7ff04b0a75c538a8",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "me-qr.com",
+   "name": "FOXYTOKEN",
+   "rank_index": 1243,
+   "symbol": "claim $foxy at (me-qr.com/yqdprsom)",
+   "transfers": 32151
+  },
+  {
+   "address": "0x812c32562bc4590bed8685012de92c2578ef26c2",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/optimisam",
+   "name": "Optimism. OP",
+   "rank_index": 1268,
+   "symbol": "Claim on https://t.ly/optimisam",
+   "transfers": 31886
+  },
+  {
+   "address": "0x826591fc646c759994e614758dde070150932470",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/optimisam",
+   "name": "Optimism. OP",
+   "rank_index": 1270,
+   "symbol": "Claim on https://t.ly/optimisam",
+   "transfers": 31852
+  },
+  {
+   "address": "0xf252c717201ae218577889bfc8e226ad0fff028e",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/opt",
+   "name": "Optimism (OP)",
+   "rank_index": 1319,
+   "symbol": "Claim on https://t.ly/OPT",
+   "transfers": 31237
+  },
+  {
+   "address": "0x28b0e3a926dd55d3ae2d647159a41b0e2dbe5f2c",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/opt",
+   "name": "Optimism (OP)",
+   "rank_index": 1347,
+   "symbol": "Claim on https://t.ly/OPT",
+   "transfers": 30885
+  },
+  {
+   "address": "0xebfdd1319b85ce478af1c18de55c49bbb4dd9d69",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/optimisam",
+   "name": "Optimism. OP",
+   "rank_index": 1364,
+   "symbol": "Claim on https://t.ly/optimisam",
+   "transfers": 30708
+  },
+  {
+   "address": "0x40f1134df1d5a19be117f8f091c0c2c5b5fc2462",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/opt",
+   "name": "Optimism (OP)",
+   "rank_index": 1365,
+   "symbol": "Claim on https://t.ly/OPT",
+   "transfers": 30705
+  },
+  {
+   "address": "0x091ffbd7ef3b02f870ece0beb00cf6d7d1313698",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/opt",
+   "name": "Optimism (OP)",
+   "rank_index": 1398,
+   "symbol": "Claim on https://t.ly/OPT",
+   "transfers": 30356
+  },
+  {
+   "address": "0x8d6ac9d6e45750e1e5a63eca078b54ca5f3ff47b",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/opt",
+   "name": "Optimism (OP)",
+   "rank_index": 1402,
+   "symbol": "Claim on https://t.ly/OPT",
+   "transfers": 30280
+  },
+  {
+   "address": "0xb3241b14a9fed40fe7caa90b22704040be592a2d",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/optimism.io",
+   "name": "OP!",
+   "rank_index": 1415,
+   "symbol": "Claim on https://t.ly/optimism.io",
+   "transfers": 30023
+  },
+  {
+   "address": "0x9947cf6fdd2544117ac1675507b029c721a8f14f",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/optimism.io",
+   "name": "OP!",
+   "rank_index": 1417,
+   "symbol": "Claim on https://t.ly/optimism.io",
+   "transfers": 30017
+  },
+  {
+   "address": "0x751ac1b7f3aeae83a0a042aa416511ece2ef47f1",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/optimism",
+   "name": "!OP Token",
+   "rank_index": 1459,
+   "symbol": "Visit T.ly/optimism to Claim",
+   "transfers": 27914
+  },
+  {
+   "address": "0x25e97999ca231e9129a3b41e2ac4ca8786b3c57b",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": ".OP Token",
+   "rank_index": 1463,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 27804
+  },
+  {
+   "address": "0x9f4b6d3aafd6d87d6fd85c3753148e9c774fae3f",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": "0P.",
+   "rank_index": 1517,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 27156
+  },
+  {
+   "address": "0x1513229f861722401f9eaf7c01d5bceee93b6b90",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain.link",
+   "name": "Chain.Link. (LINK)",
+   "rank_index": 1528,
+   "symbol": "Claim on https://t.ly/chain.link",
+   "transfers": 27107
+  },
+  {
+   "address": "0xdefa404843e58386f3dcee9d64f6532e98bd4a1b",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": "OP. Token",
+   "rank_index": 1542,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 27015
+  },
+  {
+   "address": "0xc8302dccff51e567abe41d8362f0ddd9afd41604",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": "OP!",
+   "rank_index": 1565,
+   "symbol": "Claim on optimisam.org",
+   "transfers": 27002
+  },
+  {
+   "address": "0x2a8286560741d8934a355ad19b24dca2add4d31a",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain-link.ltd",
+   "name": "Chain-Link",
+   "rank_index": 1573,
+   "symbol": "Claim on chain-link.ltd",
+   "transfers": 27001
+  },
+  {
+   "address": "0x4970d077cdcfedef1c4217160879c1cc63031d6e",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain-link.ltd",
+   "name": "Chain-Link",
+   "rank_index": 1574,
+   "symbol": "Claim on chain-link.ltd",
+   "transfers": 27001
+  },
+  {
+   "address": "0xbc9b926d907023509e3e270fbb22b37935dadf5e",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/optimism",
+   "name": "!OP Token",
+   "rank_index": 1584,
+   "symbol": "Visit T.ly/optimism to Claim",
+   "transfers": 26983
+  },
+  {
+   "address": "0x2fd0317b0bde93a8c089b143a111382e15463755",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain-link.ltd",
+   "name": "!Link",
+   "rank_index": 1589,
+   "symbol": "Claim On chain-link.ltd",
+   "transfers": 26962
+  },
+  {
+   "address": "0x2e4ee1375d5b06a4d4e50bb0c1a63d8663b049aa",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain-link.ltd",
+   "name": "!Link",
+   "rank_index": 1608,
+   "symbol": "Claim On chain-link.ltd",
+   "transfers": 26862
+  },
+  {
+   "address": "0xfd2404e9b4f0561d3386a279eb6916d55b974083",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "openmysteryboxes.com",
+   "name": "CLAIM AT(openmysteryboxes.com)",
+   "rank_index": 1611,
+   "symbol": "OPENSEABOX",
+   "transfers": 26857
+  },
+  {
+   "address": "0x4f055e30280aaa26ef7342c0c6a6adcfbab56e27",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": ".OP Token",
+   "rank_index": 1633,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 26753
+  },
+  {
+   "address": "0xf6e9f08f55fbb5a472fbc1b23de10f6519e9d956",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": "0P.",
+   "rank_index": 1634,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 26743
+  },
+  {
+   "address": "0x18ac3cb418e14bcb4337052ae5919af4736b1269",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": "OP!",
+   "rank_index": 1639,
+   "symbol": "Claim on optimisam.org",
+   "transfers": 26726
+  },
+  {
+   "address": "0xfdead4f4dc29bdb02bc13eb20f569f01702ee46b",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain.link",
+   "name": "Chain.Link. (LINK)",
+   "rank_index": 1642,
+   "symbol": "Claim on https://t.ly/chain.link",
+   "transfers": 26716
+  },
+  {
+   "address": "0xfbb584db04e2ad685a8d3cdebcfcfc217b95f671",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/pendle",
+   "name": "PendIe.",
+   "rank_index": 1645,
+   "symbol": "Claim on https://t.ly/pendle",
+   "transfers": 26712
+  },
+  {
+   "address": "0xc909381a261fcab97585e77cfd59b50cd890416b",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/pendle",
+   "name": "PendIe.",
+   "rank_index": 1672,
+   "symbol": "Claim on https://t.ly/pendle",
+   "transfers": 26583
+  },
+  {
+   "address": "0x6898c19120dc49135d52229ee84af73575e67783",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": ".OP Token",
+   "rank_index": 1673,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 26582
+  },
+  {
+   "address": "0x8e1c7ea7426132d326c85724247586d8cfb33069",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain.link",
+   "name": "Chain.Link. (LINK)",
+   "rank_index": 1685,
+   "symbol": "Claim on https://t.ly/chain.link",
+   "transfers": 26495
+  },
+  {
+   "address": "0x198f42ff0dfbd0ba01fd2da1044405f25a0912d5",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": "OP!",
+   "rank_index": 1690,
+   "symbol": "Claim on optimisam.org",
+   "transfers": 26482
+  },
+  {
+   "address": "0x43a2c24b712cb2e2b58bfabdc4e792e9cd2a0c5f",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain.link",
+   "name": "Chain.Link. (LINK)",
+   "rank_index": 1701,
+   "symbol": "Claim on https://t.ly/chain.link",
+   "transfers": 26431
+  },
+  {
+   "address": "0x2e6a389e3d148a3599b13c436bb22a59194bf87d",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": ".OP Token",
+   "rank_index": 1703,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 26425
+  },
+  {
+   "address": "0x86bca81b3e05499a7f02f603a7a0aaab29664e62",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain-link.ltd",
+   "name": "!ChainLlNK Token (LlNK)",
+   "rank_index": 1704,
+   "symbol": "Visit chain-link.ltd to Claim",
+   "transfers": 26420
+  },
+  {
+   "address": "0x5ccf407e16c9baa5fb23d2584ea27c2cdf1e3e99",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": "0P.",
+   "rank_index": 1728,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 26293
+  },
+  {
+   "address": "0x1466cf221f0b5fe7c34dcfcd885e88cc818cc5bd",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/pendle",
+   "name": "PendIe.",
+   "rank_index": 1743,
+   "symbol": "Claim on https://t.ly/pendle",
+   "transfers": 26204
+  },
+  {
+   "address": "0xb4b5eced63088887f0e214dfa8550ecf4a9f481d",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "claiming.icu",
+   "name": "AAVE (@$144.61)",
+   "rank_index": 1760,
+   "symbol": "Claim on aave.claiming.icu",
+   "transfers": 26113
+  },
+  {
+   "address": "0x4c608e4ee9e21c707c95b715d1400738760396df",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain-link.ltd",
+   "name": "!Link",
+   "rank_index": 1813,
+   "symbol": "Claim On chain-link.ltd",
+   "transfers": 25871
+  },
+  {
+   "address": "0x516916411af202e4d05e7970ccbea191db7b9af8",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": "0P.",
+   "rank_index": 1816,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 25842
+  },
+  {
+   "address": "0x48a8035233fe5dcc8a5e4d6f22ea03928d73378c",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain-link.ltd",
+   "name": "!ChainLlNK Token (LlNK)",
+   "rank_index": 1855,
+   "symbol": "Visit chain-link.ltd to Claim",
+   "transfers": 25676
+  },
+  {
+   "address": "0x4760268c5c0512f7dfe557000fdc2bee359d041e",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain.link",
+   "name": "Chain.Link (LINK)",
+   "rank_index": 1858,
+   "symbol": "Claim on https://t.ly/chain-link",
+   "transfers": 25669
+  },
+  {
+   "address": "0x353c8a00ca1d5ab2dba8f2a3a7614e7d9966fe0d",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain.link",
+   "name": "Chain.Link (LINK)",
+   "rank_index": 1868,
+   "symbol": "Claim on https://t.ly/chain-link",
+   "transfers": 25613
+  },
+  {
+   "address": "0xa53f0c97107f8501cfd5ad7aa57edb0657ee2158",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain.link",
+   "name": "Chain.Link. (LINK)",
+   "rank_index": 1876,
+   "symbol": "Claim on https://t.ly/chain.link",
+   "transfers": 25570
+  },
+  {
+   "address": "0x14e21d1105a31f5af3ed19b3034a9176b3c5c2ad",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": "OP. Token",
+   "rank_index": 1878,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 25564
+  },
+  {
+   "address": "0x1fb3003bb88c462bf0a54a8a7ab508e3860cf431",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": ".OP Token",
+   "rank_index": 1879,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 25562
+  },
+  {
+   "address": "0xb9819a3df461dc786e3cc150681efd05cd77ec92",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain.link",
+   "name": "Chain.Link (LINK)",
+   "rank_index": 1888,
+   "symbol": "Claim on https://t.ly/chain-link",
+   "transfers": 25515
+  },
+  {
+   "address": "0xfda712276762f54f52d8963a1db3771b50c05ae6",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain-link.ltd",
+   "name": "!Link",
+   "rank_index": 1903,
+   "symbol": "Claim On chain-link.ltd",
+   "transfers": 25444
+  },
+  {
+   "address": "0x89d7d4a4e7c50a3336df4c237f4c84bb9510c7f0",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": ".OP Token",
+   "rank_index": 1914,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 25377
+  },
+  {
+   "address": "0xa6a9956ca954dfd2e943db19018475ec01cf1361",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain-link.ltd",
+   "name": "!Link",
+   "rank_index": 1957,
+   "symbol": "Claim On chain-link.ltd",
+   "transfers": 25188
+  },
+  {
+   "address": "0x9d439c534c197fe1c61cfd2c5ed4aa43297ac7f7",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": ".OP Token",
+   "rank_index": 1961,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 25172
+  },
+  {
+   "address": "0xe21c160ed443668c6e1bfc6a2fd3114216f0466f",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain-link.ltd",
+   "name": "!ChainLlNK Token (LlNK)",
+   "rank_index": 1968,
+   "symbol": "Visit chain-link.ltd to Claim",
+   "transfers": 25150
+  },
+  {
+   "address": "0x5deafc4735ba6a8924b4924a6ec6e877a308c033",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": ".OP Token",
+   "rank_index": 1969,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 25140
+  },
+  {
+   "address": "0x54009c4ac320128f523bb5a66b2afe11ec05176b",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": ".OP Token",
+   "rank_index": 1979,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 25099
+  },
+  {
+   "address": "0x54b48c2d5c8308cece1da7cf0bde832d9e5ee15f",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/pendle",
+   "name": "PendIe.",
+   "rank_index": 1981,
+   "symbol": "Claim on https://t.ly/pendle",
+   "transfers": 25092
+  },
+  {
+   "address": "0x3ef9e886bfdd20ba8917c15d5e3114f045eccf09",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain.link",
+   "name": "Chain.Link (LINK)",
+   "rank_index": 1982,
+   "symbol": "Claim on https://t.ly/chain-link",
+   "transfers": 25086
+  },
+  {
+   "address": "0x05059d6127670cdcb5aaec12ce0dc9fb0fccdd51",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": "!OP",
+   "rank_index": 2002,
+   "symbol": "Visit https://optimisam.org to Claim",
+   "transfers": 24692
+  },
+  {
+   "address": "0x3db3829b468e24105d59f251d1fe6c44af96031c",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "me-qr.com",
+   "name": "foxytoken",
+   "rank_index": 2005,
+   "symbol": "claim foxy now at me-qr.com/d9uouqi5",
+   "transfers": 24401
+  },
+  {
+   "address": "0x0692c9c6411d2e177c5743b34f1e7a7549daa307",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "velodromefi.store",
+   "name": "Velodrome",
+   "rank_index": 2009,
+   "symbol": "Visit ( Velodromefi.Store ) To Claim Airdrop",
+   "transfers": 24005
+  },
+  {
+   "address": "0xc367899c38b82b4c24ecd946d6ab2d60047efbe8",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "odoslp.io",
+   "name": "",
+   "rank_index": 2019,
+   "symbol": "ODOS-LP (Claim: www.OdosLP.io)",
+   "transfers": 23504
+  },
+  {
+   "address": "0xb74cba44c636d05a37a2e6f5617c914f21bf0f6a",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "getdrops.io",
+   "name": "",
+   "rank_index": 2033,
+   "symbol": "Airdrop(s) to be claimed at https://getdrops.io",
+   "transfers": 22698
+  },
+  {
+   "address": "0xd4d63d99a413f75866535fe1997fc4e84392fea1",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": ".OP Token",
+   "rank_index": 2082,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 20367
+  },
+  {
+   "address": "0x0c8b4a7c96dbb18769bd30718c7e030b8f5135d0",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "barnbridge.fi",
+   "name": "rBOND",
+   "rank_index": 2126,
+   "symbol": "Visit https://www.barnbridge.fi to claim rewards.",
+   "transfers": 18507
+  },
+  {
+   "address": "0x6779fa205ce00db81c7f2de3cf3ace8d850f539e",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": ".OP Token",
+   "rank_index": 2159,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 17126
+  },
+  {
+   "address": "0xfd5fab5332851e17ba64d414e2a0c97a57ceea67",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "aerodrome.supply",
+   "name": "!     AERO",
+   "rank_index": 2203,
+   "symbol": "Claim: https://aerodrome.supply",
+   "transfers": 15527
+  },
+  {
+   "address": "0x368857b864d99af2bb08cd8e876ae8ebaa6c983f",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "velodrome.help",
+   "name": "Velodrome Finance: VELO Token ( Velodrome.help )",
+   "rank_index": 2206,
+   "symbol": "Claim Your Tokens ( Velodrome.help )",
+   "transfers": 15440
+  },
+  {
+   "address": "0x1b54760965bdf615aae6056d335864e1889dc283",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "fyde.cc",
+   "name": "!      FYDE",
+   "rank_index": 2252,
+   "symbol": "Fyde Points (Claim: www.fyde.cc)",
+   "transfers": 14243
+  },
+  {
+   "address": "0x9f6088f64420bb94751ff385f847130d2ee53189",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "fyde.cc",
+   "name": "!      FYDE",
+   "rank_index": 2278,
+   "symbol": "Fyde Points (Claim: www.fyde.cc)",
+   "transfers": 13817
+  },
+  {
+   "address": "0x761f4abbe1e52cf0a496d72e84d284635558da49",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain-link.ltd",
+   "name": "!Link",
+   "rank_index": 2283,
+   "symbol": "Claim On chain-link.ltd",
+   "transfers": 13742
+  },
+  {
+   "address": "0x8939fa91f2918de561fac57c3e06f6e29fb1ca62",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "me-qr.com",
+   "name": "foxytoken",
+   "rank_index": 2420,
+   "symbol": "claim foxy now at me-qr.com/d9uouqi5",
+   "transfers": 10782
+  },
+  {
+   "address": "0x66a335c9aca2f86483d2917108da1b46eb16ef1d",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "vippepe.xyz",
+   "name": "UNI",
+   "rank_index": 2468,
+   "symbol": "Visit vippepe.xyz to swap to USDT",
+   "transfers": 9996
+  },
+  {
+   "address": "0x45927b8ac7c6db54667a7f799e37e37ee15d27d2",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "basex.cfd",
+   "name": "www.basex.cfd - claim Base airdrop",
+   "rank_index": 2501,
+   "symbol": "www.basex.cfd",
+   "transfers": 9719
+  },
+  {
+   "address": "0xc6c8c4ab4732c6471a158e639be35e735489b70a",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "basex.cfd",
+   "name": "www.basex.cfd - claim Base airdrop",
+   "rank_index": 2522,
+   "symbol": "www.basex.cfd",
+   "transfers": 9585
+  },
+  {
+   "address": "0x1b441575d92c640da80705e84385c58ff656fb72",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "basex.cfd",
+   "name": "www.basex.cfd - claim Base airdrop",
+   "rank_index": 2524,
+   "symbol": "www.basex.cfd",
+   "transfers": 9574
+  },
+  {
+   "address": "0xd1ffc3f5f31c2ceca7a2921cab2c060d8bc012d7",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "basex.cfd",
+   "name": "www.basex.cfd - claim Base airdrop",
+   "rank_index": 2584,
+   "symbol": "www.basex.cfd",
+   "transfers": 9324
+  },
+  {
+   "address": "0x2bd4e5f078951b4cbabcf2f53790b83c94ae171d",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "basex.cfd",
+   "name": "www.basex.cfd - claim Base airdrop",
+   "rank_index": 2603,
+   "symbol": "www.basex.cfd",
+   "transfers": 9235
+  },
+  {
+   "address": "0x458bcc123dcf4ba117d81dca7746d57982c6d4f0",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "basex.cfd",
+   "name": "www.basex.cfd - claim Base airdrop",
+   "rank_index": 2637,
+   "symbol": "www.basex.cfd",
+   "transfers": 9084
+  },
+  {
+   "address": "0xb8acd72eeeffc6a5c9e7ca04ddf814a371d9965c",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "me-qr.com",
+   "name": "foxytoken",
+   "rank_index": 2650,
+   "symbol": "claim $foxy at me-qr.com/dHY9RTeC",
+   "transfers": 9012
+  },
+  {
+   "address": "0x29103b9e35b3f5f65708804dcc5f945fae992416",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "nodepay.info",
+   "name": "",
+   "rank_index": 2667,
+   "symbol": "NC-Eligible (Verify: https://claim.nodepay.info)",
+   "transfers": 8807
+  },
+  {
+   "address": "0x887eaabb8ffa71f0dfc6f02a516819ad86ccafda",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "optimisam.ltd",
+   "name": "!OP",
+   "rank_index": 2699,
+   "symbol": "Claim on optimisam.ltd",
+   "transfers": 8249
+  },
+  {
+   "address": "0xa1fcd13df489f1ae8ca73dd1b105a5cae7d8dea5",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "bonk.uno",
+   "name": "! BONK [ BONK.UNO ]",
+   "rank_index": 2884,
+   "symbol": "ACCESS [ BONK.UNO ] TO CLAIM AIRDROP",
+   "transfers": 6092
+  },
+  {
+   "address": "0x02d357261afffe7ccfeb156418080ee019e728b6",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/pendle",
+   "name": "PendIe.",
+   "rank_index": 2901,
+   "symbol": "Claim on https://t.ly/pendle",
+   "transfers": 6002
+  },
+  {
+   "address": "0x38d2c3a71db213e46ee475c4d9eb5a1be6ee64d8",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": ".OP Token",
+   "rank_index": 2919,
+   "symbol": "Visit optimisam.org to Claim",
+   "transfers": 5866
+  },
+  {
+   "address": "0x765c276ba2cc1d38c3bd5f48551aa3e595adbce7",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "op-claims.com",
+   "name": "$OP",
+   "rank_index": 2963,
+   "symbol": "Visit https://op-claims.com to claim rewards",
+   "transfers": 5505
+  },
+  {
+   "address": "0xf6456b7dd8b6e9ff4c08560c6928953f746645b6",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "velodromefi.store",
+   "name": "Velodrome Finance: VELO Token",
+   "rank_index": 3406,
+   "symbol": "Claim Airdrop ( Velodromefi.Store )",
+   "transfers": 3245
+  },
+  {
+   "address": "0x4124e0a2728551c46d8b1a2c0bfc93d630817a87",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chain-link.ltd",
+   "name": "Chain-Link",
+   "rank_index": 3486,
+   "symbol": "Claim on chain-link.ltd",
+   "transfers": 3000
+  },
+  {
+   "address": "0x85a71da5c4458d2c71aa27bd03d5a50a860035fc",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "optimisam.ltd",
+   "name": "!OP",
+   "rank_index": 3487,
+   "symbol": "Claim on optimisam.ltd",
+   "transfers": 3000
+  },
+  {
+   "address": "0x2790329346ea68e9beb2310c660251c45e8b16d9",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "claimop.xyz",
+   "name": "$OP",
+   "rank_index": 3563,
+   "symbol": "Visit https://claimop.xyz to claim rewards",
+   "transfers": 2674
+  },
+  {
+   "address": "0xd6ca425787be75b4f564f835173eb60ec1524841",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "eth77go.com",
+   "name": "$ ETH77Go.com - Visit to claim Token",
+   "rank_index": 3849,
+   "symbol": "$ ETH77Go.com - Visit to claim",
+   "transfers": 2000
+  },
+  {
+   "address": "0xb24dfe66d3db11ae4113d1ef0c19733e5a169dd7",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "eth77go.com",
+   "name": "$ ETH77Go.com - Visit to claim Token",
+   "rank_index": 3883,
+   "symbol": "$ ETH77Go.com - Visit to claim",
+   "transfers": 2000
+  },
+  {
+   "address": "0x5e9d8f4732bcf9c77a0d418ec29420e01b3ad959",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "eth77go.com",
+   "name": "$ ETH77Go.com - Visit to claim Token",
+   "rank_index": 3913,
+   "symbol": "$ ETH77Go.com - Visit to claim",
+   "transfers": 2000
+  },
+  {
+   "address": "0x2d4de11caef15001bc7ac8019789b00dd1275fe7",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "eth77go.com",
+   "name": "$ ETH77Go.com - Visit to claim Token",
+   "rank_index": 3915,
+   "symbol": "$ ETH77Go.com - Visit to claim",
+   "transfers": 2000
+  },
+  {
+   "address": "0x6cbb8dce332f7a28c178b125ca2fc22a8b387edb",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "optimisam.org",
+   "name": "OP!",
+   "rank_index": 4157,
+   "symbol": "Claim on optimisam.org",
+   "transfers": 1559
+  },
+  {
+   "address": "0xe6dd1645b53934e601a307c433b67f0c453bddc9",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "fli.so",
+   "name": "🎁$WBTC REWARD POOL",
+   "rank_index": 4509,
+   "symbol": "244,699 Visit fli.so/wbtc to claim",
+   "transfers": 1095
+  },
+  {
+   "address": "0x67546584e19269aa85c9123f835f50925dea93c4",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "okb.web.app",
+   "name": "SWAP ▸ 🔗 okb.web.app",
+   "rank_index": 4761,
+   "symbol": "SWAP ▸ 🔗 okb.web.app",
+   "transfers": 936
+  },
+  {
+   "address": "0x9ae24bf2dbfeaa948b3dd0837bc1269312389d27",
+   "band": "20000-100000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 24388,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 64
+  },
+  {
+   "address": "0x888bbd6931fca364799f373776e120bb5b671076",
+   "band": "20000-100000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 54836,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 15
+  },
+  {
+   "address": "0x30be126303fa42c7d2a3dba2e8360f23b0c6197e",
+   "band": "20000-100000",
+   "campaign_in_frame": false,
+   "campaign_key": "op-uniswap.com",
+   "name": "op-uniswap.com -- Uniswap x Optimism giveaway!",
+   "rank_index": 99839,
+   "symbol": "OPxUNI",
+   "transfers": 5
+  },
+  {
+   "address": "0x86b25101aefd680fc8bb2af85cce01c0595ee8ae",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 5607,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 501
+  },
+  {
+   "address": "0x8f39dcd8983a18992d30a43f76f6bb489148dd5a",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 5716,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0xec9b190c92f33e93e326bef8f547b8cf1846ea8d",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 5764,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0xa80fd37c248bbd73b148d4035a1ab92617aa6fdc",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 5786,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0xc631deb7b59e168a9746cc0a7d7830ca271b180b",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 5857,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0x1a37a5a41cddf62471b0fe46be758a00a65ad47c",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 5923,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0xae15f4b181b78d6a226be853036e4511ae346be5",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 5929,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0xf9ebca6c1dac6eb9138bc974cac46512b12d4973",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 6061,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0xb99d38f9c19357acdd337e877da26c8c3e1ec69b",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 6077,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0xb3f75f247e3daf4b02c70b0a086f8db1be5bafee",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/oethdao",
+   "name": "✅$OETH DISTRIBUTION",
+   "rank_index": 6092,
+   "symbol": "OETH | t.me/s/OETHDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0x06193f3e1374ebf2ebc46df5025a713f05417330",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 6149,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0x556a77b044795cacc11647e89f3964922478d0e6",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 6209,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0x12f41cdd20dc63c17bb0e823b29405c2cd5e969e",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 6239,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0xc59e897e4e3d1782a67bc59df2a91b050f3e9e69",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/oethdao",
+   "name": "✅$OETH DISTRIBUTION",
+   "rank_index": 6244,
+   "symbol": "OETH | t.me/s/OETHDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0x0b65616c5799aa48a4c66ad8e461ab59f59e5fae",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/oethdao",
+   "name": "✅$OETH DISTRIBUTION",
+   "rank_index": 6266,
+   "symbol": "OETH | t.me/s/OETHDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0x35793769f72e655f6524372ec4a6e4c629dc1f93",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 6331,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0x1b303e523b0a8f475dc685a7daaaa79620c6c840",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 6387,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0xd3c0ca987200b4054c5385896ff2c6f6da697ba2",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 6391,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0x8e43485d043c5abf30ca95eea4385707680c30b2",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 6403,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0x33a3840b9f843e801cfeae2746e9bc7cf7ea9214",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/oethdao",
+   "name": "✅$OETH DISTRIBUTION",
+   "rank_index": 6406,
+   "symbol": "OETH | t.me/s/OETHDAO | *claim until 28.06.25",
+   "transfers": 500
+  },
+  {
+   "address": "0x0346b1208022426dc55132d4e17993b8a124d8c3",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "oethdao.net",
+   "name": "OETHDAO.net",
+   "rank_index": 6557,
+   "symbol": "claim rewards on OETHDAO.net",
+   "transfers": 500
+  },
+  {
+   "address": "0xc981052ad5c99753211509e8373489c4328ea076",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "oethdao.net",
+   "name": "OETHDAO.net",
+   "rank_index": 6611,
+   "symbol": "claim rewards on OETHDAO.net",
+   "transfers": 500
+  },
+  {
+   "address": "0x99deaa63f71a4bcd6bc5aec02127274b0b5f8329",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "oethdao.net",
+   "name": "OETHDAO.net",
+   "rank_index": 6646,
+   "symbol": "claim rewards on OETHDAO.net",
+   "transfers": 500
+  },
+  {
+   "address": "0x378ddaf03f863be8549559d29975ef76ad61198e",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "oethdao.net",
+   "name": "OETHDAO.net",
+   "rank_index": 6654,
+   "symbol": "claim rewards on OETHDAO.net",
+   "transfers": 500
+  },
+  {
+   "address": "0xdd154ceb51ade7418668fb65ad7a5961b5bcb607",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "oethdao.net",
+   "name": "OETHDAO.net",
+   "rank_index": 6788,
+   "symbol": "claim rewards on OETHDAO.net",
+   "transfers": 500
+  },
+  {
+   "address": "0xc342b636daf801765b63e76726c982cc91c8b136",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "oethdao.net",
+   "name": "OETHDAO.net",
+   "rank_index": 6791,
+   "symbol": "claim rewards on OETHDAO.net",
+   "transfers": 500
+  },
+  {
+   "address": "0x1687f4dd1926435619f9ef7c1b158ef2a44bc46c",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "awardops.xyz",
+   "name": "$Op",
+   "rank_index": 8121,
+   "symbol": "Visit https://awardops.xyz to claim airdrop",
+   "transfers": 248
+  },
+  {
+   "address": "0xe008270fd8a881becda27e1d20898214cd5fe4ce",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "openseaoceanbox.com",
+   "name": "CLAIM AT(www.openseaoceanbox.com)",
+   "rank_index": 12625,
+   "symbol": "$OPENSEABOX",
+   "transfers": 115
+  },
+  {
+   "address": "0x648d2ee26b79deb80f80e0464c3018b3d3a95ee1",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 14982,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x6cbb948141f10b5af0aad5d327e3a5d01c5ddfaf",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 15004,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 100
+  },
+  {
+   "address": "0xb86db70e5c1f69906f2c66e6cfef7224db95ef73",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 15015,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 100
+  },
+  {
+   "address": "0x661d941911ff7fbe6d15ef44b78b6f3826f818ff",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 15029,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 100
+  },
+  {
+   "address": "0xd982101e3b7aa67eea35a916c4787dacd82da086",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 15031,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 100
+  },
+  {
+   "address": "0x37255c976f697e39f7fbcaccfcedf393bb1e2ee4",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 15035,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 100
+  },
+  {
+   "address": "0xff0d06f83b1ec5d506cd27b47c57c415f98daeeb",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.me/bedrockdao",
+   "name": "✅$BR DISTRIBUTION",
+   "rank_index": 15038,
+   "symbol": "BR | t.me/s/BedrockDAO | *claim until 28.06.25",
+   "transfers": 100
+  },
+  {
+   "address": "0x7eb54324086c7e59b443e6906bab8c2f487fb1da",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 15129,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x1b8252de7cd2dc0147be66305fba949678b97203",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 15220,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x0726164eb78ea68c6b7b58c1fabc94d2c2829d41",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 15335,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x50d840b56bccf0558c4f7c3253a317fbd2c2ee53",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 15410,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0xef2aa5f314b846b855469920e9d616674709b9c9",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 15427,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x19e8b958a9f5e8b1fd85a67aef9029ba2df04704",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 15497,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x879e32240e3d52509f581a472a05fae0a3622c65",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 15529,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0xc110f1728ff63a13d8545091758c84bfc5703fb6",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 15538,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x2ae5e193169453a07a74490754aa0ebfcffaeba0",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 15600,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x29a96fcec88c4808ecf7baf95dd628eaaff47909",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 15619,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x4d778ef4f5f90e21fa3d3f11985190fc3988897c",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 15723,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0xb5e28683f98fac23b2b2ad774aade5dad55ada6b",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 15732,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0xbd32ec38c1c34b56f15e83f19820e5d7ee840653",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 15937,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x9a113c0a57901779de074fda25a0fe6192893be1",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16037,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x6fa082009dc2f6a352c2076aa6a552eca2e44a38",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16098,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0xaa5e1451453a784945c9ede0e013542b76d78536",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16177,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0xfbd1d6f8709368b0a4ca3c957a8c757ce0da548a",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16271,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x0b8dcb71e4262286554235f2c1c238c99f6c4808",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16279,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0xb963a7dcf3671dab318a746ad8d7b2751f23465a",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16335,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0xd35a13c0830a59faa26f1580259739c3965def4a",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16347,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x35d17629eff337157384fdd26847b08fa4e37e60",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16363,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x3fa1b8a416202fd5e087b18cde07c542352c4ad5",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16396,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x126cf6a0a31b58019caacef17dd6d2467bb397d0",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16456,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0xb6978293f49c68615a367792b6c4a1f46eb25537",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16559,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x10d3365259e711c185e9ead3f5f4acec54f8cbe0",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16572,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x5d1121dd2db93692a14e8abbc24250e33b1ce275",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16593,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x2ba5c56ad7595b5c79645e876b5576150dba038c",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16638,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0xa0bb47bee00c25b70add593ac2ee6ce8d3643634",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16664,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0xbe5d750c20b67ec7de86a988f8fb8853fdc565ed",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16692,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0xcf82fe75a379d66c7c13acf5ac67cb2c852fbf8c",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16845,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0xd1ff0dc5d918aca30f86581022e054e16e96bd0b",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16860,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x211c7ce55512c33616b4af992b8147ee9ab6f918",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16868,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x62944afdc53777d11d471f7211086690ca21a1d4",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16957,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x5b9237d79438635aced1dc240ba991db6956c66f",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 16986,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  },
+  {
+   "address": "0x9b56a4085bfc3405af3b05d9f15f25a4a67c3623",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getbedrock.org",
+   "name": "getBedrock[.]org",
+   "rank_index": 17008,
+   "symbol": "claim rewards on getBedrock[.]org",
+   "transfers": 100
+  }
+ ],
+ "frame_depth": 1200,
+ "ht_strong": 6105.232387629963,
+ "ht_strong_transfer_share": 0.6242452838861028,
+ "ht_strong_transfers": 26503972.795499977,
+ "metadata_coverage": 0.9916666666666667,
+ "new_campaign_keys": [
+  "5eth.vip",
+  "aerodrome.supply",
+  "awardops.xyz",
+  "bonk.uno",
+  "chain-link.ltd",
+  "chain.link",
+  "claimop.xyz",
+  "eth77go.com",
+  "fyde.cc",
+  "getbedrock.org",
+  "nodepay.info",
+  "odoslp.io",
+  "oethdao.net",
+  "okb.web.app",
+  "op-claims.com",
+  "op-uniswap.com",
+  "openmysteryboxes.com",
+  "openseaoceanbox.com",
+  "optimisam.ltd",
+  "t.ly/opt",
+  "t.ly/optimisam",
+  "t.ly/optimism",
+  "t.ly/optimism.io",
+  "t.ly/pendle",
+  "t.me/bedrockdao",
+  "t.me/oethdao",
+  "vippepe.xyz"
+ ],
+ "observed_strong": 172,
+ "per_band": {
+  "100000-1000000": {
+   "N": 147671,
+   "drawn": 300,
+   "ht_strong": 492.2366666666667,
+   "resolved": 300,
+   "strong": 1,
+   "tail_transfers": 308561,
+   "upper_strong_bonferroni": 3110,
+   "weak": 4
+  },
+  "1200-5000": {
+   "N": 3792,
+   "drawn": 300,
+   "ht_strong": 1242.8628762541807,
+   "resolved": 299,
+   "strong": 98,
+   "tail_transfers": 37756144,
+   "upper_strong_bonferroni": 1477,
+   "weak": 15
+  },
+  "20000-100000": {
+   "N": 80000,
+   "drawn": 300,
+   "ht_strong": 810.8108108108108,
+   "resolved": 296,
+   "strong": 3,
+   "tail_transfers": 1587971,
+   "upper_strong_bonferroni": 2599,
+   "weak": 2
+  },
+  "5000-20000": {
+   "N": 15000,
+   "drawn": 300,
+   "ht_strong": 3559.322033898305,
+   "resolved": 295,
+   "strong": 70,
+   "tail_transfers": 2804950,
+   "upper_strong_bonferroni": 4455,
+   "weak": 2
+  }
+ },
+ "per_stratum": 300,
+ "seed": 20261027,
+ "strength_counts": {
+  "none": 995,
+  "strong": 172,
+  "weak": 23
+ },
+ "tail_contracts": 246463,
+ "tail_transfers": 42457626,
+ "unresolved_treated_as_unsampled": true,
+ "upper95_method": "per-band exact hypergeometric at alpha/H, summed (Bonferroni)",
+ "upper95_strong": 11641
+}

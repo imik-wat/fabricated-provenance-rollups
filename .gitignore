@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data/raw/
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+._*
+.DS_Store

@@ -1,0 +1,8 @@
+{
+ "source": "https://api.coingecko.com/api/v3/nfts/list",
+ "pages": 8,
+ "collections": 1921,
+ "sha256": "5c7b7627887638e4608e54b2f1ba0df74dfbef98f5aaf97bcd401fdb064ccc96",
+ "fetched_at": "2026-10-27T13:25:01+00:00",
+ "producer": "papers/lure-broadcast/scripts/fetch_nft_list.py"
+}

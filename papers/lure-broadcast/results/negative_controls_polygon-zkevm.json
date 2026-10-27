@@ -1,0 +1,89 @@
+{
+ "block": 33391890,
+ "chain": "polygon-zkevm",
+ "metadata_coverage": 1.0,
+ "per_contract": {
+  "0x1e4a5963abfd975d8c9021ce480b42188849d41d": {
+   "allowance": "value",
+   "cta_path": null,
+   "distinct_recipients": 159612,
+   "fanout": 13.501879557927975,
+   "kind": "registry",
+   "ledger": "zero_ledger",
+   "mint_share": 0.0009020622144513707,
+   "name": "Tether USD",
+   "strength": "none",
+   "symbol": "USDT",
+   "transfers": 2155062
+  },
+  "0x4f9a0e7fd2bf6067db6994cf12e4495df938e6e9": {
+   "allowance": "value",
+   "cta_path": null,
+   "distinct_recipients": 56142,
+   "fanout": 89.95021552491896,
+   "kind": "registry",
+   "ledger": "zero_ledger",
+   "mint_share": 0.0,
+   "name": "Wrapped Ether",
+   "strength": "none",
+   "symbol": "WETH",
+   "transfers": 5049985
+  },
+  "0xa8ce8aee21bc2a48a5ef670afcc9274c7bbbc035": {
+   "allowance": "value",
+   "cta_path": null,
+   "distinct_recipients": 245275,
+   "fanout": 16.500295586586486,
+   "kind": "registry",
+   "ledger": "zero_ledger",
+   "mint_share": 0.0005426094175843998,
+   "name": "USD Coin",
+   "strength": "none",
+   "symbol": "USDC",
+   "transfers": 4047110
+  },
+  "0xc5015b9d9161dca7e18e32f6f25c4ad850731fd4": {
+   "allowance": "value",
+   "cta_path": null,
+   "distinct_recipients": 31993,
+   "fanout": 9.985184259056668,
+   "kind": "registry",
+   "ledger": "zero_ledger",
+   "mint_share": 0.0005478062706601222,
+   "name": "Dai Stablecoin",
+   "strength": "none",
+   "symbol": "DAI",
+   "transfers": 319456
+  },
+  "0xea034fb02eb1808c2cc3adbc15f447b93cbe08e1": {
+   "allowance": "value",
+   "cta_path": null,
+   "distinct_recipients": 12724,
+   "fanout": 21.742376611128577,
+   "kind": "registry",
+   "ledger": "zero_ledger",
+   "mint_share": 0.0011928429423459245,
+   "name": "Wrapped BTC",
+   "strength": "none",
+   "symbol": "WBTC",
+   "transfers": 276650
+  }
+ },
+ "snapshot": "papers/lure-broadcast/data/negative_controls/coingecko_nfts.json",
+ "summary": {
+  "registry": {
+   "controls": 5,
+   "fanout_below_2": 0,
+   "fanout_measured": 5,
+   "fanout_median": 16.500295586586486,
+   "flagged_strong": 0,
+   "ledger": {
+    "zero_ledger": 5
+   },
+   "metadata_resolved": 5,
+   "present_in_corpus": 5,
+   "weak": 0
+  }
+ },
+ "wall_seconds": 84.2
+}

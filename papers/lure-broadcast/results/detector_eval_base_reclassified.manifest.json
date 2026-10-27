@@ -1,0 +1,9 @@
+{
+ "producer": "papers/lure-broadcast/scripts/evaluate_detector.py",
+ "git_commit": "3df09e3",
+ "codebook": "docs/ANNOTATION_CODEBOOK.md v1.0",
+ "inputs": [
+  "annotation/base_sample_blinded.csv",
+  "annotation/base_answer_key.json"
+ ]
+}

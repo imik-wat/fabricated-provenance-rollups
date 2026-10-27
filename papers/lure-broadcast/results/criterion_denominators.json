@@ -1,0 +1,137 @@
+{
+ "additivity_note": "recipient sets intersect across contracts and across chains, so recipient counts are NOT additive and no cross-chain recipient total is reported; contract and campaign counts are additive, volume shares are not",
+ "campaign_qualifier": "a campaign is counted when ANY of its contracts qualifies: an upper count of campaign involvement and a lower count of campaign-wide fabrication. The qualifier must accompany the number.",
+ "chains_without_a_scan": [],
+ "criterion": "a broadcast transfer whose named sender is a registry-verified token; the assertion is established as fabricated by contract state, and the criterion identifies rows making it",
+ "per_chain": {
+  "arbitrum-one": {
+   "campaigns": {
+    "n": 7,
+    "of": 71,
+    "qualifier": "campaigns containing at least one qualifying contract",
+    "share": 0.09859154929577464
+   },
+   "contracts": {
+    "n": 68,
+    "of": 149,
+    "share": 0.4563758389261745
+   },
+   "contracts_without_campaign_key": 0,
+   "recipients": {
+    "n": 6995472,
+    "of": 13846083,
+    "share": 0.505231118432556
+   },
+   "transfers": {
+    "n": 11911386,
+    "of": 23889129,
+    "share": 0.498611146517732
+   }
+  },
+  "base": {
+   "campaigns": {
+    "n": 6,
+    "of": 48,
+    "qualifier": "campaigns containing at least one qualifying contract",
+    "share": 0.125
+   },
+   "contracts": {
+    "n": 67,
+    "of": 141,
+    "share": 0.475177304964539
+   },
+   "contracts_without_campaign_key": 0,
+   "ledger_intersection": {
+    "all_nested": true,
+    "also_ledger_confirmed": 67,
+    "criterion_contracts": 67,
+    "criterion_rows": 72810413,
+    "criterion_rows_from_confirmed_contracts": 72810413,
+    "note": "every contract emitting a criterion row is one the ledger test positively establishes, so the event-level share is nested inside the contract-state result rather than merely adjacent to it. When the nesting is complete the row figure is exact, not apportioned: all criterion rows are emitted by confirmed contracts by construction."
+   },
+   "recipients": {
+    "n": 46514761,
+    "of": 88655434,
+    "share": 0.5246690349516534
+   },
+   "transfers": {
+    "n": 72810413,
+    "of": 142909035,
+    "share": 0.5094878220960627
+   }
+  },
+  "optimism": {
+   "campaigns": {
+    "n": 7,
+    "of": 61,
+    "qualifier": "campaigns containing at least one qualifying contract",
+    "share": 0.11475409836065574
+   },
+   "contracts": {
+    "n": 168,
+    "of": 621,
+    "share": 0.27053140096618356
+   },
+   "contracts_without_campaign_key": 0,
+   "recipients": {
+    "n": 9137813,
+    "of": 62215236,
+    "share": 0.1468741997538995
+   },
+   "transfers": {
+    "n": 16072792,
+    "of": 146964811,
+    "share": 0.10936490096258485
+   }
+  },
+  "polygon-zkevm": {
+   "campaigns": {
+    "n": 0,
+    "of": 2,
+    "qualifier": "campaigns containing at least one qualifying contract",
+    "share": 0.0
+   },
+   "contracts": {
+    "n": 0,
+    "of": 3,
+    "share": 0.0
+   },
+   "contracts_without_campaign_key": 0,
+   "recipients": {
+    "n": 0,
+    "of": 250757,
+    "share": 0.0
+   },
+   "transfers": {
+    "n": 0,
+    "of": 292961,
+    "share": 0.0
+   }
+  },
+  "zksync-era": {
+   "campaigns": {
+    "n": 9,
+    "of": 33,
+    "qualifier": "campaigns containing at least one qualifying contract",
+    "share": 0.2727272727272727
+   },
+   "contracts": {
+    "n": 18,
+    "of": 49,
+    "share": 0.3673469387755102
+   },
+   "contracts_without_campaign_key": 0,
+   "recipients": {
+    "n": 4687487,
+    "of": 5399634,
+    "share": 0.8681119868494791
+   },
+   "transfers": {
+    "n": 14371937,
+    "of": 18292402,
+    "share": 0.7856779552515848
+   }
+  }
+ },
+ "purpose": "report the fabricated-sender criterion against contracts, campaigns, transfer volume and distinct named recipients, because a volume share alone can be carried by a single campaign"
+}

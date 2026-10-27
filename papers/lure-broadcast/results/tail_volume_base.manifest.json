@@ -1,0 +1,5 @@
+{
+ "producer": "papers/lure-broadcast/scripts/tail_volume_ci.py",
+ "git_commit": "3df09e3",
+ "source": "results/tail_sample_base.json"
+}

@@ -1,0 +1,115 @@
+{
+ "block": 71454452,
+ "chain": "zksync-era",
+ "metadata_coverage": 1.0,
+ "per_contract": {
+  "0x1d17cbcf0d6d143135ae902365d2e5e2a16538d4": {
+   "allowance": "value",
+   "cta_path": null,
+   "distinct_recipients": 283576,
+   "fanout": 17.402058002087625,
+   "kind": "registry",
+   "ledger": "zero_ledger",
+   "mint_share": 2.918047842204942e-05,
+   "name": "USDC",
+   "strength": "none",
+   "symbol": "USDC",
+   "transfers": 4934806
+  },
+  "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4": {
+   "allowance": "value",
+   "cta_path": null,
+   "distinct_recipients": 4264988,
+   "fanout": 39.45886506597439,
+   "kind": "registry",
+   "ledger": "zero_ledger",
+   "mint_share": 0.00020316523726860594,
+   "name": "Bridged USDC (zkSync)",
+   "strength": "none",
+   "symbol": "USDC.e",
+   "transfers": 168291586
+  },
+  "0x493257fd37edb34451f62edf8d2a0c418852ba4c": {
+   "allowance": "value",
+   "cta_path": null,
+   "distinct_recipients": 1843801,
+   "fanout": 17.288295754259813,
+   "kind": "registry",
+   "ledger": "zero_ledger",
+   "mint_share": 0.00014512405298791007,
+   "name": "Tether USD",
+   "strength": "none",
+   "symbol": "USDT",
+   "transfers": 31876177
+  },
+  "0x4b9eb6c0b6ea15176bbf62841c6b2a8a398cb656": {
+   "allowance": "value",
+   "cta_path": null,
+   "distinct_recipients": 278656,
+   "fanout": 7.18030474850712,
+   "kind": "registry",
+   "ledger": "zero_ledger",
+   "mint_share": 0.00012144929491937116,
+   "name": "Dai Stablecoin",
+   "strength": "none",
+   "symbol": "DAI",
+   "transfers": 2000835
+  },
+  "0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e": {
+   "allowance": "value",
+   "cta_path": null,
+   "distinct_recipients": 1401458,
+   "fanout": 8.042069758779785,
+   "kind": "registry",
+   "ledger": "zero_ledger",
+   "mint_share": 0.05977859431550501,
+   "name": "ZKsync",
+   "strength": "none",
+   "symbol": "ZK",
+   "transfers": 11270623
+  },
+  "0x5aea5775959fbc2557cc8789bc1bf90a239d9a91": {
+   "allowance": "value",
+   "cta_path": null,
+   "distinct_recipients": 1643993,
+   "fanout": 129.30890703305914,
+   "kind": "registry",
+   "ledger": "zero_ledger",
+   "mint_share": 0.23671812739741135,
+   "name": "Wrapped Ether",
+   "strength": "none",
+   "symbol": "WETH",
+   "transfers": 212582938
+  },
+  "0xbbeb516fb02a01611cbbe0453fe3c580d7281011": {
+   "allowance": "value",
+   "cta_path": null,
+   "distinct_recipients": 611452,
+   "fanout": 9.364401457514244,
+   "kind": "registry",
+   "ledger": "zero_ledger",
+   "mint_share": 0.0001709780257434575,
+   "name": "Wrapped BTC",
+   "strength": "none",
+   "symbol": "WBTC",
+   "transfers": 5725882
+  }
+ },
+ "snapshot": "papers/lure-broadcast/data/negative_controls/coingecko_nfts.json",
+ "summary": {
+  "registry": {
+   "controls": 7,
+   "fanout_below_2": 0,
+   "fanout_measured": 7,
+   "fanout_median": 17.288295754259813,
+   "flagged_strong": 0,
+   "ledger": {
+    "zero_ledger": 7
+   },
+   "metadata_resolved": 7,
+   "present_in_corpus": 7,
+   "weak": 0
+  }
+ },
+ "wall_seconds": 743.0
+}

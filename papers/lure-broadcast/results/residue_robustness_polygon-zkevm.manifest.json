@@ -1,0 +1,6 @@
+{
+ "producer": "papers/lure-broadcast/scripts/residue_robustness.py",
+ "git_commit": "7420bfe",
+ "k": 64,
+ "classes": 4
+}

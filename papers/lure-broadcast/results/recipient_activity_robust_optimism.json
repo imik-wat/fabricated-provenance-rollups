@@ -1,0 +1,74 @@
+{
+ "V1_published": {
+  "control": {
+   "ci95_hi": 0.056973083173005895,
+   "ci95_lo": 0.054852113518644344,
+   "estimate": 0.05590313598899575,
+   "hits": 10079,
+   "n": 180294
+  },
+  "difference": {
+   "ci95_hi": -0.016120348228214624,
+   "ci95_lo": -0.019828400818835062,
+   "difference": -0.017992978772373353,
+   "ratio": 0.6781400818745629
+  },
+  "recipients": {
+   "ci95_hi": 0.039460027185920676,
+   "ci95_lo": 0.03641885338706034,
+   "estimate": 0.0379101572166224,
+   "hits": 2298,
+   "n": 60617
+  }
+ },
+ "V2_time_aligned": {
+  "control": {
+   "ci95_hi": 0.062002873910183234,
+   "ci95_lo": 0.05945057229176923,
+   "estimate": 0.060714179526060716,
+   "hits": 8168,
+   "n": 134532
+  },
+  "difference": {
+   "ci95_hi": 0.09457474797026094,
+   "ci95_lo": 0.0810235559515162,
+   "difference": 0.08768056691684332,
+   "ratio": 2.4441530397229143
+  },
+  "recipients": {
+   "ci95_hi": 0.15517213747151887,
+   "ci95_lo": 0.14186366217022645,
+   "estimate": 0.14839474644290404,
+   "hits": 1627,
+   "n": 10964
+  }
+ },
+ "V3_cleaned_control": {
+  "control": {
+   "ci95_hi": 0.056695725317907085,
+   "ci95_lo": 0.054562431209645455,
+   "estimate": 0.055619453559306746,
+   "hits": 9865,
+   "n": 177366
+  },
+  "control_removed": 2928,
+  "difference": {
+   "ci95_hi": -0.015833291766619535,
+   "ci95_lo": -0.019548412437559035,
+   "difference": -0.017709296342684346,
+   "ratio": 0.6815988793597008
+  },
+  "other_contracts": 208,
+  "recipients": {
+   "ci95_hi": 0.039460027185920676,
+   "ci95_lo": 0.03641885338706034,
+   "estimate": 0.0379101572166224,
+   "hits": 2298,
+   "n": 60617
+  }
+ },
+ "chain": "optimism",
+ "interpretation": "descriptive associations on the registry-restricted observable, with pseudo-randomisation intervals as published; activity shows exercised control over an address, not that anyone saw a payload; no variant supports a causal statement",
+ "k": 1024,
+ "wall_seconds": 603.3
+}

@@ -1,0 +1,2272 @@
+{
+ "chain": "base",
+ "note": "Do NOT share with annotators. strata_population and population_total are the weights for stats.stratified_proportion with its finite-population correction.",
+ "population_total": 1199,
+ "rows": {
+  "bas-0001": {
+   "address": "0x917f39bb33b2483dd19546b1e8d2f09ce481ee44",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0002": {
+   "address": "0x0c3e14ca158e874f513c70caafeea49a85d4ccc6",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0003": {
+   "address": "0xa69f80524381275a7ffdb3ae01c54150644c8792",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0004": {
+   "address": "0x1b09d7408168929fec75fbfadeaf2bb2652e2df9",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0005": {
+   "address": "0xd83969cde7293ed8c27d87844ed14553f3cae6c3",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0006": {
+   "address": "0xedb870db9427b5aa93df654f3212abd09aaa43f3",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0007": {
+   "address": "0xecaf81eb42cd30014eb44130b89bcd6d4ad98b92",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0008": {
+   "address": "0xf9b738c2e7adc4f299c57afd0890b925a5efea6f",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0009": {
+   "address": "0xf3612f3f9c8354975de57e055e9d33db4743a747",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0010": {
+   "address": "0x52b492a33e447cdb854c7fc19f1e57e8bfa1777d",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0011": {
+   "address": "0xaea742f80922f7c94b8fd91686c9dfbdfe90d9e6",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0012": {
+   "address": "0x5ba8d32579a4497c12d327289a103c3ad5b64eb1",
+   "campaign_key": "",
+   "stratum": "none|1200+",
+   "strength": "none"
+  },
+  "bas-0013": {
+   "address": "0xda932bcc910ec2dbdcbc49e01f8a5b36be9deefb",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0014": {
+   "address": "0xf8e76b87ca61d9ecdada87393ab4864c6b3de479",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0015": {
+   "address": "0xbd33da1f9a0cc70224e9a71c80baa92fd0eb82d0",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0016": {
+   "address": "0xa3415b7bee1a6942c64bc9752896a074069b580b",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0017": {
+   "address": "0xfbe04d31b6b5db3ab828977d2b8c1a931b087e2d",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0018": {
+   "address": "0x530fab4f0354b04123b9a5ccc5337bc6e3d410a4",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0019": {
+   "address": "0xbc2cc8899aa441819a5cfb62a6e5af05ece9143d",
+   "campaign_key": "airdapp.net",
+   "stratum": "weak|600-1200",
+   "strength": "weak"
+  },
+  "bas-0020": {
+   "address": "0x729031b3995538ddf6b6bce6e68d5d6fdeb3ccb5",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0021": {
+   "address": "0x50d2280441372486beecdd328c1854743ebacb07",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0022": {
+   "address": "0xaa3d9118dab202ba5ea98018b98f49c0d1abd329",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0023": {
+   "address": "0x01e6bd233f7021e4f5698a3ae44242b76a246c0a",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0024": {
+   "address": "0x590b0ab56cb66034253056d008fcf9412dee9771",
+   "campaign_key": "gethmstr.xyz",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0025": {
+   "address": "0x98d0baa52b2d063e780de12f615f963fe8537553",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0026": {
+   "address": "0x2f6c17fa9f9bc3600346ab4e48c0701e1d5962ae",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0027": {
+   "address": "0x1035ae3f87a91084c6c5084d0615cc6121c5e228",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0028": {
+   "address": "0x8c6f889888d22ee1d8aa2954b61b9f10e7402b95",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0029": {
+   "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0030": {
+   "address": "0x63272cd2f76be73219b68ab5f775db5eeb4a8f6e",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0031": {
+   "address": "0x79ea9fb649e8f98d7e3a0371bbaec54e40ea4e07",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0032": {
+   "address": "0x0137bed224ab6940241c9b4926987c7d2029b462",
+   "campaign_key": "t.me/shib_pool",
+   "stratum": "strong|0-200",
+   "strength": "strong"
+  },
+  "bas-0033": {
+   "address": "0x8fe815417913a93ea99049fc0718ee1647a2a07c",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0034": {
+   "address": "0x9beec80e62aa257ced8b0edd8692f79ee8783777",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0035": {
+   "address": "0x5b49a57a6cca4d083045eeb7d36a43cc6f0d7d06",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0036": {
+   "address": "0x20429f731096e359910921994a267d32ef576720",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0037": {
+   "address": "0xd5046b976188eb40f6de40fb527f89c05b323385",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0038": {
+   "address": "0x18b6f6049a0af4ed2bbe0090319174eeef89f53a",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0039": {
+   "address": "0x9dcad047f20ec7750ac9de87837b209261960d1c",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0040": {
+   "address": "0x74f82b5f7cd79b98c3924328fb70fffb73a7dd53",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0041": {
+   "address": "0x13ced7f82072327a5bc9ebb9437304f605e253b2",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0042": {
+   "address": "0xff45161474c39cb00699070dd49582e417b57a7e",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0043": {
+   "address": "0x1371b2a6998c42ccd3480207282c3fa2888148ce",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0044": {
+   "address": "0xa74596eb8d2002f5f41f3e5c089192d6fb78b4c8",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0045": {
+   "address": "0x3792dbdd07e87413247df995e692806aa13d3299",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0046": {
+   "address": "0x532f27101965dd16442e59d40670faf5ebb142e4",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0047": {
+   "address": "0x11dc28d01984079b7efe7763b533e6ed9e3722b9",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0048": {
+   "address": "0xbdf317f9c153246c429f23f4093087164b145390",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0049": {
+   "address": "0x3ca58745d9d4183e67564c0982807034c1c8479d",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0050": {
+   "address": "0xd01e3beaa5dd17b65700fa521253089042d98a6b",
+   "campaign_key": "brettdrop.com",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0051": {
+   "address": "0xc42585da280eab720f6caff8447b9d680d1ca9ad",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0052": {
+   "address": "0x93918567cdd1bc845be955325a43419a7c56d66f",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0053": {
+   "address": "0x4674f73545f1db4036250ff8c33a39ad1678d864",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0054": {
+   "address": "0x20dd04c17afd5c9a8b3f2cdacaa8ee7907385bef",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0055": {
+   "address": "0xa1832f7f4e534ae557f9b5ab76de54b1873e498b",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0056": {
+   "address": "0x11030f79109269d796fd0fb956d6244e502757f7",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0057": {
+   "address": "0xfc73b6b8de5a86311e6bb1fa5628dbd152849d90",
+   "campaign_key": "bloo-foster.com",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0058": {
+   "address": "0xa4a2e2ca3fbfe21aed83471d28b6f65a233c6e00",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0059": {
+   "address": "0x926eed100ca24e95e3a96eb7548c101105db7398",
+   "campaign_key": "jpeg.ly",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0060": {
+   "address": "0xdb08ca267e824fb29eb455b7e06fe73fb0370895",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0061": {
+   "address": "0x36a947baa2492c72bf9d3307117237e79145a87d",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0062": {
+   "address": "0x9f86db9fc6f7c9408e8fda3ff8ce4e78ac7a6b07",
+   "campaign_key": "atg.eth",
+   "stratum": "weak|0-200",
+   "strength": "weak"
+  },
+  "bas-0063": {
+   "address": "0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0064": {
+   "address": "0xf649cfec9c1956fbc8ea4a47c5d83caf490c2b5f",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0065": {
+   "address": "0xec5292103b193a9b0993fedd6672afefc723426c",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0066": {
+   "address": "0x215b01b32cfa0fdb04bd60e0bc7a3e80589d34cf",
+   "campaign_key": "t.me/uscircle",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0067": {
+   "address": "0xb8ac1e065924c11ac2084150bd46142173794ad6",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0068": {
+   "address": "0x38da67e7256e2eec878b6d83a6fb6a4564c98e2d",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0069": {
+   "address": "0x3c436aa573877d9ee8e4b05b01b2c5da60cf04ca",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0070": {
+   "address": "0x3ff0560e81e36c9390b7d8903e510defc7e433ca",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|0-200",
+   "strength": "strong"
+  },
+  "bas-0071": {
+   "address": "0x50da645f148798f68ef2d7db7c1cb22a6819bb2c",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0072": {
+   "address": "0x8b29616fad189ac5cbec07bc0c2e9d79dc297b53",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0073": {
+   "address": "0x9a95dfbbb048032117bc368baad00433b2f35baa",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0074": {
+   "address": "0x8c9037d1ef5c6d1f6816278c7aaf5491d24cd527",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0075": {
+   "address": "0x33d27bb9eab2eec0b1104820b41112407b6b73a4",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0076": {
+   "address": "0x78a087d713be963bf307b18f2ff8122ef9a63ae9",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0077": {
+   "address": "0x6921b130d297cc43754afba22e5eac0fbf8db75b",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0078": {
+   "address": "0x3d2673a5a253052bf2b46ebb70da77876cd085ac",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0079": {
+   "address": "0xcce83b5e7b2ccb822a3d990847ec48e455766585",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0080": {
+   "address": "0xeb2e6c2650e2b8601f2cfdba2f842f0d42a8a340",
+   "campaign_key": "com.com",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0081": {
+   "address": "0x6555255b8ded3c538cb398d9e36769f45d7d3ea7",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0082": {
+   "address": "0x04953c399dab96eea7cc69de378a0e4b82f9c2d1",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0083": {
+   "address": "0x696f9436b67233384889472cd7cd58a6fb5df4f1",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0084": {
+   "address": "0x7588e6d98acb60bd4fd436bd94a557a2cfb1f3ad",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0085": {
+   "address": "0x6e2c81b6c2c0e02360f00a0da694e489acb0b05e",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0086": {
+   "address": "0x3b6634541c63903b84385ec792909c1adc76d716",
+   "campaign_key": "debridgether.com",
+   "stratum": "weak|200-600",
+   "strength": "weak"
+  },
+  "bas-0087": {
+   "address": "0x674b82f208b453c22310b47ae134984b14b4a407",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0088": {
+   "address": "0xec11c2a367fc2d79f218e039b54db86b5ea9a746",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0089": {
+   "address": "0x67467d3d235597768b102c442c2dfb5725c220ad",
+   "campaign_key": "baser.cfd",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0090": {
+   "address": "0x8c62ac3b71db8c81a764b84ffbc2a8d0bad7f111",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0091": {
+   "address": "0xd5893b42b14556c0bc3413ad0846c10a9c1d9de2",
+   "campaign_key": "",
+   "stratum": "weak|600-1200",
+   "strength": "weak"
+  },
+  "bas-0092": {
+   "address": "0xce7903c8b9895d2976dc14c7bbe55d84b7751494",
+   "campaign_key": "claim-opensea.netlify.app",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0093": {
+   "address": "0x97062a87a38085ff82bb9235ff4f784ea13e9183",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0094": {
+   "address": "0x8538d8633e44c1f2defe25bd6e6f9e09719fb8b5",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0095": {
+   "address": "0x0bd4887f7d41b35cd75dff9ffee2856106f86670",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0096": {
+   "address": "0x58c42e8db9f2833adc0f7fcbba5da04687707414",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0097": {
+   "address": "0x194f360d130f2393a5e9f3117a6a1b78abea1624",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0098": {
+   "address": "0x9208d82f121806a34a39bb90733b4c5c54f3993e",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0099": {
+   "address": "0xae7cf3758ea042dc55d4c11d09b4b7d5e750f139",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0100": {
+   "address": "0xca5b78dfacc39da5bf8d64cbb8159e866d67da26",
+   "campaign_key": "",
+   "stratum": "weak|600-1200",
+   "strength": "weak"
+  },
+  "bas-0101": {
+   "address": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0102": {
+   "address": "0x915d75fcf703b2c728672014dfec584123a92c28",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0103": {
+   "address": "0x158609cc4e5e1eb12d8d03329860e597d8048358",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0104": {
+   "address": "0xba0dda8762c24da9487f5fa026a9b64b695a07ea",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0105": {
+   "address": "0x2615a94df961278dcbc41fb0a54fec5f10a693ae",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0106": {
+   "address": "0xf3a65bb6dcbcd4fb9114049e66591a61340183f2",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0107": {
+   "address": "0xec10ee12e61bff2d9f197cf60f3c6235447b581e",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0108": {
+   "address": "0xf544251d25f3d243a36b07e7e7962a678f952691",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0109": {
+   "address": "0x9d5c1c400dc828a3409f9c209b83ff51a65d2a0e",
+   "campaign_key": "tairon.ai",
+   "stratum": "weak|600-1200",
+   "strength": "weak"
+  },
+  "bas-0110": {
+   "address": "0x5bc02251750f3f510934be52e6ac1d866f2318c9",
+   "campaign_key": "t.me/usaclaim",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0111": {
+   "address": "0xf30bf00edd0c22db54c9274b90d2a4c21fc09b07",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0112": {
+   "address": "0x150f23e7a28103af14c25c54503b335f0f6d7103",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0113": {
+   "address": "0xe489f900221495193db9d9df5c74c9f8a7d4cc65",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0114": {
+   "address": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0115": {
+   "address": "0x1698574ebd2679c134e7eaf8932eed746bcbfbfd",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0116": {
+   "address": "0x58538e6a46e07434d7e7375bc268d3cb839c0133",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0117": {
+   "address": "0x1fe265db428ec5dbcd69e4aecfc47791a4e5f0bd",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0118": {
+   "address": "0xa601877977340862ca67f816eb079958e5bd0ba3",
+   "campaign_key": "",
+   "stratum": "none|1200+",
+   "strength": "none"
+  },
+  "bas-0119": {
+   "address": "0xcd6b003fd8b433e79137627267bc1ce177be368d",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0120": {
+   "address": "0xa62f113d3c7934d455f4f7fec70b935f67e7fdc5",
+   "campaign_key": "getneirocoin.xyz",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0121": {
+   "address": "0x88fb150bdc53a65fe94dea0c9ba0a6daf8c6e196",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0122": {
+   "address": "0xbe5614875952b1683cb0a2c20e6509be46d353a4",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0123": {
+   "address": "0x34ca4ae00ab059b6b5f799815703780c83e99f58",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0124": {
+   "address": "0x85e90a5430af45776548adb82ee4cd9e33b08077",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0125": {
+   "address": "0x30121d81f4407474a6d93f5c3060f14aaa098a61",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0126": {
+   "address": "0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0127": {
+   "address": "0x37bd8c3e2cf707eaf46d682ba6847f7801b98f12",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0128": {
+   "address": "0xc17dda248e2d50fc006d8febb5a406dd31972712",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0129": {
+   "address": "0xa7c835458592de97057a43487bafb31cf955a7c4",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0130": {
+   "address": "0x163fb041c2e0026fcfa8e215f123b2cd55b2da81",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0131": {
+   "address": "0x4da9a0f397db1397902070f93a4d6ddbc0e0e6e8",
+   "campaign_key": "",
+   "stratum": "none|1200+",
+   "strength": "none"
+  },
+  "bas-0132": {
+   "address": "0x2531ec1720e5d1bc82052585271d4be3f43e392f",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0133": {
+   "address": "0xd248fe2929e7ea707c4546f0b964f3d8255d4968",
+   "campaign_key": "stkether.com",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0134": {
+   "address": "0x306fd3e7b169aa4ee19412323e1a5995b8c1a1f4",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0135": {
+   "address": "0xf10c0ad86b1105b1da6f3f22b070f0d5ae3a5940",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0136": {
+   "address": "0x226a2fa2556c48245e57cd1cba4c6c9e67077dd2",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0137": {
+   "address": "0xd8163cca0a1f3704c93c20cf2fe974db770a7695",
+   "campaign_key": "t.me/arb_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0138": {
+   "address": "0xdcefd8c8fcc492630b943abcab3429f12ea9fea2",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0139": {
+   "address": "0x4290ec58920e8804fcbb2156329396cf82737eeb",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0140": {
+   "address": "0x316ffb9c875f900adcf04889e415cc86b564eba3",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0141": {
+   "address": "0xf0adb186f0865c229966d20ad97ad4e6e2570ffa",
+   "campaign_key": "rewards-brett.com",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0142": {
+   "address": "0x3d4b40d1707a70812a35c4e6b3b4a87ffa555254",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0143": {
+   "address": "0x4b195337611c99a673f1e7d4d94692dfcac76c45",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0144": {
+   "address": "0x340c070260520ae477b88caa085a33531897145b",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0145": {
+   "address": "0xf4d7fd100b5b03e51261a2e6a673632ef2c68896",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0146": {
+   "address": "0xabad16684e5a6e2c2e68b4c992c742b8fbffc537",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0147": {
+   "address": "0x4b6104755afb5da4581b81c552da3a25608c73b8",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0148": {
+   "address": "0xdd2e30c43bd10b4546b67e47d2a4473c821ee31d",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|0-200",
+   "strength": "strong"
+  },
+  "bas-0149": {
+   "address": "0xe67c465de72d439352e2a137dfc06952e59705fc",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0150": {
+   "address": "0x21eceaf3bf88ef0797e3927d855ca5bb569a47fc",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0151": {
+   "address": "0x271415a029602f9c370d022adeba703f172c79ff",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0152": {
+   "address": "0xaed50e698b6b50c0e4406101e60bf7328e03554c",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0153": {
+   "address": "0x6cdcb1c4a4d1c3c6d054b27ac5b77e89eafb971d",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0154": {
+   "address": "0x601741be9016d49c5e32dea62bc599f5932d9efc",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0155": {
+   "address": "0xcbada732173e39521cdbe8bf59a6dc85a9fc7b8c",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0156": {
+   "address": "0xf17ac6912534f73dc572d97962cb9c9ba92bb9cf",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0157": {
+   "address": "0x185b6565de60df12a0ffe17374d3942995a03dea",
+   "campaign_key": "stkether.org",
+   "stratum": "strong|0-200",
+   "strength": "strong"
+  },
+  "bas-0158": {
+   "address": "0x445df6b5ecda18546b4d00b2434afc9970711939",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0159": {
+   "address": "0x41a0e0437e2906abd15c4878f4e7d6371167a4a5",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0160": {
+   "address": "0x8e5c04f82d6464b420e2018362e7e7ab813cf190",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0161": {
+   "address": "0x97de3d1e109b822d52595bcbea139cc551d380d1",
+   "campaign_key": "airdapp.net",
+   "stratum": "weak|600-1200",
+   "strength": "weak"
+  },
+  "bas-0162": {
+   "address": "0x1b039f12a79408024e4d7480ee9b0969daeb5ec7",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0163": {
+   "address": "0x72dcc25e16f813933ace984ff58a540d3c409229",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0164": {
+   "address": "0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0165": {
+   "address": "0xd3f68c6e8aee820569d58adf8d85d94489315192",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0166": {
+   "address": "0xb9e5e7296466c7daea8133289fbb29e493e72956",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0167": {
+   "address": "0xfa2c3b559d6056343b8548420c95657a62ecfd0d",
+   "campaign_key": "t.me/arb_pool",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0168": {
+   "address": "0xe6758d2203a62c16960c55e97b43fa0cfed93b1a",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0169": {
+   "address": "0x68f1099e4b27cc412a13a3555f45446ff3c673c5",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0170": {
+   "address": "0x14559863b6e695a8aa4b7e68541d240ac1bbeb2f",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0171": {
+   "address": "0x0bf43486ba5b80c0ff742d5e31576abc63d8c0e8",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0172": {
+   "address": "0x2f16386bb37709016023232523ff6d9daf444be3",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0173": {
+   "address": "0xf9a4a6d7060e93160c972292438c4614d3d3ef05",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0174": {
+   "address": "0xca4569949699d56e1834efe9f58747ca0f151b01",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0175": {
+   "address": "0xca21091ffa0f3af00191686f553aae6848ee75b8",
+   "campaign_key": "",
+   "stratum": "weak|600-1200",
+   "strength": "weak"
+  },
+  "bas-0176": {
+   "address": "0xe98481d65dc915f1c48e4b3d5886ba8b0111a47e",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0177": {
+   "address": "0xb42313a1d7e26386cafa92ca7d45b1ca08c34902",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0178": {
+   "address": "0x2b5050f01d64fbb3e4ac44dc07f0732bfb5ecadf",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0179": {
+   "address": "0xf7cebf7df90a1c59fd0347c41b983846ca8bc76a",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0180": {
+   "address": "0xd262a4c7108c8139b2b189758e8d17c3dfc91a38",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0181": {
+   "address": "0xe2b1dc2d4a3b4e59fdf0c47b71a7a86391a8b35a",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0182": {
+   "address": "0x3c8cd0db9a01efa063a7760267b822a129bc7dca",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0183": {
+   "address": "0x3411680b445c6df242a575fcef055fb80bd71f56",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0184": {
+   "address": "0x032a7252b4932c44bde89aee6275744376a96bff",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0185": {
+   "address": "0x64b88c73a5dfa78d1713fe1b4c69a22d7e0faaa7",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0186": {
+   "address": "0x182fa643e5f29d5eca75e7b9cf9336a3fe4620b2",
+   "campaign_key": "o1.exchange",
+   "stratum": "weak|600-1200",
+   "strength": "weak"
+  },
+  "bas-0187": {
+   "address": "0xcbcdc21395107901a733df806eb85249866db7dd",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|0-200",
+   "strength": "strong"
+  },
+  "bas-0188": {
+   "address": "0x624e2e7fdc8903165f64891672267ab0fcb98831",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0189": {
+   "address": "0xd22f3605025b28dbc395028f17de2d644e69a93a",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0190": {
+   "address": "0xfdaa4c3d4372e5d123416c1ed4e9374292dd9307",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0191": {
+   "address": "0xd0d12c82efc18ab5e5d7097d85658689f9fbcede",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0192": {
+   "address": "0x486f662020286e17e7469df4e5f2cf2415f36662",
+   "campaign_key": "",
+   "stratum": "weak|200-600",
+   "strength": "weak"
+  },
+  "bas-0193": {
+   "address": "0xc2bc7a73613b9bd5f373fe10b55c59a69f4d617b",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0194": {
+   "address": "0xb817ec14da98181499d3a4b7af5461df60fd1392",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0195": {
+   "address": "0xd0f929534c5a05aeda1f61cdcede6dcb7420956f",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0196": {
+   "address": "0x111142c7ecaf39797b7865b82034269962142069",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0197": {
+   "address": "0x6d6b007f4cc54c70d1c8982c632b69c36d79f2dc",
+   "campaign_key": "brettbased.com",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0198": {
+   "address": "0x10d3fcd10e36868c654535d17e9c8f9043fde105",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0199": {
+   "address": "0xb9337ab60195188612fba0ea15fcb885fc05d6db",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0200": {
+   "address": "0xc8e51fefd7d595c217c7ab641513faa4ad522b26",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0201": {
+   "address": "0x7b3446ec85b36fcd538180879365a6a20abcae17",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0202": {
+   "address": "0xb84dc28471878f7948a71b3887ecd73349233aef",
+   "campaign_key": "",
+   "stratum": "weak|200-600",
+   "strength": "weak"
+  },
+  "bas-0203": {
+   "address": "0xf8a99f2bf2ce5bb6ce4aafcf070d8723bc904aa2",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0204": {
+   "address": "0x0d4522191e02c5b17cf2d7e1de4c340e773b5fd6",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0205": {
+   "address": "0x8a183e87726bddf7ff6ff1b8440391141281cfef",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0206": {
+   "address": "0xa6f774051dfb6b54869227fda2df9cb46f296c09",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0207": {
+   "address": "0x0dc28efba8c6e0c14fa7391636b8bec86c4c83d6",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0208": {
+   "address": "0x3c5fdf0ee37d62c774025599e3b692d027746e24",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0209": {
+   "address": "0xbf388570ebd5b88bfc7cd21ec469813c15f453a3",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0210": {
+   "address": "0x1eda21eb3959b4e20808cbcaac983f50571334af",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0211": {
+   "address": "0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0212": {
+   "address": "0xb9898511bd2bad8bfc23eba641ef97a08f27e730",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0213": {
+   "address": "0x894aaf956c95c16210a917bbdcf32763ef7475b7",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0214": {
+   "address": "0xa7827a3e9e0ddb62651e7d762d605504ffd8110d",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0215": {
+   "address": "0xab59ff324cf15446cb259ffe13ed27328665c6c1",
+   "campaign_key": "airdapp.net",
+   "stratum": "weak|600-1200",
+   "strength": "weak"
+  },
+  "bas-0216": {
+   "address": "0x65755ed15ea1285172db2bca5b8af93e1fccf31f",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0217": {
+   "address": "0x1eff3dd78f4a14abfa9fa66579bd3ce9e1b30529",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0218": {
+   "address": "0x8890de1637912fbbba36b8b19365cdc99122bd6e",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0219": {
+   "address": "0x9fde643a40c3d92d785cf2702361ce0e01924129",
+   "campaign_key": "sea-claim.netlify.app",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0220": {
+   "address": "0xe43d2d874877d74999c958a484cc5f04e6bc2931",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0221": {
+   "address": "0x7b6a0feb777485ccfc1b45b060d083bb138d45c1",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0222": {
+   "address": "0x616a4e1db48e22028f6bbf20444cd3b8e3273738",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0223": {
+   "address": "0x3eea1c1a8df49ff445838ba046b0ad56456f944f",
+   "campaign_key": "venice-claim.com",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0224": {
+   "address": "0xae56028079fb8e3fc788b25af7e4e343f7878e4c",
+   "campaign_key": "t.ly/trump",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0225": {
+   "address": "0x5c57ab9bcabf4bc3664219c7f979823d6740b574",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0226": {
+   "address": "0x852f4736b6e7b3b2e8b789491f1e9df8cf3940ac",
+   "campaign_key": "stkether.com",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0227": {
+   "address": "0x5ed8ba85d277c870eee77ee7a628e94d18bfe027",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0228": {
+   "address": "0x2e09dab2f1addca3076deafdf471eb4787e03467",
+   "campaign_key": "t.ly/trump",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0229": {
+   "address": "0x12e96c2bfea6e835cf8dd38a5834fa61cf723736",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0230": {
+   "address": "0xef5997c2cf2f6c138196f8a6203afc335206b3c1",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0231": {
+   "address": "0xb5d409f6e679b0f89a669ac9714173177683eb7c",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0232": {
+   "address": "0x23a96680ccde03bd4bdd9a3e9a0cb56a5d27f7c9",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0233": {
+   "address": "0x37f1b3b57aa05e12221bcf1444d49fd0daf5180c",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0234": {
+   "address": "0x74202cd9e10f0fb72b7301a0f20291bb3dcddae4",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0235": {
+   "address": "0xf4d97f2da56e8c3098f3a8d538db630a2606a024",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0236": {
+   "address": "0x53f2f8629585f397ef0cb8395325c673f86f272b",
+   "campaign_key": "badrp.co",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0237": {
+   "address": "0x55027a5b06f4340cc4c82dcc74c90ca93dcb173e",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0238": {
+   "address": "0x9e6a46f294bb67c20f1d1e7afb0bbef614403b55",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0239": {
+   "address": "0x64cc19a52f4d631ef5be07947caba14ae00c52eb",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0240": {
+   "address": "0x6db171bc785386973994072729d8fc707c2948e4",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0241": {
+   "address": "0x0dee1df0f634df4792e76816b42002fb2a97c432",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0242": {
+   "address": "0xf0268c5f9aa95baf5c25d646aabb900ac12f0800",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0243": {
+   "address": "0x5afdc00746d691882d13919451dd0fc091a0319a",
+   "campaign_key": "t.ly/trump",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0244": {
+   "address": "0x96d010af693ef058895e43f70a96a3c14716df3f",
+   "campaign_key": "swap-based.com",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0245": {
+   "address": "0xe2c86869216ac578bd62a4b8313770d9ee359a05",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0246": {
+   "address": "0xcd250decb9a007f93bf0ab169a8480b1b988ec1a",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0247": {
+   "address": "0x6dba065721435cfca05caa508f3316b637861373",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0248": {
+   "address": "0x38bd574d791a438921de91b88793254e83c97290",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0249": {
+   "address": "0x93dc5cb35627a759848c7a7f0079ea7b49e435a5",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0250": {
+   "address": "0xd9e54407c394ed89f99d7163860d4d20685f05ea",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0251": {
+   "address": "0xe55fee191604cdbeb874f87a28ca89aed401c303",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0252": {
+   "address": "0xdbdfa7e324fda5d1660c6cba9889677d95622a21",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0253": {
+   "address": "0x2401b434128cb42a518c65229288cc46da3e1bdc",
+   "campaign_key": "stkether.org",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0254": {
+   "address": "0xcde172dc5ffc46d228838446c57c1227e0b82049",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0255": {
+   "address": "0xff7309b42c0e2607910f1907ad7a38a86aafac01",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0256": {
+   "address": "0xfbb75a59193a3525a8825bebe7d4b56899e2f7e1",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0257": {
+   "address": "0xaea669ddd1bc2c49eab1d2728a8dc5e655961cd7",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0258": {
+   "address": "0x8a0e751e5d7a2861ca7cf16d9720337e40604982",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0259": {
+   "address": "0xe161be4a74ab8fa8706a2d03e67c02318d0a0ad6",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0260": {
+   "address": "0x5b2124d427fac9c80c902cbdd74b03dd85d7d3fe",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0261": {
+   "address": "0x2081ab0d9ec9e4303234ab26d86b20b3367946ee",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0262": {
+   "address": "0x082f6866f34449040d3c8158792632de9be2b5de",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0263": {
+   "address": "0x96ac83676e600373d4687f507e8db3a1638e6cb1",
+   "campaign_key": "t.me/usaclaim",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0264": {
+   "address": "0xac8584710490fbb73d03e863fb6d74ac917134c4",
+   "campaign_key": "t.ly/uspool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0265": {
+   "address": "0x49d687ecab7df32265325538e9cb28031f191556",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0266": {
+   "address": "0x3dc1c485cac5ba5a4674aa53e031fe5ff61cf3eb",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0267": {
+   "address": "0xca5e0db4b1c43280c00029786d992d6e8ab57521",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0268": {
+   "address": "0x3b27821d3ebe2c023b37457b9e1a9bf237fec85e",
+   "campaign_key": "",
+   "stratum": "weak|200-600",
+   "strength": "weak"
+  },
+  "bas-0269": {
+   "address": "0x10f434b3d1cc13a4a79b062dcc25706f64d10d47",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0270": {
+   "address": "0x7e3f5ad5f0c0f9e06b1d2949da5be2fd4656c091",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0271": {
+   "address": "0xbee4e0e23ac9f82a439fa6712f165e7b573c211f",
+   "campaign_key": "swap-based.com",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0272": {
+   "address": "0xb8e026254e999dc23b35b29bbe7e0c1d4d649a43",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0273": {
+   "address": "0x16ee7ecac70d1028e7712751e2ee6ba808a7dd92",
+   "campaign_key": "sport.fun",
+   "stratum": "weak|0-200",
+   "strength": "weak"
+  },
+  "bas-0274": {
+   "address": "0xc8240ea87a0e6203dcae16134e60351708774377",
+   "campaign_key": "swap-based.com",
+   "stratum": "strong|0-200",
+   "strength": "strong"
+  },
+  "bas-0275": {
+   "address": "0xeb466342c4d449bc9f53a865d5cb90586f405215",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0276": {
+   "address": "0xe74ed5a57a5f07573e57f4a5b082b83b89f6bdde",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0277": {
+   "address": "0xba3cfb9f092ab2932a526a0137b3d37d9b0a0b79",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0278": {
+   "address": "0x19ba5d17d3fb7f623278dada3e4fa3b5b3774f04",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0279": {
+   "address": "0xedc68c4c54228d273ed50fc450e253f685a2c6b9",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0280": {
+   "address": "0xe132499880311b5d1dbe6c3a45402126eea05597",
+   "campaign_key": "t.me/shib_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0281": {
+   "address": "0xf6e932ca12afa26665dc4dde7e27be02a7c02e50",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0282": {
+   "address": "0xbfe21772a64c99422695b9e3387bcdb2ad64958c",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0283": {
+   "address": "0x05a5b4e217004eb84c6787e0ecbe7a46cfd94cdd",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0284": {
+   "address": "0xfe2f6c1b9d77e2cdd74b47cf35d15df06d611132",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0285": {
+   "address": "0x928a6a9fc62b2c94baf2992a6fba4715f5bb0066",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0286": {
+   "address": "0x33ad778e6c76237d843c52d7cafc972bb7cf8729",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0287": {
+   "address": "0x89421b6b2d38368fbda34a976d3cd5bdb1e22c98",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0288": {
+   "address": "0xdd32659b1e7a6a6b3c6e96cd8a4c936bcfea0607",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0289": {
+   "address": "0xd4a0e0b9149bcee3c920d2e00b5de09138fd8bb7",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0290": {
+   "address": "0x4dd9077269dd08899f2a9e73507125962b5bc87f",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0291": {
+   "address": "0x54b659832f59c24cec0e4a2cd193377f1bcefc3c",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0292": {
+   "address": "0xaf46bb1c985a811669b9b37e52ce5dc110f3aa01",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0293": {
+   "address": "0x26c69e4924bd0d7d52d680b33616042ee13f621c",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0294": {
+   "address": "0xc2fad67ceadbde7001ca70236cde9f672edc573b",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0295": {
+   "address": "0x97c806e7665d3afd84a8fe1837921403d59f3dcc",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0296": {
+   "address": "0x5eeb2662615782b58251b6f0c3e107571ae1ab07",
+   "campaign_key": "retake.tv",
+   "stratum": "weak|600-1200",
+   "strength": "weak"
+  },
+  "bas-0297": {
+   "address": "0x76734b57dfe834f102fb61e1ebf844adf8dd931e",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0298": {
+   "address": "0xa5053c346f4759198bd6b64171db1eff4cba6331",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0299": {
+   "address": "0x8c0f10c3f44bdd52d22a35a2121240454731c27f",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0300": {
+   "address": "0x0b873b3214c76bb29fc4ce164497b88a5b6e67f6",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0301": {
+   "address": "0x65a767f59f1e1881751ff3f60203e70fe6761d42",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0302": {
+   "address": "0x3639e6f4c224ebd1bf6373c3d97917d33e0492bb",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0303": {
+   "address": "0x5ab3d4c385b400f3abb49e80de2faf6a88a7b691",
+   "campaign_key": "flock.io",
+   "stratum": "weak|0-200",
+   "strength": "weak"
+  },
+  "bas-0304": {
+   "address": "0x54cf68f204ba798f8ed0287e66e4170d3c2b4892",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0305": {
+   "address": "0x9765eaa10b7416da46a5f3de7f3f55ccfa12ce91",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0306": {
+   "address": "0x29ff9d1647a544e639721d2d54ab935ccc60155c",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0307": {
+   "address": "0x4d58608eff50b691a3b76189af2a7a123df1e9ba",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0308": {
+   "address": "0xb0505e5a99abd03d94a1169e638b78edfed26ea4",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0309": {
+   "address": "0xa12449ebe46da7603f559a53e23ceb6fa3e339e6",
+   "campaign_key": "t.me/arb_pool",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0310": {
+   "address": "0x88faea256f789f8dd50de54f9c807eef24f71b16",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0311": {
+   "address": "0xfea9dcdc9e23a9068bf557ad5b186675c61d33ea",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0312": {
+   "address": "0x6bd239a7f960a4d841f5fcd03325de8caf11e3b5",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0313": {
+   "address": "0xce7f53c3edfbadc4367bc8765edac15a95d5c3a8",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0314": {
+   "address": "0xc209c1e9b7a98ff72b2ea54f8b6a74ca2c8775ff",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0315": {
+   "address": "0x81f35261b90ad59a1277c0e94f8012371eaafcb9",
+   "campaign_key": "",
+   "stratum": "none|1200+",
+   "strength": "none"
+  },
+  "bas-0316": {
+   "address": "0xebff2db643cf955247339c8c6bcd8406308ca437",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0317": {
+   "address": "0xe7da8a3892786150fb59e14806a9daa895572e0c",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0318": {
+   "address": "0xcf9b9ad0102fc2122cfc4d5355c596e7a4289f62",
+   "campaign_key": "usdc2.com",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0319": {
+   "address": "0x976c883b82e22a8fe367434a94fa1eec5f915d0b",
+   "campaign_key": "btc.ai",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0320": {
+   "address": "0x8a4422a7df99d87dc8d8ead22f56e2ffbfe2915b",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0321": {
+   "address": "0xb676f87a6e701f0de8de5ab91b56b66109766db1",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0322": {
+   "address": "0x18c79a3c5f74ae0eedb87917f2a870ed84ebf84f",
+   "campaign_key": "t.me/us_circle",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0323": {
+   "address": "0xf18c9f8815c9745a348ad8154df91fed1f9fbd73",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0324": {
+   "address": "0xeb9caafc9cd52434fc906dc6ef28f24509d9b309",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0325": {
+   "address": "0xb4bb2032a73a53c0aa7dc9ee2d9658a978fa7bc2",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0326": {
+   "address": "0x9744802d2279e9902664543c3838f13bd36ded27",
+   "campaign_key": "airdapp.net",
+   "stratum": "weak|600-1200",
+   "strength": "weak"
+  },
+  "bas-0327": {
+   "address": "0xad03e2e457ebe290f364c9aa8133dcd0cda30c4e",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0328": {
+   "address": "0xa1fbb38bf486b97108aa87e92008187ca06998f6",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0329": {
+   "address": "0x0e2ffe16778964f32770fa38b8a86751cc9e5f22",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0330": {
+   "address": "0x85362e27665175a5473ef872ac3205560234d28e",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0331": {
+   "address": "0x8de1fe77b1eeb4240a5d23249a880d57d9ab3ecb",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0332": {
+   "address": "0xff62ddfa80e513114c3a0bf4d6ffff1c1d17aadf",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0333": {
+   "address": "0xe4710d368e06ad894d5b2e0256d997fc2c1fddb6",
+   "campaign_key": "getusual.pro",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0334": {
+   "address": "0x655eca67be1ecb688a6825528963ceb0034ec923",
+   "campaign_key": "",
+   "stratum": "none|1200+",
+   "strength": "none"
+  },
+  "bas-0335": {
+   "address": "0xd3e114495112ec05c8901fe9711a17a90c21face",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0336": {
+   "address": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0337": {
+   "address": "0x4e65fe4dba92790696d040ac24aa414708f5c0ab",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0338": {
+   "address": "0x00000e7efa313f4e11bfff432471ed9423ac6b30",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0339": {
+   "address": "0x0e392ba30779c8ff5f05644e4e91f22aff34deff",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0340": {
+   "address": "0x4081a3d66a9092325e52bc969e946d2c4c5271e4",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0341": {
+   "address": "0x2d25e0514f23c6367687de89bd5167dc754d4934",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0342": {
+   "address": "0xab6363da0c80cef3ae105bd6241e30872355d021",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0343": {
+   "address": "0xc849418f46a25d302f55d25c40a82c99404e5245",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0344": {
+   "address": "0x6967f0974d76d34e140cae27efea32cdf546b58e",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0345": {
+   "address": "0x0ca889c1c1b988b081d2ed13d4566c27651bdcf0",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0346": {
+   "address": "0x8dd5a7d276f82df5b252179a097ab34a1c440f08",
+   "campaign_key": "gasfaucet.com",
+   "stratum": "weak|200-600",
+   "strength": "weak"
+  },
+  "bas-0347": {
+   "address": "0x19225f002b65eefb22950b9739fc8b448d900d44",
+   "campaign_key": "swap-based.com",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0348": {
+   "address": "0x30c1d9b1cbd5590d6da01069a331e110482a8a91",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0349": {
+   "address": "0x2075f6e2147d4ac26036c9b4084f8e28b324397d",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  },
+  "bas-0350": {
+   "address": "0xca8e8d244f0d219a6fc9e4793c635cea98d0399c",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0351": {
+   "address": "0x0e8eef6b9b9fc299c0e79464dc3f4485bfbfc5aa",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0352": {
+   "address": "0x3f7a0908a193aa15c6d0fc67900f67b339c6603e",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0353": {
+   "address": "0x3722264ab15a1dfce5a5af89e6547f7949a8aba3",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0354": {
+   "address": "0x5d0af35b4f6f4715961b56168de93bf0062b173d",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0355": {
+   "address": "0x703d57164ca270b0b330a87fd159cfef1490c0a5",
+   "campaign_key": "rai.finance",
+   "stratum": "weak|600-1200",
+   "strength": "weak"
+  },
+  "bas-0356": {
+   "address": "0xdd468a1ddc392dcdbef6db6e34e89aa338f9f186",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0357": {
+   "address": "0xa749de6c28262b7ffbc5de27dc845dd7ecd2b358",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0358": {
+   "address": "0x7f12d13b34f5f4f0a9449c16bcd42f0da47af200",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0359": {
+   "address": "0xf7b0dd0b642a6ccc2fc4d8ffe2bffb0cac8c43c8",
+   "campaign_key": "",
+   "stratum": "none|1200+",
+   "strength": "none"
+  },
+  "bas-0360": {
+   "address": "0x1db17d691ef9732010baf6a02680767f07fb4b7b",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0361": {
+   "address": "0x742e682ee9460f4f4c0ef624cd5023cf20ce0d06",
+   "campaign_key": "t.me/app_dydx",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0362": {
+   "address": "0x00000000a22c618fd6b4d7e9a335c4b96b189a38",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0363": {
+   "address": "0x336daec5b307060f0b4a86b6958f6ce08849e9bd",
+   "campaign_key": "stbot.xyz",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0364": {
+   "address": "0xc6fb2d95f751bcf22ec972f54d5a9d81b4a49142",
+   "campaign_key": "basedusa.live",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0365": {
+   "address": "0x5a70be406ce7471a44f0183b8d7091f4ad751db5",
+   "campaign_key": "",
+   "stratum": "none|0-200",
+   "strength": "none"
+  },
+  "bas-0366": {
+   "address": "0xb9a0c47adea84b1cf17a787c429bdeeeac01ccd7",
+   "campaign_key": "t.me/us_pool",
+   "stratum": "strong|0-200",
+   "strength": "strong"
+  },
+  "bas-0367": {
+   "address": "0x98b95feab59b18f6179b195af75d6d26b5ae668f",
+   "campaign_key": "bgbget.pro",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0368": {
+   "address": "0xa0fce5a7571303feab7db8a8e7c4cb01fd63be38",
+   "campaign_key": "liquidsteth.com",
+   "stratum": "strong|600-1200",
+   "strength": "strong"
+  },
+  "bas-0369": {
+   "address": "0x7870bf33b34aac95f361ff7dec3b250746f63049",
+   "campaign_key": "",
+   "stratum": "none|200-600",
+   "strength": "none"
+  },
+  "bas-0370": {
+   "address": "0x460b9c52bd0859c921254215999323db69340dca",
+   "campaign_key": "",
+   "stratum": "weak|600-1200",
+   "strength": "weak"
+  },
+  "bas-0371": {
+   "address": "0x33c62b565ae68c38ddbf2c1559e0b3960710f17c",
+   "campaign_key": "t.me/shib_pool",
+   "stratum": "strong|200-600",
+   "strength": "strong"
+  },
+  "bas-0372": {
+   "address": "0x53b3129d421f104264503489182c54c87b440b4a",
+   "campaign_key": "",
+   "stratum": "none|600-1200",
+   "strength": "none"
+  }
+ },
+ "sample_size": 372,
+ "seed": 42,
+ "shortfalls": {
+  "none|1200+": 6,
+  "strong|0-200": 6,
+  "weak|0-200": 7,
+  "weak|200-600": 6,
+  "weak|600-1200": 5
+ },
+ "strata_population": {
+  "none|0-200": 184,
+  "none|1200+": 6,
+  "none|200-600": 346,
+  "none|600-1200": 511,
+  "strong|0-200": 7,
+  "strong|200-600": 48,
+  "strong|600-1200": 77,
+  "weak|0-200": 3,
+  "weak|200-600": 5,
+  "weak|600-1200": 12
+ },
+ "strata_sampled": {
+  "none|0-200": 65,
+  "none|1200+": 6,
+  "none|200-600": 90,
+  "none|600-1200": 109,
+  "strong|0-200": 7,
+  "strong|200-600": 33,
+  "strong|600-1200": 42,
+  "weak|0-200": 3,
+  "weak|200-600": 5,
+  "weak|600-1200": 12
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "chains": [
+  "polygon-zkevm",
+  "optimism",
+  "arbitrum-one",
+  "zksync-era",
+  "base"
+ ],
+ "corrects": "dataio.py docstring and paper/sections/methodology.tex assert a large majority of Transfer logs are ERC-721 (~76% on Polygon zkEVM). Measured here.",
+ "erc1155_covered": false,
+ "erc20_rows": 17309960095,
+ "nonfungible_rows": 2020743910,
+ "nonfungible_share": 0.10453543716577321,
+ "per_chain_mint_share": {
+  "arbitrum-one": 0.713268830540261,
+  "base": 0.49331920530637163,
+  "optimism": 0.39506630407759175,
+  "polygon-zkevm": 0.8406148125297026,
+  "zksync-era": 0.834663628471253
+ },
+ "per_chain_share": {
+  "arbitrum-one": 0.03576755825859975,
+  "base": 0.13543021880104594,
+  "optimism": 0.12855992869934083,
+  "polygon-zkevm": 0.09324654920585171,
+  "zksync-era": 0.02115444962872292
+ },
+ "residual_rows": 3024,
+ "supersedes_untraceable_figure": 2020743910,
+ "total_rows": 19330707029
+}

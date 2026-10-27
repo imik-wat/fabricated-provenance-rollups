@@ -1,0 +1,135 @@
+{
+ "by_registry": {
+  "registry_matches": 3
+ },
+ "by_verdict": {
+  "stable": 3
+ },
+ "caveats": [
+  "no_code_at_height means the contract did not yet exist at that height; it is not a metadata change and is excluded from the comparison rather than counted either way.",
+  "rpc_error is neither agreement nor disagreement. Silence is never read as stability.",
+  "The heights are the campaign's first and last block, which bracket the contract's emission window but need not be blocks at which this particular contract emitted.",
+  "Historical readings are compared with an end-block reading taken by the same code, not with the stored registry, so that a collection-time capture difference cannot be reported as a change over time. The stored-versus-chain comparison is reported separately under by_registry."
+ ],
+ "chain": "polygon-zkevm",
+ "changed_contracts": [],
+ "comparable_contracts": 3,
+ "comparable_coverage": 1.0,
+ "corpus_end_block": 33391890,
+ "endpoint": "https://polygon-zkevm.drpc.org",
+ "flagged_contracts": 3,
+ "question": "does the collection-time metadata match what the contract reported inside its own emission window? Comparable contracts are those answering at a historical height; the rest are reported, not assumed to agree.",
+ "records": {
+  "0x09c00e02b422d38f399a775481e27364d9a3b2d5": {
+   "at": {
+    "end": {
+     "block": 33391890,
+     "name": "EarlyZKS",
+     "symbol": "Claim on: early-zksync.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12508351,
+     "matches_end": true,
+     "name": "EarlyZKS",
+     "symbol": "Claim on: early-zksync.com",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 12544345,
+     "matches_end": true,
+     "name": "EarlyZKS",
+     "symbol": "Claim on: early-zksync.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "early-zksync.com",
+   "on_chain_now": {
+    "block": 33391890,
+    "name": "EarlyZKS",
+    "symbol": "Claim on: early-zksync.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "EarlyZKS",
+    "symbol": "Claim on: early-zksync.com"
+   },
+   "verdict": "stable"
+  },
+  "0x09e036ffc0534e7bdac3b9119090cd57ce9bef64": {
+   "at": {
+    "end": {
+     "block": 33391890,
+     "name": "ZK Airdrop",
+     "symbol": "Claim ZKSync: zk-polygon.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 13377750,
+     "matches_end": true,
+     "name": "ZK Airdrop",
+     "symbol": "Claim ZKSync: zk-polygon.com",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 13381011,
+     "matches_end": true,
+     "name": "ZK Airdrop",
+     "symbol": "Claim ZKSync: zk-polygon.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zk-polygon.com",
+   "on_chain_now": {
+    "block": 33391890,
+    "name": "ZK Airdrop",
+    "symbol": "Claim ZKSync: zk-polygon.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK Airdrop",
+    "symbol": "Claim ZKSync: zk-polygon.com"
+   },
+   "verdict": "stable"
+  },
+  "0x1ba50e70fffe40b100e43f44919d0102d28d4fb2": {
+   "at": {
+    "end": {
+     "block": 33391890,
+     "name": "EarlyZKS",
+     "symbol": "Claim on: early-zksync.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12508351,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 12544345,
+     "matches_end": true,
+     "name": "EarlyZKS",
+     "symbol": "Claim on: early-zksync.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "early-zksync.com",
+   "on_chain_now": {
+    "block": 33391890,
+    "name": "EarlyZKS",
+    "symbol": "Claim on: early-zksync.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "EarlyZKS",
+    "symbol": "Claim on: early-zksync.com"
+   },
+   "verdict": "stable"
+  }
+ },
+ "registry_mismatch_contracts": [],
+ "registry_note": "a SEPARATE question from the temporal one: whether the stored metadata the detector reads matches what the contract returns today. Whitespace-only differences are separated out because the detector normalises whitespace and they cannot change its verdict.",
+ "stable_share_of_comparable": 1.0
+}

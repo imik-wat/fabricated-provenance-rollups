@@ -1,0 +1,51 @@
+{
+ "bands": [
+  "1200-5000",
+  "5000-20000",
+  "20000-100000",
+  "100000-1000000",
+  "1000000-1000000000000"
+ ],
+ "chain": "polygon-zkevm",
+ "flagged_in_sample": [],
+ "frame_depth": 1200,
+ "ht_strong": 0.0,
+ "ht_strong_transfer_share": 0.0,
+ "ht_strong_transfers": 0.0,
+ "metadata_coverage": 0.9983333333333333,
+ "new_campaign_keys": [],
+ "observed_strong": 0,
+ "per_band": {
+  "1200-5000": {
+   "N": 3795,
+   "drawn": 300,
+   "ht_strong": 0.0,
+   "resolved": 300,
+   "strong": 0,
+   "tail_transfers": 10892,
+   "upper_strong_bonferroni": 44,
+   "weak": 0
+  },
+  "5000-20000": {
+   "N": 3233,
+   "drawn": 300,
+   "ht_strong": 0.0,
+   "resolved": 299,
+   "strong": 0,
+   "tail_transfers": 3233,
+   "upper_strong_bonferroni": 37,
+   "weak": 2
+  }
+ },
+ "per_stratum": 300,
+ "seed": 20261027,
+ "strength_counts": {
+  "none": 597,
+  "weak": 2
+ },
+ "tail_contracts": 7028,
+ "tail_transfers": 14125,
+ "unresolved_treated_as_unsampled": true,
+ "upper95_method": "per-band exact hypergeometric at alpha/H, summed (Bonferroni)",
+ "upper95_strong": 81
+}

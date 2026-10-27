@@ -1,0 +1,5 @@
+{
+ "producer": "papers/lure-broadcast/scripts/sweep_strata.py",
+ "git_commit": "3df09e3",
+ "input": "separation_inputs_base.json.gz"
+}

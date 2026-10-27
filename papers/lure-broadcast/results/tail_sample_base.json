@@ -1,0 +1,569 @@
+{
+ "bands": [
+  "1200-5000",
+  "5000-20000",
+  "20000-100000",
+  "100000-1000000",
+  "1000000-1000000000000"
+ ],
+ "chain": "base",
+ "flagged_in_sample": [
+  {
+   "address": "0x5bc2d1cb9e54cb2087ec7f875f907610ceed1af4",
+   "band": "100000-1000000",
+   "campaign_in_frame": false,
+   "campaign_key": "x.com/mascorlabs",
+   "name": "Visit x.com/MascorLabs | TGE Soon.",
+   "rank_index": 205484,
+   "symbol": "Visit x.com/MascorLabs | TGE Soon.",
+   "transfers": 401
+  },
+  {
+   "address": "0xc971802ba22c4fe8f1cbaeffb1869ee5043faac3",
+   "band": "100000-1000000",
+   "campaign_in_frame": false,
+   "campaign_key": "x.com/mascorlabs",
+   "name": "",
+   "rank_index": 205637,
+   "symbol": "Visit x.com/MascorLabs | TGE Soon.",
+   "transfers": 401
+  },
+  {
+   "address": "0xfabf418480b293e0a7fb3cd917bed737c33827ce",
+   "band": "100000-1000000",
+   "campaign_in_frame": false,
+   "campaign_key": "x.com/mascorlabs",
+   "name": "Visit x.com/MascorLabs | TGE Soon.",
+   "rank_index": 205722,
+   "symbol": "",
+   "transfers": 401
+  },
+  {
+   "address": "0xa312385b430a63d746a1935937646e1c733a15d0",
+   "band": "100000-1000000",
+   "campaign_in_frame": false,
+   "campaign_key": "x.com/mascorlabs",
+   "name": "Visit x.com/MascorLabs | TGE Soon.",
+   "rank_index": 206046,
+   "symbol": "Visit x.com/MascorLabs | TGE Soon.",
+   "transfers": 401
+  },
+  {
+   "address": "0x65a6e49dbcad7815821d6916c00f4aa87fd41c4d",
+   "band": "100000-1000000",
+   "campaign_in_frame": false,
+   "campaign_key": "x.com/mascorlabs",
+   "name": "Visit x.com/MascorLabs | TGE Soon.",
+   "rank_index": 208406,
+   "symbol": "Visit x.com/MascorLabs | TGE Soon.",
+   "transfers": 401
+  },
+  {
+   "address": "0x6e1d3ecd30667aa221aa6122a22c7027dc5b96da",
+   "band": "100000-1000000",
+   "campaign_in_frame": false,
+   "campaign_key": "x.com/mascorlabs",
+   "name": "",
+   "rank_index": 208558,
+   "symbol": "Visit x.com/MascorLabs | TGE Soon.",
+   "transfers": 401
+  },
+  {
+   "address": "0x1d1a3813091d9408e5c97f06081b5f80904bbf89",
+   "band": "100000-1000000",
+   "campaign_in_frame": false,
+   "campaign_key": "x.com/mascorlabs",
+   "name": "Visit x.com/MascorLabs to claim rewards.",
+   "rank_index": 523739,
+   "symbol": "Visit x.com/MascorLabs to claim rewards.",
+   "transfers": 101
+  },
+  {
+   "address": "0xd8f51f8e2ce292e6d4efda5c53c6cd1ae9cd9bfb",
+   "band": "100000-1000000",
+   "campaign_in_frame": false,
+   "campaign_key": "getunic.pro",
+   "name": "Visit getunic.pro to swap to USDT",
+   "rank_index": 941675,
+   "symbol": "UNI",
+   "transfers": 54
+  },
+  {
+   "address": "0x977d49d6c0b0008c07025ddaea2dd906cc5b5db1",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/uscircle",
+   "name": "✅$UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 1243,
+   "symbol": "UЅDС  | t.me/s/USCIRCLE | *claim until 10.06.25",
+   "transfers": 473830
+  },
+  {
+   "address": "0x72273570df4ab86cf6b235d8ee0c489fae924b89",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_pool",
+   "name": "✅СIRCLE (t.me/s/US_POOL) Visit to claim",
+   "rank_index": 1294,
+   "symbol": "",
+   "transfers": 450637
+  },
+  {
+   "address": "0x5f4fce4ad9cba1619916014c44a56527d23904ed",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/uscircle",
+   "name": "✅$UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 1427,
+   "symbol": "UЅDС - [ t.me/s/uscircle ] - *claim until 25.05.25",
+   "transfers": 401270
+  },
+  {
+   "address": "0x18e19b7a5c3a7e0da9618328e91ba3f9dcd2e1e8",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_pool",
+   "name": "✅СIRCLE TOKEN DISTRIBUTION",
+   "rank_index": 1604,
+   "symbol": "(t.me/s/US_POOL) *claim until 25.01.26",
+   "transfers": 355143
+  },
+  {
+   "address": "0x289d874d6d3ed6569fd7c0b03b7c3b25dbb60cf2",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_circle",
+   "name": "✅$UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 1797,
+   "symbol": "UЅDС | t.me/s/US_CIRCLE | *claim until 09.10.25",
+   "transfers": 315672
+  },
+  {
+   "address": "0x0802cb15bab73a0cd98621d142d7066e41710d37",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "fungi-airdrop.com",
+   "name": "FUNGI",
+   "rank_index": 1913,
+   "symbol": "Claim at: claim.fungi-airdrop.com",
+   "transfers": 297001
+  },
+  {
+   "address": "0xad18031f8bb54057394e6ba5de9ac112be51c26c",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_pool",
+   "name": "✅$UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 1957,
+   "symbol": "UЅDС | t.me/s/US_POOL | claim until 27.11.25",
+   "transfers": 286915
+  },
+  {
+   "address": "0x6259abcd2237079232bb6569f61fc649e2ee643b",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/uscircle",
+   "name": "✅$UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 1959,
+   "symbol": "UЅDС - | t.me/s/USCIRCLE | - *claim until 03.06.25",
+   "transfers": 286491
+  },
+  {
+   "address": "0xb5796ddf28dd1e52b69742cbbd041c9616d8d1cf",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/uscircle",
+   "name": "✅$UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 2000,
+   "symbol": "UЅDС - | t.me/s/USCIRCLE | - *claim until 30.05.25",
+   "transfers": 277832
+  },
+  {
+   "address": "0xd3e3a2b17a52638dd88be43921a29eaa5083b7e2",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_circle",
+   "name": "✅$UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 2124,
+   "symbol": "UЅDС  | t.me/s/us_circle | *claim until 15.06.25",
+   "transfers": 259964
+  },
+  {
+   "address": "0xa8b0ca2c12b16c437f13678c997f989a18b337d2",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "cookie-airdrop.com",
+   "name": "COOKIE",
+   "rank_index": 2201,
+   "symbol": "Claim on: cookie-airdrop.com",
+   "transfers": 250306
+  },
+  {
+   "address": "0x15251ee7a11b7699a218aea4a8bb7109eae329f7",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_circle",
+   "name": "✅UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 2233,
+   "symbol": "UЅDС | t.me/s/US_CIRCLE | *claim until 03.08.25",
+   "transfers": 247125
+  },
+  {
+   "address": "0x9a90a360b4ad7b9a1ed81a961b31a12e54cbb837",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "ethstk.xyz",
+   "name": "OETH",
+   "rank_index": 2458,
+   "symbol": "ETH rewards on ethstk.xyz",
+   "transfers": 222482
+  },
+  {
+   "address": "0x20ef59fcf00f31437aa397ee1a6efb3d02996d12",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_circle",
+   "name": "✅UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 2645,
+   "symbol": "UЅDС | t.me/s/US_CIRCLE | *claim until 09.08.25",
+   "transfers": 202502
+  },
+  {
+   "address": "0xfb584ace7f491e2930491a8d01a28db308aeb65f",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_circle",
+   "name": "✅$UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 2711,
+   "symbol": "UЅDС | t.me/s/US_CIRCLE | *claim until 09.10.25",
+   "transfers": 196259
+  },
+  {
+   "address": "0x9860df7d9228981a4a6b0b8264eb7f65c45e9428",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_circle",
+   "name": "✅UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 2839,
+   "symbol": "UЅDС | t.me/s/US_CIRCLE | *claim until 24.08.25",
+   "transfers": 184784
+  },
+  {
+   "address": "0xa5b8d39abf8697064b152457275908c4b7b94496",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_circle",
+   "name": "✅$UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 2958,
+   "symbol": "UЅDС | t.me/s/US_CIRCLE | *claim until 07.07.25",
+   "transfers": 175849
+  },
+  {
+   "address": "0xf230d63d00f2464a1f63ed0a973fdc16683d919f",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.ly/debank",
+   "name": "",
+   "rank_index": 3175,
+   "symbol": "DeBank Badge - Redeem: t.ly/debank",
+   "transfers": 162199
+  },
+  {
+   "address": "0x020305095db8d90f00b4f29dbf077f6f7a2a4ccf",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "chomp-coin.com",
+   "name": "CHOMP",
+   "rank_index": 3231,
+   "symbol": "Claim on: chomp-coin.com",
+   "transfers": 158886
+  },
+  {
+   "address": "0xc9ec421e7a7c049f6939cb1ae1b0259d54e4ad75",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/usaclaim",
+   "name": "✅$TRUMP AIRDROP",
+   "rank_index": 3294,
+   "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+   "transfers": 155637
+  },
+  {
+   "address": "0x09985fc15b1865644dec33bfbfef86d90ae774dd",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "pepe-on-base.com",
+   "name": "PEPE",
+   "rank_index": 3398,
+   "symbol": "Collect on: rewards.pepe-on-base.com",
+   "transfers": 150001
+  },
+  {
+   "address": "0xa16827bed2c8a1363bae5c0e362b985a7154cd99",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "pepe-on-base.com",
+   "name": "PEPE",
+   "rank_index": 3400,
+   "symbol": "Grab Tokens: rewards.pepe-on-base.com",
+   "transfers": 150001
+  },
+  {
+   "address": "0x80c7fa69c9b62863d8a3128175705d4fffd30c82",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_pool",
+   "name": "✅$UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 3444,
+   "symbol": "UЅDС | t.me/s/US_POOL | claim until 20.11.25",
+   "transfers": 147472
+  },
+  {
+   "address": "0x0937e5f09c3523a8216f9d59726025f9a231be73",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "bio.link",
+   "name": "✅ SHIBA VOUCHER",
+   "rank_index": 3810,
+   "symbol": "Swap your Voucher on bio.link/shibax",
+   "transfers": 129176
+  },
+  {
+   "address": "0xf582ba8c5a747bfded4885a2c8a83930656d8f80",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "blast2l.com",
+   "name": "# blast2l.com",
+   "rank_index": 3916,
+   "symbol": "Visit blast2l.com to claim rewards",
+   "transfers": 123985
+  },
+  {
+   "address": "0x4a9b45b78ce8cf784eaa40ff3f1612f5df3f933a",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/uscircle",
+   "name": "✅$UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 3917,
+   "symbol": "UЅDС  | t.me/s/USCIRCLE | *claim until 12.06.25",
+   "transfers": 123973
+  },
+  {
+   "address": "0x3fdaeb7916af9fe2f5cb9f7ac4929319339f6e22",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_circle",
+   "name": "✅$UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 3990,
+   "symbol": "UЅDС | t.me/s/US_CIRCLE | *claim until 08.07.25",
+   "transfers": 121277
+  },
+  {
+   "address": "0x4d22dbbb57466f52d921573550b5103507fed22e",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "brett.digital",
+   "name": "! BRETT",
+   "rank_index": 4108,
+   "symbol": "ACCESS ( BRETT.DIGITAL ) CLAIM YOUR AIRDROP",
+   "transfers": 116281
+  },
+  {
+   "address": "0x4ee5e8c1f5e47b08696b1353825c540f784ce8a5",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "roost-rewards.com",
+   "name": "Roost Coin",
+   "rank_index": 4610,
+   "symbol": "Claim on: roost-rewards.com/?claim",
+   "transfers": 100001
+  },
+  {
+   "address": "0xfc9cc85af5e736f7012b33ecf0c7f4f17b877ec2",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "friends-techs.com",
+   "name": "FRIEND",
+   "rank_index": 4618,
+   "symbol": "Claim on: claim.friends-techs.com",
+   "transfers": 100000
+  },
+  {
+   "address": "0xcabd535584848aa0083abee9ecb8e11b9b62af57",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_circle",
+   "name": "✅$UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 4760,
+   "symbol": "UЅDС | t.me/s/US_CIRCLE | *claim until 05.09.25",
+   "transfers": 96042
+  },
+  {
+   "address": "0xf20ded81850976caa79ae606338e8f3e1922e4f4",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "web3eth.vip",
+   "name": "",
+   "rank_index": 4796,
+   "symbol": "5ETH Reward at web3eth.vip",
+   "transfers": 94830
+  },
+  {
+   "address": "0xf45b55c165199296b8b3e948ba54476864f0be91",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/weth",
+   "name": "$weETH REWARD: t.ly/weth",
+   "rank_index": 4903,
+   "symbol": "$weETH - Redeem: t.ly/weth",
+   "transfers": 91143
+  },
+  {
+   "address": "0x85ab5b38c22d8588918c3b33fa6c7c3f1f4ecebc",
+   "band": "20000-100000",
+   "campaign_in_frame": false,
+   "campaign_key": "volt.win",
+   "name": "VOLT.WIN",
+   "rank_index": 76687,
+   "symbol": "VOLT",
+   "transfers": 1441
+  },
+  {
+   "address": "0xf5a0900513f816b521b91440bf1dbffbc5191871",
+   "band": "5000-20000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_circle",
+   "name": "✅UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 6099,
+   "symbol": "UЅDС | t.me/s/US_CIRCLE | *claim until 24.08.25",
+   "transfers": 65748
+  },
+  {
+   "address": "0xa84db628da2d1f04e54272b1787609297f80d54e",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/cpool",
+   "name": "",
+   "rank_index": 8547,
+   "symbol": "47 $UЅDС - Redeem: t.ly/cpool",
+   "transfers": 40428
+  },
+  {
+   "address": "0xc24482559d7d6cf90ead95dfdf1cdfe4e4c6b495",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "aerodrome.supply",
+   "name": "!     AERO",
+   "rank_index": 13506,
+   "symbol": "Claim: https://aerodrome.supply",
+   "transfers": 22686
+  },
+  {
+   "address": "0x1e571b3748af26ab40cc0823b1b74217734a566f",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "aerodrome.supply",
+   "name": "!     AERO",
+   "rank_index": 14615,
+   "symbol": "Claim: https://aerodrome.supply",
+   "transfers": 20526
+  },
+  {
+   "address": "0xa408283914226f4b389edeff26fdc04ffabcef8c",
+   "band": "5000-20000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/us_circle",
+   "name": "✅UЅDС TOKEN DISTRIBUTION",
+   "rank_index": 16285,
+   "symbol": "UЅDС | t.me/s/US_CIRCLE | *claim until 28.07.25",
+   "transfers": 17887
+  }
+ ],
+ "frame_depth": 1200,
+ "ht_strong": 24934.898528428093,
+ "ht_strong_transfer_share": 0.057840852702787555,
+ "ht_strong_transfers": 103757105.18613155,
+ "metadata_coverage": 0.9973333333333333,
+ "new_campaign_keys": [
+  "aerodrome.supply",
+  "bio.link",
+  "brett.digital",
+  "chomp-coin.com",
+  "cookie-airdrop.com",
+  "ethstk.xyz",
+  "friends-techs.com",
+  "fungi-airdrop.com",
+  "getunic.pro",
+  "pepe-on-base.com",
+  "t.ly/cpool",
+  "t.ly/weth",
+  "volt.win",
+  "web3eth.vip",
+  "x.com/mascorlabs"
+ ],
+ "observed_strong": 47,
+ "per_band": {
+  "100000-1000000": {
+   "N": 900000,
+   "drawn": 300,
+   "ht_strong": 24000.0,
+   "resolved": 300,
+   "strong": 8,
+   "tail_transfers": 156105359,
+   "upper_strong_bonferroni": 51388,
+   "weak": 5
+  },
+  "1000000-1000000000000": {
+   "N": 23655702,
+   "drawn": 300,
+   "ht_strong": 0.0,
+   "resolved": 297,
+   "strong": 0,
+   "tail_transfers": 136295706,
+   "upper_strong_bonferroni": 363965,
+   "weak": 4
+  },
+  "1200-5000": {
+   "N": 3794,
+   "drawn": 300,
+   "ht_strong": 417.34,
+   "resolved": 300,
+   "strong": 33,
+   "tail_transfers": 758009532,
+   "upper_strong_bonferroni": 595,
+   "weak": 9
+  },
+  "20000-100000": {
+   "N": 80000,
+   "drawn": 300,
+   "ht_strong": 267.55852842809367,
+   "resolved": 299,
+   "strong": 1,
+   "tail_transfers": 272875335,
+   "upper_strong_bonferroni": 1756,
+   "weak": 6
+  },
+  "5000-20000": {
+   "N": 15000,
+   "drawn": 300,
+   "ht_strong": 250.0,
+   "resolved": 300,
+   "strong": 5,
+   "tail_transfers": 470551820,
+   "upper_strong_bonferroni": 642,
+   "weak": 23
+  }
+ },
+ "per_stratum": 300,
+ "seed": 20261027,
+ "strength_counts": {
+  "none": 1402,
+  "strong": 47,
+  "weak": 47
+ },
+ "tail_contracts": 24654496,
+ "tail_transfers": 1793837752,
+ "unresolved_treated_as_unsampled": true,
+ "upper95_method": "per-band exact hypergeometric at alpha/H, summed (Bonferroni)",
+ "upper95_strong": 418346
+}

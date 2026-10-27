@@ -1,0 +1,5 @@
+{
+ "producer": "papers/lure-broadcast/scripts/evaluate_design_based.py",
+ "git_commit": "8e14dce",
+ "n_boot": 5000
+}

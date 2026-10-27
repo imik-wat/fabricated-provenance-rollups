@@ -1,0 +1,30 @@
+{
+ "chain": "polygon-zkevm",
+ "n_boot": 5000,
+ "ht_flagged_transfers": {
+  "point": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ]
+ },
+ "ht_flagged_contracts": {
+  "point": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "exact_bonferroni_upper95": 81
+ },
+ "frame_flagged_transfers": 292961,
+ "worst_case_flagged_tail_transfers": 301,
+ "worst_case_tail_to_frame_ratio": 0.0010274405125596923,
+ "tail_to_frame_volume_ratio": {
+  "point": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ]
+ },
+ "caveat": "rare, heavy-tailed and campaign-clustered flagged volumes; percentile bootstrap intervals are indicative and may under-cover; the exact count bound stands beside them"
+}

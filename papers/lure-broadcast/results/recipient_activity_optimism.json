@@ -1,0 +1,77 @@
+{
+ "active": {
+  "ci95_hi": 0.039460027185920676,
+  "ci95_lo": 0.03641885338706034,
+  "estimate": 0.0379101572166224,
+  "hits": 2298,
+  "n": 60617
+ },
+ "active_asserted": {
+  "ci95_hi": 0.05136381125137163,
+  "ci95_lo": 0.04790636450283631,
+  "estimate": 0.04960654601844367,
+  "hits": 3007,
+  "n": 60617
+ },
+ "caveats": [
+  "ACTIVE is evidence that the address signed or authorised something under a verified token's implementation. It is not evidence that a person read a wallet interface.",
+  "The asserted observable is NOT evidence of control: the sender field of an arbitrary contract's transfer event is written by that contract. It is reported only so the distance between the two observables is visible.",
+  "An address active only AFTER its first lure delivery is counted ACTIVE but not PRIOR-ACTIVE; the ordering is what distinguishes targeting from coincidence.",
+  "The control group is addresses SEEN in the corpus, so it excludes addresses that never transacted; the comparison is against transacting addresses, not against all of 2^160.",
+  "ERC-721 sends count as activity: they equally require the private key."
+ ],
+ "chain": "optimism",
+ "control": {
+  "active": {
+   "ci95_hi": 0.056973083173005895,
+   "ci95_lo": 0.054852113518644344,
+   "estimate": 0.05590313598899575,
+   "hits": 10079,
+   "n": 180294
+  },
+  "active_asserted": {
+   "ci95_hi": 0.10584951969791165,
+   "ci95_lo": 0.10302620097516377,
+   "estimate": 0.10442943192785117,
+   "hits": 18828,
+   "n": 180294
+  },
+  "definition": "sampled addresses observed in the corpus that no lure contract ever named; the base rate of activity in the address population under the same observable"
+ },
+ "estimand": "per DISTINCT ADDRESS named as a recipient by a lure contract: the share that independently sent a transfer emitted by a non-lure contract (ACTIVE), and the share whose first such send precedes their first lure delivery (PRIOR-ACTIVE). Neither is intent, identity or financial loss.",
+ "lure_contracts": 621,
+ "non_indexed_note": "ERC-20 requires from/to to be indexed. These rows carry a Transfer topic0 with null topics, both addresses being in `data` instead, so they cannot be attributed to an address here and are excluded. Counted rather than dropped.",
+ "non_indexed_rows": 82,
+ "observable": {
+  "asserted": "named in the sender field of any non-lure contract's transfer; this establishes nothing about control and is reported only for contrast",
+  "authenticated": "sender of a NON-ZERO transfer emitted by a registry-verified token contract; under the verified implementation this requires a signature from the address or an allowance it granted",
+  "lower_bound_note": "an address transacting only in tokens outside the registry is not observed, so each level understates activity; the same understatement applies to the control group, so the contrast between them is unaffected",
+  "verified_tokens": 8
+ },
+ "prior_active": {
+  "ci95_hi": 0.028157559786097512,
+  "ci95_lo": 0.025583719846681452,
+  "estimate": 0.026840655261725258,
+  "hits": 1627,
+  "n": 60617
+ },
+ "received_verified": {
+  "ci95_hi": 0.04309004057660253,
+  "ci95_lo": 0.03991510199799344,
+  "estimate": 0.04147351403071745,
+  "hits": 2514,
+  "n": 60617
+ },
+ "rows_matched": 146964811,
+ "rows_scanned": 2901914265,
+ "sampled_recipients": 60617,
+ "sampler_check": null,
+ "sampling": {
+  "k": 1024,
+  "scheme": "splitmix64(fnv1a(all 40 hex characters of the address)) & (K-1) == 0",
+  "unit": "distinct address, not transfer row",
+  "why_not_rows": "a row sample over-represents repeatedly named recipients, which is the population feature under study"
+ },
+ "verified_rows_scanned": 1145089499,
+ "wall_seconds": 584.5
+}

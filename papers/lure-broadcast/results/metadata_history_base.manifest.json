@@ -1,0 +1,5 @@
+{
+ "producer": "papers/lure-broadcast/scripts/metadata_history.py",
+ "git_commit": "7420bfe",
+ "endpoint": "https://base-pokt.nodies.app"
+}

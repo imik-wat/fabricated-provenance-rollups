@@ -1,0 +1,8 @@
+{
+ "producer": "papers/lure-broadcast/scripts/replication_record.py",
+ "git_commit": "88ed2c7",
+ "inputs": [
+  "data/raw/hypersync/<chain>/chunk_*",
+  "data/raw/hypersync/_pull.log"
+ ]
+}

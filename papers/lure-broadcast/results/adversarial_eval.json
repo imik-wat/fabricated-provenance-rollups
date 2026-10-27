@@ -1,0 +1,385 @@
+{
+ "by_category": {
+  "baseline": {
+   "agree": 2,
+   "agreement_rate": 1.0,
+   "n": 2
+  },
+  "decoy_domain": {
+   "agree": 2,
+   "agreement_rate": 1.0,
+   "n": 2
+  },
+  "decoy_verb": {
+   "agree": 2,
+   "agreement_rate": 1.0,
+   "n": 2
+  },
+  "decoy_version": {
+   "agree": 2,
+   "agreement_rate": 1.0,
+   "n": 2
+  },
+  "delimiter": {
+   "agree": 2,
+   "agreement_rate": 1.0,
+   "n": 2
+  },
+  "domain_self_satisfies": {
+   "agree": 1,
+   "agreement_rate": 0.3333333333333333,
+   "n": 3
+  },
+  "dot_obfuscation": {
+   "agree": 3,
+   "agreement_rate": 1.0,
+   "n": 3
+  },
+  "homoglyph": {
+   "agree": 2,
+   "agreement_rate": 1.0,
+   "n": 2
+  },
+  "invisible": {
+   "agree": 2,
+   "agreement_rate": 1.0,
+   "n": 2
+  },
+  "multilingual": {
+   "agree": 0,
+   "agreement_rate": 0.0,
+   "n": 3
+  },
+  "scheme_obfuscation": {
+   "agree": 1,
+   "agreement_rate": 1.0,
+   "n": 1
+  },
+  "shortener": {
+   "agree": 2,
+   "agreement_rate": 1.0,
+   "n": 2
+  }
+ },
+ "cases": [
+  {
+   "agrees": true,
+   "campaign": "bonus-zk.com",
+   "category": "baseline",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "USDC Reward",
+   "note": "plain domain plus imperative",
+   "strength": "strong",
+   "symbol": "claim at bonus-zk.com"
+  },
+  {
+   "agrees": true,
+   "campaign": "claim-arb.io",
+   "category": "baseline",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "Airdrop",
+   "note": "explicit scheme",
+   "strength": "strong",
+   "symbol": "visit https://claim-arb.io now"
+  },
+  {
+   "agrees": true,
+   "campaign": "fomox.club",
+   "category": "homoglyph",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "Reward",
+   "note": "Cyrillic kha inside the host",
+   "strength": "strong",
+   "symbol": "claim at www.fomo\u0445.club"
+  },
+  {
+   "agrees": true,
+   "campaign": "fomox.club",
+   "category": "homoglyph",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "Bonus",
+   "note": "Cyrillic es inside the suffix",
+   "strength": "strong",
+   "symbol": "visit www.fomox.\u0441lub today"
+  },
+  {
+   "agrees": true,
+   "campaign": "bonuszk.com",
+   "category": "invisible",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "Reward",
+   "note": "zero-width space inside the host",
+   "strength": "strong",
+   "symbol": "claim at bonus\u200bzk.com"
+  },
+  {
+   "agrees": true,
+   "campaign": "bonuszk.com",
+   "category": "invisible",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "Reward",
+   "note": "soft hyphen inside the host",
+   "strength": "strong",
+   "symbol": "claim at bonus\u00adzk.com"
+  },
+  {
+   "agrees": true,
+   "campaign": "bonus-zk.com",
+   "category": "dot_obfuscation",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "Reward",
+   "note": "bracketed dot",
+   "strength": "strong",
+   "symbol": "claim at bonus-zk[.]com"
+  },
+  {
+   "agrees": true,
+   "campaign": "bonus-zk.com",
+   "category": "dot_obfuscation",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "Reward",
+   "note": "spelled dot",
+   "strength": "strong",
+   "symbol": "claim at bonus-zk(dot)com"
+  },
+  {
+   "agrees": true,
+   "campaign": "bonus-zk.com",
+   "category": "dot_obfuscation",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "Reward",
+   "note": "spaced and capitalised dot",
+   "strength": "strong",
+   "symbol": "claim at bonus-zk DOT com"
+  },
+  {
+   "agrees": true,
+   "campaign": "t.ly/optimism-drop",
+   "category": "shortener",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "Reward",
+   "note": "URL shortener with a slug",
+   "strength": "strong",
+   "symbol": "claim via t.ly/optimism-drop"
+  },
+  {
+   "agrees": true,
+   "campaign": "bit.ly/3xkq9",
+   "category": "shortener",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "Reward",
+   "note": "opaque shortener slug",
+   "strength": "strong",
+   "symbol": "claim via bit.ly/3xKq9"
+  },
+  {
+   "agrees": true,
+   "campaign": "bonus-zk.com",
+   "category": "delimiter",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "Reward",
+   "note": "non-breaking spaces",
+   "strength": "strong",
+   "symbol": "claim\u00a0at\u00a0bonus-zk.com"
+  },
+  {
+   "agrees": true,
+   "campaign": "bonus-zk.com",
+   "category": "delimiter",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "Reward |",
+   "note": "pipe delimiters",
+   "strength": "strong",
+   "symbol": "| claim | bonus-zk.com |"
+  },
+  {
+   "agrees": true,
+   "campaign": "bonus-zk.com",
+   "category": "scheme_obfuscation",
+   "expected_flagged": true,
+   "flagged": true,
+   "name": "Reward",
+   "note": "defanged scheme",
+   "strength": "strong",
+   "symbol": "claim at hxxps://bonus-zk.com"
+  },
+  {
+   "agrees": false,
+   "campaign": "zkp-portal.xyz",
+   "category": "multilingual",
+   "expected_flagged": true,
+   "flagged": false,
+   "name": "Recompensa",
+   "note": "Spanish imperative",
+   "strength": "weak",
+   "symbol": "reclama en zkp-portal.xyz"
+  },
+  {
+   "agrees": false,
+   "campaign": "zkp-portal.xyz",
+   "category": "multilingual",
+   "expected_flagged": true,
+   "flagged": false,
+   "name": "Belohnung",
+   "note": "German imperative",
+   "strength": "weak",
+   "symbol": "jetzt einloesen zkp-portal.xyz"
+  },
+  {
+   "agrees": false,
+   "campaign": "zkp-portal.xyz",
+   "category": "multilingual",
+   "expected_flagged": true,
+   "flagged": false,
+   "name": "\u5956\u52b1",
+   "note": "Chinese imperative",
+   "strength": "weak",
+   "symbol": "\u9886\u53d6 zkp-portal.xyz"
+  },
+  {
+   "agrees": false,
+   "campaign": "bonus-zk.com",
+   "category": "domain_self_satisfies",
+   "expected_flagged": false,
+   "flagged": true,
+   "name": "",
+   "note": "bare host, no call to action present",
+   "strength": "strong",
+   "symbol": "bonus-zk.com"
+  },
+  {
+   "agrees": false,
+   "campaign": "airdrop-portal.xyz",
+   "category": "domain_self_satisfies",
+   "expected_flagged": false,
+   "flagged": true,
+   "name": "",
+   "note": "bare host, no call to action present",
+   "strength": "strong",
+   "symbol": "airdrop-portal.xyz"
+  },
+  {
+   "agrees": true,
+   "campaign": "zkp-portal.xyz",
+   "category": "domain_self_satisfies",
+   "expected_flagged": false,
+   "flagged": false,
+   "name": "",
+   "note": "bare neutral host, correctly not strong",
+   "strength": "weak",
+   "symbol": "zkp-portal.xyz"
+  },
+  {
+   "agrees": true,
+   "campaign": null,
+   "category": "decoy_verb",
+   "expected_flagged": false,
+   "flagged": false,
+   "name": "Claimable Yield Token",
+   "note": "imperative-like word, no destination",
+   "strength": "weak",
+   "symbol": "CYT"
+  },
+  {
+   "agrees": true,
+   "campaign": null,
+   "category": "decoy_verb",
+   "expected_flagged": false,
+   "flagged": false,
+   "name": "Free Float Index",
+   "note": "'free' in a legitimate name",
+   "strength": "weak",
+   "symbol": "FFI"
+  },
+  {
+   "agrees": true,
+   "campaign": null,
+   "category": "decoy_version",
+   "expected_flagged": false,
+   "flagged": false,
+   "name": "Uniswap V2",
+   "note": "version string, not a host",
+   "strength": "none",
+   "symbol": "UNI-V2"
+  },
+  {
+   "agrees": true,
+   "campaign": null,
+   "category": "decoy_version",
+   "expected_flagged": false,
+   "flagged": false,
+   "name": "Curve.fi DAI/USDC",
+   "note": "legitimate brand containing a dot",
+   "strength": "none",
+   "symbol": "3CRV"
+  },
+  {
+   "agrees": true,
+   "campaign": null,
+   "category": "decoy_domain",
+   "expected_flagged": false,
+   "flagged": false,
+   "name": "Aave interest bearing USDC",
+   "note": "no destination, no call to action",
+   "strength": "none",
+   "symbol": "aUSDC"
+  },
+  {
+   "agrees": true,
+   "campaign": null,
+   "category": "decoy_domain",
+   "expected_flagged": false,
+   "flagged": false,
+   "name": "Wrapped Ether",
+   "note": "plain legitimate token",
+   "strength": "none",
+   "symbol": "WETH"
+  }
+ ],
+ "decoys": {
+  "false_alarm_rate": 0.2222222222222222,
+  "false_alarms": 2,
+  "n": 9
+ },
+ "evasion": {
+  "detection_rate": 0.8235294117647058,
+  "flagged": 14,
+  "n": 17
+ },
+ "expectations": "declared with each case before the run, not fitted to the outcome",
+ "miss_note": "misses are reported, not patched: extending the lexicon until the suite passes would convert it into a training set and destroy its diagnostic value",
+ "misses": [
+  {
+   "category": "multilingual",
+   "note": "Spanish imperative",
+   "strength": "weak",
+   "symbol": "reclama en zkp-portal.xyz"
+  },
+  {
+   "category": "multilingual",
+   "note": "German imperative",
+   "strength": "weak",
+   "symbol": "jetzt einloesen zkp-portal.xyz"
+  },
+  {
+   "category": "multilingual",
+   "note": "Chinese imperative",
+   "strength": "weak",
+   "symbol": "\u9886\u53d6 zkp-portal.xyz"
+  }
+ ],
+ "purpose": "locate the detector's boundary against payloads constructed to defeat it; this tests generalisation beyond the annotation task and does NOT supply the independent confirmation of intent that only external annotation would give"
+}

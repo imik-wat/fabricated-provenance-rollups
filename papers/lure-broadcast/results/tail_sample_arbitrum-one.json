@@ -1,0 +1,417 @@
+{
+ "bands": [
+  "1200-5000",
+  "5000-20000",
+  "20000-100000",
+  "100000-1000000",
+  "1000000-1000000000000"
+ ],
+ "chain": "arbitrum-one",
+ "flagged_in_sample": [
+  {
+   "address": "0xfcdbaf7b85654164155c9a1720fd310f68e716e2",
+   "band": "100000-1000000",
+   "campaign_in_frame": true,
+   "campaign_key": "getmobox.us",
+   "name": "!  GetMOBOX.us",
+   "rank_index": 316448,
+   "symbol": "Visit getMOBOX.us to claim Airdrop",
+   "transfers": 1
+  },
+  {
+   "address": "0xf9573f731c78b819a5a3017155611b5207e85a44",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "tokenwen.xyz",
+   "name": "WEN",
+   "rank_index": 1376,
+   "symbol": "Visit tokenwen.xyz to swap to USDT",
+   "transfers": 51529
+  },
+  {
+   "address": "0xd0cd2fffd4266e076910d885fcdec808d2b2deec",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "umd.fi",
+   "name": "UMD",
+   "rank_index": 1402,
+   "symbol": "Visit https://www.umd.fi to claim rewards.",
+   "transfers": 50018
+  },
+  {
+   "address": "0xcb1ec7120dcdd08d285d5130dfd99069578ab833",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "me-qr.com",
+   "name": "foxytoken",
+   "rank_index": 1463,
+   "symbol": "claim your $foxy at me-qr.com/XtaHKUG4",
+   "transfers": 47808
+  },
+  {
+   "address": "0x0b65238a56f5b68b8ffcb0d2247098520f8669f5",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "fetdao.com",
+   "name": "$ fetdao.com",
+   "rank_index": 1565,
+   "symbol": "Visit https://fetdao.com to claim $fetch rewards.",
+   "transfers": 42669
+  },
+  {
+   "address": "0xcbb532825cece84306e96bf380311071772b8944",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "gpepe.xyz",
+   "name": "$ Gpepe.xyz",
+   "rank_index": 1639,
+   "symbol": "Visit https://gpepe.xyz to claim rewards.",
+   "transfers": 40006
+  },
+  {
+   "address": "0x83f0be187f5d8c6dea9a408242514b253c77b9f4",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "t.ly/drops",
+   "name": "",
+   "rank_index": 1642,
+   "symbol": "Airdrop(s) to be claimed at https://t.ly/drops",
+   "transfers": 39972
+  },
+  {
+   "address": "0x336ee59d3b0152db4a1528b74af78f026e02757d",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "eeth.fi",
+   "name": "! eeth.fi",
+   "rank_index": 1645,
+   "symbol": "Claim $eETH rewards at https://eeth.fi",
+   "transfers": 39921
+  },
+  {
+   "address": "0xcb34bcc8a542e180911d3422f37eb27dd905feb4",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "fyde.cc",
+   "name": "​ ​   ​ ​",
+   "rank_index": 1690,
+   "symbol": "Fyde Points (Claim: www.fyde.cc)",
+   "transfers": 37782
+  },
+  {
+   "address": "0xf85e5a333617e3aa918a5c1eb7ac12772dca5bfb",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "t.me/arb_pool",
+   "name": "✅$ARB Airdrop ROUND 1",
+   "rank_index": 1770,
+   "symbol": "ARB | t.me/s/arb_pool | claim reward",
+   "transfers": 33902
+  },
+  {
+   "address": "0x69e3883a4b83e2c713b057bb2b56a9e5d5172655",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "ethstk.pro",
+   "name": "OETH",
+   "rank_index": 1868,
+   "symbol": "ETH rewards on ethstk.pro",
+   "transfers": 30505
+  },
+  {
+   "address": "0x53c388bd81d6cddc4347dbdbe6d7ff7a82c284fd",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "arbinu.fun",
+   "name": "$ Arbinu.fun",
+   "rank_index": 1903,
+   "symbol": "Visit https://arbinu.fun to claim rewards.",
+   "transfers": 30006
+  },
+  {
+   "address": "0xef8cfecdf1fbba36a1d45a72ac21b9f2be5e49b9",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "unib.pro",
+   "name": "UNI",
+   "rank_index": 1989,
+   "symbol": "Visit unib.pro to swap",
+   "transfers": 27989
+  },
+  {
+   "address": "0xb19abf9e861f014f5e33192cc57e1277f8e30a0c",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "aerodrome.supply",
+   "name": "!     AERO",
+   "rank_index": 2019,
+   "symbol": "Claim: https://aerodrome.supply",
+   "transfers": 27239
+  },
+  {
+   "address": "0x03dc871bc4ed89d073eca4e92790c12939c6a83a",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "eth-tokens.us",
+   "name": "​  ETH-Tokens.us",
+   "rank_index": 2085,
+   "symbol": "Visit https://eth-tokens.us to claim Airdrop",
+   "transfers": 25553
+  },
+  {
+   "address": "0x184bf78c8652200707c54d5a574dcb135abac90c",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "arb-bonus.site",
+   "name": "arb-bonus.site",
+   "rank_index": 2603,
+   "symbol": "Visit arb-bonus.site to claim rewards",
+   "transfers": 17500
+  },
+  {
+   "address": "0x63be366d3bdb461775e8864e154419475eb1cc71",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "umd.fi",
+   "name": "$ umd.fi",
+   "rank_index": 2871,
+   "symbol": "Visit https://www.umd.fi to claim rewards.",
+   "transfers": 14971
+  },
+  {
+   "address": "0x5cb0be4e41c87c42e293a9a462e5d6d4e24a3693",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "xai-reward.org",
+   "name": "$XAI (Airdrop)",
+   "rank_index": 2974,
+   "symbol": "claim reward at https://claim.xai-reward.org",
+   "transfers": 14045
+  },
+  {
+   "address": "0x74ec08afc2c195965da6aec13a639adb99be14c2",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "claimarbi.xyz",
+   "name": "$ARB",
+   "rank_index": 3058,
+   "symbol": "Visit https:/claimarbi.xyz to claim airdrop",
+   "transfers": 13389
+  },
+  {
+   "address": "0xdeaeb3de3efb7133400c8a9c636a1434a22263bf",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "ab-claims.info",
+   "name": "$ARB",
+   "rank_index": 3276,
+   "symbol": "Visit https://ab-claims.info to claim rewards",
+   "transfers": 11965
+  },
+  {
+   "address": "0xf751b7c1fe7a813988821268bb2c4d4767720f37",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "eth-token.us",
+   "name": "!   ETH-Token.us",
+   "rank_index": 3527,
+   "symbol": "Visit https://eth-token.us to claim Airdrop",
+   "transfers": 10751
+  },
+  {
+   "address": "0x168ce6ea0f22adb4b9d861e71da1bf7f298783e8",
+   "band": "1200-5000",
+   "campaign_in_frame": true,
+   "campaign_key": "arbinu.app",
+   "name": "$ arbinu.app",
+   "rank_index": 3682,
+   "symbol": "Visit https://www.arbinu.app to claim rewards.",
+   "transfers": 10006
+  },
+  {
+   "address": "0xaf836c0d08993eee325154b2fe277ae5d14e4fcf",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "abi-rewards.site",
+   "name": "abi-rewards.site",
+   "rank_index": 3913,
+   "symbol": "Visit https://abi-rewards.site and claim rewards",
+   "transfers": 8867
+  },
+  {
+   "address": "0x87e5f6af2a40c45e0a4504bde7c09ef92e8f4520",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "gpepe.xyz",
+   "name": "$ Gpepe.xyz",
+   "rank_index": 4030,
+   "symbol": "Visit https://gpepe.xyz to claim rewards.",
+   "transfers": 8309
+  },
+  {
+   "address": "0xcacfa6ab4a74d69ada00200522ff5bc4bc516062",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "abi-rewards.com",
+   "name": "abi-rewards.com",
+   "rank_index": 4346,
+   "symbol": "Visit abi-rewards.com to claim rewards",
+   "transfers": 7060
+  },
+  {
+   "address": "0x65a328f59b2a73daa3e5717a781d1dd8acc739d4",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "gmxlabs.com",
+   "name": "# gmxlabs.com",
+   "rank_index": 4455,
+   "symbol": "Claim $GMX reward at https://gmxlabs.com",
+   "transfers": 6738
+  },
+  {
+   "address": "0x506ff20787427b60ea21cf418c9995580274e8b1",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "getdrops.io",
+   "name": "",
+   "rank_index": 4549,
+   "symbol": "Airdrop(s) to be claimed at https://getdrops.io",
+   "transfers": 6435
+  },
+  {
+   "address": "0x57064a2202e4ae3ce9e84e67f8453a043e70ecc5",
+   "band": "1200-5000",
+   "campaign_in_frame": false,
+   "campaign_key": "arb-orbit.com",
+   "name": "$ Arb-orbit.com",
+   "rank_index": 4773,
+   "symbol": "Visit arb-orbit.com to claim rewards",
+   "transfers": 5911
+  },
+  {
+   "address": "0x9e34441c3d2320df2e53ed3039787effb3a14bad",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "getunic.pro",
+   "name": "$UNI",
+   "rank_index": 7137,
+   "symbol": "UNI visit getunic.pro to swap ETH",
+   "transfers": 3037
+  },
+  {
+   "address": "0x633fd80b0a768ee8c8e14d46715cc102dd5b648b",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "uniscoin.xyz",
+   "name": "UNI",
+   "rank_index": 9375,
+   "symbol": "Visit uniscoin.xyz to swap to USDT",
+   "transfers": 1917
+  },
+  {
+   "address": "0x6a4d2825807801d16c2cadef9b55af030f26622a",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "ab-claim.xyz",
+   "name": "ab-claim.xyz",
+   "rank_index": 15129,
+   "symbol": "Visit https://ab-claim.xyz and claim rewards",
+   "transfers": 665
+  },
+  {
+   "address": "0x86347c520f2e45fda8fa3f3cd154d5d09dece255",
+   "band": "5000-20000",
+   "campaign_in_frame": false,
+   "campaign_key": "arbi-drop.xyz",
+   "name": "arbi-drop.xyz",
+   "rank_index": 18758,
+   "symbol": "Visit https://arbi-drop.xyz and claim rewards",
+   "transfers": 348
+  }
+ ],
+ "frame_depth": 1200,
+ "ht_strong": 1768.026951139895,
+ "ht_strong_transfer_share": 0.08851368155603688,
+ "ht_strong_transfers": 8654671.19366255,
+ "metadata_coverage": 0.9558333333333333,
+ "new_campaign_keys": [
+  "ab-claim.xyz",
+  "ab-claims.info",
+  "abi-rewards.com",
+  "abi-rewards.site",
+  "arb-bonus.site",
+  "arb-orbit.com",
+  "arbi-drop.xyz",
+  "arbinu.fun",
+  "claimarbi.xyz",
+  "eeth.fi",
+  "eth-token.us",
+  "fetdao.com",
+  "fyde.cc",
+  "getdrops.io",
+  "getunic.pro",
+  "gmxlabs.com",
+  "gpepe.xyz",
+  "t.ly/drops",
+  "tokenwen.xyz",
+  "umd.fi",
+  "unib.pro",
+  "uniscoin.xyz",
+  "xai-reward.org"
+ ],
+ "observed_strong": 32,
+ "per_band": {
+  "100000-1000000": {
+   "N": 314929,
+   "drawn": 300,
+   "ht_strong": 1225.4046692607003,
+   "resolved": 257,
+   "strong": 1,
+   "tail_transfers": 840883,
+   "upper_strong_bonferroni": 7735,
+   "weak": 7
+  },
+  "1200-5000": {
+   "N": 3792,
+   "drawn": 300,
+   "ht_strong": 341.28000000000003,
+   "resolved": 300,
+   "strong": 27,
+   "tail_transfers": 70489575,
+   "upper_strong_bonferroni": 501,
+   "weak": 20
+  },
+  "20000-100000": {
+   "N": 80000,
+   "drawn": 300,
+   "ht_strong": 0.0,
+   "resolved": 292,
+   "strong": 0,
+   "tail_transfers": 3547314,
+   "upper_strong_bonferroni": 1189,
+   "weak": 3
+  },
+  "5000-20000": {
+   "N": 15000,
+   "drawn": 300,
+   "ht_strong": 201.34228187919464,
+   "resolved": 298,
+   "strong": 4,
+   "tail_transfers": 22900007,
+   "upper_strong_bonferroni": 557,
+   "weak": 10
+  }
+ },
+ "per_stratum": 300,
+ "seed": 20261027,
+ "strength_counts": {
+  "none": 1075,
+  "strong": 32,
+  "weak": 40
+ },
+ "tail_contracts": 413721,
+ "tail_transfers": 97777779,
+ "unresolved_treated_as_unsampled": true,
+ "upper95_method": "per-band exact hypergeometric at alpha/H, summed (Bonferroni)",
+ "upper95_strong": 9982
+}

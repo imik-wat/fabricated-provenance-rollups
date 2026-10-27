@@ -1,0 +1,5 @@
+{
+ "producer": "papers/lure-broadcast/scripts/metadata_history.py",
+ "git_commit": "b5bc9c9",
+ "endpoint": "https://mainnet.era.zksync.io"
+}

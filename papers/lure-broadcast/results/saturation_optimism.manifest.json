@@ -1,0 +1,5 @@
+{
+ "producer": "papers/lure-broadcast/scripts/saturation.py",
+ "input": "results/optimism_features.csv",
+ "git_commit": "3df09e3"
+}

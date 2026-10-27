@@ -1,0 +1,573 @@
+{
+ "chain": "arbitrum-one",
+ "channel_census": {
+  "distinct_named_senders": 4688,
+  "distinct_recipients": 13846083,
+  "fanout_ratio": 1.725334811296451,
+  "note": "recipients are addresses NAMED as recipient, excluding the zero address; fan-out ~1 is the broadcast signature. Senders are the adversary-authored field and identify no operator.",
+  "top_fifty_share": 0.8841964895413307,
+  "top_named_senders": [
+   {
+    "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "transfers": 10218509
+   },
+   {
+    "address": "0xb38e8c17e38363af6ebdcb3dae12e0243582891d",
+    "transfers": 2476579
+   },
+   {
+    "address": "0x05e3a758fdd29d28435019ac453297ea37b61b62",
+    "transfers": 1987883
+   },
+   {
+    "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+    "transfers": 1574941
+   },
+   {
+    "address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+    "transfers": 988500
+   },
+   {
+    "address": "0x1ab4973a48dc892cd9971ece8e01dcc7688f8f23",
+    "transfers": 489666
+   },
+   {
+    "address": "0x00cbcf7b3d37844e44b888bc747bdd75fcf4e555",
+    "transfers": 320000
+   },
+   {
+    "address": "0x5e325eda8064b456f4781070c0738d849c824258",
+    "transfers": 287301
+   },
+   {
+    "address": "0x7ecfbaa8742fdf5756dac92fbc8b90a19b8815bf",
+    "transfers": 267922
+   },
+   {
+    "address": "0xda661fa59320b808c5a6d23579fcfedf1fd3cf36",
+    "transfers": 255700
+   },
+   {
+    "address": "0x4c5439333bb9bfe7ac86b6c69a4a69f3451ffe98",
+    "transfers": 211275
+   },
+   {
+    "address": "0xda926693d490e06250fb24f651d9ed7f82cc1f7f",
+    "transfers": 209430
+   },
+   {
+    "address": "0x9b64203878f24eb0cdf55c8c6fa7d08ba0cf77e5",
+    "transfers": 194620
+   },
+   {
+    "address": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+    "transfers": 176890
+   },
+   {
+    "address": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
+    "transfers": 172585
+   },
+   {
+    "address": "0x354a6da3fcde098f8389cad84b0182725c6c91de",
+    "transfers": 148610
+   },
+   {
+    "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+    "transfers": 147679
+   },
+   {
+    "address": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+    "transfers": 146952
+   },
+   {
+    "address": "0xf3fc178157fb3c87548baa86f9d24ba38e649b58",
+    "transfers": 143881
+   },
+   {
+    "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+    "transfers": 142506
+   },
+   {
+    "address": "0x8038f3c971414fd1fc220ba727f2d4a0fc98cb65",
+    "transfers": 137131
+   },
+   {
+    "address": "0x67a24ce4321ab3af51c2d0a4801c3e111d88c9d9",
+    "transfers": 136097
+   },
+   {
+    "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+    "transfers": 117936
+   },
+   {
+    "address": "0x600fc79a2e5208e74a11c56134a8de92d56b376d",
+    "transfers": 38335
+   },
+   {
+    "address": "0xfaac5ce59b3da46eca561aad41a3ace2160c0945",
+    "transfers": 33161
+   },
+   {
+    "address": "0x159ee285a71dcf81e570903b47030c2161a2c48b",
+    "transfers": 25856
+   },
+   {
+    "address": "0xc84551b6754e8f5ea9124c1417eab8974fdd56a1",
+    "transfers": 24959
+   },
+   {
+    "address": "0xc35ece48f9c75c349fdcb6e6d3706b65c5c4aaf0",
+    "transfers": 23613
+   },
+   {
+    "address": "0xc767957ef79c535d6e1de2f8ef208f1d718d6e0c",
+    "transfers": 3959
+   },
+   {
+    "address": "0xe431ef041a2ab9ef6a10fd55d5efc75117b44e2f",
+    "transfers": 1690
+   },
+   {
+    "address": "0xc4c47c3ec45c4a0e046a8b104768290dbb83f340",
+    "transfers": 1494
+   },
+   {
+    "address": "0xa004225aeda22f3420ee6cb16b2cb2a1908ef951",
+    "transfers": 1401
+   },
+   {
+    "address": "0x06661897901726fdf7be0f6b80fd925bc5d2d847",
+    "transfers": 1243
+   },
+   {
+    "address": "0x07d1d981f0c566c55c139615be92213344645749",
+    "transfers": 1196
+   },
+   {
+    "address": "0xa6702e9b7cea733e19364821b6cb4fdcd0c11220",
+    "transfers": 1057
+   },
+   {
+    "address": "0x69718802f49f8918314bbb489748a5282e6db4aa",
+    "transfers": 1033
+   },
+   {
+    "address": "0xf816e56d108b609e984be4cbb01700966e5518d7",
+    "transfers": 968
+   },
+   {
+    "address": "0xcf9f5cb43616f20accfe62b05aac811ad9e90184",
+    "transfers": 947
+   },
+   {
+    "address": "0x52116685a8449582d6ff0b08caa561a1a82a90a5",
+    "transfers": 882
+   },
+   {
+    "address": "0xdf3dc624f21a8d9ae1d6ff752ecfd8bff3ccf75a",
+    "transfers": 815
+   },
+   {
+    "address": "0xf9984678dbbd99cac99d15b1cd14613df8ad59f1",
+    "transfers": 808
+   },
+   {
+    "address": "0x3a91c143a019f278bd88fa0ad174bdc51c9556d4",
+    "transfers": 777
+   },
+   {
+    "address": "0x42fb5aa5427e33d5a43f0c65a982621992efd488",
+    "transfers": 773
+   },
+   {
+    "address": "0xd8c18c34d40adf409e67e17448d66ef82452522a",
+    "transfers": 763
+   },
+   {
+    "address": "0xd6a8703dca5c4607d65ac45bb9bf61a8686152a5",
+    "transfers": 756
+   },
+   {
+    "address": "0x493cfcd79cc9adb59f0f5b7a1e3ca55ef507e894",
+    "transfers": 755
+   },
+   {
+    "address": "0x95e2319b0dc868a9822055d501d8722d265a4918",
+    "transfers": 745
+   },
+   {
+    "address": "0xda05d7fc05f0bd93d3c079303d898b062460780d",
+    "transfers": 739
+   },
+   {
+    "address": "0x68fd1adaac4879308511acf6a652097d86000aea",
+    "transfers": 695
+   },
+   {
+    "address": "0x34b8a08499ec1620ef3a9fd9fec0078594b97946",
+    "transfers": 671
+   }
+  ],
+  "transfers": 23889129
+ },
+ "depth_cutoffs": [
+  100,
+  300,
+  600,
+  null
+ ],
+ "depth_note": "cumulative at each rank cutoff; buckets partition the flagged population by the emitting contract's volume rank, so recipients at depth d are the union over buckets up to d. Marginal columns are the increment each interval adds.",
+ "depth_table": [
+  {
+   "contracts": 0,
+   "cutoff": 100,
+   "cutoff_label": "100",
+   "distinct_recipients": 0,
+   "marginal_contracts": 0,
+   "marginal_recipients": 0,
+   "marginal_transfers": 0,
+   "transfers": 0
+  },
+  {
+   "contracts": 9,
+   "cutoff": 300,
+   "cutoff_label": "300",
+   "distinct_recipients": 3559078,
+   "marginal_contracts": 9,
+   "marginal_recipients": 3559078,
+   "marginal_transfers": 4805458,
+   "transfers": 4805458
+  },
+  {
+   "contracts": 50,
+   "cutoff": 600,
+   "cutoff_label": "600",
+   "distinct_recipients": 9208459,
+   "marginal_contracts": 41,
+   "marginal_recipients": 5649381,
+   "marginal_transfers": 9449740,
+   "transfers": 14255198
+  },
+  {
+   "contracts": 149,
+   "cutoff": null,
+   "cutoff_label": "all",
+   "distinct_recipients": 13846083,
+   "marginal_contracts": 99,
+   "marginal_recipients": 4637624,
+   "marginal_transfers": 9633931,
+   "transfers": 23889129
+  }
+ ],
+ "fabricated_sender_criterion": {
+  "contract_share": 0.4563758389261745,
+  "contracts": 68,
+  "contracts_list": [
+   "0x00df20f0fba762b7ad46db94c7911f72e0d69fbd",
+   "0x0277e11bc900b6a7edce05cbb07c14492c22eff4",
+   "0x02950289a5b5f52c545a7f8489647cd99f80f341",
+   "0x03bbb3e3f200113ff29af7746bd702505822b40c",
+   "0x0ecacb5b2204d26717fb6464a80d05e9fdb706f0",
+   "0x10511280d22f00bbb294c632a5afff415fd602f5",
+   "0x120ca4c2117c042cf8068f7ccaf954e2e9e2d47e",
+   "0x17df5466841c685ee60d7d6676cb724486d152a2",
+   "0x1b1db0695166df4a43907510bac46dd79de2753a",
+   "0x2360d57fea3d881ca76eaee5f12201f35dcc53c4",
+   "0x24e48d7113623e6ea2c4345487fc374897fddfe1",
+   "0x2610b04b069754c36e11e03d5ad266c1bfcd4951",
+   "0x271f9b4745a982da790f733cb7aebc7ef4457b8c",
+   "0x27d79eb091c11d4223b02a6b5d77f62981abde62",
+   "0x2b239e96c4521d52104bbe37b1d02620594146e3",
+   "0x3107a421d3bce325fdfb05f40bc0463c2145c98a",
+   "0x37e54c2cecb34e531fc1e4c44fb001e93212d1ac",
+   "0x38db8271f55f91008c7f359505cc1b9053f3baa5",
+   "0x390c48b2569fd7ef238ba0278b0ec08b14f81049",
+   "0x42c35b14e6f163ea0a625c919dd95f5a3a594c19",
+   "0x42d55691ce91691109e54b56b7c2691f68fa78b2",
+   "0x44210862f7d78826aa13b0dae1148fc5264b4176",
+   "0x445a27c4a4d90a865092b0fc4ebe99b16ef6a696",
+   "0x483bddd46e5d0ce955b202a42c2bae5ae98fcc66",
+   "0x48568ab8836bcb19b5e57ee2d84285638e77ec52",
+   "0x5022b61f8aedb9914c65d8a3d6038ff8c12b53cb",
+   "0x52723a53cb5b4ace955914c7cc0a21d6ea77cb9a",
+   "0x52ea899225864633d9d72dc5ed32fa44bdd50dce",
+   "0x613e079ffe199e1634363477028022b4b0afcc28",
+   "0x670ad3cf05b5c49b75608f4401e6f0661d04b0fb",
+   "0x73fcafc42abb43a408bde4b37eafccdadcb2b554",
+   "0x76e3c719ee614f2b7c8107b97c78ddfd3cf3294a",
+   "0x77fe84f8b482c5fad4275a280fd1a9dbad5a8d08",
+   "0x7bb2447fec273c42e21405a91f06cb037919d267",
+   "0x7bdb6249a04f24a7a4732a226b01e83b379bf491",
+   "0x7cbdc25121e0f49bf412a7c6b541b12ca4e0351f",
+   "0x81566c24635854c82646eb9622eb1e611c18096c",
+   "0x858824699726bde47d8a1a1f578ada760f6547d7",
+   "0x8c54d29be70b29b6ed5805e973ea4e1f5f503172",
+   "0x9188468acb8206b4835cc1f1a177a80f34f28f80",
+   "0x9bc7e7b5aadb693170ef909c09ec40ab0a1d55af",
+   "0x9c043676c4d643e6f5612dd659af992835673837",
+   "0x9d369f1db0ff3682c96177d6789da96f94b8f654",
+   "0x9f5029bbe1d3627c66f82d7d11cb042fc26e3eca",
+   "0xa693e56e496a13658ab9e3efafa7e13e846a8780",
+   "0xa782be78c03f561f4f5f96c3de91229a0272b837",
+   "0xa867269114545afe8066006eccdf6d20d382169b",
+   "0xafc6fb8c9badba6ae85af9a5cbce13313632f63b",
+   "0xb25f17605c0196f008a3014476ca497b49fe52f3",
+   "0xbb0dedc26165364aacc0fa5575cbb8bdcfc582b0",
+   "0xbcaeaeab2a138b862f1481958c6ed1cc757dbcb0",
+   "0xc161b5be96f3a52042de6d27821defe51021e726",
+   "0xc9df9abe17dac7d447f9e05696b97f8706759a05",
+   "0xcc475e59a367f2c4f885c0250cc2507e92a80d78",
+   "0xcc4a67bd3f785120a16f1edd51eb53ab49ac029a",
+   "0xcd51141c29a3116c7b3222526a7608d5d571fd05",
+   "0xcdefc0846cc0e95d2f6a221bf469e96b986e96b4",
+   "0xd07531d6ab5fe7aa08fa4ee01844ce64cb9483b5",
+   "0xd37efe2e4d614db0f29bf55e18edaa7df7392537",
+   "0xd601d96450fb29532d22e2a79fe40448563b7660",
+   "0xe92a7e28c587b1f027f40006499b2ea2214a7760",
+   "0xeb69a20fba1b2f3098f54a670411dd1d648da65e",
+   "0xf15b3efd2d5c9f444371a49a5124ba6b0d0f4545",
+   "0xf38029032a093169f3e0d8a1d22b15712881ff20",
+   "0xf3e430d5194f6d759da2b821229fc5ddaa473200",
+   "0xf89c6636ab4d3450ead74b24d456b79d2e7bf53e",
+   "0xfacd7a3686c1d803f62db4730b47d119be8b5ebc",
+   "0xfe74f54c0007264198283cb0e238479eb5e871fe"
+  ],
+  "definition": "a broadcast transfer whose named sender is a registry-verified token; evidence of fabricated provenance, independent of the payload strings the detector reads",
+  "recipient_share": 0.505231118432556,
+  "recipients": 6995472,
+  "row_share": 0.498611146517732,
+  "rows": 11911386
+ },
+ "impersonation": {
+  "note": "named_as_from counts rows asserting the target as sender. emitted_by_self counts those the target itself emitted. A forged sender field predicts emitted_by_self == 0.",
+  "targets": [
+   {
+    "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "emitted_by_self": 2,
+    "named_as_from": 22474942,
+    "own_logs": 127372816,
+    "own_logs_naming_self": 1964
+   },
+   {
+    "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+    "emitted_by_self": 0,
+    "named_as_from": 3537099,
+    "own_logs": 739221442,
+    "own_logs_naming_self": 292
+   },
+   {
+    "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+    "emitted_by_self": 0,
+    "named_as_from": 656576,
+    "own_logs": 165730187,
+    "own_logs_naming_self": 560
+   },
+   {
+    "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+    "emitted_by_self": 0,
+    "named_as_from": 213547,
+    "own_logs": 319782077,
+    "own_logs_naming_self": 0
+   },
+   {
+    "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+    "emitted_by_self": 0,
+    "named_as_from": 131114,
+    "own_logs": 24863430,
+    "own_logs_naming_self": 35
+   },
+   {
+    "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "emitted_by_self": 0,
+    "named_as_from": 51268,
+    "own_logs": 661051846,
+    "own_logs_naming_self": 0
+   },
+   {
+    "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+    "emitted_by_self": 0,
+    "named_as_from": 7000,
+    "own_logs": 86405241,
+    "own_logs_naming_self": 51
+   }
+  ]
+ },
+ "lure_contracts_expected": 149,
+ "lure_contracts_observed": 149,
+ "lure_rows_matched": 23889129,
+ "lure_transfers_by_contract": {
+  "0x00df20f0fba762b7ad46db94c7911f72e0d69fbd": 327797,
+  "0x00e2e7bfd5fe5f70965e6336b2587c167fc2dcd7": 117720,
+  "0x0277e11bc900b6a7edce05cbb07c14492c22eff4": 221102,
+  "0x02950289a5b5f52c545a7f8489647cd99f80f341": 262080,
+  "0x03072a044a7fdd4031b86a8c83d0feb5d04ace8c": 70098,
+  "0x03bbb3e3f200113ff29af7746bd702505822b40c": 62490,
+  "0x0759e382349ed291bc2182d2ee1a35231fe3de47": 76701,
+  "0x087f9137a3690369507cf48650ba8a9a499218c9": 75001,
+  "0x0d6cf126f9547c07372031bf784f2a8111af595b": 74395,
+  "0x0ecacb5b2204d26717fb6464a80d05e9fdb706f0": 175336,
+  "0x10511280d22f00bbb294c632a5afff415fd602f5": 74948,
+  "0x118b9aa48235d7b55b87ec3c741c8e0dfea6d859": 176000,
+  "0x119f4168ce63fcfb471ef36f9914376929e44382": 176850,
+  "0x11c91ef80a6f3e1fe96ff523408d0dbf67047aad": 151222,
+  "0x120ca4c2117c042cf8068f7ccaf954e2e9e2d47e": 124716,
+  "0x16bbd3f6845f8f16a951d27d14398e2bd0011257": 198643,
+  "0x17c074e90372ac53ff98ca24c3745e6e38717c14": 99990,
+  "0x17df5466841c685ee60d7d6676cb724486d152a2": 430542,
+  "0x19a58d72413c38cc8d76ddfbdf8f6bea62341981": 105533,
+  "0x1b1db0695166df4a43907510bac46dd79de2753a": 70645,
+  "0x2008850053882856784f973cbe61ea3b97ed3ed2": 100501,
+  "0x21c835001cd869f86edd0e33acda8215f8f707e9": 100001,
+  "0x2360d57fea3d881ca76eaee5f12201f35dcc53c4": 314069,
+  "0x24e48d7113623e6ea2c4345487fc374897fddfe1": 112312,
+  "0x2610b04b069754c36e11e03d5ad266c1bfcd4951": 517001,
+  "0x271f9b4745a982da790f733cb7aebc7ef4457b8c": 62052,
+  "0x27d79eb091c11d4223b02a6b5d77f62981abde62": 83851,
+  "0x2a2b59b4408c061ce84c4d7747ec46750b65f332": 108462,
+  "0x2b239e96c4521d52104bbe37b1d02620594146e3": 74103,
+  "0x2fc6f75b0d9f0e6d4c4c2a3469009841aaa739cd": 92501,
+  "0x3107a421d3bce325fdfb05f40bc0463c2145c98a": 70388,
+  "0x3138f3c3d73e66d7679b2494fd2f05608c969cbc": 88198,
+  "0x31e47d2d842533eff3ccfd7cc408992c420ef8be": 146953,
+  "0x31ea4712acf1cb69741fd257a9bd2aa83a049476": 69000,
+  "0x37e54c2cecb34e531fc1e4c44fb001e93212d1ac": 134702,
+  "0x38db8271f55f91008c7f359505cc1b9053f3baa5": 131365,
+  "0x390c48b2569fd7ef238ba0278b0ec08b14f81049": 80376,
+  "0x3ce5c12a1c5850f301736685ef4ad9b26251dd65": 86788,
+  "0x3e03ea857abe7ecdf76af7e6ce66d7d418e878b3": 164340,
+  "0x41e531966941327a65be60463e874b1049466c67": 90801,
+  "0x42c35b14e6f163ea0a625c919dd95f5a3a594c19": 650422,
+  "0x42d55691ce91691109e54b56b7c2691f68fa78b2": 102564,
+  "0x42dd4434c9b2fe93ba47e18fb081776ecd323df0": 99577,
+  "0x43b9648fc34ed03bd642fc494b05d3ff0e7a2914": 788001,
+  "0x43c4717e367e35bd65c04c9c8e646b7a51679670": 63411,
+  "0x44210862f7d78826aa13b0dae1148fc5264b4176": 435236,
+  "0x445a27c4a4d90a865092b0fc4ebe99b16ef6a696": 364566,
+  "0x483bddd46e5d0ce955b202a42c2bae5ae98fcc66": 190002,
+  "0x48568ab8836bcb19b5e57ee2d84285638e77ec52": 91062,
+  "0x4ad5cc13a8be82c776089622879dec7495acf93c": 157081,
+  "0x4c977284a687f7ed124f38f5ff84a8f2b5c6ba69": 202000,
+  "0x5022b61f8aedb9914c65d8a3d6038ff8c12b53cb": 186927,
+  "0x518ae411ac78577c5add8b943382cd94391689c7": 70101,
+  "0x51b5b3b0b72bb19b0a0e92f2690ea6caae4f2f87": 108127,
+  "0x52723a53cb5b4ace955914c7cc0a21d6ea77cb9a": 226837,
+  "0x52ea899225864633d9d72dc5ed32fa44bdd50dce": 93369,
+  "0x53c0ef85518ddfb67d88c88c63e53fb0ad2dc66f": 137131,
+  "0x5d579bef6ce86ab200a6af3a2c12b5211bf34a0f": 176891,
+  "0x5f44709402a00ea932e3902d9c554a53b0d7c501": 92868,
+  "0x611b8fc01d07aa931e9480de93f99ba743708d1e": 64662,
+  "0x613e079ffe199e1634363477028022b4b0afcc28": 63106,
+  "0x670ad3cf05b5c49b75608f4401e6f0661d04b0fb": 64001,
+  "0x6b76f8c23ff014ccf110e1e003a0003990f909c4": 203469,
+  "0x6c8a135795aa09643836182ebd4ee550d478d34b": 148626,
+  "0x6c96cc56f4ac5e351075a8d31f4ddd48ae27ded5": 145187,
+  "0x73fcafc42abb43a408bde4b37eafccdadcb2b554": 72001,
+  "0x76e3c719ee614f2b7c8107b97c78ddfd3cf3294a": 65090,
+  "0x773d4248d27d8b42c8c3e19726b6de5be423ae59": 150000,
+  "0x77fe84f8b482c5fad4275a280fd1a9dbad5a8d08": 93622,
+  "0x7bb2447fec273c42e21405a91f06cb037919d267": 156652,
+  "0x7bdb6249a04f24a7a4732a226b01e83b379bf491": 84898,
+  "0x7cbdc25121e0f49bf412a7c6b541b12ca4e0351f": 86798,
+  "0x7d2facfce7ce75204bac3ae05e23eaa9ded61e49": 102826,
+  "0x7f9c4557fdb7d939239e77e66d27da69bf0ea14e": 164177,
+  "0x8030b0966b55a2573699ea37dc2dc71262c2f76e": 94740,
+  "0x81566c24635854c82646eb9622eb1e611c18096c": 187351,
+  "0x81ff58b3a356684ea54938cb2b3855798d7ac4db": 94475,
+  "0x84fd98903b7fbbc0f80a103b56a25947b118e157": 66091,
+  "0x858824699726bde47d8a1a1f578ada760f6547d7": 64001,
+  "0x8745535718bb82e1aac6d4ce5546587e2e703e5e": 73712,
+  "0x8bc3051e5ae5ec07b1246b1bd25f1ecb2443ca1b": 199000,
+  "0x8c54d29be70b29b6ed5805e973ea4e1f5f503172": 346058,
+  "0x8e4ae2e42460181b2ea05da2f23bee26fd65aa0e": 69970,
+  "0x9088039bdc9f77841a3b5ebadac742845ac33df6": 200000,
+  "0x9188468acb8206b4835cc1f1a177a80f34f28f80": 78001,
+  "0x95e8799b6c3c7942e321ff95ee0a656fefe20bda": 62368,
+  "0x96c708e060cdc5b8c6ac6a015db0b10833f74157": 73457,
+  "0x9bc7e7b5aadb693170ef909c09ec40ab0a1d55af": 137928,
+  "0x9c043676c4d643e6f5612dd659af992835673837": 104448,
+  "0x9ca4254d31c23bb62edabad98c256f59966214b6": 112238,
+  "0x9d369f1db0ff3682c96177d6789da96f94b8f654": 161519,
+  "0x9dc2fad46408bee1cc5a8c0b9f1fb55b010d96bf": 68131,
+  "0x9f5029bbe1d3627c66f82d7d11cb042fc26e3eca": 272505,
+  "0xa2104b56dee875f8d792baddf1e3810f4d254822": 116197,
+  "0xa693e56e496a13658ab9e3efafa7e13e846a8780": 108989,
+  "0xa782be78c03f561f4f5f96c3de91229a0272b837": 405807,
+  "0xa867269114545afe8066006eccdf6d20d382169b": 176096,
+  "0xaa01fc0b4575adb478b10296f8b31a2d1b91cd33": 232624,
+  "0xaae35b199f321a0af36415fc279b46da96f45c0f": 71856,
+  "0xafab2d457bf5edbedba32c5b5ea47bf35fb48f78": 138446,
+  "0xafc6fb8c9badba6ae85af9a5cbce13313632f63b": 221039,
+  "0xb167a1a597a3d32ec997d8e2ef6e64d98792e49f": 117692,
+  "0xb1e6462a2340fb6ef08a221a0bad6ed036d302c8": 73911,
+  "0xb25f17605c0196f008a3014476ca497b49fe52f3": 107521,
+  "0xb776cf13250b071c47b9971fbb933879f1864a30": 94801,
+  "0xb8d8d017c93903430ac0d4bd3aac1f3d0782bd92": 72688,
+  "0xbb0dedc26165364aacc0fa5575cbb8bdcfc582b0": 84300,
+  "0xbbda1ec15b789ee4ce5fbe5d847fe8283d5d1105": 90000,
+  "0xbc09b8b5fbaddf71011dc927a4140e9da937643e": 249850,
+  "0xbcaeaeab2a138b862f1481958c6ed1cc757dbcb0": 274759,
+  "0xbe9460b50f515169e14545aaddf60b3c9db7e5fb": 227501,
+  "0xbfb0e54e715a8c2bf4f8aa95789833ad2a93150f": 199540,
+  "0xc161b5be96f3a52042de6d27821defe51021e726": 93034,
+  "0xc2cf0df2a5252c4d250c93f35da104c7950d20dd": 100926,
+  "0xc5c2768e3621b258aad607e4448ca050d3dd9c2b": 620434,
+  "0xc9a2d82426615b129881cd6cf216e4291ddfb3ab": 370000,
+  "0xc9df9abe17dac7d447f9e05696b97f8706759a05": 129573,
+  "0xca51cf6867c156347fcc63531fb18e808f427e12": 223917,
+  "0xcc475e59a367f2c4f885c0250cc2507e92a80d78": 117937,
+  "0xcc4a67bd3f785120a16f1edd51eb53ab49ac029a": 92194,
+  "0xcd51141c29a3116c7b3222526a7608d5d571fd05": 72266,
+  "0xcdefc0846cc0e95d2f6a221bf469e96b986e96b4": 461906,
+  "0xcfed73ab504bc195754046ee909dfd2cc3935f55": 147680,
+  "0xd07531d6ab5fe7aa08fa4ee01844ce64cb9483b5": 165611,
+  "0xd37efe2e4d614db0f29bf55e18edaa7df7392537": 245476,
+  "0xd601d96450fb29532d22e2a79fe40448563b7660": 176782,
+  "0xd978b7613c601538554cbbaa2d6b122409df8c44": 66544,
+  "0xda90c6fd3a194c84a7969c73e17d77378f09db25": 117000,
+  "0xdb143335e9dece312ec0790202abae535107c1a4": 78266,
+  "0xdf109e2b175038c66e074bfeacf37d7b0f3e426c": 107599,
+  "0xdf682541e9e46592d94b9bda48298ee4315a6476": 496109,
+  "0xe42dc6090b9b8eb3b17222e08e39232faf4549b2": 175381,
+  "0xe92a7e28c587b1f027f40006499b2ea2214a7760": 88266,
+  "0xeb20d633b07dc8a9eef9c180950c55b18898ed8a": 64539,
+  "0xeb69a20fba1b2f3098f54a670411dd1d648da65e": 86442,
+  "0xecb94cfe185711b6fafd11e3220e6a7afde3a0f3": 122146,
+  "0xecf164d3ae03b66ff3d4a51b557e8d58a01ce4f7": 116007,
+  "0xeea68078b6cd15bc9a21a5bb3fae3e94d163ab96": 153788,
+  "0xf0cd8d7983282996921312e5bbf97971753713e8": 184834,
+  "0xf15b3efd2d5c9f444371a49a5124ba6b0d0f4545": 90001,
+  "0xf224dbc383874ecf3d8c1a63736fd914c30448a3": 152222,
+  "0xf38029032a093169f3e0d8a1d22b15712881ff20": 345578,
+  "0xf3e430d5194f6d759da2b821229fc5ddaa473200": 101526,
+  "0xf4079e0741419783859890aee4d33ceea41efecf": 336037,
+  "0xf635e0e9f4243971a6d69c4ac15f6985d493c8a5": 63543,
+  "0xf74f32e413aafd5c1972ac6a64b43254c1697e52": 237505,
+  "0xf89c6636ab4d3450ead74b24d456b79d2e7bf53e": 155013,
+  "0xfacd7a3686c1d803f62db4730b47d119be8b5ebc": 92885,
+  "0xfe74f54c0007264198283cb0e238479eb5e871fe": 309691
+ },
+ "match_key": "low 20 bytes of the address and of each participant topic, compared as 40-character lowercase hex; independent of topic padding width",
+ "partial": false,
+ "probe": {
+  "absent": true,
+  "addresses": [
+   "0x3b6056ff037072be7e7b62efcdb5639cf08dfa4a",
+   "0xa735a3609ec3b701f29e0ea5b066d799a8ba8af8"
+  ],
+  "interpretation": "the ledger test in forgery_probe.py requires these addresses to be unknown to the chain; occurrences_in_chain == 0 establishes that by measurement rather than by appeal to improbability. Counted over both participant fields of every row.",
+  "occurrences_in_chain": 0,
+  "seed": "balance-probe"
+ },
+ "row_groups": 3137,
+ "rows_per_second": 26862010,
+ "rows_scanned": 3236121548,
+ "scope": "FULL CHAIN -- every row group scanned",
+ "totals": {
+  "of_which_emitted_by_that_token": 2,
+  "registry_own_logs": 2140077033,
+  "registry_own_logs_naming_self": 2902,
+  "rows_naming_a_registry_token_as_sender": 27071546
+ },
+ "wall_seconds": 120.5,
+ "workers": 12
+}

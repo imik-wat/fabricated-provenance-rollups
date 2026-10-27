@@ -1,0 +1,73 @@
+{
+ "bootstrap_over_sources": {
+  "ci95": [
+   0.9666477247486328,
+   1.1666691020055011
+  ],
+  "excludes_one": false,
+  "interpretation": "between-source variability: how much Theta would move if a different set of campaigns and distributors had been observed",
+  "replicates": 10000
+ },
+ "chain": "base",
+ "granularity": {
+  "act_edges": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   13,
+   17,
+   25,
+   40,
+   70,
+   150,
+   400,
+   1000
+  ],
+  "n_era": 50,
+  "n_strata": 1547,
+  "note": "Theta varied by 2% across a 200x granularity range; see strata_sweep"
+ },
+ "label_permutation": {
+  "interpretation": "pool all sources and reassign the lure/calibration labels at fixed group sizes; tests the distinction directly",
+  "null_median": 1.0676086971996042,
+  "p_at_resolution_bound": false,
+  "p_value": 0.402959704029597,
+  "replicates": 10000
+ },
+ "list_size_distribution": {
+  "calibration": {
+   "max": 127161,
+   "median": 1386,
+   "min": 1
+  },
+  "caveat": "label permutation assumes the two families are exchangeable under the null. They differ in list size; O/E normalises for list size and stratum profile, but the distributions are reported so a reader can judge the assumption.",
+  "lure": {
+   "max": 85759,
+   "median": 5611,
+   "min": 1
+  }
+ },
+ "oe_calibration": 1.5332479009028286,
+ "oe_lure": 1.6249654681375996,
+ "sources": {
+  "calibration": 767,
+  "dropped_zero_expected": [],
+  "lure": 30
+ },
+ "theta": 1.0598191376494073,
+ "wilson_on_hits": {
+  "calibration": [
+   0.39806732835726344,
+   0.39899059878676024
+  ],
+  "lure": [
+   0.4219441681892229,
+   0.4249393301341175
+  ]
+ }
+}

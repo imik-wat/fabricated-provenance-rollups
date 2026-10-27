@@ -1,0 +1,8 @@
+{
+ "source": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt",
+ "version_line": "# Version 2026081200, Last Updated Wed Aug 12 07:07:01 2026 UTC",
+ "count": 1438,
+ "sha256": "5ab1ffab12169150ee205d99541d9ccc6a499fd24f76b08b6191a6431456046a",
+ "accessed": "2026-08-12T10:30:56Z",
+ "why": "Vendored so no network is touched at analysis time, and pinned so the TLD set is a recorded input rather than an author choice."
+}

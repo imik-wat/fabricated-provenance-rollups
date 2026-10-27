@@ -1,0 +1,1793 @@
+{
+ "by_registry": {
+  "registry_matches": 48,
+  "registry_whitespace_only": 1
+ },
+ "by_verdict": {
+  "stable": 49
+ },
+ "caveats": [
+  "no_code_at_height means the contract did not yet exist at that height; it is not a metadata change and is excluded from the comparison rather than counted either way.",
+  "rpc_error is neither agreement nor disagreement. Silence is never read as stability.",
+  "The heights are the campaign's first and last block, which bracket the contract's emission window but need not be blocks at which this particular contract emitted.",
+  "Historical readings are compared with an end-block reading taken by the same code, not with the stored registry, so that a collection-time capture difference cannot be reported as a change over time. The stored-versus-chain comparison is reported separately under by_registry."
+ ],
+ "chain": "zksync-era",
+ "changed_contracts": [],
+ "comparable_contracts": 49,
+ "comparable_coverage": 1.0,
+ "corpus_end_block": 71454452,
+ "endpoint": "https://mainnet.era.zksync.io",
+ "flagged_contracts": 49,
+ "question": "does the collection-time metadata match what the contract reported inside its own emission window? Comparable contracts are those answering at a historical height; the rest are reported, not assumed to agree.",
+ "records": {
+  "0x006f916db2b2341581a0d12d139ebba1878c1793": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "Claim on: zk-claim.io",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36801844,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 36809465,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "Claim on: zk-claim.io",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zk-claim.io",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "Claim on: zk-claim.io",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "Claim on: zk-claim.io"
+   },
+   "verdict": "stable"
+  },
+  "0x058ee9f027ad425308f8d072ca95c7bfe7e12554": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: zk-official.live",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 38327844,
+     "matches_end": true,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: zk-official.live",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 70841594,
+     "matches_end": true,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: zk-official.live",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zk-official.live",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "zkSync (ZK)",
+    "symbol": "Claim on: zk-official.live",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "zkSync (ZK)",
+    "symbol": "Claim on: zk-official.live"
+   },
+   "verdict": "stable"
+  },
+  "0x07247258731899ecabe9168c23452494685cdc59": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "Claim on: zk-claim.io",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36801844,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 36809465,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "Claim on: zk-claim.io",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zk-claim.io",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "Claim on: zk-claim.io",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "Claim on: zk-claim.io"
+   },
+   "verdict": "stable"
+  },
+  "0x0b095b7e99534bd48cb8d6d61b578bed3c9e9006": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "# blast2l.com",
+     "symbol": "Visit blast2l.com to claim rewards",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 29480071,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 29589349,
+     "matches_end": true,
+     "name": "# blast2l.com",
+     "symbol": "Visit blast2l.com to claim rewards",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "blast2l.com",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "# blast2l.com",
+    "symbol": "Visit blast2l.com to claim rewards",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "# blast2l.com",
+    "symbol": "Visit blast2l.com to claim rewards"
+   },
+   "verdict": "stable"
+  },
+  "0x0dcecb7ad7bad5ad931a2c07fff56b9917bcc3d9": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "!ZK (Claim on zkscoin.xyz)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36127275,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "!ZK (Claim on zkscoin.xyz)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 36328100,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "!ZK (Claim on zkscoin.xyz)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zkscoin.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "!ZK (Claim on zkscoin.xyz)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "!ZK (Claim on zkscoin.xyz)"
+   },
+   "verdict": "stable"
+  },
+  "0x1c4aa8a3a75c138edb9e4128f8ff5d6d2a0f204b": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "ZK (Claim on airdropzk.xyz)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36461193,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "ZK (Claim on airdropzk.xyz)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 36478589,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "ZK (Claim on airdropzk.xyz)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "airdropzk.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "ZK (Claim on airdropzk.xyz)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "ZK (Claim on airdropzk.xyz)"
+   },
+   "verdict": "stable"
+  },
+  "0x1e842099827fbe58de73a807f56189a36797f1cc": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": " OdosLoyalty.org",
+     "symbol": "ODOS-LP (claim: www.odosloyalty.org)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 54061863,
+     "matches_end": true,
+     "name": " OdosLoyalty.org",
+     "symbol": "ODOS-LP (claim: www.odosloyalty.org)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 54735171,
+     "matches_end": true,
+     "name": " OdosLoyalty.org",
+     "symbol": "ODOS-LP (claim: www.odosloyalty.org)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "odosloyalty.org",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": " OdosLoyalty.org",
+    "symbol": "ODOS-LP (claim: www.odosloyalty.org)",
+    "verdict": "answered"
+   },
+   "registry": "registry_whitespace_only",
+   "stored": {
+    "name": "OdosLoyalty.org",
+    "symbol": "ODOS-LP (claim: www.odosloyalty.org)"
+   },
+   "verdict": "stable"
+  },
+  "0x1f974dd7b0472beae9b9e54c6728299e4124c0d7": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "Claim on: airdrop-zk.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36897235,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 52454936,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "Claim on: airdrop-zk.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "airdrop-zk.com",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "Claim on: airdrop-zk.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "Claim on: airdrop-zk.com"
+   },
+   "verdict": "stable"
+  },
+  "0x24cec6e2f5dab73503d47a1a2859e1a2d267a393": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "UNIswap",
+     "symbol": "UNI rewards on getunib.pro",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 38416977,
+     "matches_end": true,
+     "name": "UNIswap",
+     "symbol": "UNI rewards on getunib.pro",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 38591621,
+     "matches_end": true,
+     "name": "UNIswap",
+     "symbol": "UNI rewards on getunib.pro",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "getunib.pro",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "UNIswap",
+    "symbol": "UNI rewards on getunib.pro",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "UNIswap",
+    "symbol": "UNI rewards on getunib.pro"
+   },
+   "verdict": "stable"
+  },
+  "0x2f851600a2cdba2163b791460663f0b0da4fdc90": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "Claim on: airdrop-zk.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36897235,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "Claim on: airdrop-zk.com",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 52454936,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "Claim on: airdrop-zk.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "airdrop-zk.com",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "Claim on: airdrop-zk.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "Claim on: airdrop-zk.com"
+   },
+   "verdict": "stable"
+  },
+  "0x447959474f42e6ac72381047e90dc7923c013158": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "$ZKpepe",
+     "symbol": "$ZKpepe (Claim on zkpepe.pro)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36655482,
+     "matches_end": true,
+     "name": "$ZKpepe",
+     "symbol": "$ZKpepe (Claim on zkpepe.pro)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 36808096,
+     "matches_end": true,
+     "name": "$ZKpepe",
+     "symbol": "$ZKpepe (Claim on zkpepe.pro)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zkpepe.pro",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "$ZKpepe",
+    "symbol": "$ZKpepe (Claim on zkpepe.pro)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$ZKpepe",
+    "symbol": "$ZKpepe (Claim on zkpepe.pro)"
+   },
+   "verdict": "stable"
+  },
+  "0x4cd3819b55a48c072361808e26a90b700760d58f": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: airdrop-zk.live",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 38654426,
+     "matches_end": true,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: airdrop-zk.live",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 60214008,
+     "matches_end": true,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: airdrop-zk.live",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "airdrop-zk.live",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "zkSync (ZK)",
+    "symbol": "Claim on: airdrop-zk.live",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "zkSync (ZK)",
+    "symbol": "Claim on: airdrop-zk.live"
+   },
+   "verdict": "stable"
+  },
+  "0x4e72cd795acb63e4922fe22d2d6af501a03a5b32": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: official-zk.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36963232,
+     "matches_end": true,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: official-zk.com",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 54003725,
+     "matches_end": true,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: official-zk.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "official-zk.com",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "zkSync (ZK)",
+    "symbol": "Claim on: official-zk.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "zkSync (ZK)",
+    "symbol": "Claim on: official-zk.com"
+   },
+   "verdict": "stable"
+  },
+  "0x590a3c37f465e7662a997f755edbcf9e65536617": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "LiquidEther",
+     "symbol": "Eth rewards on ethstk.xyz",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36816362,
+     "matches_end": true,
+     "name": "LiquidEther",
+     "symbol": "Eth rewards on ethstk.xyz",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 37565902,
+     "matches_end": true,
+     "name": "LiquidEther",
+     "symbol": "Eth rewards on ethstk.xyz",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "ethstk.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "LiquidEther",
+    "symbol": "Eth rewards on ethstk.xyz",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "LiquidEther",
+    "symbol": "Eth rewards on ethstk.xyz"
+   },
+   "verdict": "stable"
+  },
+  "0x668e9cb30cbcae57cd0c45cb2a2a4ca0413f8b45": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "LiquidEther",
+     "symbol": "ETH rewards on ethstk.pro",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37381779,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38033463,
+     "matches_end": true,
+     "name": "LiquidEther",
+     "symbol": "ETH rewards on ethstk.pro",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "ethstk.pro",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "LiquidEther",
+    "symbol": "ETH rewards on ethstk.pro",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "LiquidEther",
+    "symbol": "ETH rewards on ethstk.pro"
+   },
+   "verdict": "stable"
+  },
+  "0x699ba8547aa1a6998372cdf6284fac0b59849ee4": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: official-zk.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36963232,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 54003725,
+     "matches_end": true,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: official-zk.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "official-zk.com",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "zkSync (ZK)",
+    "symbol": "Claim on: official-zk.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "zkSync (ZK)",
+    "symbol": "Claim on: official-zk.com"
+   },
+   "verdict": "stable"
+  },
+  "0x6ac88f53a5b0b34821aebc961c0e580b74a84761": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "$zK",
+     "symbol": "Visit https://claimzk.xyz to claim airdrop",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32629989,
+     "matches_end": true,
+     "name": "$zK",
+     "symbol": "Visit https://claimzk.xyz to claim airdrop",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 32882999,
+     "matches_end": true,
+     "name": "$zK",
+     "symbol": "Visit https://claimzk.xyz to claim airdrop",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "claimzk.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "$zK",
+    "symbol": "Visit https://claimzk.xyz to claim airdrop",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$zK",
+    "symbol": "Visit https://claimzk.xyz to claim airdrop"
+   },
+   "verdict": "stable"
+  },
+  "0x719734ee88cfd6dfa209bfe80124893841ba2e70": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "$zK",
+     "symbol": "Visit https://zk-drop.xyz to claim rewards",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 26937226,
+     "matches_end": true,
+     "name": "$zK",
+     "symbol": "Visit https://zk-drop.xyz to claim rewards",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 27125621,
+     "matches_end": true,
+     "name": "$zK",
+     "symbol": "Visit https://zk-drop.xyz to claim rewards",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zk-drop.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "$zK",
+    "symbol": "Visit https://zk-drop.xyz to claim rewards",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$zK",
+    "symbol": "Visit https://zk-drop.xyz to claim rewards"
+   },
+   "verdict": "stable"
+  },
+  "0x72cc87e070550a202c9cbe20c206d994e6cea156": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "Visit getzks.xyz to claim ZK",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 35727945,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "Visit getzks.xyz to claim ZK",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 36081944,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "Visit getzks.xyz to claim ZK",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "getzks.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "Visit getzks.xyz to claim ZK",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "Visit getzks.xyz to claim ZK"
+   },
+   "verdict": "stable"
+  },
+  "0x77ba9a5fb48161dd9b5cb2a64d50beedd3f5eb34": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "$zK",
+     "symbol": "Visit https://zkclaim.xyz to claim reward",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32287831,
+     "matches_end": true,
+     "name": "$zK",
+     "symbol": "Visit https://zkclaim.xyz to claim reward",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 32306929,
+     "matches_end": true,
+     "name": "$zK",
+     "symbol": "Visit https://zkclaim.xyz to claim reward",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zkclaim.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "$zK",
+    "symbol": "Visit https://zkclaim.xyz to claim reward",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$zK",
+    "symbol": "Visit https://zkclaim.xyz to claim reward"
+   },
+   "verdict": "stable"
+  },
+  "0x7bc4c0e92252a5c8fe894f51f0472e866fd77377": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "zkGas",
+     "symbol": "ZKG (Claim: zkGas.site)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 47531915,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 71437851,
+     "matches_end": true,
+     "name": "zkGas",
+     "symbol": "ZKG (Claim: zkGas.site)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zkgas.site",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "zkGas",
+    "symbol": "ZKG (Claim: zkGas.site)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "zkGas",
+    "symbol": "ZKG (Claim: zkGas.site)"
+   },
+   "verdict": "stable"
+  },
+  "0x7df6b29346021a2aaa756daa84ca1fba684e2aca": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "Claim on: zk-claim.io",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36801844,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "Claim on: zk-claim.io",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 36809465,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "Claim on: zk-claim.io",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zk-claim.io",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "Claim on: zk-claim.io",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "Claim on: zk-claim.io"
+   },
+   "verdict": "stable"
+  },
+  "0x8191dad78015e1b12307bc8799d1ded644819cf6": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "Claim on: zk-claim.io",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36801844,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 36809465,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "Claim on: zk-claim.io",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zk-claim.io",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "Claim on: zk-claim.io",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "Claim on: zk-claim.io"
+   },
+   "verdict": "stable"
+  },
+  "0x82d6798e2a22643f6102e5d89407ed9059d20a8b": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "Claim on: Bonus-zk.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37306012,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "Claim on: Bonus-zk.com",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 39909598,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "Claim on: Bonus-zk.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "bonus-zk.com",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "Claim on: Bonus-zk.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "Claim on: Bonus-zk.com"
+   },
+   "verdict": "stable"
+  },
+  "0x924e8f55781026846028ed75c73d4b7f64360934": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "zkSync",
+     "symbol": "CLAIM ON [zk-ethers.com]",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36824031,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 36860619,
+     "matches_end": true,
+     "name": "zkSync",
+     "symbol": "CLAIM ON [zk-ethers.com]",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zk-ethers.com",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "zkSync",
+    "symbol": "CLAIM ON [zk-ethers.com]",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "zkSync",
+    "symbol": "CLAIM ON [zk-ethers.com]"
+   },
+   "verdict": "stable"
+  },
+  "0x92d63efa4d0969f5a09afa63c84b1375a65b3c9d": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "$zK",
+     "symbol": "Visit https://zk-claim.xyz to claim rewards",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 26558578,
+     "matches_end": true,
+     "name": "$zK",
+     "symbol": "Visit https://zk-claim.xyz to claim rewards",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 26626249,
+     "matches_end": true,
+     "name": "$zK",
+     "symbol": "Visit https://zk-claim.xyz to claim rewards",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zk-claim.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "$zK",
+    "symbol": "Visit https://zk-claim.xyz to claim rewards",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$zK",
+    "symbol": "Visit https://zk-claim.xyz to claim rewards"
+   },
+   "verdict": "stable"
+  },
+  "0x952b39d59528f90f920c559651031573aad1a038": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "zkSync",
+     "symbol": "CLAIM ON [zk-ethers.com]",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36824031,
+     "matches_end": true,
+     "name": "zkSync",
+     "symbol": "CLAIM ON [zk-ethers.com]",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 36860619,
+     "matches_end": true,
+     "name": "zkSync",
+     "symbol": "CLAIM ON [zk-ethers.com]",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zk-ethers.com",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "zkSync",
+    "symbol": "CLAIM ON [zk-ethers.com]",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "zkSync",
+    "symbol": "CLAIM ON [zk-ethers.com]"
+   },
+   "verdict": "stable"
+  },
+  "0xa0b4c7492c1ab7bc02bd7345fdd32b0e9e19b80d": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "LiquidEther",
+     "symbol": "OETH rewards on ethstk.pro",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37381779,
+     "matches_end": true,
+     "name": "LiquidEther",
+     "symbol": "OETH rewards on ethstk.pro",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 38033463,
+     "matches_end": true,
+     "name": "LiquidEther",
+     "symbol": "OETH rewards on ethstk.pro",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "ethstk.pro",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "LiquidEther",
+    "symbol": "OETH rewards on ethstk.pro",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "LiquidEther",
+    "symbol": "OETH rewards on ethstk.pro"
+   },
+   "verdict": "stable"
+  },
+  "0xa1d0e1e4dc2caeb0c3f47d46d95b17eda32dfe3e": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "zkGas",
+     "symbol": "ZKG (Claim: zkGas.site)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 47531915,
+     "matches_end": true,
+     "name": "zkGas",
+     "symbol": "ZKG (Claim: zkGas.site)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 71437851,
+     "matches_end": true,
+     "name": "zkGas",
+     "symbol": "ZKG (Claim: zkGas.site)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zkgas.site",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "zkGas",
+    "symbol": "ZKG (Claim: zkGas.site)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "zkGas",
+    "symbol": "ZKG (Claim: zkGas.site)"
+   },
+   "verdict": "stable"
+  },
+  "0xa3eadcca18b3b82f381e0f1aaacac65bd17c5414": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "!ZK",
+     "symbol": "!ZK (Claim on zkbget.xyz)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37305941,
+     "matches_end": true,
+     "name": "!ZK",
+     "symbol": "!ZK (Claim on zkbget.xyz)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 37808177,
+     "matches_end": true,
+     "name": "!ZK",
+     "symbol": "!ZK (Claim on zkbget.xyz)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zkbget.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "!ZK",
+    "symbol": "!ZK (Claim on zkbget.xyz)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "!ZK",
+    "symbol": "!ZK (Claim on zkbget.xyz)"
+   },
+   "verdict": "stable"
+  },
+  "0xa5088efb04c2f3a286c02af11b97014bb557823a": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "$zK",
+     "symbol": "Visit https://zk-drop.xyz to claim airdrop",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 26937226,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 27125621,
+     "matches_end": true,
+     "name": "$zK",
+     "symbol": "Visit https://zk-drop.xyz to claim airdrop",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zk-drop.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "$zK",
+    "symbol": "Visit https://zk-drop.xyz to claim airdrop",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$zK",
+    "symbol": "Visit https://zk-drop.xyz to claim airdrop"
+   },
+   "verdict": "stable"
+  },
+  "0xab972590517eb0add95dec2c00f6e096b1d91e00": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "ZK (Claim on getzk.pro)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36389958,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "ZK (Claim on getzk.pro)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 41643442,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "ZK (Claim on getzk.pro)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "getzk.pro",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "ZK (Claim on getzk.pro)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "ZK (Claim on getzk.pro)"
+   },
+   "verdict": "stable"
+  },
+  "0xac830640bd82b9597b61a2904aa900202f7dcc1b": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: zk-official.live",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 38327844,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 70841594,
+     "matches_end": true,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: zk-official.live",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zk-official.live",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "zkSync (ZK)",
+    "symbol": "Claim on: zk-official.live",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "zkSync (ZK)",
+    "symbol": "Claim on: zk-official.live"
+   },
+   "verdict": "stable"
+  },
+  "0xadd319b226d3e3b622eb4fdda63656326d46de4d": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "!ZK (Claim on zkget.xyz)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36231446,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "!ZK (Claim on zkget.xyz)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 36804670,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "!ZK (Claim on zkget.xyz)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zkget.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "!ZK (Claim on zkget.xyz)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "!ZK (Claim on zkget.xyz)"
+   },
+   "verdict": "stable"
+  },
+  "0xb2475ddde2627e44d4e94a2b5e30f68cd39a7e0c": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "DeBank Lucky Draw",
+     "symbol": "t.me/debankluckydraw",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 10475957,
+     "matches_end": true,
+     "name": "DeBank Lucky Draw",
+     "symbol": "t.me/debankluckydraw",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 12554455,
+     "matches_end": true,
+     "name": "DeBank Lucky Draw",
+     "symbol": "t.me/debankluckydraw",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/debankluckydraw",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "DeBank Lucky Draw",
+    "symbol": "t.me/debankluckydraw",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "DeBank Lucky Draw",
+    "symbol": "t.me/debankluckydraw"
+   },
+   "verdict": "stable"
+  },
+  "0xb6b97edc787f0273d6e0ff18b22968e41374c78f": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "LiquidEther",
+     "symbol": "OETH rewards on ethstk.xyz",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36816362,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 37565902,
+     "matches_end": true,
+     "name": "LiquidEther",
+     "symbol": "OETH rewards on ethstk.xyz",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "ethstk.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "LiquidEther",
+    "symbol": "OETH rewards on ethstk.xyz",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "LiquidEther",
+    "symbol": "OETH rewards on ethstk.xyz"
+   },
+   "verdict": "stable"
+  },
+  "0xb70f99a52822e0c96374c7459dfff0cf2dc16df1": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "UNIswap",
+     "symbol": "UNI swap ETH on getunic.pro",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37806938,
+     "matches_end": true,
+     "name": "UNIswap",
+     "symbol": "UNI swap ETH on getunic.pro",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 43082199,
+     "matches_end": true,
+     "name": "UNIswap",
+     "symbol": "UNI swap ETH on getunic.pro",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "getunic.pro",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "UNIswap",
+    "symbol": "UNI swap ETH on getunic.pro",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "UNIswap",
+    "symbol": "UNI swap ETH on getunic.pro"
+   },
+   "verdict": "stable"
+  },
+  "0xbb73cdbeae093ed6cb8695a32ab5ffb90077c47a": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: official-zk.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36963232,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 54003725,
+     "matches_end": true,
+     "name": "zkSync (ZK)",
+     "symbol": "Claim on: official-zk.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "official-zk.com",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "zkSync (ZK)",
+    "symbol": "Claim on: official-zk.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "zkSync (ZK)",
+    "symbol": "Claim on: official-zk.com"
+   },
+   "verdict": "stable"
+  },
+  "0xbc222cd9672d0814273d9c5588acf6228fc0c84c": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "$zK",
+     "symbol": "Visit https://checkzk.xyz to claim airdrop",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36312057,
+     "matches_end": true,
+     "name": "$zK",
+     "symbol": "Visit https://checkzk.xyz to claim airdrop",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 36343462,
+     "matches_end": true,
+     "name": "$zK",
+     "symbol": "Visit https://checkzk.xyz to claim airdrop",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "checkzk.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "$zK",
+    "symbol": "Visit https://checkzk.xyz to claim airdrop",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$zK",
+    "symbol": "Visit https://checkzk.xyz to claim airdrop"
+   },
+   "verdict": "stable"
+  },
+  "0xbff6154a19531dfdcf2b1f37f8bac1d2f4eb3f73": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "OriginEther",
+     "symbol": "OriginEther rewards on https://stkether.org",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37011652,
+     "matches_end": true,
+     "name": "OriginEther",
+     "symbol": "OriginEther rewards on https://stkether.org",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 37181124,
+     "matches_end": true,
+     "name": "OriginEther",
+     "symbol": "OriginEther rewards on https://stkether.org",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "stkether.org",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "OriginEther",
+    "symbol": "OriginEther rewards on https://stkether.org",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "OriginEther",
+    "symbol": "OriginEther rewards on https://stkether.org"
+   },
+   "verdict": "stable"
+  },
+  "0xca3f7f6b546c83d5c3e97eb7dd261e3f2f478ad5": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "!ZK",
+     "symbol": "!ZK Claim on getzkc.xyz",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37009719,
+     "matches_end": true,
+     "name": "!ZK",
+     "symbol": "!ZK Claim on getzkc.xyz",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 37156456,
+     "matches_end": true,
+     "name": "!ZK",
+     "symbol": "!ZK Claim on getzkc.xyz",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "getzkc.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "!ZK",
+    "symbol": "!ZK Claim on getzkc.xyz",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "!ZK",
+    "symbol": "!ZK Claim on getzkc.xyz"
+   },
+   "verdict": "stable"
+  },
+  "0xcbaab0daae34c232add5adda1f0cc09e342d917b": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "!OriginEther",
+     "symbol": "OriginEther rewards on https://ethstk.pro",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37381779,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38033463,
+     "matches_end": true,
+     "name": "!OriginEther",
+     "symbol": "OriginEther rewards on https://ethstk.pro",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "ethstk.pro",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "!OriginEther",
+    "symbol": "OriginEther rewards on https://ethstk.pro",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "!OriginEther",
+    "symbol": "OriginEther rewards on https://ethstk.pro"
+   },
+   "verdict": "stable"
+  },
+  "0xd5563c4513a4907dc5c7bd981b316e1c8d5ebcb3": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "$ZK",
+     "symbol": "$ZK (Claim on zkget.pro)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36412141,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 36810493,
+     "matches_end": true,
+     "name": "$ZK",
+     "symbol": "$ZK (Claim on zkget.pro)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zkget.pro",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "$ZK",
+    "symbol": "$ZK (Claim on zkget.pro)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$ZK",
+    "symbol": "$ZK (Claim on zkget.pro)"
+   },
+   "verdict": "stable"
+  },
+  "0xe4ee3dceba9b21e0a83f9a782c18ae4e23b3cc52": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "!ZK (Claim on getzks.xyz)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 35727945,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 36081944,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "!ZK (Claim on getzks.xyz)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "getzks.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "!ZK (Claim on getzks.xyz)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "!ZK (Claim on getzks.xyz)"
+   },
+   "verdict": "stable"
+  },
+  "0xe64e447e42802330b546296358c4218b4eafcb73": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "ZK (Claim on zkget.pro)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36412141,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "ZK (Claim on zkget.pro)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 36810493,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "ZK (Claim on zkget.pro)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zkget.pro",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "ZK (Claim on zkget.pro)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "ZK (Claim on zkget.pro)"
+   },
+   "verdict": "stable"
+  },
+  "0xf3ecd1af4b8d29b42c139233db3c2ad48001b982": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "ZK (Claim on getzks.pro)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36404047,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "ZK (Claim on getzks.pro)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 36422773,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "ZK (Claim on getzks.pro)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "getzks.pro",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "ZK (Claim on getzks.pro)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "ZK (Claim on getzks.pro)"
+   },
+   "verdict": "stable"
+  },
+  "0xf4c655f7dc8c0db02c57bfb854022442c1bbbf17": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "# blast2l.com",
+     "symbol": "Visit blast2l.com to claim rewards",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 29480071,
+     "matches_end": true,
+     "name": "# blast2l.com",
+     "symbol": "Visit blast2l.com to claim rewards",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 29589349,
+     "matches_end": true,
+     "name": "# blast2l.com",
+     "symbol": "Visit blast2l.com to claim rewards",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "blast2l.com",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "# blast2l.com",
+    "symbol": "Visit blast2l.com to claim rewards",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "# blast2l.com",
+    "symbol": "Visit blast2l.com to claim rewards"
+   },
+   "verdict": "stable"
+  },
+  "0xf62d5a6c1dfdacec72c825d93f18972173c9e8ed": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "ZK",
+     "symbol": "!ZK (Claim on zksget.xyz)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 36363504,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "!ZK (Claim on zksget.xyz)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 36378166,
+     "matches_end": true,
+     "name": "ZK",
+     "symbol": "!ZK (Claim on zksget.xyz)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "zksget.xyz",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "ZK",
+    "symbol": "!ZK (Claim on zksget.xyz)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "ZK",
+    "symbol": "!ZK (Claim on zksget.xyz)"
+   },
+   "verdict": "stable"
+  },
+  "0xf72504f1b5b232aceb23edda5cd80c20970a71e7": {
+   "at": {
+    "end": {
+     "block": 71454452,
+     "name": "!ZK",
+     "symbol": "!ZK (Claim on getzkc.pro)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37204925,
+     "matches_end": true,
+     "name": "!ZK",
+     "symbol": "!ZK (Claim on getzkc.pro)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 37214750,
+     "matches_end": true,
+     "name": "!ZK",
+     "symbol": "!ZK (Claim on getzkc.pro)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "getzkc.pro",
+   "on_chain_now": {
+    "block": 71454452,
+    "name": "!ZK",
+    "symbol": "!ZK (Claim on getzkc.pro)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "!ZK",
+    "symbol": "!ZK (Claim on getzkc.pro)"
+   },
+   "verdict": "stable"
+  }
+ },
+ "registry_mismatch_contracts": [],
+ "registry_note": "a SEPARATE question from the temporal one: whether the stored metadata the detector reads matches what the contract returns today. Whitespace-only differences are separated out because the detector normalises whitespace and they cannot change its verdict.",
+ "stable_share_of_comparable": 1.0
+}

@@ -1,0 +1,8 @@
+{
+ "output": "corroboration_base.json",
+ "producer": "papers/lure-broadcast/scripts/corroborate.py",
+ "git_commit": "3df09e3",
+ "label_manifest": "papers/lure-broadcast/data/labels/manifest.json",
+ "seed": 42,
+ "forta": "unavailable -- no API key obtainable; see docs/DEFECTS.md"
+}

@@ -1,0 +1,127 @@
+{
+ "ablation": "classify(..., normalise=False) skips the confusable/invisible/emoji fold and nothing else; the default preserves the reported behaviour exactly",
+ "chains": [
+  "arbitrum-one",
+  "base",
+  "optimism",
+  "polygon-zkevm",
+  "zksync-era"
+ ],
+ "checks": {
+  "P1a_count": "campaigns_without_normalisation >= campaigns_with_normalisation",
+  "P1b_refinement": "every unnormalised block lies inside a single normalised block; this is the strong form and is what actually tests the proposition"
+ },
+ "per_chain": {
+  "arbitrum-one": {
+   "campaign_delta": 0,
+   "campaigns_merged_by_normalisation": {},
+   "campaigns_with_normalisation": 71,
+   "campaigns_without_normalisation": 71,
+   "contracts_in_metadata": 1200,
+   "count_prediction_holds": true,
+   "flagged_with_normalisation": 149,
+   "flagged_without_normalisation": 149,
+   "n_campaigns_merged": 0,
+   "refinement_holds": true,
+   "refinement_violations": {}
+  },
+  "base": {
+   "campaign_delta": 0,
+   "campaigns_merged_by_normalisation": {},
+   "campaigns_with_normalisation": 48,
+   "campaigns_without_normalisation": 48,
+   "contracts_in_metadata": 1199,
+   "count_prediction_holds": true,
+   "flagged_with_normalisation": 141,
+   "flagged_without_normalisation": 141,
+   "n_campaigns_merged": 0,
+   "refinement_holds": true,
+   "refinement_violations": {}
+  },
+  "optimism": {
+   "campaign_delta": 0,
+   "campaigns_merged_by_normalisation": {},
+   "campaigns_with_normalisation": 61,
+   "campaigns_without_normalisation": 61,
+   "contracts_in_metadata": 1200,
+   "count_prediction_holds": true,
+   "flagged_with_normalisation": 621,
+   "flagged_without_normalisation": 621,
+   "n_campaigns_merged": 0,
+   "refinement_holds": true,
+   "refinement_violations": {}
+  },
+  "polygon-zkevm": {
+   "campaign_delta": 0,
+   "campaigns_merged_by_normalisation": {},
+   "campaigns_with_normalisation": 2,
+   "campaigns_without_normalisation": 2,
+   "contracts_in_metadata": 1192,
+   "count_prediction_holds": true,
+   "flagged_with_normalisation": 3,
+   "flagged_without_normalisation": 3,
+   "n_campaigns_merged": 0,
+   "refinement_holds": true,
+   "refinement_violations": {}
+  },
+  "zksync-era": {
+   "campaign_delta": 0,
+   "campaigns_merged_by_normalisation": {},
+   "campaigns_with_normalisation": 33,
+   "campaigns_without_normalisation": 33,
+   "contracts_in_metadata": 1195,
+   "count_prediction_holds": true,
+   "flagged_with_normalisation": 49,
+   "flagged_without_normalisation": 49,
+   "n_campaigns_merged": 0,
+   "refinement_holds": true,
+   "refinement_violations": {}
+  }
+ },
+ "proposition": "Proposition 1: for delimiter-preserving sigma, the partition induced WITHOUT the fold refines the partition induced WITH it -- omitting sigma can only split a campaign, never merge two.",
+ "refinement_holds_on_all_chains": true,
+ "total_violations": 0,
+ "witness_note": "positive controls for the ablation itself: each constructed case must differ between arms and the ASCII control must not, so that a null result on real data cannot be confused with an inert switch",
+ "witnesses": [
+  {
+   "case": "cyrillic_homoglyph_in_host",
+   "differs": true,
+   "normalised_campaign": "fomox.club",
+   "normalised_strength": "strong",
+   "raw_campaign": null,
+   "raw_strength": "strong"
+  },
+  {
+   "case": "cyrillic_c_in_tld",
+   "differs": true,
+   "normalised_campaign": "fomox.club",
+   "normalised_strength": "strong",
+   "raw_campaign": null,
+   "raw_strength": "strong"
+  },
+  {
+   "case": "bracket_dot_obfuscation",
+   "differs": true,
+   "normalised_campaign": "bonus-zk.com",
+   "normalised_strength": "strong",
+   "raw_campaign": null,
+   "raw_strength": "weak"
+  },
+  {
+   "case": "zero_width_in_host",
+   "differs": true,
+   "normalised_campaign": "bonuszk.com",
+   "normalised_strength": "strong",
+   "raw_campaign": "zk.com",
+   "raw_strength": "strong"
+  },
+  {
+   "case": "ascii_control_case",
+   "differs": false,
+   "normalised_campaign": "bonus-zk.com",
+   "normalised_strength": "strong",
+   "raw_campaign": "bonus-zk.com",
+   "raw_strength": "strong"
+  }
+ ]
+}

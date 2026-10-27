@@ -1,0 +1,171 @@
+{
+ "agrees_with_census": true,
+ "by_data_hexlen": {
+  "194": 82
+ },
+ "by_shape": {
+  "width=194,topics=1": 82
+ },
+ "chain": "optimism",
+ "distinct_contracts": 13,
+ "interpretation": "data width follows the `indexed` declaration: both participants indexed gives one data word (66 hex chars), one indexed gives two (130), none gives three (194). Rows with fewer participant topics cannot be joined on topic1/topic2 and are therefore invisible to the rest of this paper, which is why they are counted separately rather than assigned a class.",
+ "residual_rows": 82,
+ "rows_scanned": 2901914265,
+ "samples": [
+  {
+   "contract": "0x8dae96fbfe4f780ac2ae3cea1170887aff2b4f16",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x8dae96fbfe4f780ac2ae3cea1170887aff2b4f16",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x31948b2aa804d644292c04fc43cdac1b2529e54b",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x31948b2aa804d644292c04fc43cdac1b2529e54b",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x07f61772beb31fa91d7dc34c5b9138c50f65e80f",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  },
+  {
+   "contract": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "data_hexlen": 194,
+   "topics_present": 1
+  }
+ ],
+ "top_contracts": [
+  {
+   "address": "0x777172385ac1d2e4ac61a9a98b0686cb4701b3a7",
+   "rows": 28
+  },
+  {
+   "address": "0xb123b2d5c0932f2b13fcf03763004f0800ff29dd",
+   "rows": 22
+  },
+  {
+   "address": "0x10948fd0bebb798d5eeb315c00b747d6436173b7",
+   "rows": 13
+  },
+  {
+   "address": "0x8dae96fbfe4f780ac2ae3cea1170887aff2b4f16",
+   "rows": 2
+  },
+  {
+   "address": "0x31948b2aa804d644292c04fc43cdac1b2529e54b",
+   "rows": 2
+  },
+  {
+   "address": "0x07f61772beb31fa91d7dc34c5b9138c50f65e80f",
+   "rows": 2
+  },
+  {
+   "address": "0x1f35b11d3b8a844438039104ad6f22608ad6e4f9",
+   "rows": 2
+  },
+  {
+   "address": "0xbe1bbd623faa7f3fccd3e38a5b734d0de1699185",
+   "rows": 2
+  },
+  {
+   "address": "0x829a677d947deb8f975281d6a659e48a07ddb29b",
+   "rows": 2
+  },
+  {
+   "address": "0x6a48b0c6e6a94cba000923ec438162cb8ca406ff",
+   "rows": 2
+  },
+  {
+   "address": "0xe8f98cfa0f0539c5718879d825161eaa3822cecf",
+   "rows": 2
+  },
+  {
+   "address": "0x36ac303d7c91f39dcbbb942437a6e85b2bac6a8c",
+   "rows": 2
+  },
+  {
+   "address": "0xf28087e83b9f98716bf61a97a4dcacf05ef1c86a",
+   "rows": 1
+  }
+ ],
+ "wall_seconds": 31.5
+}

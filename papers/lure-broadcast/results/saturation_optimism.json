@@ -1,0 +1,118 @@
+{
+ "caveat": "The scored population is defined by the prior pipeline's eligibility rule, including its UTILITY_CAP on counterparty count, so this is conditional on that rule and is not a population prevalence over all addresses. It is exactly the quantity that bounds a support-restricted ratio, which is what it is used for. The medians are conditioned on level >= 2 because the feature table samples below that.",
+ "census_by_tau": {
+  "1": {
+   "candidate_transfers_at_or_above": 5081704,
+   "p_of_scored_transfers": 0.8602722695175694,
+   "ratio_ceiling": 1.1624226834148546,
+   "ratio_design_dead_at_1_5": true,
+   "wilson95": [
+    0.8599924407174482,
+    0.8605516297209639
+   ]
+  },
+  "2": {
+   "candidate_transfers_at_or_above": 4950382,
+   "p_of_scored_transfers": 0.8380410110700907,
+   "ratio_ceiling": 1.193259025263101,
+   "ratio_design_dead_at_1_5": true,
+   "wilson95": [
+    0.8377436899698463,
+    0.8383378924892253
+   ]
+  },
+  "3": {
+   "candidate_transfers_at_or_above": 4940952,
+   "p_of_scored_transfers": 0.8364446238146444,
+   "ratio_ceiling": 1.1955364067491447,
+   "ratio_design_dead_at_1_5": true,
+   "wilson95": [
+    0.8361461276212131,
+    0.8367426824033449
+   ]
+  },
+  "4": {
+   "candidate_transfers_at_or_above": 4674641,
+   "p_of_scored_transfers": 0.791361327273269,
+   "ratio_ceiling": 1.2636452724391027,
+   "ratio_design_dead_at_1_5": true,
+   "wilson95": [
+    0.7910334546479973,
+    0.7916888209324757
+   ]
+  },
+  "5": {
+   "candidate_transfers_at_or_above": 35060,
+   "p_of_scored_transfers": 0.005935242542518412,
+   "ratio_ceiling": 168.48511123787793,
+   "ratio_design_dead_at_1_5": false,
+   "wilson95": [
+    0.005873619511604149,
+    0.00599750819055228
+   ]
+  },
+  "6": {
+   "candidate_transfers_at_or_above": 58,
+   "p_of_scored_transfers": 9.818712705820533e-06,
+   "ratio_ceiling": 101846.3448275862,
+   "ratio_design_dead_at_1_5": false,
+   "wilson95": [
+    7.596103368484294e-06,
+    1.2691646206700842e-05
+   ]
+  },
+  "8": {
+   "candidate_transfers_at_or_above": 3,
+   "p_of_scored_transfers": 5.07864450301062e-07,
+   "ratio_ceiling": 1969029.3333333335,
+   "ratio_design_dead_at_1_5": false,
+   "wilson95": [
+    1.727166331160424e-07,
+    1.4933485414071787e-06
+   ]
+  }
+ },
+ "chain": "optimism",
+ "coincidental_4_4_probability_median_address": 6.984919309616089e-10,
+ "contaminated_feature_table_comparison": {
+  "distinct_addresses_in_table": 1692184,
+  "feature_rows_read": 4959938,
+  "p_victim_given_table_by_tau": {
+   "1": 0.9984168388307655,
+   "2": 0.99821236934045,
+   "3": 0.9964194201103426,
+   "4": 0.9857550951905939,
+   "5": 0.006332053724654056,
+   "6": 1.4182854819570449e-05,
+   "8": 5.909522841487687e-07
+  },
+  "recorded_coverage_by_level": {
+   "0": 0.0038,
+   "1": 0.003,
+   "2": 0.5451,
+   "3": 0.3123,
+   "4": 0.0,
+   "5": 0.0,
+   "6": 0.0,
+   "8": 0.0
+  },
+  "sub_threshold_addresses_in_table": 24105,
+  "why_inadmissible": "detect.py:272 keeps pairs with best_level < 2 only at neg_rate (default 0.01), so the non-victims are deleted at ~99% and any share computed here is inflated towards 1 by construction. Reported only to show the size of the artefact."
+ },
+ "interpretation": "The admissible headline is p_of_scored_transfers at tau=4, from the unsampled census histogram. Where it approaches 1, any risk ratio restricted to the scored population is confined to [0, 1/p] by arithmetic, so marginal rate comparisons cannot measure targeting and list-level comparison is the only honest unit. The coincidence probability shows the matches are deliberate crafts rather than birthday collisions, so a high share is a statement about how WIDESPREAD deliberate crafting is -- not a claim that the rule over-flags.",
+ "level_histogram": {
+  "0": 825384,
+  "1": 131322,
+  "2": 9430,
+  "3": 266311,
+  "4": 4639581,
+  "5": 35002,
+  "6": 55,
+  "8": 3
+ },
+ "median_n_victim_candidates_given_level_ge_2": 1.0,
+ "median_victim_cp_count_given_level_ge_2": 3.0,
+ "primary_source": "results/optimism_detection.json:best_match_level_histogram",
+ "scored_transfers": 5907088,
+ "unit": "candidate transfer (a zero-value registry-token transfer that was scored)"
+}

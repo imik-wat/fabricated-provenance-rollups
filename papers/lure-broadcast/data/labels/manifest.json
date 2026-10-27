@@ -1,0 +1,111 @@
+{
+ "accessed": "2026-08-11T18:52:55Z",
+ "coverage": {
+  "arbitrum-one": "alchemy",
+  "base": "covalent (erc20 yes/maybe + nft)",
+  "chain_independent": "metamask eth-phishing-detect domain blocklist",
+  "optimism": "covalent (erc20 yes/maybe + nft)",
+  "polygon-zkevm": "NONE -- no external label source; disclose as a limitation",
+  "zksync-era": "alchemy (suspect capped)"
+ },
+ "errors": [
+  "alchemy optimism (opt-mainnet): HTTPError: HTTP Error 500: Internal Server Error",
+  "alchemy base (base-mainnet): HTTPError: HTTP Error 500: Internal Server Error",
+  "alchemy polygon-zkevm (polygonzkevm-mainnet): HTTPError: HTTP Error 400: Bad Request"
+ ],
+ "note": "Forta GraphQL omitted: no API key obtainable. See module docstring.",
+ "sources": {
+  "alchemy": {
+   "auth": "public demo key",
+   "chains": {
+    "arbitrum-one": {
+     "bytes": 1955903,
+     "entries": 43464,
+     "network": "arb-mainnet",
+     "sha256": "fe534cb65d35b616d4bae59937b1d74c9686fbca14cf00482a60ab996977c3d2",
+     "suspect_capped": false
+    },
+    "base": {
+     "error": "HTTP Error 500: Internal Server Error"
+    },
+    "optimism": {
+     "error": "HTTP Error 500: Internal Server Error"
+    },
+    "polygon-zkevm": {
+     "error": "HTTP Error 400: Bad Request"
+    },
+    "zksync-era": {
+     "bytes": 2812523,
+     "entries": 62500,
+     "network": "zksync-mainnet",
+     "sha256": "6d5e9c7db83a55842533e1cc1c4f0fa3f43ac922b42899dda9e08dc96cc4dded",
+     "suspect_capped": true
+    }
+   },
+   "endpoint": "https://<net>.g.alchemy.com/nft/v3/demo/getSpamContracts"
+  },
+  "covalent": {
+   "files": {
+    "src/lists/erc20/base_mainnet_token_spam_contracts_maybe.yaml": {
+     "bytes": 158860,
+     "lines": 2997,
+     "sha256": "9de30cf12e6fffdb9a42b965b10bf58f544c4aa2fc71ceb9d4b80b01a73c0abe"
+    },
+    "src/lists/erc20/base_mainnet_token_spam_contracts_yes.yaml": {
+     "bytes": 74396544,
+     "lines": 1403708,
+     "sha256": "d1225cc4dfb9dbab661fead316284f4dca4d9683bb4ef2686dba9f9de6b70e76"
+    },
+    "src/lists/erc20/op_mainnet_token_spam_contracts_maybe.yaml": {
+     "bytes": 27406,
+     "lines": 537,
+     "sha256": "d91dc2f76575c2627b85f553faecc8b7f5746b4333d3a39fab15efa144bef663"
+    },
+    "src/lists/erc20/op_mainnet_token_spam_contracts_yes.yaml": {
+     "bytes": 6501245,
+     "lines": 127475,
+     "sha256": "cfec85215f44611c8f0715b348b48192d261de93be85e1651bfd6a65dededb5c"
+    },
+    "src/lists/nft/base_mainnet_nft_spam_contracts.yaml": {
+     "bytes": 21005077,
+     "lines": 396322,
+     "sha256": "2e5af43280b84f4080d47b00b03c035db5fe3e9c5c20e6456b03e8f41209b926"
+    },
+    "src/lists/nft/op_mainnet_nft_spam_contracts.yaml": {
+     "bytes": 5743181,
+     "lines": 112611,
+     "sha256": "6129884eb7bb1ce015547326c7417f668c25753eba2e415f51e5a22884bcab9b"
+    }
+   },
+   "pin": {
+    "date": "2026-01-23T21:56:47Z",
+    "sha": "8955d5490ab3d5b7112e1a2a833ee01d90b2bed2"
+   },
+   "repo": "covalenthq/goldrush-enhanced-spam-lists"
+  },
+  "metamask": {
+   "file": "src/config.json",
+   "pin": {
+    "date": "2026-08-11T18:46:45Z",
+    "sha": "f654969b734a347b24a7a97a720cdbab16f55081"
+   },
+   "repo": "MetaMask/eth-phishing-detect",
+   "snapshot": {
+    "blacklist": 105529,
+    "bytes": 3848976,
+    "config_version": 2,
+    "fuzzylist": 8,
+    "keys": [
+     "blacklist",
+     "fuzzylist",
+     "tolerance",
+     "version",
+     "whitelist"
+    ],
+    "sha256": "286b4fe9d0fa2f215b6cd3538b4fb9dbd0697a95618dd0d457ceac25e05876d7",
+    "tolerance": 1,
+    "whitelist": 58
+   }
+  }
+ }
+}

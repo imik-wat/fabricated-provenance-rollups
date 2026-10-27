@@ -1,0 +1,97 @@
+{
+ "alpha": 0.05,
+ "flagged_population": 141,
+ "strata": [
+  "strong|0-200",
+  "strong|200-600",
+  "strong|600-1200",
+  "weak|200-600",
+  "weak|600-1200"
+ ],
+ "estimand": "the number of flagged contracts, within the examined Base frame, whose operational-codebook label disagrees with the rule; an upper 95% confidence bound on that count, not a false-positive rate against abuse",
+ "design": "flagged contracts are a census per stratum (M_h known); labels are a stratified sample without replacement; the region is the inversion of the exact test on the total, intersected with the data-consistent box",
+ "ignorability": {
+  "inputs_M_m_x": [
+   [
+    7,
+    7,
+    0
+   ],
+   [
+    48,
+    32,
+    0
+   ],
+   [
+    77,
+    39,
+    0
+   ],
+   [
+    2,
+    2,
+    0
+   ],
+   [
+    7,
+    6,
+    0
+   ]
+  ],
+  "k_max": 4,
+  "allocation": [
+   0,
+   0,
+   4,
+   0,
+   0
+  ],
+  "allocation_note": "one allocation attaining k_max, the one with the largest tail; others may attain it too, so it need not match the library's",
+  "tail_at_allocation": 0.05454545454545454,
+  "max_tail_at_k_max_plus_1": 0.02540473225404732,
+  "allocations_enumerated": 1326,
+  "theta": 0.028368794326241134
+ },
+ "worst_case": {
+  "inputs_M_m_x": [
+   [
+    7,
+    7,
+    0
+   ],
+   [
+    48,
+    33,
+    1
+   ],
+   [
+    77,
+    42,
+    3
+   ],
+   [
+    2,
+    2,
+    0
+   ],
+   [
+    7,
+    7,
+    1
+   ]
+  ],
+  "k_max": 13,
+  "allocation": [
+   0,
+   1,
+   11,
+   0,
+   1
+  ],
+  "allocation_note": "one allocation attaining k_max, the one with the largest tail; others may attain it too, so it need not match the library's",
+  "tail_at_allocation": 0.08595477306052343,
+  "max_tail_at_k_max_plus_1": 0.04925898796297798,
+  "allocations_enumerated": 576,
+  "theta": 0.09219858156028368
+ }
+}

@@ -1,0 +1,6 @@
+{
+ "producer": "papers/lure-broadcast/scripts/theta_inference.py",
+ "git_commit": "3df09e3",
+ "seed": 42,
+ "replicates": 10000
+}

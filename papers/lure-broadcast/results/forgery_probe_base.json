@@ -1,0 +1,2276 @@
+{
+ "archive_batch_calibration": {
+  "https://base-pokt.nodies.app": 2,
+  "https://base.drpc.org": 0,
+  "https://mainnet.base.org": 1
+ },
+ "archive_endpoints": [
+  "https://base-pokt.nodies.app",
+  "https://mainnet.base.org"
+ ],
+ "argument": "Ledger test: a contract returning the SAME NON-ZERO balanceOf for two randomly generated addresses exposes no per-address ledger, so no event it emits can correspond to a balance movement. Authorisation test: a reverting allowance() means the delegated-transfer path that could legitimately place a third party in the sender field is not implemented.",
+ "block": 49743280,
+ "block_hex": "0x2f705b0",
+ "block_note": "calls are pinned to the last block of the corpus for this chain, so the state probed is the state as of the analysed data; endpoints without archive state at that block are excluded rather than downgraded to 'latest'",
+ "chain": "base",
+ "contract_batch_used": 2,
+ "controls": {
+  "addresses": [
+   "0x4200000000000000000000000000000000000006",
+   "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+   "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+   "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+   "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+   "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2"
+  ],
+  "n": 6,
+  "verdicts": {
+   "zero_ledger": 6
+  }
+ },
+ "endpoints_without_archive_state": [
+  "https://base-rpc.publicnode.com",
+  "https://1rpc.io/base",
+  "https://base.drpc.org"
+ ],
+ "inadmissible_test_not_used": "conservation of supply: a reproduced control shows registry-verified tokens violate it too, because the corpus holds only Transfer events while bridging and constructor minting move balances silently. See docs/FINDINGS.md.",
+ "lure": {
+  "allowance_kinds": {
+   "revert": 124,
+   "value": 17
+  },
+  "allowance_reverts": 124,
+  "allowance_unusable_revert_or_empty": 124,
+  "balance_equals_total_supply": 27,
+  "fabricated_constant_nonzero": 137,
+  "ledger_and_authorisation_both": 121,
+  "ledger_only": 16,
+  "n": 141,
+  "verdicts": {
+   "address_derived": 1,
+   "constant_nonzero": 137,
+   "no_response": 3
+  }
+ },
+ "per_contract": {
+  "0x0137bed224ab6940241c9b4926987c7d2029b462": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x0818561acbbb454e3ec8319e47c62df3c8100680": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0x0c91c8f301297201193771e8b8d490f3b4791802": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    105610,
+    105610
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 999999999,
+   "verdict": "constant_nonzero"
+  },
+  "0x0e2ffe16778964f32770fa38b8a86751cc9e5f22": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x0e8eef6b9b9fc299c0e79464dc3f4485bfbfc5aa": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x10bcf9c4d1fd798df33ad1c1cb286e24720c0d7f": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x13ced7f82072327a5bc9ebb9437304f605e253b2": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x17362df3e9bd3fed54c70eb65c3a1eee6d489d70": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0x185b6565de60df12a0ffe17374d3942995a03dea": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0x18c79a3c5f74ae0eedb87917f2a870ed84ebf84f": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x19225f002b65eefb22950b9739fc8b448d900d44": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    250000,
+    250000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 250000,
+   "verdict": "constant_nonzero"
+  },
+  "0x1b039f12a79408024e4d7480ee9b0969daeb5ec7": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x1b09d7408168929fec75fbfadeaf2bb2652e2df9": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x1eda21eb3959b4e20808cbcaac983f50571334af": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x215b01b32cfa0fdb04bd60e0bc7a3e80589d34cf": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x23ca9d7cd22777ea22f5c46d5327bbc8cd44ac3f": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x2401b434128cb42a518c65229288cc46da3e1bdc": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0x2e09dab2f1addca3076deafdf471eb4787e03467": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0x336daec5b307060f0b4a86b6958f6ce08849e9bd": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    10000000000,
+    10000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 5321562320000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x33c62b565ae68c38ddbf2c1559e0b3960710f17c": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x36fa9cf0ccb9c594b74231073790f62044e7f681": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x3b27821d3ebe2c023b37457b9e1a9bf237fec85e": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "revert",
+    "revert"
+   ],
+   "balances": [
+    null,
+    null
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": null,
+   "verdict": "no_response"
+  },
+  "0x3b30669ccd34a0978ff5bac17f7d275cfedf358e": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x3dc1c485cac5ba5a4674aa53e031fe5ff61cf3eb": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x3eea1c1a8df49ff445838ba046b0ad56456f944f": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    13474000000000000000000,
+    13474000000000000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 100325017000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x3f4132119c2d97fc24b2f4da3a439f1d866b27b0": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x3ff0560e81e36c9390b7d8903e510defc7e433ca": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x4081a3d66a9092325e52bc969e946d2c4c5271e4": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x40da9607a3de7b10906b3bd4f93beffc5b689ff4": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x41a0e0437e2906abd15c4878f4e7d6371167a4a5": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x4290ec58920e8804fcbb2156329396cf82737eeb": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x460b9c52bd0859c921254215999323db69340dca": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    10000,
+    10000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 100000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x49d687ecab7df32265325538e9cb28031f191556": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x4b63401c42a25402d4a7b70081d0c5ccd3900e20": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x4c64015cef054bc2063f3d0f3d3c960850481251": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x511cee03a1f733c6790a98cdc95005cfa719de09": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x514b6572c502eb7eb77c3b0f97fff1e48a3c6cfd": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x53f2f8629585f397ef0cb8395325c673f86f272b": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    2364000000000000000000,
+    3069000000000000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 100000000000000000000000000,
+   "verdict": "address_derived"
+  },
+  "0x590b0ab56cb66034253056d008fcf9412dee9771": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    893650000000000,
+    893650000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 5321562320000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x5afdc00746d691882d13919451dd0fc091a0319a": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0x5bc02251750f3f510934be52e6ac1d866f2318c9": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x5c57ab9bcabf4bc3664219c7f979823d6740b574": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x6192c5f6333cdf1a22d167e02cd3b3b81bf092a6": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x62da18390928e438dde260d1526cab03086effc0": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1000000000000000000000,
+    1000000000000000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000000000000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x63272cd2f76be73219b68ab5f775db5eeb4a8f6e": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x65755ed15ea1285172db2bca5b8af93e1fccf31f": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x666bbccbd28f0da72020b4115a4b61bb5eb59a5d": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    250000,
+    250000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 250000,
+   "verdict": "constant_nonzero"
+  },
+  "0x67467d3d235597768b102c442c2dfb5725c220ad": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    7000000000000000000000,
+    7000000000000000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000000000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x6780feceb405bdb87d660662b7e732ca65475753": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x6d6b007f4cc54c70d1c8982c632b69c36d79f2dc": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    354291,
+    354291
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 354291,
+   "verdict": "constant_nonzero"
+  },
+  "0x742e682ee9460f4f4c0ef624cd5023cf20ce0d06": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x7482d3d58bd914784444f14c53aae9951d60cd6c": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x75304252229eaf317541d149cd589d37cb046e1e": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    273108,
+    273108
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 273108,
+   "verdict": "constant_nonzero"
+  },
+  "0x76080e434f38264a8c40d876b82bb913325bde0b": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    250000,
+    250000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 250000,
+   "verdict": "constant_nonzero"
+  },
+  "0x767f59b7dd44d51ccacca5e6fe7f3e1179b12e88": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    893650000000000,
+    893650000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 5321562320000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x769b662f6b039eef883caa2dca525bb8108739c9": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    20000000000,
+    20000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 5321562320000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x7f47b72d0fc2fda7c76270e7db55b076f151c421": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x82466795fbdfbcfad6cfca2257540d7c47ba3dc5": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    7000000000000000000000,
+    7000000000000000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000000000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x852f4736b6e7b3b2e8b789491f1e9df8cf3940ac": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0x88db0cd7c4273a3c0a2c3d60a1d6e637b28e2fe6": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x8a183e87726bddf7ff6ff1b8440391141281cfef": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x8dc5a815d4960b4fdcca5a2edc2901d50d905447": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0x91888c5941af32eb647ca788b06f54e4230529b0": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    10000000000,
+    10000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 5321562320000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x926eed100ca24e95e3a96eb7548c101105db7398": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0x95e5e5c5e1730667e4ee545a74593250f34dad9d": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    689560000000000,
+    689560000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 2000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x96ac83676e600373d4687f507e8db3a1638e6cb1": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x96d010af693ef058895e43f70a96a3c14716df3f": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    250000,
+    250000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 250000,
+   "verdict": "constant_nonzero"
+  },
+  "0x9744802d2279e9902664543c3838f13bd36ded27": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1000000000000000000,
+    1000000000000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 100000000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x9765eaa10b7416da46a5f3de7f3f55ccfa12ce91": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x976c883b82e22a8fe367434a94fa1eec5f915d0b": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    8000000000000000000,
+    8000000000000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x97de3d1e109b822d52595bcbea139cc551d380d1": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1000000000000000000,
+    1000000000000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 100000000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x98b95feab59b18f6179b195af75d6d26b5ae668f": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    56890000000000,
+    56890000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 2000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x9dcad047f20ec7750ac9de87837b209261960d1c": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0x9fde643a40c3d92d785cf2702361ce0e01924129": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "revert",
+    "revert"
+   ],
+   "balances": [
+    null,
+    null
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": null,
+   "verdict": "no_response"
+  },
+  "0xa0fce5a7571303feab7db8a8e7c4cb01fd63be38": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1772830019211,
+   "verdict": "constant_nonzero"
+  },
+  "0xa10e0eb6069f0690204f3959db58fdffb5921c04": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    8888000000000000000000,
+    8888000000000000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000000000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xa12449ebe46da7603f559a53e23ceb6fa3e339e6": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xa3415b7bee1a6942c64bc9752896a074069b580b": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xa62f113d3c7934d455f4f7fec70b935f67e7fdc5": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1185000000000000,
+    1185000000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 5321562320000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xa9f25c919614bc35cf1fedb5ec206e5a1b4e2781": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xaa08f8d992c5d24ed41d899f782d6883c04d05f1": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xab59ff324cf15446cb259ffe13ed27328665c6c1": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1000000000000000000,
+    1000000000000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 100000000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xac6b3c2d793673937523bb9aedde61a50b86b691": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xac8584710490fbb73d03e863fb6d74ac917134c4": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xad03e2e457ebe290f364c9aa8133dcd0cda30c4e": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xae56028079fb8e3fc788b25af7e4e343f7878e4c": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0xb00fbdf24d58ef589ab2495b4c86e7b1ce79f06a": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    250000,
+    250000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 250000,
+   "verdict": "constant_nonzero"
+  },
+  "0xb435cb9cee20efce58c452f646552c3ad744ed64": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xb62814d9063c181665b17942df2d9117de98a1a4": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xb7d166ba1f250c40708e5435afc4d2ef5a9f5118": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    16580000000000,
+    16580000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 2000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xb84dc28471878f7948a71b3887ecd73349233aef": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    8269500000000000,
+    8269500000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 17243124640000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xb931bda2d052c086d6800c85c9e091ccaa689a40": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xb9a0c47adea84b1cf17a787c429bdeeeac01ccd7": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xb9e5e7296466c7daea8133289fbb29e493e72956": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xbc2cc8899aa441819a5cfb62a6e5af05ece9143d": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1000000000000000000,
+    1000000000000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 100000000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xbee4e0e23ac9f82a439fa6712f165e7b573c211f": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    250000,
+    250000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 250000,
+   "verdict": "constant_nonzero"
+  },
+  "0xc14f1a108b876f9ecfeb10ec4f154dd8a0c5ccbb": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xc2fad67ceadbde7001ca70236cde9f672edc573b": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xc54353e3b6a8686996aa44ccc1802a418562af56": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1000000000000000000000,
+    1000000000000000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000000000000000000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xc64e1d954086610b05ce9d7432749f594f9ff151": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0xc6fb2d95f751bcf22ec972f54d5a9d81b4a49142": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    3500000,
+    3500000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xc8240ea87a0e6203dcae16134e60351708774377": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    976848216,
+    976848216
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 976848216,
+   "verdict": "constant_nonzero"
+  },
+  "0xc8cb43fc64b1780d8ee10d1a6a87c33531f9b140": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xca21091ffa0f3af00191686f553aae6848ee75b8": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xca5b78dfacc39da5bf8d64cbb8159e866d67da26": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    3645170,
+    3645170
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 3645170,
+   "verdict": "constant_nonzero"
+  },
+  "0xcbcdc21395107901a733df806eb85249866db7dd": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xcd250decb9a007f93bf0ab169a8480b1b988ec1a": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xcd6b003fd8b433e79137627267bc1ce177be368d": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xce7903c8b9895d2976dc14c7bbe55d84b7751494": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "revert",
+    "revert"
+   ],
+   "balances": [
+    null,
+    null
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": null,
+   "verdict": "no_response"
+  },
+  "0xcf9b9ad0102fc2122cfc4d5355c596e7a4289f62": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0xd01e3beaa5dd17b65700fa521253089042d98a6b": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    522100,
+    522100
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1972810029211,
+   "verdict": "constant_nonzero"
+  },
+  "0xd0f929534c5a05aeda1f61cdcede6dcb7420956f": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xd248fe2929e7ea707c4546f0b964f3d8255d4968": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0xd63149fc85ea400db18da0a5e8e2a0e8bb7b64b1": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xd8163cca0a1f3704c93c20cf2fe974db770a7695": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xda932bcc910ec2dbdcbc49e01f8a5b36be9deefb": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xdc91170e9627d9ebedd777a267032e94143a9466": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    273108,
+    273108
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 273108,
+   "verdict": "constant_nonzero"
+  },
+  "0xdd2e30c43bd10b4546b67e47d2a4473c821ee31d": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xe0709519519033300c01028401cdfe0ab6d2fa6c": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xe132499880311b5d1dbe6c3a45402126eea05597": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xe43d2d874877d74999c958a484cc5f04e6bc2931": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xe4710d368e06ad894d5b2e0256d997fc2c1fddb6": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    86590000000000,
+    86590000000000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 8621562320000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xe57a18f603f48e91a9b1a9593e839894cbfae2ca": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0xe6758d2203a62c16960c55e97b43fa0cfed93b1a": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xe67c465de72d439352e2a137dfc06952e59705fc": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xea7e17526ccce09f38b472dac3b4fcdfff100c39": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xeb2e6c2650e2b8601f2cfdba2f842f0d42a8a340": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    5000,
+    5000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 420000000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xec5292103b193a9b0993fedd6672afefc723426c": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xedb870db9427b5aa93df654f3212abd09aaa43f3": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xf0adb186f0865c229966d20ad97ad4e6e2570ffa": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    874000,
+    874000
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 9999997702,
+   "verdict": "constant_nonzero"
+  },
+  "0xf10c0ad86b1105b1da6f3f22b070f0d5ae3a5940": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xf17ac6912534f73dc572d97962cb9c9ba92bb9cf": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xf2999fe53505d7493aea039f366150e4912acd36": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1,
+   "verdict": "constant_nonzero"
+  },
+  "0xf3a65bb6dcbcd4fb9114049e66591a61340183f2": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xfa2c3b559d6056343b8548420c95657a62ecfd0d": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xfc0c65c7993aa9cb6d93c0552e98e01d8857ea77": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xfc73b6b8de5a86311e6bb1fa5628dbd152849d90": {
+   "allowance": "revert",
+   "balance_equals_total_supply": true,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    537463,
+    537463
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 537463,
+   "verdict": "constant_nonzero"
+  },
+  "0xfdaa4c3d4372e5d123416c1ed4e9374292dd9307": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xfe053875e55eee3e0c28697fd80cb3e19ecf3016": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  },
+  "0xff7309b42c0e2607910f1907ad7a38a86aafac01": {
+   "allowance": "revert",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    1,
+    1
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 10000000,
+   "verdict": "constant_nonzero"
+  }
+ },
+ "per_control": {
+  "0x4200000000000000000000000000000000000006": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    0,
+    0
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 260260597172855119073501,
+   "verdict": "zero_ledger"
+  },
+  "0x50c5725949a6f0c72e6c4a641f24049a917db0cb": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    0,
+    0
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 1901100433630520675008673,
+   "verdict": "zero_ledger"
+  },
+  "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    0,
+    0
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 4163550967124130,
+   "verdict": "zero_ledger"
+  },
+  "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    0,
+    0
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 4476502009724,
+   "verdict": "zero_ledger"
+  },
+  "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    0,
+    0
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 5729292808763,
+   "verdict": "zero_ledger"
+  },
+  "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2": {
+   "allowance": "value",
+   "balance_equals_total_supply": false,
+   "balance_kinds": [
+    "value",
+    "value"
+   ],
+   "balances": [
+    0,
+    0
+   ],
+   "endpoint": "https://base-pokt.nodies.app",
+   "total_supply": 24124413317841,
+   "verdict": "zero_ledger"
+  }
+ },
+ "probe_absence_verified_by": "scripts/forgery_chain_scan.py -- absence from the chain is measured there, not assumed here",
+ "probe_addresses": [
+  "0x3b6056ff037072be7e7b62efcdb5639cf08dfa4a",
+  "0xa735a3609ec3b701f29e0ea5b066d799a8ba8af8"
+ ],
+ "probe_seed": "balance-probe",
+ "selectors": {
+  "allowance(address,address)": "0xdd62ed3e",
+  "balanceOf(address)": "0x70a08231",
+  "totalSupply()": "0x18160ddd"
+ },
+ "wall_seconds": 69.7
+}

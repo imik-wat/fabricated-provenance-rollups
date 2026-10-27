@@ -1,0 +1,4890 @@
+{
+ "by_registry": {
+  "registry_matches": 130,
+  "registry_mismatch": 1,
+  "registry_whitespace_only": 2,
+  "unresolved": 8
+ },
+ "by_verdict": {
+  "no_reference_height": 1,
+  "only_current_height": 1,
+  "stable": 132,
+  "unresolved": 7
+ },
+ "caveats": [
+  "no_code_at_height means the contract did not yet exist at that height; it is not a metadata change and is excluded from the comparison rather than counted either way.",
+  "rpc_error is neither agreement nor disagreement. Silence is never read as stability.",
+  "The heights are the campaign's first and last block, which bracket the contract's emission window but need not be blocks at which this particular contract emitted.",
+  "Historical readings are compared with an end-block reading taken by the same code, not with the stored registry, so that a collection-time capture difference cannot be reported as a change over time. The stored-versus-chain comparison is reported separately under by_registry."
+ ],
+ "chain": "base",
+ "changed_contracts": [],
+ "comparable_contracts": 132,
+ "comparable_coverage": 0.9361702127659575,
+ "corpus_end_block": 49743280,
+ "endpoint": "https://base-pokt.nodies.app",
+ "flagged_contracts": 141,
+ "question": "does the collection-time metadata match what the contract reported inside its own emission window? Comparable contracts are those answering at a historical height; the rest are reported, not assumed to agree.",
+ "records": {
+  "0x0137bed224ab6940241c9b4926987c7d2029b462": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705SHIBA INU TOKEN REWARD POOL",
+     "symbol": "SHIB (swap: t.me/s/shib_pool)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 46503173,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47372422,
+     "matches_end": true,
+     "name": "\u2705SHIBA INU TOKEN REWARD POOL",
+     "symbol": "SHIB (swap: t.me/s/shib_pool)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/shib_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705SHIBA INU TOKEN REWARD POOL",
+    "symbol": "SHIB (swap: t.me/s/shib_pool)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705SHIBA INU TOKEN REWARD POOL",
+    "symbol": "SHIB (swap: t.me/s/shib_pool)"
+   },
+   "verdict": "stable"
+  },
+  "0x0818561acbbb454e3ec8319e47c62df3c8100680": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 26149764,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 30652967,
+     "matches_end": true,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.ly/trump",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1"
+   },
+   "verdict": "stable"
+  },
+  "0x0c91c8f301297201193771e8b8d490f3b4791802": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "Roost Coin",
+     "symbol": "Claim on: roost-rewards.com/?claim",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 13697275,
+     "matches_end": true,
+     "name": "Roost Coin",
+     "symbol": "Claim on: roost-rewards.com/?claim",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 13698812,
+     "matches_end": true,
+     "name": "Roost Coin",
+     "symbol": "Claim on: roost-rewards.com/?claim",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "roost-rewards.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "Roost Coin",
+    "symbol": "Claim on: roost-rewards.com/?claim",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "Roost Coin",
+    "symbol": "Claim on: roost-rewards.com/?claim"
+   },
+   "verdict": "stable"
+  },
+  "0x0e2ffe16778964f32770fa38b8a86751cc9e5f22": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 03.01.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 03.01.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 03.01.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 03.01.26"
+   },
+   "verdict": "stable"
+  },
+  "0x0e8eef6b9b9fc299c0e79464dc3f4485bfbfc5aa": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705CIRCLE: t.me/s/us_pool",
+     "symbol": "U S D C \u2705 ( t.me/s/us_pool )",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705CIRCLE: t.me/s/us_pool",
+     "symbol": "U S D C \u2705 ( t.me/s/us_pool )",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705CIRCLE: t.me/s/us_pool",
+    "symbol": "U S D C \u2705 ( t.me/s/us_pool )",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705CIRCLE: t.me/s/us_pool",
+    "symbol": "U S D C \u2705 ( t.me/s/us_pool )"
+   },
+   "verdict": "stable"
+  },
+  "0x10bcf9c4d1fd798df33ad1c1cb286e24720c0d7f": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705DYDX Airdrop",
+     "symbol": "DYDX - Claim Link: t.me/s/app_dydx | #72",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 39158370,
+     "matches_end": true,
+     "name": "\u2705DYDX Airdrop",
+     "symbol": "DYDX - Claim Link: t.me/s/app_dydx | #72",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 46201927,
+     "matches_end": true,
+     "name": "\u2705DYDX Airdrop",
+     "symbol": "DYDX - Claim Link: t.me/s/app_dydx | #72",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/app_dydx",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705DYDX Airdrop",
+    "symbol": "DYDX - Claim Link: t.me/s/app_dydx | #72",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705DYDX Airdrop",
+    "symbol": "DYDX - Claim Link: t.me/s/app_dydx | #72"
+   },
+   "verdict": "stable"
+  },
+  "0x13ced7f82072327a5bc9ebb9437304f605e253b2": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.07.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.07.25",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.07.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.07.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.07.25"
+   },
+   "verdict": "stable"
+  },
+  "0x17362df3e9bd3fed54c70eb65c3a1eee6d489d70": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 26149764,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 30652967,
+     "matches_end": true,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.ly/trump",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1"
+   },
+   "verdict": "stable"
+  },
+  "0x185b6565de60df12a0ffe17374d3942995a03dea": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "OriginEther",
+     "symbol": "OriginEther rewards on https://stkether.org",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 15758874,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 17249658,
+     "matches_end": true,
+     "name": "OriginEther",
+     "symbol": "OriginEther rewards on https://stkether.org",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "stkether.org",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "OriginEther",
+    "symbol": "OriginEther rewards on https://stkether.org",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "OriginEther",
+    "symbol": "OriginEther rewards on https://stkether.org"
+   },
+   "verdict": "stable"
+  },
+  "0x18c79a3c5f74ae0eedb87917f2a870ed84ebf84f": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 17.09.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 17.09.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 17.09.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 17.09.25"
+   },
+   "verdict": "stable"
+  },
+  "0x19225f002b65eefb22950b9739fc8b448d900d44": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "BASE",
+     "symbol": "Collect on: swap-based.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12908371,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 13223890,
+     "matches_end": true,
+     "name": "BASE",
+     "symbol": "Collect on: swap-based.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "swap-based.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "BASE",
+    "symbol": "Collect on: swap-based.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "BASE",
+    "symbol": "Collect on: swap-based.com"
+   },
+   "verdict": "stable"
+  },
+  "0x1b039f12a79408024e4d7480ee9b0969daeb5ec7": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705 U S D C  (Redeem link: t.me/s/us_pool)",
+     "symbol": "\u2705 U S D C  (Redeem link: t.me/s/us_pool)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705 U S D C  (Redeem link: t.me/s/us_pool)",
+     "symbol": "\u2705 U S D C  (Redeem link: t.me/s/us_pool)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705 U S D C  (Redeem link: t.me/s/us_pool)",
+    "symbol": "\u2705 U S D C  (Redeem link: t.me/s/us_pool)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705 U S D C  (Redeem link: t.me/s/us_pool)",
+    "symbol": "\u2705 U S D C  (Redeem link: t.me/s/us_pool)"
+   },
+   "verdict": "stable"
+  },
+  "0x1b09d7408168929fec75fbfadeaf2bb2652e2df9": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 16.01.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 16.01.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 16.01.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 16.01.26"
+   },
+   "verdict": "stable"
+  },
+  "0x1eda21eb3959b4e20808cbcaac983f50571334af": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 30.07.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 30.07.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 30.07.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 30.07.25"
+   },
+   "verdict": "stable"
+  },
+  "0x215b01b32cfa0fdb04bd60e0bc7a3e80589d34cf": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421  | t.me/s/USCIRCLE | *claim until 05.06.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 30779209,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421  | t.me/s/USCIRCLE | *claim until 05.06.25",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 30921616,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421  | t.me/s/USCIRCLE | *claim until 05.06.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/uscircle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421  | t.me/s/USCIRCLE | *claim until 05.06.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421  | t.me/s/USCIRCLE | *claim until 05.06.25"
+   },
+   "verdict": "stable"
+  },
+  "0x23ca9d7cd22777ea22f5c46d5327bbc8cd44ac3f": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.ly/TRUMP | *Claim within 7 days",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 26149764,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 30652967,
+     "matches_end": true,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.ly/TRUMP | *Claim within 7 days",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.ly/trump",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$TRUMP AIRDROP",
+    "symbol": "TRUMP | t.ly/TRUMP | *Claim within 7 days",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$TRUMP AIRDROP",
+    "symbol": "TRUMP | t.ly/TRUMP | *Claim within 7 days"
+   },
+   "verdict": "stable"
+  },
+  "0x2401b434128cb42a518c65229288cc46da3e1bdc": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "OriginEther",
+     "symbol": "OriginEther rewards on https://stkether.org",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 15758874,
+     "matches_end": true,
+     "name": "OriginEther",
+     "symbol": "OriginEther rewards on https://stkether.org",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 17249658,
+     "matches_end": true,
+     "name": "OriginEther",
+     "symbol": "OriginEther rewards on https://stkether.org",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "stkether.org",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "OriginEther",
+    "symbol": "OriginEther rewards on https://stkether.org",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "OriginEther",
+    "symbol": "OriginEther rewards on https://stkether.org"
+   },
+   "verdict": "stable"
+  },
+  "0x2e09dab2f1addca3076deafdf471eb4787e03467": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #45",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 26149764,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 30652967,
+     "matches_end": true,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #45",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.ly/trump",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": "$TRUMP - Claim: t.ly/TRUMP - #45",
+    "verdict": "answered"
+   },
+   "registry": "registry_mismatch",
+   "stored": {
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": ""
+   },
+   "verdict": "stable"
+  },
+  "0x336daec5b307060f0b4a86b6958f6ce08849e9bd": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "2 ETH",
+     "symbol": "Visit stbot.xyz to get 1-2 ETH per day",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 17538909,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 18910869,
+     "matches_end": true,
+     "name": "2 ETH",
+     "symbol": "Visit stbot.xyz to get 1-2 ETH per day",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "stbot.xyz",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "2 ETH",
+    "symbol": "Visit stbot.xyz to get 1-2 ETH per day",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "2 ETH",
+    "symbol": "Visit stbot.xyz to get 1-2 ETH per day"
+   },
+   "verdict": "stable"
+  },
+  "0x33c62b565ae68c38ddbf2c1559e0b3960710f17c": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705SHIBA INU TOKEN REWARD POOL",
+     "symbol": "SHIB (t.me/s/shib_pool)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 46503173,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47372422,
+     "matches_end": true,
+     "name": "\u2705SHIBA INU TOKEN REWARD POOL",
+     "symbol": "SHIB (t.me/s/shib_pool)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/shib_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705SHIBA INU TOKEN REWARD POOL",
+    "symbol": "SHIB (t.me/s/shib_pool)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705SHIBA INU TOKEN REWARD POOL",
+    "symbol": "SHIB (t.me/s/shib_pool)"
+   },
+   "verdict": "stable"
+  },
+  "0x36fa9cf0ccb9c594b74231073790f62044e7f681": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) Visit to claim",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) Visit to claim",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) Visit to claim",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) Visit to claim"
+   },
+   "verdict": "stable"
+  },
+  "0x3b27821d3ebe2c023b37457b9e1a9bf237fec85e": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "Eligible Address",
+     "symbol": "SEA $7.543,00: kutt.it/Opensea-claim",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 38878038,
+     "matches_end": true,
+     "name": "Eligible Address",
+     "symbol": "SEA $7.543,00: kutt.it/Opensea-claim",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 38955894,
+     "matches_end": true,
+     "name": "Eligible Address",
+     "symbol": "SEA $7.543,00: kutt.it/Opensea-claim",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "kutt.it",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "Eligible Address",
+    "symbol": "SEA $7.543,00: kutt.it/Opensea-claim",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "Eligible Address",
+    "symbol": "SEA $7.543,00: kutt.it/Opensea-claim"
+   },
+   "verdict": "stable"
+  },
+  "0x3b30669ccd34a0978ff5bac17f7d275cfedf358e": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 28.09.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 28.09.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 28.09.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 28.09.25"
+   },
+   "verdict": "stable"
+  },
+  "0x3dc1c485cac5ba5a4674aa53e031fe5ff61cf3eb": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE - | T.ME/S/US_POOL | - Visit to claim",
+     "symbol": "T.ME/S/US_POOL",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE - | T.ME/S/US_POOL | - Visit to claim",
+     "symbol": "T.ME/S/US_POOL",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE - | T.ME/S/US_POOL | - Visit to claim",
+    "symbol": "T.ME/S/US_POOL",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE - | T.ME/S/US_POOL | - Visit to claim",
+    "symbol": "T.ME/S/US_POOL"
+   },
+   "verdict": "stable"
+  },
+  "0x3eea1c1a8df49ff445838ba046b0ad56456f944f": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "Venice Token",
+     "symbol": "Claim: venice-claim.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 25796404,
+     "matches_end": true,
+     "name": "Venice Token",
+     "symbol": "Claim: venice-claim.com",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 25801961,
+     "matches_end": true,
+     "name": "Venice Token",
+     "symbol": "Claim: venice-claim.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "venice-claim.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "Venice Token",
+    "symbol": "Claim: venice-claim.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "Venice Token",
+    "symbol": "Claim: venice-claim.com"
+   },
+   "verdict": "stable"
+  },
+  "0x3f4132119c2d97fc24b2f4da3a439f1d866b27b0": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 28.02.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 28.02.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 28.02.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 28.02.26"
+   },
+   "verdict": "stable"
+  },
+  "0x3ff0560e81e36c9390b7d8903e510defc7e433ca": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE - | t.me/s/us_pool | - Visit to claim",
+     "symbol": "\u2705Visit to claim: t.me/s/us_pool",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE - | t.me/s/us_pool | - Visit to claim",
+     "symbol": "\u2705Visit to claim: t.me/s/us_pool",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE - | t.me/s/us_pool | - Visit to claim",
+    "symbol": "\u2705Visit to claim: t.me/s/us_pool",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE - | t.me/s/us_pool | - Visit to claim",
+    "symbol": "\u2705Visit to claim: t.me/s/us_pool"
+   },
+   "verdict": "stable"
+  },
+  "0x4081a3d66a9092325e52bc969e946d2c4c5271e4": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 23.01.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 23.01.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 23.01.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 23.01.26"
+   },
+   "verdict": "stable"
+  },
+  "0x40da9607a3de7b10906b3bd4f93beffc5b689ff4": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.10.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.10.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.10.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.10.25"
+   },
+   "verdict": "stable"
+  },
+  "0x41a0e0437e2906abd15c4878f4e7d6371167a4a5": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 19.02.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 19.02.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 19.02.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 19.02.26"
+   },
+   "verdict": "stable"
+  },
+  "0x4290ec58920e8804fcbb2156329396cf82737eeb": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 17.09.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 17.09.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 17.09.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 17.09.25"
+   },
+   "verdict": "stable"
+  },
+  "0x460b9c52bd0859c921254215999323db69340dca": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "! USDAC",
+     "symbol": "Claim on: USD.AC",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 16537728,
+     "matches_end": true,
+     "name": "! USDAC",
+     "symbol": "Claim on: USD.AC",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 16540842,
+     "matches_end": true,
+     "name": "! USDAC",
+     "symbol": "Claim on: USD.AC",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "usd.ac",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "! USDAC",
+    "symbol": "Claim on: USD.AC",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "! USDAC",
+    "symbol": "Claim on: USD.AC"
+   },
+   "verdict": "stable"
+  },
+  "0x49d687ecab7df32265325538e9cb28031f191556": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 15.07.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 15.07.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 15.07.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 15.07.25"
+   },
+   "verdict": "stable"
+  },
+  "0x4b63401c42a25402d4a7b70081d0c5ccd3900e20": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 11.01.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 11.01.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 11.01.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 11.01.26"
+   },
+   "verdict": "stable"
+  },
+  "0x4c64015cef054bc2063f3d0f3d3c960850481251": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705ARB (Visit: t.me/s/arb_pool)",
+     "symbol": "ARB (Visit: t.me/s/arb_pool)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 46288980,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 49584875,
+     "matches_end": true,
+     "name": "\u2705ARB (Visit: t.me/s/arb_pool)",
+     "symbol": "ARB (Visit: t.me/s/arb_pool)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/arb_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705ARB (Visit: t.me/s/arb_pool)",
+    "symbol": "ARB (Visit: t.me/s/arb_pool)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705ARB (Visit: t.me/s/arb_pool)",
+    "symbol": "ARB (Visit: t.me/s/arb_pool)"
+   },
+   "verdict": "stable"
+  },
+  "0x511cee03a1f733c6790a98cdc95005cfa719de09": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE - | t.me/s/us_pool | - Visit to claim",
+     "symbol": "\u2b50\ufe0fVisit to claim - | t.me/s/us_pool |",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE - | t.me/s/us_pool | - Visit to claim",
+     "symbol": "\u2b50\ufe0fVisit to claim - | t.me/s/us_pool |",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE - | t.me/s/us_pool | - Visit to claim",
+    "symbol": "\u2b50\ufe0fVisit to claim - | t.me/s/us_pool |",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE - | t.me/s/us_pool | - Visit to claim",
+    "symbol": "\u2b50\ufe0fVisit to claim - | t.me/s/us_pool |"
+   },
+   "verdict": "stable"
+  },
+  "0x514b6572c502eb7eb77c3b0f97fff1e48a3c6cfd": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 28.12.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 28.12.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 28.12.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 28.12.25"
+   },
+   "verdict": "stable"
+  },
+  "0x53f2f8629585f397ef0cb8395325c673f86f272b": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "www.badrp.co \u2705 Reward inside! \u2705",
+     "symbol": "www.badrp.co \u2705",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 49695978,
+     "matches_end": true,
+     "name": "www.badrp.co \u2705 Reward inside! \u2705",
+     "symbol": "www.badrp.co \u2705",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 49743273,
+     "matches_end": true,
+     "name": "www.badrp.co \u2705 Reward inside! \u2705",
+     "symbol": "www.badrp.co \u2705",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "badrp.co",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "www.badrp.co \u2705 Reward inside! \u2705",
+    "symbol": "www.badrp.co \u2705",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "www.badrp.co \u2705 Reward inside! \u2705",
+    "symbol": "www.badrp.co \u2705"
+   },
+   "verdict": "stable"
+  },
+  "0x590b0ab56cb66034253056d008fcf9412dee9771": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "HMSTR",
+     "symbol": "Visit gethmstr.xyz to claim",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 19375529,
+     "matches_end": true,
+     "name": "HMSTR",
+     "symbol": "Visit gethmstr.xyz to claim",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 19717181,
+     "matches_end": true,
+     "name": "HMSTR",
+     "symbol": "Visit gethmstr.xyz to claim",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "gethmstr.xyz",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "HMSTR",
+    "symbol": "Visit gethmstr.xyz to claim",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "HMSTR",
+    "symbol": "Visit gethmstr.xyz to claim"
+   },
+   "verdict": "stable"
+  },
+  "0x5afdc00746d691882d13919451dd0fc091a0319a": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #45",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 26149764,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 30652967,
+     "matches_end": true,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #45",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.ly/trump",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": "$TRUMP - Claim: t.ly/TRUMP - #45",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": "$TRUMP - Claim: t.ly/TRUMP - #45"
+   },
+   "verdict": "stable"
+  },
+  "0x5bc02251750f3f510934be52e6ac1d866f2318c9": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 30100218,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 34742838,
+     "matches_end": true,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/usaclaim",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$TRUMP AIRDROP",
+    "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$TRUMP AIRDROP",
+    "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days"
+   },
+   "verdict": "stable"
+  },
+  "0x5c57ab9bcabf4bc3664219c7f979823d6740b574": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "verdict": "rpc_error"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": false,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 28.09.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": null,
+   "registry": "unresolved",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 28.09.25"
+   },
+   "verdict": "no_reference_height"
+  },
+  "0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "verdict": "rpc_error"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "rpc_error"
+    },
+    "last": {
+     "block": 38821969,
+     "verdict": "rpc_error"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": null,
+   "registry": "unresolved",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/us_circle | claim until 03.11.25"
+   },
+   "verdict": "unresolved"
+  },
+  "0x6192c5f6333cdf1a22d167e02cd3b3b81bf092a6": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "verdict": "rpc_error"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "rpc_error"
+    },
+    "last": {
+     "block": 47720974,
+     "verdict": "rpc_error"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": null,
+   "registry": "unresolved",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 09.01.26"
+   },
+   "verdict": "unresolved"
+  },
+  "0x62da18390928e438dde260d1526cab03086effc0": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "verdict": "rpc_error"
+    },
+    "first": {
+     "block": 40561885,
+     "verdict": "rpc_error"
+    },
+    "last": {
+     "block": 40615442,
+     "verdict": "rpc_error"
+    }
+   },
+   "campaign": "baseapp.cfd",
+   "on_chain_now": null,
+   "registry": "unresolved",
+   "stored": {
+    "name": "www.baseapp.cfd - claim Base airdrop",
+    "symbol": "www.baseapp.cfd"
+   },
+   "verdict": "unresolved"
+  },
+  "0x63272cd2f76be73219b68ab5f775db5eeb4a8f6e": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705CIRCLE: t.me/s/us_pool",
+     "symbol": "U S D C \u2b50\ufe0fVisit to claim - | t.me/s/us_pool |",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "rpc_error"
+    },
+    "last": {
+     "block": 47720974,
+     "verdict": "rpc_error"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705CIRCLE: t.me/s/us_pool",
+    "symbol": "U S D C \u2b50\ufe0fVisit to claim - | t.me/s/us_pool |",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705CIRCLE: t.me/s/us_pool",
+    "symbol": "U S D C \u2b50\ufe0fVisit to claim - | t.me/s/us_pool |"
+   },
+   "verdict": "only_current_height"
+  },
+  "0x65755ed15ea1285172db2bca5b8af93e1fccf31f": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "U S D C (swap: t.me/s/us_pool)",
+     "symbol": "U S D C (swap: t.me/s/us_pool)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "U S D C (swap: t.me/s/us_pool)",
+     "symbol": "U S D C (swap: t.me/s/us_pool)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "U S D C (swap: t.me/s/us_pool)",
+    "symbol": "U S D C (swap: t.me/s/us_pool)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "U S D C (swap: t.me/s/us_pool)",
+    "symbol": "U S D C (swap: t.me/s/us_pool)"
+   },
+   "verdict": "stable"
+  },
+  "0x666bbccbd28f0da72020b4115a4b61bb5eb59a5d": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "BASE",
+     "symbol": "Collect on: swap-based.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12908371,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 13223890,
+     "matches_end": true,
+     "name": "BASE",
+     "symbol": "Collect on: swap-based.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "swap-based.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "BASE",
+    "symbol": "Collect on: swap-based.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "BASE",
+    "symbol": "Collect on: swap-based.com"
+   },
+   "verdict": "stable"
+  },
+  "0x67467d3d235597768b102c442c2dfb5725c220ad": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "www.baser.cfd - claim Your Base airdrop",
+     "symbol": "www.baser.cfd",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 41337758,
+     "matches_end": true,
+     "name": "www.baser.cfd - claim Your Base airdrop",
+     "symbol": "www.baser.cfd",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 41339025,
+     "matches_end": true,
+     "name": "www.baser.cfd - claim Your Base airdrop",
+     "symbol": "www.baser.cfd",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "baser.cfd",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "www.baser.cfd - claim Your Base airdrop",
+    "symbol": "www.baser.cfd",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "www.baser.cfd - claim Your Base airdrop",
+    "symbol": "www.baser.cfd"
+   },
+   "verdict": "stable"
+  },
+  "0x6780feceb405bdb87d660662b7e732ca65475753": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 30100218,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 34742838,
+     "matches_end": true,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/usaclaim",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$TRUMP AIRDROP",
+    "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$TRUMP AIRDROP",
+    "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days"
+   },
+   "verdict": "stable"
+  },
+  "0x6d6b007f4cc54c70d1c8982c632b69c36d79f2dc": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "Brett",
+     "symbol": "Claim: brettbased.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12704869,
+     "matches_end": true,
+     "name": "Brett",
+     "symbol": "Claim: brettbased.com",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 12768601,
+     "matches_end": true,
+     "name": "Brett",
+     "symbol": "Claim: brettbased.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "brettbased.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "Brett",
+    "symbol": "Claim: brettbased.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "Brett",
+    "symbol": "Claim: brettbased.com"
+   },
+   "verdict": "stable"
+  },
+  "0x742e682ee9460f4f4c0ef624cd5023cf20ce0d06": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705First phase DYDX Airdrop",
+     "symbol": "DYDX (Visit: t.me/s/app_dydx)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 39158370,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 46201927,
+     "matches_end": true,
+     "name": "\u2705First phase DYDX Airdrop",
+     "symbol": "DYDX (Visit: t.me/s/app_dydx)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/app_dydx",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705First phase DYDX Airdrop",
+    "symbol": "DYDX (Visit: t.me/s/app_dydx)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705First phase DYDX Airdrop",
+    "symbol": "DYDX (Visit: t.me/s/app_dydx)"
+   },
+   "verdict": "stable"
+  },
+  "0x7482d3d58bd914784444f14c53aae9951d60cd6c": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705U S D C: t.me/s/us_pool",
+     "symbol": "U S D C \u2705Visit to claim: t.me/s/us_pool",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705U S D C: t.me/s/us_pool",
+     "symbol": "U S D C \u2705Visit to claim: t.me/s/us_pool",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705U S D C: t.me/s/us_pool",
+    "symbol": "U S D C \u2705Visit to claim: t.me/s/us_pool",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705U S D C: t.me/s/us_pool",
+    "symbol": "U S D C \u2705Visit to claim: t.me/s/us_pool"
+   },
+   "verdict": "stable"
+  },
+  "0x75304252229eaf317541d149cd589d37cb046e1e": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "BRETT",
+     "symbol": "Airdrop on: brettbased.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12704869,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 12768601,
+     "matches_end": true,
+     "name": "BRETT",
+     "symbol": "Airdrop on: brettbased.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "brettbased.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "BRETT",
+    "symbol": "Airdrop on: brettbased.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "BRETT",
+    "symbol": "Airdrop on: brettbased.com"
+   },
+   "verdict": "stable"
+  },
+  "0x76080e434f38264a8c40d876b82bb913325bde0b": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "BASE",
+     "symbol": "Collect on: swap-based.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12908371,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 13223890,
+     "matches_end": true,
+     "name": "BASE",
+     "symbol": "Collect on: swap-based.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "swap-based.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "BASE",
+    "symbol": "Collect on: swap-based.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "BASE",
+    "symbol": "Collect on: swap-based.com"
+   },
+   "verdict": "stable"
+  },
+  "0x767f59b7dd44d51ccacca5e6fe7f3e1179b12e88": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "CATI",
+     "symbol": "Visit getcati.xyz to claim",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 19782237,
+     "matches_end": true,
+     "name": "CATI",
+     "symbol": "Visit getcati.xyz to claim",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 20054083,
+     "matches_end": true,
+     "name": "CATI",
+     "symbol": "Visit getcati.xyz to claim",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "getcati.xyz",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "CATI",
+    "symbol": "Visit getcati.xyz to claim",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "CATI",
+    "symbol": "Visit getcati.xyz to claim"
+   },
+   "verdict": "stable"
+  },
+  "0x769b662f6b039eef883caa2dca525bb8108739c9": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "wBASE",
+     "symbol": "wBASE rewards on https://wbase.pro",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 16997740,
+     "matches_end": true,
+     "name": "wBASE",
+     "symbol": "wBASE rewards on https://wbase.pro",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 17295489,
+     "matches_end": true,
+     "name": "wBASE",
+     "symbol": "wBASE rewards on https://wbase.pro",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "wbase.pro",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "wBASE",
+    "symbol": "wBASE rewards on https://wbase.pro",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "wBASE",
+    "symbol": "wBASE rewards on https://wbase.pro"
+   },
+   "verdict": "stable"
+  },
+  "0x7f47b72d0fc2fda7c76270e7db55b076f151c421": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.ly/xTRUMP | *Claim within 7 days",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 29239522,
+     "matches_end": true,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.ly/xTRUMP | *Claim within 7 days",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 30102752,
+     "matches_end": true,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.ly/xTRUMP | *Claim within 7 days",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.ly/xtrump",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$TRUMP AIRDROP",
+    "symbol": "TRUMP | t.ly/xTRUMP | *Claim within 7 days",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$TRUMP AIRDROP",
+    "symbol": "TRUMP | t.ly/xTRUMP | *Claim within 7 days"
+   },
+   "verdict": "stable"
+  },
+  "0x82466795fbdfbcfad6cfca2257540d7c47ba3dc5": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "www.baser.cfd - claim Your Base airdrop",
+     "symbol": "www.baser.cfd",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 41337758,
+     "matches_end": true,
+     "name": "www.baser.cfd - claim Your Base airdrop",
+     "symbol": "www.baser.cfd",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 41339025,
+     "matches_end": true,
+     "name": "www.baser.cfd - claim Your Base airdrop",
+     "symbol": "www.baser.cfd",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "baser.cfd",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "www.baser.cfd - claim Your Base airdrop",
+    "symbol": "www.baser.cfd",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "www.baser.cfd - claim Your Base airdrop",
+    "symbol": "www.baser.cfd"
+   },
+   "verdict": "stable"
+  },
+  "0x852f4736b6e7b3b2e8b789491f1e9df8cf3940ac": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "LiquidEther",
+     "symbol": "LiquidEther rewards on https://stkether.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 14214391,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 16795858,
+     "matches_end": true,
+     "name": "LiquidEther",
+     "symbol": "LiquidEther rewards on https://stkether.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "stkether.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "LiquidEther",
+    "symbol": "LiquidEther rewards on https://stkether.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "LiquidEther",
+    "symbol": "LiquidEther rewards on https://stkether.com"
+   },
+   "verdict": "stable"
+  },
+  "0x88db0cd7c4273a3c0a2c3d60a1d6e637b28e2fe6": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE - | t.me/s/us_pool | - Visit to claim",
+     "symbol": "t.me/s/us_pool - Visit to claim",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE - | t.me/s/us_pool | - Visit to claim",
+     "symbol": "t.me/s/us_pool - Visit to claim",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE - | t.me/s/us_pool | - Visit to claim",
+    "symbol": "t.me/s/us_pool - Visit to claim",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE - | t.me/s/us_pool | - Visit to claim",
+    "symbol": "t.me/s/us_pool - Visit to claim"
+   },
+   "verdict": "stable"
+  },
+  "0x8a183e87726bddf7ff6ff1b8440391141281cfef": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.09.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.09.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.09.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.09.25"
+   },
+   "verdict": "stable"
+  },
+  "0x8dc5a815d4960b4fdcca5a2edc2901d50d905447": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "DeBank Badge: t.ly/debank",
+     "symbol": "DeBank Badge - Redeem: t.ly/debank",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 27899173,
+     "matches_end": true,
+     "name": "DeBank Badge: t.ly/debank",
+     "symbol": "DeBank Badge - Redeem: t.ly/debank",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 28101321,
+     "matches_end": true,
+     "name": "DeBank Badge: t.ly/debank",
+     "symbol": "DeBank Badge - Redeem: t.ly/debank",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.ly/debank",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "DeBank Badge: t.ly/debank",
+    "symbol": "DeBank Badge - Redeem: t.ly/debank",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "DeBank Badge: t.ly/debank",
+    "symbol": "DeBank Badge - Redeem: t.ly/debank"
+   },
+   "verdict": "stable"
+  },
+  "0x91888c5941af32eb647ca788b06f54e4230529b0": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "$3800",
+     "symbol": "Visit stbot.xyz to get 3800",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 17538909,
+     "matches_end": true,
+     "name": "$3800",
+     "symbol": "Visit stbot.xyz to get 3800",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 18910869,
+     "matches_end": true,
+     "name": "$3800",
+     "symbol": "Visit stbot.xyz to get 3800",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "stbot.xyz",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "$3800",
+    "symbol": "Visit stbot.xyz to get 3800",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$3800",
+    "symbol": "Visit stbot.xyz to get 3800"
+   },
+   "verdict": "stable"
+  },
+  "0x926eed100ca24e95e3a96eb7548c101105db7398": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "$PAWS Token Distribution: jpeg.ly/PAWS",
+     "symbol": "$PAWS BabyDoge: jpeg.ly/PAWS - #4",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 27751230,
+     "matches_end": true,
+     "name": "$PAWS Token Distribution: jpeg.ly/PAWS",
+     "symbol": "$PAWS BabyDoge: jpeg.ly/PAWS - #4",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 27841291,
+     "matches_end": true,
+     "name": "$PAWS Token Distribution: jpeg.ly/PAWS",
+     "symbol": "$PAWS BabyDoge: jpeg.ly/PAWS - #4",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "jpeg.ly",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "$PAWS Token Distribution: jpeg.ly/PAWS",
+    "symbol": "$PAWS BabyDoge: jpeg.ly/PAWS - #4",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$PAWS Token Distribution: jpeg.ly/PAWS",
+    "symbol": "$PAWS BabyDoge: jpeg.ly/PAWS - #4"
+   },
+   "verdict": "stable"
+  },
+  "0x95e5e5c5e1730667e4ee545a74593250f34dad9d": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "$STO",
+     "symbol": "claim at: bit.ly/StakeStone",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 28513903,
+     "matches_end": true,
+     "name": "$STO",
+     "symbol": "claim at: bit.ly/StakeStone",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 28972329,
+     "matches_end": true,
+     "name": "$STO",
+     "symbol": "claim at: bit.ly/StakeStone",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "bit.ly/stakestone",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "$STO",
+    "symbol": "claim at: bit.ly/StakeStone",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$STO",
+    "symbol": "claim at: bit.ly/StakeStone"
+   },
+   "verdict": "stable"
+  },
+  "0x96ac83676e600373d4687f507e8db3a1638e6cb1": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 30100218,
+     "matches_end": true,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 34742838,
+     "matches_end": true,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/usaclaim",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$TRUMP AIRDROP",
+    "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$TRUMP AIRDROP",
+    "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days"
+   },
+   "verdict": "stable"
+  },
+  "0x96d010af693ef058895e43f70a96a3c14716df3f": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "BASE",
+     "symbol": "Collect on: swap-based.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12908371,
+     "matches_end": true,
+     "name": "BASE",
+     "symbol": "Collect on: swap-based.com",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 13223890,
+     "matches_end": true,
+     "name": "BASE",
+     "symbol": "Collect on: swap-based.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "swap-based.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "BASE",
+    "symbol": "Collect on: swap-based.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "BASE",
+    "symbol": "Collect on: swap-based.com"
+   },
+   "verdict": "stable"
+  },
+  "0x9744802d2279e9902664543c3838f13bd36ded27": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "! Airdapp.net",
+     "symbol": "View Airdrops at https://airdapp.net",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 17486728,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 17497507,
+     "matches_end": true,
+     "name": "! Airdapp.net",
+     "symbol": "View Airdrops at https://airdapp.net",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "airdapp.net",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "! Airdapp.net",
+    "symbol": "View Airdrops at https://airdapp.net",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "! Airdapp.net",
+    "symbol": "View Airdrops at https://airdapp.net"
+   },
+   "verdict": "stable"
+  },
+  "0x9765eaa10b7416da46a5f3de7f3f55ccfa12ce91": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 05.02.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 05.02.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 05.02.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 05.02.26"
+   },
+   "verdict": "stable"
+  },
+  "0x976c883b82e22a8fe367434a94fa1eec5f915d0b": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "App Store: Install BTC.AI to Claim Airdrop",
+     "symbol": "App Store: Install BTC.AI to Claim Airdrop",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 48527601,
+     "matches_end": true,
+     "name": "App Store: Install BTC.AI to Claim Airdrop",
+     "symbol": "App Store: Install BTC.AI to Claim Airdrop",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 49725973,
+     "matches_end": true,
+     "name": "App Store: Install BTC.AI to Claim Airdrop",
+     "symbol": "App Store: Install BTC.AI to Claim Airdrop",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "btc.ai",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "App Store: Install BTC.AI to Claim Airdrop",
+    "symbol": "App Store: Install BTC.AI to Claim Airdrop",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "App Store: Install BTC.AI to Claim Airdrop",
+    "symbol": "App Store: Install BTC.AI to Claim Airdrop"
+   },
+   "verdict": "stable"
+  },
+  "0x97de3d1e109b822d52595bcbea139cc551d380d1": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "! Airdapp.net",
+     "symbol": "View Airdrops at https://airdapp.net",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 17486728,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 17497507,
+     "matches_end": true,
+     "name": "! Airdapp.net",
+     "symbol": "View Airdrops at https://airdapp.net",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "airdapp.net",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "! Airdapp.net",
+    "symbol": "View Airdrops at https://airdapp.net",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "! Airdapp.net",
+    "symbol": "View Airdrops at https://airdapp.net"
+   },
+   "verdict": "stable"
+  },
+  "0x98b95feab59b18f6179b195af75d6d26b5ae668f": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "BGB",
+     "symbol": "Visit BGBget.pro to claim",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 25952077,
+     "matches_end": true,
+     "name": "BGB",
+     "symbol": "Visit BGBget.pro to claim",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 26390832,
+     "matches_end": true,
+     "name": "BGB",
+     "symbol": "Visit BGBget.pro to claim",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "bgbget.pro",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "BGB",
+    "symbol": "Visit BGBget.pro to claim",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "BGB",
+    "symbol": "Visit BGBget.pro to claim"
+   },
+   "verdict": "stable"
+  },
+  "0x9dcad047f20ec7750ac9de87837b209261960d1c": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | *claim until 11.11.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | *claim until 11.11.25",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | *claim until 11.11.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | *claim until 11.11.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | *claim until 11.11.25"
+   },
+   "verdict": "stable"
+  },
+  "0x9fde643a40c3d92d785cf2702361ce0e01924129": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "Eligible Address",
+     "symbol": "SEA $7.543,00: sea-claim.netlify.app",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 39913066,
+     "matches_end": true,
+     "name": "Eligible Address",
+     "symbol": "SEA $7.543,00: sea-claim.netlify.app",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 39916653,
+     "matches_end": true,
+     "name": "Eligible Address",
+     "symbol": "SEA $7.543,00: sea-claim.netlify.app",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "sea-claim.netlify.app",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "Eligible Address",
+    "symbol": "SEA $7.543,00: sea-claim.netlify.app",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "Eligible Address",
+    "symbol": "SEA $7.543,00: sea-claim.netlify.app"
+   },
+   "verdict": "stable"
+  },
+  "0xa0fce5a7571303feab7db8a8e7c4cb01fd63be38": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "       Ethereum",
+     "symbol": "Access rewards on https://liquidsteth.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 15373569,
+     "matches_end": true,
+     "name": "       Ethereum",
+     "symbol": "Access rewards on https://liquidsteth.com",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 15407119,
+     "matches_end": true,
+     "name": "       Ethereum",
+     "symbol": "Access rewards on https://liquidsteth.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "liquidsteth.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "       Ethereum",
+    "symbol": "Access rewards on https://liquidsteth.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_whitespace_only",
+   "stored": {
+    "name": "Ethereum",
+    "symbol": "Access rewards on https://liquidsteth.com"
+   },
+   "verdict": "stable"
+  },
+  "0xa10e0eb6069f0690204f3959db58fdffb5921c04": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "www.base1.cfd - claim Your Base airdrop",
+     "symbol": "www.base1.cfd",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 48383902,
+     "matches_end": true,
+     "name": "www.base1.cfd - claim Your Base airdrop",
+     "symbol": "www.base1.cfd",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 48403630,
+     "matches_end": true,
+     "name": "www.base1.cfd - claim Your Base airdrop",
+     "symbol": "www.base1.cfd",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "base1.cfd",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "www.base1.cfd - claim Your Base airdrop",
+    "symbol": "www.base1.cfd",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "www.base1.cfd - claim Your Base airdrop",
+    "symbol": "www.base1.cfd"
+   },
+   "verdict": "stable"
+  },
+  "0xa12449ebe46da7603f559a53e23ceb6fa3e339e6": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705ARBITRUM AIRDROP - ROUND1",
+     "symbol": "ARB (Visit to claim: t.me/s/arb_pool)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 46288980,
+     "matches_end": true,
+     "name": "\u2705ARBITRUM AIRDROP - ROUND1",
+     "symbol": "ARB (Visit to claim: t.me/s/arb_pool)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 49584875,
+     "matches_end": true,
+     "name": "\u2705ARBITRUM AIRDROP - ROUND1",
+     "symbol": "ARB (Visit to claim: t.me/s/arb_pool)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/arb_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705ARBITRUM AIRDROP - ROUND1",
+    "symbol": "ARB (Visit to claim: t.me/s/arb_pool)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705ARBITRUM AIRDROP - ROUND1",
+    "symbol": "ARB (Visit to claim: t.me/s/arb_pool)"
+   },
+   "verdict": "stable"
+  },
+  "0xa3415b7bee1a6942c64bc9752896a074069b580b": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 03.01.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 03.01.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 03.01.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 03.01.26"
+   },
+   "verdict": "stable"
+  },
+  "0xa62f113d3c7934d455f4f7fec70b935f67e7fdc5": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "NEIRO",
+     "symbol": "Visit getneirocoin.xyz to Claim",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 20289068,
+     "matches_end": true,
+     "name": "NEIRO",
+     "symbol": "Visit getneirocoin.xyz to Claim",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 20443794,
+     "matches_end": true,
+     "name": "NEIRO",
+     "symbol": "Visit getneirocoin.xyz to Claim",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "getneirocoin.xyz",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "NEIRO",
+    "symbol": "Visit getneirocoin.xyz to Claim",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "NEIRO",
+    "symbol": "Visit getneirocoin.xyz to Claim"
+   },
+   "verdict": "stable"
+  },
+  "0xa9f25c919614bc35cf1fedb5ec206e5a1b4e2781": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE (t.me/s/US_POOL) Visit to claim",
+     "symbol": "t.me/s/US_POOL",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE (t.me/s/US_POOL) Visit to claim",
+     "symbol": "t.me/s/US_POOL",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE (t.me/s/US_POOL) Visit to claim",
+    "symbol": "t.me/s/US_POOL",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE (t.me/s/US_POOL) Visit to claim",
+    "symbol": "t.me/s/US_POOL"
+   },
+   "verdict": "stable"
+  },
+  "0xaa08f8d992c5d24ed41d899f782d6883c04d05f1": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 29.01.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 29.01.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 29.01.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 29.01.26"
+   },
+   "verdict": "stable"
+  },
+  "0xab59ff324cf15446cb259ffe13ed27328665c6c1": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "! Airdapp.net",
+     "symbol": "View Airdrops at https://airdapp.net",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 17486728,
+     "matches_end": true,
+     "name": "! Airdapp.net",
+     "symbol": "View Airdrops at https://airdapp.net",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 17497507,
+     "matches_end": true,
+     "name": "! Airdapp.net",
+     "symbol": "View Airdrops at https://airdapp.net",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "airdapp.net",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "! Airdapp.net",
+    "symbol": "View Airdrops at https://airdapp.net",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "! Airdapp.net",
+    "symbol": "View Airdrops at https://airdapp.net"
+   },
+   "verdict": "stable"
+  },
+  "0xac6b3c2d793673937523bb9aedde61a50b86b691": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 12.08.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 12.08.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 12.08.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 12.08.25"
+   },
+   "verdict": "stable"
+  },
+  "0xac8584710490fbb73d03e863fb6d74ac917134c4": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 - [ t.ly/USPOOL ] - *claim until 20.04.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 28781966,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 - [ t.ly/USPOOL ] - *claim until 20.04.25",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 29186484,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 - [ t.ly/USPOOL ] - *claim until 20.04.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.ly/uspool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 - [ t.ly/USPOOL ] - *claim until 20.04.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 - [ t.ly/USPOOL ] - *claim until 20.04.25"
+   },
+   "verdict": "stable"
+  },
+  "0xad03e2e457ebe290f364c9aa8133dcd0cda30c4e": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 02.02.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 02.02.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 02.02.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 02.02.26"
+   },
+   "verdict": "stable"
+  },
+  "0xae56028079fb8e3fc788b25af7e4e343f7878e4c": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 26149764,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 30652967,
+     "matches_end": true,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.ly/trump",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1"
+   },
+   "verdict": "stable"
+  },
+  "0xb00fbdf24d58ef589ab2495b4c86e7b1ce79f06a": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "BASE",
+     "symbol": "Collect on: swap-based.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12908371,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 13223890,
+     "matches_end": true,
+     "name": "BASE",
+     "symbol": "Collect on: swap-based.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "swap-based.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "BASE",
+    "symbol": "Collect on: swap-based.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "BASE",
+    "symbol": "Collect on: swap-based.com"
+   },
+   "verdict": "stable"
+  },
+  "0xb435cb9cee20efce58c452f646552c3ad744ed64": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.09.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.09.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.09.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 09.09.25"
+   },
+   "verdict": "stable"
+  },
+  "0xb62814d9063c181665b17942df2d9117de98a1a4": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 03.03.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 03.03.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 03.03.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 03.03.26"
+   },
+   "verdict": "stable"
+  },
+  "0xb7d166ba1f250c40708e5435afc4d2ef5a9f5118": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "BGB",
+     "symbol": "Visit getBGB.xyz to claim",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 24261469,
+     "matches_end": true,
+     "name": "BGB",
+     "symbol": "Visit getBGB.xyz to claim",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 24852730,
+     "matches_end": true,
+     "name": "BGB",
+     "symbol": "Visit getBGB.xyz to claim",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "getbgb.xyz",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "BGB",
+    "symbol": "Visit getBGB.xyz to claim",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "BGB",
+    "symbol": "Visit getBGB.xyz to claim"
+   },
+   "verdict": "stable"
+  },
+  "0xb84dc28471878f7948a71b3887ecd73349233aef": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "verdict": "rpc_error"
+    },
+    "first": {
+     "block": 20790397,
+     "verdict": "rpc_error"
+    },
+    "last": {
+     "block": 24192184,
+     "verdict": "rpc_error"
+    }
+   },
+   "campaign": "moodeng.ink",
+   "on_chain_now": null,
+   "registry": "unresolved",
+   "stored": {
+    "name": "MOODENG",
+    "symbol": "Visit moodeng.ink to claim"
+   },
+   "verdict": "unresolved"
+  },
+  "0xb931bda2d052c086d6800c85c9e091ccaa689a40": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "verdict": "rpc_error"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "rpc_error"
+    },
+    "last": {
+     "block": 38821969,
+     "verdict": "rpc_error"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": null,
+   "registry": "unresolved",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 01.09.25"
+   },
+   "verdict": "unresolved"
+  },
+  "0xb9a0c47adea84b1cf17a787c429bdeeeac01ccd7": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "verdict": "rpc_error"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "rpc_error"
+    },
+    "last": {
+     "block": 47720974,
+     "verdict": "rpc_error"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": null,
+   "registry": "unresolved",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 10.02.26"
+   },
+   "verdict": "unresolved"
+  },
+  "0xb9e5e7296466c7daea8133289fbb29e493e72956": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "verdict": "rpc_error"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "rpc_error"
+    },
+    "last": {
+     "block": 47720974,
+     "verdict": "rpc_error"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": null,
+   "registry": "unresolved",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 09.02.26"
+   },
+   "verdict": "unresolved"
+  },
+  "0xbc2cc8899aa441819a5cfb62a6e5af05ece9143d": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "! Airdapp.net",
+     "symbol": "View Airdrops at https://airdapp.net",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 17486728,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 17497507,
+     "matches_end": true,
+     "name": "! Airdapp.net",
+     "symbol": "View Airdrops at https://airdapp.net",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "airdapp.net",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "! Airdapp.net",
+    "symbol": "View Airdrops at https://airdapp.net",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "! Airdapp.net",
+    "symbol": "View Airdrops at https://airdapp.net"
+   },
+   "verdict": "stable"
+  },
+  "0xbee4e0e23ac9f82a439fa6712f165e7b573c211f": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "BASE",
+     "symbol": "Collect on: swap-based.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12908371,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 13223890,
+     "matches_end": true,
+     "name": "BASE",
+     "symbol": "Collect on: swap-based.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "swap-based.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "BASE",
+    "symbol": "Collect on: swap-based.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "BASE",
+    "symbol": "Collect on: swap-based.com"
+   },
+   "verdict": "stable"
+  },
+  "0xc14f1a108b876f9ecfeb10ec4f154dd8a0c5ccbb": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 26.01.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 26.01.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 26.01.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 26.01.26"
+   },
+   "verdict": "stable"
+  },
+  "0xc2fad67ceadbde7001ca70236cde9f672edc573b": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 23.12.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 23.12.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 23.12.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 23.12.25"
+   },
+   "verdict": "stable"
+  },
+  "0xc54353e3b6a8686996aa44ccc1802a418562af56": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "www.baseapp.cfd - claim Base airdrop",
+     "symbol": "www.baseapp.cfd",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 40561885,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 40615442,
+     "matches_end": true,
+     "name": "www.baseapp.cfd - claim Base airdrop",
+     "symbol": "www.baseapp.cfd",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "baseapp.cfd",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "www.baseapp.cfd - claim Base airdrop",
+    "symbol": "www.baseapp.cfd",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "www.baseapp.cfd - claim Base airdrop",
+    "symbol": "www.baseapp.cfd"
+   },
+   "verdict": "stable"
+  },
+  "0xc64e1d954086610b05ce9d7432749f594f9ff151": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "# blast2l.com",
+     "symbol": "Visit blast2l.com to claim rewards",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12991239,
+     "matches_end": true,
+     "name": "# blast2l.com",
+     "symbol": "Visit blast2l.com to claim rewards",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 14100980,
+     "matches_end": true,
+     "name": "# blast2l.com",
+     "symbol": "Visit blast2l.com to claim rewards",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "blast2l.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "# blast2l.com",
+    "symbol": "Visit blast2l.com to claim rewards",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "# blast2l.com",
+    "symbol": "Visit blast2l.com to claim rewards"
+   },
+   "verdict": "stable"
+  },
+  "0xc6fb2d95f751bcf22ec972f54d5a9d81b4a49142": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "BASED USA AIRDROP",
+     "symbol": "Claim on: basedusa.live/?claim",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 14902253,
+     "matches_end": true,
+     "name": "BASED USA AIRDROP",
+     "symbol": "Claim on: basedusa.live/?claim",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 14903456,
+     "matches_end": true,
+     "name": "BASED USA AIRDROP",
+     "symbol": "Claim on: basedusa.live/?claim",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "basedusa.live",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "BASED USA AIRDROP",
+    "symbol": "Claim on: basedusa.live/?claim",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "BASED USA AIRDROP",
+    "symbol": "Claim on: basedusa.live/?claim"
+   },
+   "verdict": "stable"
+  },
+  "0xc8240ea87a0e6203dcae16134e60351708774377": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "BASE",
+     "symbol": "Claim on: swap-based.com/?take",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12908371,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 13223890,
+     "matches_end": true,
+     "name": "BASE",
+     "symbol": "Claim on: swap-based.com/?take",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "swap-based.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "BASE",
+    "symbol": "Claim on: swap-based.com/?take",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "BASE",
+    "symbol": "Claim on: swap-based.com/?take"
+   },
+   "verdict": "stable"
+  },
+  "0xc8cb43fc64b1780d8ee10d1a6a87c33531f9b140": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 30100218,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 34742838,
+     "matches_end": true,
+     "name": "\u2705$TRUMP AIRDROP",
+     "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/usaclaim",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$TRUMP AIRDROP",
+    "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$TRUMP AIRDROP",
+    "symbol": "TRUMP | t.me/s/USAclaim | *Claim within 7 days"
+   },
+   "verdict": "stable"
+  },
+  "0xca21091ffa0f3af00191686f553aae6848ee75b8": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$EIGEN REWARD POOL",
+     "symbol": "EIGEN - | fli.so/EIGEN | *Swap within 7 days",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 30343660,
+     "matches_end": true,
+     "name": "\u2705$EIGEN REWARD POOL",
+     "symbol": "EIGEN - | fli.so/EIGEN | *Swap within 7 days",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 33346094,
+     "matches_end": true,
+     "name": "\u2705$EIGEN REWARD POOL",
+     "symbol": "EIGEN - | fli.so/EIGEN | *Swap within 7 days",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "fli.so",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$EIGEN REWARD POOL",
+    "symbol": "EIGEN - | fli.so/EIGEN | *Swap within 7 days",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$EIGEN REWARD POOL",
+    "symbol": "EIGEN - | fli.so/EIGEN | *Swap within 7 days"
+   },
+   "verdict": "stable"
+  },
+  "0xca5b78dfacc39da5bf8d64cbb8159e866d67da26": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "Degen",
+     "symbol": "Airdrop: degen.gifts/?claim",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12498733,
+     "matches_end": true,
+     "name": "Degen",
+     "symbol": "Airdrop: degen.gifts/?claim",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 12916600,
+     "matches_end": true,
+     "name": "Degen",
+     "symbol": "Airdrop: degen.gifts/?claim",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "degen.gifts",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "Degen",
+    "symbol": "Airdrop: degen.gifts/?claim",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "Degen",
+    "symbol": "Airdrop: degen.gifts/?claim"
+   },
+   "verdict": "stable"
+  },
+  "0xcbcdc21395107901a733df806eb85249866db7dd": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE (t.me/s/US_POOL) Visit to claim",
+     "symbol": "t.me/s/US_POOL",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE (t.me/s/US_POOL) Visit to claim",
+     "symbol": "t.me/s/US_POOL",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE (t.me/s/US_POOL) Visit to claim",
+    "symbol": "t.me/s/US_POOL",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE (t.me/s/US_POOL) Visit to claim",
+    "symbol": "t.me/s/US_POOL"
+   },
+   "verdict": "stable"
+  },
+  "0xcd250decb9a007f93bf0ab169a8480b1b988ec1a": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 16.08.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 16.08.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 16.08.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 16.08.25"
+   },
+   "verdict": "stable"
+  },
+  "0xcd6b003fd8b433e79137627267bc1ce177be368d": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 07.01.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 07.01.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 07.01.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 07.01.26"
+   },
+   "verdict": "stable"
+  },
+  "0xce7903c8b9895d2976dc14c7bbe55d84b7751494": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "CLAIM",
+     "symbol": "Eligible: claim-opensea.netlify.app",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 38584828,
+     "matches_end": true,
+     "name": "CLAIM",
+     "symbol": "Eligible: claim-opensea.netlify.app",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 38674822,
+     "matches_end": true,
+     "name": "CLAIM",
+     "symbol": "Eligible: claim-opensea.netlify.app",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "claim-opensea.netlify.app",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "CLAIM",
+    "symbol": "Eligible: claim-opensea.netlify.app",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "CLAIM",
+    "symbol": "Eligible: claim-opensea.netlify.app"
+   },
+   "verdict": "stable"
+  },
+  "0xcf9b9ad0102fc2122cfc4d5355c596e7a4289f62": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "usdc2.com",
+     "symbol": "claim rewards on usdc2.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 13308812,
+     "matches_end": true,
+     "name": "usdc2.com",
+     "symbol": "claim rewards on usdc2.com",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 13506242,
+     "matches_end": true,
+     "name": "usdc2.com",
+     "symbol": "claim rewards on usdc2.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "usdc2.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "usdc2.com",
+    "symbol": "claim rewards on usdc2.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "usdc2.com",
+    "symbol": "claim rewards on usdc2.com"
+   },
+   "verdict": "stable"
+  },
+  "0xd01e3beaa5dd17b65700fa521253089042d98a6b": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": " !      BRETT",
+     "symbol": "Claim Airdrop (https://brettdrop.com)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 16269267,
+     "matches_end": true,
+     "name": " !      BRETT",
+     "symbol": "Claim Airdrop (https://brettdrop.com)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 16904021,
+     "matches_end": true,
+     "name": " !      BRETT",
+     "symbol": "Claim Airdrop (https://brettdrop.com)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "brettdrop.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": " !      BRETT",
+    "symbol": "Claim Airdrop (https://brettdrop.com)",
+    "verdict": "answered"
+   },
+   "registry": "registry_whitespace_only",
+   "stored": {
+    "name": "!      BRETT",
+    "symbol": "Claim Airdrop (https://brettdrop.com)"
+   },
+   "verdict": "stable"
+  },
+  "0xd0f929534c5a05aeda1f61cdcede6dcb7420956f": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 14.02.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 14.02.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 14.02.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 14.02.26"
+   },
+   "verdict": "stable"
+  },
+  "0xd248fe2929e7ea707c4546f0b964f3d8255d4968": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "LiquidEther",
+     "symbol": "Acces rewards on stkether.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 14214391,
+     "matches_end": true,
+     "name": "LiquidEther",
+     "symbol": "Acces rewards on stkether.com",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 16795858,
+     "matches_end": true,
+     "name": "LiquidEther",
+     "symbol": "Acces rewards on stkether.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "stkether.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "LiquidEther",
+    "symbol": "Acces rewards on stkether.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "LiquidEther",
+    "symbol": "Acces rewards on stkether.com"
+   },
+   "verdict": "stable"
+  },
+  "0xd63149fc85ea400db18da0a5e8e2a0e8bb7b64b1": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | claim until 07.12.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | claim until 07.12.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | claim until 07.12.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | claim until 07.12.25"
+   },
+   "verdict": "stable"
+  },
+  "0xd8163cca0a1f3704c93c20cf2fe974db770a7695": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705ARBITRUM AIRDROP - ROUND1",
+     "symbol": "ARB (Visit: t.me/s/arb_pool)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 46288980,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 49584875,
+     "matches_end": true,
+     "name": "\u2705ARBITRUM AIRDROP - ROUND1",
+     "symbol": "ARB (Visit: t.me/s/arb_pool)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/arb_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705ARBITRUM AIRDROP - ROUND1",
+    "symbol": "ARB (Visit: t.me/s/arb_pool)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705ARBITRUM AIRDROP - ROUND1",
+    "symbol": "ARB (Visit: t.me/s/arb_pool)"
+   },
+   "verdict": "stable"
+  },
+  "0xda932bcc910ec2dbdcbc49e01f8a5b36be9deefb": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 21.09.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 21.09.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 21.09.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 21.09.25"
+   },
+   "verdict": "stable"
+  },
+  "0xdc91170e9627d9ebedd777a267032e94143a9466": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "BRETT",
+     "symbol": "Airdrop on: brettbased.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12704869,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 12768601,
+     "matches_end": true,
+     "name": "BRETT",
+     "symbol": "Airdrop on: brettbased.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "brettbased.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "BRETT",
+    "symbol": "Airdrop on: brettbased.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "BRETT",
+    "symbol": "Airdrop on: brettbased.com"
+   },
+   "verdict": "stable"
+  },
+  "0xdd2e30c43bd10b4546b67e47d2a4473c821ee31d": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705U S D C: t.me/s/us_pool",
+     "symbol": "U S D C \u2705Visit to claim: t.me/s/us_pool",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705U S D C: t.me/s/us_pool",
+     "symbol": "U S D C \u2705Visit to claim: t.me/s/us_pool",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705U S D C: t.me/s/us_pool",
+    "symbol": "U S D C \u2705Visit to claim: t.me/s/us_pool",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705U S D C: t.me/s/us_pool",
+    "symbol": "U S D C \u2705Visit to claim: t.me/s/us_pool"
+   },
+   "verdict": "stable"
+  },
+  "0xe0709519519033300c01028401cdfe0ab6d2fa6c": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 01.09.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 01.09.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 01.09.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 01.09.25"
+   },
+   "verdict": "stable"
+  },
+  "0xe132499880311b5d1dbe6c3a45402126eea05597": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705SHIBA INU TOKEN REWARD POOL",
+     "symbol": "SHIB (\u0421laim: t.me/s/shib_pool)",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 46503173,
+     "matches_end": true,
+     "name": "\u2705SHIBA INU TOKEN REWARD POOL",
+     "symbol": "SHIB (\u0421laim: t.me/s/shib_pool)",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 47372422,
+     "matches_end": true,
+     "name": "\u2705SHIBA INU TOKEN REWARD POOL",
+     "symbol": "SHIB (\u0421laim: t.me/s/shib_pool)",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/shib_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705SHIBA INU TOKEN REWARD POOL",
+    "symbol": "SHIB (\u0421laim: t.me/s/shib_pool)",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705SHIBA INU TOKEN REWARD POOL",
+    "symbol": "SHIB (\u0421laim: t.me/s/shib_pool)"
+   },
+   "verdict": "stable"
+  },
+  "0xe43d2d874877d74999c958a484cc5f04e6bc2931": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705CIRCLE: t.me/s/us_pool",
+     "symbol": "U S D C \u2b50\ufe0fVisit to claim: t.me/s/us_pool",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705CIRCLE: t.me/s/us_pool",
+     "symbol": "U S D C \u2b50\ufe0fVisit to claim: t.me/s/us_pool",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705CIRCLE: t.me/s/us_pool",
+    "symbol": "U S D C \u2b50\ufe0fVisit to claim: t.me/s/us_pool",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705CIRCLE: t.me/s/us_pool",
+    "symbol": "U S D C \u2b50\ufe0fVisit to claim: t.me/s/us_pool"
+   },
+   "verdict": "stable"
+  },
+  "0xe4710d368e06ad894d5b2e0256d997fc2c1fddb6": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "USUAL",
+     "symbol": "Visit getusual.pro to claim",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 23918586,
+     "matches_end": true,
+     "name": "USUAL",
+     "symbol": "Visit getusual.pro to claim",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 24256630,
+     "matches_end": true,
+     "name": "USUAL",
+     "symbol": "Visit getusual.pro to claim",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "getusual.pro",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "USUAL",
+    "symbol": "Visit getusual.pro to claim",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "USUAL",
+    "symbol": "Visit getusual.pro to claim"
+   },
+   "verdict": "stable"
+  },
+  "0xe57a18f603f48e91a9b1a9593e839894cbfae2ca": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 26149764,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 30652967,
+     "matches_end": true,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.ly/trump",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1"
+   },
+   "verdict": "stable"
+  },
+  "0xe6758d2203a62c16960c55e97b43fa0cfed93b1a": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | claim until 29.11.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | claim until 29.11.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | claim until 29.11.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | claim until 29.11.25"
+   },
+   "verdict": "stable"
+  },
+  "0xe67c465de72d439352e2a137dfc06952e59705fc": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 31.12.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "t.me/s/US_POOL | claim until 31.12.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 31.12.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "t.me/s/US_POOL | claim until 31.12.25"
+   },
+   "verdict": "stable"
+  },
+  "0xea7e17526ccce09f38b472dac3b4fcdfff100c39": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 24.02.26",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "(t.me/s/US_POOL) *claim until 24.02.26",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 24.02.26",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "(t.me/s/US_POOL) *claim until 24.02.26"
+   },
+   "verdict": "stable"
+  },
+  "0xeb2e6c2650e2b8601f2cfdba2f842f0d42a8a340": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "LayerZero (ZRO)",
+     "symbol": "Claim on: layerzero-claim.com.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 16072692,
+     "matches_end": true,
+     "name": "LayerZero (ZRO)",
+     "symbol": "Claim on: layerzero-claim.com.com",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 16080765,
+     "matches_end": true,
+     "name": "LayerZero (ZRO)",
+     "symbol": "Claim on: layerzero-claim.com.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "com.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "LayerZero (ZRO)",
+    "symbol": "Claim on: layerzero-claim.com.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "LayerZero (ZRO)",
+    "symbol": "Claim on: layerzero-claim.com.com"
+   },
+   "verdict": "stable"
+  },
+  "0xec5292103b193a9b0993fedd6672afefc723426c": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "Visit: t.me/s/US_POOL | claim until 15.12.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+     "symbol": "Visit: t.me/s/US_POOL | claim until 15.12.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "Visit: t.me/s/US_POOL | claim until 15.12.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE TOKEN DISTRIBUTION",
+    "symbol": "Visit: t.me/s/US_POOL | claim until 15.12.25"
+   },
+   "verdict": "stable"
+  },
+  "0xedb870db9427b5aa93df654f3212abd09aaa43f3": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 20.09.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 20.09.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 20.09.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 20.09.25"
+   },
+   "verdict": "stable"
+  },
+  "0xf0adb186f0865c229966d20ad97ad4e6e2570ffa": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "BRETT",
+     "symbol": "Claim on: rewards-brett.com",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 15205052,
+     "matches_end": true,
+     "name": "BRETT",
+     "symbol": "Claim on: rewards-brett.com",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 15208713,
+     "matches_end": true,
+     "name": "BRETT",
+     "symbol": "Claim on: rewards-brett.com",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "rewards-brett.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "BRETT",
+    "symbol": "Claim on: rewards-brett.com",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "BRETT",
+    "symbol": "Claim on: rewards-brett.com"
+   },
+   "verdict": "stable"
+  },
+  "0xf10c0ad86b1105b1da6f3f22b070f0d5ae3a5940": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 15.09.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 15.09.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 15.09.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 15.09.25"
+   },
+   "verdict": "stable"
+  },
+  "0xf17ac6912534f73dc572d97962cb9c9ba92bb9cf": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 21.09.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 21.09.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 21.09.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 21.09.25"
+   },
+   "verdict": "stable"
+  },
+  "0xf2999fe53505d7493aea039f366150e4912acd36": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 26149764,
+     "matches_end": true,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 30652967,
+     "matches_end": true,
+     "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+     "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.ly/trump",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "$TRUMP AIRDROP: t.ly/TRUMP",
+    "symbol": "$TRUMP - Claim: t.ly/TRUMP - #1"
+   },
+   "verdict": "stable"
+  },
+  "0xf3a65bb6dcbcd4fb9114049e66591a61340183f2": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 20.09.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 20.09.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 20.09.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 20.09.25"
+   },
+   "verdict": "stable"
+  },
+  "0xfa2c3b559d6056343b8548420c95657a62ecfd0d": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705ARB | t.me/s/arb_pool",
+     "symbol": "ARB | t.me/s/arb_pool",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 46288980,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 49584875,
+     "matches_end": true,
+     "name": "\u2705ARB | t.me/s/arb_pool",
+     "symbol": "ARB | t.me/s/arb_pool",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/arb_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705ARB | t.me/s/arb_pool",
+    "symbol": "ARB | t.me/s/arb_pool",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705ARB | t.me/s/arb_pool",
+    "symbol": "ARB | t.me/s/arb_pool"
+   },
+   "verdict": "stable"
+  },
+  "0xfc0c65c7993aa9cb6d93c0552e98e01d8857ea77": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | claim until 02.12.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | claim until 02.12.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | claim until 02.12.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_POOL | claim until 02.12.25"
+   },
+   "verdict": "stable"
+  },
+  "0xfc73b6b8de5a86311e6bb1fa5628dbd152849d90": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "bloo foster coin",
+     "symbol": "Claim on: bloo-foster.com/?claim",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 12170622,
+     "matches_end": true,
+     "name": "bloo foster coin",
+     "symbol": "Claim on: bloo-foster.com/?claim",
+     "verdict": "answered"
+    },
+    "last": {
+     "block": 12916745,
+     "matches_end": true,
+     "name": "bloo foster coin",
+     "symbol": "Claim on: bloo-foster.com/?claim",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "bloo-foster.com",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "bloo foster coin",
+    "symbol": "Claim on: bloo-foster.com/?claim",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "bloo foster coin",
+    "symbol": "Claim on: bloo-foster.com/?claim"
+   },
+   "verdict": "stable"
+  },
+  "0xfdaa4c3d4372e5d123416c1ed4e9374292dd9307": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705\u0421IRCLE (t.me/s/US_POOL) Visit to claim",
+     "symbol": "t.me/s/US_POOL",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705\u0421IRCLE (t.me/s/US_POOL) Visit to claim",
+     "symbol": "t.me/s/US_POOL",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705\u0421IRCLE (t.me/s/US_POOL) Visit to claim",
+    "symbol": "t.me/s/US_POOL",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705\u0421IRCLE (t.me/s/US_POOL) Visit to claim",
+    "symbol": "t.me/s/US_POOL"
+   },
+   "verdict": "stable"
+  },
+  "0xfe053875e55eee3e0c28697fd80cb3e19ecf3016": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705U5DC TOKEN DISTRIBUTION",
+     "symbol": "U5DC \u2b50\ufe0fVisit to claim - | t.me/s/us_pool |",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 37861940,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 47720974,
+     "matches_end": true,
+     "name": "\u2705U5DC TOKEN DISTRIBUTION",
+     "symbol": "U5DC \u2b50\ufe0fVisit to claim - | t.me/s/us_pool |",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_pool",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705U5DC TOKEN DISTRIBUTION",
+    "symbol": "U5DC \u2b50\ufe0fVisit to claim - | t.me/s/us_pool |",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705U5DC TOKEN DISTRIBUTION",
+    "symbol": "U5DC \u2b50\ufe0fVisit to claim - | t.me/s/us_pool |"
+   },
+   "verdict": "stable"
+  },
+  "0xff7309b42c0e2607910f1907ad7a38a86aafac01": {
+   "at": {
+    "end": {
+     "block": 49743280,
+     "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 25.08.25",
+     "verdict": "answered"
+    },
+    "first": {
+     "block": 32457466,
+     "verdict": "no_code_at_height"
+    },
+    "last": {
+     "block": 38821969,
+     "matches_end": true,
+     "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+     "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 25.08.25",
+     "verdict": "answered"
+    }
+   },
+   "campaign": "t.me/us_circle",
+   "on_chain_now": {
+    "block": 49743280,
+    "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 25.08.25",
+    "verdict": "answered"
+   },
+   "registry": "registry_matches",
+   "stored": {
+    "name": "\u2705U\u0405D\u0421 TOKEN DISTRIBUTION",
+    "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 25.08.25"
+   },
+   "verdict": "stable"
+  }
+ },
+ "registry_mismatch_contracts": [
+  "0x2e09dab2f1addca3076deafdf471eb4787e03467"
+ ],
+ "registry_note": "a SEPARATE question from the temporal one: whether the stored metadata the detector reads matches what the contract returns today. Whitespace-only differences are separated out because the detector normalises whitespace and they cannot change its verdict.",
+ "stable_share_of_comparable": 1.0
+}

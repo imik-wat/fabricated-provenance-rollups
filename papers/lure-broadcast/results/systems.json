@@ -2,19 +2,26 @@
  "chains_without_a_scan": [],
  "corpus_bytes_on_disk": 602558216382,
  "environment": {
+  "captured": "when this report is written; see environment() for what that licenses",
   "cpu": "Apple M5 Max",
   "data_cached": "cold: the corpus is far larger than RAM, so every pass reads from disk rather than page cache",
   "logical_cores": 18,
   "memory_bytes": 137438953472,
   "numpy": "2.1.3",
-  "os": "Darwin 25.5.0",
-  "os_product_version": "26.5.2",
+  "os": "Darwin 25.6.0",
+  "os_product_version": "26.7.1",
   "parquet_compression": "snappy",
   "physical_cores": 18,
   "pyarrow": "17.0.0",
   "python": "3.11.13",
   "scipy": "1.17.1",
-  "storage": "internal NVMe, APFS",
+  "storage": {
+   "bus": "USB",
+   "filesystem": "ExFAT",
+   "filesystem_type": "exfat",
+   "internal": false,
+   "solid_state": null
+  },
   "worker_policy": "at most 12 worker processes for corpus passes and at most 4 on zkSync, whose row groups are large enough that more workers exhaust memory"
  },
  "max_workers": 12,
@@ -25,45 +32,45 @@
   "ratio": 555.3727647867951,
   "slowest_seconds_per_contract": 40.3756
  },
- "peak_rows_per_second": 23210212.0,
- "peak_rows_per_second_chain": "base",
+ "peak_rows_per_second": 26862010.0,
+ "peak_rows_per_second_chain": "arbitrum-one",
  "per_chain": {
   "arbitrum-one": {
    "metadata_seconds_per_contract": 0.0904,
-   "rows_per_second": 22900916.0,
+   "rows_per_second": 26862010.0,
    "rows_scanned": 3236121548,
-   "wall_seconds": 141.3,
+   "wall_seconds": 120.5,
    "workers": 12
   },
   "base": {
-   "rows_per_second": 23210212.0,
+   "rows_per_second": 20576062.0,
    "rows_scanned": 10951962591,
-   "wall_seconds": 471.9,
+   "wall_seconds": 532.3,
    "workers": 12
   },
   "optimism": {
    "metadata_seconds_per_contract": 40.3756,
-   "rows_per_second": 18493206.0,
+   "rows_per_second": 21761240.0,
    "rows_scanned": 2901914265,
-   "wall_seconds": 156.9,
+   "wall_seconds": 133.4,
    "workers": 12
   },
   "polygon-zkevm": {
    "metadata_seconds_per_contract": 0.1269,
-   "rows_per_second": 9194881.0,
+   "rows_per_second": 8837571.0,
    "rows_scanned": 18007594,
    "wall_seconds": 2.0,
    "workers": 12
   },
   "zksync-era": {
    "metadata_seconds_per_contract": 0.0727,
-   "rows_per_second": 10632298.0,
+   "rows_per_second": 10832931.0,
    "rows_scanned": 2222701031,
-   "wall_seconds": 209.1,
+   "wall_seconds": 205.2,
    "workers": 4
   }
  },
  "purpose": "performance of the passes that produced the published measurements",
  "total_rows_scanned": 19330707029,
- "total_wall_seconds": 981.2
+ "total_wall_seconds": 993.3999999999999
 }

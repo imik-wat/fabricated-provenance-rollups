@@ -154,3 +154,32 @@ protocol moves to **v2.2**.
   The route each rater used is noted when the sheet is received and reported with the results.
 - Raters receive protocol v2.2, whose SHA-256 is
   `a6c79ea86c27ed2e2ffe14b3d70787d920d79cc3ad8fd13db6462fedc8e3d623`.
+
+**4 (2026-10-27, after three further sheets arrived and before any of them was opened).** Four
+sheets were returned against a design registered for two raters plus an adjudicator. Rater status,
+confirmed by the corresponding author: R1, R2 and R3 are not authors; AW is an author. The study
+remains tier A.
+- **Primary analyses (§6) are unchanged.** They use the registered pair: R1 and the next non-author
+  sheet to arrive, R2 (20:48, before R3 at 21:01 and AW at 21:02). Arrival order is the rule the first
+  tier record already stated ("identified on arrival"), so no choice was made after seeing data.
+- **Adjudication (§7).** R3 fills the adjudicator role. R3 rated every row blind, without seeing the
+  primary raters' answers, so the adjudicated label of a row is the primary pair's agreed value where
+  they agree, and R3's value otherwise. It is still reported separately and never in place of the
+  agreed-set results.
+- **Robustness analyses, declared now** (descriptive):
+  - R1. P1, P2 and Cohen's κ for each of the three non-author pairs (R1–R2, R1–R3, R2–R3), to
+    show whether any conclusion depends on which pair is primary.
+  - R2. Fleiss' κ over the three non-author raters for `destination`, `call_to_action`, `purpose`
+    and the derived conjunction, over rows all three answered.
+  - R3. P1 and P2 on majority labels: a row enters when at least two of the three non-author raters
+    give the same resolved value.
+- **Author comparison, declared now** (descriptive, never in a tier A figure):
+  - A1. Cohen's κ between AW and each non-author rater, and between AW and the non-author majority
+    label, for the same four fields.
+  - A2. Over rows with a non-author majority label, the share on which AW's conjunction matches it
+    and the share on which the detector does.
+- **Why.** More independent labels strengthen the evidence, and the author's sheet speaks directly to
+  whether the codebook's authors read the task differently from outsiders (review R2.1). Using them
+  without changing the registered primary analysis keeps the registration's guarantees.
+- **What did not change.** The sample, the answer key, the detector and §6.
+

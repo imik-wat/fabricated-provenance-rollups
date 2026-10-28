@@ -71,7 +71,25 @@ CHAIN_TEX = {
     "polygon-zkevm": ("PolygonZkEVM", "Polygon zkEVM"),
     "zksync-era": ("ZKsyncEra", "zkSync Era"),
 }
+#: diskutil filesystem type -> its conventional spelling in prose (diskutil reports exFAT as "ExFAT")
+FS_TEX = {"exfat": "exFAT", "apfs": "APFS", "hfs": "HFS+", "msdos": "FAT32"}
 
+
+
+def storage_phrase(st: object) -> str:
+    """Prose for the volume the corpus is read from, given systems.json's environment.storage.
+
+    RAISES when the record does not say whether the volume is internal or what filesystem it holds:
+    a typed fallback is how "internal NVMe" reached the manuscript for a corpus on an external USB
+    drive. Pure.
+    """
+    if not isinstance(st, dict) or not isinstance(st.get("internal"), bool) or not st.get("filesystem"):
+        raise SystemExit("systems.json does not describe the volume the corpus is read from "
+                         f"({st!r}); rerun systems_report.py on the machine that holds the corpus")
+    fs = FS_TEX.get(str(st.get("filesystem_type")), st["filesystem"])
+    where = ("internal storage" if st["internal"]
+             else f"an external {st['bus']} drive" if st.get("bus") else "an external drive")
+    return f"{where} formatted {fs}"
 
 def git_commit() -> str:
     try:
@@ -426,6 +444,9 @@ def main() -> int:
     m.raw("ImpersonTopAddr", rf"\texttt{{{top['address'][:10]}}}")
     m.int_("ImpersonTopNamed", top["named_as_from"])
     m.word("ImpersonTopSelf", top["emitted_by_self"])
+    if top["emitted_by_self"]:      # the conclusions say the stablecoin emitted none of these events
+        raise SystemExit(f"{top['emitted_by_self']} events naming the top stablecoin were emitted by it; "
+                         "revise conclusions.tex")
     # The remainder, so the single-token figure quoted in the abstract is reconstructible from the
     # aggregate quoted in the body rather than appearing only once and unexplained.
     rest = named_n - top["named_as_from"]
@@ -477,6 +498,17 @@ def main() -> int:
                  ["channel_census"]["fanout_ratio"]) for c in replicated]
     m.dec("ChanFanoutMin", min(fan), 3)
     m.dec("ChanFanoutMax", max(fan), 3)
+    # Results words these values rather than printing a second macro: "a factor of nearly three"
+    # across chains, the top chain naming each address "around three times", and Sensitivity calls
+    # Polygon zkEVM's channel "three contracts". Each wording is checked here.
+    fan_by = dict(zip(replicated, fan))
+    if not 2.5 <= max(fan) / min(fan) < 3.0:
+        raise SystemExit(f"fan-out spread is now x{max(fan) / min(fan):.2f}; 'a factor of nearly three' is wrong")
+    if round(max(fan)) != 3 or max(fan_by, key=fan_by.get) != "zksync-era":
+        raise SystemExit("zkSync Era no longer names each address around three times; revise results.tex")
+    pz = json.loads((RES / "forgery_chain_polygon-zkevm.json").read_text())["lure_contracts_observed"]
+    if pz != 3:
+        raise SystemExit(f"Polygon zkEVM's channel is {pz} contracts; sensitivity.tex says three")
 
     # ------------------------------------------------- rank-depth sensitivity (reviewer item 11)
     # The depth table answers "how much does the rank cutoff cost?" quantitatively. Its columns come
@@ -545,7 +577,10 @@ def main() -> int:
     m.raw("SysCpu", _get(env, "cpu", ssy))
     m.int_("SysCores", _get(env, "physical_cores", ssy))
     m.int_("SysMemoryGB", round(_get(env, "memory_bytes", ssy) / 2**30))
-    m.raw("SysOs", f"macOS {_get(env, 'os_product_version', ssy)}")
+    # Major version only: the environment is read when systems.json is written, and a point release
+    # fell between the published scans and that record (systems_report.environment).
+    m.raw("SysOs", f"macOS {str(_get(env, 'os_product_version', ssy)).split('.')[0]}")
+    m.raw("SysStorage", storage_phrase(_get(env, "storage", ssy)))
     m.raw("SysPython", _get(env, "python", ssy))
     m.raw("SysPyarrow", _get(env, "pyarrow", ssy))
     for c in CHAINS:
@@ -587,6 +622,7 @@ def main() -> int:
         m.section("Response selection in the historical metadata check")
         r_, u_ = _get(up, "resolved", sup), _get(up, "unresolved", sup)
         m.pct("UnresVolumeShare", _get(up, "unresolved_share_of_volume", sup), 2)
+        m.word("UnresN", u_["n"], "contracts in the unresolved group (was typed as 'nine')")
         m.word("UnresProxiesResolved", r_["eip1167_proxies"])
         m.word("UnresProxiesUnresolved", u_["eip1167_proxies"])
         m.int_("UnresCodeMedianResolved", round(r_["code_bytes_median"]))
@@ -711,6 +747,7 @@ def main() -> int:
     # 1 exists to prevent. So the direction is asserted here, per chain, against the intervals.
     m.section("Recipient activity: who the channel reaches")
     ra_chains = []
+    ever_signs: set[str] = set()
     for c in CHAINS:
         f = RES / f"recipient_activity_{c}.json"
         if not f.exists():
@@ -740,6 +777,8 @@ def main() -> int:
         m.int_(f"RecipVerifiedTokens{tex}", _get(ra, "observable", sra)["verified_tokens"])
         m.int_(f"RecipSampled{tex}", _get(ra, "sampled_recipients", sra))
         m.pct(f"RecipActive{tex}", act["estimate"], 2)
+        if c == LEAD_CHAIN and not act["estimate"] < 0.10:   # results: "fewer than one address in ten"
+            raise SystemExit("the lead chain's ever-active share is no longer below one in ten")
         m.pct(f"RecipActiveLo{tex}", act["ci95_lo"], 2)
         m.pct(f"RecipActiveHi{tex}", act["ci95_hi"], 2)
         m.pct(f"RecipPrior{tex}", pri["estimate"], 2)
@@ -755,8 +794,12 @@ def main() -> int:
         above = act["ci95_lo"] > ctl["ci95_hi"]
         m.raw(f"RecipVerdict{tex}",
               "below" if below else ("above" if above else "indistinguishable from"))
+        ever_signs.add("below" if below else ("above" if above else "neither"))
     if not ra_chains:
         raise SystemExit("no recipient_activity_*.json; run recipient_activity.py first")
+    # The conclusions say the ever-active contrast changes sign between chains.
+    if not {"above", "below"} <= ever_signs:
+        raise SystemExit(f"ever-active verdicts {ever_signs} no longer change sign; revise conclusions.tex")
     m.word("RecipChains", len(ra_chains))
 
     # ------------------------------------------------- residual bucket (reviewer item 13)
@@ -1030,6 +1073,8 @@ def main() -> int:
     raw = _get(de, "confusion_matrix_sampled_rows", src)
     for k in ("TP", "FP", "FN", "TN"):
         m.int_(f"DetRaw{k}", raw[k])
+    if raw["FN"] != 1:          # results.tex prints "\lbDetRawFN{} false negative", singular
+        raise SystemExit(f"{raw['FN']} sampled false negatives; make the noun plural in results.tex")
     exp = _get(de, "confusion_matrix_population_expanded", src)
     for k in ("TP", "FP", "FN", "TN"):
         m.dec(f"DetExp{k}", exp[k], 1)

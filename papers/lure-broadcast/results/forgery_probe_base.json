@@ -2,18 +2,22 @@
  "archive_batch_calibration": {
   "https://base-pokt.nodies.app": 2,
   "https://base.drpc.org": 0,
-  "https://mainnet.base.org": 1
+  "https://mainnet.base.org": 4
  },
  "archive_endpoints": [
-  "https://base-pokt.nodies.app",
-  "https://mainnet.base.org"
+  "https://mainnet.base.org",
+  "https://base-pokt.nodies.app"
  ],
  "argument": "Ledger test: a contract returning the SAME NON-ZERO balanceOf for two randomly generated addresses exposes no per-address ledger, so no event it emits can correspond to a balance movement. Authorisation test: a reverting allowance() means the delegated-transfer path that could legitimately place a third party in the sender field is not implemented.",
  "block": 49743280,
  "block_hex": "0x2f705b0",
  "block_note": "calls are pinned to the last block of the corpus for this chain, so the state probed is the state as of the analysed data; endpoints without archive state at that block are excluded rather than downgraded to 'latest'",
  "chain": "base",
- "contract_batch_used": 2,
+ "contract_batch_by_endpoint": {
+  "https://base-pokt.nodies.app": 2,
+  "https://mainnet.base.org": 4
+ },
+ "contract_batch_used": 4,
  "controls": {
   "addresses": [
    "0x4200000000000000000000000000000000000006",
@@ -64,7 +68,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1000000000000,
    "verdict": "constant_nonzero"
   },
@@ -79,7 +83,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1,
    "verdict": "constant_nonzero"
   },
@@ -94,7 +98,7 @@
     105610,
     105610
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 999999999,
    "verdict": "constant_nonzero"
   },
@@ -109,7 +113,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -124,7 +128,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -139,7 +143,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -154,7 +158,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -169,7 +173,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1,
    "verdict": "constant_nonzero"
   },
@@ -184,7 +188,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1,
    "verdict": "constant_nonzero"
   },
@@ -199,7 +203,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -214,7 +218,7 @@
     250000,
     250000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 250000,
    "verdict": "constant_nonzero"
   },
@@ -229,7 +233,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -244,7 +248,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -259,7 +263,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -274,7 +278,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -289,7 +293,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000000,
    "verdict": "constant_nonzero"
   },
@@ -304,7 +308,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1,
    "verdict": "constant_nonzero"
   },
@@ -319,7 +323,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1,
    "verdict": "constant_nonzero"
   },
@@ -334,7 +338,7 @@
     10000000000,
     10000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 5321562320000000000,
    "verdict": "constant_nonzero"
   },
@@ -349,7 +353,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1000000000000,
    "verdict": "constant_nonzero"
   },
@@ -364,7 +368,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -379,7 +383,7 @@
     null,
     null
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": null,
    "verdict": "no_response"
   },
@@ -394,7 +398,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -409,7 +413,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -424,7 +428,7 @@
     13474000000000000000000,
     13474000000000000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 100325017000000000000000000,
    "verdict": "constant_nonzero"
   },
@@ -484,7 +488,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -499,7 +503,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -514,7 +518,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -529,7 +533,7 @@
     10000,
     10000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 100000000,
    "verdict": "constant_nonzero"
   },
@@ -544,7 +548,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -559,7 +563,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -574,7 +578,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1000000,
    "verdict": "constant_nonzero"
   },
@@ -589,7 +593,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -604,7 +608,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -619,7 +623,7 @@
     2364000000000000000000,
     3069000000000000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 100000000000000000000000000,
    "verdict": "address_derived"
   },
@@ -634,7 +638,7 @@
     893650000000000,
     893650000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 5321562320000000000,
    "verdict": "constant_nonzero"
   },
@@ -649,7 +653,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1,
    "verdict": "constant_nonzero"
   },
@@ -664,7 +668,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000000,
    "verdict": "constant_nonzero"
   },
@@ -679,7 +683,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -694,7 +698,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -709,7 +713,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -769,7 +773,7 @@
     250000,
     250000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 250000,
    "verdict": "constant_nonzero"
   },
@@ -784,7 +788,7 @@
     7000000000000000000000,
     7000000000000000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1000000000000000000000000000,
    "verdict": "constant_nonzero"
   },
@@ -799,7 +803,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000000,
    "verdict": "constant_nonzero"
   },
@@ -814,7 +818,7 @@
     354291,
     354291
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 354291,
    "verdict": "constant_nonzero"
   },
@@ -829,7 +833,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1000000,
    "verdict": "constant_nonzero"
   },
@@ -844,7 +848,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -859,7 +863,7 @@
     273108,
     273108
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 273108,
    "verdict": "constant_nonzero"
   },
@@ -874,7 +878,7 @@
     250000,
     250000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 250000,
    "verdict": "constant_nonzero"
   },
@@ -889,7 +893,7 @@
     893650000000000,
     893650000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 5321562320000000000,
    "verdict": "constant_nonzero"
   },
@@ -904,7 +908,7 @@
     20000000000,
     20000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 5321562320000000000,
    "verdict": "constant_nonzero"
   },
@@ -919,7 +923,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000000,
    "verdict": "constant_nonzero"
   },
@@ -934,7 +938,7 @@
     7000000000000000000000,
     7000000000000000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1000000000000000000000000000,
    "verdict": "constant_nonzero"
   },
@@ -949,7 +953,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1,
    "verdict": "constant_nonzero"
   },
@@ -994,7 +998,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1,
    "verdict": "constant_nonzero"
   },
@@ -1024,7 +1028,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1,
    "verdict": "constant_nonzero"
   },
@@ -1039,7 +1043,7 @@
     689560000000000,
     689560000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 2000000000000000000,
    "verdict": "constant_nonzero"
   },
@@ -1054,7 +1058,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000000,
    "verdict": "constant_nonzero"
   },
@@ -1069,7 +1073,7 @@
     250000,
     250000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 250000,
    "verdict": "constant_nonzero"
   },
@@ -1084,7 +1088,7 @@
     1000000000000000000,
     1000000000000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 100000000000000000000000,
    "verdict": "constant_nonzero"
   },
@@ -1099,7 +1103,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1114,7 +1118,7 @@
     8000000000000000000,
     8000000000000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000000000000000000000,
    "verdict": "constant_nonzero"
   },
@@ -1129,7 +1133,7 @@
     1000000000000000000,
     1000000000000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 100000000000000000000000,
    "verdict": "constant_nonzero"
   },
@@ -1144,7 +1148,7 @@
     56890000000000,
     56890000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 2000000000000000000,
    "verdict": "constant_nonzero"
   },
@@ -1159,7 +1163,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1174,7 +1178,7 @@
     null,
     null
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": null,
    "verdict": "no_response"
   },
@@ -1189,7 +1193,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1772830019211,
    "verdict": "constant_nonzero"
   },
@@ -1204,7 +1208,7 @@
     8888000000000000000000,
     8888000000000000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1000000000000000000000000000,
    "verdict": "constant_nonzero"
   },
@@ -1219,7 +1223,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1000000,
    "verdict": "constant_nonzero"
   },
@@ -1234,7 +1238,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1249,7 +1253,7 @@
     1185000000000000,
     1185000000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 5321562320000000000,
    "verdict": "constant_nonzero"
   },
@@ -1294,7 +1298,7 @@
     1000000000000000000,
     1000000000000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 100000000000000000000000,
    "verdict": "constant_nonzero"
   },
@@ -1324,7 +1328,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1339,7 +1343,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1354,7 +1358,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1,
    "verdict": "constant_nonzero"
   },
@@ -1369,7 +1373,7 @@
     250000,
     250000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 250000,
    "verdict": "constant_nonzero"
   },
@@ -1384,7 +1388,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1399,7 +1403,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1414,7 +1418,7 @@
     16580000000000,
     16580000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 2000000000000000000,
    "verdict": "constant_nonzero"
   },
@@ -1429,7 +1433,7 @@
     8269500000000000,
     8269500000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 17243124640000000000,
    "verdict": "constant_nonzero"
   },
@@ -1444,7 +1448,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1459,7 +1463,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1474,7 +1478,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1489,7 +1493,7 @@
     1000000000000000000,
     1000000000000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 100000000000000000000000,
    "verdict": "constant_nonzero"
   },
@@ -1504,7 +1508,7 @@
     250000,
     250000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 250000,
    "verdict": "constant_nonzero"
   },
@@ -1519,7 +1523,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1534,7 +1538,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1549,7 +1553,7 @@
     1000000000000000000000,
     1000000000000000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1000000000000000000000000000000,
    "verdict": "constant_nonzero"
   },
@@ -1594,7 +1598,7 @@
     976848216,
     976848216
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 976848216,
    "verdict": "constant_nonzero"
   },
@@ -1624,7 +1628,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000000,
    "verdict": "constant_nonzero"
   },
@@ -1639,7 +1643,7 @@
     3645170,
     3645170
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 3645170,
    "verdict": "constant_nonzero"
   },
@@ -1654,7 +1658,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1669,7 +1673,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1684,7 +1688,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1699,7 +1703,7 @@
     null,
     null
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": null,
    "verdict": "no_response"
   },
@@ -1714,7 +1718,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1,
    "verdict": "constant_nonzero"
   },
@@ -1729,7 +1733,7 @@
     522100,
     522100
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1972810029211,
    "verdict": "constant_nonzero"
   },
@@ -1744,7 +1748,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1759,7 +1763,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1,
    "verdict": "constant_nonzero"
   },
@@ -1774,7 +1778,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1789,7 +1793,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1000000,
    "verdict": "constant_nonzero"
   },
@@ -1804,7 +1808,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1864,7 +1868,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1000000000000,
    "verdict": "constant_nonzero"
   },
@@ -1879,7 +1883,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1894,7 +1898,7 @@
     86590000000000,
     86590000000000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 8621562320000000000,
    "verdict": "constant_nonzero"
   },
@@ -1909,7 +1913,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1,
    "verdict": "constant_nonzero"
   },
@@ -1924,7 +1928,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1939,7 +1943,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1954,7 +1958,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1969,7 +1973,7 @@
     5000,
     5000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 420000000000,
    "verdict": "constant_nonzero"
   },
@@ -1984,7 +1988,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -1999,7 +2003,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -2014,7 +2018,7 @@
     874000,
     874000
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 9999997702,
    "verdict": "constant_nonzero"
   },
@@ -2029,7 +2033,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -2044,7 +2048,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -2104,7 +2108,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -2119,7 +2123,7 @@
     537463,
     537463
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 537463,
    "verdict": "constant_nonzero"
   },
@@ -2134,7 +2138,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -2149,7 +2153,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   },
@@ -2164,7 +2168,7 @@
     1,
     1
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 10000000,
    "verdict": "constant_nonzero"
   }
@@ -2181,7 +2185,7 @@
     0,
     0
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 260260597172855119073501,
    "verdict": "zero_ledger"
   },
@@ -2196,7 +2200,7 @@
     0,
     0
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 1901100433630520675008673,
    "verdict": "zero_ledger"
   },
@@ -2211,7 +2215,7 @@
     0,
     0
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 4163550967124130,
    "verdict": "zero_ledger"
   },
@@ -2226,7 +2230,7 @@
     0,
     0
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 4476502009724,
    "verdict": "zero_ledger"
   },
@@ -2241,7 +2245,7 @@
     0,
     0
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 5729292808763,
    "verdict": "zero_ledger"
   },
@@ -2256,7 +2260,7 @@
     0,
     0
    ],
-   "endpoint": "https://base-pokt.nodies.app",
+   "endpoint": "https://mainnet.base.org",
    "total_supply": 24124413317841,
    "verdict": "zero_ledger"
   }
@@ -2272,5 +2276,5 @@
   "balanceOf(address)": "0x70a08231",
   "totalSupply()": "0x18160ddd"
  },
- "wall_seconds": 69.7
+ "wall_seconds": 38.8
 }

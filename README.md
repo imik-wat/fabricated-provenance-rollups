@@ -54,10 +54,61 @@ State probes (balances, metadata) query public RPC endpoints at the block record
 `results/replication.json` names the endpoints by host. Public endpoints throttle, so a re-run can
 take hours, and an endpoint may answer differently today.
 
+### Checked reproduction
+
+Artefacts produced before the code was under version control name a commit that does not contain
+their producer. `scripts/verify_rerun.py` re-ran each with its recorded parameters and compared the
+output with the committed file field by field. It ignores only wall-clock times, throughputs and
+commit hashes, and lists every field it ignored. The first pass is `results/verification_rerun.json`;
+the runs after the fixes below are `results/verification_rerun_after_fixes.json`. A manifest whose
+artefact a run reproduced carries a `reproduced` block naming the commit that did so.
+
+What the first pass found:
+- Two state probes read an endpoint's rate-limit error, returned inside a batch, as the contract's
+  answer, and the forgery probe imposed one endpoint's batch size on the others. Both are fixed
+  (`scripts/rpc_answers.py`). The committed artefacts came from runs that met no throttling, and the
+  fixed probes reproduce them.
+- The performance record (`systems.json`) predated the last run of the scans it summarises. It was
+  rebuilt, which changed the reported throughput, and its storage description is now read from the
+  operating system.
+- Recipient activity on Arbitrum One and Optimism gained a sampler check from a census produced
+  later, and the Polygon zkEVM metadata sweep had a renamed key. These artefacts are their re-run
+  outputs; every estimate is unchanged.
+- `metadata_history_base.json` cannot be reproduced exactly, because which contracts a public archive
+  endpoint fails to answer varies from run to run. In the committed run and in the recorded re-run,
+  no contract that answered reported a different name or symbol.
+
+To check an artefact yourself, run `verify_rerun.py --run --only <artefact>` in a linked worktree
+(`git worktree add`); it refuses the main checkout, because it restores every file a run touches.
+The scans also read the raw corpus and a per-token volume table for four chains, neither of which is
+shipped (Base's table alone is 1.1 GB). `python scripts/token_volumes.py <chain>` rebuilds a table from
+the corpus under `papers/lure-broadcast/results/`, where the scans look first. Rebuilt so, all four
+tables matched the ones the published scans read, contract for contract and count for count.
+
 ## Annotation data
 
-Rater sheets are published under pseudonymous rater IDs. The answer key is published only after
-every rater's sheet was received.
+`results/annotation_v2/` holds the second, pre-registered annotation study:
+- the blinded sample and the answer key;
+- the tier record and the sheet receipts;
+- the registered evaluation;
+- the robustness and author comparison declared in deviation 4;
+- one exploratory check, labelled as such.
+
+The rater sheets are in `data/`. Raters who are not authors appear under pseudonyms: R1 and R2 are the
+registered pair, and R3 is the tie-breaker. AW is an author, as the paper states. The registration
+and every deviation from it are in `docs/PREREG_ANNOTATION_V2.md`.
+
+```sh
+cd papers/lure-broadcast
+python scripts/evaluate_annotation_v2.py --sheet R1=data/ratings_R1.csv --sheet R2=data/ratings_R2.csv \
+    --adjudication data/ratings_R3.csv --force
+python scripts/annotation_v2_robustness.py --sheet R1=data/ratings_R1.csv --sheet R2=data/ratings_R2.csv \
+    --sheet R3=data/ratings_R3.csv --sheet AW=data/ratings_AW.csv --force
+```
+
+Each run draws 5,000 bootstrap replicates and takes 15 to 30 minutes. The scripts check that
+`tier.json` is committed and unmodified, so run them in a clone of this repository, not in an
+unpacked archive.
 
 ## Citation and licence
 

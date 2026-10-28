@@ -1,5 +1,16 @@
 {
  "producer": "papers/lure-broadcast/scripts/forgery_chain_scan.py",
  "git_commit": "7420bfe",
- "workers": 4
+ "workers": 4,
+ "reproduced": {
+  "commit": "3ea9c60881e3e34945e556f61a780221f448d1d3",
+  "verdict": "identical_except_volatile",
+  "by": "papers/lure-broadcast/scripts/verify_rerun.py",
+  "record": "papers/lure-broadcast/results/verification_rerun_after_fixes.json",
+  "ignored_fields": [
+   "manifest:git_commit",
+   "rows_per_second",
+   "wall_seconds"
+  ]
+ }
 }

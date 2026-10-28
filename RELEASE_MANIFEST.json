@@ -9,8 +9,8 @@
    "sha256": "2b76cb75d699ba7da4745de37f626a7b9bd0ffde9f42ba32866a3646c58894a6"
   },
   "README.md": {
-   "bytes": 3260,
-   "sha256": "7fa98a43d818e3fd52b32423270c5d7fe0c78c8789efeb1a8affc8102143e8b8"
+   "bytes": 6547,
+   "sha256": "e3ea04a67f9a0e0140722b10623d55d16ee7ad82e29fd18de8f00cd0e1d732aa"
   },
   "analysis/config/contract_code.json": {
    "bytes": 567100,
@@ -77,8 +77,8 @@
    "sha256": "76c1fceb0622b86115cf62326d7e8d6ab8540e2b7acbce5c4c2d4c8fbdc51326"
   },
   "analysis/src/stats.py": {
-   "bytes": 42397,
-   "sha256": "d647e95fd84861a4c433a962e011b62cf16721c451f5538d2a9a441da781d21e"
+   "bytes": 43692,
+   "sha256": "74756ecdbfb43f57f5abf2fc9eb04dcf5496350b3e04ecc75203cc1d8233bba6"
   },
   "analysis/src/token_meta.py": {
    "bytes": 13796,
@@ -95,6 +95,22 @@
   "papers/lure-broadcast/data/negative_controls/coingecko_nfts.manifest.json": {
    "bytes": 282,
    "sha256": "01797d08ed8ccfb73375d6f5cbc783fe53f9daf093a6fa90899329baa78fa132"
+  },
+  "papers/lure-broadcast/data/ratings_AW.csv": {
+   "bytes": 21123,
+   "sha256": "9f198f2cc838b7e539d67cb3309537b126e0abf3998f9700247d8706be4aeebd"
+  },
+  "papers/lure-broadcast/data/ratings_R1.csv": {
+   "bytes": 21170,
+   "sha256": "65ac805bff5b6620c03064cfaf684521fc360cafeed61fd92753981f41190e62"
+  },
+  "papers/lure-broadcast/data/ratings_R2.csv": {
+   "bytes": 20959,
+   "sha256": "f9f39cea211c0a7ae7e77103ac71bec1f5d42edda34fcbaa4210f1af9debb131"
+  },
+  "papers/lure-broadcast/data/ratings_R3.csv": {
+   "bytes": 21117,
+   "sha256": "4843b89a615f74fc9ab20ab652e2f93205ae28aa00acef721bf163b14d0f79d0"
   },
   "papers/lure-broadcast/data/tlds/manifest.json": {
    "bytes": 423,
@@ -129,8 +145,8 @@
    "sha256": "a6c79ea86c27ed2e2ffe14b3d70787d920d79cc3ad8fd13db6462fedc8e3d623"
   },
   "papers/lure-broadcast/docs/PREREG_ANNOTATION_V2.md": {
-   "bytes": 8857,
-   "sha256": "958dd7c3e553098b249c2f5929128af8774c96afc824e05688b3546c76adb2a8"
+   "bytes": 11037,
+   "sha256": "2b7fe9f52542b3ece665832462ff45a03301ce8b301613668b97bc4dde0fdf14"
   },
   "papers/lure-broadcast/results/adversarial_eval.json": {
    "bytes": 8884,
@@ -156,33 +172,61 @@
    "bytes": 19894,
    "sha256": "2c22fcd23b30735e362a989952a6767c6c711ad7c4e2f25cf2238c8395c8fdc4"
   },
+  "papers/lure-broadcast/results/annotation_v2/answer_key.json": {
+   "bytes": 195683,
+   "sha256": "fa9883ab582989575c24a25b370a4735250306b98c5c530a1a4939241843b69d"
+  },
+  "papers/lure-broadcast/results/annotation_v2/evaluation.json": {
+   "bytes": 15618,
+   "sha256": "bf1b6a6928eaf1567608ece5109ccc30f62111a95caaca9fef77d5a10e123a2b"
+  },
+  "papers/lure-broadcast/results/annotation_v2/evaluation.manifest.json": {
+   "bytes": 189,
+   "sha256": "bf5d6b5fa4b3e0799b1f326fc49d45513a1fa06508d618cece11895f76fa3721"
+  },
+  "papers/lure-broadcast/results/annotation_v2/exploratory.json": {
+   "bytes": 1281,
+   "sha256": "b8647bff2059d15d7a5064cab8d7e3d2a18b4ffd7a208f0b1394c1866098f1d0"
+  },
+  "papers/lure-broadcast/results/annotation_v2/exploratory.manifest.json": {
+   "bytes": 187,
+   "sha256": "46f04a46b23607467c3a5b756fba43992359625d073947834fc74fbb05247e74"
+  },
   "papers/lure-broadcast/results/annotation_v2/receipts.json": {
-   "bytes": 1119,
-   "sha256": "731146a8cedae92a13ca1411e1aab5e15f0e4d81c14cfc9a6d1d3db3ab44d1e1"
+   "bytes": 4023,
+   "sha256": "3fdd6a6506650f458c69af1eefe308f2591192090ef1672b2d58b3c36350dbe6"
+  },
+  "papers/lure-broadcast/results/annotation_v2/robustness.json": {
+   "bytes": 14461,
+   "sha256": "9c9eb800772acd565071fcdc1836bb72c0f56175c50f1e684226d6b772648c37"
+  },
+  "papers/lure-broadcast/results/annotation_v2/robustness.manifest.json": {
+   "bytes": 205,
+   "sha256": "f84a747bf534771faf4f5ed95244ac38d570ba25b6dd2b923eba2f21c6b80ea8"
   },
   "papers/lure-broadcast/results/annotation_v2/sample_blinded.csv": {
    "bytes": 16885,
    "sha256": "bbbfa3cdf526f061e1f8ac4e2b7550b7ca406d04ee6fd7d3544805e00b7da602"
   },
   "papers/lure-broadcast/results/annotation_v2/tier.json": {
-   "bytes": 771,
-   "sha256": "01d1af4cce4f3280cb2ad20fb2026400c4fb051a19ccde7f34f1ff2e2fb1470b"
+   "bytes": 1125,
+   "sha256": "d5990448a1af7c70863b28f6ac823c8c2c4dc0a53ec3282c40e4857a3619ae32"
   },
   "papers/lure-broadcast/results/arbitrum-one_nf_census.json": {
    "bytes": 959,
    "sha256": "c6b0271b362601d5c5794c279ffaa83de263f730325e840a730655d0041d2f66"
   },
   "papers/lure-broadcast/results/arbitrum-one_nf_census.manifest.json": {
-   "bytes": 231,
-   "sha256": "c51b146ff90e25c0f1d15fda5c5f14a1af1f4599e4a2ad453cddd8d7672f600a"
+   "bytes": 546,
+   "sha256": "fcdaf271eb6781ea2161907f5a1e79773b0d32c0eb23d4beb91bd0e8ca729af6"
   },
   "papers/lure-broadcast/results/base_nf_census.json": {
    "bytes": 983,
    "sha256": "705e8c2e7817807584cff38fc51e5627e4bca8ff3a69a7216b57a74594ade86a"
   },
   "papers/lure-broadcast/results/base_nf_census.manifest.json": {
-   "bytes": 215,
-   "sha256": "4d6756b057706605600f19a81f7b3f916790c408b631205dd58d22820cea7f9f"
+   "bytes": 530,
+   "sha256": "5be5dd4a4a6bab99e9922fa9d33a1e216ed8830c64bee6816dc16f4b0a7c6607"
   },
   "papers/lure-broadcast/results/bound_worked_example.json": {
    "bytes": 1768,
@@ -205,8 +249,8 @@
    "sha256": "ce72b466f2a945e3c4763a9ce136544ddb390066e612732e6d6936f759575d37"
   },
   "papers/lure-broadcast/results/campaign_census_base.manifest.json": {
-   "bytes": 94,
-   "sha256": "6eb81ebd4fa346f39720e0687ac525f8983910e228629db4a2db7683e690c8b5"
+   "bytes": 409,
+   "sha256": "dc3f388e02c42cc51e02ddf8080f7d1f44249bf9846fe9da389905ce4ac8c8bb"
   },
   "papers/lure-broadcast/results/campaign_census_optimism.json": {
    "bytes": 21153,
@@ -285,48 +329,48 @@
    "sha256": "019d95dfe0c57604727ad4fed9bb16bfeffc0397fcaa0b4f962112feb7b2422e"
   },
   "papers/lure-broadcast/results/forgery_chain_arbitrum-one.manifest.json": {
-   "bytes": 113,
-   "sha256": "72740e4ee9d38e56309a18eb0713ec3d7b456b29253aee9d8bf31c48f3a43083"
+   "bytes": 462,
+   "sha256": "18a8bf65c28e39e05cc211fc973fc069b2db8cb67dbc30f9b9e0108d970b5155"
   },
   "papers/lure-broadcast/results/forgery_chain_base.json": {
    "bytes": 20526,
    "sha256": "0ff978582c58077c4dee29b13ec6cece3aeee12357dcf98cca9ae8f91824585a"
   },
   "papers/lure-broadcast/results/forgery_chain_base.manifest.json": {
-   "bytes": 113,
-   "sha256": "72740e4ee9d38e56309a18eb0713ec3d7b456b29253aee9d8bf31c48f3a43083"
+   "bytes": 462,
+   "sha256": "18a8bf65c28e39e05cc211fc973fc069b2db8cb67dbc30f9b9e0108d970b5155"
   },
   "papers/lure-broadcast/results/forgery_chain_optimism.json": {
    "bytes": 52263,
    "sha256": "dbd631bfe3d3c898ec4a8c3b3f01d7ca401dba5c53a6478b90e09d08ea30bbb3"
   },
   "papers/lure-broadcast/results/forgery_chain_optimism.manifest.json": {
-   "bytes": 113,
-   "sha256": "72740e4ee9d38e56309a18eb0713ec3d7b456b29253aee9d8bf31c48f3a43083"
+   "bytes": 462,
+   "sha256": "18a8bf65c28e39e05cc211fc973fc069b2db8cb67dbc30f9b9e0108d970b5155"
   },
   "papers/lure-broadcast/results/forgery_chain_polygon-zkevm.json": {
    "bytes": 3671,
    "sha256": "e3994c03475cff4ade092452ef0b588104643d94d5856e1951dfa88d2882aad1"
   },
   "papers/lure-broadcast/results/forgery_chain_polygon-zkevm.manifest.json": {
-   "bytes": 113,
-   "sha256": "72740e4ee9d38e56309a18eb0713ec3d7b456b29253aee9d8bf31c48f3a43083"
+   "bytes": 462,
+   "sha256": "18a8bf65c28e39e05cc211fc973fc069b2db8cb67dbc30f9b9e0108d970b5155"
   },
   "papers/lure-broadcast/results/forgery_chain_zksync-era.json": {
    "bytes": 9274,
    "sha256": "4da626e6283311e0c833549fd7c4f3ef86a969b4ec641ab43e82d2e213884b58"
   },
   "papers/lure-broadcast/results/forgery_chain_zksync-era.manifest.json": {
-   "bytes": 112,
-   "sha256": "33135e60ab1aed882d9b5c9d91f4b03a53b766453f07a6bd7119be7ac085fe1e"
+   "bytes": 461,
+   "sha256": "77918b32f04e793d20aed0dc6d42d4d7ac333eeaec5cc12dec2df7c00fa99ad2"
   },
   "papers/lure-broadcast/results/forgery_probe_base.json": {
-   "bytes": 50794,
-   "sha256": "fd40c82fffd756f392c4f07257e729b8c92e401d87cdf39f30e4065fc83418bb"
+   "bytes": 50396,
+   "sha256": "58a05289a506a1c5e49ad3b28f193b9753c7742a594a96220aff8a8840ef5a69"
   },
   "papers/lure-broadcast/results/forgery_probe_base.manifest.json": {
    "bytes": 124,
-   "sha256": "20959ca82ebb6990960e2a8c6fd5ac64e55ee02a589e76b09d5d6a77dee8ec67"
+   "sha256": "501a1cd931704c3772d59ee181cc6f6130b3911fe1e298e5244ad3526f69a561"
   },
   "papers/lure-broadcast/results/frame_probe_arbitrum-one.json": {
    "bytes": 210869,
@@ -373,8 +417,8 @@
    "sha256": "5036fa9efacfdc844a8884350d7f8c84b7501c4ff5f4fd56451935bb59b49bce"
   },
   "papers/lure-broadcast/results/interface_probe_base.manifest.json": {
-   "bytes": 107,
-   "sha256": "82c68d230b8e397cb497f475030d6700611b3970b0933f59255edb5de7b67c2a"
+   "bytes": 415,
+   "sha256": "52ac0024504fe6697616a3681bf100208cb5635ad24a7ae472251be0341651e9"
   },
   "papers/lure-broadcast/results/interrater_base.json": {
    "bytes": 1405,
@@ -429,32 +473,32 @@
    "sha256": "5500c9da85b33dccc3f2226c069039fa0d39805f0a77c08b923c737df5677713"
   },
   "papers/lure-broadcast/results/metadata_sweep_arbitrum-one.manifest.json": {
-   "bytes": 194,
-   "sha256": "33d35003bc4c3290e03dba27859e3e293b9be199a02fe001105b141961051d9d"
+   "bytes": 618,
+   "sha256": "ccd12aca4f4b8fe991faaa2dc0079a89a610eff361740da5e8778b3931b609b6"
   },
   "papers/lure-broadcast/results/metadata_sweep_optimism.json": {
    "bytes": 2186,
    "sha256": "47ea1394704faf170bf0d596e2d605f92cb55cfcb3328017bd3dc74a89a5bf89"
   },
   "papers/lure-broadcast/results/metadata_sweep_optimism.manifest.json": {
-   "bytes": 194,
-   "sha256": "33d35003bc4c3290e03dba27859e3e293b9be199a02fe001105b141961051d9d"
+   "bytes": 659,
+   "sha256": "fc82fcafd150bcc754cb42b4ba8845e815c020164e5b9fbd339e34fbff553526"
   },
   "papers/lure-broadcast/results/metadata_sweep_polygon-zkevm.json": {
-   "bytes": 742,
-   "sha256": "edf43088943a2ba42076998f6afb530ad47b7863eac9f00b502cce6ef434051a"
+   "bytes": 953,
+   "sha256": "843b852a95fe8d09d80129a2b6ad3a5eca4ef0af5e5dfab4264e0b36537dffc7"
   },
   "papers/lure-broadcast/results/metadata_sweep_polygon-zkevm.manifest.json": {
    "bytes": 194,
-   "sha256": "33d35003bc4c3290e03dba27859e3e293b9be199a02fe001105b141961051d9d"
+   "sha256": "0ba829dd1d375e3165824aa5e04a90094cd5237b6396ae0f3097a7a2e13d1738"
   },
   "papers/lure-broadcast/results/metadata_sweep_zksync-era.json": {
    "bytes": 1390,
    "sha256": "bf8fb32e840cb25afe93c3dd77c1b58566e464ab0ae24a1b80b576d8880b8e56"
   },
   "papers/lure-broadcast/results/metadata_sweep_zksync-era.manifest.json": {
-   "bytes": 194,
-   "sha256": "33d35003bc4c3290e03dba27859e3e293b9be199a02fe001105b141961051d9d"
+   "bytes": 577,
+   "sha256": "c0e122f1367e3532ec52f4f802b47cad16765c9179b93ea7209798b477a34244"
   },
   "papers/lure-broadcast/results/negative_controls_arbitrum-one.json": {
    "bytes": 7052,
@@ -513,48 +557,48 @@
    "sha256": "2aae62183595cf6acfa8c183744c990547efa0a62d45cdbdbdd3b3be005c3e4e"
   },
   "papers/lure-broadcast/results/optimism_nf_census.manifest.json": {
-   "bytes": 223,
-   "sha256": "a7dd559b8979cf4dd127c7fc4eb2a2c2629512bc2096e953ea05221e5b5321ee"
+   "bytes": 538,
+   "sha256": "e11a557417ca42285120f85f79c3527626d6bd0fc1dee4061f24bfea514791d0"
   },
   "papers/lure-broadcast/results/polygon-zkevm_nf_census.json": {
    "bytes": 911,
    "sha256": "aa63a3b043f52abb307c074e710c8349b3972a0ad2b62d68728bcc96ba054e08"
   },
   "papers/lure-broadcast/results/polygon-zkevm_nf_census.manifest.json": {
-   "bytes": 233,
-   "sha256": "ae2865ebf861943d02614da4054a2e6525cb820b61eaf3cfe57cab284860fc09"
+   "bytes": 548,
+   "sha256": "434d27999a0d2300b0a1990754b2c5e264c74024485715ae06d026f4f6ed54ee"
   },
   "papers/lure-broadcast/results/polygon-zkevm_token_volumes.csv": {
    "bytes": 380041,
    "sha256": "235f9242e2e62952910d7a9ab0b67d4d7c3e595ac317eb02f13b3654bad5bf02"
   },
   "papers/lure-broadcast/results/polygon-zkevm_token_volumes.manifest.json": {
-   "bytes": 394,
-   "sha256": "979547bbc8234108b2268b200c16455df4d75691a79dc5654a82de0142a1b882"
+   "bytes": 718,
+   "sha256": "85a89a930408530c04b2094c9dbd0a8ac67b7148ff823829da420bfd38d2e7a7"
   },
   "papers/lure-broadcast/results/recipient_activity_arbitrum-one.json": {
-   "bytes": 3664,
-   "sha256": "00e881a6bed92e7aae1eb868aaa2ad18945faa5f80234fac8d492944b9d7e1ca"
+   "bytes": 3816,
+   "sha256": "cfa3c74bfd69e71c9ad0d7830ee959a8ee40848af470f029200f599aa0140bae"
   },
   "papers/lure-broadcast/results/recipient_activity_arbitrum-one.manifest.json": {
    "bytes": 109,
-   "sha256": "7d86e9dc1a70400eff4f28cc784e9a43c702b9b79691349d9d3b97d662242756"
+   "sha256": "5e41d38dcdcfe29ec5e6689c33f1e3c514ef6f4fee97b790fc389790434f5560"
   },
   "papers/lure-broadcast/results/recipient_activity_base.json": {
    "bytes": 3825,
    "sha256": "47754f6402b19588654caa5222772869ef8f53c9fb4f9b6cd4d9ae80689f710f"
   },
   "papers/lure-broadcast/results/recipient_activity_base.manifest.json": {
-   "bytes": 109,
-   "sha256": "7d86e9dc1a70400eff4f28cc784e9a43c702b9b79691349d9d3b97d662242756"
+   "bytes": 424,
+   "sha256": "8cfc6ad55c3704c22b449ee891bb958124f8fac7ec906e53a4ff2fafa117b25e"
   },
   "papers/lure-broadcast/results/recipient_activity_optimism.json": {
-   "bytes": 3682,
-   "sha256": "d13ba90b5a13201f2c2aefab1937d4e710e7afd15e30f010855f51348d54931e"
+   "bytes": 3832,
+   "sha256": "563bbc2b698a8884f2f257f24cf5b49d2ba775247d085bbcfddae16656fc332a"
   },
   "papers/lure-broadcast/results/recipient_activity_optimism.manifest.json": {
    "bytes": 109,
-   "sha256": "7d86e9dc1a70400eff4f28cc784e9a43c702b9b79691349d9d3b97d662242756"
+   "sha256": "5e41d38dcdcfe29ec5e6689c33f1e3c514ef6f4fee97b790fc389790434f5560"
   },
   "papers/lure-broadcast/results/recipient_activity_polygon-zkevm.json": {
    "bytes": 3782,
@@ -617,24 +661,24 @@
    "sha256": "9ed21b7582410edc68623018442da29bacab5f9a2ebf28e2491ba51495b8a7c0"
   },
   "papers/lure-broadcast/results/residual_probe_arbitrum-one.manifest.json": {
-   "bytes": 93,
-   "sha256": "51f54dab0244f09edf3a3612c66fcd22e05acac6ebea209a1c10859f1405263c"
+   "bytes": 408,
+   "sha256": "7580fd7abcb6b18b674c81036b2e21e705a4a525c1510c683fe410169f6ce2a8"
   },
   "papers/lure-broadcast/results/residual_probe_base.json": {
    "bytes": 4357,
    "sha256": "97862f8b6b1b9f9a5fea16b05125c043651864d0b50b19d43739149efd3a553e"
   },
   "papers/lure-broadcast/results/residual_probe_base.manifest.json": {
-   "bytes": 93,
-   "sha256": "51f54dab0244f09edf3a3612c66fcd22e05acac6ebea209a1c10859f1405263c"
+   "bytes": 408,
+   "sha256": "7580fd7abcb6b18b674c81036b2e21e705a4a525c1510c683fe410169f6ce2a8"
   },
   "papers/lure-broadcast/results/residual_probe_optimism.json": {
    "bytes": 4045,
    "sha256": "1999c719150d9c5e697fcf04e66f9ddb8db7eebb5bf6cbd843b9d127d9135e2c"
   },
   "papers/lure-broadcast/results/residual_probe_optimism.manifest.json": {
-   "bytes": 93,
-   "sha256": "51f54dab0244f09edf3a3612c66fcd22e05acac6ebea209a1c10859f1405263c"
+   "bytes": 408,
+   "sha256": "7580fd7abcb6b18b674c81036b2e21e705a4a525c1510c683fe410169f6ce2a8"
   },
   "papers/lure-broadcast/results/residual_probe_polygon-zkevm.json": {
    "bytes": 130,
@@ -649,16 +693,16 @@
    "sha256": "81bf73c41ab2b3cdb3b70d70c2b40da262e48c985f1509be1d7167bc343531df"
   },
   "papers/lure-broadcast/results/residue_robustness_base.manifest.json": {
-   "bytes": 124,
-   "sha256": "53ca1a6e53d3eb2fa5bc5baf70c097456604fa0914459fd887df8f2789c68fee"
+   "bytes": 439,
+   "sha256": "9d5d6856b1782cfaef07bda982f22f7ffddaa11e3716f08205b2d2f407429ca0"
   },
   "papers/lure-broadcast/results/residue_robustness_polygon-zkevm.json": {
    "bytes": 2157,
    "sha256": "5825611e4ea9fb40f2573ff987c5e88f511903d57df91937f3ac0e44193ca879"
   },
   "papers/lure-broadcast/results/residue_robustness_polygon-zkevm.manifest.json": {
-   "bytes": 122,
-   "sha256": "6e39f383b06f64ca1543da185b74538b09794b8b3a8acc88e62d853cd1fce2eb"
+   "bytes": 437,
+   "sha256": "7c17ea5a0aacaf4033424e0ee8e182656025178148a2d802b940f2018e525490"
   },
   "papers/lure-broadcast/results/rule_interaction.json": {
    "bytes": 10767,
@@ -737,12 +781,12 @@
    "sha256": "77112cf0cb9184dd887b6ae494bb193e0b844b1f1b87b34d8a1193a11dddbeaf"
   },
   "papers/lure-broadcast/results/systems.json": {
-   "bytes": 2361,
-   "sha256": "07325034ec774ee71d704ca0af3c5675f30e908f08bc065409f2fc75e1d8b904"
+   "bytes": 2571,
+   "sha256": "d766b88291308a07441809f4fec5f75436d0d36216943cf16a59cc85596e6021"
   },
   "papers/lure-broadcast/results/systems.manifest.json": {
-   "bytes": 93,
-   "sha256": "e88d91781e57f6f26c072f0ad7e4dac726ed38b472c697ced5c161591281aa74"
+   "bytes": 401,
+   "sha256": "a5a15871e495517037dc9107bfd8284e6f00132978ebc7892f4b40474c0050ad"
   },
   "papers/lure-broadcast/results/tail_sample_arbitrum-one.json": {
    "bytes": 11054,
@@ -837,20 +881,36 @@
    "sha256": "4a3ff6cfa3505f334640b742eaf12198f48d9a16bd6671206de2e9a4991efee9"
   },
   "papers/lure-broadcast/results/unresolved_profile_base.manifest.json": {
-   "bytes": 97,
-   "sha256": "e4d4fa522478805c61a3a8c01dde1d191a809f03a842a9db17b578538b009baf"
+   "bytes": 393,
+   "sha256": "42c61f481a2b145141b7bfde3759aec4ffa04ba0c68caa93513331763f154f62"
+  },
+  "papers/lure-broadcast/results/verification_rerun.json": {
+   "bytes": 71217,
+   "sha256": "df5360cb3c56c544cb7edae3d248de1ef76f8c9ed0072260829c5d1800c7aaa6"
+  },
+  "papers/lure-broadcast/results/verification_rerun_after_fixes.json": {
+   "bytes": 30027,
+   "sha256": "5dbc5e2863947de255c0e5f3f8d33480ba13087eaaee350f5795ec6e3d8aaed5"
   },
   "papers/lure-broadcast/results/zksync-era_nf_census.json": {
    "bytes": 924,
    "sha256": "d31ceca973b99f28502cd30bd0f6a5fc676ca9aae8490031eb93f1673e60a398"
   },
   "papers/lure-broadcast/results/zksync-era_nf_census.manifest.json": {
-   "bytes": 227,
-   "sha256": "28d4479f48d2257fc698cdfabeb915d09ff8d2a26e7da2c1cee9c9930fed5bec"
+   "bytes": 542,
+   "sha256": "2801af0f781d41c8581b1a671ca994c52abb37a984f526c0861ec5e026ac417e"
   },
   "papers/lure-broadcast/scripts/adversarial_eval.py": {
    "bytes": 9690,
    "sha256": "9d95660f4f0a1a1806a001ffacd8de71f6b6f886c0b1a15bc1e7d045ec26e257"
+  },
+  "papers/lure-broadcast/scripts/annotation_v2_exploratory.py": {
+   "bytes": 5052,
+   "sha256": "054c16e2a1605ce8113d8a623cd32f447e8ec089e8a39123401673fbc976c845"
+  },
+  "papers/lure-broadcast/scripts/annotation_v2_robustness.py": {
+   "bytes": 7960,
+   "sha256": "823dea1b6e7b5775dc9885b18d55a1cf9ffa32aecd0cc3fe943ed55709a546d8"
   },
   "papers/lure-broadcast/scripts/bound_worked_example.py": {
    "bytes": 6397,
@@ -905,16 +965,16 @@
    "sha256": "cdc48f9570a74874bf6b5af83f017695a13e7a0d5358486a51301664903cfc3a"
   },
   "papers/lure-broadcast/scripts/forgery_probe.py": {
-   "bytes": 24977,
-   "sha256": "42fd2f57b4b68e11c21a0c128acf82240b8fc11e699de9a57c4b95e0196a4fc5"
+   "bytes": 27014,
+   "sha256": "54a37645e8928153ac0e1c5ee6f5f11db30bda85f2bd884991587ceffc5e8d7a"
   },
   "papers/lure-broadcast/scripts/frame_probe.py": {
    "bytes": 8809,
    "sha256": "0a7c93771f38b88d87a17ce18693d3288ceb06fe8faa9bff25e76d54377e9f8f"
   },
   "papers/lure-broadcast/scripts/interface_probe.py": {
-   "bytes": 11117,
-   "sha256": "632f69bbca5eaedd03bf0fad1715a85df58c1c5ae1fc8c49f3b8ba4de2e9cc37"
+   "bytes": 12220,
+   "sha256": "25a040c26895f7634b50416eb0cb241a2cbb6ad5516a46ccb486035c81734f15"
   },
   "papers/lure-broadcast/scripts/interrater.py": {
    "bytes": 8809,
@@ -925,12 +985,12 @@
    "sha256": "fc9d58858bd0b78883a66d967240a2b196b0789b113dcb25fb0001eaebc48254"
   },
   "papers/lure-broadcast/scripts/make_macros.py": {
-   "bytes": 69601,
-   "sha256": "6e27130c6284ae5e97ec1d65a0d27bc5d96646de7e7f31de886fda7cd43a8de0"
+   "bytes": 72935,
+   "sha256": "be6af06a5ef5ae4468a6dfca15babec784e7b9271c9f32875ac3e2d0165cb1f8"
   },
   "papers/lure-broadcast/scripts/make_macros_r1.py": {
-   "bytes": 21666,
-   "sha256": "f2e8836b86fd6dd74b32d5432839331a79c36f970b64730c5df8a4e02e8172bc"
+   "bytes": 33574,
+   "sha256": "bb78843bcb41c4e5d48088f2a6a4bb2b8b48e8c91cec6f216e87ae7110e7a796"
   },
   "papers/lure-broadcast/scripts/make_tables.py": {
    "bytes": 11067,
@@ -968,6 +1028,10 @@
    "bytes": 11270,
    "sha256": "05f5beea7e5b46fa2f94e14a6fcfb638dde3379baf5eca8aa87145d125b1379b"
   },
+  "papers/lure-broadcast/scripts/rpc_answers.py": {
+   "bytes": 2947,
+   "sha256": "29e154fb4806cb6eb0b220f70dc7663f025291c1efddf4f7e258160236f30601"
+  },
   "papers/lure-broadcast/scripts/rule_interaction.py": {
    "bytes": 10575,
    "sha256": "5ae6cf42bec51f44156ddb947b0cbcd5f073df0558c2ab26c18f1f037d36949b"
@@ -1001,8 +1065,8 @@
    "sha256": "778ea543a3dc7a28c77df66248e97ea47d26dfeb34e3ed4129cc10bc97611755"
   },
   "papers/lure-broadcast/scripts/systems_report.py": {
-   "bytes": 8688,
-   "sha256": "5baba3c919a77b2da8aa401a69f6c77cb4142d7b72f76a5841730ab5c48bfe87"
+   "bytes": 10261,
+   "sha256": "3a51905f2b4a69c2ea573f0556bcdfe935a2c192c0ae794cc6e42a94b2641718"
   },
   "papers/lure-broadcast/scripts/tail_sample.py": {
    "bytes": 11087,
@@ -1023,10 +1087,16 @@
   "papers/lure-broadcast/scripts/unresolved_profile.py": {
    "bytes": 9100,
    "sha256": "632024d1d099543b2645f44a3b5b42570a7208204e519aa0f9799a3dbc6635bb"
+  },
+  "papers/lure-broadcast/scripts/verify_rerun.py": {
+   "bytes": 36115,
+   "sha256": "9ebcbc35a8a7e2834c7c351390499ef0c2d33e5d3e4804a65495769da672b9e6"
   }
  },
  "scripts": [
   "adversarial_eval",
+  "annotation_v2_exploratory",
+  "annotation_v2_robustness",
   "bound_worked_example",
   "build_annotation_sample_v2",
   "campaign_census",
@@ -1056,6 +1126,7 @@
   "replication_record",
   "residual_probe",
   "residue_robustness",
+  "rpc_answers",
   "rule_interaction",
   "rule_paths",
   "run_metadata_sweep",
@@ -1071,7 +1142,7 @@
   "token_volumes",
   "unresolved_profile"
  ],
- "source_commit": "7765daf85bcaab584af75e0c55fb5acf6659e911",
+ "source_commit": "631a61bceeaedfaaf11d5ce1f2fb8ae49b321878",
  "src_modules": [
   "codemeta",
   "confusables",

@@ -1,5 +1,19 @@
 {
  "producer": "papers/lure-broadcast/scripts/run_metadata_sweep.py",
  "git_commit": "cb1bddd",
- "shared_cache_base_digest": "dd7bcf5748c3b02f09357144616da5f80b9f99e09e1b2ac271143822d230ae01"
+ "shared_cache_base_digest": "dd7bcf5748c3b02f09357144616da5f80b9f99e09e1b2ac271143822d230ae01",
+ "reproduced": {
+  "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+  "verdict": "identical_except_volatile",
+  "by": "papers/lure-broadcast/scripts/verify_rerun.py",
+  "record": "papers/lure-broadcast/results/verification_rerun.json",
+  "ignored_fields": [
+   "endpoints_ranked[0].canary_seconds",
+   "endpoints_ranked[1].canary_seconds",
+   "endpoints_ranked[2].canary_seconds",
+   "manifest:git_commit",
+   "seconds_per_contract",
+   "wall_seconds"
+  ]
+ }
 }

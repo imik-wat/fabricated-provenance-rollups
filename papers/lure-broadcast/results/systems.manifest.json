@@ -1,4 +1,13 @@
 {
  "producer": "papers/lure-broadcast/scripts/systems_report.py",
- "git_commit": "7420bfe"
+ "git_commit": "4f71c6f",
+ "reproduced": {
+  "commit": "4f71c6fe3fc3473033577a0d6eb3fbf4386994ef",
+  "verdict": "identical_except_volatile",
+  "by": "papers/lure-broadcast/scripts/verify_rerun.py",
+  "record": "papers/lure-broadcast/results/verification_rerun_after_fixes.json",
+  "ignored_fields": [
+   "manifest:git_commit"
+  ]
+ }
 }

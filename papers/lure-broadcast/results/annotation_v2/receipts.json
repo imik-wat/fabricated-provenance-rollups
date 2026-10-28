@@ -2,7 +2,7 @@
  "note": "Each returned rating sheet is logged here on arrival, before it is opened. The tier must be recorded in tier.json (committed) before any sheet's contents are read (PREREG_ANNOTATION_V2.md section 4).",
  "receipts": [
   {
-   "file": "papers/lure-broadcast/data/ratings_DRHL.csv",
+   "file": "papers/lure-broadcast/data/ratings_R1.csv",
    "rater_initials_from_filename": "R1",
    "route_inferred_from_filename": "web page (ratings_<initials>.csv, no _partial suffix)",
    "size_bytes": 21170,
@@ -25,6 +25,85 @@
     },
     "translated_notes": 0,
     "scope": "structure and completeness only; no comparison with the detector until both sheets are in"
+   }
+  },
+  {
+   "file": "papers/lure-broadcast/data/ratings_R2.csv",
+   "rater_initials_from_filename": "R2",
+   "route_inferred_from_filename": "web page (ratings_<initials>.csv, no _partial suffix)",
+   "size_bytes": 20959,
+   "file_modified": "2026-10-27 20:48:37",
+   "sha256": "f9f39cea211c0a7ae7e77103ac71bec1f5d42edda34fcbaa4210f1af9debb131",
+   "logged": "2026-10-27",
+   "opened_before_tier_recorded": false,
+   "opened": "2026-10-27, after tier.json and deviation 4 were committed (e364b8b) and the deviation-4 code (ff7d617)",
+   "validation": {
+    "valid": true,
+    "rows": 408,
+    "complete_rows": 408,
+    "strings_altered": 0,
+    "blank_answers": 0,
+    "language_missing_where_cta_yes": 0,
+    "unclear": {
+     "destination": 0,
+     "call_to_action": 0,
+     "purpose": 13
+    },
+    "translated_notes": 0,
+    "scope": "structure and completeness only"
+   }
+  },
+  {
+   "file": "papers/lure-broadcast/data/ratings_R3.csv",
+   "rater_initials_from_filename": "R3",
+   "route_inferred_from_filename": "web page (ratings_<initials>.csv, no _partial suffix)",
+   "size_bytes": 21117,
+   "file_modified": "2026-10-27 21:01:41",
+   "sha256": "4843b89a615f74fc9ab20ab652e2f93205ae28aa00acef721bf163b14d0f79d0",
+   "logged": "2026-10-27",
+   "opened_before_tier_recorded": false,
+   "opened": "2026-10-27, after tier.json and deviation 4 were committed (e364b8b) and the deviation-4 code (ff7d617)",
+   "validation": {
+    "valid": true,
+    "rows": 408,
+    "complete_rows": 408,
+    "strings_altered": 1,
+    "blank_answers": 0,
+    "language_missing_where_cta_yes": 0,
+    "unclear": {
+     "destination": 38,
+     "call_to_action": 27,
+     "purpose": 52
+    },
+    "translated_notes": 0,
+    "scope": "structure and completeness only",
+    "strings_altered_detail": "r0017: the sample's decomposed 'U' + U+0301 was saved as the precomposed U+00DA by the rater's software; canonically equivalent (NFC-equal). Rows are matched by row_id, and the registration counts such rows without treating them as fatal."
+   }
+  },
+  {
+   "file": "papers/lure-broadcast/data/ratings_AW.csv",
+   "rater_initials_from_filename": "AW",
+   "route_inferred_from_filename": "web page (ratings_<initials>.csv, no _partial suffix)",
+   "size_bytes": 21123,
+   "file_modified": "2026-10-27 21:02:22",
+   "sha256": "9f198f2cc838b7e539d67cb3309537b126e0abf3998f9700247d8706be4aeebd",
+   "logged": "2026-10-27",
+   "opened_before_tier_recorded": false,
+   "opened": "2026-10-27, after tier.json and deviation 4 were committed (e364b8b) and the deviation-4 code (ff7d617)",
+   "validation": {
+    "valid": true,
+    "rows": 408,
+    "complete_rows": 408,
+    "strings_altered": 0,
+    "blank_answers": 0,
+    "language_missing_where_cta_yes": 0,
+    "unclear": {
+     "destination": 16,
+     "call_to_action": 5,
+     "purpose": 29
+    },
+    "translated_notes": 0,
+    "scope": "structure and completeness only"
    }
   }
  ]

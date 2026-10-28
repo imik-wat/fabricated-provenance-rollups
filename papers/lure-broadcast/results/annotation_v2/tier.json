@@ -3,12 +3,29 @@
  "recorded": "2026-10-27",
  "recorded_before_any_sheet_was_opened": true,
  "raters": [
-  {"id": "R1", "author": false,
-   "note": "first returned sheet: papers/lure-broadcast/data/ratings_DRHL.csv, receipt in receipts.json"},
-  {"id": "R2", "author": false,
-   "note": "second non-author rater, not yet returned; identified in receipts.json on arrival and passed to the analysis as --sheet R2=<path>"}
+  {
+   "id": "R1",
+   "author": false,
+   "note": "first returned sheet; primary rater (registered pair)"
+  },
+  {
+   "id": "R2",
+   "author": false,
+   "note": "second non-author sheet by arrival (2026-10-27 20:48); primary rater (registered pair), the 'R2' the original record left to be identified on arrival"
+  }
  ],
- "adjudicator": null,
- "adjudicator_note": "PREREG section 4 describes tier A with a non-author adjudicator. None is named yet. If none is used, that is logged as a deviation; the adjudication analysis is secondary (section 7) and no primary analysis depends on it.",
+ "adjudicator": {
+  "id": "R3",
+  "author": false,
+  "mode": "independent blind rating of every row, used as the tie-breaker where the primary pair disagrees or leaves a row unresolved (deviation 4)"
+ },
+ "additional_raters": [
+  {
+   "id": "AW",
+   "author": true,
+   "use": "author comparison only, reported separately and never in a Tier A figure (deviation 4)"
+  }
+ ],
+ "revision_note": "Revised 2026-10-27 after three further sheets (R2, R3, AW) arrived and before any of them was opened. The first record named R1 and a placeholder R2. Rater status confirmed by K. Kaczynski: AW is an author, R2 and R3 are not.",
  "confirmed_by": "K. Kaczynski (corresponding author), in session, 2026-10-27"
 }

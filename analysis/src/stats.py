@@ -694,6 +694,30 @@ def cohen_kappa(
     return k, lo, hi, agree
 
 
+def fleiss_kappa(ratings: list[list[str]]) -> tuple[float, float, float]:
+    """Fleiss' kappa for a fixed number of raters per subject (Fleiss, 1971).
+
+    Inputs:  one list per subject holding every rater's category for it. Every list must have the
+             same length n >= 2; categories are any hashable labels.
+    Outputs: (kappa, mean observed agreement P_bar, chance agreement P_e). kappa is nan when chance
+             agreement is 1, i.e. every rating falls in one category, where it is undefined.
+    Raises:  ValueError on no subjects, fewer than two raters, or unequal rater counts.
+    Complexity: O(subjects x raters).
+    """
+    if not ratings:
+        raise ValueError("no subjects")
+    n = len(ratings[0])
+    if n < 2 or any(len(r) != n for r in ratings):
+        raise ValueError("every subject needs the same number of ratings, at least two")
+    cats = sorted({c for r in ratings for c in r}, key=str)
+    counts = [[r.count(c) for c in cats] for r in ratings]
+    big_n = len(ratings)
+    p_bar = sum((sum(x * x for x in row) - n) / (n * (n - 1)) for row in counts) / big_n
+    p_e = sum((sum(row[j] for row in counts) / (big_n * n)) ** 2 for j in range(len(cats)))
+    kappa = float("nan") if p_e == 1 else (p_bar - p_e) / (1 - p_e)
+    return kappa, p_bar, p_e
+
+
 def stratified_bootstrap_ci(
     strata: Sequence[tuple[int, Sequence]],
     statistic,

@@ -51,6 +51,12 @@ retries. We therefore classify FOUR outcomes -- value, revert, empty, missing (s
 and never conflate them. In particular a throttled endpoint yields `missing`, which can only ever
 understate fabrication, and an address with no code yields `empty`, which is not a refusal.
 
+Throttling does not only drop elements: public endpoints also return a rate-limit `error` INSIDE an
+otherwise genuine batch (mainnet.base.org, -32007). Until the 2026-10-28 re-run every `error` was
+read as a revert, so throttling counted as the authorisation test's positive result. Which errors
+are the contract's answer is now decided by `rpc_answers.element_kind`, an allowlist, and a contract
+with any transport failure is asked again on the next endpoint before a partial answer is kept.
+
 Verdicts
 --------
 constant_nonzero  both probes return the same non-zero balance -> no per-address ledger; FABRICATED
@@ -92,6 +98,7 @@ ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "analysis"))
 
 from src import metadata_lure as ml, registry, token_meta  # noqa: E402
+from rpc_answers import EXECUTION_ERROR, RESULT, element_kind  # noqa: E402
 
 OUT_ROOT = ROOT / "papers" / "lure-broadcast" / "results"
 
@@ -228,14 +235,18 @@ def _outcome(entry: dict | None) -> tuple[str, int | None]:
                 or a contract without that function, produces. It is NOT the same as a revert, and
                 conflating the two would let "the approval path is not implemented" be reported for
                 an address that simply has no code at all.
-      'missing' no response element -- a transport failure, i.e. absence of evidence
+      'missing' no response element, or an error from the ENDPOINT rather than the contract (a
+                rate limit, a server error, anything rpc_answers does not recognise as an
+                execution failure) -- a transport failure, i.e. absence of evidence
 
-    Keeping 'revert' and 'empty' apart is what lets the authorisation test be stated precisely.
+    Keeping 'revert' and 'empty' apart is what lets the authorisation test be stated precisely, and
+    keeping 'revert' and an endpoint's refusal apart is what keeps throttling out of it.
     """
-    if entry is None:
-        return "missing", None
-    if "error" in entry:
+    kind = element_kind(entry)
+    if kind == EXECUTION_ERROR:
         return "revert", None
+    if kind != RESULT:
+        return "missing", None
     r = entry.get("result")
     if r is None or r == "0x" or r == "":
         return "empty", None
@@ -272,16 +283,29 @@ def classify_balances(kinds: list[str], values: list[int | None]) -> str:
 
 
 def probe(contracts: list[str], endpoints: list[str], probes: list[str],
-          batch: int, sleep_s: float, block_hex: str) -> dict[str, dict]:
-    """Probe every contract, rotating endpoints for those that do not answer."""
+          batch: int | dict[str, int], sleep_s: float, block_hex: str) -> dict[str, dict]:
+    """Probe every contract, rotating endpoints for those that do not answer in full.
+
+    A contract none of whose balance probes was answered moves to the next endpoint. So does one with
+    ANY other transport failure (a throttled totalSupply or allowance beside answered balances),
+    unless this is the last endpoint; its partial record is kept only if no later endpoint answers
+    in full, so rotation can complete an answer but never lose one.
+
+    `batch` is a contract-batch per endpoint (or one for all). It must be per endpoint: endpoints
+    are ranked by calibrated batch, and in the 2026-10-28 re-run the first one's 4 was imposed on a
+    fallback calibrated at 2, which then answered nothing, so rotation recovered no contract.
+    """
     pending = list(contracts)
     results: dict[str, dict] = {}
+    provisional: dict[str, dict] = {}
     for ep in endpoints:
         if not pending:
             break
+        last = ep == endpoints[-1]
+        size = batch[ep] if isinstance(batch, dict) else batch
         still: list[str] = []
-        for i in range(0, len(pending), batch):
-            chunk = pending[i:i + batch]
+        for i in range(0, len(pending), size):
+            chunk = pending[i:i + size]
             calls = []
             for j, a in enumerate(chunk):
                 for k, p in enumerate(probes):
@@ -309,7 +333,7 @@ def probe(contracts: list[str], endpoints: list[str], probes: list[str],
 
                 verdict = classify_balances(bal_kinds, bal_vals)
 
-                results[a] = {
+                rec = {
                     "verdict": verdict,
                     "balances": bal_vals,
                     "balance_kinds": bal_kinds,
@@ -320,12 +344,18 @@ def probe(contracts: list[str], endpoints: list[str], probes: list[str],
                     "allowance": al_kind,
                     "endpoint": ep,
                 }
+                if not last and "missing" in bal_kinds + [ts_kind, al_kind]:
+                    provisional[a] = rec
+                    still.append(a)
+                    continue
+                results[a] = rec
             time.sleep(sleep_s)
         pending = still
     for a in pending:
-        results[a] = {"verdict": "no_response", "balances": [], "balance_kinds": [],
-                      "total_supply": None, "balance_equals_total_supply": False,
-                      "allowance": "missing", "endpoint": None}
+        results[a] = provisional.get(a) or {
+            "verdict": "no_response", "balances": [], "balance_kinds": [],
+            "total_supply": None, "balance_equals_total_supply": False,
+            "allowance": "missing", "endpoint": None}
     return results
 
 
@@ -377,13 +407,14 @@ def main() -> int:
         raise SystemExit(f"no archive endpoint answers even a single-contract batch at block "
                          f"{block:,}; aborting rather than reporting no_response as evidence")
     eps.sort(key=lambda e: -cal[e])
-    batch = min(args.batch, cal[eps[0]])
-    print(f"  archive batch calibration {cal}; using contract-batch {batch}")
+    batches = {e: min(args.batch, cal[e]) for e in eps}
+    batch = batches[eps[0]]
+    print(f"  archive batch calibration {cal}; contract-batch per endpoint {batches}")
     print(f"  probe addresses (seed {PROBE_SEED!r}): {probes[0]}, {probes[1]}")
 
     t0 = time.time()
-    res_lure = probe(lure, eps, probes, batch, args.sleep, block_hex)
-    res_ctrl = probe(controls, eps, probes, batch, args.sleep, block_hex)
+    res_lure = probe(lure, eps, probes, batches, args.sleep, block_hex)
+    res_ctrl = probe(controls, eps, probes, batches, args.sleep, block_hex)
     el = time.time() - t0
 
     def tally(d: dict[str, dict]) -> dict[str, int]:
@@ -434,6 +465,7 @@ def main() -> int:
         "archive_endpoints": eps,
         "archive_batch_calibration": cal,
         "contract_batch_used": batch,
+        "contract_batch_by_endpoint": batches,
         "endpoints_without_archive_state": [e for e in all_eps if e not in eps],
         "selectors": {"balanceOf(address)": BALANCE_OF, "totalSupply()": TOTAL_SUPPLY,
                       "allowance(address,address)": ALLOWANCE},

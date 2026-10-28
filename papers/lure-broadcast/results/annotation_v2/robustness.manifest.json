@@ -1,0 +1,6 @@
+{
+ "producer": "papers/lure-broadcast/scripts/annotation_v2_robustness.py",
+ "git_commit": "90a6102",
+ "n_boot": 5000,
+ "registration": "papers/lure-broadcast/docs/PREREG_ANNOTATION_V2.md (deviation 4)"
+}

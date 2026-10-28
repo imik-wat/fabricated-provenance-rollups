@@ -1,5 +1,5 @@
 {
  "producer": "papers/lure-broadcast/scripts/forgery_probe.py",
- "git_commit": "7420bfe",
+ "git_commit": "3ea9c60",
  "probe_seed": "balance-probe"
 }

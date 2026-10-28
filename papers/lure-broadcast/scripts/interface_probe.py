@@ -65,6 +65,7 @@ ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "analysis"))
 
 from src import token_meta  # noqa: E402
+from rpc_answers import TRANSPORT, element_kind  # noqa: E402
 from src.nonfungible import NONFUNGIBLE_DATA_HEXLEN  # noqa: E402
 
 RAW = ROOT / "data" / "raw" / "hypersync"
@@ -120,48 +121,69 @@ def classify_interface(is721: bool | None, is1155: bool | None,
 
     `unresolved` is returned whenever the ERC-165 answers are absent, because a contract that did
     not answer is not evidence either way and must not be counted as a confirmation or a refutation.
+    A denial needs BOTH interfaces answered false: a False beside a None is not a denial of both,
+    and reading it as one is how a throttled supportsInterface beside an answered one manufactured
+    denials in the 2026-10-28 re-run.
     """
     if is721:
         return "erc721_confirmed"
     if is1155:
         return "erc1155_confirmed"
-    if is721 is None and is1155 is None:
-        return "answers_decimals_no_interface" if decimals_ok else "unresolved"
-    # answered ERC-165 and denied both interfaces
-    return "answers_decimals_not_nonfungible" if decimals_ok else "denies_nonfungible_interface"
+    if is721 is False and is1155 is False:
+        return "answers_decimals_not_nonfungible" if decimals_ok else "denies_nonfungible_interface"
+    # no complete ERC-165 answer
+    return "answers_decimals_no_interface" if decimals_ok else "unresolved"
 
 
 def probe(contracts: list[str], endpoints: list[str], batch: int = 20) -> dict[str, dict]:
+    """ERC-165 and decimals() answers per contract.
+
+    A contract is classified only from three answers the CONTRACT gave (rpc_answers.element_kind:
+    a result or an execution error). One with any transport failure is asked again on the next
+    endpoint, and one that no endpoint answers in full is `unresolved` with no answers recorded.
+    Accepting the first endpoint that returned any result, as this did until the 2026-10-28 re-run,
+    kept partly throttled batches whole.
+    """
     out: dict[str, dict] = {}
     for i in range(0, len(contracts), batch):
-        chunk = contracts[i:i + batch]
-        calls = []
-        for j, a in enumerate(chunk):
-            addr = "0x" + a.removeprefix("0x")
-            calls.append({"jsonrpc": "2.0", "id": f"a{j}", "method": "eth_call",
-                          "params": [{"to": addr,
-                                      "data": SEL_SUPPORTS + IFACE_ERC721 + "0" * 56}, "latest"]})
-            calls.append({"jsonrpc": "2.0", "id": f"b{j}", "method": "eth_call",
-                          "params": [{"to": addr,
-                                      "data": SEL_SUPPORTS + IFACE_ERC1155 + "0" * 56}, "latest"]})
-            calls.append({"jsonrpc": "2.0", "id": f"c{j}", "method": "eth_call",
-                          "params": [{"to": addr, "data": SEL_DECIMALS}, "latest"]})
-        by_id: dict = {}
+        pending = list(contracts[i:i + batch])
         for ep in endpoints:
-            r = token_meta._rpc_batch(calls, ep)
-            if r:
-                by_id = {x.get("id"): x for x in r if isinstance(x, dict)}
-                if any("result" in v for v in by_id.values()):
-                    break
-        for j, a in enumerate(chunk):
-            g = lambda k: (by_id.get(f"{k}{j}") or {}).get("result")  # noqa: E731
-            is721, is1155 = _bool_word(g("a")), _bool_word(g("b"))
-            dec = g("c")
-            dec_ok = bool(dec) and dec != "0x" and len(dec.removeprefix("0x")) >= 64
-            out[a] = {"verdict": classify_interface(is721, is1155, dec_ok),
-                      "erc721": is721, "erc1155": is1155, "decimals": dec_ok}
+            if not pending:
+                break
+            pending = _probe_on(pending, ep, out)
+        for a in pending:
+            out[a] = {"verdict": "unresolved", "erc721": None, "erc1155": None, "decimals": False}
         print(f"    probed {min(i + batch, len(contracts))}/{len(contracts)}", flush=True)
     return out
+
+
+def _probe_on(chunk: list[str], ep: str, out: dict[str, dict]) -> list[str]:
+    """Ask one endpoint about `chunk`; record the contracts answered in full into `out` and return
+    the rest."""
+    calls = []
+    for j, a in enumerate(chunk):
+        addr = "0x" + a.removeprefix("0x")
+        calls.append({"jsonrpc": "2.0", "id": f"a{j}", "method": "eth_call",
+                      "params": [{"to": addr,
+                                  "data": SEL_SUPPORTS + IFACE_ERC721 + "0" * 56}, "latest"]})
+        calls.append({"jsonrpc": "2.0", "id": f"b{j}", "method": "eth_call",
+                      "params": [{"to": addr,
+                                  "data": SEL_SUPPORTS + IFACE_ERC1155 + "0" * 56}, "latest"]})
+        calls.append({"jsonrpc": "2.0", "id": f"c{j}", "method": "eth_call",
+                      "params": [{"to": addr, "data": SEL_DECIMALS}, "latest"]})
+    by_id = {x.get("id"): x for x in token_meta._rpc_batch(calls, ep) if isinstance(x, dict)}
+    still = []
+    for j, a in enumerate(chunk):
+        els = [by_id.get(f"{k}{j}") for k in "abc"]
+        if any(element_kind(e) == TRANSPORT for e in els):
+            still.append(a)
+            continue
+        is721, is1155 = (_bool_word(e.get("result")) for e in els[:2])
+        dec = els[2].get("result")
+        dec_ok = bool(dec) and dec != "0x" and len(dec.removeprefix("0x")) >= 64
+        out[a] = {"verdict": classify_interface(is721, is1155, dec_ok),
+                  "erc721": is721, "erc1155": is1155, "decimals": dec_ok}
+    return still
 
 
 def main() -> int:

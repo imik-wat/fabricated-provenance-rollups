@@ -3,5 +3,15 @@
  "producer": "papers/lure-broadcast/scripts/run_nf_census.py",
  "primitive": "analysis/src/nonfungible.py:census",
  "input": "data/raw/hypersync/optimism",
- "git_commit": "fbb8bd2"
+ "git_commit": "fbb8bd2",
+ "reproduced": {
+  "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+  "verdict": "identical_except_volatile",
+  "by": "papers/lure-broadcast/scripts/verify_rerun.py",
+  "record": "papers/lure-broadcast/results/verification_rerun.json",
+  "ignored_fields": [
+   "manifest:git_commit",
+   "wall_seconds"
+  ]
+ }
 }

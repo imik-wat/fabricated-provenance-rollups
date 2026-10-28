@@ -12,17 +12,29 @@
  "chain": "polygon-zkevm",
  "coverage": 0.9933333333333333,
  "design": "rank depth, registry-verified tokens excluded -- reproduces Base's existing population design rather than its absolute transfer floor, because the chains differ in size by more than two orders of magnitude",
- "endpoints": [
-  "https://zkevm-rpc.com",
-  "https://polygon-zkevm.drpc.org",
-  "https://1rpc.io/polygon/zkevm"
+ "endpoints_ranked": [
+  {
+   "canary_answered": 50,
+   "canary_seconds": 0.2,
+   "url": "https://zkevm-rpc.com"
+  },
+  {
+   "canary_answered": 0,
+   "canary_seconds": 1.66,
+   "url": "https://polygon-zkevm.drpc.org"
+  },
+  {
+   "canary_answered": 0,
+   "canary_seconds": 1.75,
+   "url": "https://1rpc.io/polygon/zkevm"
+  }
  ],
  "floor_transfers": 6,
  "lure_contracts": 3,
  "min_coverage": 0.9,
  "requested_top": 1200,
- "seconds_per_contract": 0.1269,
+ "seconds_per_contract": 0.1071,
  "swept": 1200,
  "universe_contracts": 8228,
- "wall_seconds": 152.3
+ "wall_seconds": 128.5
 }

@@ -1,5 +1,15 @@
 {
  "producer": "papers/lure-broadcast/scripts/recipient_activity.py",
  "git_commit": "7420bfe",
- "k": 1024
+ "k": 1024,
+ "reproduced": {
+  "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+  "verdict": "identical_except_volatile",
+  "by": "papers/lure-broadcast/scripts/verify_rerun.py",
+  "record": "papers/lure-broadcast/results/verification_rerun.json",
+  "ignored_fields": [
+   "manifest:git_commit",
+   "wall_seconds"
+  ]
+ }
 }

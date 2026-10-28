@@ -1,0 +1,59 @@
+{
+ "E1_detector_agreement": {
+  "R2": {
+   "agrees_with_detector": 399,
+   "resolved": 408,
+   "share": 0.9779411764705882
+  },
+  "AW": {
+   "agrees_with_detector": 402,
+   "resolved": 405,
+   "share": 0.9925925925925926
+  },
+  "R1": {
+   "agrees_with_detector": 390,
+   "resolved": 395,
+   "share": 0.9873417721518988
+  },
+  "R3": {
+   "agrees_with_detector": 350,
+   "resolved": 375,
+   "share": 0.9333333333333333
+  }
+ },
+ "E2_mismatch_overlap": {
+  "AW": {
+   "author_mismatches": 3,
+   "detector_mismatches": 3,
+   "rows_with_majority_conjunction": 393,
+   "shared": 1
+  }
+ },
+ "author_raters": [
+  "AW"
+ ],
+ "nonauthor_raters": [
+  "R1",
+  "R2",
+  "R3"
+ ],
+ "sheets": {
+  "R2": {
+   "path": "data/ratings_R2.csv",
+   "sha256": "f9f39cea211c0a7ae7e77103ac71bec1f5d42edda34fcbaa4210f1af9debb131"
+  },
+  "AW": {
+   "path": "data/ratings_AW.csv",
+   "sha256": "9f198f2cc838b7e539d67cb3309537b126e0abf3998f9700247d8706be4aeebd"
+  },
+  "R1": {
+   "path": "data/ratings_R1.csv",
+   "sha256": "65ac805bff5b6620c03064cfaf684521fc360cafeed61fd92753981f41190e62"
+  },
+  "R3": {
+   "path": "data/ratings_R3.csv",
+   "sha256": "4843b89a615f74fc9ab20ab652e2f93205ae28aa00acef721bf163b14d0f79d0"
+  }
+ },
+ "status": "exploratory, not declared in PREREG_ANNOTATION_V2.md or its deviations"
+}

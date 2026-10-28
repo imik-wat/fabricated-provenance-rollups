@@ -65,7 +65,12 @@
  "rows_matched": 23889129,
  "rows_scanned": 3236121548,
  "sampled_recipients": 13436,
- "sampler_check": null,
+ "sampler_check": {
+  "census_distinct_recipients": 13846083,
+  "deviation_sigma": -0.7362020290348881,
+  "expected_sampled": 13521.5654296875,
+  "observed_sampled": 13436
+ },
  "sampling": {
   "k": 1024,
   "scheme": "splitmix64(fnv1a(all 40 hex characters of the address)) & (K-1) == 0",
@@ -73,5 +78,5 @@
   "why_not_rows": "a row sample over-represents repeatedly named recipients, which is the population feature under study"
  },
  "verified_rows_scanned": 2088597974,
- "wall_seconds": 704.1
+ "wall_seconds": 695.8
 }

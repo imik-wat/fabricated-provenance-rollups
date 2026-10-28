@@ -29,7 +29,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import platform
+import plistlib
 import subprocess
 from pathlib import Path
 
@@ -39,6 +41,29 @@ RAW = ROOT / "data" / "raw" / "hypersync"
 CHAINS = ["arbitrum-one", "base", "optimism", "polygon-zkevm", "zksync-era"]
 
 
+def storage(path: Path) -> dict | None:
+    """The volume `path` is read from, as the operating system reports it (macOS `diskutil`).
+
+    This was a typed string, "internal NVMe, APFS", until the 2026-10-28 re-run noticed that the
+    corpus is on an external USB drive formatted exFAT, where it has been throughout. Only what the
+    OS reports is recorded: `diskutil` cannot see whether a drive behind a USB bridge is solid-state,
+    so `solid_state` is whatever it says, None included, and nothing is inferred from a product name.
+
+    Returns None where `diskutil` is unavailable, like every other probe here.
+    """
+    try:
+        mount = path.resolve()
+        while not os.path.ismount(mount):
+            mount = mount.parent
+        info = plistlib.loads(subprocess.run(["diskutil", "info", "-plist", str(mount)],
+                                             capture_output=True, check=True).stdout)
+    except Exception:
+        return None
+    return {"filesystem_type": info.get("FilesystemType"), "filesystem": info.get("FilesystemName"),
+            "internal": info.get("Internal"), "bus": info.get("BusProtocol"),
+            "solid_state": info.get("SolidState")}
+
+
 def environment() -> dict:
     """Capture the machine and software the measurements were taken on.
 
@@ -46,6 +71,10 @@ def environment() -> dict:
     here is read from the running system rather than typed into the paper, so it cannot drift from
     the machine that produced the measurements, and a re-run on different hardware records its own
     description rather than inheriting this one.
+
+    The values are read when this report is written, not when each scan ran. Hardware and storage do
+    not change between the two; an operating-system point release can (the published scans ran a day
+    before one), so the manuscript quotes the OS by major version only.
 
     Failure modes: a probe that cannot answer records None rather than a guess, so a missing value
     is visible as missing. Nothing here raises: an unavailable `sysctl` should not stop a report.
@@ -75,7 +104,8 @@ def environment() -> dict:
         "pyarrow": version("pyarrow"),
         "numpy": version("numpy"),
         "scipy": version("scipy"),
-        "storage": "internal NVMe, APFS",
+        "storage": storage(RAW),
+        "captured": "when this report is written; see environment() for what that licenses",
         "parquet_compression": "snappy",
         "worker_policy": ("at most 12 worker processes for corpus passes and at most 4 on zkSync, "
                           "whose row groups are large enough that more workers exhaust memory"),

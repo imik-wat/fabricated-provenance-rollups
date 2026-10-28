@@ -1,0 +1,2561 @@
+{
+ "artefacts": {
+  "arbitrum-one_nf_census": {
+   "artefact": "papers/lure-broadcast/results/arbitrum-one_nf_census.json",
+   "manifest": "papers/lure-broadcast/results/arbitrum-one_nf_census.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/run_nf_census.py",
+   "arguments": [
+    "arbitrum-one",
+    "--force"
+   ],
+   "command": "python scripts/run_nf_census.py arbitrum-one --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/arbitrum-one",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/arbitrum-one",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "output": "arbitrum-one_nf_census.json",
+    "producer": "papers/lure-broadcast/scripts/run_nf_census.py",
+    "primitive": "analysis/src/nonfungible.py:census",
+    "input": "data/raw/hypersync/arbitrum-one",
+    "git_commit": "fbb8bd2"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793145341.6,
+   "run_wall_seconds": 405.0,
+   "returncode": 0,
+   "log": "<outside>/arbitrum-one_nf_census.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 269.5,
+     "new": 404.7
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "fbb8bd2",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/arbitrum-one_nf_census.json",
+    "papers/lure-broadcast/results/arbitrum-one_nf_census.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "base_nf_census": {
+   "artefact": "papers/lure-broadcast/results/base_nf_census.json",
+   "manifest": "papers/lure-broadcast/results/base_nf_census.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/run_nf_census.py",
+   "arguments": [
+    "base",
+    "--force"
+   ],
+   "command": "python scripts/run_nf_census.py base --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/base",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/base",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "output": "base_nf_census.json",
+    "producer": "papers/lure-broadcast/scripts/run_nf_census.py",
+    "primitive": "analysis/src/nonfungible.py:census",
+    "input": "data/raw/hypersync/base",
+    "git_commit": "fbb8bd2"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793146558.6,
+   "run_wall_seconds": 2448.3,
+   "returncode": 0,
+   "log": "<outside>/base_nf_census.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 1971.5,
+     "new": 2447.6
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "fbb8bd2",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/base_nf_census.json",
+    "papers/lure-broadcast/results/base_nf_census.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "optimism_nf_census": {
+   "artefact": "papers/lure-broadcast/results/optimism_nf_census.json",
+   "manifest": "papers/lure-broadcast/results/optimism_nf_census.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/run_nf_census.py",
+   "arguments": [
+    "optimism",
+    "--force"
+   ],
+   "command": "python scripts/run_nf_census.py optimism --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/optimism",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/optimism",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "output": "optimism_nf_census.json",
+    "producer": "papers/lure-broadcast/scripts/run_nf_census.py",
+    "primitive": "analysis/src/nonfungible.py:census",
+    "input": "data/raw/hypersync/optimism",
+    "git_commit": "fbb8bd2"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793145746.8,
+   "run_wall_seconds": 519.3,
+   "returncode": 0,
+   "log": "<outside>/optimism_nf_census.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 450.5,
+     "new": 518.5
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "fbb8bd2",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/optimism_nf_census.json",
+    "papers/lure-broadcast/results/optimism_nf_census.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "polygon-zkevm_nf_census": {
+   "artefact": "papers/lure-broadcast/results/polygon-zkevm_nf_census.json",
+   "manifest": "papers/lure-broadcast/results/polygon-zkevm_nf_census.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/run_nf_census.py",
+   "arguments": [
+    "polygon-zkevm",
+    "--force"
+   ],
+   "command": "python scripts/run_nf_census.py polygon-zkevm --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/polygon-zkevm",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/polygon-zkevm",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "output": "polygon-zkevm_nf_census.json",
+    "producer": "papers/lure-broadcast/scripts/run_nf_census.py",
+    "primitive": "analysis/src/nonfungible.py:census",
+    "input": "data/raw/hypersync/polygon-zkevm",
+    "git_commit": "fbb8bd2"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793145311.3,
+   "run_wall_seconds": 3.7,
+   "returncode": 0,
+   "log": "<outside>/polygon-zkevm_nf_census.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 2.3,
+     "new": 3.1
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "fbb8bd2",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/polygon-zkevm_nf_census.json",
+    "papers/lure-broadcast/results/polygon-zkevm_nf_census.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "zksync-era_nf_census": {
+   "artefact": "papers/lure-broadcast/results/zksync-era_nf_census.json",
+   "manifest": "papers/lure-broadcast/results/zksync-era_nf_census.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/run_nf_census.py",
+   "arguments": [
+    "zksync-era",
+    "--force"
+   ],
+   "command": "python scripts/run_nf_census.py zksync-era --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/zksync-era",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/zksync-era",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "output": "zksync-era_nf_census.json",
+    "producer": "papers/lure-broadcast/scripts/run_nf_census.py",
+    "primitive": "analysis/src/nonfungible.py:census",
+    "input": "data/raw/hypersync/zksync-era",
+    "git_commit": "fbb8bd2"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793146266.3,
+   "run_wall_seconds": 292.1,
+   "returncode": 0,
+   "log": "<outside>/zksync-era_nf_census.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 141.7,
+     "new": 291.5
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "fbb8bd2",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/zksync-era_nf_census.json",
+    "papers/lure-broadcast/results/zksync-era_nf_census.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "polygon-zkevm_token_volumes": {
+   "artefact": "papers/lure-broadcast/results/polygon-zkevm_token_volumes.csv",
+   "manifest": "papers/lure-broadcast/results/polygon-zkevm_token_volumes.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/token_volumes.py",
+   "arguments": [
+    "polygon-zkevm",
+    "--force"
+   ],
+   "command": "python scripts/token_volumes.py polygon-zkevm --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/polygon-zkevm",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/polygon-zkevm",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "output": "polygon-zkevm_token_volumes.csv",
+    "chain": "polygon-zkevm",
+    "input": "data/raw/hypersync/polygon-zkevm",
+    "chunks_total": 7,
+    "chunks_with_done": 7,
+    "distinct_contracts": 8233,
+    "erc20_transfer_rows": 16328448,
+    "wall_seconds": 1.59,
+    "git_commit": "fbb8bd2",
+    "producer": "papers/lure-broadcast/scripts/token_volumes.py",
+    "primitive": "analysis/src/dataio.py:token_counts"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793145315.2,
+   "run_wall_seconds": 1.9,
+   "returncode": 0,
+   "log": "<outside>/polygon-zkevm_token_volumes.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "manifest:git_commit",
+     "old": "fbb8bd2",
+     "new": "27d5f47"
+    },
+    {
+     "path": "manifest:wall_seconds",
+     "old": 1.59,
+     "new": 1.57
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/polygon-zkevm_token_volumes.csv",
+    "papers/lure-broadcast/results/polygon-zkevm_token_volumes.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "forgery_chain_arbitrum-one": {
+   "artefact": "papers/lure-broadcast/results/forgery_chain_arbitrum-one.json",
+   "manifest": "papers/lure-broadcast/results/forgery_chain_arbitrum-one.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/forgery_chain_scan.py",
+   "arguments": [
+    "--chain",
+    "arbitrum-one",
+    "--workers",
+    "12",
+    "--force"
+   ],
+   "command": "python scripts/forgery_chain_scan.py --chain arbitrum-one --workers 12 --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/arbitrum-one",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/arbitrum-one",
+     "tracked": false
+    },
+    {
+     "path": "results/arbitrum-one_token_volumes.csv",
+     "exists": true,
+     "symlink": true,
+     "resolved": "results/arbitrum-one_token_volumes.csv",
+     "target": "results/arbitrum-one_token_volumes.csv",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/forgery_chain_scan.py",
+    "git_commit": "7420bfe",
+    "workers": 12
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793149010.2,
+   "run_wall_seconds": 153.6,
+   "returncode": 0,
+   "log": "<outside>/forgery_chain_arbitrum-one.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "rows_per_second",
+     "old": 26862010,
+     "new": 22456277
+    },
+    {
+     "path": "wall_seconds",
+     "old": 120.5,
+     "new": 144.1
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 3,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/forgery_chain_arbitrum-one.json",
+    "papers/lure-broadcast/results/forgery_chain_arbitrum-one.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "forgery_chain_base": {
+   "artefact": "papers/lure-broadcast/results/forgery_chain_base.json",
+   "manifest": "papers/lure-broadcast/results/forgery_chain_base.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/forgery_chain_scan.py",
+   "arguments": [
+    "--chain",
+    "base",
+    "--workers",
+    "12",
+    "--force"
+   ],
+   "command": "python scripts/forgery_chain_scan.py --chain base --workers 12 --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/base",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/base",
+     "tracked": false
+    },
+    {
+     "path": "results/base_token_volumes.csv",
+     "exists": true,
+     "symlink": true,
+     "resolved": "results/base_token_volumes.csv",
+     "target": "results/base_token_volumes.csv",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/forgery_chain_scan.py",
+    "git_commit": "7420bfe",
+    "workers": 12
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793149640.5,
+   "run_wall_seconds": 601.1,
+   "returncode": 0,
+   "log": "<outside>/forgery_chain_base.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "rows_per_second",
+     "old": 20576062,
+     "new": 21576870
+    },
+    {
+     "path": "wall_seconds",
+     "old": 532.3,
+     "new": 507.6
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 3,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/forgery_chain_base.json",
+    "papers/lure-broadcast/results/forgery_chain_base.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "forgery_chain_optimism": {
+   "artefact": "papers/lure-broadcast/results/forgery_chain_optimism.json",
+   "manifest": "papers/lure-broadcast/results/forgery_chain_optimism.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/forgery_chain_scan.py",
+   "arguments": [
+    "--chain",
+    "optimism",
+    "--workers",
+    "12",
+    "--force"
+   ],
+   "command": "python scripts/forgery_chain_scan.py --chain optimism --workers 12 --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/optimism",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/optimism",
+     "tracked": false
+    },
+    {
+     "path": "results/optimism_token_volumes.csv",
+     "exists": true,
+     "symlink": true,
+     "resolved": "results/optimism_token_volumes.csv",
+     "target": "results/optimism_token_volumes.csv",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/forgery_chain_scan.py",
+    "git_commit": "7420bfe",
+    "workers": 12
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793149164.1,
+   "run_wall_seconds": 218.4,
+   "returncode": 0,
+   "log": "<outside>/forgery_chain_optimism.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "rows_per_second",
+     "old": 21761240,
+     "new": 19895469
+    },
+    {
+     "path": "wall_seconds",
+     "old": 133.4,
+     "new": 145.9
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 3,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/forgery_chain_optimism.json",
+    "papers/lure-broadcast/results/forgery_chain_optimism.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "forgery_chain_polygon-zkevm": {
+   "artefact": "papers/lure-broadcast/results/forgery_chain_polygon-zkevm.json",
+   "manifest": "papers/lure-broadcast/results/forgery_chain_polygon-zkevm.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/forgery_chain_scan.py",
+   "arguments": [
+    "--chain",
+    "polygon-zkevm",
+    "--workers",
+    "12",
+    "--force"
+   ],
+   "command": "python scripts/forgery_chain_scan.py --chain polygon-zkevm --workers 12 --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/polygon-zkevm",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/polygon-zkevm",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/forgery_chain_scan.py",
+    "git_commit": "7420bfe",
+    "workers": 12
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793149007.1,
+   "run_wall_seconds": 2.9,
+   "returncode": 0,
+   "log": "<outside>/forgery_chain_polygon-zkevm.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "rows_per_second",
+     "old": 8837571,
+     "new": 7211694
+    },
+    {
+     "path": "wall_seconds",
+     "old": 2.0,
+     "new": 2.5
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 3,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/forgery_chain_polygon-zkevm.json",
+    "papers/lure-broadcast/results/forgery_chain_polygon-zkevm.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "forgery_chain_zksync-era": {
+   "artefact": "papers/lure-broadcast/results/forgery_chain_zksync-era.json",
+   "manifest": "papers/lure-broadcast/results/forgery_chain_zksync-era.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/forgery_chain_scan.py",
+   "arguments": [
+    "--chain",
+    "zksync-era",
+    "--workers",
+    "4",
+    "--force"
+   ],
+   "command": "python scripts/forgery_chain_scan.py --chain zksync-era --workers 4 --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/zksync-era",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/zksync-era",
+     "tracked": false
+    },
+    {
+     "path": "results/zksync-era_token_volumes.csv",
+     "exists": true,
+     "symlink": true,
+     "resolved": "results/zksync-era_token_volumes.csv",
+     "target": "results/zksync-era_token_volumes.csv",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/forgery_chain_scan.py",
+    "git_commit": "7420bfe",
+    "workers": 4
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793149382.7,
+   "run_wall_seconds": 257.5,
+   "returncode": 0,
+   "log": "<outside>/forgery_chain_zksync-era.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "rows_per_second",
+     "old": 10832931,
+     "new": 8889966
+    },
+    {
+     "path": "wall_seconds",
+     "old": 205.2,
+     "new": 250.0
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 3,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/forgery_chain_zksync-era.json",
+    "papers/lure-broadcast/results/forgery_chain_zksync-era.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "campaign_census_base": {
+   "artefact": "papers/lure-broadcast/results/campaign_census_base.json",
+   "manifest": "papers/lure-broadcast/results/campaign_census_base.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/campaign_census.py",
+   "arguments": [
+    "--chain",
+    "base",
+    "--force"
+   ],
+   "command": "python scripts/campaign_census.py --chain base --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/base",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/base",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/campaign_census.py",
+    "git_commit": "fbb8bd2"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793150241.8,
+   "run_wall_seconds": 1344.2,
+   "returncode": 0,
+   "log": "<outside>/campaign_census_base.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 1066.1,
+     "new": 1327.4
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "fbb8bd2",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/campaign_census_base.json",
+    "papers/lure-broadcast/results/campaign_census_base.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "residual_probe_arbitrum-one": {
+   "artefact": "papers/lure-broadcast/results/residual_probe_arbitrum-one.json",
+   "manifest": "papers/lure-broadcast/results/residual_probe_arbitrum-one.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/residual_probe.py",
+   "arguments": [
+    "--chain",
+    "arbitrum-one",
+    "--force"
+   ],
+   "command": "python scripts/residual_probe.py --chain arbitrum-one --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/arbitrum-one",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/arbitrum-one",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/residual_probe.py",
+    "git_commit": "cb1bddd"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793151586.3,
+   "run_wall_seconds": 102.5,
+   "returncode": 0,
+   "log": "<outside>/residual_probe_arbitrum-one.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 51.1,
+     "new": 101.5
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "cb1bddd",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/residual_probe_arbitrum-one.json",
+    "papers/lure-broadcast/results/residual_probe_arbitrum-one.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "residual_probe_base": {
+   "artefact": "papers/lure-broadcast/results/residual_probe_base.json",
+   "manifest": "papers/lure-broadcast/results/residual_probe_base.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/residual_probe.py",
+   "arguments": [
+    "--chain",
+    "base",
+    "--force"
+   ],
+   "command": "python scripts/residual_probe.py --chain base --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/base",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/base",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/residual_probe.py",
+    "git_commit": "cb1bddd"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793151689.0,
+   "run_wall_seconds": 330.7,
+   "returncode": 0,
+   "log": "<outside>/residual_probe_base.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 149.7,
+     "new": 330.2
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "cb1bddd",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/residual_probe_base.json",
+    "papers/lure-broadcast/results/residual_probe_base.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "residual_probe_optimism": {
+   "artefact": "papers/lure-broadcast/results/residual_probe_optimism.json",
+   "manifest": "papers/lure-broadcast/results/residual_probe_optimism.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/residual_probe.py",
+   "arguments": [
+    "--chain",
+    "optimism",
+    "--force"
+   ],
+   "command": "python scripts/residual_probe.py --chain optimism --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/optimism",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/optimism",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/residual_probe.py",
+    "git_commit": "cb1bddd"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793152019.9,
+   "run_wall_seconds": 64.5,
+   "returncode": 0,
+   "log": "<outside>/residual_probe_optimism.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 31.5,
+     "new": 64.0
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "cb1bddd",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/residual_probe_optimism.json",
+    "papers/lure-broadcast/results/residual_probe_optimism.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "forgery_probe_base": {
+   "artefact": "papers/lure-broadcast/results/forgery_probe_base.json",
+   "manifest": "papers/lure-broadcast/results/forgery_probe_base.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/forgery_probe.py",
+   "arguments": [
+    "--chain",
+    "base",
+    "--force"
+   ],
+   "command": "python scripts/forgery_probe.py --chain base --force",
+   "cwd": "papers/lure-broadcast",
+   "network": true,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/base",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/base",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/forgery_probe.py",
+    "git_commit": "7420bfe",
+    "probe_seed": "balance-probe"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793152084.6,
+   "run_wall_seconds": 147.3,
+   "returncode": 0,
+   "log": "<outside>/forgery_probe_base.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "differs",
+   "differences_total": 236,
+   "differences": [
+    {
+     "path": "archive_batch_calibration[\"https://mainnet.base.org\"]",
+     "old": 1,
+     "new": 4
+    },
+    {
+     "path": "archive_endpoints[0]",
+     "old": "https://base-pokt.nodies.app",
+     "new": "https://mainnet.base.org"
+    },
+    {
+     "path": "archive_endpoints[1]",
+     "old": "https://mainnet.base.org",
+     "new": "https://base-pokt.nodies.app"
+    },
+    {
+     "path": "contract_batch_used",
+     "old": 2,
+     "new": 4
+    },
+    {
+     "path": "lure.allowance_kinds.revert",
+     "old": 124,
+     "new": 128
+    },
+    {
+     "path": "lure.allowance_kinds.value",
+     "old": 17,
+     "new": 13
+    },
+    {
+     "path": "lure.allowance_reverts",
+     "old": 124,
+     "new": 128
+    },
+    {
+     "path": "lure.allowance_unusable_revert_or_empty",
+     "old": 124,
+     "new": 128
+    },
+    {
+     "path": "lure.balance_equals_total_supply",
+     "old": 27,
+     "new": 23
+    },
+    {
+     "path": "lure.fabricated_constant_nonzero",
+     "old": 137,
+     "new": 120
+    },
+    {
+     "path": "lure.ledger_and_authorisation_both",
+     "old": 121,
+     "new": 108
+    },
+    {
+     "path": "lure.ledger_only",
+     "old": 16,
+     "new": 12
+    },
+    {
+     "path": "lure.verdicts.constant_nonzero",
+     "old": 137,
+     "new": 120
+    },
+    {
+     "path": "lure.verdicts.no_response",
+     "old": 3,
+     "new": 20
+    },
+    {
+     "path": "per_contract.0x0137bed224ab6940241c9b4926987c7d2029b462.endpoint",
+     "old": "https://base-pokt.nodies.app",
+     "new": "https://mainnet.base.org"
+    },
+    {
+     "path": "per_contract.0x0818561acbbb454e3ec8319e47c62df3c8100680.endpoint",
+     "old": "https://base-pokt.nodies.app",
+     "new": "https://mainnet.base.org"
+    },
+    {
+     "path": "per_contract.0x0c91c8f301297201193771e8b8d490f3b4791802.endpoint",
+     "old": "https://base-pokt.nodies.app",
+     "new": "https://mainnet.base.org"
+    },
+    {
+     "path": "per_contract.0x0e2ffe16778964f32770fa38b8a86751cc9e5f22.endpoint",
+     "old": "https://base-pokt.nodies.app",
+     "new": "https://mainnet.base.org"
+    },
+    {
+     "path": "per_contract.0x0e8eef6b9b9fc299c0e79464dc3f4485bfbfc5aa.endpoint",
+     "old": "https://base-pokt.nodies.app",
+     "new": "https://mainnet.base.org"
+    },
+    {
+     "path": "per_contract.0x10bcf9c4d1fd798df33ad1c1cb286e24720c0d7f.endpoint",
+     "old": "https://base-pokt.nodies.app",
+     "new": "https://mainnet.base.org"
+    },
+    {
+     "path": "per_contract.0x13ced7f82072327a5bc9ebb9437304f605e253b2.endpoint",
+     "old": "https://base-pokt.nodies.app",
+     "new": "https://mainnet.base.org"
+    },
+    {
+     "path": "per_contract.0x17362df3e9bd3fed54c70eb65c3a1eee6d489d70.endpoint",
+     "old": "https://base-pokt.nodies.app",
+     "new": "https://mainnet.base.org"
+    },
+    {
+     "path": "per_contract.0x185b6565de60df12a0ffe17374d3942995a03dea.balance_equals_total_supply",
+     "old": true,
+     "new": false
+    },
+    {
+     "path": "per_contract.0x185b6565de60df12a0ffe17374d3942995a03dea.endpoint",
+     "old": "https://base-pokt.nodies.app",
+     "new": "https://mainnet.base.org"
+    },
+    {
+     "path": "per_contract.0x185b6565de60df12a0ffe17374d3942995a03dea.total_supply",
+     "old": 1,
+     "new": null
+    }
+   ],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 69.7,
+     "new": 30.4
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/forgery_probe_base.json",
+    "papers/lure-broadcast/results/forgery_probe_base.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "interface_probe_base": {
+   "artefact": "papers/lure-broadcast/results/interface_probe_base.json",
+   "manifest": "papers/lure-broadcast/results/interface_probe_base.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/interface_probe.py",
+   "arguments": [
+    "--chain",
+    "base",
+    "--top",
+    "200",
+    "--force"
+   ],
+   "command": "python scripts/interface_probe.py --chain base --top 200 --force",
+   "cwd": "papers/lure-broadcast",
+   "network": true,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/base",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/base",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/interface_probe.py",
+    "git_commit": "cb1bddd",
+    "top": 200
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793152232.1,
+   "run_wall_seconds": 115.3,
+   "returncode": 0,
+   "log": "<outside>/interface_probe_base.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "differs",
+   "differences_total": 353,
+   "differences": [
+    {
+     "path": "answers_decimals_share_of_probed_rows",
+     "old": 0.005940591545620628,
+     "new": 0.002866978596925514
+    },
+    {
+     "path": "by_verdict_contracts.answers_decimals_no_interface",
+     "old": 7,
+     "new": 3
+    },
+    {
+     "path": "by_verdict_contracts.denies_nonfungible_interface",
+     "old": 1,
+     "new": 23
+    },
+    {
+     "path": "by_verdict_contracts.erc721_confirmed",
+     "old": 191,
+     "new": 82
+    },
+    {
+     "path": "by_verdict_contracts.unresolved",
+     "old": "<absent>",
+     "new": 91
+    },
+    {
+     "path": "by_verdict_rows.answers_decimals_no_interface",
+     "old": 5008255,
+     "new": 2114928
+    },
+    {
+     "path": "by_verdict_rows.denies_nonfungible_interface",
+     "old": 1269930,
+     "new": 66049383
+    },
+    {
+     "path": "by_verdict_rows.erc721_confirmed",
+     "old": 934481895,
+     "new": 680118927
+    },
+    {
+     "path": "by_verdict_rows.unresolved",
+     "old": "<absent>",
+     "new": 192476842
+    },
+    {
+     "path": "erc721_share_of_probed_rows",
+     "old": 0.9927103479119878,
+     "new": 0.7224977822001547
+    },
+    {
+     "path": "verdicts.0x00000066c6c6fca286f48a7f4e989b7198c26caf.erc721",
+     "old": true,
+     "new": null
+    },
+    {
+     "path": "verdicts.0x00000066c6c6fca286f48a7f4e989b7198c26caf.verdict",
+     "old": "erc721_confirmed",
+     "new": "denies_nonfungible_interface"
+    },
+    {
+     "path": "verdicts.0x000ce7fa842078ab126accdb1af9d2987fa0f929.erc1155",
+     "old": false,
+     "new": null
+    },
+    {
+     "path": "verdicts.0x000ce7fa842078ab126accdb1af9d2987fa0f929.erc721",
+     "old": true,
+     "new": null
+    },
+    {
+     "path": "verdicts.0x000ce7fa842078ab126accdb1af9d2987fa0f929.verdict",
+     "old": "erc721_confirmed",
+     "new": "unresolved"
+    },
+    {
+     "path": "verdicts.0x010152d40d23d1876e09b89ffb40d3311243064e.erc1155",
+     "old": false,
+     "new": null
+    },
+    {
+     "path": "verdicts.0x010152d40d23d1876e09b89ffb40d3311243064e.erc721",
+     "old": true,
+     "new": null
+    },
+    {
+     "path": "verdicts.0x010152d40d23d1876e09b89ffb40d3311243064e.verdict",
+     "old": "erc721_confirmed",
+     "new": "unresolved"
+    },
+    {
+     "path": "verdicts.0x018f3781f8627c6c6195fd1ee5507c8f9bc05d6f.erc1155",
+     "old": false,
+     "new": null
+    },
+    {
+     "path": "verdicts.0x018f3781f8627c6c6195fd1ee5507c8f9bc05d6f.erc721",
+     "old": true,
+     "new": null
+    },
+    {
+     "path": "verdicts.0x018f3781f8627c6c6195fd1ee5507c8f9bc05d6f.verdict",
+     "old": "erc721_confirmed",
+     "new": "unresolved"
+    },
+    {
+     "path": "verdicts.0x03a520b32c04bf3beef7beb72e919cf822ed34f1.erc1155",
+     "old": false,
+     "new": null
+    },
+    {
+     "path": "verdicts.0x03c4738ee98ae44591e1a4a4f3cab6641d95dd9a.erc1155",
+     "old": false,
+     "new": null
+    },
+    {
+     "path": "verdicts.0x03c4738ee98ae44591e1a4a4f3cab6641d95dd9a.erc721",
+     "old": true,
+     "new": null
+    },
+    {
+     "path": "verdicts.0x03c4738ee98ae44591e1a4a4f3cab6641d95dd9a.verdict",
+     "old": "erc721_confirmed",
+     "new": "unresolved"
+    }
+   ],
+   "ignored_fields": [
+    {
+     "path": "manifest:git_commit",
+     "old": "cb1bddd",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 1,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/interface_probe_base.json",
+    "papers/lure-broadcast/results/interface_probe_base.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "recipient_activity_arbitrum-one": {
+   "artefact": "papers/lure-broadcast/results/recipient_activity_arbitrum-one.json",
+   "manifest": "papers/lure-broadcast/results/recipient_activity_arbitrum-one.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/recipient_activity.py",
+   "arguments": [
+    "--chain",
+    "arbitrum-one",
+    "--k",
+    "1024",
+    "--force"
+   ],
+   "command": "python scripts/recipient_activity.py --chain arbitrum-one --k 1024 --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/arbitrum-one",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/arbitrum-one",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/recipient_activity.py",
+    "git_commit": "7420bfe",
+    "k": 1024
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793152347.6,
+   "run_wall_seconds": 692.3,
+   "returncode": 0,
+   "log": "<outside>/recipient_activity_arbitrum-one.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "differs",
+   "differences_total": 1,
+   "differences": [
+    {
+     "path": "sampler_check",
+     "old": null,
+     "new": {
+      "census_distinct_recipients": 13846083,
+      "deviation_sigma": -0.7362020290348881,
+      "expected_sampled": 13521.5654296875,
+      "observed_sampled": 13436
+     }
+    }
+   ],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 704.1,
+     "new": 691.7
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/recipient_activity_arbitrum-one.json",
+    "papers/lure-broadcast/results/recipient_activity_arbitrum-one.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "recipient_activity_base": {
+   "artefact": "papers/lure-broadcast/results/recipient_activity_base.json",
+   "manifest": "papers/lure-broadcast/results/recipient_activity_base.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/recipient_activity.py",
+   "arguments": [
+    "--chain",
+    "base",
+    "--k",
+    "1024",
+    "--force"
+   ],
+   "command": "python scripts/recipient_activity.py --chain base --k 1024 --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/base",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/base",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/recipient_activity.py",
+    "git_commit": "7420bfe",
+    "k": 1024
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793153597.0,
+   "run_wall_seconds": 2260.0,
+   "returncode": 0,
+   "log": "<outside>/recipient_activity_base.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 2257.9,
+     "new": 2258.7
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/recipient_activity_base.json",
+    "papers/lure-broadcast/results/recipient_activity_base.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "recipient_activity_optimism": {
+   "artefact": "papers/lure-broadcast/results/recipient_activity_optimism.json",
+   "manifest": "papers/lure-broadcast/results/recipient_activity_optimism.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/recipient_activity.py",
+   "arguments": [
+    "--chain",
+    "optimism",
+    "--k",
+    "1024",
+    "--force"
+   ],
+   "command": "python scripts/recipient_activity.py --chain optimism --k 1024 --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/optimism",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/optimism",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/recipient_activity.py",
+    "git_commit": "7420bfe",
+    "k": 1024
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793153040.2,
+   "run_wall_seconds": 556.6,
+   "returncode": 0,
+   "log": "<outside>/recipient_activity_optimism.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "differs",
+   "differences_total": 1,
+   "differences": [
+    {
+     "path": "sampler_check",
+     "old": null,
+     "new": {
+      "census_distinct_recipients": 62215236,
+      "deviation_sigma": -0.5685226205997044,
+      "expected_sampled": 60757.06640625,
+      "observed_sampled": 60617
+     }
+    }
+   ],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 584.5,
+     "new": 556.0
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/recipient_activity_optimism.json",
+    "papers/lure-broadcast/results/recipient_activity_optimism.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "residue_robustness_base": {
+   "artefact": "papers/lure-broadcast/results/residue_robustness_base.json",
+   "manifest": "papers/lure-broadcast/results/residue_robustness_base.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/residue_robustness.py",
+   "arguments": [
+    "--chain",
+    "base",
+    "--k",
+    "1024",
+    "--classes",
+    "8",
+    "--force"
+   ],
+   "command": "python scripts/residue_robustness.py --chain base --k 1024 --classes 8 --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/base",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/base",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/residue_robustness.py",
+    "git_commit": "7420bfe",
+    "k": 1024,
+    "classes": 8
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793155862.0,
+   "run_wall_seconds": 2387.5,
+   "returncode": 0,
+   "log": "<outside>/residue_robustness_base.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 2120.4,
+     "new": 2387.0
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/residue_robustness_base.json",
+    "papers/lure-broadcast/results/residue_robustness_base.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "residue_robustness_polygon-zkevm": {
+   "artefact": "papers/lure-broadcast/results/residue_robustness_polygon-zkevm.json",
+   "manifest": "papers/lure-broadcast/results/residue_robustness_polygon-zkevm.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/residue_robustness.py",
+   "arguments": [
+    "--chain",
+    "polygon-zkevm",
+    "--k",
+    "64",
+    "--classes",
+    "4",
+    "--force"
+   ],
+   "command": "python scripts/residue_robustness.py --chain polygon-zkevm --k 64 --classes 4 --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/polygon-zkevm",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/polygon-zkevm",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/residue_robustness.py",
+    "git_commit": "7420bfe",
+    "k": 64,
+    "classes": 4
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793155857.2,
+   "run_wall_seconds": 4.7,
+   "returncode": 0,
+   "log": "<outside>/residue_robustness_polygon-zkevm.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "wall_seconds",
+     "old": 4.4,
+     "new": 3.9
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 2,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/residue_robustness_polygon-zkevm.json",
+    "papers/lure-broadcast/results/residue_robustness_polygon-zkevm.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "metadata_history_base": {
+   "artefact": "papers/lure-broadcast/results/metadata_history_base.json",
+   "manifest": "papers/lure-broadcast/results/metadata_history_base.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/metadata_history.py",
+   "arguments": [
+    "--chain",
+    "base",
+    "--force"
+   ],
+   "command": "python scripts/metadata_history.py --chain base --force",
+   "cwd": "papers/lure-broadcast",
+   "network": true,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync/base",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync/base",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/metadata_history.py",
+    "git_commit": "7420bfe",
+    "endpoint": "https://base-pokt.nodies.app"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793158249.7,
+   "run_wall_seconds": 268.4,
+   "returncode": 0,
+   "log": "<outside>/metadata_history_base.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "differs",
+   "differences_total": 168,
+   "differences": [
+    {
+     "path": "by_verdict.only_current_height",
+     "old": 1,
+     "new": "<absent>"
+    },
+    {
+     "path": "by_verdict.stable",
+     "old": 132,
+     "new": 133
+    },
+    {
+     "path": "comparable_contracts",
+     "old": 132,
+     "new": 133
+    },
+    {
+     "path": "comparable_coverage",
+     "old": 0.9361702127659575,
+     "new": 0.9432624113475178
+    },
+    {
+     "path": "records.0x5c57ab9bcabf4bc3664219c7f979823d6740b574.at.end.name",
+     "old": "<absent>",
+     "new": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION"
+    },
+    {
+     "path": "records.0x5c57ab9bcabf4bc3664219c7f979823d6740b574.at.end.symbol",
+     "old": "<absent>",
+     "new": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 28.09.25"
+    },
+    {
+     "path": "records.0x5c57ab9bcabf4bc3664219c7f979823d6740b574.at.end.verdict",
+     "old": "rpc_error",
+     "new": "answered"
+    },
+    {
+     "path": "records.0x5c57ab9bcabf4bc3664219c7f979823d6740b574.at.last.matches_end",
+     "old": false,
+     "new": true
+    },
+    {
+     "path": "records.0x5c57ab9bcabf4bc3664219c7f979823d6740b574.on_chain_now",
+     "old": null,
+     "new": {
+      "block": 49743280,
+      "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+      "symbol": "U\u0405D\u0421 | t.me/s/US_CIRCLE | *claim until 28.09.25",
+      "verdict": "answered"
+     }
+    },
+    {
+     "path": "records.0x5c57ab9bcabf4bc3664219c7f979823d6740b574.registry",
+     "old": "unresolved",
+     "new": "registry_matches"
+    },
+    {
+     "path": "records.0x5c57ab9bcabf4bc3664219c7f979823d6740b574.verdict",
+     "old": "no_reference_height",
+     "new": "stable"
+    },
+    {
+     "path": "records.0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97.at.end.name",
+     "old": "<absent>",
+     "new": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION"
+    },
+    {
+     "path": "records.0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97.at.end.symbol",
+     "old": "<absent>",
+     "new": "U\u0405D\u0421 | t.me/s/us_circle | claim until 03.11.25"
+    },
+    {
+     "path": "records.0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97.at.end.verdict",
+     "old": "rpc_error",
+     "new": "answered"
+    },
+    {
+     "path": "records.0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97.at.first.verdict",
+     "old": "rpc_error",
+     "new": "no_code_at_height"
+    },
+    {
+     "path": "records.0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97.at.last.matches_end",
+     "old": "<absent>",
+     "new": true
+    },
+    {
+     "path": "records.0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97.at.last.name",
+     "old": "<absent>",
+     "new": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION"
+    },
+    {
+     "path": "records.0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97.at.last.symbol",
+     "old": "<absent>",
+     "new": "U\u0405D\u0421 | t.me/s/us_circle | claim until 03.11.25"
+    },
+    {
+     "path": "records.0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97.at.last.verdict",
+     "old": "rpc_error",
+     "new": "answered"
+    },
+    {
+     "path": "records.0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97.on_chain_now",
+     "old": null,
+     "new": {
+      "block": 49743280,
+      "name": "\u2705$U\u0405D\u0421 TOKEN DISTRIBUTION",
+      "symbol": "U\u0405D\u0421 | t.me/s/us_circle | claim until 03.11.25",
+      "verdict": "answered"
+     }
+    },
+    {
+     "path": "records.0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97.registry",
+     "old": "unresolved",
+     "new": "registry_matches"
+    },
+    {
+     "path": "records.0x5e119c7c8ffc6c927b4122ef4ff511ea1aaddb97.verdict",
+     "old": "unresolved",
+     "new": "stable"
+    },
+    {
+     "path": "records.0x6192c5f6333cdf1a22d167e02cd3b3b81bf092a6.at.end.name",
+     "old": "<absent>",
+     "new": "\u2705\u0421IRCLE TOKEN DISTRIBUTION"
+    },
+    {
+     "path": "records.0x6192c5f6333cdf1a22d167e02cd3b3b81bf092a6.at.end.symbol",
+     "old": "<absent>",
+     "new": "t.me/s/US_POOL | claim until 09.01.26"
+    },
+    {
+     "path": "records.0x6192c5f6333cdf1a22d167e02cd3b3b81bf092a6.at.end.verdict",
+     "old": "rpc_error",
+     "new": "answered"
+    }
+   ],
+   "ignored_fields": [
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 1,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/metadata_history_base.json",
+    "papers/lure-broadcast/results/metadata_history_base.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "unresolved_profile_base": {
+   "artefact": "papers/lure-broadcast/results/unresolved_profile_base.json",
+   "manifest": "papers/lure-broadcast/results/unresolved_profile_base.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/unresolved_profile.py",
+   "arguments": [
+    "--chain",
+    "base",
+    "--force"
+   ],
+   "command": "python scripts/unresolved_profile.py --chain base --force",
+   "cwd": "papers/lure-broadcast",
+   "network": true,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/unresolved_profile.py",
+    "git_commit": "7420bfe"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793158518.3,
+   "run_wall_seconds": 2.6,
+   "returncode": 0,
+   "log": "<outside>/unresolved_profile_base.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 1,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/unresolved_profile_base.json",
+    "papers/lure-broadcast/results/unresolved_profile_base.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "metadata_sweep_arbitrum-one": {
+   "artefact": "papers/lure-broadcast/results/metadata_sweep_arbitrum-one.json",
+   "manifest": "papers/lure-broadcast/results/metadata_sweep_arbitrum-one.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/run_metadata_sweep.py",
+   "arguments": [
+    "--chain",
+    "arbitrum-one",
+    "--force"
+   ],
+   "command": "python scripts/run_metadata_sweep.py --chain arbitrum-one --force",
+   "cwd": "papers/lure-broadcast",
+   "network": true,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "results/arbitrum-one_token_volumes.csv",
+     "exists": true,
+     "symlink": true,
+     "resolved": "results/arbitrum-one_token_volumes.csv",
+     "target": "results/arbitrum-one_token_volumes.csv",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/run_metadata_sweep.py",
+    "git_commit": "cb1bddd",
+    "shared_cache_base_digest": "dd7bcf5748c3b02f09357144616da5f80b9f99e09e1b2ac271143822d230ae01"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793158521.1,
+   "run_wall_seconds": 1.0,
+   "returncode": 0,
+   "log": "<outside>/metadata_sweep_arbitrum-one.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "endpoints_ranked[0].canary_seconds",
+     "old": 0.21,
+     "new": 0.16
+    },
+    {
+     "path": "endpoints_ranked[1].canary_seconds",
+     "old": 0.39,
+     "new": 0.41
+    },
+    {
+     "path": "seconds_per_contract",
+     "old": 0.0904,
+     "new": 0.0
+    },
+    {
+     "path": "wall_seconds",
+     "old": 108.5,
+     "new": 0.0
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "cb1bddd",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 5,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/metadata_sweep_arbitrum-one.json",
+    "papers/lure-broadcast/results/metadata_sweep_arbitrum-one.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "metadata_sweep_optimism": {
+   "artefact": "papers/lure-broadcast/results/metadata_sweep_optimism.json",
+   "manifest": "papers/lure-broadcast/results/metadata_sweep_optimism.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/run_metadata_sweep.py",
+   "arguments": [
+    "--chain",
+    "optimism",
+    "--force"
+   ],
+   "command": "python scripts/run_metadata_sweep.py --chain optimism --force",
+   "cwd": "papers/lure-broadcast",
+   "network": true,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "results/optimism_token_volumes.csv",
+     "exists": true,
+     "symlink": true,
+     "resolved": "results/optimism_token_volumes.csv",
+     "target": "results/optimism_token_volumes.csv",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/run_metadata_sweep.py",
+    "git_commit": "cb1bddd",
+    "shared_cache_base_digest": "dd7bcf5748c3b02f09357144616da5f80b9f99e09e1b2ac271143822d230ae01"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793158949.0,
+   "run_wall_seconds": 3.8,
+   "returncode": 0,
+   "log": "<outside>/metadata_sweep_optimism.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "endpoints_ranked[0].canary_seconds",
+     "old": 0.19,
+     "new": 0.16
+    },
+    {
+     "path": "endpoints_ranked[1].canary_seconds",
+     "old": 1.64,
+     "new": 1.69
+    },
+    {
+     "path": "endpoints_ranked[2].canary_seconds",
+     "old": 1.83,
+     "new": 1.69
+    },
+    {
+     "path": "seconds_per_contract",
+     "old": 40.3756,
+     "new": 0.0
+    },
+    {
+     "path": "wall_seconds",
+     "old": 48450.7,
+     "new": 0.0
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "cb1bddd",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 6,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/metadata_sweep_optimism.json",
+    "papers/lure-broadcast/results/metadata_sweep_optimism.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "metadata_sweep_polygon-zkevm": {
+   "artefact": "papers/lure-broadcast/results/metadata_sweep_polygon-zkevm.json",
+   "manifest": "papers/lure-broadcast/results/metadata_sweep_polygon-zkevm.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/run_metadata_sweep.py",
+   "arguments": [
+    "--chain",
+    "polygon-zkevm",
+    "--force"
+   ],
+   "command": "python scripts/run_metadata_sweep.py --chain polygon-zkevm --force",
+   "cwd": "papers/lure-broadcast",
+   "network": true,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/run_metadata_sweep.py",
+    "git_commit": "cb1bddd",
+    "shared_cache_base_digest": "dd7bcf5748c3b02f09357144616da5f80b9f99e09e1b2ac271143822d230ae01"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793158522.2,
+   "run_wall_seconds": 389.2,
+   "returncode": 0,
+   "log": "<outside>/metadata_sweep_polygon-zkevm.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "differs",
+   "differences_total": 2,
+   "differences": [
+    {
+     "path": "endpoints",
+     "old": [
+      "https://zkevm-rpc.com",
+      "https://polygon-zkevm.drpc.org",
+      "https://1rpc.io/polygon/zkevm"
+     ],
+     "new": "<absent>"
+    },
+    {
+     "path": "endpoints_ranked",
+     "old": "<absent>",
+     "new": [
+      {
+       "canary_answered": 50,
+       "canary_seconds": 0.17,
+       "url": "https://zkevm-rpc.com"
+      },
+      {
+       "canary_answered": 50,
+       "canary_seconds": 0.46,
+       "url": "https://1rpc.io/polygon/zkevm"
+      },
+      {
+       "canary_answered": 0,
+       "canary_seconds": 1.64,
+       "url": "https://polygon-zkevm.drpc.org"
+      }
+     ]
+    }
+   ],
+   "ignored_fields": [
+    {
+     "path": "seconds_per_contract",
+     "old": 0.1269,
+     "new": 0.3223
+    },
+    {
+     "path": "wall_seconds",
+     "old": 152.3,
+     "new": 386.8
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "cb1bddd",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 3,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/metadata_sweep_polygon-zkevm.json",
+    "papers/lure-broadcast/results/metadata_sweep_polygon-zkevm.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "metadata_sweep_zksync-era": {
+   "artefact": "papers/lure-broadcast/results/metadata_sweep_zksync-era.json",
+   "manifest": "papers/lure-broadcast/results/metadata_sweep_zksync-era.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/run_metadata_sweep.py",
+   "arguments": [
+    "--chain",
+    "zksync-era",
+    "--force"
+   ],
+   "command": "python scripts/run_metadata_sweep.py --chain zksync-era --force",
+   "cwd": "papers/lure-broadcast",
+   "network": true,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "results/zksync-era_token_volumes.csv",
+     "exists": true,
+     "symlink": true,
+     "resolved": "results/zksync-era_token_volumes.csv",
+     "target": "results/zksync-era_token_volumes.csv",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/run_metadata_sweep.py",
+    "git_commit": "cb1bddd",
+    "shared_cache_base_digest": "dd7bcf5748c3b02f09357144616da5f80b9f99e09e1b2ac271143822d230ae01"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793158911.6,
+   "run_wall_seconds": 37.1,
+   "returncode": 0,
+   "log": "<outside>/metadata_sweep_zksync-era.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "identical_except_volatile",
+   "differences_total": 0,
+   "differences": [],
+   "ignored_fields": [
+    {
+     "path": "endpoints_ranked[0].canary_seconds",
+     "old": 0.71,
+     "new": 1.25
+    },
+    {
+     "path": "seconds_per_contract",
+     "old": 0.0727,
+     "new": 0.0297
+    },
+    {
+     "path": "wall_seconds",
+     "old": 87.2,
+     "new": 35.7
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "cb1bddd",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 4,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/metadata_sweep_zksync-era.json",
+    "papers/lure-broadcast/results/metadata_sweep_zksync-era.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  },
+  "systems": {
+   "artefact": "papers/lure-broadcast/results/systems.json",
+   "manifest": "papers/lure-broadcast/results/systems.manifest.json",
+   "producer": "papers/lure-broadcast/scripts/systems_report.py",
+   "arguments": [
+    "--force"
+   ],
+   "command": "python scripts/systems_report.py --force",
+   "cwd": "papers/lure-broadcast",
+   "network": false,
+   "commit": "27d5f47a6e3d07798b8303eaa966567832ba81c0",
+   "untracked_inputs": [
+    {
+     "path": "data/raw/hypersync",
+     "exists": true,
+     "symlink": false,
+     "resolved": "data/raw/hypersync",
+     "tracked": false
+    }
+   ],
+   "committed_manifest": {
+    "producer": "papers/lure-broadcast/scripts/systems_report.py",
+    "git_commit": "7420bfe"
+   },
+   "mode": "run",
+   "tree_content_changes_at_start": [
+    "data/raw/.gitkeep",
+    "data/raw/README.md"
+   ],
+   "started_at_unix": 1793158953.1,
+   "run_wall_seconds": 0.4,
+   "returncode": 0,
+   "log": "<outside>/systems.log",
+   "artefact_rewritten": true,
+   "manifest_rewritten": true,
+   "verdict": "differs",
+   "differences_total": 3,
+   "differences": [
+    {
+     "path": "environment.os",
+     "old": "Darwin 25.5.0",
+     "new": "Darwin 25.6.0"
+    },
+    {
+     "path": "environment.os_product_version",
+     "old": "26.5.2",
+     "new": "26.7.1"
+    },
+    {
+     "path": "peak_rows_per_second_chain",
+     "old": "base",
+     "new": "arbitrum-one"
+    }
+   ],
+   "ignored_fields": [
+    {
+     "path": "peak_rows_per_second",
+     "old": 23210212.0,
+     "new": 26862010.0
+    },
+    {
+     "path": "per_chain.arbitrum-one.rows_per_second",
+     "old": 22900916.0,
+     "new": 26862010.0
+    },
+    {
+     "path": "per_chain.arbitrum-one.wall_seconds",
+     "old": 141.3,
+     "new": 120.5
+    },
+    {
+     "path": "per_chain.base.rows_per_second",
+     "old": 23210212.0,
+     "new": 20576062.0
+    },
+    {
+     "path": "per_chain.base.wall_seconds",
+     "old": 471.9,
+     "new": 532.3
+    },
+    {
+     "path": "per_chain.optimism.rows_per_second",
+     "old": 18493206.0,
+     "new": 21761240.0
+    },
+    {
+     "path": "per_chain.optimism.wall_seconds",
+     "old": 156.9,
+     "new": 133.4
+    },
+    {
+     "path": "per_chain.polygon-zkevm.rows_per_second",
+     "old": 9194881.0,
+     "new": 8837571.0
+    },
+    {
+     "path": "per_chain.zksync-era.rows_per_second",
+     "old": 10632298.0,
+     "new": 10832931.0
+    },
+    {
+     "path": "per_chain.zksync-era.wall_seconds",
+     "old": 209.1,
+     "new": 205.2
+    },
+    {
+     "path": "total_wall_seconds",
+     "old": 981.2,
+     "new": 993.3999999999999
+    },
+    {
+     "path": "manifest:git_commit",
+     "old": "7420bfe",
+     "new": "27d5f47"
+    }
+   ],
+   "ignored_fields_total": 12,
+   "side_effects": {
+    "tracked_modified": [],
+    "untracked_created": []
+   },
+   "restored": [
+    "papers/lure-broadcast/results/systems.json",
+    "papers/lure-broadcast/results/systems.manifest.json"
+   ],
+   "removed_untracked": [],
+   "clean_after_restore": true
+  }
+ },
+ "purpose": "does each committed producer, re-run with its recorded parameters, reproduce its committed artefact? Measured, per artefact, against git HEAD.",
+ "producer_of_this_record": "papers/lure-broadcast/scripts/verify_rerun.py",
+ "volatile_rule": "a field is ignored only if it is wall-clock time, a timestamp or date, a duration, a throughput or a git commit; applied as an exact allowlist on the last dict key of each difference's path",
+ "volatile_allowlist": [
+  "canary_seconds",
+  "fastest_seconds_per_contract",
+  "git_commit",
+  "metadata_seconds_per_contract",
+  "peak_rows_per_second",
+  "rows_per_second",
+  "seconds_per_contract",
+  "slowest_seconds_per_contract",
+  "total_wall_seconds",
+  "wall_seconds"
+ ],
+ "verdicts": [
+  "identical",
+  "identical_except_volatile",
+  "differs",
+  "failed",
+  "timeout"
+ ],
+ "max_diffs_listed_per_artefact": 25,
+ "summary": {
+  "arbitrum-one_nf_census": "identical_except_volatile",
+  "base_nf_census": "identical_except_volatile",
+  "optimism_nf_census": "identical_except_volatile",
+  "polygon-zkevm_nf_census": "identical_except_volatile",
+  "zksync-era_nf_census": "identical_except_volatile",
+  "polygon-zkevm_token_volumes": "identical_except_volatile",
+  "forgery_chain_arbitrum-one": "identical_except_volatile",
+  "forgery_chain_base": "identical_except_volatile",
+  "forgery_chain_optimism": "identical_except_volatile",
+  "forgery_chain_polygon-zkevm": "identical_except_volatile",
+  "forgery_chain_zksync-era": "identical_except_volatile",
+  "campaign_census_base": "identical_except_volatile",
+  "residual_probe_arbitrum-one": "identical_except_volatile",
+  "residual_probe_base": "identical_except_volatile",
+  "residual_probe_optimism": "identical_except_volatile",
+  "forgery_probe_base": "differs",
+  "interface_probe_base": "differs",
+  "recipient_activity_arbitrum-one": "differs",
+  "recipient_activity_base": "identical_except_volatile",
+  "recipient_activity_optimism": "differs",
+  "residue_robustness_base": "identical_except_volatile",
+  "residue_robustness_polygon-zkevm": "identical_except_volatile",
+  "metadata_history_base": "differs",
+  "unresolved_profile_base": "identical_except_volatile",
+  "metadata_sweep_arbitrum-one": "identical_except_volatile",
+  "metadata_sweep_optimism": "identical_except_volatile",
+  "metadata_sweep_polygon-zkevm": "differs",
+  "metadata_sweep_zksync-era": "identical_except_volatile",
+  "systems": "differs"
+ }
+}

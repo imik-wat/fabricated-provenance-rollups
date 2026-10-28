@@ -1,5 +1,5 @@
 {
  "producer": "papers/lure-broadcast/scripts/run_metadata_sweep.py",
- "git_commit": "cb1bddd",
+ "git_commit": "4f71c6f",
  "shared_cache_base_digest": "dd7bcf5748c3b02f09357144616da5f80b9f99e09e1b2ac271143822d230ae01"
 }

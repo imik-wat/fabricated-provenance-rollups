@@ -1,0 +1,6 @@
+{
+ "producer": "papers/lure-broadcast/scripts/evaluate_annotation_v2.py",
+ "git_commit": "1d727ea",
+ "n_boot": 5000,
+ "registration": "papers/lure-broadcast/docs/PREREG_ANNOTATION_V2.md"
+}

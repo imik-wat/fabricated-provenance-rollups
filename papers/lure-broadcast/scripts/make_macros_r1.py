@@ -58,6 +58,166 @@ def emit(m, load: Callable[[str], dict], chains: list[str], chain_tex: dict, pap
         raise SystemExit(f"worst case adds {added_m} sampled rows and {added_x} disagreements, but "
                          f"{excluded} flagged contracts were excluded; the appendix text would be wrong")
 
+    # ---------------------------------------------------------------- WP2.3: v2 annotation study
+    m.section("R1 · v2 annotation study, registered analyses (annotation_v2/evaluation.json)")
+    ev2 = load("annotation_v2/evaluation.json")
+    key2 = load("annotation_v2/answer_key.json")
+    tier2 = ev2["tier"]
+    if tier2["tier"] != "A" or any(r["author"] for r in tier2["raters"]) or tier2["adjudicator"]["author"]:
+        raise SystemExit("the v2 evaluation is not a tier A run with non-author raters and adjudicator")
+    m.int_("VTwoRows", key2["sample_size"])
+    _count_or_word(m, "VTwoChains", len(key2["chains"]))
+    for f, tag in (("destination", "Dest"), ("call_to_action", "Cta"), ("conj", "Conj"), ("purpose", "Purpose")):
+        k = ev2["kappa"][f]
+        m.dec(f"VTwoKappa{tag}", k["kappa"], 2)
+        m.dec(f"VTwoKappa{tag}Lo", k["ci95"][0], 2)
+        m.dec(f"VTwoKappa{tag}Hi", k["ci95"][1], 2)
+    flagged_pop = None
+    for name, tag in (("P1_conjunction", "Conj"), ("P2_purpose", "Purpose")):
+        p = ev2["primary"][name]["pooled"]
+        conf, est, bd = p["sampled_confusion"], p["estimates"], p["upper_bound_disagreeing_flagged"]
+        m.int_(f"VTwo{tag}Agreed", p["agreed_rows"])
+        for cell in ("TP", "FP", "FN", "TN"):
+            m.int_(f"VTwo{tag}{cell}", conf[cell], "sampled agreed rows, pooled")
+        _count_or_word(m, f"VTwo{tag}ExclFlagged", p["excluded_flagged"])
+        m.dec(f"VTwo{tag}Precision", est["precision"]["point"], 4)
+        m.dec(f"VTwo{tag}Recall", est["recall"]["point"], 4)
+        m.dec(f"VTwo{tag}RecallLo", est["recall"]["ci95"][0], 4)
+        m.dec(f"VTwo{tag}RecallHi", est["recall"]["ci95"][1], 4)
+        for variant, vt in (("ignorability", "Ign"), ("worst_case", "Worst")):
+            m.int_(f"VTwo{tag}Bound{vt}K", bd[variant]["k_max"])
+            m.pct(f"VTwo{tag}Bound{vt}Pct", bd[variant]["theta"], 2)
+        flagged_pop = bd["flagged_population"]
+        # The text says no agreed flagged row disagreed, on any chain. Checked, not assumed.
+        if conf["FP"] or any(c["sampled_confusion"]["FP"] for c in ev2["primary"][name]["per_chain"].values()):
+            raise SystemExit(f"{name}: an agreed flagged row disagrees; the v2 text says none does")
+        adj = ev2["adjudicated_reported_separately"][name]
+        m.int_(f"VTwoAdj{tag}FN", adj["sampled_confusion"]["FN"])
+        m.int_(f"VTwoAdj{tag}FP", adj["sampled_confusion"]["FP"])
+        m.int_(f"VTwoAdj{tag}Agreed", adj["agreed_rows"])
+        for variant, vt in (("ignorability", "Ign"), ("worst_case", "Worst")):
+            m.int_(f"VTwoAdj{tag}Bound{vt}K", adj["upper_bound_disagreeing_flagged"][variant]["k_max"])
+            m.pct(f"VTwoAdj{tag}Bound{vt}Pct", adj["upper_bound_disagreeing_flagged"][variant]["theta"], 2)
+    m.int_("VTwoFlaggedPop", flagged_pop)
+    # 872 is the five chains' flagged strata, Base restricted to the rows v1 did not sample.
+    strong = {c: sum(v for s, v in info["population_by_stratum"].items() if s.startswith("strong"))
+              for c, info in key2["chains"].items()}
+    if sum(strong.values()) != flagged_pop:
+        raise SystemExit(f"flagged strata sum to {sum(strong.values())}, the bound says {flagged_pop}")
+    m.int_("VTwoBaseFlaggedOutOfSample", strong["base"], "Base flagged contracts v1 did not sample")
+    # The text explains the wide worst case by Optimism: most excluded flagged rows, lightest sampling.
+    sampled = {c: sum(v for s, v in info["sampled_by_stratum"].items() if s.startswith("strong"))
+               for c, info in key2["chains"].items()}
+    excl = {c: pc["excluded_flagged"] for c, pc in ev2["primary"]["P1_conjunction"]["per_chain"].items()}
+    ratio = {c: strong[c] / sampled[c] for c in strong if sampled[c]}
+    if not (max(ratio, key=ratio.get) == "optimism" and max(excl, key=excl.get) == "optimism"):
+        raise SystemExit(f"Optimism no longer has both the lightest flagged sampling {ratio} and the most "
+                         f"excluded flagged rows {excl}; revise the v2 bound paragraph")
+    m.int_("VTwoOptFlaggedPop", strong["optimism"])
+    m.int_("VTwoOptFlaggedSampled", sampled["optimism"])
+    _count_or_word(m, "VTwoOptExclFlagged", excl["optimism"])
+
+    # ---------------------------------------------------------------- WP2.3: deviation 4 and exploratory
+    m.section("R1 · v2 robustness and author comparison (annotation_v2/robustness.json, deviation 4)")
+    rob = load("annotation_v2/robustness.json")
+    nonauthors, authors = rob["nonauthor_raters"], rob["author_raters"]
+    # Table rows are named by role, so the roles must be the ones tier.json records.
+    if nonauthors[:2] != [r["id"] for r in tier2["raters"]] or nonauthors[2:] != [tier2["adjudicator"]["id"]] \
+            or len(authors) != 1:
+        raise SystemExit(f"robustness roles {nonauthors} / {authors} do not match the registered tier record")
+    pair_keys = [f"{a}-{b}" for i, a in enumerate(nonauthors) for b in nonauthors[i + 1:]]
+    if sorted(pair_keys) != sorted(rob["R1_pairs"]):
+        raise SystemExit(f"robustness pairs {sorted(rob['R1_pairs'])} are not the three non-author pairs")
+    # The registered pair's row reuses tab:vtwo's macros, so the two computations must agree exactly.
+    reg = rob["R1_pairs"][pair_keys[0]]
+    if reg["kappa"] != ev2["kappa"] or any(reg[n] != ev2["primary"][n]["pooled"]
+                                           for n in ("P1_conjunction", "P2_purpose")):
+        raise SystemExit("robustness.json's registered pair differs from evaluation.json")
+    rows_r = {"PairTwo": rob["R1_pairs"][pair_keys[1]], "PairThree": rob["R1_pairs"][pair_keys[2]],
+              "Maj": rob["R3_majority"]}
+    for tag, res in rows_r.items():
+        if "kappa" in res:
+            m.dec(f"VTwo{tag}KappaConj", res["kappa"]["conj"]["kappa"], 2)
+        for name, lab in (("P1_conjunction", "Conj"), ("P2_purpose", "Purpose")):
+            p = res[name]
+            m.dec(f"VTwo{tag}{lab}Recall", p["estimates"]["recall"]["point"], 4)
+        wc = res["P1_conjunction"]["upper_bound_disagreeing_flagged"]["worst_case"]
+        m.int_(f"VTwo{tag}ConjBoundWorstK", wc["k_max"])
+        m.pct(f"VTwo{tag}ConjBoundWorstPct", wc["theta"], 2)
+    # The text says no conclusion depends on the pair: no flagged disagreement for any pair or the majority.
+    every = [reg, *rows_r.values()]
+    if any(r[n]["sampled_confusion"]["FP"] for r in every for n in ("P1_conjunction", "P2_purpose")):
+        raise SystemExit("a non-author pair or the majority has a flagged disagreement; revise sec:res-v2")
+    kconj = [rob["R1_pairs"][k]["kappa"]["conj"]["kappa"] for k in pair_keys]
+    m.dec("VTwoPairKappaConjMin", min(kconj), 2)
+    m.dec("VTwoPairKappaConjMax", max(kconj), 2)
+    # The text says the tie-breaker's pairs agree least, which is why its adjudication moves FN.
+    if kconj[0] != max(kconj):
+        raise SystemExit("the registered pair no longer agrees best; revise the robustness paragraph")
+    # The text attributes the widest worst case to the pair with the most flagged rows left unagreed.
+    excl_f = {k: rob["R1_pairs"][k]["P1_conjunction"]["excluded_flagged"] for k in pair_keys}
+    worst = {k: rob["R1_pairs"][k]["P1_conjunction"]["upper_bound_disagreeing_flagged"]["worst_case"]["k_max"]
+             for k in pair_keys}
+    if max(worst, key=worst.get) != max(excl_f, key=excl_f.get):
+        raise SystemExit(f"widest worst case {worst} is not the pair with most excluded flagged rows {excl_f}")
+    _count_or_word(m, "VTwoPairThreeConjExclFlagged", excl_f[pair_keys[2]])
+    for f, tag in (("conj", "Conj"), ("purpose", "Purpose")):
+        m.dec(f"VTwoFleiss{tag}", rob["R2_fleiss"][f]["kappa"], 2)
+    maj = rob["R3_majority"]
+    m.int_("VTwoMajConjRows", maj["rows_with_majority"]["conj"])
+    _count_or_word(m, "VTwoMajConjExclFlagged", maj["P1_conjunction"]["excluded_flagged"])
+    # The text says the majority's worst case is narrower than any pair's.
+    if maj["P1_conjunction"]["upper_bound_disagreeing_flagged"]["worst_case"]["k_max"] >= min(worst.values()):
+        raise SystemExit(f"the majority's worst case is not narrower than every pair's {worst}")
+    # The text says it equals the adjudicated worst case (the two label sets differ only on rows the
+    # pair left unresolved, so this can change with the data).
+    if maj["P1_conjunction"]["upper_bound_disagreeing_flagged"]["worst_case"] != \
+            ev2["adjudicated_reported_separately"]["P1_conjunction"]["upper_bound_disagreeing_flagged"]["worst_case"]:
+        raise SystemExit("the majority's worst case no longer equals the adjudicated one; revise sec:res-v2")
+
+    au = authors[0]
+    a1, a2 = rob["A1_author_kappa"][au], rob["A2_author_vs_majority"][au]
+    akc = [a1[x]["conj"]["kappa"] for x in nonauthors]
+    m.dec("VTwoAuthorKappaConjMin", min(akc), 2)
+    m.dec("VTwoAuthorKappaConjMax", max(akc), 2)
+    m.dec("VTwoAuthorKappaConjMaj", a1["majority"]["conj"]["kappa"], 2)
+    m.dec("VTwoAuthorKappaPurposeMaj", a1["majority"]["purpose"]["kappa"], 2)
+    m.int_("VTwoAuthorMajRows", a2["rows_with_majority_conjunction"])
+    m.int_("VTwoAuthorMajMatch", a2["author_matches_majority"])
+    # The text says the detector matches the majority on the same number of rows as the author.
+    if a2["detector_matches_majority"] != a2["author_matches_majority"]:
+        raise SystemExit("A2: the author and the detector no longer match the majority equally often")
+    # The text says the author agrees with each primary rater more closely than they agree with each other.
+    if not all(a1[x]["conj"]["kappa"] > kconj[0] for x in nonauthors[:2]):
+        raise SystemExit("the author no longer agrees with each primary rater above the primary pair's kappa")
+    # The text says the author is one of the first study's two raters.
+    v1_files = load("interrater_base.json")["rater_files"]
+    if not any(f.removesuffix(".csv").endswith("_" + au.lower()) for f in v1_files):
+        raise SystemExit(f"{au} is not among the first study's rater files {v1_files}; revise sec:res-v2")
+
+    # Sensitivity says the non-author raters disagree with no agreed flagged contract "either", i.e. the
+    # first study had none on its agreed set too.
+    if load("detector_design_based_base.json")["confusion_matrix_sampled_rows"]["FP"]:
+        raise SystemExit("the first study has an agreed flagged disagreement; revise sensitivity.tex")
+
+    m.section("R1 · exploratory, not registered (annotation_v2/exploratory.json)")
+    exp = load("annotation_v2/exploratory.json")
+    if not exp["status"].startswith("exploratory"):
+        raise SystemExit("exploratory.json is not labelled exploratory")
+    e1 = exp["E1_detector_agreement"]
+    m.int_("VTwoAuthorDetAgree", e1[au]["agrees_with_detector"])
+    m.int_("VTwoAuthorDetResolved", e1[au]["resolved"])
+    na_share = [e1[x]["share"] for x in nonauthors]
+    m.pct("VTwoNonAuthorDetPctMin", min(na_share), 1)
+    m.pct("VTwoNonAuthorDetPctMax", max(na_share), 1)
+    m.pct("VTwoAuthorDetPct", e1[au]["share"], 1)
+    # The text says the author agrees with the detector more often than any non-author.
+    if e1[au]["share"] <= max(na_share):
+        raise SystemExit("the author no longer agrees with the detector more often than every non-author")
+    e2 = exp["E2_mismatch_overlap"][au]
+    if e2["author_mismatches"] != a2["rows_with_majority_conjunction"] - a2["author_matches_majority"]:
+        raise SystemExit("exploratory.json and robustness.json disagree on the author's mismatches")
+
     # ---------------------------------------------------------------- C2 / WP1.2: recall as drawn
     m.section("R1 · detector as frozen when the sample was drawn (detector_eval_base.json)")
     drawn = load("detector_eval_base.json")
@@ -274,6 +434,8 @@ def emit(m, load: Callable[[str], dict], chains: list[str], chain_tex: dict, pap
         stable += n_stable
     m.int_("MetaHistComparableTotal", comp)
     m.int_("MetaHistStableTotal", stable)
+    if stable != comp:              # the findings table and conclusions say no answering contract changed
+        raise SystemExit(f"{comp - stable} answering contracts changed their payload; revise the text")
 
     # ---------------------------------------------------------------- WP6: negative controls
     m.section("R1 · negative controls (negative_controls_<chain>.json)")
@@ -300,7 +462,9 @@ def emit(m, load: Callable[[str], dict], chains: list[str], chain_tex: dict, pap
     m.int_("NegRegTotal", reg)
     _count_or_word(m, "NegNftFlagged", nft_flag)
     _count_or_word(m, "NegRegFlagged", reg_flag)
-    _count_or_word(m, "NegFabricated", fab)
+    # Sensitivity and the response say no control returned a fabricated balance. Checked, not assumed.
+    if fab:
+        raise SystemExit(f"{fab} negative controls returned a fabricated balance; revise sensitivity.tex")
     _count_or_word(m, "NegNftFanoutBelowTwo", nft_below2)
     m.int_("NegNftFanoutMeasured", nft_measured)
 

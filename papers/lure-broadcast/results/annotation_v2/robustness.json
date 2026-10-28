@@ -1,0 +1,743 @@
+{
+ "A1_author_kappa": {
+  "AW": {
+   "R2": {
+    "call_to_action": {
+     "ci95": [
+      0.8811881188118813,
+      0.9639337016574587
+     ],
+     "kappa": 0.9248826291079812,
+     "n": 408,
+     "observed_agreement": 0.9705882352941176
+    },
+    "conj": {
+     "ci95": [
+      0.9033032143386166,
+      0.9754048949081703
+     ],
+     "kappa": 0.9427662957074721,
+     "n": 408,
+     "observed_agreement": 0.9779411764705882
+    },
+    "destination": {
+     "ci95": [
+      0.8374209470923956,
+      0.9265536723163842
+     ],
+     "kappa": 0.8842821782178217,
+     "n": 408,
+     "observed_agreement": 0.946078431372549
+    },
+    "purpose": {
+     "ci95": [
+      0.7626947198057858,
+      0.8697231350531511
+     ],
+     "kappa": 0.8179073522269331,
+     "n": 408,
+     "observed_agreement": 0.9166666666666666
+    }
+   },
+   "R1": {
+    "call_to_action": {
+     "ci95": [
+      0.8423590504451038,
+      0.9365133254116449
+     ],
+     "kappa": 0.8904063109678515,
+     "n": 408,
+     "observed_agreement": 0.9534313725490197
+    },
+    "conj": {
+     "ci95": [
+      0.8596259444283886,
+      0.9478082892717038
+     ],
+     "kappa": 0.906139468008627,
+     "n": 408,
+     "observed_agreement": 0.9607843137254902
+    },
+    "destination": {
+     "ci95": [
+      0.8461411551197897,
+      0.9284963196635121
+     ],
+     "kappa": 0.8885412010132617,
+     "n": 408,
+     "observed_agreement": 0.946078431372549
+    },
+    "purpose": {
+     "ci95": [
+      0.7945520813351238,
+      0.8928571428571428
+     ],
+     "kappa": 0.845852322368887,
+     "n": 408,
+     "observed_agreement": 0.9215686274509803
+    }
+   },
+   "R3": {
+    "call_to_action": {
+     "ci95": [
+      0.6420334904241453,
+      0.773635153129161
+     ],
+     "kappa": 0.7093795314050219,
+     "n": 408,
+     "observed_agreement": 0.8627450980392157
+    },
+    "conj": {
+     "ci95": [
+      0.6244144585052087,
+      0.7564457540579672
+     ],
+     "kappa": 0.6920636545054495,
+     "n": 408,
+     "observed_agreement": 0.8553921568627451
+    },
+    "destination": {
+     "ci95": [
+      0.6880457426532511,
+      0.8056573354829254
+     ],
+     "kappa": 0.7489784546805349,
+     "n": 408,
+     "observed_agreement": 0.8700980392156863
+    },
+    "purpose": {
+     "ci95": [
+      0.6042412282168779,
+      0.7293996569468266
+     ],
+     "kappa": 0.6658064226565831,
+     "n": 408,
+     "observed_agreement": 0.821078431372549
+    }
+   },
+   "majority": {
+    "call_to_action": {
+     "ci95": [
+      0.8994904902053862,
+      0.9735681352885368
+     ],
+     "kappa": 0.9383061383061383,
+     "n": 397,
+     "observed_agreement": 0.9748110831234257
+    },
+    "conj": {
+     "ci95": [
+      0.8588374851720046,
+      0.9479252347051649
+     ],
+     "kappa": 0.9061570087546541,
+     "n": 408,
+     "observed_agreement": 0.9607843137254902
+    },
+    "destination": {
+     "ci95": [
+      0.8664417695315494,
+      0.9509835799057065
+     ],
+     "kappa": 0.9095313741064337,
+     "n": 402,
+     "observed_agreement": 0.9577114427860697
+    },
+    "purpose": {
+     "ci95": [
+      0.827964997207224,
+      0.9224026440580544
+     ],
+     "kappa": 0.8764849471114727,
+     "n": 396,
+     "observed_agreement": 0.9419191919191919
+    }
+   }
+  }
+ },
+ "A2_author_vs_majority": {
+  "AW": {
+   "author_matches_majority": 390,
+   "detector_matches_majority": 390,
+   "rows_with_majority_conjunction": 393
+  }
+ },
+ "R1_pairs": {
+  "R2-R3": {
+   "P1_conjunction": {
+    "agreed_rows": 345,
+    "estimates": {
+     "f1": {
+      "ci95": [
+       0.9977116704805492,
+       0.9977116704805492
+      ],
+      "point": 0.9977116704805492
+     },
+     "precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "point": 1.0
+     },
+     "recall": {
+      "ci95": [
+       0.995433789954338,
+       0.995433789954338
+      ],
+      "point": 0.995433789954338
+     },
+     "strata_used": 46,
+     "strata_without_agreed_rows": 2
+    },
+    "excluded": {
+     "disagreed": 30,
+     "unresolved": 33
+    },
+    "excluded_flagged": 10,
+    "sampled_confusion": {
+     "FN": 1,
+     "FP": 0,
+     "TN": 249,
+     "TP": 95
+    },
+    "upper_bound_disagreeing_flagged": {
+     "flagged_population": 872,
+     "ignorability": {
+      "k_max": 55,
+      "theta": 0.06307339449541284
+     },
+     "worst_case": {
+      "k_max": 234,
+      "theta": 0.268348623853211
+     }
+    }
+   },
+   "P2_purpose": {
+    "agreed_rows": 326,
+    "estimates": {
+     "f1": {
+      "ci95": [
+       0.9897843359818388,
+       0.99505515405097
+      ],
+      "point": 0.992412746585736
+     },
+     "precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "point": 1.0
+     },
+     "recall": {
+      "ci95": [
+       0.9797752808988764,
+       0.9901589704769115
+      ],
+      "point": 0.9849397590361446
+     },
+     "strata_used": 46,
+     "strata_without_agreed_rows": 2
+    },
+    "excluded": {
+     "disagreed": 19,
+     "unresolved": 63
+    },
+    "excluded_flagged": 11,
+    "sampled_confusion": {
+     "FN": 3,
+     "FP": 0,
+     "TN": 229,
+     "TP": 94
+    },
+    "upper_bound_disagreeing_flagged": {
+     "flagged_population": 872,
+     "ignorability": {
+      "k_max": 54,
+      "theta": 0.06192660550458716
+     },
+     "worst_case": {
+      "k_max": 245,
+      "theta": 0.2809633027522936
+     }
+    }
+   },
+   "kappa": {
+    "call_to_action": {
+     "ci95": [
+      0.6103739445114595,
+      0.7488289927999785
+     ],
+     "kappa": 0.6812749003984062,
+     "n": 408,
+     "observed_agreement": 0.8529411764705882
+    },
+    "conj": {
+     "ci95": [
+      0.5941573739594787,
+      0.734781278678495
+     ],
+     "kappa": 0.6662251655629139,
+     "n": 408,
+     "observed_agreement": 0.8455882352941176
+    },
+    "destination": {
+     "ci95": [
+      0.7181294042280589,
+      0.83010028802443
+     ],
+     "kappa": 0.7778100493755444,
+     "n": 408,
+     "observed_agreement": 0.8897058823529411
+    },
+    "purpose": {
+     "ci95": [
+      0.5554930765445983,
+      0.6823521329944358
+     ],
+     "kappa": 0.6193763556218952,
+     "n": 408,
+     "observed_agreement": 0.803921568627451
+    }
+   }
+  },
+  "R1-R2": {
+   "P1_conjunction": {
+    "agreed_rows": 386,
+    "estimates": {
+     "f1": {
+      "ci95": [
+       0.9945255474452555,
+       1.0
+      ],
+      "point": 0.9972552607502287
+     },
+     "precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "point": 1.0
+     },
+     "recall": {
+      "ci95": [
+       0.9891107078039927,
+       1.0
+      ],
+      "point": 0.9945255474452556
+     },
+     "strata_used": 47,
+     "strata_without_agreed_rows": 1
+    },
+    "excluded": {
+     "disagreed": 9,
+     "unresolved": 13
+    },
+    "excluded_flagged": 6,
+    "sampled_confusion": {
+     "FN": 2,
+     "FP": 0,
+     "TN": 285,
+     "TP": 99
+    },
+    "upper_bound_disagreeing_flagged": {
+     "flagged_population": 872,
+     "ignorability": {
+      "k_max": 53,
+      "theta": 0.06077981651376147
+     },
+     "worst_case": {
+      "k_max": 174,
+      "theta": 0.19954128440366972
+     }
+    }
+   },
+   "P2_purpose": {
+    "agreed_rows": 354,
+    "estimates": {
+     "f1": {
+      "ci95": [
+       0.9946768060836502,
+       1.0
+      ],
+      "point": 0.9973313000381244
+     },
+     "precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "point": 1.0
+     },
+     "recall": {
+      "ci95": [
+       0.9894099848714069,
+       1.0
+      ],
+      "point": 0.9946768060836503
+     },
+     "strata_used": 43,
+     "strata_without_agreed_rows": 5
+    },
+    "excluded": {
+     "disagreed": 5,
+     "unresolved": 49
+    },
+    "excluded_flagged": 6,
+    "sampled_confusion": {
+     "FN": 1,
+     "FP": 0,
+     "TN": 254,
+     "TP": 99
+    },
+    "upper_bound_disagreeing_flagged": {
+     "flagged_population": 872,
+     "ignorability": {
+      "k_max": 53,
+      "theta": 0.06077981651376147
+     },
+     "worst_case": {
+      "k_max": 171,
+      "theta": 0.19610091743119265
+     }
+    }
+   },
+   "kappa": {
+    "call_to_action": {
+     "ci95": [
+      0.8072319516189997,
+      0.914608622854751
+     ],
+     "kappa": 0.8626865671641791,
+     "n": 408,
+     "observed_agreement": 0.9436274509803921
+    },
+    "conj": {
+     "ci95": [
+      0.8123943160580261,
+      0.9195141540672689
+     ],
+     "kappa": 0.8680659670164916,
+     "n": 408,
+     "observed_agreement": 0.946078431372549
+    },
+    "destination": {
+     "ci95": [
+      0.8320469280642172,
+      0.9268534863195057
+     ],
+     "kappa": 0.8823529411764705,
+     "n": 408,
+     "observed_agreement": 0.946078431372549
+    },
+    "purpose": {
+     "ci95": [
+      0.7123113806233252,
+      0.8281092012133467
+     ],
+     "kappa": 0.7722903669895446,
+     "n": 408,
+     "observed_agreement": 0.8897058823529411
+    }
+   }
+  },
+  "R1-R3": {
+   "P1_conjunction": {
+    "agreed_rows": 350,
+    "estimates": {
+     "f1": {
+      "ci95": [
+       0.992412746585736,
+       0.9977116704805492
+      ],
+      "point": 0.99505515405097
+     },
+     "precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "point": 1.0
+     },
+     "recall": {
+      "ci95": [
+       0.9849397590361445,
+       0.995433789954338
+      ],
+      "point": 0.9901589704769115
+     },
+     "strata_used": 46,
+     "strata_without_agreed_rows": 2
+    },
+    "excluded": {
+     "disagreed": 16,
+     "unresolved": 42
+    },
+    "excluded_flagged": 5,
+    "sampled_confusion": {
+     "FN": 2,
+     "FP": 0,
+     "TN": 248,
+     "TP": 100
+    },
+    "upper_bound_disagreeing_flagged": {
+     "flagged_population": 872,
+     "ignorability": {
+      "k_max": 53,
+      "theta": 0.06077981651376147
+     },
+     "worst_case": {
+      "k_max": 149,
+      "theta": 0.17087155963302753
+     }
+    }
+   },
+   "P2_purpose": {
+    "agreed_rows": 320,
+    "estimates": {
+     "f1": {
+      "ci95": [
+       0.9897843359818388,
+       0.99505515405097
+      ],
+      "point": 0.992412746585736
+     },
+     "precision": {
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "point": 1.0
+     },
+     "recall": {
+      "ci95": [
+       0.9797752808988764,
+       0.9901589704769115
+      ],
+      "point": 0.9849397590361446
+     },
+     "strata_used": 41,
+     "strata_without_agreed_rows": 7
+    },
+    "excluded": {
+     "disagreed": 4,
+     "unresolved": 84
+    },
+    "excluded_flagged": 6,
+    "sampled_confusion": {
+     "FN": 3,
+     "FP": 0,
+     "TN": 218,
+     "TP": 99
+    },
+    "upper_bound_disagreeing_flagged": {
+     "flagged_population": 872,
+     "ignorability": {
+      "k_max": 51,
+      "theta": 0.058486238532110095
+     },
+     "worst_case": {
+      "k_max": 165,
+      "theta": 0.18922018348623854
+     }
+    }
+   },
+   "kappa": {
+    "call_to_action": {
+     "ci95": [
+      0.6848871393691763,
+      0.8079173560389007
+     ],
+     "kappa": 0.7476808905380333,
+     "n": 408,
+     "observed_agreement": 0.8774509803921569
+    },
+    "conj": {
+     "ci95": [
+      0.6645176666865282,
+      0.7872488354307168
+     ],
+     "kappa": 0.7275290625772941,
+     "n": 408,
+     "observed_agreement": 0.8676470588235294
+    },
+    "destination": {
+     "ci95": [
+      0.6848093264976473,
+      0.8020306415808436
+     ],
+     "kappa": 0.7466788500738033,
+     "n": 408,
+     "observed_agreement": 0.8700980392156863
+    },
+    "purpose": {
+     "ci95": [
+      0.6039708802117802,
+      0.7277569808077267
+     ],
+     "kappa": 0.66728280961183,
+     "n": 408,
+     "observed_agreement": 0.8161764705882353
+    }
+   }
+  }
+ },
+ "R2_fleiss": {
+  "call_to_action": {
+   "chance_agreement": 0.549960752274766,
+   "kappa": 0.7585541010741016,
+   "n": 408,
+   "observed_agreement": 0.8913398692810458
+  },
+  "conj": {
+   "chance_agreement": 0.5499861164509376,
+   "kappa": 0.7476475823197868,
+   "n": 408,
+   "observed_agreement": 0.8864379084967322
+  },
+  "destination": {
+   "chance_agreement": 0.5126567239096074,
+   "kappa": 0.7988292431717263,
+   "n": 408,
+   "observed_agreement": 0.9019607843137254
+  },
+  "purpose": {
+   "chance_agreement": 0.48568792985603826,
+   "kappa": 0.6822966010408414,
+   "n": 408,
+   "observed_agreement": 0.8366013071895422
+  }
+ },
+ "R3_majority": {
+  "P1_conjunction": {
+   "agreed_rows": 393,
+   "estimates": {
+    "f1": {
+     "ci95": [
+      0.9935434865172805,
+      0.9988545246277205
+     ],
+     "point": 0.9961919268849962
+    },
+    "precision": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "point": 1.0
+    },
+    "recall": {
+     "ci95": [
+      0.9871698113207547,
+      0.9977116704805492
+     ],
+     "point": 0.992412746585736
+    },
+    "strata_used": 47,
+    "strata_without_agreed_rows": 1
+   },
+   "excluded": {
+    "unresolved": 15
+   },
+   "excluded_flagged": 1,
+   "sampled_confusion": {
+    "FN": 3,
+    "FP": 0,
+    "TN": 286,
+    "TP": 104
+   },
+   "upper_bound_disagreeing_flagged": {
+    "flagged_population": 872,
+    "ignorability": {
+     "k_max": 50,
+     "theta": 0.05733944954128441
+    },
+    "worst_case": {
+     "k_max": 77,
+     "theta": 0.08830275229357798
+    }
+   }
+  },
+  "P2_purpose": {
+   "agreed_rows": 374,
+   "estimates": {
+    "f1": {
+     "ci95": [
+      0.9897843359818388,
+      0.9961160612291525
+     ],
+     "point": 0.9929401047597359
+    },
+    "precision": {
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "point": 1.0
+    },
+    "recall": {
+     "ci95": [
+      0.9797752808988764,
+      0.9922621756941284
+     ],
+     "point": 0.9859791949344189
+    },
+    "strata_used": 46,
+    "strata_without_agreed_rows": 2
+   },
+   "excluded": {
+    "unresolved": 34
+   },
+   "excluded_flagged": 1,
+   "sampled_confusion": {
+    "FN": 5,
+    "FP": 0,
+    "TN": 265,
+    "TP": 104
+   },
+   "upper_bound_disagreeing_flagged": {
+    "flagged_population": 872,
+    "ignorability": {
+     "k_max": 50,
+     "theta": 0.05733944954128441
+    },
+    "worst_case": {
+     "k_max": 77,
+     "theta": 0.08830275229357798
+    }
+   }
+  },
+  "rows_with_majority": {
+   "conj": 393,
+   "purpose": 374
+  }
+ },
+ "author_raters": [
+  "AW"
+ ],
+ "nonauthor_raters": [
+  "R1",
+  "R2",
+  "R3"
+ ],
+ "sheets": {
+  "R2": {
+   "path": "data/ratings_R2.csv",
+   "sha256": "f9f39cea211c0a7ae7e77103ac71bec1f5d42edda34fcbaa4210f1af9debb131"
+  },
+  "AW": {
+   "path": "data/ratings_AW.csv",
+   "sha256": "9f198f2cc838b7e539d67cb3309537b126e0abf3998f9700247d8706be4aeebd"
+  },
+  "R1": {
+   "path": "data/ratings_R1.csv",
+   "sha256": "65ac805bff5b6620c03064cfaf684521fc360cafeed61fd92753981f41190e62"
+  },
+  "R3": {
+   "path": "data/ratings_R3.csv",
+   "sha256": "4843b89a615f74fc9ab20ab652e2f93205ae28aa00acef721bf163b14d0f79d0"
+  }
+ }
+}

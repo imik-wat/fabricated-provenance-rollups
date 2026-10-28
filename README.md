@@ -112,5 +112,6 @@ unpacked archive.
 
 ## Citation and licence
 
-Cite the paper. The archived release has DOI `[to be minted on release]`. Code and data are under the
-MIT licence (`LICENSE`).
+Cite the paper. Each GitHub release of this repository is archived on Zenodo, which assigns it a
+DOI; the paper gives the DOI of the release it cites. Code and data are under the MIT licence
+(`LICENSE`).

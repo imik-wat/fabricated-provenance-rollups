@@ -9,8 +9,8 @@
    "sha256": "2b76cb75d699ba7da4745de37f626a7b9bd0ffde9f42ba32866a3646c58894a6"
   },
   "README.md": {
-   "bytes": 6547,
-   "sha256": "e3ea04a67f9a0e0140722b10623d55d16ee7ad82e29fd18de8f00cd0e1d732aa"
+   "bytes": 6624,
+   "sha256": "8518c750286ffdcc144c097f7ad51a282bfd91a9989997baa12bc9b7713aa4a5"
   },
   "analysis/config/contract_code.json": {
    "bytes": 567100,
@@ -1142,7 +1142,7 @@
   "token_volumes",
   "unresolved_profile"
  ],
- "source_commit": "631a61bceeaedfaaf11d5ce1f2fb8ae49b321878",
+ "source_commit": "3a1eef0376a94c2f8d23f18e4dfb10dfb6c6a88e",
  "src_modules": [
   "codemeta",
   "confusables",

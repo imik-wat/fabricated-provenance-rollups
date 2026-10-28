@@ -9,8 +9,8 @@
    "sha256": "2b76cb75d699ba7da4745de37f626a7b9bd0ffde9f42ba32866a3646c58894a6"
   },
   "README.md": {
-   "bytes": 6805,
-   "sha256": "12d07dcc89f907032ba91d93ad4bf841143b103352b65bf76c10bc6ab98dce97"
+   "bytes": 6947,
+   "sha256": "19cef09fff92b7c708841b288d916a5d6bc6b8e5611d826f0903cdf96772f95d"
   },
   "analysis/config/contract_code.json": {
    "bytes": 567100,
@@ -781,12 +781,12 @@
    "sha256": "77112cf0cb9184dd887b6ae494bb193e0b844b1f1b87b34d8a1193a11dddbeaf"
   },
   "papers/lure-broadcast/results/systems.json": {
-   "bytes": 2571,
-   "sha256": "d766b88291308a07441809f4fec5f75436d0d36216943cf16a59cc85596e6021"
+   "bytes": 2759,
+   "sha256": "83e3a74be7966002fb765b62c60e026952dea0439207de3f707be88f2c1dd186"
   },
   "papers/lure-broadcast/results/systems.manifest.json": {
-   "bytes": 401,
-   "sha256": "a5a15871e495517037dc9107bfd8284e6f00132978ebc7892f4b40474c0050ad"
+   "bytes": 93,
+   "sha256": "1663f9582b5c7875bd533755f995728c4f71e673e5fe92c12fb014744eb955b1"
   },
   "papers/lure-broadcast/results/tail_sample_arbitrum-one.json": {
    "bytes": 11054,
@@ -985,8 +985,8 @@
    "sha256": "fc9d58858bd0b78883a66d967240a2b196b0789b113dcb25fb0001eaebc48254"
   },
   "papers/lure-broadcast/scripts/make_macros.py": {
-   "bytes": 72935,
-   "sha256": "be6af06a5ef5ae4468a6dfca15babec784e7b9271c9f32875ac3e2d0165cb1f8"
+   "bytes": 73214,
+   "sha256": "ccb5caed79756eb8cfe5fce1bcd66fd77b68c3ed16c687089503d543a01983ac"
   },
   "papers/lure-broadcast/scripts/make_macros_r1.py": {
    "bytes": 33574,
@@ -1065,8 +1065,8 @@
    "sha256": "778ea543a3dc7a28c77df66248e97ea47d26dfeb34e3ed4129cc10bc97611755"
   },
   "papers/lure-broadcast/scripts/systems_report.py": {
-   "bytes": 10261,
-   "sha256": "3a51905f2b4a69c2ea573f0556bcdfe935a2c192c0ae794cc6e42a94b2641718"
+   "bytes": 11025,
+   "sha256": "b287bbacbc49b52d31285b88835d2cb14dd9c5fa97d2561aab479ab396782f0f"
   },
   "papers/lure-broadcast/scripts/tail_sample.py": {
    "bytes": 11087,
@@ -1142,7 +1142,7 @@
   "token_volumes",
   "unresolved_profile"
  ],
- "source_commit": "58e06b49385a43e6a6389b2bf26d096522d4f427",
+ "source_commit": "a1f42ebcb7f59733abe37c089f2fd7fa63080e40",
  "src_modules": [
   "codemeta",
   "confusables",

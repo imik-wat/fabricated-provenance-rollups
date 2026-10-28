@@ -77,19 +77,24 @@ FS_TEX = {"exfat": "exFAT", "apfs": "APFS", "hfs": "HFS+", "msdos": "FAT32"}
 
 
 def storage_phrase(st: object) -> str:
-    """Prose for the volume the corpus is read from, given systems.json's environment.storage.
+    """Prose for the storage the published scans read, given systems.json's environment.storage.
 
-    RAISES when the record does not say whether the volume is internal or what filesystem it holds:
-    a typed fallback is how "internal NVMe" reached the manuscript for a corpus on an external USB
-    drive. Pure.
+    RAISES when the record does not say whether that storage was internal and what it was: a typed
+    fallback, or the drive detected at report time, describes something other than the measurements
+    (the corpus was copied to an external drive after the scans). Pure.
     """
-    if not isinstance(st, dict) or not isinstance(st.get("internal"), bool) or not st.get("filesystem"):
-        raise SystemExit("systems.json does not describe the volume the corpus is read from "
-                         f"({st!r}); rerun systems_report.py on the machine that holds the corpus")
+    if not isinstance(st, dict) or not isinstance(st.get("internal"), bool):
+        raise SystemExit("systems.json does not describe the storage the published scans read "
+                         f"({st!r}); see systems_report.MEASUREMENT_STORAGE")
+    if st["internal"]:
+        if not st.get("medium"):
+            raise SystemExit(f"systems.json names internal storage without its medium ({st!r})")
+        return f"internal {st['medium']} storage"
+    if not st.get("filesystem"):
+        raise SystemExit(f"systems.json names external storage without its filesystem ({st!r})")
     fs = FS_TEX.get(str(st.get("filesystem_type")), st["filesystem"])
-    where = ("internal storage" if st["internal"]
-             else f"an external {st['bus']} drive" if st.get("bus") else "an external drive")
-    return f"{where} formatted {fs}"
+    return f"an external {st['bus']} drive formatted {fs}" if st.get("bus") else f"an external drive formatted {fs}"
+
 
 def git_commit() -> str:
     try:

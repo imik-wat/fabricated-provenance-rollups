@@ -16,6 +16,12 @@
   "python": "3.11.13",
   "scipy": "1.17.1",
   "storage": {
+   "filesystem": "APFS",
+   "internal": true,
+   "medium": "NVMe",
+   "source": "declared by the authors: the published scans predate the copy to external storage"
+  },
+  "storage_now": {
    "bus": "USB",
    "filesystem": "ExFAT",
    "filesystem_type": "exfat",
@@ -56,7 +62,7 @@
    "workers": 12
   },
   "polygon-zkevm": {
-   "metadata_seconds_per_contract": 0.1269,
+   "metadata_seconds_per_contract": 0.1071,
    "rows_per_second": 8837571.0,
    "rows_scanned": 18007594,
    "wall_seconds": 2.0,

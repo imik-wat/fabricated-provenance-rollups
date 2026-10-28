@@ -41,13 +41,25 @@ RAW = ROOT / "data" / "raw" / "hypersync"
 CHAINS = ["arbitrum-one", "base", "optimism", "polygon-zkevm", "zksync-era"]
 
 
-def storage(path: Path) -> dict | None:
-    """The volume `path` is read from, as the operating system reports it (macOS `diskutil`).
+#: Where the published scans read the corpus. DECLARED, not detected, because it cannot be detected
+#: now: the scans ran against the machine's internal NVMe storage (APFS), and the corpus was copied
+#: to an external drive afterwards to save space (the authors, 2026-10-28; the project's earlier
+#: home, /Users/Kamil/Projekty/Rollups_paper on the internal disk, survives in the virtual
+#: environment's interpreter path). Detecting the drive at report time described the copy, not the
+#: measurements, and briefly put "an external USB drive" into the manuscript.
+MEASUREMENT_STORAGE = {
+    "internal": True, "medium": "NVMe", "filesystem": "APFS",
+    "source": "declared by the authors: the published scans predate the copy to external storage",
+}
 
-    This was a typed string, "internal NVMe, APFS", until the 2026-10-28 re-run noticed that the
-    corpus is on an external USB drive formatted exFAT, where it has been throughout. Only what the
-    OS reports is recorded: `diskutil` cannot see whether a drive behind a USB bridge is solid-state,
-    so `solid_state` is whatever it says, None included, and nothing is inferred from a product name.
+
+def storage(path: Path) -> dict | None:
+    """The volume `path` is read from NOW, as the operating system reports it (macOS `diskutil`).
+
+    Recorded beside MEASUREMENT_STORAGE, never in its place: it describes where a re-run would read
+    the corpus, which is slower over USB than the internal NVMe the published scans used. Only what
+    the OS reports is recorded: `diskutil` cannot see whether a drive behind a USB bridge is
+    solid-state, so `solid_state` is whatever it says, None included.
 
     Returns None where `diskutil` is unavailable, like every other probe here.
     """
@@ -104,7 +116,8 @@ def environment() -> dict:
         "pyarrow": version("pyarrow"),
         "numpy": version("numpy"),
         "scipy": version("scipy"),
-        "storage": storage(RAW),
+        "storage": MEASUREMENT_STORAGE,
+        "storage_now": storage(RAW),
         "captured": "when this report is written; see environment() for what that licenses",
         "parquet_compression": "snappy",
         "worker_policy": ("at most 12 worker processes for corpus passes and at most 4 on zkSync, "

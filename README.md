@@ -69,8 +69,9 @@ What the first pass found:
   (`scripts/rpc_answers.py`). The committed artefacts came from runs that met no throttling, and the
   fixed probes reproduce them.
 - The performance record (`systems.json`) predated the last run of the scans it summarises. It was
-  rebuilt, which changed the reported throughput, and its storage description is now read from the
-  operating system.
+  rebuilt, which changed the reported throughput. The published scans read the corpus from internal
+  NVMe storage; it has since been copied to an external USB drive (`storage_now` in the record), so
+  re-run timings are not comparable with the published ones.
 - Recipient activity on Arbitrum One and Optimism gained a sampler check from a census produced
   later, and the Polygon zkEVM metadata sweep had a renamed key. These artefacts are their re-run
   outputs; every estimate is unchanged.

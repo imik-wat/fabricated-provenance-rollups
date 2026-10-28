@@ -1,16 +1,16 @@
 {
  "files": {
   "CITATION.cff": {
-   "bytes": 794,
-   "sha256": "ec701095d8d7106b9901e65ef7e4e0ab963cafab862e5b44d24faf40053b3747"
+   "bytes": 947,
+   "sha256": "3cdf284b3fa7ca35ac3dab22d301a9f3db285a356ee888ed4e16981793be8a94"
   },
   "LICENSE": {
    "bytes": 1096,
    "sha256": "2b76cb75d699ba7da4745de37f626a7b9bd0ffde9f42ba32866a3646c58894a6"
   },
   "README.md": {
-   "bytes": 6624,
-   "sha256": "8518c750286ffdcc144c097f7ad51a282bfd91a9989997baa12bc9b7713aa4a5"
+   "bytes": 6805,
+   "sha256": "12d07dcc89f907032ba91d93ad4bf841143b103352b65bf76c10bc6ab98dce97"
   },
   "analysis/config/contract_code.json": {
    "bytes": 567100,
@@ -1142,7 +1142,7 @@
   "token_volumes",
   "unresolved_profile"
  ],
- "source_commit": "3a1eef0376a94c2f8d23f18e4dfb10dfb6c6a88e",
+ "source_commit": "58e06b49385a43e6a6389b2bf26d096522d4f427",
  "src_modules": [
   "codemeta",
   "confusables",

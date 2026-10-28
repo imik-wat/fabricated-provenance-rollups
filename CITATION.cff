@@ -3,6 +3,10 @@ message: "If you use these artefacts, please cite the paper."
 title: "Fabricated Provenance in Token-Transfer Events: artefacts"
 type: software
 license: MIT
+version: "1.0.0"
+date-released: "2026-10-28"
+doi: "10.5281/zenodo.23722352"
+repository-code: "https://github.com/imik-wat/fabricated-provenance-rollups"
 authors:
   - family-names: "Kaczyński"
     given-names: "Kamil"
